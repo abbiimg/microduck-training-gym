@@ -1,0 +1,219 @@
+(footprint "C2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.457732 -0.145674 0)
+		(layer "F.SilkS")
+		(uuid "57223517-3fd9-466e-b6d6-fd3112018c6f")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "100nF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31f5e801-fe9a-4b77-8e86-89c2ff79205e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efab78f5-408b-4d75-aa9c-d71256349b48")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3eca5b38-e11e-4d7f-9770-295b88ddd761")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C1525"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ef619d0d-f0d3-405b-b3e4-3dbe5dec6d7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "CL05B104KO5NNNC"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e47af392-53a8-4032-bf79-f1931336604a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.873811 0.347269)
+		(end -0.873811 -0.345161)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "458c8079-6dcc-4095-89f0-b5a1350f04f6")
+	)
+	(fp_line
+		(start -0.721385 -0.49751)
+		(end -0.221386 -0.49751)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "874e7f24-fd1e-46be-95b4-6489c708f64b")
+	)
+	(fp_line
+		(start -0.221386 0.499618)
+		(end -0.721385 0.499618)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c578f96a-4400-4173-affc-92ecef6de0ba")
+	)
+	(fp_line
+		(start 0.221386 -0.499643)
+		(end 0.721385 -0.499643)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "734e844f-e269-4b98-a87d-71d74f74d4e8")
+	)
+	(fp_line
+		(start 0.721385 0.497535)
+		(end 0.221386 0.497535)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "df61281e-30af-476a-b306-eb5c794fd396")
+	)
+	(fp_line
+		(start 0.873811 -0.347243)
+		(end 0.873811 0.345161)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ca395406-6b17-458e-9c05-51e144067be4")
+	)
+	(fp_arc
+		(start -0.873785 -0.345161)
+		(mid -0.829148 -0.452924)
+		(end -0.721385 -0.497561)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a7c919ea-b957-434a-96fc-9f16890ee8c0")
+	)
+	(fp_arc
+		(start -0.721385 0.499643)
+		(mid -0.829148 0.455006)
+		(end -0.873785 0.347243)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "75d8e079-b9f1-4fa8-977f-cd56d1d24f11")
+	)
+	(fp_arc
+		(start 0.721385 -0.499643)
+		(mid 0.829148 -0.455006)
+		(end 0.873785 -0.347243)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1773b6f6-90b0-4380-a9f3-4f2340c68df3")
+	)
+	(fp_arc
+		(start 0.873785 0.345161)
+		(mid 0.829148 0.452924)
+		(end 0.721385 0.497561)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9fb1c840-ece0-4e8b-a269-58d7a90cd076")
+	)
+	(pad "1" smd custom
+		(at 0.420116 0)
+		(size 0.001 0.001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.249999 -0.270002) (xy -0.249999 0.270002) (xy 0.25 0.270002) (xy 0.25 -0.270002)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "8bfbe6bd-d25a-4b23-b3be-2a8a90212e7b")
+	)
+	(pad "2" smd custom
+		(at -0.420116 0)
+		(size 0.001 0.001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.25 -0.270002) (xy -0.25 0.270002) (xy 0.249999 0.270002) (xy 0.249999 -0.270002)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "392a8e40-3e21-4ba1-a564-9911033682bf")
+	)
+	(embedded_fonts no)
+)

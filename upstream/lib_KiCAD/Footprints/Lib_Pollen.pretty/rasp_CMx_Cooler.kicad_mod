@@ -1,0 +1,137 @@
+(footprint "rasp_CMx_Cooler"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 14.5 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e16ce1ec-57dd-4d96-b9a3-f1460353a560")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "rasp_CMx_Cooler"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1552bee4-cbf1-42bd-a6e7-8524143505a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd2ac273-6a5b-4305-ac1d-c769855ae0bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Raspberry PI Compute Module, 3d file only"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87c9be4c-93ae-4d51-a294-223243dc6efb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center -24 -16.5)
+		(end -23 -16.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "d8722cf1-808a-49f1-ab07-11cad492f768")
+	)
+	(fp_circle
+		(center -24 16.5)
+		(end -23 16.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "71d7d6cd-dab5-4371-b863-24546c02152f")
+	)
+	(fp_circle
+		(center 24 -16.5)
+		(end 25 -16.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "4c98673f-52c7-4384-9680-d414f8152f01")
+	)
+	(fp_circle
+		(center 24 16.5)
+		(end 25 16.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "7cb61f7c-a2df-4352-a6a4-8d4125f9e6dc")
+	)
+	(fp_text user "Cooler"
+		(at 12 -8.25 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "989b9afa-2d01-4c97-89c0-073f0a0f2b8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e9890906-be0a-4673-9175-706074a442a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMOD}/rasp_Cooler_RPI_CMx.step"
+		(offset
+			(xyz 0 0 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

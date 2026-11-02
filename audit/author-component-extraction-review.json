@@ -1,0 +1,79 @@
+{
+  "coordinate_frame": "author whole-PCB STEP world coordinates in millimetres, including exact XCAF placements; not local-origin footprint models",
+  "identity_basis": "exact unique reference assembly labels plus matching source model title; no geometry matching; source UUIDs absent from STEP",
+  "expected_component_instances": 62,
+  "recovered_component_instances": 61,
+  "step_files": 61,
+  "stl_files": 61,
+  "kicad_attachment_performed": false,
+  "kicad_placement_qualified": false,
+  "manufacturing_ready": false,
+  "boards": [
+    {
+      "candidate": "imu_to_dxl",
+      "expected_references": 29,
+      "recovered_references": 29,
+      "missing_references": [],
+      "component_solids": 123,
+      "all_exported_step_shapes_valid": true,
+      "max_step_roundtrip_bbox_error_mm": 3.375077994860476e-14,
+      "source_sha256_matches_original_review": true,
+      "all_generated_file_hashes_match_manifest": true,
+      "stl_binary_records_valid": true,
+      "stl_triangle_count": 429220,
+      "step_bytes": 49670381,
+      "stl_bytes": 21463436,
+      "manifest": "recovered\\author-step-components\\imu_to_dxl\\component-manifest.json"
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A",
+      "expected_references": 24,
+      "recovered_references": 23,
+      "missing_references": [
+        "J3"
+      ],
+      "component_solids": 83,
+      "all_exported_step_shapes_valid": true,
+      "max_step_roundtrip_bbox_error_mm": 1.4033219031261979e-13,
+      "source_sha256_matches_original_review": true,
+      "all_generated_file_hashes_match_manifest": true,
+      "stl_binary_records_valid": true,
+      "stl_triangle_count": 356886,
+      "step_bytes": 39872437,
+      "stl_bytes": 17846232,
+      "manifest": "recovered\\author-step-components\\imu_to_dxl_1V0A\\component-manifest.json"
+    },
+    {
+      "candidate": "POGO_PIN_1V0A",
+      "expected_references": 2,
+      "recovered_references": 2,
+      "missing_references": [],
+      "component_solids": 2,
+      "all_exported_step_shapes_valid": true,
+      "max_step_roundtrip_bbox_error_mm": 0.0,
+      "source_sha256_matches_original_review": true,
+      "all_generated_file_hashes_match_manifest": true,
+      "stl_binary_records_valid": true,
+      "stl_triangle_count": 40716,
+      "step_bytes": 3350027,
+      "stl_bytes": 2035968,
+      "manifest": "recovered\\author-step-components\\POGO_PIN_1V0A\\component-manifest.json"
+    },
+    {
+      "candidate": "wire_hub_1V0A",
+      "expected_references": 7,
+      "recovered_references": 7,
+      "missing_references": [],
+      "component_solids": 58,
+      "all_exported_step_shapes_valid": true,
+      "max_step_roundtrip_bbox_error_mm": 1.4077627952246985e-13,
+      "source_sha256_matches_original_review": true,
+      "all_generated_file_hashes_match_manifest": true,
+      "stl_binary_records_valid": true,
+      "stl_triangle_count": 271564,
+      "step_bytes": 11741619,
+      "stl_bytes": 13578788,
+      "manifest": "recovered\\author-step-components\\wire_hub_1V0A\\component-manifest.json"
+    }
+  ]
+}

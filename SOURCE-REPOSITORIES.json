@@ -1,0 +1,56 @@
+{
+  "snapshot_date": "2026-11-01",
+  "representation": "Selected plain-file snapshots from pinned sources. Unused vendor geometry and generated previews are deferred with per-file hashes; original histories remain at the recorded source URLs/commits.",
+  "repositories": [
+    {
+      "name": "microduck-replica",
+      "url": "https://github.com/fanhao375/microduck-replica.git",
+      "commit": "055ac7d17167db0670f42fdeaabfc21fc3022e4f",
+      "status": ""
+    },
+    {
+      "name": "microduck-replica-cad",
+      "url": "https://github.com/fanhao375/microduck-replica-cad.git",
+      "commit": "a3ac692b9e874a568b021a9191dcc9ba8c5cea9f",
+      "status": ""
+    },
+    {
+      "name": "microduck-step-reconstruction",
+      "url": "https://github.com/tianjin66/microduck-step-3d-models-ai-stl.git",
+      "commit": "bf96450c75e635efb993676fe90c6456fb8a00af",
+      "status": ""
+    },
+    {
+      "name": "elec_RPI_Robot_HAT",
+      "url": "https://github.com/pollen-robotics/elec_RPI_Robot_HAT.git",
+      "commit": "6de86283297e4c49a9da8312cd3395ab83c437e3",
+      "status": ""
+    },
+    {
+      "name": "lib_KiCAD",
+      "url": "https://github.com/pollen-robotics/lib_KiCAD.git",
+      "commit": "4eeeb76997b7cb2e75f60a9e952f959a951f8c43",
+      "status": ""
+    },
+    {
+      "name": "microduck",
+      "url": "https://github.com/pollen-robotics/microduck.git",
+      "commit": "96b89d8613f06722c1d64ce75ab0d7124fed9d8f",
+      "status": ""
+    },
+    {
+      "name": "microduck_rl",
+      "url": "https://github.com/pollen-robotics/microduck_rl.git",
+      "commit": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
+      "status": ""
+    }
+  ],
+  "licenses": {
+    "microduck_rl_code_and_MJCF": "Apache-2.0; see upstream LICENSE",
+    "microduck_rl_STL_and_mesh_derivatives": "Pollen Robotics CC BY-NC-SA 4.0; see LICENSE-MODELS.md",
+    "Robot_HAT": "Apache-2.0; see upstream LICENSE",
+    "lib_KiCAD": "No top-level license located during audit; preserve provenance and verify terms before redistribution.",
+    "NVIDIA_USD": "Official Isaac Sim asset source; vendor asset terms apply, not automatically the Pollen mesh license."
+  },
+  "deferred_assets": "DEFERRED-ASSETS.json"
+}

@@ -1,0 +1,4 @@
+Renode v1.17.0
+  build: 1.17.0+20260906gitf1dd1b4af
+  build type: Release
+  runtime: .NET 8.0.16

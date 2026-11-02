@@ -1,0 +1,110 @@
+{
+  "candidate": "POGO_PIN_1V0A",
+  "parent_board": "editing/kicad-source-rules-projected/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_pcb",
+  "parent_sha256": "ffe69cc5eb0270b1a8386b12955db0ea714be2ae846a9384e50c1bade7c54dfe",
+  "engineering_board_sha256": "a5e09109ac9c26e054e94f99b6b57f789221cbe885ef27ace507b30b678f1036",
+  "source_evidence": "audit/pogo-copper-ring-review.json",
+  "reclassified_arcs": [
+    {
+      "parent_track_uuid": "4c0a7f96-73a2-419a-b0cd-590c67de5a73",
+      "graphic_uuid": "6e95b4f3-483a-4e73-9875-de347cbba952",
+      "geometry": [
+        [
+          75532999,
+          -9789000
+        ],
+        [
+          76401288,
+          -10638804
+        ],
+        [
+          77233000,
+          -9789000
+        ],
+        100000,
+        0,
+        "/GND"
+      ],
+      "source_class": "unnamed-net F.Cu POLY NORMAL circle; two arcs per circle",
+      "native_net_assignment": "derived from recovered connectivity, not an explicit source POLY label"
+    },
+    {
+      "parent_track_uuid": "e10def09-0d2d-4716-af4b-d2be52985d85",
+      "graphic_uuid": "d0423979-cce8-4959-a5d5-fcc844a76472",
+      "geometry": [
+        [
+          77233000,
+          -9789000
+        ],
+        [
+          76364711,
+          -8939196
+        ],
+        [
+          75532999,
+          -9789000
+        ],
+        100000,
+        0,
+        "/GND"
+      ],
+      "source_class": "unnamed-net F.Cu POLY NORMAL circle; two arcs per circle",
+      "native_net_assignment": "derived from recovered connectivity, not an explicit source POLY label"
+    },
+    {
+      "parent_track_uuid": "44c44e19-ab86-4e73-b4e8-a72b6376f0a2",
+      "graphic_uuid": "5ffd5be8-bd5f-4ce0-b5c0-01eb56ae0e33",
+      "geometry": [
+        [
+          111033001,
+          -9789000
+        ],
+        [
+          110164713,
+          -8939197
+        ],
+        [
+          109333002,
+          -9789000
+        ],
+        100000,
+        0,
+        "/Battery"
+      ],
+      "source_class": "unnamed-net F.Cu POLY NORMAL circle; two arcs per circle",
+      "native_net_assignment": "derived from recovered connectivity, not an explicit source POLY label"
+    },
+    {
+      "parent_track_uuid": "91cd956c-7d74-42d1-ad1e-e1212742d661",
+      "graphic_uuid": "de0d1736-c0f6-4ffb-bd22-ae908282ecc7",
+      "geometry": [
+        [
+          109333002,
+          -9789000
+        ],
+        [
+          110201290,
+          -10638803
+        ],
+        [
+          111033001,
+          -9789000
+        ],
+        100000,
+        0,
+        "/Battery"
+      ],
+      "source_class": "unnamed-net F.Cu POLY NORMAL circle; two arcs per circle",
+      "native_net_assignment": "derived from recovered connectivity, not an explicit source POLY label"
+    }
+  ],
+  "physical_arc_geometry_unchanged": true,
+  "pads_and_trace_segments_unchanged": true,
+  "source_circles": 2,
+  "native_graphic_arcs": 4,
+  "native_track_segments": 5,
+  "schematic_parity": [],
+  "drc_counts": {},
+  "unconnected": 0,
+  "manufacturing_ready": false
+}

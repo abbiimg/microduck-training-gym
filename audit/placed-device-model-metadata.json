@@ -1,0 +1,580 @@
+[
+  {
+    "candidate": "imu_to_dxl",
+    "placed_device_models": [
+      {
+        "reference": "R6",
+        "device": "18c385468cb5b10f",
+        "metadata": {
+          "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "R0603",
+          "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "U2",
+        "device": "b3b1ce2c54098142",
+        "metadata": {
+          "3D Model": "64f32784a16f466f897e9e56b6bbdf45|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "LGA-14_L3.0-W2.5-P0.50-BR",
+          "3D Model Transform": "118.11,98.425,0,180,0,0,-0.001,0.004,0"
+        }
+      },
+      {
+        "reference": "C1",
+        "device": "b65cd20496340ccd",
+        "metadata": {
+          "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+          "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "J3",
+        "device": "400adc1edeeaf10d",
+        "metadata": {
+          "3D Model": "66a147c6933d4029b68665bbcd1e2924|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "HDR-TH_6P-P2.54-M-LI-1X6P",
+          "3D Model Transform": "590.1563,98.425,0,0,0,0,0,0,-118.11"
+        }
+      },
+      {
+        "reference": "R4",
+        "device": "4b3d5490bc3f432c",
+        "metadata": {
+          "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "R0603",
+          "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "D2",
+        "device": "ba32cf21cae8bfc5",
+        "metadata": {
+          "3D Model": "ad7e39f9e5534b3c96ffdc5532ebb493|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "SOD-123_L2.7-W1.6-H1.4-LS3.7",
+          "3D Model Transform": "146.026,62.992,0,180,0,0,0.0005,0,0"
+        }
+      },
+      {
+        "reference": "R5",
+        "device": "4b3d5490bc3f432c",
+        "metadata": {
+          "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "R0603",
+          "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "R1",
+        "device": "4b3d5490bc3f432c",
+        "metadata": {
+          "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "R0603",
+          "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "C4",
+        "device": "b65cd20496340ccd",
+        "metadata": {
+          "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+          "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "C3",
+        "device": "b65cd20496340ccd",
+        "metadata": {
+          "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+          "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "C5",
+        "device": "7da1d5e6b4fd0b56",
+        "metadata": {
+          "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+          "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "R2",
+        "device": "4b3d5490bc3f432c",
+        "metadata": {
+          "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "R0603",
+          "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "C2",
+        "device": "b65cd20496340ccd",
+        "metadata": {
+          "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+          "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "U1",
+        "device": "ad6ca39373669d12",
+        "metadata": {
+          "3D Model": "c491f68934b34c649df5890a1d97cd0f|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65",
+          "3D Model Transform": "251.969,255.906,0,90,0,0,0.0005,0,0"
+        }
+      },
+      {
+        "reference": "U3",
+        "device": "87c7f7f56ba5fdfd",
+        "metadata": {
+          "3D Model": "c85411b4a3544d83a02d075c4dadd21f|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL",
+          "3D Model Transform": "78.74,122.047,0,90,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "R7",
+        "device": "4b3d5490bc3f432c",
+        "metadata": {
+          "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "R0603",
+          "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "C9",
+        "device": "b65cd20496340ccd",
+        "metadata": {
+          "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+          "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "R3",
+        "device": "4cf24fec290408e6",
+        "metadata": {
+          "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "R0603",
+          "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "X1",
+        "device": "c8f49d8d8c179344",
+        "metadata": {
+          "3D Model": "ae22b8d143894765bc8100c37cb6356f|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "OSC-SMD_4P-L3.2-W2.5-H1.0",
+          "3D Model Transform": "125.984,98.425,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "J5",
+        "device": "a3a8cd982f923869",
+        "metadata": {
+          "3D Model": "ced3ec0dc43640d397bfdc45d14bee2a|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "CONN-TH_B3B-PH-K-S",
+          "3D Model Transform": "311.023,177.204,0,0,0,0,0,22.244,-133.858"
+        }
+      },
+      {
+        "reference": "F1",
+        "device": "4d8c3ba284861396",
+        "metadata": {
+          "3D Model": "f1628daad26847a79b887277a2bc8541|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "F1206_L3.2-W1.7-H0.6",
+          "3D Model Transform": "125.984,66.929,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "D1",
+        "device": "1e0b34c14b1e56e8",
+        "metadata": {
+          "3D Model": "86f9151e155e4fe2af0c4f2e0a80302e|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "SOD-123FL_L2.8-W1.8-H1.1-LS3.6",
+          "3D Model Transform": "141.732,70.866,0,180,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "C6",
+        "device": "b84c7bc3e440e699",
+        "metadata": {
+          "3D Model": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+          "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0"
+        }
+      },
+      {
+        "reference": "C8",
+        "device": "b65cd20496340ccd",
+        "metadata": {
+          "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+          "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "J1",
+        "device": "bf20c27661ca0094",
+        "metadata": {
+          "3D Model": "eb4de652aa64480a9db1bf18ae610871|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "CONN-TH_B3B-EH-A-LF-SN",
+          "3D Model Transform": "393.7,149.606,0,0,0,0,0,-11.811,-125.984"
+        }
+      },
+      {
+        "reference": "J4",
+        "device": "a3a8cd982f923869",
+        "metadata": {
+          "3D Model": "ced3ec0dc43640d397bfdc45d14bee2a|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "CONN-TH_B3B-PH-K-S",
+          "3D Model Transform": "311.023,177.204,0,0,0,0,0,22.244,-133.858"
+        }
+      },
+      {
+        "reference": "C7",
+        "device": "a057ead68faf6332",
+        "metadata": {
+          "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+          "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "U4",
+        "device": "8dba0c22ca471897",
+        "metadata": {
+          "3D Model": "6db690b7897d4d18a30d90c1b89525ee|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50",
+          "3D Model Transform": "161.417,169.291,0,180,0,0,-18.661,0,0"
+        }
+      },
+      {
+        "reference": "J2",
+        "device": "bf20c27661ca0094",
+        "metadata": {
+          "3D Model": "eb4de652aa64480a9db1bf18ae610871|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "CONN-TH_B3B-EH-A-LF-SN",
+          "3D Model Transform": "393.7,149.606,0,0,0,0,0,-11.811,-125.984"
+        }
+      }
+    ]
+  },
+  {
+    "candidate": "imu_to_dxl_1V0A",
+    "placed_device_models": [
+      {
+        "reference": "J2",
+        "device": "672ad920da8b2a59",
+        "metadata": {
+          "3D Model": "821f361f67d84e41a483b3c32f441adb|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF",
+          "3D Model Transform": "212.9917,169.291,0,0,0,0,-0.001,-2.596,0"
+        }
+      },
+      {
+        "reference": "C7",
+        "device": "a057ead68faf6332",
+        "metadata": {
+          "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+          "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "U1",
+        "device": "ad6ca39373669d12",
+        "metadata": {
+          "3D Model": "c491f68934b34c649df5890a1d97cd0f|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65",
+          "3D Model Transform": "251.969,255.906,0,90,0,0,0.0005,0,0"
+        }
+      },
+      {
+        "reference": "C4",
+        "device": "3d87eec74354ecb8",
+        "metadata": {
+          "3D Model": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+          "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "U2",
+        "device": "b3b1ce2c54098142",
+        "metadata": {
+          "3D Model": "64f32784a16f466f897e9e56b6bbdf45|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "LGA-14_L3.0-W2.5-P0.50-BR",
+          "3D Model Transform": "118.11,98.425,0,180,0,0,-0.001,0.004,0"
+        }
+      },
+      {
+        "reference": "R2",
+        "device": "c6fba1d8832f05c3",
+        "metadata": {
+          "3D Model": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+          "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "R1",
+        "device": "c6fba1d8832f05c3",
+        "metadata": {
+          "3D Model": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+          "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "R7",
+        "device": "c6fba1d8832f05c3",
+        "metadata": {
+          "3D Model": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+          "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "U3",
+        "device": "87c7f7f56ba5fdfd",
+        "metadata": {
+          "3D Model": "c85411b4a3544d83a02d075c4dadd21f|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL",
+          "3D Model Transform": "78.74,122.047,0,90,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "R5",
+        "device": "c6fba1d8832f05c3",
+        "metadata": {
+          "3D Model": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+          "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "C2",
+        "device": "3d87eec74354ecb8",
+        "metadata": {
+          "3D Model": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+          "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "U4",
+        "device": "8dba0c22ca471897",
+        "metadata": {
+          "3D Model": "6db690b7897d4d18a30d90c1b89525ee|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50",
+          "3D Model Transform": "161.417,169.291,0,180,0,0,-18.661,0,0"
+        }
+      },
+      {
+        "reference": "C3",
+        "device": "3d87eec74354ecb8",
+        "metadata": {
+          "3D Model": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+          "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "C5",
+        "device": "7da1d5e6b4fd0b56",
+        "metadata": {
+          "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+          "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "R4",
+        "device": "c6fba1d8832f05c3",
+        "metadata": {
+          "3D Model": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+          "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "D2",
+        "device": "ba32cf21cae8bfc5",
+        "metadata": {
+          "3D Model": "ad7e39f9e5534b3c96ffdc5532ebb493|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "SOD-123_L2.7-W1.6-H1.4-LS3.7",
+          "3D Model Transform": "146.026,62.992,0,180,0,0,0.0005,0,0"
+        }
+      },
+      {
+        "reference": "J1",
+        "device": "0e66af9a0bb2d3b8",
+        "metadata": {
+          "3D Model": "7576b685b3b842e1920e0f50f5ef1550|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "CONN-TH_A2007WR-3P",
+          "3D Model Transform": "313.38914,346.456,0,0,0,0,11.811,105.708,-125.984"
+        }
+      },
+      {
+        "reference": "D1",
+        "device": "1e0b34c14b1e56e8",
+        "metadata": {
+          "3D Model": "86f9151e155e4fe2af0c4f2e0a80302e|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "SOD-123FL_L2.8-W1.8-H1.1-LS3.6",
+          "3D Model Transform": "141.732,70.866,0,180,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "F1",
+        "device": "4d8c3ba284861396",
+        "metadata": {
+          "3D Model": "f1628daad26847a79b887277a2bc8541|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "F1206_L3.2-W1.7-H0.6",
+          "3D Model Transform": "125.984,66.929,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "C6",
+        "device": "b84c7bc3e440e699",
+        "metadata": {
+          "3D Model": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+          "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0"
+        }
+      },
+      {
+        "reference": "C8",
+        "device": "3d87eec74354ecb8",
+        "metadata": {
+          "3D Model": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+          "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "R6",
+        "device": "18c385468cb5b10f",
+        "metadata": {
+          "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "R0603",
+          "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "C1",
+        "device": "3d87eec74354ecb8",
+        "metadata": {
+          "3D Model": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+          "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0"
+        }
+      },
+      {
+        "reference": "J3",
+        "device": "400adc1edeeaf10d",
+        "metadata": {
+          "3D Model": "66a147c6933d4029b68665bbcd1e2924|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "HDR-TH_6P-P2.54-M-LI-1X6P",
+          "3D Model Transform": "590.1563,98.425,0,0,0,0,0,0,-118.11"
+        }
+      }
+    ]
+  },
+  {
+    "candidate": "POGO_PIN_1V0A",
+    "placed_device_models": [
+      {
+        "reference": "U1",
+        "device": "d95747ee7facf28d",
+        "metadata": {
+          "3D Model": "42f3a8a1e6a24de3b83c02c04481ebfb|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "SMD_BD3.0-D1.2-H9.5",
+          "3D Model Transform": "118.5035,118.044,0,0,0,0,0,0,-35.433"
+        }
+      },
+      {
+        "reference": "U2",
+        "device": "d95747ee7facf28d",
+        "metadata": {
+          "3D Model": "42f3a8a1e6a24de3b83c02c04481ebfb|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "SMD_BD3.0-D1.2-H9.5",
+          "3D Model Transform": "118.5035,118.044,0,0,0,0,0,0,-35.433"
+        }
+      }
+    ]
+  },
+  {
+    "candidate": "wire_hub_1V0A",
+    "placed_device_models": [
+      {
+        "reference": "J3",
+        "device": "cc7faf6dbc87269d",
+        "metadata": {
+          "3D Model": "7576b685b3b842e1920e0f50f5ef1550|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "CONN-TH_A2007WR-3P",
+          "3D Model Transform": "313.38914,346.456,0,0,0,0,11.811,105.708,-125.984"
+        }
+      },
+      {
+        "reference": "J4",
+        "device": "cc7faf6dbc87269d",
+        "metadata": {
+          "3D Model": "7576b685b3b842e1920e0f50f5ef1550|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "CONN-TH_A2007WR-3P",
+          "3D Model Transform": "313.38914,346.456,0,0,0,0,11.811,105.708,-125.984"
+        }
+      },
+      {
+        "reference": "J6",
+        "device": "004a2d0880e65fde",
+        "metadata": {
+          "3D Model": "deb6dd8d6be645a6b0b15d641ed56279|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "CONN-TH_A2007WV-3P",
+          "3D Model Transform": "314.96,141.732,0,0,0,0,0,7.52,-125.984"
+        }
+      },
+      {
+        "reference": "J2",
+        "device": "672ad920da8b2a59",
+        "metadata": {
+          "3D Model": "821f361f67d84e41a483b3c32f441adb|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF",
+          "3D Model Transform": "212.9917,169.291,0,0,0,0,-0.001,-2.596,0"
+        }
+      },
+      {
+        "reference": "J5",
+        "device": "004a2d0880e65fde",
+        "metadata": {
+          "3D Model": "deb6dd8d6be645a6b0b15d641ed56279|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "CONN-TH_A2007WV-3P",
+          "3D Model Transform": "314.96,141.732,0,0,0,0,0,7.52,-125.984"
+        }
+      },
+      {
+        "reference": "J1",
+        "device": "521662e26b28c811",
+        "metadata": {
+          "3D Model": "503e76cdc9f844a6b2306dd53d5ecc2a|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "CONN-SMD_3P-P1.20_HCTL_HC-1.2-3PWT",
+          "3D Model Transform": "216.535,177.165,0,0,0,0,0,-9.843,0"
+        }
+      },
+      {
+        "reference": "CN1",
+        "device": "bf9aeb7c425cdca8",
+        "metadata": {
+          "3D Model": "e364713d301b433da8ecef6fca46e972|0819f05c4eef4c71ace90d822a990e87",
+          "3D Model Title": "CONN-TH_DB125-2.54-2P-GN",
+          "3D Model Transform": "218.90114,248.031,0,0,0,0,0,-0.591,-137.795"
+        }
+      }
+    ]
+  }
+]

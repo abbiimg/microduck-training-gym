@@ -1,0 +1,176 @@
+(footprint "KW_DSLP31.CC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9281f92b-3fac-4238-bc54-e50c116d5a02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KW_DSLP31.CC"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0a9ef589-168d-4497-a156-5caba656ee53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa938a40-e59b-4507-8ad4-2f798e5f5abc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55ac512e-1d9b-49fd-b663-a3f30a6cf9f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -1.8)
+		(end -3.5 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5df95122-4180-4c3e-9969-b1dd2c0acc36")
+	)
+	(fp_line
+		(start -3.5 1.8)
+		(end -1.5 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "955e279f-f0bd-4881-b0bc-710dfe69af2d")
+	)
+	(fp_line
+		(start -1.5 -1.8)
+		(end -3.5 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b86a2ae1-9265-439e-b99a-be100de468f9")
+	)
+	(fp_line
+		(start -1.5 -1.8)
+		(end 1.5 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bffcea4a-d12a-4d6b-a52b-b8bfbd183c61")
+	)
+	(fp_line
+		(start -1.5 1.8)
+		(end 1.5 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e7cf80a0-7b32-4978-854d-cb17f4faa3c2")
+	)
+	(fp_rect
+		(start -3.4 -1.7)
+		(end 2.8 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a474ad4c-c9af-4ce2-a480-533a3f6a81d1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "da703c8b-775b-4518-99f4-ccf252f1e68d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -1.1 0.1)
+		(size 1.761882 2.422587)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -1.380941 -0.4)
+				(end -0.830941 0.4)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "fb197bbd-8e2e-467c-8f4a-f5670211e73d")
+	)
+	(pad "2" smd custom
+		(at 0.5 0.1)
+		(size 0.6 2.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start 0.25 -0.4)
+				(end 0.8 0.4)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "5955c62e-b8bb-4b58-bb69-a09790129bf7")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMOD}/KW_DSLP31_CC_20191212_geometry.STEP"
+		(offset
+			(xyz -0.58 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

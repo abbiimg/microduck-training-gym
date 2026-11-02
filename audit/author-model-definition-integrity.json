@@ -1,0 +1,16 @@
+{
+  "unique_model_ids_in_all_62_device_metadata": 22,
+  "all_metadata_model_ids_have_definition_asset": true,
+  "source_instances_checked": 61,
+  "definition_variants": 22,
+  "step_files": 22,
+  "stl_files": 22,
+  "all_file_hashes_match": true,
+  "all_stl_binary_record_lengths_valid": true,
+  "all_original_source_hashes_unchanged": true,
+  "all_pairs_within_each_metric_group_agree": true,
+  "max_within_group_pairwise_bbox_difference_mm": 0,
+  "max_within_group_pairwise_volume_difference_mm3": 0,
+  "full_brep_equivalence_proven": false,
+  "revised_imu_J3_placement_qualified": false
+}

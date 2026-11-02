@@ -1,0 +1,466 @@
+{
+  "scope": "Local caches, locks, preferences and the explicitly reviewed recoverable omissions in DEFERRED-ASSETS.json are excluded. Native robot CAD, current PCB projects/models, training assets and all known validation inputs are retained.",
+  "excluded": [
+    {
+      "path": "community/microduck-replica/.git/",
+      "reason": "nested Git metadata; source URL and commit preserved separately"
+    },
+    {
+      "path": "community/microduck-replica/tools/imu200/__pycache__/",
+      "reason": "generated Python bytecode cache"
+    },
+    {
+      "path": "community/microduck-replica/tools/servo-web/__pycache__/",
+      "reason": "generated Python bytecode cache"
+    },
+    {
+      "path": "community/microduck-replica-cad/.git/",
+      "reason": "nested Git metadata; source URL and commit preserved separately"
+    },
+    {
+      "path": "community/microduck-step-reconstruction/.git/",
+      "reason": "nested Git metadata; source URL and commit preserved separately"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$01-upper_leg_rigidity_plate_\u4e0a\u817f\u52a0\u56fa\u677f.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$01_\u8eaf\u5e72\u4e3b\u4f53.SLDASM",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$02_\u5de6\u9acbyaw-roll.SLDASM",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$03_\u5de6\u9acbroll.SLDASM",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$04_\u5de6\u5927\u817f.SLDASM",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$05_\u5de6\u5c0f\u817f.SLDASM",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$06_\u5de6\u8e1d\u811a.SLDASM",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$07_\u9888\u6839.SLDASM",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$08_\u9888\u4fef\u4ef0.SLDASM",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$09_\u5934yaw-roll.SLDASM",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$10_\u5934\u90e8\u603b\u6210.SLDASM",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$11_\u53f3\u9acbyaw-roll.SLDASM",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$12_\u53f3\u9acbroll.SLDASM",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$13_\u53f3\u5927\u817f.SLDASM",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$14_\u53f3\u5c0f\u817f.SLDASM",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$15_\u53f3\u8e1d\u811a.SLDASM",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$3D_PCB1_2026-09-08.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$M2\u94dc\u67f1.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$ankle_left_\u811a\u8e1d\u5de6.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$ankle_right\u811a\u8e1d\u53f3.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$banana_pcb_locker_\u9999\u8549\u5f62PCB\u9501\u6263.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$bearing_roll_\u8f74\u627f\u6eda\u8f6e.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$bottom_head_shell_\u5934\u90e8\u4e0b\u58f3.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$deep groove ball bearings gb.sldprt",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$elec_rpi_robot_hat_pcb_\u6811\u8393\u6d3e\u673a\u5668\u4ebaHAT\u7535\u8def\u677f.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$face_part_\u9762\u90e8\u96f6\u4ef6.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$foot_left_\u5de6\u811a.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$foot_right_\u53f3\u811a.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$hip_l_\u9acb\u90e8\u5de6.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$jaw_soft_\u8f6f\u4e0b\u5df4.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$jaw_\u4e0b\u5df4.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$left_shell_\u5de6\u58f3.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$left_upper_leg_\u5de6\u4e0a\u817f.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$leg_\u817f\u90e8.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$lens_\u955c\u5934.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$m12_lens_holder_M12\u955c\u5934\u5ea7.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$motor_support_\u7535\u673a\u652f\u67b6.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$neck_pitch_\u9888\u90e8\u4fef\u4ef0.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$neck_\u9888\u90e8.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$noenoeil_\u773c\u775b.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$np_f970_NPF970\u7535\u6c60.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$pcb__raspberry_pi_zero_2_w_\u6811\u8393\u6d3eZero2W\u7535\u8def\u677f.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$power_support_\u7535\u6e90\u652f\u67b6.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$right_shell_\u53f3\u58f3.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$right_upper_leg_\u53f3\u4e0a\u817f.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$soft_mouth_top_\u8f6f\u5634\u9876\u90e8.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$sole_left_\u5de6\u811a\u5e95.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$sole_right_\u53f3\u811a\u5e95.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$top_head_shell_\u5934\u90e8\u4e0a\u58f3.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$trunk_base_\u8eaf\u5e72\u5e95\u5ea7.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$xl330-m288-t1.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$xl330-m288-t2.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$yaw2roll_\u504f\u822a\u8f6c\u6a2a\u6eda.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$yaw_roll_motion_\u504f\u822a\u6a2a\u6eda\u8fd0\u52a8.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$\u8235\u673axl330-288.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/~$\u8f74\u627f16\u00d722\u00d74.SLDPRT",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "editing/kicad/Robot_HAT_reference/elec_RPI_Robot_HAT.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-cache-repaired/wire_hub_1V0A/wire_hub_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-copper-consolidated/imu_to_dxl/imu_to_dxl.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-copper-consolidated/imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-copper-consolidated/imu_to_dxl_1V0A-transition-hypothesis/imu_to_dxl_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-copper-consolidated/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-copper-consolidated/wire_hub_1V0A/wire_hub_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-engineering/wire_hub_1V0A/wire_hub_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-graphic-corrected/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-integrated/imu_to_dxl/imu_to_dxl.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-integrated/imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-integrated/imu_to_dxl_1V0A-transition-hypothesis/imu_to_dxl_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-integrated/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-integrated/wire_hub_1V0A/wire_hub_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-models-attached/imu_to_dxl/imu_to_dxl.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-models-attached/imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-models-attached/imu_to_dxl_1V0A-transition-hypothesis/imu_to_dxl_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-models-attached/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-models-attached/wire_hub_1V0A/wire_hub_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-paired/imu_to_dxl/imu_to_dxl.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-paired/imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-paired/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-paired/wire_hub_1V0A/wire_hub_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-routed/imu_to_dxl/imu_to_dxl.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-routed/imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-routed/imu_to_dxl_1V0A/~imu_to_dxl_1V0A.kicad_pro.lck",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "editing/kicad-routed/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-routed/wire_hub_1V0A/wire_hub_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-routed-transition-hypothesis/imu_to_dxl/imu_to_dxl.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-routed-transition-hypothesis/imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-routed-transition-hypothesis/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-routed-transition-hypothesis/wire_hub_1V0A/wire_hub_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-silkscreen-recovered/imu_to_dxl/imu_to_dxl.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-silkscreen-recovered/imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-silkscreen-recovered/imu_to_dxl_1V0A-transition-hypothesis/imu_to_dxl_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-silkscreen-recovered/imu_to_dxl_1V0A-transition-hypothesis/~imu_to_dxl_1V0A.kicad_pro.lck",
+      "reason": "transient editor lock"
+    },
+    {
+      "path": "editing/kicad-silkscreen-recovered/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-silkscreen-recovered/wire_hub_1V0A/wire_hub_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-source-clearances/imu_to_dxl/imu_to_dxl.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-source-clearances/imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-source-clearances/imu_to_dxl_1V0A-transition-hypothesis/imu_to_dxl_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-source-clearances/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-source-clearances/wire_hub_1V0A/wire_hub_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-source-rules-projected/imu_to_dxl/imu_to_dxl.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-source-rules-projected/imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-source-rules-projected/imu_to_dxl_1V0A-transition-hypothesis/imu_to_dxl_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-source-rules-projected/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "editing/kicad-source-rules-projected/wire_hub_1V0A/wire_hub_1V0A.kicad_prl",
+      "reason": "local KiCad UI preferences"
+    },
+    {
+      "path": "tools/__pycache__/",
+      "reason": "generated Python bytecode cache"
+    },
+    {
+      "path": "upstream/elec_RPI_Robot_HAT/.git/",
+      "reason": "nested Git metadata; source URL and commit preserved separately"
+    },
+    {
+      "path": "upstream/lib_KiCAD/.git/",
+      "reason": "nested Git metadata; source URL and commit preserved separately"
+    },
+    {
+      "path": "upstream/microduck/.git/",
+      "reason": "nested Git metadata; source URL and commit preserved separately"
+    },
+    {
+      "path": "upstream/microduck_rl/.git/",
+      "reason": "nested Git metadata; source URL and commit preserved separately"
+    },
+    {
+      "path": "skills/parametric-mechanical-design/scripts/__pycache__/",
+      "reason": "generated Python bytecode cache"
+    }
+  ],
+  "deferred_asset_manifest": "DEFERRED-ASSETS.json"
+}

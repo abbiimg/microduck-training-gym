@@ -1,0 +1,210 @@
+{
+  "sch_comps": 24,
+  "pcbs": [
+    {
+      "pcb": "imu_to_dxl_1V0_PCB",
+      "board": "imu_to_dxl_1V0",
+      "comps": 24,
+      "nets": 22,
+      "pads": 93,
+      "matched": 24,
+      "renamed": 0,
+      "only_sch": [],
+      "only_pcb": 0,
+      "rows": [
+        {
+          "uid": "gge23",
+          "pcb": "C1",
+          "sch": "C1",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "3d87eec74354ecb8"
+        },
+        {
+          "uid": "gge24",
+          "pcb": "C2",
+          "sch": "C2",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "3d87eec74354ecb8"
+        },
+        {
+          "uid": "gge25",
+          "pcb": "C3",
+          "sch": "C3",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "3d87eec74354ecb8"
+        },
+        {
+          "uid": "gge26",
+          "pcb": "C4",
+          "sch": "C4",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "3d87eec74354ecb8"
+        },
+        {
+          "uid": "gge19",
+          "pcb": "C5",
+          "sch": "C5",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "7da1d5e6b4fd0b56"
+        },
+        {
+          "uid": "gge4",
+          "pcb": "C6",
+          "sch": "C6",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "b84c7bc3e440e699"
+        },
+        {
+          "uid": "gge6",
+          "pcb": "C7",
+          "sch": "C7",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "a057ead68faf6332"
+        },
+        {
+          "uid": "gge27",
+          "pcb": "C8",
+          "sch": "C8",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "3d87eec74354ecb8"
+        },
+        {
+          "uid": "gge2",
+          "pcb": "D1",
+          "sch": "D1",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "1e0b34c14b1e56e8"
+        },
+        {
+          "uid": "gge34",
+          "pcb": "D2",
+          "sch": "D2",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "ba32cf21cae8bfc5"
+        },
+        {
+          "uid": "gge1",
+          "pcb": "F1",
+          "sch": "F1",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "4d8c3ba284861396"
+        },
+        {
+          "uid": "gge18_1",
+          "pcb": "J1",
+          "sch": "J1",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "0e66af9a0bb2d3b8"
+        },
+        {
+          "uid": "gge18",
+          "pcb": "J2",
+          "sch": "J2",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "672ad920da8b2a59"
+        },
+        {
+          "uid": "gge21",
+          "pcb": "J3",
+          "sch": "J3",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "400adc1edeeaf10d"
+        },
+        {
+          "uid": "gge29",
+          "pcb": "R1",
+          "sch": "R1",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "c6fba1d8832f05c3"
+        },
+        {
+          "uid": "gge30",
+          "pcb": "R2",
+          "sch": "R2",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "c6fba1d8832f05c3"
+        },
+        {
+          "uid": "gge31",
+          "pcb": "R4",
+          "sch": "R4",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "c6fba1d8832f05c3"
+        },
+        {
+          "uid": "gge32",
+          "pcb": "R5",
+          "sch": "R5",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "c6fba1d8832f05c3"
+        },
+        {
+          "uid": "gge22",
+          "pcb": "R6",
+          "sch": "R6",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "18c385468cb5b10f"
+        },
+        {
+          "uid": "gge35",
+          "pcb": "R7",
+          "sch": "R7",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "c6fba1d8832f05c3"
+        },
+        {
+          "uid": "gge7",
+          "pcb": "U1",
+          "sch": "U1",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "ad6ca39373669d12"
+        },
+        {
+          "uid": "gge11",
+          "pcb": "U2",
+          "sch": "U2",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "b3b1ce2c54098142"
+        },
+        {
+          "uid": "gge15",
+          "pcb": "U3",
+          "sch": "U3",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "87c7f7f56ba5fdfd"
+        },
+        {
+          "uid": "gge5",
+          "pcb": "U4",
+          "sch": "U4",
+          "page": "imu_to_dxl_1V0::IMU-MCU-PWR",
+          "status": "match",
+          "device": "8dba0c22ca471897"
+        }
+      ]
+    }
+  ]
+}

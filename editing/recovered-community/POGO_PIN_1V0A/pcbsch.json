@@ -1,0 +1,40 @@
+{
+  "sch_comps": 3,
+  "pcbs": [
+    {
+      "pcb": "POGP_PIN_1V0A_PCB",
+      "board": "POGP_PIN",
+      "comps": 2,
+      "nets": 2,
+      "pads": 4,
+      "matched": 2,
+      "renamed": 0,
+      "only_sch": [
+        {
+          "uid": "gge23",
+          "sch": "CN2",
+          "page": "POGP_PIN::POGOPIN"
+        }
+      ],
+      "only_pcb": 0,
+      "rows": [
+        {
+          "uid": "gge21",
+          "pcb": "U1",
+          "sch": "U1",
+          "page": "POGP_PIN::POGOPIN",
+          "status": "match",
+          "device": "d95747ee7facf28d"
+        },
+        {
+          "uid": "gge22",
+          "pcb": "U2",
+          "sch": "U2",
+          "page": "POGP_PIN::POGOPIN",
+          "status": "match",
+          "device": "d95747ee7facf28d"
+        }
+      ]
+    }
+  ]
+}

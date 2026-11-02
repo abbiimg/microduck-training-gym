@@ -1,0 +1,161 @@
+[
+  {
+    "candidate": "imu_to_dxl",
+    "step_board_label": "Board~ss66",
+    "step_board_solids": 1,
+    "source_canvas_origin_raw": [
+      0,
+      0
+    ],
+    "cached_BOARD_bounds_raw": [
+      0.5,
+      0.5,
+      1771.1535,
+      865.6417
+    ],
+    "cached_relative_mm_exact_mil": [
+      0.0127,
+      0.0127,
+      44.9872989,
+      21.98729918
+    ],
+    "cached_relative_mm_div39_37": [
+      0.012700025400050802,
+      0.012700025400050802,
+      44.98738887477775,
+      21.98734315468631
+    ],
+    "author_STEP_board_bounds_xy_mm": [
+      -0.03729997459995,
+      -0.037299974599951366,
+      45.037388874778,
+      22.711353822708
+    ],
+    "max_bbox_difference_exact_mm": 0.7240546427079977,
+    "max_bbox_difference_div39_37_mm": 0.7240106680216876
+  },
+  {
+    "candidate": "imu_to_dxl_1V0A",
+    "step_board_label": "Board~3kha",
+    "step_board_solids": 5,
+    "source_canvas_origin_raw": [
+      455,
+      -15
+    ],
+    "cached_BOARD_bounds_raw": [
+      456.2087,
+      -15.3268,
+      1522.1378,
+      1172.6496
+    ],
+    "cached_relative_mm_exact_mil": [
+      0.030700980000000547,
+      -0.00830072000000001,
+      27.10530012,
+      30.166299839999997
+    ],
+    "cached_relative_mm_div39_37": [
+      0.030701041402083355,
+      -0.008300736601473215,
+      27.105354330708664,
+      30.166360172720346
+    ],
+    "author_STEP_board_bounds_xy_mm": [
+      -0.019298958597999905,
+      -0.05830073660199997,
+      27.155354330709,
+      30.21636017272
+    ],
+    "max_bbox_difference_exact_mm": 0.05006033272000465,
+    "max_bbox_difference_div39_37_mm": 0.050000000000526755
+  },
+  {
+    "candidate": "POGO_PIN_1V0A",
+    "step_board_label": "Board~l4fB",
+    "step_board_solids": 1,
+    "source_canvas_origin_raw": [
+      2898.5434,
+      226.3386
+    ],
+    "cached_BOARD_bounds_raw": [
+      2899.0434,
+      226.8386,
+      4440.9567,
+      493.1614
+    ],
+    "cached_relative_mm_exact_mil": [
+      0.0127,
+      0.0127,
+      39.17729781999999,
+      6.77729912
+    ],
+    "cached_relative_mm_div39_37": [
+      0.012700025400050802,
+      0.012700025400050802,
+      39.17737617475235,
+      6.7773126746253505
+    ],
+    "author_STEP_board_bounds_xy_mm": [
+      0.01270002540005,
+      0.012700025400049775,
+      39.177376174752,
+      6.777312674625
+    ],
+    "max_bbox_difference_exact_mm": 7.835475200579367e-05,
+    "max_bbox_difference_div39_37_mm": 3.5083047578154947e-13,
+    "raw_centerline_bounds": [
+      2898.5434,
+      226.3386,
+      4441.4567,
+      493.6614
+    ],
+    "raw_outline_width_mil": 3.937,
+    "cache_inset_mil": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "half_stroke_mm": 0.04999989999999999,
+    "observed_cache_inset_mm": 0.0127,
+    "raw_centerline_dimensions_mm": [
+      39.18999781999999,
+      6.78999912
+    ]
+  },
+  {
+    "candidate": "wire_hub_1V0A",
+    "step_board_label": "Board~QOFv",
+    "step_board_solids": 1,
+    "source_canvas_origin_raw": [
+      1880,
+      -55
+    ],
+    "cached_BOARD_bounds_raw": [
+      1881.3267,
+      -55.0118,
+      2758.6733,
+      1055.0118
+    ],
+    "cached_relative_mm_exact_mil": [
+      0.03369818000000187,
+      -0.0002997200000000234,
+      22.31830182,
+      28.19429972
+    ],
+    "cached_relative_mm_div39_37": [
+      0.03369824739649666,
+      -0.0002997205994412223,
+      22.318346456692915,
+      28.19435610871222
+    ],
+    "author_STEP_board_bounds_xy_mm": [
+      0.03369827943107229,
+      -0.0002997205994464,
+      22.31834645669301,
+      28.19435610871292
+    ],
+    "max_bbox_difference_exact_mm": 5.638871292035219e-05,
+    "max_bbox_difference_div39_37_mm": 3.2034575624118045e-08
+  }
+]

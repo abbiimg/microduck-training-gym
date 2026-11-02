@@ -1,0 +1,165 @@
+{
+  "symbol_libraries": 23,
+  "cached_symbols_extracted": 51,
+  "symbol_cache_conflicts": [
+    "power:PWR_FLAG"
+  ],
+  "missing_footprints": [],
+  "missing_3d_models": [
+    "${KICAD10_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm.step"
+  ],
+  "model_paths": [
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_6.3x7.7.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/CP_Elec_6.3x7.7.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Diode_SMD.3dshapes/D_SOD-123.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Diode_SMD.3dshapes/D_SOD-323.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRN6045TA.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Inductor_SMD.3dshapes/L_Bourns_SRN6045TA.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Oscillator.3dshapes/Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm.step",
+      "exists": false
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RHB0032E_VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_DFN_QFN.3dshapes/Texas_RHB0032E_VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_LGA.3dshapes/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_SO.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-3.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-3.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/TSOT-23.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true
+    },
+    {
+      "reference": "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile.step",
+      "resolved": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile.step",
+      "exists": true
+    },
+    {
+      "reference": "${KIPRJMOD}/../../../upstream/lib_KiCAD/3d_models/rasp_pi_zero_2_W_with_40_pin_male_connector v4.step",
+      "resolved": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/3d_models/rasp_pi_zero_2_W_with_40_pin_male_connector v4.step",
+      "exists": true
+    },
+    {
+      "reference": "${KIPRJMOD}/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_DB125-2.54-2P-GN.step",
+      "resolved": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_DB125-2.54-2P-GN.step",
+      "exists": true
+    },
+    {
+      "reference": "${KIPRJMOD}/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/HDR-SMD_40P-P2.54-V-F-R2-C20-S6.6_FH-00339.step",
+      "resolved": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/HDR-SMD_40P-P2.54-V-F-R2-C20-S6.6_FH-00339.step",
+      "exists": true
+    },
+    {
+      "reference": "${KIPRJMOD}/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/MIC-SMD_4P-L2.8-W1.9-H1.0-P1.84-TL.step",
+      "resolved": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/MIC-SMD_4P-L2.8-W1.9-H1.0-P1.84-TL.step",
+      "exists": true
+    },
+    {
+      "reference": "${KIPRJMOD}/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/TDFN-8_L3.0-W2.0-H0.8-P0.50.step",
+      "resolved": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/TDFN-8_L3.0-W2.0-H0.8-P0.50.step",
+      "exists": true
+    }
+  ],
+  "board_identity": "Pollen RPI Robot HAT D1 reference; not established as exact alpha/production MicroDuck electronics",
+  "changes": "Working copy only: project library tables, cached symbol libraries, local 3D paths. Copper and schematic circuits preserved."
+}

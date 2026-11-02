@@ -1,0 +1,210 @@
+{
+  "native_version": "10.0.7, from native DRC JSON",
+  "probe_script": "work/clearance-probes/probe_native_rules.py",
+  "probe_script_sha256": "b436f3efdd18d4218c991453f15c37ddd74052de5a0d9d9cf5a571042b7450a0",
+  "canonical_boards_modified": false,
+  "cases": [
+    {
+      "case": "type_conditions",
+      "drc_counts": {
+        "assertion_failure": 11,
+        "copper_edge_clearance": 1,
+        "clearance": 1,
+        "silk_over_copper": 3,
+        "track_dangling": 5,
+        "via_dangling": 1,
+        "isolated_copper": 1
+      },
+      "assertion_counts_by_rule": {
+        "Type test Track": 5,
+        "Type test Graphic": 1,
+        "Type test Via": 1,
+        "Type test Zone": 1,
+        "Type test NPTH": 1,
+        "Type test PTH": 1,
+        "Type test SMD": 1
+      },
+      "clearance_descriptions": [
+        "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2000 mm)",
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)"
+      ]
+    },
+    {
+      "case": "no_custom",
+      "drc_counts": {
+        "copper_edge_clearance": 1,
+        "clearance": 3,
+        "silk_over_copper": 3,
+        "track_dangling": 5,
+        "via_dangling": 1,
+        "isolated_copper": 1
+      },
+      "assertion_counts_by_rule": {},
+      "clearance_descriptions": [
+        "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2000 mm)",
+        "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+        "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+        "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)"
+      ]
+    },
+    {
+      "case": "floor_02",
+      "drc_counts": {
+        "copper_edge_clearance": 1,
+        "clearance": 1,
+        "silk_over_copper": 3,
+        "track_dangling": 5,
+        "via_dangling": 1,
+        "isolated_copper": 1
+      },
+      "assertion_counts_by_rule": {},
+      "clearance_descriptions": [
+        "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2000 mm)",
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)"
+      ]
+    },
+    {
+      "case": "floor_005",
+      "drc_counts": {
+        "copper_edge_clearance": 1,
+        "clearance": 1,
+        "silk_over_copper": 3,
+        "track_dangling": 5,
+        "via_dangling": 1,
+        "isolated_copper": 1
+      },
+      "assertion_counts_by_rule": {},
+      "clearance_descriptions": [
+        "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2000 mm)",
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)"
+      ]
+    },
+    {
+      "case": "edge_hole_rules",
+      "drc_counts": {
+        "clearance": 1,
+        "hole_clearance": 1,
+        "silk_over_copper": 3,
+        "hole_to_hole": 1,
+        "track_dangling": 5,
+        "via_dangling": 1,
+        "isolated_copper": 1
+      },
+      "assertion_counts_by_rule": {},
+      "clearance_descriptions": [
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)",
+        "Hole clearance violation (rule 'Via to pad hole 0.5' clearance 0.5000 mm; actual 0.4000 mm)"
+      ]
+    },
+    {
+      "case": "layer_front_only",
+      "drc_counts": {
+        "copper_edge_clearance": 1,
+        "clearance": 2,
+        "silk_over_copper": 3,
+        "track_dangling": 5,
+        "via_dangling": 1,
+        "isolated_copper": 1
+      },
+      "assertion_counts_by_rule": {},
+      "clearance_descriptions": [
+        "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2000 mm)",
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)",
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)"
+      ]
+    },
+    {
+      "case": "hole_board_only",
+      "drc_counts": {
+        "copper_edge_clearance": 1,
+        "clearance": 1,
+        "hole_clearance": 1,
+        "silk_over_copper": 3,
+        "track_dangling": 5,
+        "via_dangling": 1,
+        "isolated_copper": 1
+      },
+      "assertion_counts_by_rule": {},
+      "clearance_descriptions": [
+        "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2000 mm)",
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)",
+        "Hole clearance violation (board setup constraints hole clearance 0.5000 mm; actual 0.4000 mm)"
+      ]
+    },
+    {
+      "case": "hole_lower_than_board",
+      "drc_counts": {
+        "copper_edge_clearance": 1,
+        "clearance": 1,
+        "silk_over_copper": 3,
+        "track_dangling": 5,
+        "via_dangling": 1,
+        "isolated_copper": 1
+      },
+      "assertion_counts_by_rule": {},
+      "clearance_descriptions": [
+        "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2000 mm)",
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)"
+      ]
+    }
+  ],
+  "source_SAFE_selector_review": [
+    {
+      "candidate": "imu_to_dxl",
+      "default_SAFE": "copperThickness1oz",
+      "mode": "ALL",
+      "stored_layers": [
+        1
+      ],
+      "stored_layer_tables_equal": true,
+      "SAFE_selector_overrides": 0,
+      "all_selector_rule_types": []
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A",
+      "default_SAFE": "copperThickness1oz",
+      "mode": "LAYERED",
+      "stored_layers": [
+        1,
+        2
+      ],
+      "stored_layer_tables_equal": true,
+      "SAFE_selector_overrides": 0,
+      "all_selector_rule_types": [
+        "COPPER"
+      ]
+    },
+    {
+      "candidate": "POGO_PIN_1V0A",
+      "default_SAFE": "copperThickness1oz",
+      "mode": "LAYERED",
+      "stored_layers": [
+        1,
+        2
+      ],
+      "stored_layer_tables_equal": true,
+      "SAFE_selector_overrides": 0,
+      "all_selector_rule_types": []
+    },
+    {
+      "candidate": "wire_hub_1V0A",
+      "default_SAFE": "copperThickness1oz",
+      "mode": "LAYERED",
+      "stored_layers": [
+        1,
+        2
+      ],
+      "stored_layer_tables_equal": true,
+      "SAFE_selector_overrides": 0,
+      "all_selector_rule_types": [
+        "COPPER"
+      ]
+    }
+  ],
+  "source_mapping_review": "Installed decoder ES class labels and getTable/getClearance semantics reviewed read-only; existing bundle hash in source-rule-review.json",
+  "limits": [
+    "Isolated syntax/constraint-resolution fixtures; not manufacturing acceptance.",
+    "Explicit custom clearances override higher Board Setup minima in tested KiCad 10.0.7, contrary to manual blanket wording.",
+    "Native scope/category ambiguities require conservative max or retained default, not silently choosing a lower value."
+  ]
+}

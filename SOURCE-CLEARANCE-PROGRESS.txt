@@ -1,0 +1,166 @@
+MicroDuck integrated ECAD and recovered component assets — 2026-10-26
+
+2026-10-27 update: MODEL-PLACEMENT-PROGRESS.txt is the newer entry point. It
+identifies separate KiCad projects with per-instance3D models and STEP/GLB/
+Blender review files, calibrated frame/pose checks, and a separate stale-cache
+hub repair. The no-attachment/metric-only status below describes the prior
+milestone; consult the newer numerical receipts and their explicit limits.
+
+Current working projects
+The most complete EDITING copies are under editing/kicad-integrated/:
+  imu_to_dxl/imu_to_dxl.kicad_pro
+  imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_pro
+  imu_to_dxl_1V0A-transition-hypothesis/imu_to_dxl_1V0A.kicad_pro
+  wire_hub_1V0A/wire_hub_1V0A.kicad_pro
+  POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_pro
+They combine paired native schematics/PCBs, local libraries, source-clearance
+projections and recovered source silkscreen. EasyEDA activation is not needed.
+Earlier source and engineering copies remain available for comparison.
+
+Do not mistake the transition-hypothesis folder for verified source intent.
+It explicitly removes one ambiguous old FILL. The literal revised-IMU copy
+continues to expose the unresolved large fill and its electrical violations.
+All projects remain manufacturing_ready=false.
+
+Native KiCad findings
+Candidate                     Copper/rules-only   Additional silk   Integrated
+Older IMU                             16                 41             57
+Revised IMU, literal source           330                 48            378
+Revised IMU, transition hypothesis     18                 48             66
+Repaired hub                          18                  7             25
+Battery board                          0                  2              2
+All five integrated projects have zero airwires and zero schematic-parity
+findings. The added silk findings are preserved source overlaps/overhangs and,
+for the battery board, two source mirror=false labels on the back silk layer.
+Source font metrics and rendering/mirroring parity remain unqualified; do not
+silently change those flags to obtain a green report. Source SILK_OPTS trimming
+has not been reconstructed. Counts can depend on KiCad version/item ordering.
+
+Source-clearance translation
+project_source_clearances.py writes separate editing/kicad-source-clearances/
+projects. The PCB and global project defaults are byte-identical to their
+parents; explicit .kicad_dru rules add supported SAFE pair-specific checks.
+The installed-decoder evidence in audit/source-rule-review.txt/.json establishes
+raw mil values and source class indices. No SAFE/OTHER selector overrides were
+present in these source boards. Placed source test-pad classes are guarded
+against accidental ordinary-pad classification.
+
+Supported native categories: straight/arc Track, ordinary SMD/PTH Pad, Via,
+copper Graphic, and saved Zone regions. Positive copper intersections map each
+zone back to source primitive IDs/layers and class6 fill/teardrop or class7 pour.
+Regions with mixed class provenance use the maximum relevant limit. Edge rules
+use conservative source outline11/cutout8 envelopes; symmetric two-drill checks
+collapse directed limits conservatively. OTHER drill-to-drill checks include
+actual drilled objects, including vias. Unmapped categories retain their prior
+defaults; no severity-ignore rules or arbitrary zone priorities were added.
+NPTH/source test-pad/text-image cases, exact edge categories, mask/paste and
+regenerative copper still prevent a full source-rule-fidelity claim.
+
+Eight isolated native KiCad 10.0.7 fixtures verified object types, layer scoping,
+and clearance/edge/hole constraint selection. They exposed an important version
+detail: explicit custom constraints can override higher global minima, despite
+the manual's blanket wording. An unmapped Pad/Via pair kept its prior default
+while a represented Track/Track pair used its explicit source value. Global
+defaults therefore were not lowered. See audit/native-clearance-rule-review.txt
+and native-clearance-rule-probes.json. The verifier checks the actual native
+version before accepting that evidence.
+Primary references: https://docs.kicad.org/10.0/en/pcbnew/pcbnew.html
+and https://gitlab.com/kicad/code/kicad/-/raw/10.0/pcbnew/drc/drc_engine.cpp
+
+Silkscreen recovery
+Across the four distinct boards, 525 explicit source silk objects and62
+positioned designators are recovered (553 native graphic objects). Including
+the duplicated hypothesis view, the five projects contain757 native graphics
+and86 positioned references. Only explicit silk-layer POLY/FILL data is used;
+source model/construction/pin layers and a mask-layer STRING are not reassigned.
+
+Fresh native reloads check unchanged copper, pad/drill/track/via/zone geometry,
+local mask/paste margins, project/rule/schematic hashes, saved graphic geometry,
+reference position/angle/style flags and local-library graphic reload. Source
+typography is represented by editable KiCad stroke text; exact glyph metrics
+are unqualified. Read audit/footprint-graphics-review.txt and each project's
+silkscreen-recovery-audit.json/silkscreen-validation.json.
+
+Native top/bottom SVG exports were rasterized and viewed for hub top, revised
+hypothesis top and battery bottom. review-top.png/review-bottom.png show the
+source overlaps and overhangs. A failed 3D auto-fit view is explicitly named
+preview-top-autofit-failed.png; it is not the visual QA result. Baseline and
+integrated hub geometry bounds are identical, so camera framing was isolated
+from the saved geometry checks.
+
+Recovered STEP/STL component instances
+recovered/author-step-components/<board>/<reference>.step and .stl contain61
+exactly identified placed instances from four preserved author PCB assemblies:
+  older IMU29; revised IMU23; hub7; battery board2.
+Identity uses exact STEP reference/product/assembly links plus the source model
+title. Model UUIDs are NOT embedded in STEP, so UUID identity is not invented.
+Exact XCAF instance and nested transforms are retained. Valid STEP roundtrips,
+solid counts, analytic bounding boxes and volumes were checked; STL hashes and
+binary record lengths were verified. Sources and per-instance provenance remain
+in component-manifest.json and PROVENANCE.txt.
+
+These files are in the WHOLE AUTHOR PCB world frame in mm, not footprint-local
+coordinates. They are useful placed snapshots for Blender/SolidWorks review.
+Do not directly attach them as zero-offset KiCad footprint models.
+
+Recovered product-definition geometry
+recovered/author-step-model-definitions/model-definition-index.json indexes22
+STEP+STL product definitions covering all22 model IDs declared by all62 placed
+device metadata records. The exact referred XCAF definitions are exported in
+PRODUCT-DEFINITION-local coordinates, with no guessed origin or pose correction.
+Every contributing source assembly/hash/reference/definition label/transform is
+retained. Matching-ID definitions have consistent bounds, volume and solid count;
+canonical equivalence is explicitly METRIC-ONLY and unqualified for asymmetric
+geometry or baked orientation. Full BRep equivalence is not claimed.
+
+Revised J3's placed instance is absent from its author STEP. Its model ID/title/
+metadata transform match old J3, so model-type geometry is available through the
+old source; revised placement is still missing/unqualified. Existing supplier
+candidate C492405 data also remains in the earlier parts catalog, unqualified.
+No recovered definition was attached to KiCad and no parametric history was
+recovered. Original repository/model terms continue to apply.
+
+Outline and assembly caution
+Do not apply a guessed half-stroke correction to the PCB. The POGO cache inset
+is0.0127mm per side, while its raw outline stroke is about0.1mm. POGO/hub author
+Board STEP bodies match their cache under the author's frame/scale convention;
+the two IMU author Board bodies differ from the current cached contours. Keep
+author STEP as named archived snapshots rather than verified current-layout fit.
+Detailed evidence: audit/step-identity-and-outline-review.txt.
+
+Repeatable workflow
+WSL PCB Python: /home/workbench/robotics/pcb-tools/venv/bin/python
+For each of the five candidate folder names:
+  tools/project_source_clearances.py --candidate <candidate>
+  tools/recover_footprint_silkscreen.py --reader <pinned-reader> --candidate <candidate> --source-root editing/kicad-source-clearances --destination-root editing/kicad-integrated --drc-timeout 180
+Existing output folders require --overwrite-generated; preserve user edits.
+Run tools/verify_source_clearances.py and verify_recovered_silkscreen.py.
+
+Windows CadQuery/OCP Python:
+C:/Users/abbii/Documents/Codex/tools/parametric-cad/cadquery/Scripts/python.exe
+  tools/extract_author_step_components.py --candidate <one-of-four-base-boards> --stl
+  tools/extract_author_step_model_definitions.py --stl
+Those extractors also protect existing output folders. Ordinary Python can run
+verify_author_step_components.py and verify_author_step_definitions.py to check
+source/model hashes, identities, coverage and declared qualification boundaries.
+
+tools/run_software_checks.py is the Windows entry point for the expanded suite,
+including the source-clearance, integrated-silk and recovered-model checks.
+All13 stages passed in the fresh combined run. Its software pass deliberately
+leaves hardware_release_ready=false.
+
+Remaining gates
+Resolve the revised copper history and assess remaining real/conservative DRC
+findings; qualify typography, mirror/trimming semantics, masks/paste and full
+regenerative source rules. Calibrate the recovered model frames/poses before
+KiCad attachment and assembly fit checks. Resolve source/hardware revisions and
+the floating-pin intentions, then verify manufacturing BOM/tolerances/harness,
+connector height, power protection and measured hardware behavior. Original HAT
+findings remain separately recorded in audit/Robot_HAT-drc.json and ERC results.
+
+The working gym/CAD use XL330, while the recovered community MCU firmware uses
+Feetech SCS. A canonical hardware choice is needed before unifying those layers.
+Full MCU/peripheral/whole-board simulation and physical tests remain unqualified.
+Existing bounded Isaac training/export/replay evidence is unchanged; it does not
+prove learned walking quality for a rebuilt or modified robot. No physical
+hardware was operated, flashed or ordered.

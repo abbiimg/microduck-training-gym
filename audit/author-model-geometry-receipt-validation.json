@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "receipt_file": "audit\\author-model-geometry-validation.json",
+  "receipt_sha256": "d9f72c5bb9eb4a7a0f2d81adbefd4aac7e29eadb89be8db70e0752babdef2e6b",
+  "source_definitions_checked": 61,
+  "model_ids": 22,
+  "source_and_model_hashes_current": true,
+  "fresh_geometry_kernel_run_performed": false,
+  "full_boolean_boundary_comparisons_in_receipt": 30,
+  "exact_serialized_brep_duplicates_in_receipt": 31,
+  "maximum_sampled_boundary_distance_mm": 8.854174615713362e-08,
+  "manufacturing_ready": false,
+  "kicad_placement_qualified": false
+}

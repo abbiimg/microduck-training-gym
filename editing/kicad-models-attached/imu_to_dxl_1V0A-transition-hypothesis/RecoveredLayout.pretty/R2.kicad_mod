@@ -1,0 +1,186 @@
+(footprint "R2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.508 0.762 270)
+		(layer "F.SilkS")
+		(uuid "61e41615-cc6c-4f10-a515-9a4b5f43dc81")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "10kΩ"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c2561df-d9b5-49a9-a7c0-ad69825ec528")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8b5405c-8850-4b82-9eb9-7252c4c31e45")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1cc0c2c-dab2-460e-9bd8-4d73c29d691f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C60490"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1e88a457-05d2-4704-ab2d-55d9188b8003")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "RC0402FR-0710KL"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "af363fba-eb0b-495c-9f1f-5915686c05b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.498602 -0.944245)
+		(end 0.498602 -0.944245)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "76e5ee0b-c895-42fa-8d7d-1bc1a79e676f")
+	)
+	(fp_line
+		(start -0.498602 -0.226212)
+		(end -0.498602 -0.944245)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ce382e0c-911f-49fd-848c-84fa146dea40")
+	)
+	(fp_line
+		(start -0.498602 0.226212)
+		(end -0.498602 0.944245)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "12176176-9161-46b9-9b78-739caac6c126")
+	)
+	(fp_line
+		(start -0.498602 0.944245)
+		(end 0.498602 0.944245)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3a18347d-a70a-418d-a0ed-4b712264f3dc")
+	)
+	(fp_line
+		(start 0.498602 -0.944245)
+		(end 0.498602 -0.226212)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7d2b7252-5ca5-4b74-bcda-25497032aabf")
+	)
+	(fp_line
+		(start 0.498602 0.944245)
+		(end 0.498602 0.226212)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9574ac6f-0d61-481f-9757-8f73d8a7e29b")
+	)
+	(pad "1" smd custom
+		(at 0 -0.432816)
+		(size 0.001 0.001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.270002 0.282829) (xy 0.270002 0.282829) (xy 0.270002 -0.282829) (xy -0.270002 -0.282829)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "b96dba83-4e61-4c6d-9d92-709a55f27c5e")
+	)
+	(pad "2" smd custom
+		(at 0 0.432816)
+		(size 0.001 0.001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.270002 0.282829) (xy 0.270002 0.282829) (xy 0.270002 -0.282829) (xy -0.270002 -0.282829)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "ea09f39f-114d-4457-896c-49139fdb2565")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/R2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

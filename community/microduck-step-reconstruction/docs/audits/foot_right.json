@@ -1,0 +1,129 @@
+{
+  "name": "foot_right",
+  "label_zh": "右脚",
+  "quantity": 1,
+  "units": "mm",
+  "stl": "01_STL_original/foot_right__右脚__x1.stl",
+  "step": "02_STEP_final/foot_right__右脚__x1.step",
+  "stl_sha256": "5a545dee64f413313900b99e2fa0828d36b028fcbda1a4bbfc4fcb773f19c462",
+  "step_sha256": "28598e7631b92c519aefbcc7296e7f22ea9fb76906eef4fd567480894a177cfc",
+  "stl_bytes": 997684,
+  "step_bytes": 5855876,
+  "stl_triangles": 19952,
+  "cad_faces": 473,
+  "valid_solid": true,
+  "deviation": {
+    "source_to_rebuilt": {
+      "samples": 29906,
+      "max_mm": 0.010893281188138206,
+      "rms_mm": 0.001093200736437714,
+      "worst_point_mm": [
+        -34.76185607910156,
+        -0.8543462753295898,
+        -28.09457015991211
+      ]
+    },
+    "rebuilt_to_source": {
+      "samples": 2226432,
+      "max_mm": 0.01251276486721292,
+      "rms_mm": 0.0018990117701451102,
+      "worst_point_mm": [
+        -64.1910797523203,
+        15.980917702246154,
+        -26.829484959088273
+      ]
+    }
+  },
+  "additional_audit": {
+    "random_bidirectional_samples": {
+      "source_to_step": {
+        "samples": 20000,
+        "max_mm": 0.012503897780636422,
+        "rms_mm": 0.0007783696311886609
+      },
+      "step_to_source": {
+        "samples": 20000,
+        "max_mm": 0.01201682323348823,
+        "rms_mm": 0.0007880051096837051
+      }
+    },
+    "bounding_box_max_delta_mm": 0.00042750180987027875,
+    "volume_error_percent": 0.012205520786445767,
+    "edit_test": {
+      "operation": "subtract 0.4 mm box from material",
+      "center_mm": [
+        -31.699998474121095,
+        14.581281661987305,
+        -21.245573043823242
+      ],
+      "valid_after_cut": true,
+      "removed_volume_mm3": 0.04837121491073049
+    },
+    "sha256": "28598e7631b92c519aefbcc7296e7f22ea9fb76906eef4fd567480894a177cfc",
+    "volume_integration_relative_tolerance": 1e-09,
+    "bounding_box_basis": "complete CAD surface tessellation, 0.0005 mm mesh deflection",
+    "native_conservative_bbox_mm": [
+      -70.16655848964926,
+      -12.0000001,
+      -32.10516052729999,
+      -30.080608614118148,
+      42.0000001,
+      -12.34192466735
+    ],
+    "measured_surface_bbox_mm": [
+      -70.16631317138,
+      -12.0,
+      -29.251371639383112,
+      -30.08081054687,
+      42.0,
+      -12.34192466735
+    ]
+  },
+  "improved_in_latest_round": true,
+  "repair_comparison": {
+    "baseline_bytes": 6919998,
+    "new_bytes": 5855876,
+    "baseline": {
+      "faces": {
+        "GeomAbs_Plane": 332,
+        "GeomAbs_BSplineSurface": 205,
+        "GeomAbs_Cylinder": 6
+      },
+      "edge_curve_types": {
+        "GeomAbs_BSplineCurve degree 1": 1347,
+        "GeomAbs_Line": 542,
+        "GeomAbs_Circle": 11
+      },
+      "spline_control_points": 57025,
+      "analytic_surface_area_fraction": 0.8807022441365668
+    },
+    "new": {
+      "faces": {
+        "GeomAbs_Plane": 215,
+        "GeomAbs_BSplineSurface": 241,
+        "GeomAbs_Cylinder": 17
+      },
+      "edge_curve_types": {
+        "GeomAbs_BSplineCurve degree 1": 774,
+        "GeomAbs_Line": 832,
+        "GeomAbs_Circle": 120,
+        "GeomAbs_BSplineCurve degree 3": 45,
+        "GeomAbs_BSplineCurve degree 5": 3,
+        "GeomAbs_BSplineCurve degree 4": 6,
+        "GeomAbs_OtherCurve": 36
+      },
+      "spline_control_points": 40255,
+      "analytic_surface_area_fraction": 0.8665798496456804
+    }
+  },
+  "max_sampled_deviation_mm": 0.01251276486721292,
+  "max_extra_sampled_deviation_mm": 0.012503897780636422,
+  "measured_bbox_mm": [
+    -70.16631317138,
+    -12.0,
+    -29.251371639383112,
+    -30.08081054687,
+    42.0,
+    -12.34192466735
+  ]
+}

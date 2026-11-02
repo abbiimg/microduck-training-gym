@@ -1,0 +1,2673 @@
+{
+  "candidate": "imu_to_dxl_1V0A",
+  "parent_board": "editing/kicad-source-rules-projected/imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_pcb",
+  "board_sha256": "6cf58041b1a375774ded24943ad9caaca377efce413f39f28062c4e49f99ab0c",
+  "source_replay_sha256": "27309693c8f562871ea343da554f2da32876855375be9f1b8b8ed6ffd9bc1ad5",
+  "rules_sha256": "88b8da16e80f447de18734331b942a600287e4756f8bc94075470ff09a2a8f5b",
+  "board_bytes_unchanged": true,
+  "global_clearance_defaults_unchanged": true,
+  "source_safe_rule": "copperThickness1oz",
+  "zone_class_ownership": [
+    {
+      "native_zone_uuid": "03b31126-0791-4669-859b-1c762c3b46c0",
+      "native_zone_name": "Static union /SWDCLK F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "416584a5-6e39-4126-a4b6-b10830dedcde",
+          "source_name": "Recovered 4a690dab098edac7",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.451325357374
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "078917c5-6760-4456-8011-3e841a350435",
+      "native_zone_name": "Static union /3.3V F.Cu 17",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "d8e7e084-1178-4171-94b1-9174b17aa7c5",
+          "source_name": "Recovered 62407beb74dfc131",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.115271841415
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "0c29f5fb-f256-4ea4-a5e4-4edaa671cfc2",
+      "native_zone_name": "Static union /3.3V F.Cu 20",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "5facd311-9f99-4978-8f4b-c3463f5b4ff6",
+          "source_name": "Recovered acda64617c1b8ce5",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.149724267173
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "14e2d1ee-893a-4396-813e-1bd92f0b69b0",
+      "native_zone_name": "Static union /DE F.Cu 2",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "151b2aca-a095-4066-b73a-14193df28a94",
+          "source_name": "Recovered 0cf5ac9e6d9cb32c",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.115271841415
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "1aa7c7bb-c6a3-46c4-8225-2ca926d7db2f",
+      "native_zone_name": "Static union /3.3V F.Cu 11",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "4edf48c2-53b8-42d5-9a1b-98906f423722",
+          "source_name": "Recovered cbcffc091a24b907",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.202403742892
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "2485aa3f-35af-4d39-83a1-04725b59a022",
+      "native_zone_name": "Static union /DXL_BUS F.Cu 4",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "18307f48-97f3-4446-8e19-1b5481a58900",
+          "source_name": "Recovered 30ee6f8b4cab6a62",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.1394305123575
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "2af1b322-d2cb-4cc7-b322-89c71440b3f6",
+      "native_zone_name": "Static union /UART_RX F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "4f98882b-7e8e-4682-8de7-a31532435f55",
+          "source_name": "Recovered a00c66573b70512a",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.115271841415
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "2f1c6d9a-2f9f-4c35-9562-dfc599e8b5ee",
+      "native_zone_name": "Static union /3.3V F.Cu 6",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "234100cd-5e49-49ed-ba28-f32607b5e7b6",
+          "source_name": "Recovered eb272798206d6702",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.2961840259365
+        },
+        {
+          "source_zone_uuid": "586e16b3-b497-4e73-8cfa-1020f38823c0",
+          "source_name": "Recovered 09f2bd9caf94dd76",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.401882414021
+        },
+        {
+          "source_zone_uuid": "90a7f2a0-7b74-463b-a244-d76377210ba0",
+          "source_name": "Recovered 1ab2552ea13780c2",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.40188238824
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "3e262964-4d2a-40f3-a0c1-bed5f52d3b89",
+      "native_zone_name": "Static union /SWDIO F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "efa65779-f253-45ad-8df8-9f36e886111e",
+          "source_name": "Recovered 2e4c5c561aec448a",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.112050890965
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "422748ea-9ef2-499c-9288-978cf8aa76db",
+      "native_zone_name": "Static union /UART_RX F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "b39f1530-6019-46ee-b53c-ca3455714c3e",
+          "source_name": "Recovered e9c8c18b511c8809",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.414545146346
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "43e04fc0-ac1b-4bd9-ba5f-dd6b1a8ae960",
+      "native_zone_name": "Static union /SPI_CS F.Cu 2",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "870e7d17-c568-4edf-aeb5-56379621ab4d",
+          "source_name": "Recovered 97829672a0dec298",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.131881947777
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "5a13aa28-18f2-44f2-bafa-51ef5d4cbe9d",
+      "native_zone_name": "Static union /SPI_MISO F.Cu 2",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "3089876d-e1af-41af-8b08-bdc460922715",
+          "source_name": "Recovered fb0d38282a62cacc",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071162004198
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "5e8fe4c0-3d94-4072-8a6b-35a8cd8ee03c",
+      "native_zone_name": "Static union /DXL_BUS F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "418fb0d9-5f5f-4898-8252-1f3bc54ccda8",
+          "source_name": "Recovered 961aa2f60d098ba2",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.3561365424905
+        },
+        {
+          "source_zone_uuid": "e733b84e-bc05-417e-a9c8-04b842d8291c",
+          "source_name": "Recovered 3ace2bc86c37d456",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.880890455403
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "5ff85d08-d187-429f-ad2b-dc45f5b06243",
+      "native_zone_name": "Static union /3.3V F.Cu 23",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "b0be7d30-ab89-4b62-b043-524f226cda1b",
+          "source_name": "Recovered 503607db8aaa6aef",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071096736633
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "6077e0ea-1c94-43b6-8570-7e1e55fc249b",
+      "native_zone_name": "Static union /3.3V F.Cu 19",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "918d6448-4d08-401b-af11-2ef1d2ab1e06",
+          "source_name": "Recovered eb11201f5a77c295",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.24794515652
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "63457276-77d6-41b4-afc4-a86938104943",
+      "native_zone_name": "Static union /SPI_MOSI F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "bb4bb1dd-d843-442b-a28c-9124b9b3208e",
+          "source_name": "Recovered 9306991e5de2e7a4",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.098869436968
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "667c756c-cc2d-48f0-bb46-704914e5d051",
+      "native_zone_name": "Static union /RX_EN F.Cu 3",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "e1b2f416-6519-4c1e-8603-86f101e42a6b",
+          "source_name": "Recovered 017dbfdb499fb7ac",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.1154920191675
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "67157e4a-7f55-4f3d-8309-d0c828f28161",
+      "native_zone_name": "Static union /UART_TX F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "8fc309da-5d7c-48ec-9a5f-bda3a6b570d4",
+          "source_name": "Recovered 56143646867277b2",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.4513240142805
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "68d0d274-97da-4a5f-9811-bc73882768a0",
+      "native_zone_name": "Static union /DXL_BUS F.Cu 3",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "bf9ccae8-d55a-458c-9d71-f894bb914305",
+          "source_name": "Recovered a83ea99991aca5f4",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.140599724276
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "6a09d751-6654-47d9-9b67-79f7901d08ca",
+      "native_zone_name": "Static union /3.3V F.Cu 5",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "e8823871-5fdc-430e-ae2d-ed9f9f98975b",
+          "source_name": "Recovered 7e73d0594e9da6bd",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.137295219128
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "6a6d46fc-a634-41b2-8999-ae41c88b4fe5",
+      "native_zone_name": "Static union /DE F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "8043cf71-2ad5-472c-9845-f56520d2e8e3",
+          "source_name": "Recovered f77132067c9ee16d",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.133868664518
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "6d4dbb39-d522-440c-8e59-63992bd52ed9",
+      "native_zone_name": "Static union /3.3V F.Cu 2",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "a879448e-db85-408d-8045-9602cd33e9fa",
+          "source_name": "Recovered 8805cd4932a11e1c",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.126834243564
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "6e33a123-9ab9-44b9-a6c8-ceb90dbdc093",
+      "native_zone_name": "Static union /SWDIO F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "fe62fc23-0d65-449d-ac6b-6c210c2e40f0",
+          "source_name": "Recovered 602384f161c73cbe",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.451325357374
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "6f9836bf-dee7-4560-94d7-45e8607a4e4a",
+      "native_zone_name": "Static union /DXL_DATA F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "0faa750a-3d0d-4e0d-aab2-33d841e43f1d",
+          "source_name": "Recovered 2e68036238f309c1",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.1497243269855
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "76d11be4-1d1f-4d6a-9773-d9b9f38001d8",
+      "native_zone_name": "Static union /SPI_SCK F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "e9c4c5c4-f38c-4c43-96c5-dce58f42eca2",
+          "source_name": "Recovered bc3267d02c0f987f",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.115931508053
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "802a7030-85f6-4ae1-89c2-d26c9a5f55ca",
+      "native_zone_name": "Static union /RX_EN F.Cu 2",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "a947a236-5cd8-4f6a-b239-b99293c8e848",
+          "source_name": "Recovered a8d5e69180838827",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.0710975232555
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "802f92c4-229b-40f8-b8bb-d7a15f240b97",
+      "native_zone_name": "Static union /SPI_CS F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "e9ba73eb-13f0-499e-9509-8feb65a504a8",
+          "source_name": "Recovered 52a587bfd59e855d",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.1338036470705
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "83a35b3b-8100-4224-8f4a-cd41eed51aa6",
+      "native_zone_name": "Static union /SPI_SCK F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "010c8004-bc7a-44e6-ae3f-ebe84fb54f48",
+          "source_name": "Recovered 6ca00c6b3cf39211",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.098869437786
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "850a1702-e3a5-4b6d-8bbb-5fb48f1147eb",
+      "native_zone_name": "Static union /SPI_MISO F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "a26eb13b-bb34-4e94-8221-64c6d8d6ae67",
+          "source_name": "Recovered 42931f999437120d",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.129530854922
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "86af4b14-1abc-48b7-b80c-f132ebd4c5bf",
+      "native_zone_name": "Static union /UART_TX F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "1cf7957a-4777-4b59-94f5-b943d497e98d",
+          "source_name": "Recovered 9b7cc3bf44983c46",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.115271643994
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "88fe78fc-f1f4-4e43-9534-568b5a1c5d8a",
+      "native_zone_name": "Static union /NRST F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "6840bb8d-1745-4ee8-9674-00cdfceace7f",
+          "source_name": "Recovered 34dfc889b023bb5a",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.149724678273
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "89439669-5e0e-446a-97fe-870fe9562ad5",
+      "native_zone_name": "Static union /DXL_DATA F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "b7549064-ee41-45ae-9cc5-9418314f62db",
+          "source_name": "Recovered 5430dd5b106d9250",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.1287906568135
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "8a21e17e-5d20-4059-b626-bd877a21f2af",
+      "native_zone_name": "Static union /SPI_MISO F.Cu 3",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "42487145-4937-4674-9804-d9074d8143d6",
+          "source_name": "Recovered 3e8d0dca0c285d91",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.115271841415
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "8afe2cc6-9d40-4256-ab69-02dda6579619",
+      "native_zone_name": "Static union /3.3V F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "13b5b15b-ce9e-48a9-b742-12a710874923",
+          "source_name": "Recovered dd78800fd435fc20",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.395386248208
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "8f3ccf61-062a-4659-b877-20aad253f2c2",
+      "native_zone_name": "Static union /DXL_DATA F.Cu 3",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "d13de1af-cf53-4830-b1f7-b46ff2a978cd",
+          "source_name": "Recovered c968390b9d16214d",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.101357330715
+        },
+        {
+          "source_zone_uuid": "edc27e3c-d0ae-4777-9275-93f8874ef5d6",
+          "source_name": "Recovered 22f470df6077cd5c",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.355918479704
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "934297d4-9b57-4fca-a3e9-bc0d6416b516",
+      "native_zone_name": "Static union /3.3V F.Cu 10",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "80496df8-4bca-4c03-984d-f6c8d4528335",
+          "source_name": "Recovered 0c4ec2ab920869d8",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.234429918601
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "983f4a7d-e189-4c06-8f35-5fb7250cf010",
+      "native_zone_name": "Static union /SPI_MOSI F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "d4c6c308-3322-4355-9c8e-8de75a92e1d1",
+          "source_name": "Recovered ec344cf177157dba",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.115271841415
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "99daf305-db99-4f86-aa77-44db61abe49e",
+      "native_zone_name": "Static union /3.3V F.Cu 3",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "771ce99c-9461-4b12-8734-8713c136df9a",
+          "source_name": "Recovered 10a7365f3f244bfc",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.093251478818
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "9d8366c4-1db1-47c8-bf59-bf2188746f21",
+      "native_zone_name": "Static union /DXL_DATA F.Cu 4",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "f55ddaa0-a1f4-4ed7-a629-f1655576cdef",
+          "source_name": "Recovered f54694e14ac4a703",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.101357330715
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "a17e59b8-5740-4cac-9e26-308142c0030c",
+      "native_zone_name": "Static union /SPI_CS F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "9c19a41e-4c38-4a44-b81d-a312e31076e5",
+          "source_name": "Recovered 71257038277f7d19",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.098869436968
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "a265c9bd-48d7-4e0d-8db1-4a4e7d9134c8",
+      "native_zone_name": "Static union /3.3V F.Cu 7",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "aa9408e2-ee66-4fb2-9250-4e5845974081",
+          "source_name": "Recovered 09315175cafdc25c",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.2031631361145
+        },
+        {
+          "source_zone_uuid": "b0768ec6-3b33-42d0-b055-71c4aabe88d7",
+          "source_name": "Recovered 4b19b7c0ed49d439",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.2031631498995
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "a32034dd-8dd3-44c7-a1d8-2cb59a567147",
+      "native_zone_name": "Static union /3.3V F.Cu 4",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "3376e8a8-f111-449e-92d3-911f0d7ceaac",
+          "source_name": "Recovered 93d8b95603db23e4",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.401914040098
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "a523853f-c658-43b4-9e66-3f5b99e9f76f",
+      "native_zone_name": "Static union /3.3V F.Cu 18",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "ae482f62-9a1b-444d-8820-efc4b85feca8",
+          "source_name": "Recovered 0aee2c55322fcd34",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.1255918169545
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "a58fb074-0f1f-401c-9008-bbfdced66ff6",
+      "native_zone_name": "Static union /SWDCLK F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "2b140284-1638-408b-b6af-ecf29da73671",
+          "source_name": "Recovered ca71d8335253ed65",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.1284130967675
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "a6047caa-e29a-4a55-ba4f-5a5dd1db4d55",
+      "native_zone_name": "Static union /SPI_MISO F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "72418b85-09f5-40f6-b1ff-031fde87a789",
+          "source_name": "Recovered 6593c477190cb69a",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.07109684677
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "a931af68-53d8-4a4d-ab34-19bb2b2946a3",
+      "native_zone_name": "Static union /3.3V F.Cu 15",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "7050b9a1-1590-4d22-a5bc-b9a7c4257a84",
+          "source_name": "Recovered a8c5099ca8f42348",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.052766179833
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "a9bf189d-9629-4317-a275-2b5d44fd18a6",
+      "native_zone_name": "Static union /MCU_TX F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "26748228-1f7b-4319-999a-0c472cba4d89",
+          "source_name": "Recovered 48340ee0d446821a",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.115271643994
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "abf93ea5-c0ef-4f22-a594-92f78818c96d",
+      "native_zone_name": "Static union /3.3V F.Cu 14",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "78da0bd6-14a1-4bcb-9c85-6a2c3986a08e",
+          "source_name": "Recovered 468826da96447b3a",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.247424174543
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "b33280c7-7cb8-4fc2-af08-568f526c5432",
+      "native_zone_name": "Static union /3.3V F.Cu 12",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "5c48dcf6-fffd-491a-a109-bac09cbee3e8",
+          "source_name": "Recovered d9c34904d9489c1e",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.052766179833
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "b5e6e62d-58c2-4a3b-a240-5d28fcd7deb6",
+      "native_zone_name": "Static union /IMU_INT1 F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "d2b01b31-53b2-4125-a7ed-1b7041cd2c6a",
+          "source_name": "Recovered d19215dc8f169c4c",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.115271841415
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "b6a23db7-318f-4ac1-9ba8-7aca5f407016",
+      "native_zone_name": "Static union /VDD_BUS F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "818bd033-4322-44a4-9c46-3e68d0d669fa",
+          "source_name": "Recovered 59d004edb43043b9",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.4008138358045
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "b95a3d66-8b8a-46e4-963a-4afb76248bcd",
+      "native_zone_name": "Static union /DXL_BUS F.Cu 2",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "32538ddc-0945-4ce5-bca3-57b9f58242ea",
+          "source_name": "Recovered 5d251e61eb13022c",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.058588271836
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "bb05ace0-030b-4190-b260-666420cc943a",
+      "native_zone_name": "Static union /RX_EN F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "771c5ed4-6378-4927-92b6-b117de30bacf",
+          "source_name": "Recovered 9d61f730b9b96b1f",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.101357330715
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "c342e2e6-2d7f-4aa3-ba07-b6e852784e48",
+      "native_zone_name": "Static union /3.3V F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "d3d790f3-4ae1-4d4b-ba27-5774ac2936f2",
+          "source_name": "Recovered 3ecb01a0e3d5d3e1",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.126834243564
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "c63ceec7-ef17-4783-a0ef-d944ee6ab2dc",
+      "native_zone_name": "Static union /3.3V F.Cu 9",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "1b5d6d84-9508-4e89-a00a-9bf8694f57b2",
+          "source_name": "Recovered 87510668665102f7",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071096705825
+        },
+        {
+          "source_zone_uuid": "974565f1-9715-4995-a455-983b03439963",
+          "source_name": "Recovered ef71b4e819b16487",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.133868652461
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "c8ae9666-96c1-49c5-820a-fe44d8926be8",
+      "native_zone_name": "Static union /IMU_INT2 F.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "169dc485-f3ab-422f-9551-41d7214e5401",
+          "source_name": "Recovered 2d0983db3e3c207a",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.115271643994
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "cb253dd8-051b-4c5d-9e32-2a492536e6c9",
+      "native_zone_name": "Static union /DXL_BUS F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "1907b8d9-11f5-4b59-857f-8ad0d24795a3",
+          "source_name": "Recovered 9e1c5d1df37f7a89",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.149724086619
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "d653fa05-b166-43bb-b9fa-80d276c56393",
+      "native_zone_name": "Static union /IMU_INT1 F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "65be3bea-4fb0-4022-a4e6-3a5a1efbfb44",
+          "source_name": "Recovered 385dce25ad1a68bd",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.098869444927
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "d7aa3a73-4a66-4d77-af5f-517bba24f162",
+      "native_zone_name": "Static union /DXL_DATA F.Cu 2",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "9987a7c9-da74-4fd7-91b5-4fba52e5f11d",
+          "source_name": "Recovered 907f1a44c191ad98",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.016048457614
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "da8dd259-b276-4f40-ab67-bf1ca4c24955",
+      "native_zone_name": "Static union /3.3V F.Cu 8",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "61259f08-73f9-4442-bf6f-80fa0125a822",
+          "source_name": "Recovered f84a4fef3b3ddd93",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.2866058520185
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "e4a826d0-230f-4e06-a49b-e1b3f6352af6",
+      "native_zone_name": "Static union /DE F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "f6023247-a01a-4800-84f2-e0bc3becd56a",
+          "source_name": "Recovered b379a4d8252ebe0d",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.1310622930185
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "e67d07c7-6a6e-4b50-b35c-85daeb46c0b3",
+      "native_zone_name": "Static union /NRST F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "382caae5-3c91-4f81-baa4-fe2bf55db80b",
+          "source_name": "Recovered 20a6ccaeae6f7aa2",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.115271643994
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "ea168085-7e64-44a6-a98d-8e888f54801e",
+      "native_zone_name": "Static union /3.3V F.Cu 22",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "381a67b5-9590-4fbc-9916-bd4f8656d068",
+          "source_name": "Recovered 5b196237bccbefae",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.136028704833
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "eaf018d4-e8bc-418b-ba9a-6272140bdea9",
+      "native_zone_name": "Static union /3.3V F.Cu 13",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "46cb97c6-1a15-45d1-8ff0-fa2cff15c9f5",
+          "source_name": "Recovered e327e104a78ca96d",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.132837867808
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "eba99023-4830-4ad9-842b-ce4eac9fb539",
+      "native_zone_name": "Static union /GND F.Cu 0",
+      "source_classes": [
+        6,
+        7
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "0c143d4b-2018-4499-947e-60be24fbb8b3",
+          "source_name": "Recovered f8665bfbd9d0f6f0",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071097266909
+        },
+        {
+          "source_zone_uuid": "10eb23ae-431b-4a1f-b6d2-910eda643918",
+          "source_name": "Recovered acbd68bc789f3324",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.098869444927
+        },
+        {
+          "source_zone_uuid": "1b73a88e-8ff7-402f-9789-ee1e526adaae",
+          "source_name": "Recovered 9e6ef9e9729c8ee7",
+          "source_classes": [
+            7
+          ],
+          "overlap_mm2": 6.3919992579635
+        },
+        {
+          "source_zone_uuid": "2a402b60-348d-4ce8-9aad-91d545bc3e99",
+          "source_name": "Recovered 9e6ef9e9729c8ee7",
+          "source_classes": [
+            7
+          ],
+          "overlap_mm2": 3.5454201085345
+        },
+        {
+          "source_zone_uuid": "2addefc9-c8c5-4eeb-a496-93b5a3b08f33",
+          "source_name": "Recovered a8e86dc6a530abc9",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071096821373
+        },
+        {
+          "source_zone_uuid": "2c41f86c-4a1a-44fb-946c-772e0b7093d7",
+          "source_name": "Recovered 9e6ef9e9729c8ee7",
+          "source_classes": [
+            7
+          ],
+          "overlap_mm2": 446.6350601190095
+        },
+        {
+          "source_zone_uuid": "2d41b003-29cd-4591-ab17-e8d3a99363f1",
+          "source_name": "Recovered c38aba8838282a26",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.115271643994
+        },
+        {
+          "source_zone_uuid": "34ed39fe-c96a-43cd-89eb-6360b02e9fff",
+          "source_name": "Recovered f693a2a342b07c17",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.1267415492435
+        },
+        {
+          "source_zone_uuid": "38b15aa2-5049-4a2f-98aa-b9003c00a983",
+          "source_name": "Recovered d7a4d49ab4597aa2",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.0710969167215
+        },
+        {
+          "source_zone_uuid": "418ac379-de12-480f-a533-13f00ebbaad3",
+          "source_name": "Recovered 2c53b68d79930354",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.060320954938
+        },
+        {
+          "source_zone_uuid": "45e22973-cecc-449e-953e-6588bf0d69d3",
+          "source_name": "Recovered 35892a42ec87e36c",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.0710976679895
+        },
+        {
+          "source_zone_uuid": "52c6f48d-8b34-4f55-9b39-a72f9a0ebd8e",
+          "source_name": "Recovered bd6779a9c26b52f4",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071100428996
+        },
+        {
+          "source_zone_uuid": "5c6c0cee-4b6a-4909-947c-e88c4f54bdc7",
+          "source_name": "Recovered 9faf70d88af5baa2",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071096736633
+        },
+        {
+          "source_zone_uuid": "6320d9ba-cb4c-4f21-b7dc-294a01de4e87",
+          "source_name": "Recovered 7b68ac88c9f6397e",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.126834256476
+        },
+        {
+          "source_zone_uuid": "67cf6996-e1f5-4227-bc8d-2e42a489c82c",
+          "source_name": "Recovered b9667c897f488963",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071097179467
+        },
+        {
+          "source_zone_uuid": "6cf0e7b5-553a-40bf-b92c-11d5fe59b127",
+          "source_name": "Recovered ffddb1f93d28660f",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.101357330715
+        },
+        {
+          "source_zone_uuid": "71005852-82cd-4122-9a86-59f2b1a99791",
+          "source_name": "Recovered 8a2bfb0d42c24841",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.0507024584155
+        },
+        {
+          "source_zone_uuid": "7310e7b7-1b7a-43b8-9c35-59d28dfd9757",
+          "source_name": "Recovered d0586fb60e7fb6b7",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.120316330529
+        },
+        {
+          "source_zone_uuid": "7a631636-2529-4629-8e5d-b91c28d2fc5e",
+          "source_name": "Recovered 89c5a8c3306e26a7",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.138752578076
+        },
+        {
+          "source_zone_uuid": "87e416f9-4a04-4ce8-9bcf-2de309cab5b7",
+          "source_name": "Recovered bb89f83d3021b6f8",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.08438798667
+        },
+        {
+          "source_zone_uuid": "88ced6a0-a5c4-4930-b6eb-fb7f85c9000f",
+          "source_name": "Recovered 3f4c274659eab892",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.126834256476
+        },
+        {
+          "source_zone_uuid": "8d4ac09c-3e5f-4a84-afb2-c435067bde91",
+          "source_name": "Recovered 84a63625734e769f",
+          "source_classes": [
+            6,
+            7
+          ],
+          "overlap_mm2": 3.5454201085345
+        },
+        {
+          "source_zone_uuid": "8f2410d5-f683-4aea-a9ce-70e3facb6828",
+          "source_name": "Recovered 43e4f079cf689ec8",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.04414502934
+        },
+        {
+          "source_zone_uuid": "9196df54-c000-45cd-b8c1-3299cecfab71",
+          "source_name": "Recovered 12706661c84c798e",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.126834256476
+        },
+        {
+          "source_zone_uuid": "923ddfaf-78e9-4a08-8944-0152f5204f66",
+          "source_name": "Recovered 84a63625734e769f",
+          "source_classes": [
+            6,
+            7
+          ],
+          "overlap_mm2": 32.24025369772
+        },
+        {
+          "source_zone_uuid": "9382f929-65fc-4e45-9c86-86cbdb2b5f69",
+          "source_name": "Recovered 12c102a31a9a8ea0",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.0718267015175
+        },
+        {
+          "source_zone_uuid": "9a0adad9-be39-4534-bca1-a12c5813daf3",
+          "source_name": "Recovered 9e6ef9e9729c8ee7",
+          "source_classes": [
+            7
+          ],
+          "overlap_mm2": 32.24025369772
+        },
+        {
+          "source_zone_uuid": "9b7e7c75-ea38-49b7-9444-5b474857facf",
+          "source_name": "Recovered 13fc66dcf638c6cf",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.098869444927
+        },
+        {
+          "source_zone_uuid": "a4e576ce-b9d3-4f00-83d0-f36bfc3ac365",
+          "source_name": "Recovered 88489c7ee9e959aa",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.074038560371
+        },
+        {
+          "source_zone_uuid": "a505528c-ece0-41f5-9931-7522a39694d8",
+          "source_name": "Recovered f89ca9fc97dd4c4d",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071097156772
+        },
+        {
+          "source_zone_uuid": "ae58c787-1f3d-4090-8c3c-c2266a249bc2",
+          "source_name": "Recovered 84a63625734e769f",
+          "source_classes": [
+            6,
+            7
+          ],
+          "overlap_mm2": 447.447022014485
+        },
+        {
+          "source_zone_uuid": "c0219f3f-d3b8-4f0e-94a1-fcf6af4d9e5e",
+          "source_name": "Recovered 7c741037ec45bc51",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.076081893185
+        },
+        {
+          "source_zone_uuid": "c1611b43-08ef-4810-9f24-5f20df8c3247",
+          "source_name": "Recovered dca4e8522837e94e",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.1189064361525
+        },
+        {
+          "source_zone_uuid": "c209d7da-c13b-48d6-be2f-998388103403",
+          "source_name": "Recovered 84a63625734e769f",
+          "source_classes": [
+            6,
+            7
+          ],
+          "overlap_mm2": 816.127694041357
+        },
+        {
+          "source_zone_uuid": "c4d0916f-dd8f-4b6c-bddb-a1814d188fdb",
+          "source_name": "Recovered cfa0bacb1248d4b0",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.07109684677
+        },
+        {
+          "source_zone_uuid": "c9ec91b2-81d2-41ef-825d-cbd4e702a401",
+          "source_name": "Recovered 7910f8c42746b519",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071096821373
+        },
+        {
+          "source_zone_uuid": "cc2c5340-ffd2-4182-840f-836c84bd894a",
+          "source_name": "Recovered d2e80a024d69225e",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.3088466940715
+        },
+        {
+          "source_zone_uuid": "ce9ea150-e9e2-4ef9-9f64-9b5c61d487a4",
+          "source_name": "Recovered 552d312dece731aa",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071096736633
+        },
+        {
+          "source_zone_uuid": "cf7bf571-2149-4c2c-ac1e-235461d6e620",
+          "source_name": "Recovered cc1892c94b3be99b",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071097266909
+        },
+        {
+          "source_zone_uuid": "d5fe3e42-d7b7-46ae-b8d5-e4f2858500ac",
+          "source_name": "Recovered 7be69d2bf5487e7d",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.0710976679895
+        },
+        {
+          "source_zone_uuid": "d659e049-579e-4b63-b4b0-312b6dedc2d9",
+          "source_name": "Recovered b9223ed2cf0d21f1",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071333462553
+        },
+        {
+          "source_zone_uuid": "f4f07878-7671-4f77-ac07-2e6296a06ef2",
+          "source_name": "Recovered 84a63625734e769f",
+          "source_classes": [
+            6,
+            7
+          ],
+          "overlap_mm2": 6.3919992579635
+        },
+        {
+          "source_zone_uuid": "fb22d7c1-c232-4d16-8226-cc9434f8e999",
+          "source_name": "Recovered a3bc5a25a3a9be11",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.0539376223105
+        }
+      ],
+      "conservative_class_collapse": true
+    },
+    {
+      "native_zone_uuid": "ee8cd2e9-cacc-4ae2-8ae5-9aa3aef1b73d",
+      "native_zone_name": "Static union /3.3V F.Cu 21",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "ed09a873-6a77-4881-8276-2abfd1a8ace8",
+          "source_name": "Recovered f5e8df0cfa96e8b3",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.104096455057
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "f49c5c06-a645-4a27-ae71-eb0eeb0c9739",
+      "native_zone_name": "Static union /RX_EN F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "1bffe068-e726-4afb-a34f-789d97ae36e8",
+          "source_name": "Recovered 7074e47242e50c17",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.052415603901
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "f54eeba4-87ce-4827-a442-0c6c84ea3061",
+      "native_zone_name": "Static union /SPI_CS F.Cu 3",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "58a2ad86-ad8a-4654-b4f1-c3721e8cf43c",
+          "source_name": "Recovered 9b5b486052332ce1",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.115271643994
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "f71863f6-00ec-4f36-86a8-e2e5ab972638",
+      "native_zone_name": "Static union /VDD_BUS F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "3af01abf-b004-41b2-8a21-bf26480a37f5",
+          "source_name": "Recovered 9e612d8edf537785",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.969825535121
+        },
+        {
+          "source_zone_uuid": "9675dffb-9d91-4765-8036-455db919d2fc",
+          "source_name": "Recovered 1120b51f5a765329",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.410577712122
+        },
+        {
+          "source_zone_uuid": "b9b22827-73f2-4fb9-9f30-4c5429be5bc9",
+          "source_name": "Recovered 746a86ec39ac9e6d",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 19.929786905161
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "f7a0a9a5-f75e-4190-b4b0-ac2dbab8043b",
+      "native_zone_name": "Static union /IMU_INT2 F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "f3463647-467c-429d-b533-900afa09cf6d",
+          "source_name": "Recovered d05f8e982a8620b5",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.0988694389265
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "fe98d659-fe9e-4849-8de1-9a4808dbac06",
+      "native_zone_name": "Static union /3.3V F.Cu 16",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "2e9d4249-c499-4d81-9a24-0a0eac1e968c",
+          "source_name": "Recovered c7e8ec855914d4e6",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.053214750395
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "1f0fbc4c-e206-45e5-93ca-5bd11ef9f57d",
+      "native_zone_name": "Static union /3.3V B.Cu 2",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "63caaed8-39ba-4afa-a53d-2a2586b5c153",
+          "source_name": "Recovered 21c65756e661268d",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.202403742892
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "230de64d-5fd6-435a-a877-4d1770d43026",
+      "native_zone_name": "Static union /SPI_MISO B.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "69a5bedd-39a4-4bb8-b291-b039cec45f0b",
+          "source_name": "Recovered 854a79f1b73ebd36",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.0710975536615
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "3c4982df-fda8-4599-8241-3d3577eeb76b",
+      "native_zone_name": "Static union /RX_EN B.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "e8161490-2a21-4345-bef3-9f254bf27e3d",
+          "source_name": "Recovered dc1e77d9ed42fefd",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071097812724
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "550d4026-8235-44f4-b58d-27402f70e728",
+      "native_zone_name": "Static union /RX_EN B.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "7bf63243-dcec-4135-8c7d-0597267dfca1",
+          "source_name": "Recovered 5de64a8a83787662",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071097266909
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "9fc8a43c-4eb1-4abe-a4cc-bee491f49a46",
+      "native_zone_name": "Static union /GND B.Cu 0",
+      "source_classes": [
+        7
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "923babfc-dacf-4e45-8a71-121213014ff3",
+          "source_name": "Recovered f830ae10cd851bfd",
+          "source_classes": [
+            7
+          ],
+          "overlap_mm2": 716.142971438922
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "b69d2ce2-7307-48d9-9c19-36155095cf54",
+      "native_zone_name": "Static union /3.3V B.Cu 3",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "dda727d5-d227-4378-b330-98f177b1f937",
+          "source_name": "Recovered ef335800c4b1a60a",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.202403742892
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "ba733b90-4467-4fe2-b525-83919735e69b",
+      "native_zone_name": "Static union /3.3V B.Cu 4",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "7b36633a-e294-4b46-89df-90fa8ecf5ea3",
+          "source_name": "Recovered 72fcb2f69ca91748",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.499328438447
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "e7f2b08a-4cf1-4a62-9cad-f0a9c97d0495",
+      "native_zone_name": "Static union /3.3V B.Cu 1",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "0192791c-f82b-48cd-8578-330eec8b7523",
+          "source_name": "Recovered 6bcdf9aa9bdd2758",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071096736633
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "f023a74b-7768-45e1-b262-30d1e86f8a67",
+      "native_zone_name": "Static union /SPI_MISO B.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "dcce1333-05d4-4fab-a441-aadc7338512d",
+          "source_name": "Recovered 5412e5555e099114",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.0720748926025
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "f177a57c-bf8c-413f-a2a1-a8bc91e0d4e9",
+      "native_zone_name": "Static union /3.3V B.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "a5f661d0-64bc-4718-8733-15554f457f77",
+          "source_name": "Recovered 8a133448173b9009",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 0.071096736633
+        }
+      ],
+      "conservative_class_collapse": false
+    }
+  ],
+  "native_rules": [
+    {
+      "name": "Source SAFE F.Cu track to track",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Track')",
+      "constraint": "clearance",
+      "minimum_mm": 0.101999,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu track to smd",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu track to pth",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu track to via",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu track to graphic",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu track to zone_6",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu track to zone_6_7",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "conservative maximum for source-class union"
+    },
+    {
+      "name": "Source SAFE F.Cu track to zone_7",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to smd",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to pth",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to via",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to graphic",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to zone_6",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to zone_6_7",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "conservative maximum for source-class union"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to zone_7",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu pth to pth",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu pth to via",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu pth to graphic",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu pth to zone_6",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu pth to zone_6_7",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "conservative maximum for source-class union"
+    },
+    {
+      "name": "Source SAFE F.Cu pth to zone_7",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu via to via",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu via to graphic",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu via to zone_6",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu via to zone_6_7",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "conservative maximum for source-class union"
+    },
+    {
+      "name": "Source SAFE F.Cu via to zone_7",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu graphic to graphic",
+      "condition": "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu graphic to zone_6",
+      "condition": "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu graphic to zone_6_7",
+      "condition": "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "conservative maximum for source-class union"
+    },
+    {
+      "name": "Source SAFE F.Cu graphic to zone_7",
+      "condition": "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu zone_6 to zone_6",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /SWDCLK F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 17' || A.Name == 'Static union /3.3V F.Cu 20' || A.Name == 'Static union /DE F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 11' || A.Name == 'Static union /DXL_BUS F.Cu 4' || A.Name == 'Static union /UART_RX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 6' || A.Name == 'Static union /SWDIO F.Cu 0' || A.Name == 'Static union /UART_RX F.Cu 1' || A.Name == 'Static union /SPI_CS F.Cu 2' || A.Name == 'Static union /SPI_MISO F.Cu 2' || A.Name == 'Static union /DXL_BUS F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 23' || A.Name == 'Static union /3.3V F.Cu 19' || A.Name == 'Static union /SPI_MOSI F.Cu 0' || A.Name == 'Static union /RX_EN F.Cu 3' || A.Name == 'Static union /UART_TX F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 5' || A.Name == 'Static union /DE F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 2' || A.Name == 'Static union /SWDIO F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 0' || A.Name == 'Static union /SPI_SCK F.Cu 1' || A.Name == 'Static union /RX_EN F.Cu 2' || A.Name == 'Static union /SPI_CS F.Cu 1' || A.Name == 'Static union /SPI_SCK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 0' || A.Name == 'Static union /UART_TX F.Cu 0' || A.Name == 'Static union /NRST F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 1' || A.Name == 'Static union /SPI_MISO F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 10' || A.Name == 'Static union /SPI_MOSI F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 3' || A.Name == 'Static union /DXL_DATA F.Cu 4' || A.Name == 'Static union /SPI_CS F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 7' || A.Name == 'Static union /3.3V F.Cu 4' || A.Name == 'Static union /3.3V F.Cu 18' || A.Name == 'Static union /SWDCLK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 15' || A.Name == 'Static union /MCU_TX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 14' || A.Name == 'Static union /3.3V F.Cu 12' || A.Name == 'Static union /IMU_INT1 F.Cu 1' || A.Name == 'Static union /VDD_BUS F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 2' || A.Name == 'Static union /RX_EN F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 9' || A.Name == 'Static union /IMU_INT2 F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT1 F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 8' || A.Name == 'Static union /DE F.Cu 0' || A.Name == 'Static union /NRST F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 22' || A.Name == 'Static union /3.3V F.Cu 13' || A.Name == 'Static union /3.3V F.Cu 21' || A.Name == 'Static union /RX_EN F.Cu 0' || A.Name == 'Static union /SPI_CS F.Cu 3' || A.Name == 'Static union /VDD_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT2 F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 16' || A.Name == 'Static union /3.3V B.Cu 2' || A.Name == 'Static union /SPI_MISO B.Cu 1' || A.Name == 'Static union /RX_EN B.Cu 0' || A.Name == 'Static union /RX_EN B.Cu 1' || A.Name == 'Static union /3.3V B.Cu 3' || A.Name == 'Static union /3.3V B.Cu 4' || A.Name == 'Static union /3.3V B.Cu 1' || A.Name == 'Static union /SPI_MISO B.Cu 0' || A.Name == 'Static union /3.3V B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu zone_6 to zone_6_7",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /SWDCLK F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 17' || A.Name == 'Static union /3.3V F.Cu 20' || A.Name == 'Static union /DE F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 11' || A.Name == 'Static union /DXL_BUS F.Cu 4' || A.Name == 'Static union /UART_RX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 6' || A.Name == 'Static union /SWDIO F.Cu 0' || A.Name == 'Static union /UART_RX F.Cu 1' || A.Name == 'Static union /SPI_CS F.Cu 2' || A.Name == 'Static union /SPI_MISO F.Cu 2' || A.Name == 'Static union /DXL_BUS F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 23' || A.Name == 'Static union /3.3V F.Cu 19' || A.Name == 'Static union /SPI_MOSI F.Cu 0' || A.Name == 'Static union /RX_EN F.Cu 3' || A.Name == 'Static union /UART_TX F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 5' || A.Name == 'Static union /DE F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 2' || A.Name == 'Static union /SWDIO F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 0' || A.Name == 'Static union /SPI_SCK F.Cu 1' || A.Name == 'Static union /RX_EN F.Cu 2' || A.Name == 'Static union /SPI_CS F.Cu 1' || A.Name == 'Static union /SPI_SCK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 0' || A.Name == 'Static union /UART_TX F.Cu 0' || A.Name == 'Static union /NRST F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 1' || A.Name == 'Static union /SPI_MISO F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 10' || A.Name == 'Static union /SPI_MOSI F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 3' || A.Name == 'Static union /DXL_DATA F.Cu 4' || A.Name == 'Static union /SPI_CS F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 7' || A.Name == 'Static union /3.3V F.Cu 4' || A.Name == 'Static union /3.3V F.Cu 18' || A.Name == 'Static union /SWDCLK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 15' || A.Name == 'Static union /MCU_TX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 14' || A.Name == 'Static union /3.3V F.Cu 12' || A.Name == 'Static union /IMU_INT1 F.Cu 1' || A.Name == 'Static union /VDD_BUS F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 2' || A.Name == 'Static union /RX_EN F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 9' || A.Name == 'Static union /IMU_INT2 F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT1 F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 8' || A.Name == 'Static union /DE F.Cu 0' || A.Name == 'Static union /NRST F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 22' || A.Name == 'Static union /3.3V F.Cu 13' || A.Name == 'Static union /3.3V F.Cu 21' || A.Name == 'Static union /RX_EN F.Cu 0' || A.Name == 'Static union /SPI_CS F.Cu 3' || A.Name == 'Static union /VDD_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT2 F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 16' || A.Name == 'Static union /3.3V B.Cu 2' || A.Name == 'Static union /SPI_MISO B.Cu 1' || A.Name == 'Static union /RX_EN B.Cu 0' || A.Name == 'Static union /RX_EN B.Cu 1' || A.Name == 'Static union /3.3V B.Cu 3' || A.Name == 'Static union /3.3V B.Cu 4' || A.Name == 'Static union /3.3V B.Cu 1' || A.Name == 'Static union /SPI_MISO B.Cu 0' || A.Name == 'Static union /3.3V B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "conservative maximum for source-class union"
+    },
+    {
+      "name": "Source SAFE F.Cu zone_6 to zone_7",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /SWDCLK F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 17' || A.Name == 'Static union /3.3V F.Cu 20' || A.Name == 'Static union /DE F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 11' || A.Name == 'Static union /DXL_BUS F.Cu 4' || A.Name == 'Static union /UART_RX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 6' || A.Name == 'Static union /SWDIO F.Cu 0' || A.Name == 'Static union /UART_RX F.Cu 1' || A.Name == 'Static union /SPI_CS F.Cu 2' || A.Name == 'Static union /SPI_MISO F.Cu 2' || A.Name == 'Static union /DXL_BUS F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 23' || A.Name == 'Static union /3.3V F.Cu 19' || A.Name == 'Static union /SPI_MOSI F.Cu 0' || A.Name == 'Static union /RX_EN F.Cu 3' || A.Name == 'Static union /UART_TX F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 5' || A.Name == 'Static union /DE F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 2' || A.Name == 'Static union /SWDIO F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 0' || A.Name == 'Static union /SPI_SCK F.Cu 1' || A.Name == 'Static union /RX_EN F.Cu 2' || A.Name == 'Static union /SPI_CS F.Cu 1' || A.Name == 'Static union /SPI_SCK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 0' || A.Name == 'Static union /UART_TX F.Cu 0' || A.Name == 'Static union /NRST F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 1' || A.Name == 'Static union /SPI_MISO F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 10' || A.Name == 'Static union /SPI_MOSI F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 3' || A.Name == 'Static union /DXL_DATA F.Cu 4' || A.Name == 'Static union /SPI_CS F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 7' || A.Name == 'Static union /3.3V F.Cu 4' || A.Name == 'Static union /3.3V F.Cu 18' || A.Name == 'Static union /SWDCLK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 15' || A.Name == 'Static union /MCU_TX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 14' || A.Name == 'Static union /3.3V F.Cu 12' || A.Name == 'Static union /IMU_INT1 F.Cu 1' || A.Name == 'Static union /VDD_BUS F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 2' || A.Name == 'Static union /RX_EN F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 9' || A.Name == 'Static union /IMU_INT2 F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT1 F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 8' || A.Name == 'Static union /DE F.Cu 0' || A.Name == 'Static union /NRST F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 22' || A.Name == 'Static union /3.3V F.Cu 13' || A.Name == 'Static union /3.3V F.Cu 21' || A.Name == 'Static union /RX_EN F.Cu 0' || A.Name == 'Static union /SPI_CS F.Cu 3' || A.Name == 'Static union /VDD_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT2 F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 16' || A.Name == 'Static union /3.3V B.Cu 2' || A.Name == 'Static union /SPI_MISO B.Cu 1' || A.Name == 'Static union /RX_EN B.Cu 0' || A.Name == 'Static union /RX_EN B.Cu 1' || A.Name == 'Static union /3.3V B.Cu 3' || A.Name == 'Static union /3.3V B.Cu 4' || A.Name == 'Static union /3.3V B.Cu 1' || A.Name == 'Static union /SPI_MISO B.Cu 0' || A.Name == 'Static union /3.3V B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu zone_6_7 to zone_6_7",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /GND F.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "conservative maximum for source-class union"
+    },
+    {
+      "name": "Source SAFE F.Cu zone_6_7 to zone_7",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /GND F.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "conservative maximum for source-class union"
+    },
+    {
+      "name": "Source SAFE F.Cu zone_7 to zone_7",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /GND B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to track",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Track')",
+      "constraint": "clearance",
+      "minimum_mm": 0.101999,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to smd",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to pth",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to via",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to graphic",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to zone_6",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to zone_6_7",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "conservative maximum for source-class union"
+    },
+    {
+      "name": "Source SAFE B.Cu track to zone_7",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to smd",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to pth",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to via",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to graphic",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to zone_6",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to zone_6_7",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "conservative maximum for source-class union"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to zone_7",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu pth to pth",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu pth to via",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu pth to graphic",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu pth to zone_6",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu pth to zone_6_7",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "conservative maximum for source-class union"
+    },
+    {
+      "name": "Source SAFE B.Cu pth to zone_7",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu via to via",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu via to graphic",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu via to zone_6",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu via to zone_6_7",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "conservative maximum for source-class union"
+    },
+    {
+      "name": "Source SAFE B.Cu via to zone_7",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu graphic to graphic",
+      "condition": "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu graphic to zone_6",
+      "condition": "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu graphic to zone_6_7",
+      "condition": "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "conservative maximum for source-class union"
+    },
+    {
+      "name": "Source SAFE B.Cu graphic to zone_7",
+      "condition": "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu zone_6 to zone_6",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /SWDCLK F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 17' || A.Name == 'Static union /3.3V F.Cu 20' || A.Name == 'Static union /DE F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 11' || A.Name == 'Static union /DXL_BUS F.Cu 4' || A.Name == 'Static union /UART_RX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 6' || A.Name == 'Static union /SWDIO F.Cu 0' || A.Name == 'Static union /UART_RX F.Cu 1' || A.Name == 'Static union /SPI_CS F.Cu 2' || A.Name == 'Static union /SPI_MISO F.Cu 2' || A.Name == 'Static union /DXL_BUS F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 23' || A.Name == 'Static union /3.3V F.Cu 19' || A.Name == 'Static union /SPI_MOSI F.Cu 0' || A.Name == 'Static union /RX_EN F.Cu 3' || A.Name == 'Static union /UART_TX F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 5' || A.Name == 'Static union /DE F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 2' || A.Name == 'Static union /SWDIO F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 0' || A.Name == 'Static union /SPI_SCK F.Cu 1' || A.Name == 'Static union /RX_EN F.Cu 2' || A.Name == 'Static union /SPI_CS F.Cu 1' || A.Name == 'Static union /SPI_SCK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 0' || A.Name == 'Static union /UART_TX F.Cu 0' || A.Name == 'Static union /NRST F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 1' || A.Name == 'Static union /SPI_MISO F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 10' || A.Name == 'Static union /SPI_MOSI F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 3' || A.Name == 'Static union /DXL_DATA F.Cu 4' || A.Name == 'Static union /SPI_CS F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 7' || A.Name == 'Static union /3.3V F.Cu 4' || A.Name == 'Static union /3.3V F.Cu 18' || A.Name == 'Static union /SWDCLK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 15' || A.Name == 'Static union /MCU_TX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 14' || A.Name == 'Static union /3.3V F.Cu 12' || A.Name == 'Static union /IMU_INT1 F.Cu 1' || A.Name == 'Static union /VDD_BUS F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 2' || A.Name == 'Static union /RX_EN F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 9' || A.Name == 'Static union /IMU_INT2 F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT1 F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 8' || A.Name == 'Static union /DE F.Cu 0' || A.Name == 'Static union /NRST F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 22' || A.Name == 'Static union /3.3V F.Cu 13' || A.Name == 'Static union /3.3V F.Cu 21' || A.Name == 'Static union /RX_EN F.Cu 0' || A.Name == 'Static union /SPI_CS F.Cu 3' || A.Name == 'Static union /VDD_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT2 F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 16' || A.Name == 'Static union /3.3V B.Cu 2' || A.Name == 'Static union /SPI_MISO B.Cu 1' || A.Name == 'Static union /RX_EN B.Cu 0' || A.Name == 'Static union /RX_EN B.Cu 1' || A.Name == 'Static union /3.3V B.Cu 3' || A.Name == 'Static union /3.3V B.Cu 4' || A.Name == 'Static union /3.3V B.Cu 1' || A.Name == 'Static union /SPI_MISO B.Cu 0' || A.Name == 'Static union /3.3V B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu zone_6 to zone_6_7",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /SWDCLK F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 17' || A.Name == 'Static union /3.3V F.Cu 20' || A.Name == 'Static union /DE F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 11' || A.Name == 'Static union /DXL_BUS F.Cu 4' || A.Name == 'Static union /UART_RX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 6' || A.Name == 'Static union /SWDIO F.Cu 0' || A.Name == 'Static union /UART_RX F.Cu 1' || A.Name == 'Static union /SPI_CS F.Cu 2' || A.Name == 'Static union /SPI_MISO F.Cu 2' || A.Name == 'Static union /DXL_BUS F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 23' || A.Name == 'Static union /3.3V F.Cu 19' || A.Name == 'Static union /SPI_MOSI F.Cu 0' || A.Name == 'Static union /RX_EN F.Cu 3' || A.Name == 'Static union /UART_TX F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 5' || A.Name == 'Static union /DE F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 2' || A.Name == 'Static union /SWDIO F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 0' || A.Name == 'Static union /SPI_SCK F.Cu 1' || A.Name == 'Static union /RX_EN F.Cu 2' || A.Name == 'Static union /SPI_CS F.Cu 1' || A.Name == 'Static union /SPI_SCK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 0' || A.Name == 'Static union /UART_TX F.Cu 0' || A.Name == 'Static union /NRST F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 1' || A.Name == 'Static union /SPI_MISO F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 10' || A.Name == 'Static union /SPI_MOSI F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 3' || A.Name == 'Static union /DXL_DATA F.Cu 4' || A.Name == 'Static union /SPI_CS F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 7' || A.Name == 'Static union /3.3V F.Cu 4' || A.Name == 'Static union /3.3V F.Cu 18' || A.Name == 'Static union /SWDCLK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 15' || A.Name == 'Static union /MCU_TX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 14' || A.Name == 'Static union /3.3V F.Cu 12' || A.Name == 'Static union /IMU_INT1 F.Cu 1' || A.Name == 'Static union /VDD_BUS F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 2' || A.Name == 'Static union /RX_EN F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 9' || A.Name == 'Static union /IMU_INT2 F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT1 F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 8' || A.Name == 'Static union /DE F.Cu 0' || A.Name == 'Static union /NRST F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 22' || A.Name == 'Static union /3.3V F.Cu 13' || A.Name == 'Static union /3.3V F.Cu 21' || A.Name == 'Static union /RX_EN F.Cu 0' || A.Name == 'Static union /SPI_CS F.Cu 3' || A.Name == 'Static union /VDD_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT2 F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 16' || A.Name == 'Static union /3.3V B.Cu 2' || A.Name == 'Static union /SPI_MISO B.Cu 1' || A.Name == 'Static union /RX_EN B.Cu 0' || A.Name == 'Static union /RX_EN B.Cu 1' || A.Name == 'Static union /3.3V B.Cu 3' || A.Name == 'Static union /3.3V B.Cu 4' || A.Name == 'Static union /3.3V B.Cu 1' || A.Name == 'Static union /SPI_MISO B.Cu 0' || A.Name == 'Static union /3.3V B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "conservative maximum for source-class union"
+    },
+    {
+      "name": "Source SAFE B.Cu zone_6 to zone_7",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /SWDCLK F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 17' || A.Name == 'Static union /3.3V F.Cu 20' || A.Name == 'Static union /DE F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 11' || A.Name == 'Static union /DXL_BUS F.Cu 4' || A.Name == 'Static union /UART_RX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 6' || A.Name == 'Static union /SWDIO F.Cu 0' || A.Name == 'Static union /UART_RX F.Cu 1' || A.Name == 'Static union /SPI_CS F.Cu 2' || A.Name == 'Static union /SPI_MISO F.Cu 2' || A.Name == 'Static union /DXL_BUS F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 23' || A.Name == 'Static union /3.3V F.Cu 19' || A.Name == 'Static union /SPI_MOSI F.Cu 0' || A.Name == 'Static union /RX_EN F.Cu 3' || A.Name == 'Static union /UART_TX F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 5' || A.Name == 'Static union /DE F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 2' || A.Name == 'Static union /SWDIO F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 0' || A.Name == 'Static union /SPI_SCK F.Cu 1' || A.Name == 'Static union /RX_EN F.Cu 2' || A.Name == 'Static union /SPI_CS F.Cu 1' || A.Name == 'Static union /SPI_SCK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 0' || A.Name == 'Static union /UART_TX F.Cu 0' || A.Name == 'Static union /NRST F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 1' || A.Name == 'Static union /SPI_MISO F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 10' || A.Name == 'Static union /SPI_MOSI F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 3' || A.Name == 'Static union /DXL_DATA F.Cu 4' || A.Name == 'Static union /SPI_CS F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 7' || A.Name == 'Static union /3.3V F.Cu 4' || A.Name == 'Static union /3.3V F.Cu 18' || A.Name == 'Static union /SWDCLK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 15' || A.Name == 'Static union /MCU_TX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 14' || A.Name == 'Static union /3.3V F.Cu 12' || A.Name == 'Static union /IMU_INT1 F.Cu 1' || A.Name == 'Static union /VDD_BUS F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 2' || A.Name == 'Static union /RX_EN F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 9' || A.Name == 'Static union /IMU_INT2 F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT1 F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 8' || A.Name == 'Static union /DE F.Cu 0' || A.Name == 'Static union /NRST F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 22' || A.Name == 'Static union /3.3V F.Cu 13' || A.Name == 'Static union /3.3V F.Cu 21' || A.Name == 'Static union /RX_EN F.Cu 0' || A.Name == 'Static union /SPI_CS F.Cu 3' || A.Name == 'Static union /VDD_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT2 F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 16' || A.Name == 'Static union /3.3V B.Cu 2' || A.Name == 'Static union /SPI_MISO B.Cu 1' || A.Name == 'Static union /RX_EN B.Cu 0' || A.Name == 'Static union /RX_EN B.Cu 1' || A.Name == 'Static union /3.3V B.Cu 3' || A.Name == 'Static union /3.3V B.Cu 4' || A.Name == 'Static union /3.3V B.Cu 1' || A.Name == 'Static union /SPI_MISO B.Cu 0' || A.Name == 'Static union /3.3V B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu zone_6_7 to zone_6_7",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /GND F.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "conservative maximum for source-class union"
+    },
+    {
+      "name": "Source SAFE B.Cu zone_6_7 to zone_7",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /GND F.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "conservative maximum for source-class union"
+    },
+    {
+      "name": "Source SAFE B.Cu zone_7 to zone_7",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /GND B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source edge envelope track",
+      "condition": "A.Type == 'Track'",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.299999,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope smd",
+      "condition": "A.Type == 'Pad' && A.Pad_Type == 'SMD'",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.29972,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope pth",
+      "condition": "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.29972,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope via",
+      "condition": "A.Type == 'Via'",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.29972,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope graphic",
+      "condition": "A.Type == 'Graphic' && A.Layer != 'Edge.Cuts'",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.299999,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope zone_6",
+      "condition": "A.Type == 'Zone' && (A.Name == 'Static union /SWDCLK F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 17' || A.Name == 'Static union /3.3V F.Cu 20' || A.Name == 'Static union /DE F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 11' || A.Name == 'Static union /DXL_BUS F.Cu 4' || A.Name == 'Static union /UART_RX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 6' || A.Name == 'Static union /SWDIO F.Cu 0' || A.Name == 'Static union /UART_RX F.Cu 1' || A.Name == 'Static union /SPI_CS F.Cu 2' || A.Name == 'Static union /SPI_MISO F.Cu 2' || A.Name == 'Static union /DXL_BUS F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 23' || A.Name == 'Static union /3.3V F.Cu 19' || A.Name == 'Static union /SPI_MOSI F.Cu 0' || A.Name == 'Static union /RX_EN F.Cu 3' || A.Name == 'Static union /UART_TX F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 5' || A.Name == 'Static union /DE F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 2' || A.Name == 'Static union /SWDIO F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 0' || A.Name == 'Static union /SPI_SCK F.Cu 1' || A.Name == 'Static union /RX_EN F.Cu 2' || A.Name == 'Static union /SPI_CS F.Cu 1' || A.Name == 'Static union /SPI_SCK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 0' || A.Name == 'Static union /UART_TX F.Cu 0' || A.Name == 'Static union /NRST F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 1' || A.Name == 'Static union /SPI_MISO F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 10' || A.Name == 'Static union /SPI_MOSI F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 3' || A.Name == 'Static union /DXL_DATA F.Cu 4' || A.Name == 'Static union /SPI_CS F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 7' || A.Name == 'Static union /3.3V F.Cu 4' || A.Name == 'Static union /3.3V F.Cu 18' || A.Name == 'Static union /SWDCLK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 15' || A.Name == 'Static union /MCU_TX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 14' || A.Name == 'Static union /3.3V F.Cu 12' || A.Name == 'Static union /IMU_INT1 F.Cu 1' || A.Name == 'Static union /VDD_BUS F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 2' || A.Name == 'Static union /RX_EN F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 9' || A.Name == 'Static union /IMU_INT2 F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT1 F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 8' || A.Name == 'Static union /DE F.Cu 0' || A.Name == 'Static union /NRST F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 22' || A.Name == 'Static union /3.3V F.Cu 13' || A.Name == 'Static union /3.3V F.Cu 21' || A.Name == 'Static union /RX_EN F.Cu 0' || A.Name == 'Static union /SPI_CS F.Cu 3' || A.Name == 'Static union /VDD_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT2 F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 16' || A.Name == 'Static union /3.3V B.Cu 2' || A.Name == 'Static union /SPI_MISO B.Cu 1' || A.Name == 'Static union /RX_EN B.Cu 0' || A.Name == 'Static union /RX_EN B.Cu 1' || A.Name == 'Static union /3.3V B.Cu 3' || A.Name == 'Static union /3.3V B.Cu 4' || A.Name == 'Static union /3.3V B.Cu 1' || A.Name == 'Static union /SPI_MISO B.Cu 0' || A.Name == 'Static union /3.3V B.Cu 0')",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.29972,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope zone_6_7",
+      "condition": "A.Type == 'Zone' && (A.Name == 'Static union /GND F.Cu 0')",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.29972,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope zone_7",
+      "condition": "A.Type == 'Zone' && (A.Name == 'Static union /GND B.Cu 0')",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.254,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source drill envelope pth to track",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Track')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to smd",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to pth",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to via",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Via')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to graphic",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to zone_6",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to zone_6_7",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.254,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to zone_7",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.254,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to track",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Track')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to smd",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to pth",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to via",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Via')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to graphic",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to zone_6",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to zone_6_7",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.254,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to zone_7",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.254,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill to drill minimum",
+      "condition": null,
+      "constraint": "hole_to_hole",
+      "minimum_mm": 0.299999,
+      "layer": null,
+      "scope": "source OTHER global drill-to-drill minimum; native provider selects drilled objects including vias"
+    }
+  ],
+  "full_rule_fidelity": false,
+  "unmapped_scope": [
+    "NPTH mechanical object class",
+    "source test-pad classes3/4 without per-pad mapping",
+    "fallback source class10",
+    "mask/paste",
+    "regenerative copper rules",
+    "exact per-edge cutout/outline direction"
+  ],
+  "schematic_parity": [],
+  "drc_counts": {
+    "solder_mask_bridge": 64,
+    "copper_edge_clearance": 1,
+    "clearance": 245,
+    "hole_clearance": 15,
+    "zones_intersect": 5
+  },
+  "unconnected": 0,
+  "manufacturing_ready": false
+}

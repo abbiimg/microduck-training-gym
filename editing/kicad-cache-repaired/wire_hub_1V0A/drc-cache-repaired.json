@@ -1,0 +1,589 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-27T10:16:14",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "wire_hub_1V0A.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2963 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 70.070302,
+                        "y": -12.057299
+                    },
+                    "uuid": "a8864ec8-1108-4911-b92c-799a2dba028b"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 69.469,
+                        "y": -2.032
+                    },
+                    "uuid": "0aaf0d73-f4cb-44cb-a979-fd6b7ee75b3d"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2870 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 66.9803,
+                        "y": -21.039999
+                    },
+                    "uuid": "a6209036-0e82-4d1b-9782-61430f10ea55"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 66.38828,
+                        "y": -19.177
+                    },
+                    "uuid": "1c69a7d9-c739-4f6d-965c-5f7316317cf0"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2973 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 50.7057,
+                        "y": -11.929999
+                    },
+                    "uuid": "78e159f8-6a42-4b2a-8331-4a7d49458b5d"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 51.308,
+                        "y": -13.462
+                    },
+                    "uuid": "256e7bd8-05b2-4a35-8d8d-e7e6e393eb25"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2973 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 50.7057,
+                        "y": -11.929999
+                    },
+                    "uuid": "78e159f8-6a42-4b2a-8331-4a7d49458b5d"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 51.308,
+                        "y": -20.193
+                    },
+                    "uuid": "30fd80ec-4cd3-44ff-95dd-bd6e5a1fe967"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2963 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 70.070302,
+                        "y": -12.057299
+                    },
+                    "uuid": "a8864ec8-1108-4911-b92c-799a2dba028b"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 69.469,
+                        "y": -5.715
+                    },
+                    "uuid": "5041927d-ce09-406a-b0df-230c3ec0f99a"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2963 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 70.070302,
+                        "y": -12.057299
+                    },
+                    "uuid": "a8864ec8-1108-4911-b92c-799a2dba028b"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 69.469,
+                        "y": -8.382
+                    },
+                    "uuid": "582766b1-a2dc-4557-8413-40f7a755ef80"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2870 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 66.9803,
+                        "y": -21.039999
+                    },
+                    "uuid": "a6209036-0e82-4d1b-9782-61430f10ea55"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 66.38828,
+                        "y": -15.748
+                    },
+                    "uuid": "8ad92495-d45e-4c8a-9d41-98edd85c5178"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2870 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 66.9803,
+                        "y": -21.039999
+                    },
+                    "uuid": "a6209036-0e82-4d1b-9782-61430f10ea55"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 66.38828,
+                        "y": -17.653
+                    },
+                    "uuid": "8fad52f0-f9e8-4d70-85b9-761bc29d1e9e"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2870 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 66.9803,
+                        "y": -21.039999
+                    },
+                    "uuid": "a6209036-0e82-4d1b-9782-61430f10ea55"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 66.38828,
+                        "y": -12.192
+                    },
+                    "uuid": "90a4b67c-18bc-4d55-aee9-6ca790f02ecf"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2973 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 50.7057,
+                        "y": -11.929999
+                    },
+                    "uuid": "78e159f8-6a42-4b2a-8331-4a7d49458b5d"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 51.308,
+                        "y": -17.907
+                    },
+                    "uuid": "e9d36330-7c7f-48d8-841c-cc8332e09a4a"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2870 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 66.9803,
+                        "y": -21.039999
+                    },
+                    "uuid": "a6209036-0e82-4d1b-9782-61430f10ea55"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 66.38828,
+                        "y": -14.224
+                    },
+                    "uuid": "f47f0a49-b5e8-41e1-91ee-d24141cae202"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2973 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 50.7057,
+                        "y": -11.929999
+                    },
+                    "uuid": "78e159f8-6a42-4b2a-8331-4a7d49458b5d"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 51.308,
+                        "y": -15.875
+                    },
+                    "uuid": "f6947b32-6f87-4c06-af1d-34a8402ae379"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope track' clearance 0.3000 mm; actual 0.2863 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 50.693,
+                        "y": -20.922699
+                    },
+                    "uuid": "83d5eab3-eda9-474e-b48e-fbab65e16e1c"
+                },
+                {
+                    "description": "Track [/DXL_BUS] on F.Cu, length 0.2602 mm",
+                    "pos": {
+                        "x": 49.980977,
+                        "y": -21.520023
+                    },
+                    "uuid": "35fa9cf6-891e-4762-a5fc-8e78843bc141"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope track' clearance 0.3000 mm; actual 0.2863 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 50.693,
+                        "y": -20.922699
+                    },
+                    "uuid": "83d5eab3-eda9-474e-b48e-fbab65e16e1c"
+                },
+                {
+                    "description": "Track [/DXL_BUS] on F.Cu, length 0.8890 mm",
+                    "pos": {
+                        "x": 50.165,
+                        "y": -21.336
+                    },
+                    "uuid": "cf5630cf-6425-41b3-ba04-32ff7e1b02c9"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope zone_7' clearance 0.2540 mm; actual 0.2438 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 47.785698,
+                        "y": 0.409999
+                    },
+                    "uuid": "48a036a7-4904-4e91-8a66-87a6a77830aa"
+                },
+                {
+                    "description": "Zone 'Static union /GND F.Cu 0' [/GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 65.842632,
+                        "y": -21.525921
+                    },
+                    "uuid": "38525400-c22f-4f61-b51e-2ceb3257b55b"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope zone_7' clearance 0.2540 mm; actual 0.2438 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 48.773,
+                        "y": -25.81
+                    },
+                    "uuid": "783caab9-c054-4e27-8098-7bb2e3804c2f"
+                },
+                {
+                    "description": "Zone 'Static union /GND F.Cu 5' [/GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 69.085495,
+                        "y": -26.553429
+                    },
+                    "uuid": "9ce77bbc-cead-465a-8e13-336048d12640"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope zone_7' clearance 0.2540 mm; actual 0.2438 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 48.773,
+                        "y": -25.81
+                    },
+                    "uuid": "783caab9-c054-4e27-8098-7bb2e3804c2f"
+                },
+                {
+                    "description": "Zone 'Static union /GND B.Cu 0' [/GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 69.085495,
+                        "y": -26.553429
+                    },
+                    "uuid": "5db085cf-4ed6-451b-bcde-86e00f427419"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.79784,
+                        "y": -21.998
+                    },
+                    "uuid": "afb1cfba-b212-44cd-8b3e-64d6a6e42fc5"
+                },
+                {
+                    "description": "Reference field of J1",
+                    "pos": {
+                        "x": 62.611,
+                        "y": -23.622
+                    },
+                    "uuid": "dbd76566-ab50-4144-9f13-f0b0607e4b3f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J6 on F.Silkscreen",
+                    "pos": {
+                        "x": 62.611,
+                        "y": -12.350013
+                    },
+                    "uuid": "6c36b007-35c3-43f4-a644-039d59162ee4"
+                },
+                {
+                    "description": "Reference field of J6",
+                    "pos": {
+                        "x": 60.96,
+                        "y": -12.319
+                    },
+                    "uuid": "bb499493-a42c-4b59-94a3-a36bc7c1f3cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of CN1",
+                    "pos": {
+                        "x": 59.66206,
+                        "y": -18.542
+                    },
+                    "uuid": "5cd80f04-7571-4f1f-a339-01738e39025a"
+                },
+                {
+                    "description": "Segment of J6 on F.Silkscreen",
+                    "pos": {
+                        "x": 62.611,
+                        "y": -12.350013
+                    },
+                    "uuid": "6c36b007-35c3-43f4-a644-039d59162ee4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of CN1 on F.Silkscreen",
+                    "pos": {
+                        "x": 55.766995,
+                        "y": -20.10156
+                    },
+                    "uuid": "7b421a0b-c29d-4da8-baf5-94e0750c56f7"
+                },
+                {
+                    "description": "Reference field of J2",
+                    "pos": {
+                        "x": 54.229,
+                        "y": -23.495
+                    },
+                    "uuid": "f0dc7923-b215-47a7-a5b3-1ac84c293a49"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J6 on F.Silkscreen",
+                    "pos": {
+                        "x": 62.611,
+                        "y": -12.349988
+                    },
+                    "uuid": "67ccf9ae-031b-4e07-8a20-fad6852ce105"
+                },
+                {
+                    "description": "Reference field of J6",
+                    "pos": {
+                        "x": 60.96,
+                        "y": -12.319
+                    },
+                    "uuid": "bb499493-a42c-4b59-94a3-a36bc7c1f3cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J4 on F.Silkscreen",
+                    "pos": {
+                        "x": 48.018065,
+                        "y": -3.685997
+                    },
+                    "uuid": "6e4b3202-2200-4cdc-ac3f-0775f930a35b"
+                },
+                {
+                    "description": "Reference field of J4",
+                    "pos": {
+                        "x": 48.133,
+                        "y": -2.286
+                    },
+                    "uuid": "725f2a51-ce0f-411f-ad1d-6602d8111a15"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 70.070302,
+                        "y": -12.057299
+                    },
+                    "uuid": "a8864ec8-1108-4911-b92c-799a2dba028b"
+                },
+                {
+                    "description": "Reference field of J3",
+                    "pos": {
+                        "x": 68.326,
+                        "y": -2.286
+                    },
+                    "uuid": "e3e77527-deef-4588-8602-f1b07a326ce9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        }
+    ]
+}

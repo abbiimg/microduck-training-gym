@@ -1,0 +1,110 @@
+MicroDuck source-rule review — 2026-10-26
+
+Read-only evidence review. No board, rule, source repository, activation state,
+or manufacturing gate was changed. Machine-readable raw rule/selector snapshots
+and numeric projections are in source-rule-review.json beside this report.
+
+Actionable findings
+1. For the INSTALLED JLCEDA Pro 4.1.78 decoder, raw RULE length values are mil.
+   decodeWorker.js explicitly divides SAFE matrix entries, TRACK widths, OTHER
+   clearances, RADIUS radii and SOLDER/PASTE expansions by 10 when creating its
+   internal model. Internal coordinates use 0.01 inch; therefore raw * 0.0254
+   gives mm. ruleContext.unit affects presentation, not those numeric values.
+   Do not interpret unit="mm" as meaning stroMin=5 is a 5 mm track minimum.
+
+2. There is an official-documentation conflict. Current easyeda-format-skill
+   commit 4fcab1747d47b2ae01d7f93a485859970c5cf933 says RULE lengths are already
+   internal 0.01-inch units with no /10. That does not describe the installed
+   decoder inspected here. Prefer the version-specific executable evidence for
+   these source projects, and preserve this conflict rather than silently
+   applying the new schema's 10x larger numbers.
+   Official schema: https://github.com/easyeda/easyeda-format-skill/blob/4fcab1747d47b2ae01d7f93a485859970c5cf933/schemas/t-rule-context.json
+
+3. RADIUS minRadius/defRadius/maxRadius and minInner/defInner/maxInner are RADII.
+   The installed DRC doubles them before comparing with actual outer/hole
+   diameters. All four recovered boards have the same default viaSize rule:
+     outer min/default diameter: 0.499999 / 0.61000132 mm
+     drill min/default diameter: 0.2999994 / 0.30499812 mm
+   Native KiCad constraints use diameters. Avoid a factor-of-two error. Source
+   four-decimal-mil quantization can place nominal 0.3 mm drills at 0.299999 mm
+   after KiCad's integer-nanometre rounding. Retain exact source values and an
+   explicit rounding policy; do not simply round the rule upward to 0.300000.
+
+4. Default TRACK copperThickness1oz is 5/10/100 raw mil, equivalent to
+   0.127/0.254/2.54 mm minimum/default/maximum. Its stored content lists layer 1.
+   The installed TRACK model vS.getTable delegates to common bl.getValue;
+   missing layer 2 falls back to referenceLayer=1. Thus this source default also
+   supplies the bottom-layer minimum. Auditing every recovered RULE_SELECTOR
+   found no TRACK or RADIUS selections, and every VIA ruleName is empty. These
+   defaults therefore have no observed competing source selection in the four
+   boards. isOpen is a UI expansion/status field, not evidence that an entire
+   rule is inactive. source-manufacturing-minima.json records this bounded audit.
+
+5. SAFE is a lower-triangular symmetric pair-class matrix, not one clearance.
+   Installed drcWorker.js class mapping IG and SAFE model getClearance establish:
+     0 track; 1 surface pad; 2 multilayer pad;
+     3 surface test pad; 4 multilayer test pad; 5 via;
+     6 fill/teardrop; 7 copper/inner-plane;
+     8 slot/cutout; 9 non-outline polyline graphic;
+     10 fallback item class (exact membership not fully qualified);
+     11 board outline; 12 drill override.
+   Source copper shape types 13 and 14 normalize to matrix index 7.
+   Index 12 is assigned for drill checking; it is not a second copper pad class.
+   Example revised-IMU default rows: track-track 4.0157 mil = 0.10199878 mm;
+   track-via 5.9843 mil = 0.15200122 mm; board-outline to ordinary copper
+   11.8 mil = 0.29972 mm. Copying the matrix minimum to global clearance would
+   incorrectly permit many pair classes at roughly 0.102 mm.
+
+6. OTHER holeClearance is drill-to-drill (raw 11.811 mil = 0.2999994 mm).
+   It is separate from copper-to-hole and copper-to-edge SAFE rows. KiCad's
+   current default 0.25 mm hole clearance is not the source's value. A faithful
+   translation may tighten some checks while relaxing other default checks.
+
+7. SOLDER defaults: pad/test-pad expansion 2 mil = 0.0508 mm, via expansion
+   -1000 raw is a large negative inset. Installed via expansion code, not the
+   numerical sign alone, should determine KiCad tenting representation. Current
+   schema describes negative via expansion as shrink, and PASTE test-point
+   sentinel as no expansion; do not apply one sentinel interpretation to both.
+   Pad-level null means inherit the selected rule; explicit pad values override
+   it. The current converter has not preserved all mask/paste overrides.
+
+8. RULE identity/type/name and RULE_SELECTOR selected object are encoded in
+   JSON-array header IDs, not necessarily repeated in the payload. Lower
+   ruleOrder has higher precedence. Ordinary NORMAL rules are not disabled;
+   DEFAULT marks the default for a type. RULE_TEMPLATE is provenance, not an
+   overriding capability table. Selectors for pours/nets can select different
+   COPPER connection modes or SAFE rules. Export exact selectors before writing
+   KiCad rules. Do not globally replace clearances merely because DRC gets green.
+
+Evidence provenance
+Installed official client files were read as static local code, without starting
+or activating the application. No vendor code is redistributed in this report.
+Client bundle directory:
+C:/Users/abbii/Documents/Codex/tools/lceda-pro-4.1.78/resources/app/assets/pro-pcb/4.1.67.65530fb3/js/
+decodeWorker.js SHA256:
+112e589a741bbb2b3250a70442a8eb3dd59f2bfe8160d71ddc4eb9e0a36be1a4
+drcWorker.js SHA256 is recorded in source-rule-review.json.
+Useful decoder byte-character offsets in this exact UTF-8-decoded bundle:
+SAFE class r5 4095791; OTHER class i5 4097201; TRACK class n5 4097632;
+RADIUS class h5 4101086. Offsets are version-specific, not portable API names.
+Small direct evidence witnesses (no vendor module is redistributed):
+  SAFE decoder: c.map(g=>g.map(m=>m/10))
+  TRACK decoder: minValue:a.stroMin/10
+  RADIUS decoder: n=i.minRadius/10
+  SOLDER decoder: n=i.padTopExpan/10
+  Via DRC comparison: uj(j.minRadius*2,2)
+  Missing-layer fallback: i==null&&(i=e.get(this.referenceLayer))
+Official format documentation cloned read-only under work/easyeda-format-skill;
+its commit is pinned above. That checkout has an MIT license. It is a reference,
+not an installed Codex skill or replacement editor.
+
+Recommended next implementation boundary
+Create source-derived KiCad engineering rules in a separate candidate. The default
+TRACK and RADIUS minima are bounded enough to project for these four boards;
+do not label that subset full rule fidelity. SAFE pair-class coverage and selector
+precedence still need native KiCad condition mapping and checks.
+Retain the original default-rule DRC alongside the source-derived-rule DRC.
+Verify numeric projections and mask/drill behavior independently; document any
+constraints that cannot be represented. Same-net cached-copper consolidation is
+independent of rule translation and should prove per-layer/net copper XOR zero.
+No full source-equivalent regenerative pour or fab release follows from this review.

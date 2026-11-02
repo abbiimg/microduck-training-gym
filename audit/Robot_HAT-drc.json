@@ -1,0 +1,1055 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-26T12:08:49",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "elec_RPI_Robot_HAT.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 36 [unconnected-(J4-Pin_36-Pad36)] of J4 on B.Cu",
+                    "pos": {
+                        "x": 122.9475,
+                        "y": 55.24
+                    },
+                    "uuid": "c66e3e97-e223-498a-9e12-14007aa9680d"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 122.9475,
+                        "y": 56.77
+                    },
+                    "uuid": "2ea5e8ba-e804-4d0d-9829-f466d6dc55ba"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 32 [unconnected-(J4-Pin_32-Pad32)] of J4 on B.Cu",
+                    "pos": {
+                        "x": 117.8675,
+                        "y": 55.24
+                    },
+                    "uuid": "dbf54315-9ed7-4e5e-a04f-bddb0381fb56"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 117.8675,
+                        "y": 56.77
+                    },
+                    "uuid": "22258ef9-f7f1-4e81-baaf-0946ba56c048"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 30 [GND] of J4 on B.Cu",
+                    "pos": {
+                        "x": 115.3275,
+                        "y": 55.24
+                    },
+                    "uuid": "f4392c17-de8c-4039-9a32-5725d5590d1a"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 115.3275,
+                        "y": 56.77
+                    },
+                    "uuid": "bbb21cc2-5fe6-4177-9a4a-df1341f45dbe"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 24 [/Schematic/Audio/IO_08] of J4 on B.Cu",
+                    "pos": {
+                        "x": 107.7075,
+                        "y": 55.24
+                    },
+                    "uuid": "e4af8342-bb8c-4a64-86e7-fbb67db61ea8"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 107.7075,
+                        "y": 56.77
+                    },
+                    "uuid": "5cca08b0-9043-4545-b2d5-88dd7c30b6e4"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 22 [unconnected-(J4-Pin_22-Pad22)] of J4 on B.Cu",
+                    "pos": {
+                        "x": 105.1675,
+                        "y": 55.24
+                    },
+                    "uuid": "efe68bbf-3d40-41c7-9382-db32a19ea72d"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 105.1675,
+                        "y": 56.77
+                    },
+                    "uuid": "626e4288-9ae5-4d78-852a-e6de7d70ba49"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 18 [unconnected-(J4-Pin_18-Pad18)] of J4 on B.Cu",
+                    "pos": {
+                        "x": 100.0875,
+                        "y": 55.24
+                    },
+                    "uuid": "f3149e28-1901-4604-8306-2da9112e51e1"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 100.0875,
+                        "y": 56.77
+                    },
+                    "uuid": "c6d6ff37-9e8f-45f6-9f5c-ccf33d7d3d4e"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 16 [unconnected-(J4-Pin_16-Pad16)] of J4 on B.Cu",
+                    "pos": {
+                        "x": 97.5475,
+                        "y": 55.24
+                    },
+                    "uuid": "e4865448-666f-43b3-9a28-0d5ba3d2dd55"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 97.5475,
+                        "y": 56.77
+                    },
+                    "uuid": "3e2a7b32-1bcd-44a2-9a7e-c1bac0cdbcfb"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 14 [GND] of J4 on B.Cu",
+                    "pos": {
+                        "x": 95.0075,
+                        "y": 55.24
+                    },
+                    "uuid": "a050192c-a92b-43fe-87c8-b539134c7427"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 95.0075,
+                        "y": 56.77
+                    },
+                    "uuid": "93b4dcd3-c7c1-4732-b66f-6b1147e1f14f"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 12 [/Schematic/Audio/IO_18] of J4 on B.Cu",
+                    "pos": {
+                        "x": 92.4675,
+                        "y": 55.24
+                    },
+                    "uuid": "384ecfba-3f6f-4086-a7aa-cdc5c8e6df1f"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 92.4675,
+                        "y": 56.77
+                    },
+                    "uuid": "232d0e3a-7c35-4854-900d-0ba91fb6c4cc"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 8 [/Schematic/Audio/IO_14] of J4 on B.Cu",
+                    "pos": {
+                        "x": 87.3875,
+                        "y": 55.24
+                    },
+                    "uuid": "c64b2046-cce7-490a-a5ac-34ade45bfdbf"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 87.3875,
+                        "y": 56.77
+                    },
+                    "uuid": "3dba065c-615d-44d3-bae0-cb7509233c85"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 35 [/Schematic/Audio/IO_19] of J4 on B.Cu",
+                    "pos": {
+                        "x": 122.9475,
+                        "y": 60.84
+                    },
+                    "uuid": "79a781e4-6ec6-4850-8879-d5879b48add6"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 122.9475,
+                        "y": 59.31
+                    },
+                    "uuid": "4a7816af-a943-40e4-97dc-6ccd01539cc8"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 33 [unconnected-(J4-Pin_33-Pad33)] of J4 on B.Cu",
+                    "pos": {
+                        "x": 120.4075,
+                        "y": 60.84
+                    },
+                    "uuid": "7903622d-2257-414d-906f-a2ca2b74c984"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 120.4075,
+                        "y": 59.31
+                    },
+                    "uuid": "489afcef-fd51-4422-b25e-87f2b03a302d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 27 [/Schematic/Audio/ID_SD] of J4 on B.Cu",
+                    "pos": {
+                        "x": 112.7875,
+                        "y": 60.84
+                    },
+                    "uuid": "5ca2a5ae-ab0a-4d1c-b8d6-3595146cd239"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 112.7875,
+                        "y": 59.31
+                    },
+                    "uuid": "0ae02d7a-a93d-41aa-b2b5-dc7ed295672a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 25 [GND] of J4 on B.Cu",
+                    "pos": {
+                        "x": 110.2475,
+                        "y": 60.84
+                    },
+                    "uuid": "77662bb8-153c-4687-9c40-2e355fe52e25"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 110.2475,
+                        "y": 59.31
+                    },
+                    "uuid": "281d9f1d-8fa4-474f-8371-ee07ae4d4a1a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 23 [/Schematic/Audio/IO_11] of J4 on B.Cu",
+                    "pos": {
+                        "x": 107.7075,
+                        "y": 60.84
+                    },
+                    "uuid": "bef9862b-07ec-4b57-b1ca-f9370fe4e554"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 107.7075,
+                        "y": 59.31
+                    },
+                    "uuid": "4a6806d2-030a-49bb-ac54-76c4feae5f7c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 21 [/Schematic/Audio/IO_09] of J4 on B.Cu",
+                    "pos": {
+                        "x": 105.1675,
+                        "y": 60.84
+                    },
+                    "uuid": "ba0c9bc7-779b-4c73-981e-40570adcd718"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 105.1675,
+                        "y": 59.31
+                    },
+                    "uuid": "6506b2ea-73cb-4fd4-85c5-833b02c41490"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 19 [/Schematic/Audio/IO_10] of J4 on B.Cu",
+                    "pos": {
+                        "x": 102.6275,
+                        "y": 60.84
+                    },
+                    "uuid": "c1a14493-0b50-486c-9b67-17aa372c1fce"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 102.6275,
+                        "y": 59.31
+                    },
+                    "uuid": "481f530a-3b62-4bbb-9233-1f94066a3a43"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 17 [+3V3] of J4 on B.Cu",
+                    "pos": {
+                        "x": 100.0875,
+                        "y": 60.84
+                    },
+                    "uuid": "593ee63b-d547-4bda-871f-5fc2f395759d"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 100.0875,
+                        "y": 59.31
+                    },
+                    "uuid": "0d48a28d-1627-4a7d-8758-3e20ea185fdf"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 13 [unconnected-(J4-Pin_13-Pad13)] of J4 on B.Cu",
+                    "pos": {
+                        "x": 95.0075,
+                        "y": 60.84
+                    },
+                    "uuid": "e293b8e0-1d8e-443e-9c64-9a37053f2fec"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 95.0075,
+                        "y": 59.31
+                    },
+                    "uuid": "733eb3f5-1909-48f0-96a7-125165742e56"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 9 [GND] of J4 on B.Cu",
+                    "pos": {
+                        "x": 89.9275,
+                        "y": 60.84
+                    },
+                    "uuid": "bec35321-a274-445d-b186-bc61390bfe88"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 89.9275,
+                        "y": 59.31
+                    },
+                    "uuid": "9d194a4a-ad23-424d-948f-f3aebcba5531"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 3 [/Schematic/Audio/IO_02] of J4 on B.Cu",
+                    "pos": {
+                        "x": 82.3075,
+                        "y": 60.84
+                    },
+                    "uuid": "b945dcf6-8848-4714-a32a-8a36cf4f45da"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 82.3075,
+                        "y": 59.31
+                    },
+                    "uuid": "565a71f3-46d9-452a-8252-4ebad0b916b5"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [+3V3] of J4 on B.Cu",
+                    "pos": {
+                        "x": 79.7675,
+                        "y": 60.84
+                    },
+                    "uuid": "498e09da-37af-4461-bbbc-b8530a2b81ce"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 79.7675,
+                        "y": 59.31
+                    },
+                    "uuid": "e18d747b-143f-4fcb-830e-1296d668f933"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [+5V] of J4 on B.Cu",
+                    "pos": {
+                        "x": 79.7675,
+                        "y": 55.24
+                    },
+                    "uuid": "9da675df-a381-4706-a22d-3f00b3c42182"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 79.7675,
+                        "y": 56.77
+                    },
+                    "uuid": "d6d0b980-bbd7-4b1a-aacb-a32e6580650d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [+5V] of J4 on B.Cu",
+                    "pos": {
+                        "x": 82.3075,
+                        "y": 55.24
+                    },
+                    "uuid": "c9a20a68-56bb-4a34-be5d-8ce97c3f9429"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 82.3075,
+                        "y": 56.77
+                    },
+                    "uuid": "f16f9f21-0051-4131-8d3a-471782e8e395"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 5 [/Schematic/Audio/IO_03] of J4 on B.Cu",
+                    "pos": {
+                        "x": 84.8475,
+                        "y": 60.84
+                    },
+                    "uuid": "ea28a8d2-6cf9-46f3-9f12-250e2e4a89c0"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 84.8475,
+                        "y": 59.31
+                    },
+                    "uuid": "f937f79e-1c41-4dfd-908d-f19be9e2a23b"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 6 [GND] of J4 on B.Cu",
+                    "pos": {
+                        "x": 84.8475,
+                        "y": 55.24
+                    },
+                    "uuid": "192e3fde-4b2b-4a04-873a-5a2271cbffb2"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 84.8475,
+                        "y": 56.77
+                    },
+                    "uuid": "42ca6bb1-9886-49cf-a8b1-30e2094c90ef"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 7 [/Schematic/Audio/IO_04] of J4 on B.Cu",
+                    "pos": {
+                        "x": 87.3875,
+                        "y": 60.84
+                    },
+                    "uuid": "1a8b9d6c-4212-4954-9507-26b96fe8314c"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 87.3875,
+                        "y": 59.31
+                    },
+                    "uuid": "438ae17d-c042-4b9f-9f95-f84d66865938"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 10 [/Schematic/Audio/IO_15] of J4 on B.Cu",
+                    "pos": {
+                        "x": 89.9275,
+                        "y": 55.24
+                    },
+                    "uuid": "27ac2288-5d72-440c-bf9e-874ee084fe1b"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 89.9275,
+                        "y": 56.77
+                    },
+                    "uuid": "eb677f00-3644-47ef-833a-92095cb854dd"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 11 [unconnected-(J4-Pin_11-Pad11)] of J4 on B.Cu",
+                    "pos": {
+                        "x": 92.4675,
+                        "y": 60.84
+                    },
+                    "uuid": "3306535f-1808-46e5-9763-d835463e98b2"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 92.4675,
+                        "y": 59.31
+                    },
+                    "uuid": "409bfa43-e2ef-4b89-9819-f79f83ea6e64"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 15 [/Schematic/Audio/IO_22] of J4 on B.Cu",
+                    "pos": {
+                        "x": 97.5475,
+                        "y": 60.84
+                    },
+                    "uuid": "a2148fab-d388-4269-a736-d577bf2a809d"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 97.5475,
+                        "y": 59.31
+                    },
+                    "uuid": "d743d301-0518-48bf-a994-34645fe2412a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 20 [GND] of J4 on B.Cu",
+                    "pos": {
+                        "x": 102.6275,
+                        "y": 55.24
+                    },
+                    "uuid": "3efab342-8d6a-4c88-8a8d-551b73ba47ad"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 102.6275,
+                        "y": 56.77
+                    },
+                    "uuid": "6b0acbf8-70fb-405e-a5b4-1120eac2738a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 26 [unconnected-(J4-Pin_26-Pad26)] of J4 on B.Cu",
+                    "pos": {
+                        "x": 110.2475,
+                        "y": 55.24
+                    },
+                    "uuid": "06c8a576-8e6b-41cd-a555-660e8c864bde"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 110.2475,
+                        "y": 56.77
+                    },
+                    "uuid": "1503742c-59d6-4d75-8859-7597d246f1bd"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 28 [/Schematic/Audio/ID_SC] of J4 on B.Cu",
+                    "pos": {
+                        "x": 112.7875,
+                        "y": 55.24
+                    },
+                    "uuid": "0904ff6a-9ed3-460f-91d1-4405273fa7c9"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 112.7875,
+                        "y": 56.77
+                    },
+                    "uuid": "e0030c0b-d8a3-449b-9607-51091828f47f"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 29 [/Schematic/Audio/IO_05] of J4 on B.Cu",
+                    "pos": {
+                        "x": 115.3275,
+                        "y": 60.84
+                    },
+                    "uuid": "3b2bf113-eab5-41f0-a3f0-05f286bcd8e4"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 115.3275,
+                        "y": 59.31
+                    },
+                    "uuid": "3e2d2c4e-bd4f-4775-a553-44545811b2dc"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 31 [/Schematic/Audio/IO_06] of J4 on B.Cu",
+                    "pos": {
+                        "x": 117.8675,
+                        "y": 60.84
+                    },
+                    "uuid": "195d423c-eaa0-4702-8438-c74387fb2f91"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 117.8675,
+                        "y": 59.31
+                    },
+                    "uuid": "cf82c0ee-b278-4784-84cb-99a566e119f8"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 34 [GND] of J4 on B.Cu",
+                    "pos": {
+                        "x": 120.4075,
+                        "y": 55.24
+                    },
+                    "uuid": "e6d490a5-df06-420e-a623-24adb355410d"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 120.4075,
+                        "y": 56.77
+                    },
+                    "uuid": "ee10d633-6ee7-4119-bb2d-f93353394e76"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 37 [unconnected-(J4-Pin_37-Pad37)] of J4 on B.Cu",
+                    "pos": {
+                        "x": 125.4875,
+                        "y": 60.84
+                    },
+                    "uuid": "425307e8-be29-43e7-9860-4ad3857b178c"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 125.4875,
+                        "y": 59.31
+                    },
+                    "uuid": "ab78cca4-6150-422e-b385-77d2ea453fdb"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 38 [/Schematic/Audio/IO_20] of J4 on B.Cu",
+                    "pos": {
+                        "x": 125.4875,
+                        "y": 55.24
+                    },
+                    "uuid": "86759cb5-cd58-42dc-b58d-313c7ce63aad"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 125.4875,
+                        "y": 56.77
+                    },
+                    "uuid": "951609d2-abe6-4c73-98a2-1ce04320564e"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 39 [GND] of J4 on B.Cu",
+                    "pos": {
+                        "x": 128.0275,
+                        "y": 60.84
+                    },
+                    "uuid": "6563c395-a706-4391-baef-a1f19888f31c"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 128.0275,
+                        "y": 59.31
+                    },
+                    "uuid": "9a3a4df9-932d-4162-b3ab-f9fcf98fb604"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0200 mm)",
+            "items": [
+                {
+                    "description": "Pad 40 [/Schematic/Audio/IO_21] of J4 on B.Cu",
+                    "pos": {
+                        "x": 128.0275,
+                        "y": 55.24
+                    },
+                    "uuid": "a63ea6e7-8a7e-474b-b160-b793a3e7e517"
+                },
+                {
+                    "description": "NPTH pad of J4",
+                    "pos": {
+                        "x": 128.0275,
+                        "y": 56.77
+                    },
+                    "uuid": "e80edc7e-d02f-4746-9718-7277a09280c0"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Footprint 'Fiducial_1mm_Mask2mm' does not match copy in library 'Fiducial'",
+            "items": [
+                {
+                    "description": "Footprint FID2",
+                    "pos": {
+                        "x": 116.497501,
+                        "y": 82.040001
+                    },
+                    "uuid": "a659f489-8f27-4b16-a9e8-00b5a63c7947"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Fiducial_1mm_Mask2mm' does not match copy in library 'Fiducial'",
+            "items": [
+                {
+                    "description": "Footprint FID1",
+                    "pos": {
+                        "x": 132.754881,
+                        "y": 61.840001
+                    },
+                    "uuid": "acc0a757-4f87-4368-bb3b-c3a4c174cad5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y' does not match copy in library 'Package_LGA'",
+            "items": [
+                {
+                    "description": "Footprint U12",
+                    "pos": {
+                        "x": 94.897501,
+                        "y": 67.040001
+                    },
+                    "uuid": "dc66dd7e-451e-4dd9-b258-bab15d7fa859"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Fiducial_1mm_Mask2mm' does not match copy in library 'Fiducial'",
+            "items": [
+                {
+                    "description": "Footprint FID3",
+                    "pos": {
+                        "x": 79.054881,
+                        "y": 82.340001
+                    },
+                    "uuid": "f0aea18b-8a3a-48c6-8f31-d2058c3eb7bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-323_SC-70' does not match copy in library 'Package_TO_SOT_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D1",
+                    "pos": {
+                        "x": 99.547501,
+                        "y": 79.440001
+                    },
+                    "uuid": "239dc608-5232-4e1f-a94f-39b334913e9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'VQFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm' does not match copy in library 'Package_DFN_QFN'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 127.747501,
+                        "y": 72.415001
+                    },
+                    "uuid": "ca764aef-162c-4028-ab8b-e267cc630316"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

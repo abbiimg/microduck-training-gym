@@ -1,0 +1,73 @@
+AUTHOR COMPONENT POSE REVIEW
+Date: 2026-10-27
+
+Result
+All 61 recovered author STEP instances are consistent with their current source
+PCB footprint placements under one documented author coordinate convention.
+All 22 shared model-ID groups have exactly equal recovered footprint-local
+rotation matrices; maximum relative translation residual across repeated models
+is 8.2512e-13 mm. This is placement consistency, not full BRep equivalence.
+No native board or footprint was edited, and no model was attached by this review.
+
+Source and author coordinate frame
+For each of four PCB records, XY author millimetres are:
+  ((sourceX-CANVAS.originX)/39.37, (sourceY-CANVAS.originY)/39.37).
+The source footprint frame rotation is Rz(sourceAngle), additionally followed by
+Rx(180 degrees) for a bottom-side footprint. Angles are evaluated in the source
+coordinate convention; recovered native KiCad position uses Y sign inversion.
+All top footprints and both bottom battery-board footprints were checked.
+
+All source LAYER_PHYS thickness records sum to62.994 mil. Dividing by39.37 gives
+1.6000508001016 mm. Independently, every XCAF author Board~* body has Z bounds
+0..1.600050800102 mm. Author nominal bottom is therefore0 and nominal top is
+1.600050800102 mm. Top footprint origins use this topZ; bottom origins use0.
+POGO U1/U2 instance-origin Z=0.9 mm is a MODEL offset, not the board datum:
+relative to their Rz180*Rx180 bottom footprint frames it becomes local Z=-0.9.
+
+Every placed instance in model-pose-independent-review.json includes the exact
+source component ID, XY, layer, angle, author footprint frame origin/rotation,
+XCAF instance matrix and the derived definition-to-footprint-local matrix.
+The local matrix is F_inverse*T, where F is the documented source footprint
+frame and T is the source XCAF component instance matrix. Model-specific local
+rotations and offsets remain intact. Repeated model IDs agree across different
+rotations and boards, including source models shared by old and revised IMU.
+This agreement also checks the source origin subtraction and rotation sign.
+
+Native KiCad mapping limits
+The recovered native PCB uses exact mil=0.0254 mm, whereas the author STEP
+matches division by39.37. Thus author XY mapped to exact source millimetres
+has scale39.37*0.0254=0.999998, about2 ppm below one; the whole-board mapping
+is not a rigid transform. A defensible model attachment can map each footprint
+origin to its exact current native position while preserving local component
+model dimensions. The chosen policy must remain explicit. Do not silently
+rescale source boards or author model geometry based on bounding boxes.
+Native exporter top/bottom model Z datums require an actual version/stackup
+fixture; nominal board thickness by itself does not establish those datums.
+
+New revised-J3 evidence
+The revised PCB has a placed ATTR on parent3957999c0b6a31d4 (J3):
+  key='3D Model Title', value=''.
+Its DEVICE metadata still names the old model ID/title/transform, but the placed
+attribute explicitly clears the title. This is evidence that a missing STEP
+instance may reflect placed-source intent rather than lost vendor geometry.
+The old J3 model type remains available, but do not synthesize a revised J3
+attachment as exact source recovery. Its source placement/model binding must
+be reviewed explicitly if a later engineering revision chooses to populate it.
+
+Qualification boundaries
+Existing author/current board-outline mismatches remain: old IMU has a larger
+Y extent, revised IMU has five Board solids and about0.05 mm exterior changes.
+Hub/POGO cached outlines match under the author scale convention. Placement
+consistency does not resolve those board-body differences, pin-to-model contact,
+connector height/mating space, original vendor origin, source versus product
+revision, model BRep equivalence, or manufacturing readiness.
+
+Evidence
+- model-pose-independent-review.json: all61 transforms,22 group comparisons,
+  placed J3 override, source replay/component-manifest hashes.
+- placed-device-model-metadata.json: all62 DEVICE model metadata records.
+- step-xcaf-identity-review.json: author Board bodies and XCAF matrices.
+- recovered/author-step-components/*/component-manifest.json: exact component
+  instance transformations and unchanged parent STEP hashes.
+- editing/recovered-community/*/replayed-project.json: actual current PCB
+  COMPONENT, ATTR, CANVAS and LAYER_PHYS source records.

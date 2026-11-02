@@ -1,0 +1,223 @@
+{
+  "manufacturing_ready": false,
+  "baseline": [
+    {
+      "candidate": "imu_to_dxl",
+      "source_silk_objects": 208,
+      "native_graphics": 228,
+      "positioned_references": 29,
+      "copper_verified": true,
+      "library_graphics_verified": true,
+      "drc_findings": 75,
+      "drc_counts": {
+        "copper_edge_clearance": 5,
+        "clearance": 14,
+        "zones_intersect": 4,
+        "silk_overlap": 31,
+        "silk_over_copper": 9,
+        "silk_edge_clearance": 1,
+        "via_dangling": 11
+      },
+      "unconnected": 0,
+      "parity": 0,
+      "typography_qualified": false
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A",
+      "source_silk_objects": 202,
+      "native_graphics": 204,
+      "positioned_references": 24,
+      "copper_verified": true,
+      "library_graphics_verified": true,
+      "drc_findings": 411,
+      "drc_counts": {
+        "solder_mask_bridge": 64,
+        "copper_edge_clearance": 2,
+        "clearance": 277,
+        "hole_clearance": 15,
+        "zones_intersect": 5,
+        "silk_overlap": 37,
+        "silk_over_copper": 11
+      },
+      "unconnected": 0,
+      "parity": 0,
+      "typography_qualified": false
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A-transition-hypothesis",
+      "source_silk_objects": 202,
+      "native_graphics": 204,
+      "positioned_references": 24,
+      "copper_verified": true,
+      "library_graphics_verified": true,
+      "drc_findings": 89,
+      "drc_counts": {
+        "copper_edge_clearance": 2,
+        "clearance": 34,
+        "zones_intersect": 5,
+        "silk_overlap": 37,
+        "silk_over_copper": 11
+      },
+      "unconnected": 0,
+      "parity": 0,
+      "typography_qualified": false
+    },
+    {
+      "candidate": "POGO_PIN_1V0A",
+      "source_silk_objects": 2,
+      "native_graphics": 2,
+      "positioned_references": 2,
+      "copper_verified": true,
+      "library_graphics_verified": true,
+      "drc_findings": 2,
+      "drc_counts": {
+        "nonmirrored_text_on_back_layer": 2
+      },
+      "unconnected": 0,
+      "parity": 0,
+      "typography_qualified": false
+    },
+    {
+      "candidate": "wire_hub_1V0A",
+      "source_silk_objects": 113,
+      "native_graphics": 119,
+      "positioned_references": 7,
+      "copper_verified": true,
+      "library_graphics_verified": true,
+      "drc_findings": 43,
+      "drc_counts": {
+        "copper_edge_clearance": 30,
+        "clearance": 6,
+        "silk_overlap": 6,
+        "silk_edge_clearance": 1
+      },
+      "unconnected": 0,
+      "parity": 0,
+      "typography_qualified": false
+    }
+  ],
+  "integrated": [
+    {
+      "candidate": "imu_to_dxl",
+      "source_silk_objects": 208,
+      "native_graphics": 228,
+      "positioned_references": 29,
+      "copper_verified": true,
+      "library_graphics_verified": true,
+      "drc_findings": 57,
+      "drc_counts": {
+        "copper_edge_clearance": 1,
+        "zones_intersect": 4,
+        "silk_overlap": 31,
+        "silk_over_copper": 9,
+        "silk_edge_clearance": 1,
+        "via_dangling": 11
+      },
+      "unconnected": 0,
+      "parity": 0,
+      "typography_qualified": false
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A",
+      "source_silk_objects": 202,
+      "native_graphics": 204,
+      "positioned_references": 24,
+      "copper_verified": true,
+      "library_graphics_verified": true,
+      "drc_findings": 378,
+      "drc_counts": {
+        "solder_mask_bridge": 64,
+        "copper_edge_clearance": 1,
+        "clearance": 245,
+        "hole_clearance": 15,
+        "zones_intersect": 5,
+        "silk_overlap": 37,
+        "silk_over_copper": 11
+      },
+      "unconnected": 0,
+      "parity": 0,
+      "typography_qualified": false
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A-transition-hypothesis",
+      "source_silk_objects": 202,
+      "native_graphics": 204,
+      "positioned_references": 24,
+      "copper_verified": true,
+      "library_graphics_verified": true,
+      "drc_findings": 66,
+      "drc_counts": {
+        "copper_edge_clearance": 1,
+        "clearance": 12,
+        "zones_intersect": 5,
+        "silk_overlap": 37,
+        "silk_over_copper": 11
+      },
+      "unconnected": 0,
+      "parity": 0,
+      "typography_qualified": false
+    },
+    {
+      "candidate": "POGO_PIN_1V0A",
+      "source_silk_objects": 2,
+      "native_graphics": 2,
+      "positioned_references": 2,
+      "copper_verified": true,
+      "library_graphics_verified": true,
+      "drc_findings": 2,
+      "drc_counts": {
+        "nonmirrored_text_on_back_layer": 2
+      },
+      "unconnected": 0,
+      "parity": 0,
+      "typography_qualified": false
+    },
+    {
+      "candidate": "wire_hub_1V0A",
+      "source_silk_objects": 113,
+      "native_graphics": 119,
+      "positioned_references": 7,
+      "copper_verified": true,
+      "library_graphics_verified": true,
+      "drc_findings": 25,
+      "drc_counts": {
+        "copper_edge_clearance": 17,
+        "clearance": 1,
+        "silk_overlap": 6,
+        "silk_edge_clearance": 1
+      },
+      "unconnected": 0,
+      "parity": 0,
+      "typography_qualified": false
+    }
+  ],
+  "visual_reviews": [
+    {
+      "png": "editing\\kicad-integrated\\wire_hub_1V0A\\review-top.png",
+      "sha256": "1d4d4cd30b50a32c549efdb35664c1cd8abeb1901ba3ac035656f1516dcf6a1e",
+      "svg": "editing\\kicad-integrated\\wire_hub_1V0A\\review-top.svg",
+      "svg_sha256": "fe84463222296cef183396265b019b8b977055f331fa09b1340ef37f19c55995",
+      "layers": "F.Cu,F.SilkS,Edge.Cuts",
+      "viewed": true,
+      "scope": "2D coordinate/layer plausibility; raw source overlaps/overhangs preserved, exact glyph metrics and source pixel parity unqualified"
+    },
+    {
+      "png": "editing\\kicad-integrated\\imu_to_dxl_1V0A-transition-hypothesis\\review-top.png",
+      "sha256": "e17244b9c7525ac9c07e8eee84d33f8ce869e15b83d87028c132a56c3c280b57",
+      "svg": "editing\\kicad-integrated\\imu_to_dxl_1V0A-transition-hypothesis\\review-top.svg",
+      "svg_sha256": "28bdea70c3373b8d5d704dd08577aa7a6ab0015788bf30a4ec32276dc21e5be4",
+      "layers": "F.Cu,F.SilkS,Edge.Cuts",
+      "viewed": true,
+      "scope": "2D coordinate/layer plausibility; raw source overlaps/overhangs preserved, exact glyph metrics and source pixel parity unqualified"
+    },
+    {
+      "png": "editing\\kicad-integrated\\POGO_PIN_1V0A\\review-bottom.png",
+      "sha256": "1b2e8ccf6892c75aadb972426e2c76efdc79cf8d5df1d67d53fd94f2fffdcc0d",
+      "svg": "editing\\kicad-integrated\\POGO_PIN_1V0A\\review-bottom.svg",
+      "svg_sha256": "e8e2b243b63cb4f7ce8bbe3c26154082d949be6f0ae6cc677ed312a5202a87c9",
+      "layers": "B.Cu,B.SilkS,Edge.Cuts",
+      "viewed": true,
+      "scope": "2D coordinate/layer plausibility; raw source overlaps/overhangs preserved, exact glyph metrics and source pixel parity unqualified"
+    }
+  ]
+}

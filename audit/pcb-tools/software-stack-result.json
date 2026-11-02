@@ -1,0 +1,153 @@
+{
+  "software_checks": [
+    {
+      "step": "kicad_connections",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 5.77,
+      "retained_prior_result": true
+    },
+    {
+      "step": "firmware_host",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 9.8,
+      "retained_prior_result": true
+    },
+    {
+      "step": "controller_bus",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 7.88,
+      "retained_prior_result": true
+    },
+    {
+      "step": "buffer_model",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 1.04,
+      "retained_prior_result": true
+    },
+    {
+      "step": "buffer_transient",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 1.44,
+      "retained_prior_result": true
+    },
+    {
+      "step": "buffer_package",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 3.73,
+      "retained_prior_result": true
+    },
+    {
+      "step": "paired_projects",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 40.91,
+      "retained_prior_result": true
+    },
+    {
+      "step": "recovered_libraries",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 6.58,
+      "retained_prior_result": true
+    },
+    {
+      "step": "copper_engineering",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 6.18,
+      "retained_prior_result": true
+    },
+    {
+      "step": "source_clearances",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 0.99,
+      "retained_prior_result": true
+    },
+    {
+      "step": "integrated_silkscreen",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 16.78,
+      "retained_prior_result": true
+    },
+    {
+      "step": "author_step_components",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 2.64,
+      "retained_prior_result": true
+    },
+    {
+      "step": "author_model_definitions",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 3.71,
+      "retained_prior_result": true
+    },
+    {
+      "step": "author_model_geometry",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 0.36,
+      "retained_prior_result": true
+    },
+    {
+      "step": "kicad_model_geometry",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 1.43,
+      "retained_prior_result": true
+    },
+    {
+      "step": "pcb_model_review",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 0.64,
+      "retained_prior_result": true
+    },
+    {
+      "step": "hub_cache_repair",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 5.02
+    }
+  ],
+  "software_checks_passed": true,
+  "stages_executed_this_invocation": [
+    "hub_cache_repair"
+  ],
+  "prior_results_retained_for_unchanged_stages": [
+    "kicad_connections",
+    "firmware_host",
+    "controller_bus",
+    "buffer_model",
+    "buffer_transient",
+    "buffer_package",
+    "paired_projects",
+    "recovered_libraries",
+    "copper_engineering",
+    "source_clearances",
+    "integrated_silkscreen",
+    "author_step_components",
+    "author_model_definitions",
+    "author_model_geometry",
+    "kicad_model_geometry",
+    "pcb_model_review"
+  ],
+  "hardware_release_ready": false,
+  "open_gates": [
+    "routed PCB source equivalence, DRC cleanup and regenerative copper rules",
+    "qualified component models and dimensions",
+    "eight pins lack source no-connect declarations; electrical review remains conditional",
+    "physical power/timing/thermal tests",
+    "one consistent CAD/actuator/electronics/simulation variant",
+    "policy quality and real-hardware validation"
+  ]
+}

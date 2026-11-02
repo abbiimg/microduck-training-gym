@@ -1,0 +1,4307 @@
+{
+  "doc": "00-microduck装配体 XL330-288舵机版本",
+  "components": [
+    {
+      "name": "04_左大腿-2",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\04_左大腿.SLDASM",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -123.789364,
+        -82.464254,
+        126.624744
+      ],
+      "rotation": [
+        [
+          -0.022794842,
+          0.02147962,
+          0.99950939
+        ],
+        [
+          0.718972397,
+          0.695037092,
+          0.001460446
+        ],
+        [
+          -0.69466473,
+          0.718652953,
+          -0.031286515
+        ]
+      ],
+      "box": {
+        "min": [
+          -109.411616,
+          -120.311014,
+          55.785134
+        ],
+        "max": [
+          -74.435961,
+          -43.599888,
+          133.750437
+        ],
+        "size": [
+          34.975656,
+          76.711126,
+          77.965303
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "children": 5
+    },
+    {
+      "name": "04_左大腿-2/left_upper_leg_左上腿-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\left_upper_leg_左上腿.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -38.377065,
+        -87.144602,
+        72.721722
+      ],
+      "rotation": [
+        [
+          -0.99950939,
+          0.022794842,
+          0.02147962
+        ],
+        [
+          -0.001460446,
+          -0.718972397,
+          0.695037092
+        ],
+        [
+          0.031286515,
+          0.69466473,
+          0.718652953
+        ]
+      ],
+      "box": {
+        "min": [
+          -109.411616,
+          -120.311014,
+          55.928888
+        ],
+        "max": [
+          -79.028475,
+          -43.606599,
+          133.750437
+        ],
+        "size": [
+          30.383141,
+          76.704415,
+          77.821549
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "parent": "04_左大腿-2"
+    },
+    {
+      "name": "04_左大腿-2/xl330-m288-t1-2",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\xl330-m288-t1.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -103.983702,
+        -82.027501,
+        80.169693
+      ],
+      "rotation": [
+        [
+          0.02147962,
+          0.022794842,
+          0.99950939
+        ],
+        [
+          0.695037092,
+          -0.718972397,
+          0.001460446
+        ],
+        [
+          0.718652953,
+          0.69466473,
+          -0.031286515
+        ]
+      ],
+      "box": {
+        "min": [
+          -104.576804,
+          -101.032856,
+          60.20814
+        ],
+        "max": [
+          -77.90311,
+          -62.984905,
+          99.333441
+        ],
+        "size": [
+          26.673693,
+          38.04795,
+          39.125301
+        ]
+      },
+      "constrained": "fully",
+      "mates": 3,
+      "parent": "04_左大腿-2"
+    },
+    {
+      "name": "04_左大腿-2/xl330-m288-t1-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\xl330-m288-t1.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -103.04868,
+        -72.892301,
+        110.467248
+      ],
+      "rotation": [
+        [
+          -0.022794842,
+          0.02147962,
+          0.99950939
+        ],
+        [
+          0.718972397,
+          0.695037092,
+          0.001460446
+        ],
+        [
+          -0.69466473,
+          0.718652953,
+          -0.031286515
+        ]
+      ],
+      "box": {
+        "min": [
+          -103.650988,
+          -92.065203,
+          90.673612
+        ],
+        "max": [
+          -76.958882,
+          -53.682158,
+          129.463078
+        ],
+        "size": [
+          26.692106,
+          38.383045,
+          38.789466
+        ]
+      },
+      "constrained": "fully",
+      "mates": 2,
+      "parent": "04_左大腿-2"
+    },
+    {
+      "name": "04_左大腿-2/01-upper_leg_rigidity_plate_上腿加固板-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\01-upper_leg_rigidity_plate_上腿加固板.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -79.189346,
+        -78.249982,
+        114.935744
+      ],
+      "rotation": [
+        [
+          -0.02147962,
+          0.022794842,
+          -0.99950939
+        ],
+        [
+          -0.695037092,
+          -0.718972397,
+          -0.001460446
+        ],
+        [
+          -0.718652953,
+          0.69466473,
+          0.031286515
+        ]
+      ],
+      "box": {
+        "min": [
+          -81.972302,
+          -118.646172,
+          57.591237
+        ],
+        "max": [
+          -78.686598,
+          -45.509742,
+          131.03976
+        ],
+        "size": [
+          3.285704,
+          73.13643,
+          73.448522
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "parent": "04_左大腿-2"
+    },
+    {
+      "name": "04_左大腿-2/轴承16×22×4-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\轴承16×22×4.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -76.995551,
+        -78.246776,
+        114.867074
+      ],
+      "rotation": [
+        [
+          -0.021134782,
+          0.023114928,
+          0.99950939
+        ],
+        [
+          0.768657315,
+          0.639659127,
+          0.001460446
+        ],
+        [
+          -0.639311546,
+          0.768311071,
+          -0.031286515
+        ]
+      ],
+      "box": {
+        "min": [
+          -79.481317,
+          -93.741178,
+          99.320652
+        ],
+        "max": [
+          -74.509785,
+          -62.752375,
+          130.413495
+        ],
+        "size": [
+          4.971531,
+          30.988804,
+          31.092844
+        ]
+      },
+      "constrained": "fully",
+      "mates": 1,
+      "parent": "04_左大腿-2"
+    },
+    {
+      "name": "01_躯干主体-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\01_躯干主体.SLDASM",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -37.938011,
+        -48.207485,
+        60.863166
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "box": {
+        "min": [
+          -70.019439,
+          -117.92495,
+          13.813011
+        ],
+        "max": [
+          -6.416501,
+          -36.252017,
+          100.982211
+        ],
+        "size": [
+          63.602938,
+          81.672934,
+          87.1692
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "children": 12
+    },
+    {
+      "name": "01_躯干主体-1/xl330-m288-t1-2",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\xl330-m288-t1.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -55.713898,
+        -81.519164,
+        33.403354
+      ],
+      "rotation": [
+        [
+          -0.000914645,
+          -0.999999582,
+          -5.6e-8
+        ],
+        [
+          0.999847276,
+          -0.000914505,
+          -0.017452484
+        ],
+        [
+          0.017452477,
+          -0.000016019,
+          0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -65.729444,
+          -98.970751,
+          33.106501
+        ],
+        "max": [
+          -45.698353,
+          -64.512615,
+          59.196322
+        ],
+        "size": [
+          20.031091,
+          34.458136,
+          26.089821
+        ]
+      },
+      "constrained": "fully",
+      "mates": 1,
+      "parent": "01_躯干主体-1"
+    },
+    {
+      "name": "01_躯干主体-1/right_shell_右壳-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\right_shell_右壳.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -38.208876,
+        -87.710212,
+        73.862615
+      ],
+      "rotation": [
+        [
+          -0.999999582,
+          -0.000914645,
+          5.6e-8
+        ],
+        [
+          -0.000914505,
+          0.999847276,
+          0.017452484
+        ],
+        [
+          -0.000016019,
+          0.017452477,
+          -0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -38.255081,
+          -117.894422,
+          13.813011
+        ],
+        "max": [
+          -6.416501,
+          -36.252017,
+          56.911812
+        ],
+        "size": [
+          31.83858,
+          81.642405,
+          43.098801
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "parent": "01_躯干主体-1"
+    },
+    {
+      "name": "01_躯干主体-1/np_f970_NPF970电池-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\np_f970_NPF970电池.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -37.938011,
+        -48.207485,
+        60.863166
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "box": {
+        "min": [
+          -57.239597,
+          -58.533092,
+          25.463125
+        ],
+        "max": [
+          -18.629754,
+          -37.95746,
+          96.271899
+        ],
+        "size": [
+          38.609843,
+          20.575632,
+          70.808774
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "parent": "01_躯干主体-1"
+    },
+    {
+      "name": "01_躯干主体-1/xl330-m288-t1-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\xl330-m288-t1.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -20.713913,
+        -81.487156,
+        33.403914
+      ],
+      "rotation": [
+        [
+          -0.000914645,
+          -0.999999582,
+          -5.6e-8
+        ],
+        [
+          0.999847276,
+          -0.000914505,
+          -0.017452484
+        ],
+        [
+          0.017452477,
+          -0.000016019,
+          0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -30.729459,
+          -98.938743,
+          33.107062
+        ],
+        "max": [
+          -10.698368,
+          -64.480608,
+          59.196883
+        ],
+        "size": [
+          20.031091,
+          34.458136,
+          26.089821
+        ]
+      },
+      "constrained": "fully",
+      "mates": 1,
+      "parent": "01_躯干主体-1"
+    },
+    {
+      "name": "01_躯干主体-1/power_support_电源支架-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\power_support_电源支架.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -38.227652,
+        -87.457485,
+        74.436079
+      ],
+      "rotation": [
+        [
+          -1,
+          0,
+          -2e-8
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          2e-8,
+          0,
+          -1
+        ]
+      ],
+      "box": {
+        "min": [
+          -65.477653,
+          -69.457599,
+          17.492317
+        ],
+        "max": [
+          -10.977651,
+          -52.45737,
+          100.982211
+        ],
+        "size": [
+          54.500002,
+          17.000229,
+          83.489895
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "parent": "01_躯干主体-1"
+    },
+    {
+      "name": "01_躯干主体-1/trunk_base_躯干底座-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\trunk_base_躯干底座.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -38.208877,
+        -87.70391,
+        73.501523
+      ],
+      "rotation": [
+        [
+          -0.999999582,
+          -0.000914645,
+          5.6e-8
+        ],
+        [
+          -0.000914505,
+          0.999847276,
+          0.017452484
+        ],
+        [
+          -0.000016019,
+          0.017452477,
+          -0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -66.730007,
+          -100.445876,
+          53.777044
+        ],
+        "max": [
+          -9.696895,
+          -64.340929,
+          57.741265
+        ],
+        "size": [
+          57.033112,
+          36.104947,
+          3.964221
+        ]
+      },
+      "constrained": "fully",
+      "mates": 1,
+      "parent": "01_躯干主体-1"
+    },
+    {
+      "name": "01_躯干主体-1/轴承16×22×4-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\轴承16×22×4.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -20.707054,
+        -89.43454,
+        58.969107
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          -5.6e-8
+        ],
+        [
+          0,
+          0.999847694,
+          -0.017452484
+        ],
+        [
+          5.6e-8,
+          0.017452484,
+          0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -31.707054,
+          -100.467769,
+          56.777433
+        ],
+        "max": [
+          -9.707054,
+          -78.40131,
+          61.16078
+        ],
+        "size": [
+          22,
+          22.066459,
+          4.383347
+        ]
+      },
+      "constrained": "fully",
+      "mates": 1,
+      "parent": "01_躯干主体-1"
+    },
+    {
+      "name": "01_躯干主体-1/轴承16×22×4-2",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\轴承16×22×4.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -55.70704,
+        -89.466547,
+        58.968546
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          -5.6e-8
+        ],
+        [
+          0,
+          0.999847694,
+          -0.017452484
+        ],
+        [
+          5.6e-8,
+          0.017452484,
+          0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -66.70704,
+          -100.499777,
+          56.776873
+        ],
+        "max": [
+          -44.70704,
+          -78.433318,
+          61.160219
+        ],
+        "size": [
+          22,
+          22.066459,
+          4.383347
+        ]
+      },
+      "constrained": "fully",
+      "mates": 1,
+      "parent": "01_躯干主体-1"
+    },
+    {
+      "name": "01_躯干主体-1/banana_pcb_locker_香蕉形PCB锁扣-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\banana_pcb_locker_香蕉形PCB锁扣.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -35.870834,
+        -121.373201,
+        59.71181
+      ],
+      "rotation": [
+        [
+          0.999409265,
+          5.6e-8,
+          -0.034367442
+        ],
+        [
+          0.034362207,
+          0.017452484,
+          0.999257049
+        ],
+        [
+          0.000599853,
+          -0.999847694,
+          0.017442172
+        ]
+      ],
+      "box": {
+        "min": [
+          -64.796198,
+          -72.793739,
+          23.238713
+        ],
+        "max": [
+          -10.544763,
+          -64.07557,
+          28.005565
+        ],
+        "size": [
+          54.251436,
+          8.718169,
+          4.766852
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "parent": "01_躯干主体-1"
+    },
+    {
+      "name": "01_躯干主体-1/3D_PCB1_2026-09-08-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\3D_PCB1_2026-09-08.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -20.666497,
+        -92.343433,
+        27.213503
+      ],
+      "rotation": [
+        [
+          -0.999999582,
+          -0.000914645,
+          5.6e-8
+        ],
+        [
+          -0.000914505,
+          0.999847276,
+          0.017452484
+        ],
+        [
+          -0.000016019,
+          0.017452477,
+          -0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -65.724639,
+          -92.45333,
+          17.013633
+        ],
+        "max": [
+          -20.629162,
+          -69.457497,
+          29.409658
+        ],
+        "size": [
+          45.095478,
+          22.995832,
+          12.396025
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "parent": "01_躯干主体-1"
+    },
+    {
+      "name": "01_躯干主体-1/left_shell_左壳-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\left_shell_左壳.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -38.208876,
+        -87.71173,
+        73.94956
+      ],
+      "rotation": [
+        [
+          -0.999999582,
+          -0.000914645,
+          5.6e-8
+        ],
+        [
+          -0.000914505,
+          0.999847276,
+          0.017452484
+        ],
+        [
+          -0.000016019,
+          0.017452477,
+          -0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -70.019439,
+          -117.92495,
+          13.899341
+        ],
+        "max": [
+          -36.229722,
+          -36.288583,
+          56.995998
+        ],
+        "size": [
+          33.789717,
+          81.636367,
+          43.096656
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "parent": "01_躯干主体-1"
+    },
+    {
+      "name": "01_躯干主体-1/M2铜柱-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\M2铜柱.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -12.727635,
+        -66.377416,
+        27.666743
+      ],
+      "rotation": [
+        [
+          -0.91988001,
+          -5.6e-8,
+          -0.392199906
+        ],
+        [
+          -0.392140171,
+          -0.017452484,
+          0.919739907
+        ],
+        [
+          -0.006844914,
+          0.999847694,
+          0.016054169
+        ]
+      ],
+      "box": {
+        "min": [
+          -15.636408,
+          -69.29703,
+          27.618828
+        ],
+        "max": [
+          -9.818864,
+          -63.632327,
+          37.713136
+        ],
+        "size": [
+          5.817544,
+          5.664702,
+          10.094309
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "parent": "01_躯干主体-1"
+    },
+    {
+      "name": "03_左髋roll-2",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\03_左髋roll.SLDASM",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -82.721548,
+        -94.142401,
+        108.520143
+      ],
+      "rotation": [
+        [
+          -0.99950939,
+          -0.000914645,
+          -0.031307225
+        ],
+        [
+          -0.001460446,
+          0.999847276,
+          0.017415298
+        ],
+        [
+          0.031286515,
+          0.017452477,
+          -0.999358076
+        ]
+      ],
+      "box": {
+        "min": [
+          -81.060743,
+          -112.403268,
+          61.537323
+        ],
+        "max": [
+          -45.855869,
+          -75.965758,
+          85.231044
+        ],
+        "size": [
+          35.204875,
+          36.43751,
+          23.69372
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "children": 2
+    },
+    {
+      "name": "03_左髋roll-2/hip_l_髋部左-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\hip_l_髋部左.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -38.227154,
+        -87.143963,
+        72.716451
+      ],
+      "rotation": [
+        [
+          -0.99950939,
+          -0.000914645,
+          -0.031307225
+        ],
+        [
+          -0.001460446,
+          0.999847276,
+          0.017415298
+        ],
+        [
+          0.031286515,
+          0.017452477,
+          -0.999358076
+        ]
+      ],
+      "box": {
+        "min": [
+          -78.963581,
+          -112.374153,
+          63.036254
+        ],
+        "max": [
+          -45.902826,
+          -77.491544,
+          83.641804
+        ],
+        "size": [
+          33.060755,
+          34.882609,
+          20.60555
+        ]
+      },
+      "constrained": "fully",
+      "mates": 3,
+      "parent": "03_左髋roll-2"
+    },
+    {
+      "name": "03_左髋roll-2/轴承16×22×4-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\轴承16×22×4.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -78.707284,
+        -87.203111,
+        73.983554
+      ],
+      "rotation": [
+        [
+          0.031307225,
+          -0.000914645,
+          -0.99950939
+        ],
+        [
+          -0.017415298,
+          0.999847276,
+          -0.001460446
+        ],
+        [
+          0.999358076,
+          0.017452477,
+          0.031286515
+        ]
+      ],
+      "box": {
+        "min": [
+          -81.060743,
+          -98.39592,
+          62.736065
+        ],
+        "max": [
+          -76.353825,
+          -76.010302,
+          85.231044
+        ],
+        "size": [
+          4.706919,
+          22.385618,
+          22.494978
+        ]
+      },
+      "constrained": "fully",
+      "mates": 1,
+      "parent": "03_左髋roll-2"
+    },
+    {
+      "name": "14_右小腿-2",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\14_右小腿.SLDASM",
+      "configuration": "Default",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -27.568649,
+        -55.334359,
+        140.858732
+      ],
+      "rotation": [
+        [
+          -5.6e-8,
+          0.000914645,
+          0.999999582
+        ],
+        [
+          -0.017452484,
+          -0.999847276,
+          0.000914505
+        ],
+        [
+          0.999847694,
+          -0.017452477,
+          0.000016019
+        ]
+      ],
+      "box": {
+        "min": [
+          -5.728037,
+          -89.086861,
+          104.007263
+        ],
+        "max": [
+          25.490247,
+          -67.988052,
+          165.847555
+        ],
+        "size": [
+          31.218283,
+          21.098809,
+          61.840291
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "children": 2
+    },
+    {
+      "name": "14_右小腿-2/舵机xl330-288-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\舵机xl330-288.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -0.218892,
+        -78.786665,
+        148.675207
+      ],
+      "rotation": [
+        [
+          -5.6e-8,
+          0.000914645,
+          0.999999582
+        ],
+        [
+          -0.017452484,
+          -0.999847276,
+          0.000914505
+        ],
+        [
+          0.999847694,
+          -0.017452477,
+          0.000016019
+        ]
+      ],
+      "box": {
+        "min": [
+          -0.228039,
+          -89.08183,
+          131.503272
+        ],
+        "max": [
+          25.490245,
+          -68.467997,
+          165.847555
+        ],
+        "size": [
+          25.718284,
+          20.613833,
+          34.344283
+        ]
+      },
+      "constrained": "under",
+      "mates": 4,
+      "parent": "14_右小腿-2"
+    },
+    {
+      "name": "14_右小腿-2/leg_腿部-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\leg_腿部.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -38.238998,
+        -56.847064,
+        150.335446
+      ],
+      "rotation": [
+        [
+          0.999999582,
+          0.000914645,
+          5.6e-8
+        ],
+        [
+          0.000914505,
+          -0.999847276,
+          0.017452484
+        ],
+        [
+          0.000016019,
+          -0.017452477,
+          -0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -5.728037,
+          -89.025777,
+          104.007263
+        ],
+        "max": [
+          2.240371,
+          -68.009314,
+          162.347715
+        ],
+        "size": [
+          7.968407,
+          21.016463,
+          58.340451
+        ]
+      },
+      "constrained": "under",
+      "mates": 2,
+      "parent": "14_右小腿-2"
+    },
+    {
+      "name": "12_右髋roll-2",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\12_右髋roll.SLDASM",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        7.398684,
+        -92.840261,
+        38.643962
+      ],
+      "rotation": [
+        [
+          0.999999582,
+          -0.000914645,
+          -5.6e-8
+        ],
+        [
+          0.000914505,
+          0.999847276,
+          -0.017452484
+        ],
+        [
+          0.000016019,
+          0.017452477,
+          0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -30.220219,
+          -112.343731,
+          61.8234
+        ],
+        "max": [
+          4.31281,
+          -75.924238,
+          84.449057
+        ],
+        "size": [
+          34.533029,
+          36.419493,
+          22.625657
+        ]
+      },
+      "constrained": "under",
+      "mates": 1,
+      "children": 2
+    },
+    {
+      "name": "12_右髋roll-2/轴承16×22×4-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\轴承16×22×4.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        2.289935,
+        -87.116364,
+        73.258723
+      ],
+      "rotation": [
+        [
+          5.6e-8,
+          -0.000914645,
+          0.999999582
+        ],
+        [
+          0.017452484,
+          0.999847276,
+          0.000914505
+        ],
+        [
+          -0.999847694,
+          0.017452477,
+          0.000016019
+        ]
+      ],
+      "box": {
+        "min": [
+          0.279874,
+          -98.30849,
+          62.068389
+        ],
+        "max": [
+          4.299996,
+          -75.924238,
+          84.449057
+        ],
+        "size": [
+          4.020122,
+          22.384253,
+          22.380668
+        ]
+      },
+      "constrained": "under",
+      "mates": 1,
+      "parent": "12_右髋roll-2"
+    },
+    {
+      "name": "12_右髋roll-2/hip_l_髋部左-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\hip_l_髋部左.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -38.210048,
+        -87.153402,
+        73.258074
+      ],
+      "rotation": [
+        [
+          0.999999582,
+          -0.000914645,
+          -5.6e-8
+        ],
+        [
+          0.000914505,
+          0.999847276,
+          -0.017452484
+        ],
+        [
+          0.000016019,
+          0.017452477,
+          0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -30.218847,
+          -112.317554,
+          63.323065
+        ],
+        "max": [
+          2.262972,
+          -77.451954,
+          82.923182
+        ],
+        "size": [
+          32.481819,
+          34.8656,
+          19.600117
+        ]
+      },
+      "constrained": "under",
+      "mates": 3,
+      "parent": "12_右髋roll-2"
+    },
+    {
+      "name": "06_左踝脚-2",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\06_左踝脚.SLDASM",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -101.037425,
+        -79.578478,
+        226.302783
+      ],
+      "rotation": [
+        [
+          -0.99950939,
+          -0.000930003,
+          -0.031306772
+        ],
+        [
+          -0.001460446,
+          0.999855698,
+          0.016924817
+        ],
+        [
+          0.031286515,
+          0.016962235,
+          -0.999366518
+        ]
+      ],
+      "box": {
+        "min": [
+          -105.172928,
+          -113.531899,
+          146.695353
+        ],
+        "max": [
+          -62.972051,
+          -58.900496,
+          183.082986
+        ],
+        "size": [
+          42.200877,
+          54.631404,
+          36.387633
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "children": 4
+    },
+    {
+      "name": "06_左踝脚-2/sole_left_左脚底-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\sole_left_左脚底.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -34.52067,
+        -100.901594,
+        148.933548
+      ],
+      "rotation": [
+        [
+          -0.99950939,
+          -0.000930003,
+          -0.031306772
+        ],
+        [
+          -0.001460446,
+          0.999855698,
+          0.016924817
+        ],
+        [
+          0.031286515,
+          0.016962235,
+          -0.999366518
+        ]
+      ],
+      "box": {
+        "min": [
+          -104.506152,
+          -113.531899,
+          167.979981
+        ],
+        "max": [
+          -62.972051,
+          -59.260962,
+          183.082986
+        ],
+        "size": [
+          41.534101,
+          54.270937,
+          15.103004
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "parent": "06_左踝脚-2"
+    },
+    {
+      "name": "06_左踝脚-2/deep groove ball bearings gb-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\deep groove ball bearings gb.sldprt",
+      "configuration": "Rolling bearings 61700 GB 276-94",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -68.429097,
+        -78.947023,
+        156.613479
+      ],
+      "rotation": [
+        [
+          -0.99950939,
+          -0.003302981,
+          -0.031145934
+        ],
+        [
+          -0.001460446,
+          0.998257134,
+          -0.058996285
+        ],
+        [
+          0.031286515,
+          -0.058921854,
+          -0.997772203
+        ]
+      ],
+      "box": {
+        "min": [
+          -70.186728,
+          -86.878614,
+          148.641344
+        ],
+        "max": [
+          -66.671466,
+          -71.015432,
+          164.585615
+        ],
+        "size": [
+          3.515262,
+          15.863183,
+          15.94427
+        ]
+      },
+      "constrained": "fully",
+      "mates": 1,
+      "parent": "06_左踝脚-2"
+    },
+    {
+      "name": "06_左踝脚-2/foot_left_左脚-2",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\foot_left_左脚.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -34.52067,
+        -100.901594,
+        148.933548
+      ],
+      "rotation": [
+        [
+          -0.99950939,
+          -0.000930003,
+          -0.031306772
+        ],
+        [
+          -0.001460446,
+          0.999855698,
+          0.016924817
+        ],
+        [
+          0.031286515,
+          0.016962235,
+          -0.999366518
+        ]
+      ],
+      "box": {
+        "min": [
+          -104.305353,
+          -113.497507,
+          162.00523
+        ],
+        "max": [
+          -63.659809,
+          -59.160471,
+          181.073639
+        ],
+        "size": [
+          40.645544,
+          54.337036,
+          19.06841
+        ]
+      },
+      "constrained": "fully",
+      "mates": 1,
+      "parent": "06_左踝脚-2"
+    },
+    {
+      "name": "06_左踝脚-2/ankle_left_脚踝左-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\ankle_left_脚踝左.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -84.421247,
+        -78.97039,
+        157.114064
+      ],
+      "rotation": [
+        [
+          0.000930003,
+          -0.99950939,
+          -0.031306772
+        ],
+        [
+          -0.999855698,
+          -0.001460446,
+          0.016924817
+        ],
+        [
+          -0.016962235,
+          0.031286515,
+          -0.999366518
+        ]
+      ],
+      "box": {
+        "min": [
+          -104.463225,
+          -101.121956,
+          146.931358
+        ],
+        "max": [
+          -64.150316,
+          -64.115532,
+          174.270524
+        ],
+        "size": [
+          40.31291,
+          37.006423,
+          27.339165
+        ]
+      },
+      "constrained": "fully",
+      "mates": 1,
+      "parent": "06_左踝脚-2"
+    },
+    {
+      "name": "02_左髋yaw-roll-2",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\02_左髋yaw-roll.SLDASM",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -70.839523,
+        -67.235933,
+        100.56057
+      ],
+      "rotation": [
+        [
+          -5.6e-8,
+          -0.999999582,
+          0.000914645
+        ],
+        [
+          -0.017452484,
+          -0.000914505,
+          -0.999847276
+        ],
+        [
+          0.999847694,
+          -0.000016019,
+          -0.017452477
+        ]
+      ],
+      "box": {
+        "min": [
+          -67.225305,
+          -106.354702,
+          57.435649
+        ],
+        "max": [
+          -44.197103,
+          -74.940256,
+          97.965822
+        ],
+        "size": [
+          23.028202,
+          31.414446,
+          40.530173
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "children": 4
+    },
+    {
+      "name": "02_左髋yaw-roll-2/xl330-m288-t1-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\xl330-m288-t1.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -55.722539,
+        -78.351724,
+        80.91587
+      ],
+      "rotation": [
+        [
+          -5.6e-8,
+          -0.999999582,
+          0.000914645
+        ],
+        [
+          -0.017452484,
+          -0.000914505,
+          -0.999847276
+        ],
+        [
+          0.999847694,
+          -0.000016019,
+          -0.017452477
+        ]
+      ],
+      "box": {
+        "min": [
+          -65.722536,
+          -104.153666,
+          63.473261
+        ],
+        "max": [
+          -45.699219,
+          -78.045886,
+          97.913441
+        ],
+        "size": [
+          20.023317,
+          26.10778,
+          34.44018
+        ]
+      },
+      "constrained": "fully",
+      "mates": 3,
+      "parent": "02_左髋yaw-roll-2"
+    },
+    {
+      "name": "02_左髋yaw-roll-2/bearing_roll_轴承滚轮-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\bearing_roll_轴承滚轮.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -55.700862,
+        -101.995747,
+        77.502703
+      ],
+      "rotation": [
+        [
+          -0.999999582,
+          -5.6e-8,
+          -0.000914645
+        ],
+        [
+          -0.000914505,
+          -0.017452484,
+          0.999847276
+        ],
+        [
+          -0.000016019,
+          0.999847694,
+          0.017452477
+        ]
+      ],
+      "box": {
+        "min": [
+          -67.203602,
+          -102.355313,
+          57.505565
+        ],
+        "max": [
+          -44.200866,
+          -98.636638,
+          97.552198
+        ],
+        "size": [
+          23.002737,
+          3.718675,
+          40.046634
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "parent": "02_左髋yaw-roll-2"
+    },
+    {
+      "name": "02_左髋yaw-roll-2/yaw2roll_偏航转横滚-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\yaw2roll_偏航转横滚.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -38.213858,
+        -87.703375,
+        73.251494
+      ],
+      "rotation": [
+        [
+          -0.999999582,
+          -0.000914645,
+          5.6e-8
+        ],
+        [
+          -0.000914505,
+          0.999847276,
+          0.017452484
+        ],
+        [
+          -0.000016019,
+          0.017452477,
+          -0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -67.225304,
+          -101.116268,
+          57.521147
+        ],
+        "max": [
+          -44.201584,
+          -74.940256,
+          78.468792
+        ],
+        "size": [
+          23.02372,
+          26.176012,
+          20.947645
+        ]
+      },
+      "constrained": "fully",
+      "mates": 2,
+      "parent": "02_左髋yaw-roll-2"
+    },
+    {
+      "name": "02_左髋yaw-roll-2/轴承16×22×4-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\轴承16×22×4.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -55.699032,
+        -103.916905,
+        72.968483
+      ],
+      "rotation": [
+        [
+          -5.6e-8,
+          -0.999999582,
+          0.000914645
+        ],
+        [
+          -0.017452484,
+          -0.000914505,
+          -0.999847276
+        ],
+        [
+          0.999847694,
+          -0.000016019,
+          -0.017452477
+        ]
+      ],
+      "box": {
+        "min": [
+          -66.700858,
+          -106.118636,
+          61.935078
+        ],
+        "max": [
+          -44.697207,
+          -101.715174,
+          84.001889
+        ],
+        "size": [
+          22.003651,
+          4.403463,
+          22.066812
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "parent": "02_左髋yaw-roll-2"
+    },
+    {
+      "name": "08_颈俯仰-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\08_颈俯仰.SLDASM",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -40.592343,
+        -114.265271,
+        -105.110074
+      ],
+      "rotation": [
+        [
+          0.001114776,
+          0.999847313,
+          0.017438692
+        ],
+        [
+          -0.99999085,
+          0.001186618,
+          -0.004109883
+        ],
+        [
+          -0.004129948,
+          -0.017433951,
+          0.999839488
+        ]
+      ],
+      "box": {
+        "min": [
+          -57.093493,
+          -120.404826,
+          -47.211868
+        ],
+        "max": [
+          -21.552874,
+          -96.658121,
+          -16.709067
+        ],
+        "size": [
+          35.540619,
+          23.746705,
+          30.502801
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "children": 2
+    },
+    {
+      "name": "08_颈俯仰-1/neck_pitch_颈部俯仰-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\neck_pitch_颈部俯仰.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -39.546399,
+        -108.478867,
+        -44.758413
+      ],
+      "rotation": [
+        [
+          0.001114776,
+          0.999847313,
+          0.017438692
+        ],
+        [
+          -0.99999085,
+          0.001186618,
+          -0.004109883
+        ],
+        [
+          -0.004129948,
+          -0.017433951,
+          0.999839488
+        ]
+      ],
+      "box": {
+        "min": [
+          -57.053761,
+          -117.614347,
+          -45.100681
+        ],
+        "max": [
+          -21.555985,
+          -99.457231,
+          -16.720592
+        ],
+        "size": [
+          35.497776,
+          18.157116,
+          28.380089
+        ]
+      },
+      "constrained": "fully",
+      "mates": 4,
+      "parent": "08_颈俯仰-1"
+    },
+    {
+      "name": "08_颈俯仰-1/轴承16×22×4-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\轴承16×22×4.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -39.548143,
+        -108.478456,
+        -44.858397
+      ],
+      "rotation": [
+        [
+          -0.073625173,
+          0.997133505,
+          0.017438692
+        ],
+        [
+          -0.99728201,
+          -0.073564261,
+          -0.004109883
+        ],
+        [
+          -0.002815237,
+          -0.017693884,
+          0.999839488
+        ]
+      ],
+      "box": {
+        "min": [
+          -51.361366,
+          -120.265985,
+          -47.083677
+        ],
+        "max": [
+          -27.73492,
+          -96.690927,
+          -42.633118
+        ],
+        "size": [
+          23.626446,
+          23.575058,
+          4.450559
+        ]
+      },
+      "constrained": "fully",
+      "mates": 1,
+      "parent": "08_颈俯仰-1"
+    },
+    {
+      "name": "10_头部总成-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\10_头部总成.SLDASM",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -40.812083,
+        -101.536948,
+        65.143089
+      ],
+      "rotation": [
+        [
+          -0.998837471,
+          0.044939936,
+          -0.017438692
+        ],
+        [
+          0.044874782,
+          0.998984165,
+          0.004109883
+        ],
+        [
+          0.017605675,
+          0.003322548,
+          -0.999839488
+        ]
+      ],
+      "box": {
+        "min": [
+          -148.731737,
+          -219.380521,
+          -137.940458
+        ],
+        "max": [
+          57.756461,
+          -28.926184,
+          41.97789
+        ],
+        "size": [
+          206.488198,
+          190.454337,
+          179.918348
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "children": 16
+    },
+    {
+      "name": "10_头部总成-1/bottom_head_shell_头部下壳-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\bottom_head_shell_头部下壳.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -39.654505,
+        -108.342363,
+        -54.240845
+      ],
+      "rotation": [
+        [
+          -0.998837471,
+          0.044939936,
+          -0.017438692
+        ],
+        [
+          0.044874782,
+          0.998984165,
+          0.004109883
+        ],
+        [
+          0.017605675,
+          0.003322548,
+          -0.999839488
+        ]
+      ],
+      "box": {
+        "min": [
+          -88.321092,
+          -170.641513,
+          -62.748143
+        ],
+        "max": [
+          8.957893,
+          -49.809903,
+          -40.611006
+        ],
+        "size": [
+          97.278985,
+          120.83161,
+          22.137136
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1"
+    },
+    {
+      "name": "10_头部总成-1/m12_lens_holder_M12镜头座-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\m12_lens_holder_M12镜头座.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -41.69995,
+        -146.503016,
+        -74.163542
+      ],
+      "rotation": [
+        [
+          -0.998797312,
+          -0.044939936,
+          0.01960437
+        ],
+        [
+          0.044865765,
+          -0.998984165,
+          -0.004207172
+        ],
+        [
+          0.019773525,
+          -0.003322548,
+          0.999798964
+        ]
+      ],
+      "box": {
+        "min": [
+          -54.507575,
+          -161.860139,
+          -82.448496
+        ],
+        "max": [
+          -29.557436,
+          -145.930858,
+          -65.927761
+        ],
+        "size": [
+          24.950139,
+          15.92928,
+          16.520736
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1"
+    },
+    {
+      "name": "10_头部总成-1/face_part_面部零件-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\face_part_面部零件.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -39.634121,
+        -108.343944,
+        -54.041175
+      ],
+      "rotation": [
+        [
+          -0.998837471,
+          0.044939936,
+          -0.017438692
+        ],
+        [
+          0.044874782,
+          0.998984165,
+          0.004109883
+        ],
+        [
+          0.017605675,
+          0.003322548,
+          -0.999839488
+        ]
+      ],
+      "box": {
+        "min": [
+          -86.666964,
+          -165.757506,
+          -98.816597
+        ],
+        "max": [
+          2.221812,
+          -149.153489,
+          -52.612598
+        ],
+        "size": [
+          88.888776,
+          16.604018,
+          46.203999
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1"
+    },
+    {
+      "name": "10_头部总成-1/pcb__raspberry_pi_zero_2_w_树莓派Zero2W电路板-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\pcb__raspberry_pi_zero_2_w_树莓派Zero2W电路板.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -41.798321,
+        -150.422735,
+        -74.114595
+      ],
+      "rotation": [
+        [
+          0.998837471,
+          0.044939936,
+          0.017438692
+        ],
+        [
+          -0.044874782,
+          0.998984165,
+          -0.004109883
+        ],
+        [
+          -0.017605675,
+          0.003322548,
+          0.999839488
+        ]
+      ],
+      "box": {
+        "min": [
+          -74.558076,
+          -152.742121,
+          -89.68703
+        ],
+        "max": [
+          -9.038547,
+          -148.102959,
+          -58.542159
+        ],
+        "size": [
+          65.519529,
+          4.639163,
+          31.144872
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1"
+    },
+    {
+      "name": "10_头部总成-1/elec_rpi_robot_hat_pcb_树莓派机器人HAT电路板-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\elec_rpi_robot_hat_pcb_树莓派机器人HAT电路板.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -12.684593,
+        -144.044744,
+        -86.11801
+      ],
+      "rotation": [
+        [
+          -0.998832929,
+          -0.017696928,
+          -0.044939936
+        ],
+        [
+          0.044873718,
+          0.004121485,
+          -0.998984165
+        ],
+        [
+          0.01786417,
+          -0.999834902,
+          -0.003322548
+        ]
+      ],
+      "box": {
+        "min": [
+          -74.217768,
+          -145.151106,
+          -89.698103
+        ],
+        "max": [
+          -8.699556,
+          -141.270299,
+          -58.513651
+        ],
+        "size": [
+          65.518212,
+          3.880808,
+          31.184452
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1"
+    },
+    {
+      "name": "10_头部总成-1/xl330-m288-t1-2",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\xl330-m288-t1.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -30.298435,
+        -65.404154,
+        -58.771428
+      ],
+      "rotation": [
+        [
+          0.998837471,
+          0.017438692,
+          -0.044939936
+        ],
+        [
+          -0.044874782,
+          -0.004109883,
+          -0.998984165
+        ],
+        [
+          -0.017605675,
+          0.999839488,
+          -0.003322548
+        ]
+      ],
+      "box": {
+        "min": [
+          -48.599027,
+          -91.68222,
+          -69.153844
+        ],
+        "max": [
+          -13.143811,
+          -64.600184,
+          -48.473737
+        ],
+        "size": [
+          35.455216,
+          27.082036,
+          20.680108
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1"
+    },
+    {
+      "name": "10_头部总成-1/09_头yaw-roll-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\09_头yaw-roll.SLDASM",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -32.775796,
+        -105.399943,
+        -91.621352
+      ],
+      "rotation": [
+        [
+          0.998837471,
+          0.044939936,
+          0.017438692
+        ],
+        [
+          -0.044874782,
+          0.998984165,
+          -0.004109883
+        ],
+        [
+          -0.017605675,
+          0.003322548,
+          0.999839488
+        ]
+      ],
+      "box": {
+        "min": [
+          -56.18705,
+          -127.565718,
+          -74.658931
+        ],
+        "max": [
+          -14.152239,
+          -87.690067,
+          -43.061128
+        ],
+        "size": [
+          42.034811,
+          39.875651,
+          31.597803
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "children": 4,
+      "parent": "10_头部总成-1"
+    },
+    {
+      "name": "10_头部总成-1/09_头yaw-roll-1/轴承16×22×4-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\轴承16×22×4.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -40.459148,
+        -124.407252,
+        -58.836745
+      ],
+      "rotation": [
+        [
+          -0.554693948,
+          0.830839952,
+          -0.044939936
+        ],
+        [
+          0.027719075,
+          -0.035528722,
+          -0.998984165
+        ],
+        [
+          -0.831592615,
+          -0.555376164,
+          -0.003322548
+        ]
+      ],
+      "box": {
+        "min": [
+          -55.789901,
+          -127.100946,
+          -74.100046
+        ],
+        "max": [
+          -25.128395,
+          -121.713558,
+          -43.573443
+        ],
+        "size": [
+          30.661506,
+          5.387388,
+          30.526603
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1/09_头yaw-roll-1"
+    },
+    {
+      "name": "10_头部总成-1/09_头yaw-roll-1/yaw_roll_motion_偏航横滚运动-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\yaw_roll_motion_偏航横滚运动.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -39.712067,
+        -108.439822,
+        -54.256888
+      ],
+      "rotation": [
+        [
+          -0.998837471,
+          0.044939936,
+          -0.017438692
+        ],
+        [
+          0.044874782,
+          0.998984165,
+          0.004109883
+        ],
+        [
+          0.017605675,
+          0.003322548,
+          -0.999839488
+        ]
+      ],
+      "box": {
+        "min": [
+          -50.332034,
+          -127.539575,
+          -73.208715
+        ],
+        "max": [
+          -14.350052,
+          -89.88937,
+          -49.530224
+        ],
+        "size": [
+          35.981982,
+          37.650205,
+          23.678491
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1/09_头yaw-roll-1"
+    },
+    {
+      "name": "10_头部总成-1/09_头yaw-roll-1/xl330-m288-t1-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\xl330-m288-t1.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -32.499804,
+        -108.710626,
+        -70.386363
+      ],
+      "rotation": [
+        [
+          0.998837471,
+          0.044939936,
+          0.017438692
+        ],
+        [
+          -0.044874782,
+          0.998984165,
+          -0.004109883
+        ],
+        [
+          -0.017605675,
+          0.003322548,
+          0.999839488
+        ]
+      ],
+      "box": {
+        "min": [
+          -49.929441,
+          -119.568141,
+          -70.718885
+        ],
+        "max": [
+          -14.625481,
+          -97.957913,
+          -44.557934
+        ],
+        "size": [
+          35.303959,
+          21.610228,
+          26.160951
+        ]
+      },
+      "constrained": "under",
+      "mates": 2,
+      "parent": "10_头部总成-1/09_头yaw-roll-1"
+    },
+    {
+      "name": "10_头部总成-1/09_头yaw-roll-1/轴承16×22×4-2",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\轴承16×22×4.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -38.93119,
+        -90.441791,
+        -58.723778
+      ],
+      "rotation": [
+        [
+          0.608871979,
+          -0.791994517,
+          -0.044939936
+        ],
+        [
+          -0.030026954,
+          0.033600882,
+          -0.998984165
+        ],
+        [
+          0.792700003,
+          0.609602876,
+          -0.003322548
+        ]
+      ],
+      "box": {
+        "min": [
+          -54.430601,
+          -93.139665,
+          -74.155755
+        ],
+        "max": [
+          -23.431779,
+          -87.743916,
+          -43.291801
+        ],
+        "size": [
+          30.998823,
+          5.395749,
+          30.863954
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1/09_头yaw-roll-1"
+    },
+    {
+      "name": "10_头部总成-1/lens_镜头-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\lens_镜头.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -41.721172,
+        -146.902458,
+        -74.166482
+      ],
+      "rotation": [
+        [
+          0.570238264,
+          -0.044939936,
+          0.820249185
+        ],
+        [
+          -0.028383078,
+          -0.998984165,
+          -0.035000544
+        ],
+        [
+          0.820988869,
+          -0.003322548,
+          -0.57093453
+        ]
+      ],
+      "box": {
+        "min": [
+          -54.681419,
+          -173.732579,
+          -86.043521
+        ],
+        "max": [
+          -30.2763,
+          -153.758082,
+          -62.401478
+        ],
+        "size": [
+          24.405119,
+          19.974498,
+          23.642043
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1"
+    },
+    {
+      "name": "10_头部总成-1/noenoeil_眼睛-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\noenoeil_眼睛.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -39.63404,
+        -108.343963,
+        -54.036533
+      ],
+      "rotation": [
+        [
+          -0.998837471,
+          0.044939936,
+          -0.017438692
+        ],
+        [
+          0.044874782,
+          0.998984165,
+          0.004109883
+        ],
+        [
+          0.017605675,
+          0.003322548,
+          -0.999839488
+        ]
+      ],
+      "box": {
+        "min": [
+          -58.080643,
+          -172.432034,
+          -89.505983
+        ],
+        "max": [
+          -27.165428,
+          -161.472141,
+          -58.951063
+        ],
+        "size": [
+          30.915215,
+          10.959893,
+          30.55492
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1"
+    },
+    {
+      "name": "10_头部总成-1/motor_support_电机支架-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\motor_support_电机支架.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -39.645839,
+        -108.334448,
+        -54.040932
+      ],
+      "rotation": [
+        [
+          -0.998824002,
+          0.045238321,
+          -0.017438692
+        ],
+        [
+          0.045173211,
+          0.998970715,
+          0.004109883
+        ],
+        [
+          0.017606667,
+          0.003317288,
+          -0.999839488
+        ]
+      ],
+      "box": {
+        "min": [
+          -75.127323,
+          -136.291932,
+          -74.098875
+        ],
+        "max": [
+          1.07449,
+          -78.748036,
+          -53.349654
+        ],
+        "size": [
+          76.201813,
+          57.543895,
+          20.74922
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1"
+    },
+    {
+      "name": "10_头部总成-1/xl330-m288-t1-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\xl330-m288-t1.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -54.233002,
+        -115.144705,
+        -61.445742
+      ],
+      "rotation": [
+        [
+          -0.044939936,
+          0.017438692,
+          -0.998837471
+        ],
+        [
+          -0.998984165,
+          -0.004109883,
+          0.044874782
+        ],
+        [
+          -0.003322548,
+          0.999839488,
+          0.017605675
+        ]
+      ],
+      "box": {
+        "min": [
+          -80.641723,
+          -132.168535,
+          -71.50062
+        ],
+        "max": [
+          -53.294636,
+          -96.976568,
+          -50.941919
+        ],
+        "size": [
+          27.347087,
+          35.191966,
+          20.558701
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1"
+    },
+    {
+      "name": "10_头部总成-1/jaw_下巴-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\jaw_下巴.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -39.147825,
+        -105.055124,
+        -54.921031
+      ],
+      "rotation": [
+        [
+          -0.998837471,
+          0.032793507,
+          -0.035331172
+        ],
+        [
+          0.044874782,
+          0.900251569,
+          -0.433051228
+        ],
+        [
+          0.017605675,
+          -0.434133272,
+          -0.900676602
+        ]
+      ],
+      "box": {
+        "min": [
+          -146.962984,
+          -198.079093,
+          -136.702668
+        ],
+        "max": [
+          10.502212,
+          -29.375298,
+          28.111289
+        ],
+        "size": [
+          157.465196,
+          168.703795,
+          164.813957
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1"
+    },
+    {
+      "name": "10_头部总成-1/deep groove ball bearings gb-2",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\deep groove ball bearings gb.sldprt",
+      "configuration": "Rolling bearings 61700 GB 276-94",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -0.957566,
+        -110.030687,
+        -62.353924
+      ],
+      "rotation": [
+        [
+          -0.998837471,
+          0.044939936,
+          -0.017438692
+        ],
+        [
+          0.044874782,
+          0.998984165,
+          0.004109883
+        ],
+        [
+          0.017605675,
+          0.003322548,
+          -0.999839488
+        ]
+      ],
+      "box": {
+        "min": [
+          -2.923662,
+          -117.621205,
+          -69.904047
+        ],
+        "max": [
+          1.00853,
+          -102.44017,
+          -54.8038
+        ],
+        "size": [
+          3.932192,
+          15.181035,
+          15.100248
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1"
+    },
+    {
+      "name": "10_头部总成-1/soft_mouth_top_软嘴顶部-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\soft_mouth_top_软嘴顶部.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -39.249464,
+        -108.603594,
+        -54.346881
+      ],
+      "rotation": [
+        [
+          -0.998837472,
+          0.044939924,
+          -0.017438692
+        ],
+        [
+          0.04487477,
+          0.998984166,
+          0.004109887
+        ],
+        [
+          0.017605675,
+          0.003322551,
+          -0.999839488
+        ]
+      ],
+      "box": {
+        "min": [
+          -87.992471,
+          -176.820888,
+          -59.330858
+        ],
+        "max": [
+          9.357016,
+          -131.486995,
+          -39.795738
+        ],
+        "size": [
+          97.349488,
+          45.333893,
+          19.53512
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1"
+    },
+    {
+      "name": "10_头部总成-1/jaw_soft_软下巴-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\jaw_soft_软下巴.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -39.312339,
+        -104.835586,
+        -56.137442
+      ],
+      "rotation": [
+        [
+          -0.998837471,
+          0.032793501,
+          -0.035331178
+        ],
+        [
+          0.044874782,
+          0.900251494,
+          -0.433051385
+        ],
+        [
+          0.017605675,
+          -0.434133429,
+          -0.900676527
+        ]
+      ],
+      "box": {
+        "min": [
+          -88.001503,
+          -219.000637,
+          -99.100875
+        ],
+        "max": [
+          55.005523,
+          -75.861043,
+          40.480541
+        ],
+        "size": [
+          143.007026,
+          143.139594,
+          139.581416
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1"
+    },
+    {
+      "name": "10_头部总成-1/top_head_shell_头部上壳-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\top_head_shell_头部上壳.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -39.651007,
+        -108.343153,
+        -54.040337
+      ],
+      "rotation": [
+        [
+          -0.998837496,
+          0.04493975,
+          -0.017437766
+        ],
+        [
+          0.044874788,
+          0.998984209,
+          0.004099134
+        ],
+        [
+          0.017604267,
+          0.003311853,
+          -0.999839548
+        ]
+      ],
+      "box": {
+        "min": [
+          -89.261879,
+          -176.563962,
+          -101.394767
+        ],
+        "max": [
+          8.717919,
+          -49.651651,
+          -53.043696
+        ],
+        "size": [
+          97.979798,
+          126.912311,
+          48.351071
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "10_头部总成-1"
+    },
+    {
+      "name": "11_右髋yaw-roll-3",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\11_右髋yaw-roll.SLDASM",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -35.839538,
+        -67.203925,
+        100.561131
+      ],
+      "rotation": [
+        [
+          -5.6e-8,
+          -0.999999582,
+          0.000914645
+        ],
+        [
+          -0.017452484,
+          -0.000914505,
+          -0.999847276
+        ],
+        [
+          0.999847694,
+          -0.000016019,
+          -0.017452477
+        ]
+      ],
+      "box": {
+        "min": [
+          -36.052476,
+          -106.326194,
+          57.436149
+        ],
+        "max": [
+          -5.37004,
+          -74.904748,
+          97.966444
+        ],
+        "size": [
+          30.682435,
+          31.421446,
+          40.530295
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "children": 4
+    },
+    {
+      "name": "11_右髋yaw-roll-3/yaw2roll_偏航转横滚-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\yaw2roll_偏航转横滚.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -3.213872,
+        -87.671368,
+        73.252054
+      ],
+      "rotation": [
+        [
+          -0.999999582,
+          -0.000914645,
+          5.6e-8
+        ],
+        [
+          -0.000914505,
+          0.999847276,
+          0.017452484
+        ],
+        [
+          -0.000016019,
+          0.017452477,
+          -0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -32.225318,
+          -101.08426,
+          57.521707
+        ],
+        "max": [
+          -9.201598,
+          -74.908248,
+          78.469353
+        ],
+        "size": [
+          23.02372,
+          26.176012,
+          20.947645
+        ]
+      },
+      "constrained": "under",
+      "mates": 2,
+      "parent": "11_右髋yaw-roll-3"
+    },
+    {
+      "name": "11_右髋yaw-roll-3/xl330-m288-t1-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\xl330-m288-t1.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -20.722554,
+        -78.319716,
+        80.91643
+      ],
+      "rotation": [
+        [
+          -5.6e-8,
+          -0.999999582,
+          0.000914645
+        ],
+        [
+          -0.017452484,
+          -0.000914505,
+          -0.999847276
+        ],
+        [
+          0.999847694,
+          -0.000016019,
+          -0.017452477
+        ]
+      ],
+      "box": {
+        "min": [
+          -30.722551,
+          -104.121659,
+          63.473821
+        ],
+        "max": [
+          -10.699234,
+          -78.013879,
+          97.914001
+        ],
+        "size": [
+          20.023317,
+          26.10778,
+          34.44018
+        ]
+      },
+      "constrained": "under",
+      "mates": 2,
+      "parent": "11_右髋yaw-roll-3"
+    },
+    {
+      "name": "11_右髋yaw-roll-3/轴承16×22×4-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\轴承16×22×4.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -20.699047,
+        -103.884897,
+        72.969044
+      ],
+      "rotation": [
+        [
+          -0.817614774,
+          -0.575764922,
+          0.000914645
+        ],
+        [
+          -0.010796246,
+          0.013742874,
+          -0.999847276
+        ],
+        [
+          0.575664418,
+          -0.817499779,
+          -0.017452477
+        ]
+      ],
+      "box": {
+        "min": [
+          -36.028053,
+          -106.154522,
+          57.609333
+        ],
+        "max": [
+          -5.370041,
+          -101.615272,
+          88.328755
+        ],
+        "size": [
+          30.658012,
+          4.53925,
+          30.719422
+        ]
+      },
+      "constrained": "under",
+      "mates": 1,
+      "parent": "11_右髋yaw-roll-3"
+    },
+    {
+      "name": "11_右髋yaw-roll-3/bearing_roll_轴承滚轮-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\bearing_roll_轴承滚轮.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -20.700877,
+        -101.963739,
+        77.503264
+      ],
+      "rotation": [
+        [
+          -0.999999582,
+          -5.6e-8,
+          -0.000914645
+        ],
+        [
+          -0.000914505,
+          -0.017452484,
+          0.999847276
+        ],
+        [
+          -0.000016019,
+          0.999847694,
+          0.017452477
+        ]
+      ],
+      "box": {
+        "min": [
+          -32.203617,
+          -102.323305,
+          57.506125
+        ],
+        "max": [
+          -9.20088,
+          -98.604631,
+          97.552759
+        ],
+        "size": [
+          23.002737,
+          3.718675,
+          40.046634
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "11_右髋yaw-roll-3"
+    },
+    {
+      "name": "05_左小腿-2",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\05_左小腿.SLDASM",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -52.675742,
+        -81.788354,
+        146.752253
+      ],
+      "rotation": [
+        [
+          -0.031306772,
+          0.000930003,
+          -0.99950939
+        ],
+        [
+          0.016924817,
+          -0.999855698,
+          -0.001460446
+        ],
+        [
+          -0.999366518,
+          -0.016962235,
+          0.031286515
+        ]
+      ],
+      "box": {
+        "min": [
+          -100.751291,
+          -89.151202,
+          104.467304
+        ],
+        "max": [
+          -67.82253,
+          -68.067934,
+          167.23758
+        ],
+        "size": [
+          32.928761,
+          21.083267,
+          62.770276
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "children": 2
+    },
+    {
+      "name": "05_左小腿-2/xl330-m288-t1-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\xl330-m288-t1.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -73.861346,
+        -78.827681,
+        149.28092
+      ],
+      "rotation": [
+        [
+          -0.031306772,
+          0.000930003,
+          -0.99950939
+        ],
+        [
+          0.016924817,
+          -0.999855698,
+          -0.001460446
+        ],
+        [
+          -0.999366518,
+          -0.016962235,
+          0.031286515
+        ]
+      ],
+      "box": {
+        "min": [
+          -99.890351,
+          -89.151202,
+          132.122067
+        ],
+        "max": [
+          -73.319831,
+          -68.541402,
+          167.23758
+        ],
+        "size": [
+          26.57052,
+          20.609799,
+          35.115512
+        ]
+      },
+      "constrained": "fully",
+      "mates": 4,
+      "parent": "05_左小腿-2"
+    },
+    {
+      "name": "05_左小腿-2/leg_腿部-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\leg_腿部.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -35.819548,
+        -100.790624,
+        148.995142
+      ],
+      "rotation": [
+        [
+          -0.99950939,
+          -0.000930003,
+          -0.031306772
+        ],
+        [
+          -0.001460446,
+          0.999855698,
+          0.016924817
+        ],
+        [
+          0.031286515,
+          0.016962235,
+          -0.999366518
+        ]
+      ],
+      "box": {
+        "min": [
+          -77.712714,
+          -89.058302,
+          104.467304
+        ],
+        "max": [
+          -67.932103,
+          -68.067934,
+          163.018646
+        ],
+        "size": [
+          9.78061,
+          20.990367,
+          58.551342
+        ]
+      },
+      "constrained": "fully",
+      "mates": 2,
+      "parent": "05_左小腿-2"
+    },
+    {
+      "name": "07_颈根-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\07_颈根.SLDASM",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -30.650435,
+        -140.782205,
+        -26.225517
+      ],
+      "rotation": [
+        [
+          0.017438692,
+          -0.001114776,
+          -0.999847313
+        ],
+        [
+          -0.004109883,
+          0.99999085,
+          -0.001186618
+        ],
+        [
+          0.999839488,
+          0.004129948,
+          0.017433951
+        ]
+      ],
+      "box": {
+        "min": [
+          -53.394973,
+          -118.816781,
+          -35.853982
+        ],
+        "max": [
+          -23.673759,
+          -98.499563,
+          33.714409
+        ],
+        "size": [
+          29.721214,
+          20.317218,
+          69.568391
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "children": 4
+    },
+    {
+      "name": "07_颈根-1/xl330-m288-t2-5",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\xl330-m288-t2.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -26.980907,
+        -108.716745,
+        16.231273
+      ],
+      "rotation": [
+        [
+          -0.017438692,
+          0.001114776,
+          -0.999847313
+        ],
+        [
+          0.004109883,
+          -0.99999085,
+          -0.001186618
+        ],
+        [
+          -0.999839488,
+          -0.004129948,
+          0.017433951
+        ]
+      ],
+      "box": {
+        "min": [
+          -52.784619,
+          -118.816781,
+          -0.8596
+        ],
+        "max": [
+          -23.673759,
+          -98.643409,
+          33.714409
+        ],
+        "size": [
+          29.110859,
+          20.173372,
+          34.574009
+        ]
+      },
+      "constrained": "fully",
+      "mates": 2,
+      "parent": "07_颈根-1"
+    },
+    {
+      "name": "07_颈根-1/xl330-m288-t2-4",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\xl330-m288-t2.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -27.591261,
+        -108.5729,
+        -18.763109
+      ],
+      "rotation": [
+        [
+          0.017438692,
+          -0.001114776,
+          -0.999847313
+        ],
+        [
+          -0.004109883,
+          0.99999085,
+          -0.001186618
+        ],
+        [
+          0.999839488,
+          0.004129948,
+          0.017433951
+        ]
+      ],
+      "box": {
+        "min": [
+          -53.394973,
+          -118.672935,
+          -35.853982
+        ],
+        "max": [
+          -24.284114,
+          -98.499563,
+          -1.279973
+        ],
+        "size": [
+          29.110859,
+          20.173372,
+          34.574009
+        ]
+      },
+      "constrained": "fully",
+      "mates": 3,
+      "parent": "07_颈根-1"
+    },
+    {
+      "name": "07_颈根-1/neck_颈部-3",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\neck_颈部.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -50.982465,
+        -108.672945,
+        -0.852733
+      ],
+      "rotation": [
+        [
+          -0.017438692,
+          -0.001114776,
+          0.999847313
+        ],
+        [
+          0.004109883,
+          0.99999085,
+          0.001186618
+        ],
+        [
+          -0.999839488,
+          0.004129948,
+          -0.017433951
+        ]
+      ],
+      "box": {
+        "min": [
+          -52.089373,
+          -118.696645,
+          -6.410584
+        ],
+        "max": [
+          -49.875557,
+          -98.649246,
+          4.705117
+        ],
+        "size": [
+          2.213816,
+          20.047399,
+          11.115701
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "parent": "07_颈根-1"
+    },
+    {
+      "name": "07_颈根-1/neck_颈部-4",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\neck_颈部.SLDPRT",
+      "configuration": "默认",
+      "fixed": true,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -26.286237,
+        -108.643636,
+        -1.283352
+      ],
+      "rotation": [
+        [
+          0.017438692,
+          -0.001114776,
+          -0.999847313
+        ],
+        [
+          -0.004109883,
+          0.99999085,
+          -0.001186618
+        ],
+        [
+          0.999839488,
+          0.004129948,
+          0.017433951
+        ]
+      ],
+      "box": {
+        "min": [
+          -27.393144,
+          -118.667335,
+          -6.841203
+        ],
+        "max": [
+          -25.179329,
+          -98.619936,
+          4.274499
+        ],
+        "size": [
+          2.213816,
+          20.047399,
+          11.115701
+        ]
+      },
+      "constrained": "fully",
+      "mates": 0,
+      "parent": "07_颈根-1"
+    },
+    {
+      "name": "13_右大腿-2",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\13_右大腿.SLDASM",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        49.086921,
+        -83.863442,
+        76.986576
+      ],
+      "rotation": [
+        [
+          0.000646791,
+          0.000646712,
+          -0.999999582
+        ],
+        [
+          -0.694658019,
+          -0.719339559,
+          -0.000914505
+        ],
+        [
+          -0.719339849,
+          0.69465832,
+          -0.000016019
+        ]
+      ],
+      "box": {
+        "min": [
+          0.199552,
+          -120.554693,
+          54.898219
+        ],
+        "max": [
+          42.759991,
+          -43.370201,
+          132.371691
+        ],
+        "size": [
+          42.560439,
+          77.184492,
+          77.473472
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "children": 5
+    },
+    {
+      "name": "13_右大腿-2/轴承16×22×4-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\轴承16×22×4.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        2.23111,
+        -78.182314,
+        114.180501
+      ],
+      "rotation": [
+        [
+          0.000641797,
+          0.000651669,
+          -0.999999582
+        ],
+        [
+          -0.689103142,
+          -0.724662697,
+          -0.000914505
+        ],
+        [
+          -0.724662989,
+          0.68910344,
+          -0.000016019
+        ]
+      ],
+      "box": {
+        "min": [
+          0.216883,
+          -93.735567,
+          98.629039
+        ],
+        "max": [
+          4.245337,
+          -62.62906,
+          129.731964
+        ],
+        "size": [
+          4.028455,
+          31.106506,
+          31.102926
+        ]
+      },
+      "constrained": "under",
+      "mates": 1,
+      "parent": "13_右大腿-2"
+    },
+    {
+      "name": "13_右大腿-2/01-upper_leg_rigidity_plate_上腿加固板-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\01-upper_leg_rigidity_plate_上腿加固板.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        5.231109,
+        -78.17957,
+        114.180549
+      ],
+      "rotation": [
+        [
+          0.000646791,
+          0.000646712,
+          -0.999999582
+        ],
+        [
+          -0.694658019,
+          -0.719339559,
+          -0.000914505
+        ],
+        [
+          -0.719339849,
+          0.69465832,
+          -0.000016019
+        ]
+      ],
+      "box": {
+        "min": [
+          4.201406,
+          -118.561535,
+          56.804141
+        ],
+        "max": [
+          5.268454,
+          -45.431222,
+          130.261267
+        ],
+        "size": [
+          1.067048,
+          73.130313,
+          73.457127
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "13_右大腿-2"
+    },
+    {
+      "name": "13_右大腿-2/舵机xl330-288-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\舵机xl330-288.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        27.935074,
+        -81.882972,
+        78.654182
+      ],
+      "rotation": [
+        [
+          0.000646791,
+          0.000646712,
+          -0.999999582
+        ],
+        [
+          -0.694658019,
+          -0.719339559,
+          -0.000914505
+        ],
+        [
+          -0.719339849,
+          0.69465832,
+          -0.000016019
+        ]
+      ],
+      "box": {
+        "min": [
+          2.217622,
+          -100.909057,
+          59.47841
+        ],
+        "max": [
+          27.952537,
+          -62.88039,
+          97.829543
+        ],
+        "size": [
+          25.734914,
+          38.028667,
+          38.351133
+        ]
+      },
+      "constrained": "under",
+      "mates": 3,
+      "parent": "13_右大腿-2"
+    },
+    {
+      "name": "13_右大腿-2/舵机xl330-288-2",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\舵机xl330-288.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        27.926249,
+        -72.763764,
+        108.970976
+      ],
+      "rotation": [
+        [
+          0.000646712,
+          -0.000646791,
+          -0.999999582
+        ],
+        [
+          -0.719339559,
+          0.694658019,
+          -0.000914505
+        ],
+        [
+          0.69465832,
+          0.719339849,
+          -0.000016019
+        ]
+      ],
+      "box": {
+        "min": [
+          2.208798,
+          -91.96262,
+          89.967974
+        ],
+        "max": [
+          27.943711,
+          -53.588411,
+          127.973566
+        ],
+        "size": [
+          25.734913,
+          38.374208,
+          38.005592
+        ]
+      },
+      "constrained": "under",
+      "mates": 2,
+      "parent": "13_右大腿-2"
+    },
+    {
+      "name": "13_右大腿-2/right_upper_leg_右上腿-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\right_upper_leg_右上腿.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -36.759816,
+        -87.403545,
+        73.305765
+      ],
+      "rotation": [
+        [
+          -0.999999582,
+          0.000642577,
+          -0.0006509
+        ],
+        [
+          -0.000914505,
+          -0.714897832,
+          0.699228327
+        ],
+        [
+          -0.000016019,
+          0.69922863,
+          0.714898121
+        ]
+      ],
+      "box": {
+        "min": [
+          5.699641,
+          -120.338669,
+          55.168356
+        ],
+        "max": [
+          42.759794,
+          -43.581196,
+          132.101643
+        ],
+        "size": [
+          37.060153,
+          76.757473,
+          76.933287
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "13_右大腿-2"
+    },
+    {
+      "name": "15_右踝脚-3",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\15_右踝脚.SLDASM",
+      "configuration": "Default",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        36.969883,
+        -109.012345,
+        219.8463
+      ],
+      "rotation": [
+        [
+          -0.999999582,
+          -0.000914645,
+          5.6e-8
+        ],
+        [
+          -0.000914505,
+          0.999847276,
+          0.017452484
+        ],
+        [
+          -0.000016019,
+          0.017452477,
+          -0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -9.681903,
+          -113.388861,
+          146.530831
+        ],
+        "max": [
+          31.467762,
+          -58.761161,
+          181.676446
+        ],
+        "size": [
+          41.149665,
+          54.6277,
+          35.145615
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "children": 4
+    },
+    {
+      "name": "15_右踝脚-3/sole_right_右脚底-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\sole_right_右脚底.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -39.09873,
+        -100.871006,
+        149.697434
+      ],
+      "rotation": [
+        [
+          -0.999999582,
+          -0.000914645,
+          5.6e-8
+        ],
+        [
+          -0.000914505,
+          0.999847276,
+          0.017452484
+        ],
+        [
+          -0.000016019,
+          0.017452477,
+          -0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -9.681903,
+          -113.387726,
+          167.821851
+        ],
+        "max": [
+          31.46776,
+          -59.132798,
+          181.676446
+        ],
+        "size": [
+          41.149663,
+          54.254927,
+          13.854595
+        ]
+      },
+      "constrained": "under",
+      "mates": 0,
+      "parent": "15_右踝脚-3"
+    },
+    {
+      "name": "15_右踝脚-3/ankle_right脚踝右-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\ankle_right脚踝右.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        10.781025,
+        -78.82448,
+        156.325139
+      ],
+      "rotation": [
+        [
+          0.000914645,
+          -0.999999582,
+          5.6e-8
+        ],
+        [
+          -0.999847276,
+          -0.000914505,
+          0.017452484
+        ],
+        [
+          -0.017452477,
+          -0.000016019,
+          -0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -8.982388,
+          -100.97368,
+          146.744887
+        ],
+        "max": [
+          30.551002,
+          -63.975674,
+          172.879043
+        ],
+        "size": [
+          39.53339,
+          36.998007,
+          26.134156
+        ]
+      },
+      "constrained": "under",
+      "mates": 1,
+      "parent": "15_右踝脚-3"
+    },
+    {
+      "name": "15_右踝脚-3/foot_right_右脚-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\foot_right_右脚.SLDPRT",
+      "configuration": "默认",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -39.09873,
+        -100.871006,
+        149.697434
+      ],
+      "rotation": [
+        [
+          -0.999999582,
+          -0.000914645,
+          5.6e-8
+        ],
+        [
+          -0.000914505,
+          0.999847276,
+          0.017452484
+        ],
+        [
+          -0.000016019,
+          0.017452477,
+          -0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -9.056349,
+          -113.353409,
+          161.828399
+        ],
+        "max": [
+          31.07864,
+          -59.028545,
+          179.67816
+        ],
+        "size": [
+          40.134989,
+          54.324864,
+          17.849761
+        ]
+      },
+      "constrained": "under",
+      "mates": 1,
+      "parent": "15_右踝脚-3"
+    },
+    {
+      "name": "15_右踝脚-3/deep groove ball bearings gb-1",
+      "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\community\\SolidWorks-XL330-v1.1\\SolidWorks-XL330-v1.1\\deep groove ball bearings gb.sldprt",
+      "configuration": "Rolling bearings 61700 GB 276-94",
+      "fixed": false,
+      "suppression": "resolved",
+      "visible": true,
+      "originMm": [
+        -5.21889,
+        -78.922131,
+        156.173985
+      ],
+      "rotation": [
+        [
+          -0.999999582,
+          -0.000914645,
+          5.6e-8
+        ],
+        [
+          -0.000914505,
+          0.999847276,
+          0.017452484
+        ],
+        [
+          -0.000016019,
+          0.017452477,
+          -0.999847694
+        ]
+      ],
+      "box": {
+        "min": [
+          -6.72575,
+          -86.553251,
+          148.54421
+        ],
+        "max": [
+          -3.71203,
+          -71.291011,
+          163.80376
+        ],
+        "size": [
+          3.013719,
+          15.26224,
+          15.259551
+        ]
+      },
+      "constrained": "under",
+      "mates": 1,
+      "parent": "15_右踝脚-3"
+    }
+  ],
+  "total": 86
+}

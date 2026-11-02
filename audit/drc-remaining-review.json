@@ -1,0 +1,222 @@
+{
+  "scope": "Read-only classification of3 integrated KiCad candidates; every current DRC item covered once",
+  "geometry_details": "audit/drc-remaining-geometry.json",
+  "boards_edited": false,
+  "new_rule_exemptions": false,
+  "manufacturing_ready": false,
+  "results": [
+    {
+      "candidate": "wire_hub_1V0A",
+      "board": "editing/kicad-integrated/wire_hub_1V0A/wire_hub_1V0A.kicad_pcb",
+      "board_sha256": "4cfa1b835e92eeb719fdf5658c41dbf6b8304028bbf2a17ea36d8b0af9a9bc64",
+      "drc_report_sha256": "4fef454b04c27792b700732fc5a4d5f300ac9bd749031ff9975464e9de0f5c66",
+      "counts": {
+        "copper_edge_clearance": 17,
+        "clearance": 1,
+        "silk_overlap": 6,
+        "silk_edge_clearance": 1
+      },
+      "classification": [
+        {
+          "class": "positive_copper_overlap_in_recovered_static_candidate",
+          "indices": [
+            17
+          ],
+          "priority": 0,
+          "evidence": "CN1 pad1 /Battery (59.817,-23.241) and cached B.Cu /GND overlap 0.201672760063 mm2 (GEOS); native polygon intersection 0.201672759807 mm2. Source pour ID6433fd3c96979807. This is not a mixed-class maximum artifact.",
+          "next_action": "First reconcile cached-pour/current-pad revisions and confirm source geometry. If deliberately engineering a replacement, regenerate or subtract the required Battery-pad exclusion from GND in a separate copy, then check connectivity, actual Gerber copper and full DRC. Do not merely suppress the report."
+        },
+        {
+          "class": "edge_category_envelope_unresolved",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "priority": 2,
+          "evidence": "12 via-to-edge gaps 0.2870..0.2973 mm are below source outline11 limit0.29972 but exceed cutout8 limit0.1524 mm. Exact outer-outline versus interior-cutout classification is not projected. Source/current outline frame also remains under review.",
+          "next_action": "Map each saved native Edge.Cuts item to the exact source outline/cutout ID before changing copper or any rule. Preserve current failures meanwhile."
+        },
+        {
+          "class": "edge_gap_below_both_source_categories",
+          "indices": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "priority": 1,
+          "evidence": "2 DXL_BUS tracks have0.2863 mm versus outline0.29972/cutout0.2999994. 3 GND pour edges have0.2438 mm versus0.254 mm for both source categories.",
+          "next_action": "Reconcile source cached outline and copper stroke interpretation; only an explicitly labeled engineering correction should move/trim copper. Native rerun and plotted-copper verification required."
+        },
+        {
+          "class": "source_silk_reproduced_native_typography_unqualified",
+          "indices": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "priority": 3,
+          "evidence": "6 silk overlaps involving J1,J6,CN1,J2,J4 and1 J3 reference over board edge. Source reference anchor/style retained; exact glyph metrics and source SILK_OPTS trimming are unqualified.",
+          "next_action": "A new manufacturing-artwork copy may move reference fields and trim artwork around mask openings/edges while leaving copper untouched. Do not call such edits faithful source recovery."
+        }
+      ]
+    },
+    {
+      "candidate": "POGO_PIN_1V0A",
+      "board": "editing/kicad-integrated/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_pcb",
+      "board_sha256": "a3da5545a0251f4b08176befa0932d6f028e3c57425e34eb494d5b5f91ac91cf",
+      "drc_report_sha256": "9a4b8c3af4b941c454ea7cab6d4804ece097fef61684f23a5d5464ea22469bb2",
+      "counts": {
+        "nonmirrored_text_on_back_layer": 2
+      },
+      "classification": [
+        {
+          "class": "source_flag_preserved_native_back_text_convention",
+          "indices": [
+            0,
+            1
+          ],
+          "priority": 3,
+          "evidence": "Reference U1 (108.675002,-6.384), U2 (78.957002,-6.511) on back silk retain source mirror=false. No copper, connectivity or parity violations in this report.",
+          "next_action": "A separately labeled manufacturing-artwork variant can intentionally mirror these2 references, preserve every other property, rerun native DRC and inspect bottom Gerber from the board underside. Retain recovered source baseline."
+        }
+      ]
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A-transition-hypothesis",
+      "board": "editing/kicad-integrated/imu_to_dxl_1V0A-transition-hypothesis/imu_to_dxl_1V0A.kicad_pcb",
+      "board_sha256": "30df0eb61b6f821cb44483e8ebf3e9c56ed89fe27871eceef16b36420c04afb2",
+      "drc_report_sha256": "93a8250ee02d46c351a09db52e8f8c087215f0791f90fd0b0c4229b2517b38ee",
+      "counts": {
+        "copper_edge_clearance": 1,
+        "clearance": 12,
+        "zones_intersect": 5,
+        "silk_overlap": 37,
+        "silk_over_copper": 11
+      },
+      "classification": [
+        {
+          "class": "positive_copper_overlap_in_recovered_static_candidate",
+          "indices": [
+            12,
+            13
+          ],
+          "priority": 0,
+          "evidence": "F.Cu /VDD_BUS source FILL746a86ec39ac9e6d overlaps2 GND regions:3.344846496349 and0.473536737200 mm2 GEOS; native3.344846365882 and0.473536936499 mm2. Source GND contributors include POUR9e6ef9e9729c8ee7 and POUR84a63625734e769f. This persists after exclusion of the separate ambiguous old FILL84a63625734e769f.",
+          "next_action": "Resolve source cache/history and FILL versus POUR priority semantics; do not declare the transition hypothesis electrically viable. An intentional engineering replacement needs a coherent copper regeneration with correct rail clearances and fresh continuity/plot checks."
+        },
+        {
+          "class": "conservative_mixed_zone_class_maximum",
+          "indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            16,
+            17
+          ],
+          "priority": 2,
+          "evidence": "All10 native union-based failures pass independent localized source-primitive class6/class7 pair limits using actual saved copper. Native-union gap0.220116..0.253152 mm is below globally collapsed0.254; original class7 contributors at these locations are at least0.256340 mm away. Class6 contributors have their own smaller supported source limits.",
+          "next_action": "Use a qualified representation preserving source class ownership locally (for example distinct provenance regions) before replacing these conservative rules. Do not globally reduce the mixed-zone minimum or ignore10 findings."
+        },
+        {
+          "class": "same_net_boundary_touch_bookkeeping",
+          "indices": [
+            9,
+            10,
+            11,
+            14,
+            15
+          ],
+          "priority": 2,
+          "evidence": "All5 pairs have identical nets, zero polygon separation and ZERO positive intersection area in both GEOS and native polygon Boolean intersection. They touch at boundaries; they are not distinct-net shorts.",
+          "next_action": "Review saved-zone representation for point/edge-touch regions. A representation-only fix must prove identical copper XOR, connectivity and plotting without arbitrary priorities or fabricated copper bridges."
+        },
+        {
+          "class": "conservative_mixed_zone_edge_envelope_unresolved",
+          "indices": [
+            0
+          ],
+          "priority": 2,
+          "evidence": "Mixed class6/7 GND region reports0.2937 mm against0.29972. Class7 source edge limit0.254 differs from class6 outline0.29972/cutout0.1524. Local provenance and exact edge class must be retained before equivalence can be judged.",
+          "next_action": "Localize edge-class/provenance check; do not trim this copper solely to satisfy the conservative maximum."
+        },
+        {
+          "class": "source_silk_reproduced_native_typography_and_trimming_unqualified",
+          "indices": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+          ],
+          "priority": 3,
+          "evidence": "37 silk-overlap and11 silk-over-copper findings. R2/R4 and R5/R7 outline contacts are source stroke geometry; many other findings involve substituted native reference glyphs. D2 has2 graphic-to-pad mask-opening conflicts.",
+          "next_action": "Qualify source SILK_OPTS trimming and native glyph size/anchor first. An intentionally revised artwork layer may then relocate refs and trim strokes against mask/edge geometry, preserving the literal recovered copy."
+        }
+      ]
+    }
+  ]
+}

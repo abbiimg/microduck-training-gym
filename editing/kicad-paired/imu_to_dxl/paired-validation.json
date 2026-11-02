@@ -1,0 +1,15 @@
+{
+  "candidate": "imu_to_dxl",
+  "pads_checked": 107,
+  "geometry_or_net_errors": [],
+  "schematic_parity": [],
+  "drc_counts": {
+    "drill_out_of_range": 14,
+    "copper_edge_clearance": 5,
+    "clearance": 14,
+    "zones_intersect": 26,
+    "via_dangling": 11
+  },
+  "unconnected": 0,
+  "manufacturing_ready": false
+}

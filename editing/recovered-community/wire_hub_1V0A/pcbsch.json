@@ -1,0 +1,74 @@
+{
+  "sch_comps": 7,
+  "pcbs": [
+    {
+      "pcb": "wire_hub_PCB",
+      "board": "wire_hub",
+      "comps": 7,
+      "nets": 3,
+      "pads": 24,
+      "matched": 7,
+      "renamed": 0,
+      "only_sch": [],
+      "only_pcb": 0,
+      "rows": [
+        {
+          "uid": "gge21",
+          "pcb": "CN1",
+          "sch": "CN1",
+          "page": "wire_hub::1-Conector",
+          "status": "match",
+          "device": "bf9aeb7c425cdca8"
+        },
+        {
+          "uid": "gge17",
+          "pcb": "J1",
+          "sch": "J1",
+          "page": "wire_hub::1-Conector",
+          "status": "match",
+          "device": "521662e26b28c811"
+        },
+        {
+          "uid": "gge18",
+          "pcb": "J2",
+          "sch": "J2",
+          "page": "wire_hub::1-Conector",
+          "status": "match",
+          "device": "672ad920da8b2a59"
+        },
+        {
+          "uid": "gge18_0",
+          "pcb": "J3",
+          "sch": "J3",
+          "page": "wire_hub::1-Conector",
+          "status": "match",
+          "device": "cc7faf6dbc87269d"
+        },
+        {
+          "uid": "gge18_1",
+          "pcb": "J4",
+          "sch": "J4",
+          "page": "wire_hub::1-Conector",
+          "status": "match",
+          "device": "cc7faf6dbc87269d"
+        },
+        {
+          "uid": "gge18_2",
+          "pcb": "J5",
+          "sch": "J5",
+          "page": "wire_hub::1-Conector",
+          "status": "match",
+          "device": "004a2d0880e65fde"
+        },
+        {
+          "uid": "gge18_3",
+          "pcb": "J6",
+          "sch": "J6",
+          "page": "wire_hub::1-Conector",
+          "status": "match",
+          "device": "004a2d0880e65fde"
+        }
+      ]
+    }
+  ]
+}

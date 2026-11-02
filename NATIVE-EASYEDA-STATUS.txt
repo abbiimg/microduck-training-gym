@@ -1,0 +1,49 @@
+Native Windows ARM64 EasyEDA progress — 2026-10-26
+
+Installed: JLCEDA Pro 4.1.78.34f5b8d9, native ARM64.
+Executable: C:/Users/abbii/Documents/Codex/tools/lceda-pro-4.1.78/lceda-pro.exe
+Wrapper: tools/easyeda-tool.ps1 (pipes stdout as required by vendor CLI).
+
+Installer source:
+https://image.lceda.cn/files/lceda-pro-windows-arm64-4.1.78.exe
+239171208 bytes
+SHA256: ce9da78f8112705919febb14a6f2e8efc12f72a7d1873ddcbcc850a477972edb
+Hash matches vendor download response's x-obs-content-sha256 header.
+Windows Authenticode: Valid, publisher Shenzhen JLC Technology Group.
+Installer is Inno Setup. Correct silent options completed with exit code 0.
+Initial NSIS-style /S attempt failed; no installation was reported from that
+attempt. Native installation registered app/uninstaller and lceda-pro URL handler.
+innoextract and three Boost runtime dependencies were also added to WSL while
+investigating installer extraction; native installation completed without it.
+
+Working copies of all four .eprj2 projects are in editing/easyeda-working/.
+Do not open community source files for editing or silently convert them in place.
+
+Observed blocker
+CLI help works. doctor reports bridge connected=true, versionMatch=true.
+Opening a copied IMU project fails BRIDGE_NOT_READY / command-space-missing.
+A normal visible startup exposes the Regist activation dialog, not the editor.
+The vendor's official activation page explicitly says to sign in first:
+https://lceda.cn/page/desktop-client-activation
+No credentials were entered, no account created and no activation completed.
+The client is left at the activation screen for the user.
+
+User step
+Sign in to the vendor activation page yourself, obtain your activation file,
+and use the client's import-activation-file control. Then tell Codex activation
+is complete. Account/authentication UI is not automated by the computer-use skill.
+
+Resume after activation
+1. Probe with tools/easyeda-tool.ps1 doctor.
+2. Open editing/easyeda-working/imu_to_dxl_1V0A.eprj2 and verify project identity.
+3. Use documented SYS_FileManager.getProjectFile(fileName, undefined, 'epro')
+   for KiCad-compatible legacy archive and 'epro2' for a native archive, saving
+   exports explicitly. Verify returned File is nonempty and archive contents.
+4. Export authoritative schematic/PCB netlists and BOM through supported APIs.
+5. Import into KiCad and compare components, pin-net memberships and geometry.
+   A nonempty board alone is insufficient. Keep failed/partial imports rejected.
+
+No native design archive, authoritative netlist or new KiCad conversion has been
+produced. Do not treat activation or software installation as electrical proof.
+Documented v2 connector/geometry comparison baseline is preserved separately:
+audit/pcb-tools/community-v2-interface-contract.json (author claims, unverified).

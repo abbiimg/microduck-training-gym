@@ -1,0 +1,4 @@
+interface:
+  display_name: "MicroDuck Training Gym"
+  short_description: "Design, simulate, and retrain MicroDuck robot variants"
+  default_prompt: "Use $microduck-training-gym with Blender and SolidWorks to create a revisioned robot variant, validate its dynamics, and retrain its policy."

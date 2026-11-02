@@ -1,0 +1,53 @@
+# Local caches, editor locks and UI preferences
+**/__pycache__/
+*.py[cod]
+*.lck
+~$*
+*.kicad_prl
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Conservative publication exclusions. Preserve all omitted files in the full local package.
+# The original release ZIP contains robot CAD only; expanded working CAD remains tracked.
+
+# original_native_CAD_release_archive
+/community/releases/
+
+# optional_Rufus_program_bundle
+/community/microduck-replica/tools/rufus/rufus-4.15p.exe
+/community/microduck-replica/tools/rufus/rufus-4.15-source.zip
+
+# downloadable_reconstruction_previews
+/community/microduck-step-reconstruction/docs/previews/
+
+# derived_robot_mesh_copies
+/editing/solidworks/meshes_mm/
+/editing/solidworks/rigid_links_mm/
+/editing/solidworks/MicroDuck-assembled-mm.stl
+
+# duplicate_HAT_STEP_extract
+/editing/solidworks/Robot_HAT_reference_STEP/
+
+# derived_HAT_mechanical_exchange
+/editing/kicad/Robot_HAT_reference/mechanical-export/
+
+# large_generated_MuJoCo_scene_dump
+/audit/assembled-robot.json
+
+# compiled_firmware_and_host_test_outputs
+/community/microduck-replica/hardware/imu_to_dxl/firmware/Build/
+/community/microduck-replica/hardware/imu_to_dxl/firmware-1.0.0/Build/
+
+# Unused vendor model payloads only. Keep symbols, footprints, notices and these 5 HAT models.
+/upstream/lib_KiCAD/3d_models/*.STEP
+/upstream/lib_KiCAD/3d_models/*.step
+/upstream/lib_KiCAD/3d_models/*.stp
+/upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/*.step
+/upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/*.stp
+/upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/*.wrl
+!/upstream/lib_KiCAD/3d_models/rasp_pi_zero_2_W_with_40_pin_male_connector v4.step
+!/upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_DB125-2.54-2P-GN.step
+!/upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/HDR-SMD_40P-P2.54-V-F-R2-C20-S6.6_FH-00339.step
+!/upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/MIC-SMD_4P-L2.8-W1.9-H1.0-P1.84-TL.step
+!/upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/TDFN-8_L3.0-W2.0-H0.8-P0.50.step

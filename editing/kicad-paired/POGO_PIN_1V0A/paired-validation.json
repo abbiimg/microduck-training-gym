@@ -1,0 +1,12 @@
+{
+  "candidate": "POGO_PIN_1V0A",
+  "pads_checked": 6,
+  "geometry_or_net_errors": [],
+  "schematic_parity": [],
+  "drc_counts": {
+    "track_width": 4,
+    "track_dangling": 4
+  },
+  "unconnected": 0,
+  "manufacturing_ready": false
+}

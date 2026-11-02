@@ -1,0 +1,85 @@
+{
+  "native_version": "10.0.7",
+  "native_fixture_cases_verified": 8,
+  "source_clearance_profiles": [
+    {
+      "candidate": "imu_to_dxl",
+      "board_bytes_and_global_defaults_unchanged": true,
+      "projected_native_rules": 78,
+      "mixed_source_zone_regions": 0,
+      "drc_counts": {
+        "copper_edge_clearance": 1,
+        "zones_intersect": 4,
+        "via_dangling": 11
+      },
+      "total_drc_findings": 16,
+      "unconnected": 0,
+      "schematic_parity_findings": 0,
+      "full_rule_fidelity": false,
+      "manufacturing_ready": false
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A",
+      "board_bytes_and_global_defaults_unchanged": true,
+      "projected_native_rules": 97,
+      "mixed_source_zone_regions": 1,
+      "drc_counts": {
+        "solder_mask_bridge": 64,
+        "copper_edge_clearance": 1,
+        "clearance": 245,
+        "hole_clearance": 15,
+        "zones_intersect": 5
+      },
+      "total_drc_findings": 330,
+      "unconnected": 0,
+      "schematic_parity_findings": 0,
+      "full_rule_fidelity": false,
+      "manufacturing_ready": false
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A-transition-hypothesis",
+      "board_bytes_and_global_defaults_unchanged": true,
+      "projected_native_rules": 97,
+      "mixed_source_zone_regions": 4,
+      "drc_counts": {
+        "copper_edge_clearance": 1,
+        "clearance": 12,
+        "zones_intersect": 5
+      },
+      "total_drc_findings": 18,
+      "unconnected": 0,
+      "schematic_parity_findings": 0,
+      "full_rule_fidelity": false,
+      "manufacturing_ready": false
+    },
+    {
+      "candidate": "POGO_PIN_1V0A",
+      "board_bytes_and_global_defaults_unchanged": true,
+      "projected_native_rules": 46,
+      "mixed_source_zone_regions": 0,
+      "drc_counts": {},
+      "total_drc_findings": 0,
+      "unconnected": 0,
+      "schematic_parity_findings": 0,
+      "full_rule_fidelity": false,
+      "manufacturing_ready": false
+    },
+    {
+      "candidate": "wire_hub_1V0A",
+      "board_bytes_and_global_defaults_unchanged": true,
+      "projected_native_rules": 78,
+      "mixed_source_zone_regions": 0,
+      "drc_counts": {
+        "copper_edge_clearance": 17,
+        "clearance": 1
+      },
+      "total_drc_findings": 18,
+      "unconnected": 0,
+      "schematic_parity_findings": 0,
+      "full_rule_fidelity": false,
+      "manufacturing_ready": false
+    }
+  ],
+  "all_provenance_checks_passed": true,
+  "manufacturing_ready": false
+}

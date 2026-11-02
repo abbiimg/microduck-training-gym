@@ -1,0 +1,26 @@
+[
+  {
+    "source": "community/microduck-replica/hardware/imu_to_dxl/imu_to_dxl.eprj2",
+    "working_copy": "/home/workbench/robotics/pcb-tools/easyeda-working/imu_to_dxl.eprj2",
+    "sha256": "4fef83c09d2db93c257a41728f3a30559384a1a201ccc825cb206e3c4bb9a243",
+    "sqlite_integrity": "ok"
+  },
+  {
+    "source": "community/microduck-replica/hardware/\u65b0\u7248/POGO_PIN_1V0A/POGO_PIN_1V0A.eprj2",
+    "working_copy": "/home/workbench/robotics/pcb-tools/easyeda-working/POGO_PIN_1V0A.eprj2",
+    "sha256": "958274afa13119eddbdd80f610ec434728da4d116189f2a28237ce9f58b7d10f",
+    "sqlite_integrity": "ok"
+  },
+  {
+    "source": "community/microduck-replica/hardware/\u65b0\u7248/imu_to_dxl_1V0A/imu_to_dxl_1V0A.eprj2",
+    "working_copy": "/home/workbench/robotics/pcb-tools/easyeda-working/imu_to_dxl_1V0A.eprj2",
+    "sha256": "00f8279af987e4e22d044ddae0b73f68eb8d5039c168d25a6f8ba73223c8f968",
+    "sqlite_integrity": "ok"
+  },
+  {
+    "source": "community/microduck-replica/hardware/\u65b0\u7248/wire_hub_1V0A/wire_hub_1V0A.eprj2",
+    "working_copy": "/home/workbench/robotics/pcb-tools/easyeda-working/wire_hub_1V0A.eprj2",
+    "sha256": "a6cceea83a69d95a306e962985c9b770b7f4667d83ba5b55c4b68e6624df6de2",
+    "sqlite_integrity": "ok"
+  }
+]

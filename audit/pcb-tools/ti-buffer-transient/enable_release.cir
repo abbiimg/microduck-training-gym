@@ -1,0 +1,18 @@
+TI vendor single-channel transient qualification
+.include "/mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/electrical-models/ti-sn74lvc2g241/SN74LVC2G241.cir"
+Vcc vcc 0 3.3
+Vin input 0 0
+Voe enable 0 PULSE(0 3.3 1u 1n 1n 1u 4u)
+Vpull pull 0 3.3
+Xbuffer output input enable vcc 0 SN74LVC2G241
+Rload output pull 10k
+Cload output 0 30p
+.tran 1n 4u
+.control
+run
+meas tran disabled_initial FIND v(output) AT=8e-07
+meas tran enabled_low FIND v(output) AT=1.5e-06
+meas tran released FIND v(output) AT=3.8e-06
+quit
+.endc
+.end

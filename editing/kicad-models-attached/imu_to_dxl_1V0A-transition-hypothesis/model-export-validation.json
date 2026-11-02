@@ -1,0 +1,2071 @@
+{
+  "schema": "microduck-kicad-model-export-validation/v1",
+  "candidate": "imu_to_dxl_1V0A-transition-hypothesis",
+  "passed": true,
+  "models_verified": 23,
+  "missing_models_preserved": [
+    "J3"
+  ],
+  "skipped_footprints": [
+    "J3"
+  ],
+  "board_sha256": "700e08a19ca814ea10485fc8b7e80faf082e40b9a57aab02ae0de6c4d98e864d",
+  "attachment_audit_sha256": "fb9dfcca6d7cd4bba50dddaedefc4caec9964fc3c5cb14ff1628ee2d0b656d47",
+  "step_export_sha256": "1f5f9c22873c62fe47b5efe8284dbeaeb655690498d2e1f6c132499f80c5380c",
+  "glb_export_sha256": "91fd80bb6f323c667cd2ef2d73cc6fe1643b9c961eab5099361ba54bf069671a",
+  "geometry_verifier_sha256": "a57ab9d0c5ed5179c1930ed261b0f51ff7a0298b3a26561baff771c8f0f2fc51",
+  "local_library_sha256": {
+    "RecoveredLayout.pretty\\C1.kicad_mod": "fcebcad7fbed46b48325c3353d1bf9ea10f503449a2049b9546143b2568bdd7c",
+    "RecoveredLayout.pretty\\C2.kicad_mod": "9428703b8239bd3d5eadb631215e53416703fc9b922580505bf50b025dfef2a8",
+    "RecoveredLayout.pretty\\C3.kicad_mod": "079cc62e2e43803ff911769de3cebff478aaa47b93a7697fd826dd1d43a45753",
+    "RecoveredLayout.pretty\\C4.kicad_mod": "afa646b16b11d03fe3298bf0a4d09a593eb553652a51307cd5cc715fe3063a1d",
+    "RecoveredLayout.pretty\\C5.kicad_mod": "0c28c841e3e602ad3322b02c8f93d7a121133b82a4d7566f397fb560ffdda5f7",
+    "RecoveredLayout.pretty\\C6.kicad_mod": "61238995f143bd805b09ad61b22d1895e0ed5eaf25fe6cfb6d96f5ac9a75b774",
+    "RecoveredLayout.pretty\\C7.kicad_mod": "08fa3d560dabaa084194489c6ac47f98aa4d32ae15576af2441898fdfa37547f",
+    "RecoveredLayout.pretty\\C8.kicad_mod": "4d1cf6aa0447f9593705463873d924f2ab7b49da89cee050b858dbccc6eee85c",
+    "RecoveredLayout.pretty\\D1.kicad_mod": "9f91ecbf207d1b80daf151ec75a97e5970ba658ce818e8815096aa69eb570a44",
+    "RecoveredLayout.pretty\\D2.kicad_mod": "6da03f376ffbba1e1eae355991fb683b0d0dbd22ba783b4fc1103c75d266ce96",
+    "RecoveredLayout.pretty\\F1.kicad_mod": "215ee44c112ddf1dcf1630ba51b21502a3794076d617d188bdaa499fe3d4b51d",
+    "RecoveredLayout.pretty\\J1.kicad_mod": "c65c4d8e6e09e950c9d0587879277189b1b13918ba8ff35e130a77ed7c594296",
+    "RecoveredLayout.pretty\\J2.kicad_mod": "7a1205339f4414a97e08d049e1f32c6fa1702a93ac553f2da594795840812293",
+    "RecoveredLayout.pretty\\R1.kicad_mod": "d712860dbdea28cb30adee59555939725e8f138d59cca5e0369ca00f72415ea8",
+    "RecoveredLayout.pretty\\R2.kicad_mod": "7f9c7ef37f67fc1f14554cc46aea808bd0506d6e2222960b88c660db1aec93d2",
+    "RecoveredLayout.pretty\\R4.kicad_mod": "55d5ed0b0b3aad961e7c94f4eed145dcaea917a63c41dc4161e78f964f29f91a",
+    "RecoveredLayout.pretty\\R5.kicad_mod": "85505cd7ffc896a77c65edbe6ac59e509b963e6af751e60dc08f7d7186afd497",
+    "RecoveredLayout.pretty\\R6.kicad_mod": "4eddec90c07b8b4806211d72aef1ef0ea3ce40f4c9c007a7bd449f1a109a6320",
+    "RecoveredLayout.pretty\\R7.kicad_mod": "a5709bd47ec959b5b65f13074d20c694ba87a568e3fac033d5de5859d2fafac2",
+    "RecoveredLayout.pretty\\U1.kicad_mod": "76b675cca042cef4f0bf82eabe25f54aa61d83b10f86db4092770ba0b8e0b220",
+    "RecoveredLayout.pretty\\U2.kicad_mod": "be990e3e7115f3b25117770a5493fcf9ee26d5124e92af0b5d5b5d8287c4ae37",
+    "RecoveredLayout.pretty\\U3.kicad_mod": "32038c10fbdd61ad5974afd80ffbc5f04018de0e4b4c771e169e77a3834b5a80",
+    "RecoveredLayout.pretty\\U4.kicad_mod": "4a03fdfbae0e7474e1c8fe5c717e2d8ffcfd8ae7d52c4aab481fad6f280638c6"
+  },
+  "calibration_sha256": "13a42278f328d094be0349709a467e828fe617c47b0de4fce12413cc0b124d0f",
+  "pose_review_sha256": "767054224fc150c73be980c4ba2e26c13ab08e8912d9922ae192aa72538d4ffa",
+  "actual_native_version": "10.0.7",
+  "nominal_native_board_thickness_mm": 1.600048,
+  "native_export_assembly_bounds_mm": [
+    11.587700999996,
+    -0.389301,
+    -1.6049520216739999,
+    38.6623,
+    29.7853,
+    5.595048078325
+  ],
+  "native_export_assembly_dimensions_mm": [
+    27.074599000004,
+    30.174601,
+    7.200000099999
+  ],
+  "native_export_model_datums_mm": {
+    "top": 1.595048,
+    "bottom": -0.085
+  },
+  "export_alignment_policy": "Per-instance author geometry translated by negative author footprint surface origin; bottom inverse Rx180; native footprints currently have zero angle with source rotation baked in geometry. No scaling of local model dimensions. KiCad places local models at its native top/bottom model datum. XY origins use current exact-mil positions rather than globally scaling the author assembly.",
+  "comparison_method": "Exact XCAF reference; fixed saved footprint XY/angle/side and calibrated native Z. Both directional Boolean differences; analytic bounds, solid count, volume, hashes. No free registration.",
+  "non_model_board_data_unchanged": true,
+  "models": [
+    {
+      "reference": "C1",
+      "source_model_id": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "5acde9c8e2fbdea8f3b60580e35554048fc88a732d8ed3e7fae4a8bcdc29f876",
+      "local_model_sha256": "1a71ba86995321f5c47a8a64c8c38636c57b59aeab626d9e6548c5e710c82e51",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          26.289
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          12.192
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          26.289
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          12.192
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          -0.5,
+          -0.2500001000000008,
+          -1.0000000002493665e-07,
+          0.5,
+          0.2500001000000024,
+          0.5000001
+        ],
+        "bbox_max_error_mm": 2.9309887850104133e-13,
+        "volume_mm3": 0.23927570639146659,
+        "volume_error_mm3": 4.3298697960381105e-15,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          25.789,
+          11.9419999,
+          1.5950479,
+          26.789,
+          12.442000100000001,
+          2.0950481
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 0.23927570701363432,
+        "volume_error_mm3": 6.221676784878838e-10,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "C2",
+      "source_model_id": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "7c1c414b4dd48cd7b1a9ac96e609fb1b45b4d8bd727d8cf812a726140544eb96",
+      "local_model_sha256": "05449df163dab814bd872b8f24a97aec6c5d63af451b2594420a7758c58294d1",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          24.384
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          12.192
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          24.384
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          12.192
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          -0.5,
+          -0.2500001000000024,
+          -1.0000000002493665e-07,
+          0.5,
+          0.2500001000000008,
+          0.5000001
+        ],
+        "bbox_max_error_mm": 3.077538224260934e-13,
+        "volume_mm3": 0.23927570639145765,
+        "volume_error_mm3": 4.385380947269368e-15,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          23.884,
+          11.941999899999999,
+          1.5950479,
+          24.884,
+          12.4420001,
+          2.0950481
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 0.23927570701362605,
+        "volume_error_mm3": 6.221683446216986e-10,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "C3",
+      "source_model_id": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "dfceb336118d63d7fd7251274d571bf554aca17a485f18f84d6273cdbfb43ae0",
+      "local_model_sha256": "0648d200eb90e557160af1ccb8b505eb902d822372b82fe872849e9d75e463ed",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          20.701
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          17.145
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          20.701
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          17.145
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          -0.5,
+          -0.2500001000000008,
+          -1.0000000002493665e-07,
+          0.5,
+          0.2500001000000024,
+          0.5000001
+        ],
+        "bbox_max_error_mm": 4.2321701698710967e-13,
+        "volume_mm3": 0.23927570639146467,
+        "volume_error_mm3": 2.9698465908722937e-15,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          20.201,
+          16.8949999,
+          1.5950479,
+          21.201,
+          17.395000100000004,
+          2.0950481
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 0.2392757070136328,
+        "volume_error_mm3": 6.221680393103668e-10,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "C4",
+      "source_model_id": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "ae1fd30d140de4b29855fd35f57a74786c9c189c8a4049d42d65b94384482a44",
+      "local_model_sha256": "f40bbd0eab3f5edc7ebba6f3473c3cab9aae9a1cb209847f7d9279978020fd48",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          19.91582
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          22.412213
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          19.91582
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          22.412213
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          -0.2500001000000024,
+          -0.5,
+          -1.0000000002493665e-07,
+          0.2500001000000008,
+          0.5,
+          0.5000001
+        ],
+        "bbox_max_error_mm": 3.552713678800501e-13,
+        "volume_mm3": 0.23927570639145648,
+        "volume_error_mm3": 5.523359547510154e-15,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          19.665819899999995,
+          21.912213,
+          1.5950479,
+          20.1658201,
+          22.912213,
+          2.0950481
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 0.23927570701362497,
+        "volume_error_mm3": 6.221686499330303e-10,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "C5",
+      "source_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "3d28a05c3eb416b89afb540deb7921af0ae8e5fdf78363bcc84bc033a98261e0",
+      "local_model_sha256": "28cb7f6e122f557e060e3f15844ec46e0f36601e26c16f360bff10972da24d25",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          18.01082
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          22.412213
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          18.01082
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          22.412213
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          -0.4000001,
+          -0.8,
+          -9.999899995260947e-08,
+          0.4000001,
+          0.8,
+          0.8000001
+        ],
+        "bbox_max_error_mm": 3.4705571749782393e-13,
+        "volume_mm3": 0.9906815108514831,
+        "volume_error_mm3": 1.3766765505351941e-14,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          17.6108199,
+          21.612213,
+          1.595047900001,
+          18.4108201,
+          23.212213000000002,
+          2.3950481
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 0.9906815108514825,
+        "volume_error_mm3": 7.771561172376096e-16,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "C6",
+      "source_model_id": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "2b91dff84df7a61d8e253120a3970ea7a7923cc6b52966f7c25e91935f6c3847",
+      "local_model_sha256": "c877c5c6ca37c8e178dec04513ecb0b01619700cad1c3bf8e6a22dee4ebf400c",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          34.671
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          13.335
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          34.671
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          13.335
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          -1.0,
+          -0.649987399975002,
+          -1.238420000062134e-07,
+          1.0,
+          0.6500128000250062,
+          1.300000076158
+        ],
+        "bbox_max_error_mm": 4.583000645652646e-13,
+        "volume_mm3": 3.2617823895484706,
+        "volume_error_mm3": 1.4654943925052066e-14,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          33.671,
+          12.685012600024999,
+          1.5950478761579998,
+          35.671,
+          13.985012800025007,
+          2.8950480761579995
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 3.2617823895484594,
+        "volume_error_mm3": 1.6431300764452317e-14,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "C7",
+      "source_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "3c40b0f6ed040a27fa96dfbc4e105b0a86b227adca9570ad9352e7e51f167b67",
+      "local_model_sha256": "c2b81437b8f99ae25c5f826073b004daf643fb8f7c446045bfc9dcebeb03b60c",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          33.124948
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          23.067841
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          33.124948
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          23.067841
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          -0.8,
+          -0.4000001,
+          -9.999899995260947e-08,
+          0.8,
+          0.4000001,
+          0.8000001
+        ],
+        "bbox_max_error_mm": 2.8532731732866523e-13,
+        "volume_mm3": 0.9906815108514663,
+        "volume_error_mm3": 6.5503158452884236e-15,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          32.324948,
+          22.6678409,
+          1.595047900001,
+          33.92494800000001,
+          23.4678411,
+          2.3950481
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 0.9906815108514644,
+        "volume_error_mm3": 0.0,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "C8",
+      "source_model_id": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "c464b5401d60709d089f72c6e64c6b98110d7e64bae1576cf14749013fe68e5b",
+      "local_model_sha256": "2e43d73f5414af952e97c315e0ef1d11f5f36e580d0982528213e036d54ad939",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          34.036
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          15.367
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          34.036
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          15.367
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          -0.5,
+          -0.2500001000000024,
+          -1.0000000002493665e-07,
+          0.5,
+          0.2500001000000008,
+          0.5000001
+        ],
+        "bbox_max_error_mm": 8.171241461241152e-14,
+        "volume_mm3": 0.23927570639146112,
+        "volume_error_mm3": 1.0547118733938987e-15,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          33.536,
+          15.1169999,
+          1.5950479,
+          34.536,
+          15.6170001,
+          2.0950481
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 0.23927570701362913,
+        "volume_error_mm3": 6.221681503326693e-10,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "D1",
+      "source_model_id": "86f9151e155e4fe2af0c4f2e0a80302e|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "3ab93144314c4f2cb5a8cb183fbbae1006271f540ab33272a19312d09bf756ca",
+      "local_model_sha256": "0171e3dd4f894b466ff3d8351303ab1530c67817889d48f7f03bfad19c04bdc3",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          35.179
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          11.049
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          35.179
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          11.049
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          -1.85,
+          -0.9000001,
+          -0.26000000596,
+          1.85,
+          0.9000001,
+          0.879999994038
+        ],
+        "bbox_max_error_mm": 4.889422200449189e-13,
+        "volume_mm3": 5.241283504082885,
+        "volume_error_mm3": 2.5757174171303632e-14,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          33.329,
+          10.1489999,
+          1.33504799404,
+          37.029,
+          11.9490001,
+          2.475047994038
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 5.241283504082897,
+        "volume_error_mm3": 1.4210854715202004e-14,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "D2",
+      "source_model_id": "ad7e39f9e5534b3c96ffdc5532ebb493|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "6e3141bd378b839fdac321c9511ca8710f06ff29d7303315758c0e53065e51db",
+      "local_model_sha256": "effb1e96fa50a03fdbcc89411fe13c10876e99c7bb3bb85c1e8d02c1df9b6108",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          15.367
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          9.652
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          15.367
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          9.652
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          -0.8000001,
+          -1.850012700025,
+          -0.7258559977540001,
+          0.8000000999998265,
+          1.849987299975,
+          0.574144002244
+        ],
+        "bbox_max_error_mm": 2.403632848313464e-13,
+        "volume_mm3": 5.093467032877207,
+        "volume_error_mm3": 6.217248937900877e-15,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          14.5669999,
+          7.801987299974999,
+          0.8691920022459999,
+          16.16700009999983,
+          11.501987299975,
+          2.169192002244
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 5.093467032877196,
+        "volume_error_mm3": 1.4210854715202004e-14,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "F1",
+      "source_model_id": "f1628daad26847a79b887277a2bc8541|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "7f5ed22fb2c96ba2178e969420b0b1f80c564710f2765dae7bb7dd3133bafeb7",
+      "local_model_sha256": "d2865c4ef0e6bc8bf6e4b9670158d8446a84a71c56903a7690ca07492091056f",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          33.401
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          7.366
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          33.401
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          7.366
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          -0.850000099999,
+          -1.6000001000000001,
+          0.0,
+          0.850000099999,
+          1.6000001000000004,
+          0.599999999999
+        ],
+        "bbox_max_error_mm": 3.7969627442180354e-13,
+        "volume_mm3": 2.9954074077057333,
+        "volume_error_mm3": 7.105427357601002e-15,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          32.550999900001,
+          5.7659999,
+          1.5950479999999998,
+          34.251000099999004,
+          8.9660001,
+          2.195047999999
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 2.995407407705686,
+        "volume_error_mm3": 4.929390229335695e-14,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "J1",
+      "source_model_id": "7576b685b3b842e1920e0f50f5ef1550|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "5b067cce668883712f8a29033788e732fc3de704990d1ef244ed06e5c51a6817",
+      "local_model_sha256": "d0e10dac6e0e85a0217427e2a399df88f4d110aa93ea31813fac3a90b51941fa",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          21.463
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          7.366
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          21.463
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          7.366
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          -4.280050151309,
+          -7.084988669976,
+          -3.200000021674,
+          3.680049948691,
+          1.7150114300235115,
+          4.000000078325
+        ],
+        "bbox_max_error_mm": 3.7481129311345285e-13,
+        "volume_mm3": 101.93523692941773,
+        "volume_error_mm3": 3.126388037344441e-13,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1.0193523692941741e-05,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          17.182949848691,
+          0.28101133002399986,
+          -1.6049520216739999,
+          25.143049948691,
+          9.081011430023514,
+          5.595048078325
+        ],
+        "bbox_max_error_mm": 1.7763568394002505e-15,
+        "volume_mm3": 101.93523692941517,
+        "volume_error_mm3": 2.5295321393059567e-12,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1.019352369294177e-05,
+        "passed": true
+      }
+    },
+    {
+      "reference": "J2",
+      "source_model_id": "821f361f67d84e41a483b3c32f441adb|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "b6d6a4b70e9983086bf28508a1aa7a3c652d55540f5ae70f1cdb801caa26cdef",
+      "local_model_sha256": "318f12058326a94ad7ab5d80a1f4f29ff217743f7587c5a92368c7bf9bbad5fb",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          28.903638
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          2.800744
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          28.903638
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          2.800744
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          -2.70502539506,
+          -2.215938631877,
+          -1.4733086972640308e-09,
+          2.7049747049399997,
+          2.084061568122,
+          1.4500000985270023
+        ],
+        "bbox_max_error_mm": 1.865174681370263e-13,
+        "volume_mm3": 14.257059727128958,
+        "volume_error_mm3": 1.2967404927621828e-13,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1.4257059727129087e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          26.19861260494,
+          0.5848053681229998,
+          1.5950479985266914,
+          31.60861270494,
+          4.884805568122,
+          3.045048098527002
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 14.257059727128967,
+        "volume_error_mm3": 3.552713678800501e-15,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1.4257059727128962e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "R1",
+      "source_model_id": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "c44c4abf8524576b1a9f6a26401923ebf900dcf64c8ff6b83b89848a7d65c244",
+      "local_model_sha256": "c5b19e65364f27d9dd3df7e06446a6c934cbb08b2f39dc89e461685b30c492a0",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          28.321
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          17.399
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          28.321
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          17.399
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 3,
+        "bounds_mm": [
+          -0.49999999999300115,
+          -0.24999999999933453,
+          0.0,
+          0.5000000000069988,
+          0.25100010000099954,
+          0.36000000000200016
+        ],
+        "bbox_max_error_mm": 7.055689366097795e-12,
+        "volume_mm3": 0.2877816829208434,
+        "volume_error_mm3": 3.163025397157071e-13,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 3,
+        "bounds_mm": [
+          27.821000000007,
+          17.149000000000665,
+          1.595048,
+          28.821000000007,
+          17.650000100001,
+          1.9550480000020003
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 0.2877816829208433,
+        "volume_error_mm3": 5.551115123125783e-17,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "R2",
+      "source_model_id": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "817cbe7c0ac2ad39e460538052b8bf150a2c867eef10330122909b70baa66505",
+      "local_model_sha256": "bad869234d2cccf09567ff0f26cec0e6e936f826fc7a7464ea0f14fdc2d94d72",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          16.51
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          22.352
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          16.51
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          22.352
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 3,
+        "bounds_mm": [
+          -0.25,
+          -0.5,
+          0.0,
+          0.25100010000000034,
+          0.5,
+          0.36000000000033294
+        ],
+        "bbox_max_error_mm": 1.8829382497642655e-13,
+        "volume_mm3": 0.28778168292052747,
+        "volume_error_mm3": 3.3306690738754696e-16,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 3,
+        "bounds_mm": [
+          16.26,
+          21.852000000000004,
+          1.595048,
+          16.761000100000004,
+          22.852000000000004,
+          1.9550480000003327
+        ],
+        "bbox_max_error_mm": 3.552713678800501e-15,
+        "volume_mm3": 0.28778168292052714,
+        "volume_error_mm3": 1.1102230246251565e-16,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "R4",
+      "source_model_id": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "40a63d822f0d8b204bc5f7eb763f25a035b6d12bf90836a69cc3dbab65d5d2d5",
+      "local_model_sha256": "c75730495afc9e02b606894cb1c97e77edd65a414a079f6f4784955074d01150",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          16.51
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          20.32
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          16.51
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          20.32
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 3,
+        "bounds_mm": [
+          -0.25,
+          -0.5,
+          0.0,
+          0.25100010000000034,
+          0.5,
+          0.36000000000033294
+        ],
+        "bbox_max_error_mm": 1.9895196601282805e-13,
+        "volume_mm3": 0.2877816829205271,
+        "volume_error_mm3": 1.6653345369377348e-16,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 3,
+        "bounds_mm": [
+          16.26,
+          19.82,
+          1.595048,
+          16.761000100000004,
+          20.82,
+          1.9550480000003327
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 0.287781682920527,
+        "volume_error_mm3": 5.551115123125783e-17,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "R5",
+      "source_model_id": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "7f2e867319ac5f0e8c3850ed209b72f247ef8057a589a67c385f4d021b03a8f6",
+      "local_model_sha256": "197ace1034b303b4aee0898b998389f9c0e092e2da654da80c9d76f04dc02cfe",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          20.701
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          14.732
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          20.701
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          14.732
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 3,
+        "bounds_mm": [
+          -0.5,
+          -0.2510001000000012,
+          0.0,
+          0.5,
+          0.25,
+          0.3600000000003332
+        ],
+        "bbox_max_error_mm": 4.511946372076636e-13,
+        "volume_mm3": 0.28778168292052725,
+        "volume_error_mm3": 1.6653345369377348e-16,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 3,
+        "bounds_mm": [
+          20.201,
+          14.480999899999997,
+          1.595048,
+          21.201,
+          14.981999999999998,
+          1.955048000000333
+        ],
+        "bbox_max_error_mm": 1.7763568394002505e-15,
+        "volume_mm3": 0.2877816829205273,
+        "volume_error_mm3": 0.0,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "R6",
+      "source_model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "ac099ef23ea82e306f75f9e92dd48df129cb408bcdbf6e3a263e5c5100657557",
+      "local_model_sha256": "b30c33ab74b4fcfbc7b7c0c5c7428bc620398c8ef155f703f8da9eac11c6fdd4",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          18.542
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          11.303
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          18.542
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          11.303
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 4,
+        "bounds_mm": [
+          -0.8100000000000006,
+          -0.4049999952159988,
+          -2.5200019848625743e-10,
+          0.8099999999999997,
+          0.4050001047830001,
+          0.4499999997469999
+        ],
+        "bbox_max_error_mm": 2.646771690706373e-13,
+        "volume_mm3": 0.5732351423923452,
+        "volume_error_mm3": 1.1102230246251565e-15,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 4,
+        "bounds_mm": [
+          17.732,
+          10.898000004784,
+          1.5950479997479998,
+          19.352000000000004,
+          11.708000104782998,
+          2.045047999747
+        ],
+        "bbox_max_error_mm": 1.7763568394002505e-15,
+        "volume_mm3": 0.5732351423923451,
+        "volume_error_mm3": 6.661338147750939e-16,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "R7",
+      "source_model_id": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "81ff8aafe30a05fc392d8dda3efebf42a6796a7bdc73cef371760d72f77ed414",
+      "local_model_sha256": "4131e9aec5da26aaae21cbd157757acb6fffa9e3c96471835817e5b1b803c0b2",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          20.701
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          15.875
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          20.701
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          15.875
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 3,
+        "bounds_mm": [
+          -0.5,
+          -0.24999999999533062,
+          0.0,
+          0.5,
+          0.2510001000049999,
+          0.3600000000010001
+        ],
+        "bbox_max_error_mm": 5.019984428145108e-12,
+        "volume_mm3": 0.2877816829205549,
+        "volume_error_mm3": 2.786659791809143e-14,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 3,
+        "bounds_mm": [
+          20.201,
+          15.625000000004674,
+          1.595048,
+          21.201,
+          16.126000100005005,
+          1.9550480000010002
+        ],
+        "bbox_max_error_mm": 3.552713678800501e-15,
+        "volume_mm3": 0.2877816829205549,
+        "volume_error_mm3": 5.551115123125783e-17,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "U1",
+      "source_model_id": "c491f68934b34c649df5890a1d97cd0f|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "fae996146cf918b47ee760183a56822183e14f86079e2753389766a22c77d4b6",
+      "local_model_sha256": "f189f105f6b2ec1bda8d0387836b68339a271a600f6fb37f617f4f9867d8a38e",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          25.031863
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          21.788694
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          25.031863
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          21.788694
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 34,
+        "bounds_mm": [
+          -3.2000281697209982,
+          -3.2471853000190003,
+          5.757600000412533e-08,
+          3.2000281697290007,
+          3.2471598999809985,
+          1.049291476499
+        ],
+        "bbox_max_error_mm": 8.022027486731531e-12,
+        "volume_mm3": 27.55625033353318,
+        "volume_error_mm3": 1.4949819160392508e-11,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 2.7556250333548128e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 34,
+        "bounds_mm": [
+          21.831834830279007,
+          18.541508699980998,
+          1.595048057576,
+          28.231891169729007,
+          25.035853899981,
+          2.644339476499
+        ],
+        "bbox_max_error_mm": 7.105427357601002e-15,
+        "volume_mm3": 27.556250333530663,
+        "volume_error_mm3": 2.6290081223123707e-12,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 2.755625033353329e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "U2",
+      "source_model_id": "64f32784a16f466f897e9e56b6bbdf45|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "8d4cf00eef3b5dcae408aa1deb17e06125423022b3b2677d35a13df887689c73",
+      "local_model_sha256": "ae8fc2b14e5b38d6e66fc0a964c5cc5b463d043586ce9ae3c7114a1defe12699",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          25.063732
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          15.221326
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          25.063732
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          15.221326
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 2,
+        "bounds_mm": [
+          -1.4999746999410004,
+          -1.2501017001990007,
+          -6.556999831985877e-09,
+          1.5000255000590004,
+          1.2498984998009994,
+          0.871000093443
+        ],
+        "bbox_max_error_mm": 7.91033905045424e-12,
+        "volume_mm3": 6.466518731761171,
+        "volume_error_mm3": 6.9544370262519806e-12,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 2,
+        "bounds_mm": [
+          23.563757300059002,
+          13.971224299801,
+          1.5950479934430002,
+          26.563757500059005,
+          16.471224499801,
+          2.4660480934430002
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 6.466518731761171,
+        "volume_error_mm3": 8.881784197001252e-16,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "U3",
+      "source_model_id": "c85411b4a3544d83a02d075c4dadd21f|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "e7794d3f81a4cbb605090de53e63e5400fd41c37180f0b84357731d8dd61c429",
+      "local_model_sha256": "9182ccb3e2f031712ff9593919a096a8e99401d35660ca1d9485af76ced35984",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          17.399
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          16.256
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          17.399
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          16.256
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 14,
+        "bounds_mm": [
+          -1.5499999999999998,
+          -1.0,
+          2.6226000038320763e-08,
+          1.5500000000000007,
+          0.9999999999993398,
+          0.851000126226
+        ],
+        "bbox_max_error_mm": 4.547473508864641e-13,
+        "volume_mm3": 3.669404911118475,
+        "volume_error_mm3": 5.329070518200751e-15,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 14,
+        "bounds_mm": [
+          15.849,
+          15.256,
+          1.5950480262259998,
+          18.949,
+          17.25599999999934,
+          2.4460481262259997
+        ],
+        "bbox_max_error_mm": 4.440892098500626e-16,
+        "volume_mm3": 3.6694049111184954,
+        "volume_error_mm3": 1.9984014443252818e-14,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "U4",
+      "source_model_id": "6db690b7897d4d18a30d90c1b89525ee|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "10eba8562b1ec430c3b7181cce681c117631bb8b6bf743c2cd30d5f03bc06a0d",
+      "local_model_sha256": "93fc4a2d73891478ea7ff48ed5beca9fda481203f0d79df4021a5b411d52529a",
+      "bottom": false,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          -0.0,
+          0,
+          33.64373
+        ],
+        [
+          0.0,
+          1.0,
+          0,
+          19.562018
+        ],
+        [
+          0,
+          0,
+          1,
+          1.595048
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          33.64373
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          19.562018
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595048
+        ]
+      ],
+      "placement_matrix_max_error": 0.0,
+      "author_nominal_surface_Z_mm": 1.6000508001016003,
+      "native_export_model_datum_Z_mm": 1.595048,
+      "native_minus_author_model_surface_mm": -0.005002800101600258,
+      "source_to_local_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          -2.1500000999999997,
+          -2.523990302515,
+          0.0,
+          2.150000099999,
+          1.576009697484,
+          1.51
+        ],
+        "bbox_max_error_mm": 3.8813396940895473e-13,
+        "volume_mm3": 15.855070766407247,
+        "volume_error_mm3": 7.105427357601002e-14,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1.5855070766407175e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          31.493729899999995,
+          17.038027697485,
+          1.595048,
+          35.793730099999,
+          21.138027697484,
+          3.105048
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 15.85507076640742,
+        "volume_error_mm3": 1.8474111129762605e-13,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 1.5855070766407236e-06,
+        "passed": true
+      }
+    }
+  ],
+  "physical_fit_qualified": false,
+  "manufacturing_ready": false
+}

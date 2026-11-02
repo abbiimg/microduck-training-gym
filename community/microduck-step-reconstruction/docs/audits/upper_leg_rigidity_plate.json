@@ -1,0 +1,83 @@
+{
+  "name": "upper_leg_rigidity_plate",
+  "label_zh": "上腿加固板",
+  "quantity": 2,
+  "units": "mm",
+  "stl": "01_STL_original/upper_leg_rigidity_plate__上腿加固板__x2.stl",
+  "step": "02_STEP_final/upper_leg_rigidity_plate__上腿加固板__x2.step",
+  "stl_sha256": "9bf64888953e57cbec22c26d0cf06cd310ea1ce33db53be29b89f91205b46c40",
+  "step_sha256": "16ea99534b8baf990ea87dadd774e4410bb5d85aaeeb620a485b463cbdd186d8",
+  "stl_bytes": 180084,
+  "step_bytes": 177987,
+  "stl_triangles": 3600,
+  "cad_faces": 46,
+  "valid_solid": true,
+  "deviation": {
+    "source_to_rebuilt": {
+      "samples": 5384,
+      "max_mm": 0.009641101948261057,
+      "rms_mm": 0.002694031050911143
+    },
+    "rebuilt_to_source": {
+      "samples": 21902,
+      "max_mm": 0.010956376667263639,
+      "rms_mm": 0.003351920170876253
+    }
+  },
+  "additional_audit": {
+    "random_bidirectional_samples": {
+      "source_to_step": {
+        "samples": 20000,
+        "max_mm": 0.010917351717258628,
+        "rms_mm": 0.002412131453403472
+      },
+      "step_to_source": {
+        "samples": 20000,
+        "max_mm": 0.010946579906255591,
+        "rms_mm": 0.0023423360022424822
+      }
+    },
+    "bounding_box_max_delta_mm": 0.003471688475059409,
+    "volume_error_percent": 0.002401688988440398,
+    "edit_test": {
+      "operation": "subtract 0.4 mm box from material",
+      "center_mm": [
+        42.6,
+        5.790057738622029,
+        32.4727725982666
+      ],
+      "valid_after_cut": true,
+      "removed_volume_mm3": 0.04800000000432192
+    },
+    "sha256": "16ea99534b8baf990ea87dadd774e4410bb5d85aaeeb620a485b463cbdd186d8",
+    "volume_integration_relative_tolerance": 1e-09,
+    "bounding_box_basis": "complete CAD surface tessellation, 0.0005 mm mesh deflection",
+    "native_conservative_bbox_mm": [
+      42.5,
+      -12.000000000000803,
+      -10.999999830348775,
+      43.5,
+      33.000000190325,
+      47.058662414551
+    ],
+    "measured_surface_bbox_mm": [
+      42.5,
+      -12.0,
+      -10.999752732789398,
+      43.5,
+      32.99995453759615,
+      47.058662414551
+    ]
+  },
+  "improved_in_latest_round": false,
+  "max_sampled_deviation_mm": 0.010956376667263639,
+  "max_extra_sampled_deviation_mm": 0.010946579906255591,
+  "measured_bbox_mm": [
+    42.5,
+    -12.0,
+    -10.999752732789398,
+    43.5,
+    32.99995453759615,
+    47.058662414551
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "microduck-kicad-model-integrity/v1",
+  "passed": true,
+  "verification": "Current hashes bound to completed CAD geometry checks; heavy Booleans not repeated",
+  "candidates": [
+    {
+      "candidate": "imu_to_dxl",
+      "models_verified": 29,
+      "geometry_receipt_sha256": "ece2dadd2f640cd933d3da0148c6e6c1a4a11f475aaef641e316530fc6bec128",
+      "passed": true
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A",
+      "models_verified": 23,
+      "geometry_receipt_sha256": "351a9e15f45cb0068883e994d4af5c17fa49fcce7749c6354b08f5f1dc67cd68",
+      "passed": true
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A-transition-hypothesis",
+      "models_verified": 23,
+      "geometry_receipt_sha256": "8cb10e648a2f99c9f4111eed45fc100347275f059dc9bc31096a8d78d2dd53d0",
+      "passed": true
+    },
+    {
+      "candidate": "wire_hub_1V0A",
+      "models_verified": 7,
+      "geometry_receipt_sha256": "09639a2885b2add53b7bfb8f278536197b71867664d52624b9f1ec0fd2419eca",
+      "passed": true
+    },
+    {
+      "candidate": "POGO_PIN_1V0A",
+      "models_verified": 2,
+      "geometry_receipt_sha256": "8fdf566d2fa6f2b63a0364eaff50031c4d458d8e537597dc1681330ccc076141",
+      "passed": true
+    }
+  ],
+  "models_including_hypothesis": 84,
+  "physical_fit_qualified": false,
+  "manufacturing_ready": false
+}

@@ -1,0 +1,1 @@
+Paired recovered KiCad editing copy. Read ../../../KICAD-PAIRED-PROJECTS.txt. Generic passive symbols and static cached copper are not electrically/manufacturing qualified. Do not refill zones. Preserve this copy before an interactive schematic-to-PCB update. Eight IMU floating-pin singleton names are not source no-connect declarations. Generation overwrites this folder.

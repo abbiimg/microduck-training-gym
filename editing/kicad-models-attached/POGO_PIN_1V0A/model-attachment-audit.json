@@ -1,0 +1,106 @@
+{
+  "schema": "microduck-kicad-author-models/v1",
+  "candidate": "POGO_PIN_1V0A",
+  "base_candidate": "POGO_PIN_1V0A",
+  "parent_board": "editing\\kicad-integrated\\POGO_PIN_1V0A\\POGO_PIN_1V0A.kicad_pcb",
+  "parent_board_sha256": "a3da5545a0251f4b08176befa0932d6f028e3c57425e34eb494d5b5f91ac91cf",
+  "pose_review_sha256": "767054224fc150c73be980c4ba2e26c13ab08e8912d9922ae192aa72538d4ffa",
+  "component_manifest_sha256": "fd13ec4c4d331be124eda6fae7d5a384df013ea9bba472199a136c9ea2deed39",
+  "unchanged_project_files": {
+    "POGO_PIN_1V0A.kicad_pro": "e6ac1422e3cc5976169fd8ebb6675d490672c46ac2cc7162ac6c9253c9974fa3",
+    "POGO_PIN_1V0A.kicad_sch": "6db7f7c1a0f250682891fe1cdee3f9e9dab4abfdc64adbd91476b2df10c1a374",
+    "POGO_PIN_1V0A.kicad_dru": "5633bd833bf2e40076dbc3514719bc049b5fc4d3db6c569a05b57c099509dea4",
+    "fp-lib-table": "9574e9b3397832b432ea9c4b5805ae68cc04f2441b25acbd9f0facfbf1dc3ac0",
+    "sym-lib-table": "0e0ba8edc148421cc63d275baa90d273b3c07a7d1708f072aba60633897fc0c2"
+  },
+  "native_version": "10.0.7",
+  "nominal_native_board_thickness_mm": 1.600048,
+  "coordinate_policy": "Per-instance author geometry translated by negative author footprint surface origin; bottom inverse Rx180; native footprints currently have zero angle with source rotation baked in geometry. No scaling of local model dimensions. KiCad places local models at its native top/bottom model datum. XY origins use current exact-mil positions rather than globally scaling the author assembly.",
+  "author_source_surface_mm": {
+    "bottom": 0,
+    "top": 1.6000508001016003
+  },
+  "source_outline_fit_qualified": false,
+  "vendor_dimensions_qualified": false,
+  "manufacturing_ready": false,
+  "missing_models": [],
+  "missing_model_reason": null,
+  "models": [
+    {
+      "reference": "U1",
+      "source_placed_step": "recovered\\author-step-components\\POGO_PIN_1V0A\\U1.step",
+      "source_placed_sha256": "e7f0e9d1d65edfbe5df0af724602d591d22453f96175d484bd29380de267043a",
+      "source_model_id": "42f3a8a1e6a24de3b83c02c04481ebfb|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "SMD_BD3.0-D1.2-H9.5",
+      "author_footprint_origin_mm": [
+        36.56100584201169,
+        4.042131064262128,
+        0.0
+      ],
+      "native_xy_export_mm": [
+        110.183935,
+        9.791123
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": true,
+      "local_model_file": "models/U1.step",
+      "model_path": "${KIPRJMOD}/models/U1.step",
+      "local_model_sha256": "ea36ead129ccc3b0028c54bc1eca5a7b82c48c6e30bac02c200eb42ed6b27107",
+      "local_model_bounds_mm": [
+        -1.505002508697688,
+        -1.5000000999998713,
+        -0.9000000000000001,
+        1.5049975913023121,
+        1.5000001000001295,
+        9.599999999999
+      ],
+      "solids": 1,
+      "volume_mm3": 54.98995244122123
+    },
+    {
+      "reference": "U2",
+      "source_placed_step": "recovered\\author-step-components\\POGO_PIN_1V0A\\U2.step",
+      "source_placed_sha256": "96d891c7c0e14450cdad2889d0fc3b5b5778f5eaba8f8fbd94ad833bb923cd85",
+      "source_model_id": "42f3a8a1e6a24de3b83c02c04481ebfb|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "SMD_BD3.0-D1.2-H9.5",
+      "author_footprint_origin_mm": [
+        2.761158242316483,
+        4.040378460756921,
+        0.0
+      ],
+      "native_xy_export_mm": [
+        76.384155,
+        9.789371
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": true,
+      "local_model_file": "models/U2.step",
+      "model_path": "${KIPRJMOD}/models/U2.step",
+      "local_model_sha256": "77e0e5f365477c79f5469d8204ab41aeceafa796793589ef42c3fc48926d9e37",
+      "local_model_bounds_mm": [
+        -1.505002508698483,
+        -1.500000100000079,
+        -0.9000000000000001,
+        1.504997591302,
+        1.5000000999999217,
+        9.599999999999
+      ],
+      "solids": 1,
+      "volume_mm3": 54.9899524412211
+    }
+  ],
+  "attached": true,
+  "local_geometry_generated": true,
+  "attached_models": 2,
+  "non_model_board_data_unchanged": true,
+  "library_model_reload_verified": true,
+  "board_sha256": "a1a354d5a77fd0d322310d396894cf139a6f723224cad5d298d30004a4e594e0",
+  "step_export": {
+    "file": "assembly-review.step",
+    "sha256": "2cc320f300d923e3d16101ad9844cc47472ce5957d75abf8a8d95bd8867c5013"
+  },
+  "glb_export": {
+    "file": "assembly-review.glb",
+    "sha256": "b3158522f0b727ee1995a1d9418b7d08e9f80c28dcfc57eb6391a15a004cd661"
+  }
+}

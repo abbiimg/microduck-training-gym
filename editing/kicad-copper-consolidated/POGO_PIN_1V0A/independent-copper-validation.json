@@ -1,0 +1,9 @@
+{
+  "candidate": "POGO_PIN_1V0A",
+  "geometry_engine": "Shapely/GEOS independent of native KiCad union",
+  "coordinate_comparison_tolerance_nm": 2,
+  "physical_equivalence_scope": "all literal saved copper",
+  "copper_differences": [],
+  "max_difference_mm2": 0,
+  "manufacturing_ready": false
+}

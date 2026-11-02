@@ -1,0 +1,45 @@
+{
+  "candidate": "POGO_PIN_1V0A",
+  "parent_board": "editing/kicad-routed/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_pcb",
+  "parent_sha256": "af011ac51933a9e03771d2affe15ba38a6d8492bce098c58df8fde0577e02c64",
+  "parent_schematic_sha256": "0c9ca6b249aa8c58dad65bc06a6e22256a941df4373afcfcee8a3e6b5fbef175",
+  "paired": [
+    {
+      "reference": "U1",
+      "path": "/ac26004f-92ee-47a5-ae90-a2ece391f989/14051cc9-7475-45f8-aa62-9b9a6901247a",
+      "footprint": "RecoveredLayout:U1"
+    },
+    {
+      "reference": "U2",
+      "path": "/ac26004f-92ee-47a5-ae90-a2ece391f989/62ea583d-01cd-4450-95c3-a440846ce78f",
+      "footprint": "RecoveredLayout:U2"
+    }
+  ],
+  "excluded_offboard_symbols": [
+    {
+      "reference": "CN2",
+      "reason": "source component is outside active PCB perimeter; kept in schematic, explicitly excluded from board"
+    }
+  ],
+  "board_only_footprints": [
+    "SOURCE_BOARD_PADS"
+  ],
+  "net_changes": [
+    {
+      "reference": "U1",
+      "pad": "1",
+      "from": "Battery",
+      "to": "/Battery",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "U2",
+      "pad": "1",
+      "from": "GND",
+      "to": "/GND",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    }
+  ],
+  "manufacturing_ready": false,
+  "source_history_interpretation": "literal typed replay; hub uses explicit engineering net repair"
+}

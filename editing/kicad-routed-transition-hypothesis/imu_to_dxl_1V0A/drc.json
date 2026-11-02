@@ -1,0 +1,3371 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-26T19:42:42",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "imu_to_dxl_1V0A.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3 mm; actual 0.299999 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 23.749,
+                        "y": -22.098
+                    },
+                    "uuid": "142b8d2e-4d23-4954-8d62-aec9964a9152"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3 mm; actual 0.299999 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 35.410948,
+                        "y": -23.067841
+                    },
+                    "uuid": "5c11b1c0-9fdc-48d0-a718-a4687f0cba1b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3 mm; actual 0.299999 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 36.427964,
+                        "y": -4.486852
+                    },
+                    "uuid": "7bb5915a-f87c-4368-8391-abe606b1f2fa"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2938 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 12.575,
+                        "y": -0.598
+                    },
+                    "uuid": "76728822-9991-49f0-8bf8-6f80cc90a7e4"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 11.881573,
+                        "y": -28.800576
+                    },
+                    "uuid": "47dd4a38-d849-445a-a9fa-f03e728197fb"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2938 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 12.575,
+                        "y": -0.598
+                    },
+                    "uuid": "76728822-9991-49f0-8bf8-6f80cc90a7e4"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 38.367407,
+                        "y": -0.560308
+                    },
+                    "uuid": "c9534a4e-f8bf-4050-8a00-5ef1227fe92b"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2938 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 12.575,
+                        "y": -0.598
+                    },
+                    "uuid": "76728822-9991-49f0-8bf8-6f80cc90a7e4"
+                },
+                {
+                    "description": "Zone 'Recovered f830ae10cd851bfd' [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 11.881541,
+                        "y": -0.597997
+                    },
+                    "uuid": "8b5ddaeb-c5c0-4f19-8de7-04a354f81632"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1960 mm)",
+            "items": [
+                {
+                    "description": "Track [3.3V] on F.Cu, length 0.9538 mm",
+                    "pos": {
+                        "x": 26.233707,
+                        "y": -13.517293
+                    },
+                    "uuid": "01891589-568e-4c8c-bcc4-5667b27a3098"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 25.868884,
+                        "y": -13.006128
+                    },
+                    "uuid": "755b9903-c322-4a3a-a8ff-944eb1d3b9d7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1874 mm)",
+            "items": [
+                {
+                    "description": "Track [3.3V] on F.Cu, length 0.6723 mm",
+                    "pos": {
+                        "x": 26.709116,
+                        "y": -13.041884
+                    },
+                    "uuid": "1d78c96b-3ced-4162-8a8a-d65bb38ca6d1"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 25.868884,
+                        "y": -13.006128
+                    },
+                    "uuid": "755b9903-c322-4a3a-a8ff-944eb1d3b9d7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1520 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of C3 on F.Cu",
+                    "pos": {
+                        "x": 21.121116,
+                        "y": -17.145
+                    },
+                    "uuid": "1b9c4600-033e-4bc1-b791-05890bd2f279"
+                },
+                {
+                    "description": "Track [3.3V] on F.Cu, length 1.2062 mm",
+                    "pos": {
+                        "x": 20.280884,
+                        "y": -16.98086
+                    },
+                    "uuid": "29c5117e-91e8-4bf0-a6b8-391135e57e6c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1826 mm)",
+            "items": [
+                {
+                    "description": "Track [RX_EN] on F.Cu, length 0.8357 mm",
+                    "pos": {
+                        "x": 18.801588,
+                        "y": -16.505936
+                    },
+                    "uuid": "1efdef65-995e-462d-8f04-dca40784ef70"
+                },
+                {
+                    "description": "Track [3.3V] on F.Cu, length 1.3404 mm",
+                    "pos": {
+                        "x": 20.141946,
+                        "y": -17.006062
+                    },
+                    "uuid": "f234b641-20c6-4aa2-ac43-5c899491a16e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1826 mm)",
+            "items": [
+                {
+                    "description": "Track [RX_EN] on F.Cu, length 0.8357 mm",
+                    "pos": {
+                        "x": 18.801588,
+                        "y": -16.505936
+                    },
+                    "uuid": "1efdef65-995e-462d-8f04-dca40784ef70"
+                },
+                {
+                    "description": "Zone 'Recovered 0c4ec2ab920869d8' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.459384,
+                        "y": -17.196562
+                    },
+                    "uuid": "2fcf13b6-701f-48ae-8531-39246b2e1680"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1520 mm)",
+            "items": [
+                {
+                    "description": "Track [DXL_DATA] on F.Cu, length 0.3642 mm",
+                    "pos": {
+                        "x": 19.706354,
+                        "y": -15.853646
+                    },
+                    "uuid": "380c8569-9eca-4773-a8fd-ce83451552e2"
+                },
+                {
+                    "description": "Pad 1 [RX_EN] of R7 on F.Cu",
+                    "pos": {
+                        "x": 20.268184,
+                        "y": -15.875
+                    },
+                    "uuid": "abc72308-19e3-479c-9d6c-32fe047fc615"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)",
+            "items": [
+                {
+                    "description": "Track [DXL_DATA] on F.Cu, length 0.0233 mm",
+                    "pos": {
+                        "x": 19.689849,
+                        "y": -15.505938
+                    },
+                    "uuid": "2b8adad8-7871-4d45-bdf1-a38bcf54cdbe"
+                },
+                {
+                    "description": "Pad 1 [RX_EN] of R7 on F.Cu",
+                    "pos": {
+                        "x": 20.268184,
+                        "y": -15.875
+                    },
+                    "uuid": "abc72308-19e3-479c-9d6c-32fe047fc615"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1520 mm)",
+            "items": [
+                {
+                    "description": "Track [DXL_DATA] on F.Cu, length 0.2156 mm",
+                    "pos": {
+                        "x": 19.553936,
+                        "y": -16.006064
+                    },
+                    "uuid": "0dd51fcd-6a55-4b00-bbed-8b59570b2580"
+                },
+                {
+                    "description": "Pad 1 [RX_EN] of R7 on F.Cu",
+                    "pos": {
+                        "x": 20.268184,
+                        "y": -15.875
+                    },
+                    "uuid": "abc72308-19e3-479c-9d6c-32fe047fc615"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)",
+            "items": [
+                {
+                    "description": "Track [DXL_DATA] on F.Cu, length 0.5248 mm",
+                    "pos": {
+                        "x": 19.706354,
+                        "y": -15.489433
+                    },
+                    "uuid": "7146e247-7312-4718-9e42-1ac0aad7c495"
+                },
+                {
+                    "description": "Pad 1 [RX_EN] of R7 on F.Cu",
+                    "pos": {
+                        "x": 20.268184,
+                        "y": -15.875
+                    },
+                    "uuid": "abc72308-19e3-479c-9d6c-32fe047fc615"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1847 mm)",
+            "items": [
+                {
+                    "description": "Track [DXL_DATA] on F.Cu, length 0.8883 mm",
+                    "pos": {
+                        "x": 18.801588,
+                        "y": -15.505938
+                    },
+                    "uuid": "27de2774-39be-4aaa-b080-501b635d466f"
+                },
+                {
+                    "description": "Pad 1 [RX_EN] of R7 on F.Cu",
+                    "pos": {
+                        "x": 20.268184,
+                        "y": -15.875
+                    },
+                    "uuid": "abc72308-19e3-479c-9d6c-32fe047fc615"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1994 mm)",
+            "items": [
+                {
+                    "description": "Track [SPI_MOSI] on F.Cu, length 2.0926 mm",
+                    "pos": {
+                        "x": 27.902825,
+                        "y": -20.813588
+                    },
+                    "uuid": "7c63eedb-5d63-4046-adb8-c78517c4ac16"
+                },
+                {
+                    "description": "Via [SPI_MISO] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 26.138965,
+                        "y": -20.182187
+                    },
+                    "uuid": "8dba551a-ca41-4ced-8818-432ebde59e1b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1520 mm)",
+            "items": [
+                {
+                    "description": "Track [SPI_MOSI] on F.Cu, length 3.4260 mm",
+                    "pos": {
+                        "x": 24.563962,
+                        "y": -19.567355
+                    },
+                    "uuid": "09898fe7-ee0e-46b8-8892-2eceb483f87d"
+                },
+                {
+                    "description": "Via [SPI_MISO] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 23.97996,
+                        "y": -17.399
+                    },
+                    "uuid": "5518cb03-59ee-490d-96a5-109a2a43ae04"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1950 mm)",
+            "items": [
+                {
+                    "description": "Track [UART_RX] on F.Cu, length 1.2636 mm",
+                    "pos": {
+                        "x": 27.902825,
+                        "y": -22.7638
+                    },
+                    "uuid": "1b24ca22-91b7-4aa2-9dd5-46774f4ae1a6"
+                },
+                {
+                    "description": "Track [UART_TX] on F.Cu, length 1.5944 mm",
+                    "pos": {
+                        "x": 26.65444,
+                        "y": -22.11356
+                    },
+                    "uuid": "e69e8fb9-2760-4d0c-9b35-bd0dcce33208"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1950 mm)",
+            "items": [
+                {
+                    "description": "Track [UART_RX] on F.Cu, length 3.0480 mm",
+                    "pos": {
+                        "x": 26.035,
+                        "y": -23.368
+                    },
+                    "uuid": "14c51731-9479-4920-aa80-43951a1ac781"
+                },
+                {
+                    "description": "Track [UART_TX] on F.Cu, length 1.5944 mm",
+                    "pos": {
+                        "x": 26.65444,
+                        "y": -22.11356
+                    },
+                    "uuid": "e69e8fb9-2760-4d0c-9b35-bd0dcce33208"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1950 mm)",
+            "items": [
+                {
+                    "description": "Track [MCU_TX] on F.Cu, length 0.5092 mm",
+                    "pos": {
+                        "x": 16.632936,
+                        "y": -16.505936
+                    },
+                    "uuid": "8bb58675-fcec-4428-b240-8c4515ddb70c"
+                },
+                {
+                    "description": "Track [MCU_RX] on F.Cu, length 1.0719 mm",
+                    "pos": {
+                        "x": 17.526,
+                        "y": -16.764
+                    },
+                    "uuid": "b08bfaef-bbbc-429c-a1f1-f65394231e6c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1950 mm)",
+            "items": [
+                {
+                    "description": "Track [MCU_TX] on F.Cu, length 0.6365 mm",
+                    "pos": {
+                        "x": 15.996412,
+                        "y": -16.505936
+                    },
+                    "uuid": "79760f38-a032-4d11-9f63-64a5870850b9"
+                },
+                {
+                    "description": "Track [MCU_RX] on F.Cu, length 1.0719 mm",
+                    "pos": {
+                        "x": 17.526,
+                        "y": -16.764
+                    },
+                    "uuid": "b08bfaef-bbbc-429c-a1f1-f65394231e6c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1950 mm)",
+            "items": [
+                {
+                    "description": "Track [MCU_TX] on F.Cu, length 1.9050 mm",
+                    "pos": {
+                        "x": 16.992999,
+                        "y": -16.865999
+                    },
+                    "uuid": "5a848313-4097-41d9-92a7-a64ee07f5145"
+                },
+                {
+                    "description": "Track [MCU_RX] on F.Cu, length 1.0719 mm",
+                    "pos": {
+                        "x": 17.526,
+                        "y": -16.764
+                    },
+                    "uuid": "b08bfaef-bbbc-429c-a1f1-f65394231e6c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1950 mm)",
+            "items": [
+                {
+                    "description": "Track [UART_RX] on F.Cu, length 0.8545 mm",
+                    "pos": {
+                        "x": 26.6392,
+                        "y": -22.7638
+                    },
+                    "uuid": "62ad372c-3a01-467b-8414-834b66ebb045"
+                },
+                {
+                    "description": "Track [UART_TX] on F.Cu, length 1.5944 mm",
+                    "pos": {
+                        "x": 26.65444,
+                        "y": -22.11356
+                    },
+                    "uuid": "e69e8fb9-2760-4d0c-9b35-bd0dcce33208"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1520 mm)",
+            "items": [
+                {
+                    "description": "Track [IMU_INT1] on F.Cu, length 0.7452 mm",
+                    "pos": {
+                        "x": 22.275998,
+                        "y": -14.998098
+                    },
+                    "uuid": "74ff43ff-62f8-4930-a27b-637689641330"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 22.86,
+                        "y": -15.24
+                    },
+                    "uuid": "f1395d5b-d9fb-4ad8-a742-90cb41bfd879"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1520 mm)",
+            "items": [
+                {
+                    "description": "Track [IMU_INT1] on F.Cu, length 0.6739 mm",
+                    "pos": {
+                        "x": 22.275998,
+                        "y": -15.671998
+                    },
+                    "uuid": "3d9b9303-516b-4992-9a52-3f0bca793678"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 22.86,
+                        "y": -15.24
+                    },
+                    "uuid": "f1395d5b-d9fb-4ad8-a742-90cb41bfd879"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1520 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of C5 on F.Cu",
+                    "pos": {
+                        "x": 18.01082,
+                        "y": -21.712189
+                    },
+                    "uuid": "06cee20f-c4dd-4181-af82-30f366b7aec4"
+                },
+                {
+                    "description": "Track [NRST] on F.Cu, length 0.1542 mm",
+                    "pos": {
+                        "x": 18.576384,
+                        "y": -21.033189
+                    },
+                    "uuid": "78b5073a-ff48-4257-8b22-4d08192a50d9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1608 mm)",
+            "items": [
+                {
+                    "description": "Track [IMU_INT1] on F.Cu, length 2.8196 mm",
+                    "pos": {
+                        "x": 23.495,
+                        "y": -20.559588
+                    },
+                    "uuid": "1ab71a2b-fa92-4066-8612-e5b488a4f1a7"
+                },
+                {
+                    "description": "Via [SPI_MISO] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 23.97996,
+                        "y": -17.399
+                    },
+                    "uuid": "5518cb03-59ee-490d-96a5-109a2a43ae04"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1868 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of C5 on F.Cu",
+                    "pos": {
+                        "x": 18.01082,
+                        "y": -21.712189
+                    },
+                    "uuid": "06cee20f-c4dd-4181-af82-30f366b7aec4"
+                },
+                {
+                    "description": "Track [NRST] on F.Cu, length 1.2530 mm",
+                    "pos": {
+                        "x": 16.51,
+                        "y": -21.919184
+                    },
+                    "uuid": "6c9dbb38-ddde-402b-a1c9-19a9ef67c193"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1520 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of C5 on F.Cu",
+                    "pos": {
+                        "x": 18.01082,
+                        "y": -21.712189
+                    },
+                    "uuid": "06cee20f-c4dd-4181-af82-30f366b7aec4"
+                },
+                {
+                    "description": "Track [NRST] on F.Cu, length 1.1804 mm",
+                    "pos": {
+                        "x": 17.395995,
+                        "y": -21.033189
+                    },
+                    "uuid": "6baa4454-c3a0-4bb3-8e55-4f58e5145658"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1608 mm)",
+            "items": [
+                {
+                    "description": "Track [IMU_INT1] on F.Cu, length 0.3660 mm",
+                    "pos": {
+                        "x": 23.495,
+                        "y": -17.739944
+                    },
+                    "uuid": "303886a8-483e-42d3-a235-9c430b559f10"
+                },
+                {
+                    "description": "Via [SPI_MISO] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 23.97996,
+                        "y": -17.399
+                    },
+                    "uuid": "5518cb03-59ee-490d-96a5-109a2a43ae04"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1547 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of C5 on F.Cu",
+                    "pos": {
+                        "x": 18.01082,
+                        "y": -21.712189
+                    },
+                    "uuid": "06cee20f-c4dd-4181-af82-30f366b7aec4"
+                },
+                {
+                    "description": "Track [NRST] on F.Cu, length 1.9924 mm",
+                    "pos": {
+                        "x": 18.685408,
+                        "y": -21.142213
+                    },
+                    "uuid": "4bc18c4a-1cb1-4b98-bffd-7d708ba7d194"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1520 mm)",
+            "items": [
+                {
+                    "description": "Via [RX_EN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 15.90435,
+                        "y": -18.63965
+                    },
+                    "uuid": "5f6d179f-a762-44f4-aad6-7c71557e4d12"
+                },
+                {
+                    "description": "Track [DE] on F.Cu, length 2.7422 mm",
+                    "pos": {
+                        "x": 16.488352,
+                        "y": -19.865536
+                    },
+                    "uuid": "e4154886-2f20-444c-9b5b-42707d07d05a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1826 mm)",
+            "items": [
+                {
+                    "description": "Track [RX_EN] on F.Cu, length 0.5095 mm",
+                    "pos": {
+                        "x": 18.292064,
+                        "y": -16.505936
+                    },
+                    "uuid": "b319190c-5adf-4e5c-a03e-edc7bd364cdc"
+                },
+                {
+                    "description": "Track [3.3V] on F.Cu, length 1.3404 mm",
+                    "pos": {
+                        "x": 20.141946,
+                        "y": -17.006062
+                    },
+                    "uuid": "f234b641-20c6-4aa2-ac43-5c899491a16e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1881 mm)",
+            "items": [
+                {
+                    "description": "Track [RX_EN] on F.Cu, length 1.0160 mm",
+                    "pos": {
+                        "x": 18.034,
+                        "y": -17.78
+                    },
+                    "uuid": "42916dc2-878f-4ebc-9b2e-15f1f6d2409f"
+                },
+                {
+                    "description": "Pad 8 [3.3V] of U3 on F.Cu",
+                    "pos": {
+                        "x": 18.801588,
+                        "y": -17.006062
+                    },
+                    "uuid": "f33d6b10-63d7-4271-add2-aa89d50153bd"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1826 mm)",
+            "items": [
+                {
+                    "description": "Track [RX_EN] on F.Cu, length 0.8923 mm",
+                    "pos": {
+                        "x": 19.637248,
+                        "y": -16.505936
+                    },
+                    "uuid": "0e23140d-bcaa-4934-91c6-b2f29799b39a"
+                },
+                {
+                    "description": "Track [3.3V] on F.Cu, length 1.3404 mm",
+                    "pos": {
+                        "x": 20.141946,
+                        "y": -17.006062
+                    },
+                    "uuid": "f234b641-20c6-4aa2-ac43-5c899491a16e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1696 mm)",
+            "items": [
+                {
+                    "description": "Pad 7 [RX_EN] of U3 on F.Cu",
+                    "pos": {
+                        "x": 18.801588,
+                        "y": -16.505936
+                    },
+                    "uuid": "b70ac4e8-8484-4f09-824d-d4ba11379f70"
+                },
+                {
+                    "description": "Track [3.3V] on F.Cu, length 1.3404 mm",
+                    "pos": {
+                        "x": 20.141946,
+                        "y": -17.006062
+                    },
+                    "uuid": "f234b641-20c6-4aa2-ac43-5c899491a16e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1696 mm)",
+            "items": [
+                {
+                    "description": "Track [3.3V] on F.Cu, length 1.3404 mm",
+                    "pos": {
+                        "x": 20.141946,
+                        "y": -17.006062
+                    },
+                    "uuid": "f234b641-20c6-4aa2-ac43-5c899491a16e"
+                },
+                {
+                    "description": "Zone 'Recovered 9d61f730b9b96b1f' [RX_EN] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.495084,
+                        "y": -16.378936
+                    },
+                    "uuid": "a5bcd8f6-df05-488f-beba-4c96d7f1f413"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1911 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [RX_EN] of R7 on F.Cu",
+                    "pos": {
+                        "x": 20.268184,
+                        "y": -15.875
+                    },
+                    "uuid": "abc72308-19e3-479c-9d6c-32fe047fc615"
+                },
+                {
+                    "description": "Zone 'Recovered eb272798206d6702' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 20.997286,
+                        "y": -16.533866
+                    },
+                    "uuid": "26bb88bc-c5f3-4fea-b973-35d00d5612f4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1581 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of C3 on F.Cu",
+                    "pos": {
+                        "x": 21.121116,
+                        "y": -17.145
+                    },
+                    "uuid": "1b9c4600-033e-4bc1-b791-05890bd2f279"
+                },
+                {
+                    "description": "Zone 'Recovered f84a4fef3b3ddd93' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 20.478224,
+                        "y": -16.514112
+                    },
+                    "uuid": "7076e1c4-bd19-4375-a4e5-8dd261eff8d5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 552d312dece731aa' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 24.677116,
+                        "y": -12.538761
+                    },
+                    "uuid": "0dcbb15c-9907-48b7-a7be-c65e8960ee0c"
+                },
+                {
+                    "description": "Zone 'Recovered 12706661c84c798e' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 24.931116,
+                        "y": -12.843002
+                    },
+                    "uuid": "bd420176-8ffd-490a-b678-f027fd4799b5"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 12c102a31a9a8ea0' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.601414,
+                        "y": -13.093992
+                    },
+                    "uuid": "04e7051f-b8fd-4449-861e-ef35f524cf6d"
+                },
+                {
+                    "description": "Zone 'Recovered 8a2bfb0d42c24841' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.653761,
+                        "y": -13.618324
+                    },
+                    "uuid": "e04abe06-9f00-4bfa-84c5-ffde31362b87"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 12c102a31a9a8ea0' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.601414,
+                        "y": -13.093992
+                    },
+                    "uuid": "04e7051f-b8fd-4449-861e-ef35f524cf6d"
+                },
+                {
+                    "description": "Zone 'Recovered 35892a42ec87e36c' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.665067,
+                        "y": -13.389549
+                    },
+                    "uuid": "cbb4177b-4db0-4b48-9262-236eacaacd5f"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 552d312dece731aa' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 24.677116,
+                        "y": -12.538761
+                    },
+                    "uuid": "0dcbb15c-9907-48b7-a7be-c65e8960ee0c"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 12c102a31a9a8ea0' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.601414,
+                        "y": -13.093992
+                    },
+                    "uuid": "04e7051f-b8fd-4449-861e-ef35f524cf6d"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 12c102a31a9a8ea0' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.601414,
+                        "y": -13.093992
+                    },
+                    "uuid": "04e7051f-b8fd-4449-861e-ef35f524cf6d"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 552d312dece731aa' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 24.677116,
+                        "y": -12.538761
+                    },
+                    "uuid": "0dcbb15c-9907-48b7-a7be-c65e8960ee0c"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 88489c7ee9e959aa' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 24.936834,
+                        "y": -13.716
+                    },
+                    "uuid": "0fd6d83f-f919-41cb-92e4-e59a5e6b54ac"
+                },
+                {
+                    "description": "Zone 'Recovered a3bc5a25a3a9be11' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.153635,
+                        "y": -13.805802
+                    },
+                    "uuid": "9facbe98-1480-41a5-941b-7aa9f1aa847b"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 88489c7ee9e959aa' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 24.936834,
+                        "y": -13.716
+                    },
+                    "uuid": "0fd6d83f-f919-41cb-92e4-e59a5e6b54ac"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 88489c7ee9e959aa' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 24.936834,
+                        "y": -13.716
+                    },
+                    "uuid": "0fd6d83f-f919-41cb-92e4-e59a5e6b54ac"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 13fc66dcf638c6cf' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.212758,
+                        "y": -15.598135
+                    },
+                    "uuid": "1365a6e5-85df-4757-8534-0d3a3eb94d8c"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                },
+                {
+                    "description": "Zone 'Recovered 12706661c84c798e' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 24.931116,
+                        "y": -12.843002
+                    },
+                    "uuid": "bd420176-8ffd-490a-b678-f027fd4799b5"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered f8665bfbd9d0f6f0' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 27.064495,
+                        "y": -4.409199
+                    },
+                    "uuid": "bb220a12-2b96-4d36-a013-8d7a977f39db"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.952597,
+                        "y": -8.348334
+                    },
+                    "uuid": "da11ee18-b0d4-4ea4-a6a2-618cceadc4a9"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 3f4c274659eab892' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 21.248116,
+                        "y": -17.796002
+                    },
+                    "uuid": "b34d28fa-4fcd-4cda-a4bd-057795f7fa12"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 21.26662,
+                        "y": -18.474854
+                    },
+                    "uuid": "f69186ff-3116-431d-a5e7-7f6d8c644ebc"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered b9223ed2cf0d21f1' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 20.994116000000002,
+                        "y": -17.59109
+                    },
+                    "uuid": "a7bce39f-4eb6-4215-88a9-90188d5fb39c"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 21.26662,
+                        "y": -18.474854
+                    },
+                    "uuid": "f98300e1-4ad5-46e9-9a29-10e9d098547e"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered b9223ed2cf0d21f1' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 20.994116000000002,
+                        "y": -17.59109
+                    },
+                    "uuid": "a7bce39f-4eb6-4215-88a9-90188d5fb39c"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 21.26662,
+                        "y": -18.474854
+                    },
+                    "uuid": "f69186ff-3116-431d-a5e7-7f6d8c644ebc"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered b9223ed2cf0d21f1' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 20.994116000000002,
+                        "y": -17.59109
+                    },
+                    "uuid": "a7bce39f-4eb6-4215-88a9-90188d5fb39c"
+                },
+                {
+                    "description": "Zone 'Recovered 3f4c274659eab892' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 21.248116,
+                        "y": -17.796002
+                    },
+                    "uuid": "b34d28fa-4fcd-4cda-a4bd-057795f7fa12"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 38.367407,
+                        "y": -0.560308
+                    },
+                    "uuid": "c9534a4e-f8bf-4050-8a00-5ef1227fe92b"
+                },
+                {
+                    "description": "Zone 'Recovered 9faf70d88af5baa2' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 15.401239,
+                        "y": -15.378938
+                    },
+                    "uuid": "cbc294af-2553-4d98-bfc1-9fffd0983e90"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered cc1892c94b3be99b' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 26.05182,
+                        "y": -4.409199
+                    },
+                    "uuid": "a78b0fdc-612f-4eda-a3e4-8f9363dc59ed"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.952597,
+                        "y": -8.348334
+                    },
+                    "uuid": "da11ee18-b0d4-4ea4-a6a2-618cceadc4a9"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered f77132067c9ee16d' [DE] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 17.161002,
+                        "y": -19.760184
+                    },
+                    "uuid": "a1064965-337e-4f4d-9733-33ca9aaac8fd"
+                },
+                {
+                    "description": "Zone 'Recovered b379a4d8252ebe0d' [DE] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 16.361352,
+                        "y": -19.223355
+                    },
+                    "uuid": "d4d99452-edb7-4f4c-ac00-039e9756e0b7"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 3f4c274659eab892' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 21.248116,
+                        "y": -17.796002
+                    },
+                    "uuid": "b34d28fa-4fcd-4cda-a4bd-057795f7fa12"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 21.26662,
+                        "y": -18.474854
+                    },
+                    "uuid": "f98300e1-4ad5-46e9-9a29-10e9d098547e"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered a3bc5a25a3a9be11' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.153635,
+                        "y": -13.805802
+                    },
+                    "uuid": "9facbe98-1480-41a5-941b-7aa9f1aa847b"
+                },
+                {
+                    "description": "Zone 'Recovered 8a2bfb0d42c24841' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.653761,
+                        "y": -13.618324
+                    },
+                    "uuid": "e04abe06-9f00-4bfa-84c5-ffde31362b87"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered a3bc5a25a3a9be11' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.153635,
+                        "y": -13.805802
+                    },
+                    "uuid": "9facbe98-1480-41a5-941b-7aa9f1aa847b"
+                },
+                {
+                    "description": "Zone 'Recovered 7be69d2bf5487e7d' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 24.934413,
+                        "y": -13.258183
+                    },
+                    "uuid": "c5b306a2-be98-4679-97d0-393d2194f9f0"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 21.26662,
+                        "y": -18.474854
+                    },
+                    "uuid": "f69186ff-3116-431d-a5e7-7f6d8c644ebc"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 21.26662,
+                        "y": -18.474854
+                    },
+                    "uuid": "f98300e1-4ad5-46e9-9a29-10e9d098547e"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 3ace2bc86c37d456' [DXL_BUS] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 20.35302,
+                        "y": -8.89
+                    },
+                    "uuid": "9704b6b2-0dd5-4163-8c08-03fc7a2be03d"
+                },
+                {
+                    "description": "Zone 'Recovered 961aa2f60d098ba2' [DXL_BUS] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.59102,
+                        "y": -8.386313
+                    },
+                    "uuid": "f2bca961-00bf-4481-aa80-7db491ad51b3"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                },
+                {
+                    "description": "Zone 'Recovered 8a2bfb0d42c24841' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.653761,
+                        "y": -13.618324
+                    },
+                    "uuid": "e04abe06-9f00-4bfa-84c5-ffde31362b87"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                },
+                {
+                    "description": "Zone 'Recovered 35892a42ec87e36c' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.665067,
+                        "y": -13.389549
+                    },
+                    "uuid": "cbb4177b-4db0-4b48-9262-236eacaacd5f"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                },
+                {
+                    "description": "Zone 'Recovered 7b68ac88c9f6397e' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.995884,
+                        "y": -12.843002
+                    },
+                    "uuid": "bba080b0-ec28-4908-8ae2-c7683c7a1e2d"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                },
+                {
+                    "description": "Zone 'Recovered 7be69d2bf5487e7d' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 24.934413,
+                        "y": -13.258183
+                    },
+                    "uuid": "c5b306a2-be98-4679-97d0-393d2194f9f0"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                },
+                {
+                    "description": "Zone 'Recovered 43e4f079cf689ec8' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.180937,
+                        "y": -15.381333
+                    },
+                    "uuid": "a0132946-fbd1-41ed-b7ec-d66dfdc6dbab"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                },
+                {
+                    "description": "Zone 'Recovered a3bc5a25a3a9be11' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.153635,
+                        "y": -13.805802
+                    },
+                    "uuid": "9facbe98-1480-41a5-941b-7aa9f1aa847b"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered ffddb1f93d28660f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 15.302916,
+                        "y": -15.632938
+                    },
+                    "uuid": "861d5bf4-b1e8-4612-aac3-0c3524077f65"
+                },
+                {
+                    "description": "Zone 'Recovered 9faf70d88af5baa2' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 15.401239,
+                        "y": -15.378938
+                    },
+                    "uuid": "cbc294af-2553-4d98-bfc1-9fffd0983e90"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 7c741037ec45bc51' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.43696,
+                        "y": -13.708126
+                    },
+                    "uuid": "85cf7689-11fe-4d00-91ea-ddb4fee7de70"
+                },
+                {
+                    "description": "Zone 'Recovered 8a2bfb0d42c24841' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.653761,
+                        "y": -13.618324
+                    },
+                    "uuid": "e04abe06-9f00-4bfa-84c5-ffde31362b87"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered acbd68bc789f3324' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.212758,
+                        "y": -15.098263
+                    },
+                    "uuid": "8ba35175-aec3-4a2f-8645-c3df2e135734"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered d7a4d49ab4597aa2' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 26.234017,
+                        "y": -4.663199
+                    },
+                    "uuid": "7ce7448f-2170-4347-9481-525277b62327"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.952597,
+                        "y": -8.348334
+                    },
+                    "uuid": "da11ee18-b0d4-4ea4-a6a2-618cceadc4a9"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 3ecb01a0e3d5d3e1' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 24.090884,
+                        "y": -12.843002
+                    },
+                    "uuid": "76374a44-c456-40b0-9193-4aee9e210c31"
+                },
+                {
+                    "description": "Zone 'Recovered dd78800fd435fc20' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.951884,
+                        "y": -12.446
+                    },
+                    "uuid": "f660202d-b73a-4c0c-99b9-9f1eeb24fcee"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered ffddb1f93d28660f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 15.302916,
+                        "y": -15.632938
+                    },
+                    "uuid": "861d5bf4-b1e8-4612-aac3-0c3524077f65"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 38.367407,
+                        "y": -0.560308
+                    },
+                    "uuid": "c9534a4e-f8bf-4050-8a00-5ef1227fe92b"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                },
+                {
+                    "description": "Zone 'Recovered 8a2bfb0d42c24841' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.653761,
+                        "y": -13.618324
+                    },
+                    "uuid": "e04abe06-9f00-4bfa-84c5-ffde31362b87"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                },
+                {
+                    "description": "Zone 'Recovered 35892a42ec87e36c' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.665067,
+                        "y": -13.389549
+                    },
+                    "uuid": "cbb4177b-4db0-4b48-9262-236eacaacd5f"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                },
+                {
+                    "description": "Zone 'Recovered 7be69d2bf5487e7d' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 24.934413,
+                        "y": -13.258183
+                    },
+                    "uuid": "c5b306a2-be98-4679-97d0-393d2194f9f0"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 7c741037ec45bc51' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.43696,
+                        "y": -13.708126
+                    },
+                    "uuid": "85cf7689-11fe-4d00-91ea-ddb4fee7de70"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered bb89f83d3021b6f8' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 35.002518,
+                        "y": -23.258341
+                    },
+                    "uuid": "a1e678b4-cc38-4bc9-9c00-7728347cfeaa"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 38.367407,
+                        "y": -0.560308
+                    },
+                    "uuid": "c9534a4e-f8bf-4050-8a00-5ef1227fe92b"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                },
+                {
+                    "description": "Zone 'Recovered 43e4f079cf689ec8' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.180937,
+                        "y": -15.381333
+                    },
+                    "uuid": "a0132946-fbd1-41ed-b7ec-d66dfdc6dbab"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                },
+                {
+                    "description": "Zone 'Recovered a3bc5a25a3a9be11' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.153635,
+                        "y": -13.805802
+                    },
+                    "uuid": "9facbe98-1480-41a5-941b-7aa9f1aa847b"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                },
+                {
+                    "description": "Zone 'Recovered 12706661c84c798e' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 24.931116,
+                        "y": -12.843002
+                    },
+                    "uuid": "bd420176-8ffd-490a-b678-f027fd4799b5"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                },
+                {
+                    "description": "Zone 'Recovered acbd68bc789f3324' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.212758,
+                        "y": -15.098263
+                    },
+                    "uuid": "8ba35175-aec3-4a2f-8645-c3df2e135734"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                },
+                {
+                    "description": "Zone 'Recovered 7c741037ec45bc51' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.43696,
+                        "y": -13.708126
+                    },
+                    "uuid": "85cf7689-11fe-4d00-91ea-ddb4fee7de70"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered eb11201f5a77c295' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 31.625662,
+                        "y": -23.241
+                    },
+                    "uuid": "687e8eb1-6487-48be-a9af-19c417998f75"
+                },
+                {
+                    "description": "Zone 'Recovered 468826da96447b3a' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 32.152791,
+                        "y": -22.205874
+                    },
+                    "uuid": "7bee086f-180d-41b0-bb09-52046a5e8624"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 2c53b68d79930354' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.038935,
+                        "y": -14.881461
+                    },
+                    "uuid": "661be13f-d6c4-4d6a-b46d-82fd7f312f0a"
+                },
+                {
+                    "description": "Zone 'Recovered 43e4f079cf689ec8' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.180937,
+                        "y": -15.381333
+                    },
+                    "uuid": "a0132946-fbd1-41ed-b7ec-d66dfdc6dbab"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                },
+                {
+                    "description": "Zone 'Recovered 7b68ac88c9f6397e' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.995884,
+                        "y": -12.843002
+                    },
+                    "uuid": "bba080b0-ec28-4908-8ae2-c7683c7a1e2d"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 2c53b68d79930354' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.038935,
+                        "y": -14.881461
+                    },
+                    "uuid": "661be13f-d6c4-4d6a-b46d-82fd7f312f0a"
+                },
+                {
+                    "description": "Zone 'Recovered acbd68bc789f3324' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.212758,
+                        "y": -15.098263
+                    },
+                    "uuid": "8ba35175-aec3-4a2f-8645-c3df2e135734"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 87510668665102f7' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 28.880816,
+                        "y": -17.052239
+                    },
+                    "uuid": "635640f4-a3cf-4235-96d3-4a9dac90e356"
+                },
+                {
+                    "description": "Zone 'Recovered ef71b4e819b16487' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 28.626816,
+                        "y": -16.747998
+                    },
+                    "uuid": "cfb00767-68d8-4b9f-a34b-105399ef1665"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 2c53b68d79930354' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.038935,
+                        "y": -14.881461
+                    },
+                    "uuid": "661be13f-d6c4-4d6a-b46d-82fd7f312f0a"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 746a86ec39ac9e6d' [VDD_BUS] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 34.798,
+                        "y": -7.366
+                    },
+                    "uuid": "6270e49f-83a0-4cc3-a5dc-95d7ba239dcc"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.952597,
+                        "y": -8.348334
+                    },
+                    "uuid": "da11ee18-b0d4-4ea4-a6a2-618cceadc4a9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 746a86ec39ac9e6d' [VDD_BUS] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 34.798,
+                        "y": -7.366
+                    },
+                    "uuid": "6270e49f-83a0-4cc3-a5dc-95d7ba239dcc"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 38.367407,
+                        "y": -0.560308
+                    },
+                    "uuid": "c9534a4e-f8bf-4050-8a00-5ef1227fe92b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 746a86ec39ac9e6d' [VDD_BUS] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 34.798,
+                        "y": -7.366
+                    },
+                    "uuid": "6270e49f-83a0-4cc3-a5dc-95d7ba239dcc"
+                },
+                {
+                    "description": "Zone 'Recovered 9e612d8edf537785' [VDD_BUS] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 29.135606,
+                        "y": -4.64104
+                    },
+                    "uuid": "9bd379e3-9d9f-4c5e-9024-fdca3361fa43"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 2c53b68d79930354' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.038935,
+                        "y": -14.881461
+                    },
+                    "uuid": "661be13f-d6c4-4d6a-b46d-82fd7f312f0a"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.952597,
+                        "y": -8.348334
+                    },
+                    "uuid": "61038692-6c16-4c98-8ebc-a48ec9e6f251"
+                },
+                {
+                    "description": "Zone 'Recovered f8665bfbd9d0f6f0' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 27.064495,
+                        "y": -4.409199
+                    },
+                    "uuid": "bb220a12-2b96-4d36-a013-8d7a977f39db"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.952597,
+                        "y": -8.348334
+                    },
+                    "uuid": "61038692-6c16-4c98-8ebc-a48ec9e6f251"
+                },
+                {
+                    "description": "Zone 'Recovered cc1892c94b3be99b' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 26.05182,
+                        "y": -4.409199
+                    },
+                    "uuid": "a78b0fdc-612f-4eda-a3e4-8f9363dc59ed"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.952597,
+                        "y": -8.348334
+                    },
+                    "uuid": "61038692-6c16-4c98-8ebc-a48ec9e6f251"
+                },
+                {
+                    "description": "Zone 'Recovered d7a4d49ab4597aa2' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 26.234017,
+                        "y": -4.663199
+                    },
+                    "uuid": "7ce7448f-2170-4347-9481-525277b62327"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0026 mm)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.952597,
+                        "y": -8.348334
+                    },
+                    "uuid": "61038692-6c16-4c98-8ebc-a48ec9e6f251"
+                },
+                {
+                    "description": "Zone 'Recovered 746a86ec39ac9e6d' [VDD_BUS] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 34.798,
+                        "y": -7.366
+                    },
+                    "uuid": "6270e49f-83a0-4cc3-a5dc-95d7ba239dcc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered bd6779a9c26b52f4' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.18824,
+                        "y": -13.152801
+                    },
+                    "uuid": "5494b3fe-f69c-41bb-9917-2f36cb7ca8dd"
+                },
+                {
+                    "description": "Zone 'Recovered 7be69d2bf5487e7d' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 24.934413,
+                        "y": -13.258183
+                    },
+                    "uuid": "c5b306a2-be98-4679-97d0-393d2194f9f0"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered bd6779a9c26b52f4' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.18824,
+                        "y": -13.152801
+                    },
+                    "uuid": "5494b3fe-f69c-41bb-9917-2f36cb7ca8dd"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered bd6779a9c26b52f4' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.18824,
+                        "y": -13.152801
+                    },
+                    "uuid": "5494b3fe-f69c-41bb-9917-2f36cb7ca8dd"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 89c5a8c3306e26a7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 27.022615,
+                        "y": -4.663199
+                    },
+                    "uuid": "4fa40fc6-735f-4da6-b68b-fa6f43f3b9ee"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.952597,
+                        "y": -8.348334
+                    },
+                    "uuid": "da11ee18-b0d4-4ea4-a6a2-618cceadc4a9"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 89c5a8c3306e26a7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 27.022615,
+                        "y": -4.663199
+                    },
+                    "uuid": "4fa40fc6-735f-4da6-b68b-fa6f43f3b9ee"
+                },
+                {
+                    "description": "Zone 'Recovered f8665bfbd9d0f6f0' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 27.064495,
+                        "y": -4.409199
+                    },
+                    "uuid": "bb220a12-2b96-4d36-a013-8d7a977f39db"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered cfa0bacb1248d4b0' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.053239,
+                        "y": -4.409199
+                    },
+                    "uuid": "4ccd428b-296c-4bdf-8a0a-ff87823154f3"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.952597,
+                        "y": -8.348334
+                    },
+                    "uuid": "da11ee18-b0d4-4ea4-a6a2-618cceadc4a9"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered c38aba8838282a26' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 21.0909,
+                        "y": -22.24056
+                    },
+                    "uuid": "631443c8-3c36-4b54-b1fb-9ddc2c4557fd"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 38.367407,
+                        "y": -0.560308
+                    },
+                    "uuid": "c9534a4e-f8bf-4050-8a00-5ef1227fe92b"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 89c5a8c3306e26a7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 27.022615,
+                        "y": -4.663199
+                    },
+                    "uuid": "4fa40fc6-735f-4da6-b68b-fa6f43f3b9ee"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.952597,
+                        "y": -8.348334
+                    },
+                    "uuid": "61038692-6c16-4c98-8ebc-a48ec9e6f251"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered cfa0bacb1248d4b0' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.053239,
+                        "y": -4.409199
+                    },
+                    "uuid": "4ccd428b-296c-4bdf-8a0a-ff87823154f3"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.952597,
+                        "y": -8.348334
+                    },
+                    "uuid": "61038692-6c16-4c98-8ebc-a48ec9e6f251"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered b9667c897f488963' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.221341,
+                        "y": -4.663199
+                    },
+                    "uuid": "4a52afc7-4410-4be2-8231-46358d26bff2"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.952597,
+                        "y": -8.348334
+                    },
+                    "uuid": "da11ee18-b0d4-4ea4-a6a2-618cceadc4a9"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered b9667c897f488963' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.221341,
+                        "y": -4.663199
+                    },
+                    "uuid": "4a52afc7-4410-4be2-8231-46358d26bff2"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.952597,
+                        "y": -8.348334
+                    },
+                    "uuid": "61038692-6c16-4c98-8ebc-a48ec9e6f251"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 38.367407,
+                        "y": -0.560308
+                    },
+                    "uuid": "c9534a4e-f8bf-4050-8a00-5ef1227fe92b"
+                },
+                {
+                    "description": "Zone 'Recovered f693a2a342b07c17' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.264818000000002,
+                        "y": -22.099742
+                    },
+                    "uuid": "f65232f3-a09c-42af-80f5-b29eae3268c5"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.952597,
+                        "y": -8.348334
+                    },
+                    "uuid": "61038692-6c16-4c98-8ebc-a48ec9e6f251"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.952597,
+                        "y": -8.348334
+                    },
+                    "uuid": "da11ee18-b0d4-4ea4-a6a2-618cceadc4a9"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 11.881573,
+                        "y": -28.800576
+                    },
+                    "uuid": "47dd4a38-d849-445a-a9fa-f03e728197fb"
+                },
+                {
+                    "description": "Zone 'Recovered 9faf70d88af5baa2' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 15.401239,
+                        "y": -15.378938
+                    },
+                    "uuid": "cbc294af-2553-4d98-bfc1-9fffd0983e90"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered dca4e8522837e94e' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 20.566822,
+                        "y": -21.98656
+                    },
+                    "uuid": "4a2d44f4-1588-4458-a50e-d9a4aed8bb02"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 38.367407,
+                        "y": -0.560308
+                    },
+                    "uuid": "c9534a4e-f8bf-4050-8a00-5ef1227fe92b"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered d0586fb60e7fb6b7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 18.841819,
+                        "y": -21.845742
+                    },
+                    "uuid": "79db4ead-4c29-413b-a4fa-fbf71af2494c"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 38.367407,
+                        "y": -0.560308
+                    },
+                    "uuid": "c9534a4e-f8bf-4050-8a00-5ef1227fe92b"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered d2e80a024d69225e' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 34.796471,
+                        "y": -22.877341
+                    },
+                    "uuid": "6d23e62e-ff7e-44f4-a1c7-57731bdb8fb0"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 38.367407,
+                        "y": -0.560308
+                    },
+                    "uuid": "c9534a4e-f8bf-4050-8a00-5ef1227fe92b"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 11.881573,
+                        "y": -28.800576
+                    },
+                    "uuid": "47dd4a38-d849-445a-a9fa-f03e728197fb"
+                },
+                {
+                    "description": "Zone 'Recovered bb89f83d3021b6f8' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 35.002518,
+                        "y": -23.258341
+                    },
+                    "uuid": "a1e678b4-cc38-4bc9-9c00-7728347cfeaa"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 11.881573,
+                        "y": -28.800576
+                    },
+                    "uuid": "47dd4a38-d849-445a-a9fa-f03e728197fb"
+                },
+                {
+                    "description": "Zone 'Recovered f693a2a342b07c17' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.264818000000002,
+                        "y": -22.099742
+                    },
+                    "uuid": "f65232f3-a09c-42af-80f5-b29eae3268c5"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 11.881573,
+                        "y": -28.800576
+                    },
+                    "uuid": "47dd4a38-d849-445a-a9fa-f03e728197fb"
+                },
+                {
+                    "description": "Zone 'Recovered ffddb1f93d28660f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 15.302916,
+                        "y": -15.632938
+                    },
+                    "uuid": "861d5bf4-b1e8-4612-aac3-0c3524077f65"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 11.881573,
+                        "y": -28.800576
+                    },
+                    "uuid": "47dd4a38-d849-445a-a9fa-f03e728197fb"
+                },
+                {
+                    "description": "Zone 'Recovered 746a86ec39ac9e6d' [VDD_BUS] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 34.798,
+                        "y": -7.366
+                    },
+                    "uuid": "6270e49f-83a0-4cc3-a5dc-95d7ba239dcc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 11.881573,
+                        "y": -28.800576
+                    },
+                    "uuid": "47dd4a38-d849-445a-a9fa-f03e728197fb"
+                },
+                {
+                    "description": "Zone 'Recovered c38aba8838282a26' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 21.0909,
+                        "y": -22.24056
+                    },
+                    "uuid": "631443c8-3c36-4b54-b1fb-9ddc2c4557fd"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 11.881573,
+                        "y": -28.800576
+                    },
+                    "uuid": "47dd4a38-d849-445a-a9fa-f03e728197fb"
+                },
+                {
+                    "description": "Zone 'Recovered d0586fb60e7fb6b7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 18.841819,
+                        "y": -21.845742
+                    },
+                    "uuid": "79db4ead-4c29-413b-a4fa-fbf71af2494c"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered c968390b9d16214d' [DXL_DATA] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.495084,
+                        "y": -15.378938
+                    },
+                    "uuid": "4654fc7e-59ff-433d-94ca-dfeeb09162e4"
+                },
+                {
+                    "description": "Zone 'Recovered 22f470df6077cd5c' [DXL_DATA] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 18.817354,
+                        "y": -15.632938
+                    },
+                    "uuid": "c0e137db-fa98-497b-8431-121a47ee5225"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 5430dd5b106d9250' [DXL_DATA] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 20.066,
+                        "y": -14.080998
+                    },
+                    "uuid": "3b0f06e3-cc5c-4d74-a855-0003e3b6e6ff"
+                },
+                {
+                    "description": "Zone 'Recovered 907f1a44c191ad98' [DXL_DATA] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.939,
+                        "y": -14.859
+                    },
+                    "uuid": "8e4be647-528f-474e-8d22-8e0c105c318e"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 11.881573,
+                        "y": -28.800576
+                    },
+                    "uuid": "47dd4a38-d849-445a-a9fa-f03e728197fb"
+                },
+                {
+                    "description": "Zone 'Recovered d2e80a024d69225e' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 34.796471,
+                        "y": -22.877341
+                    },
+                    "uuid": "6d23e62e-ff7e-44f4-a1c7-57731bdb8fb0"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered f89ca9fc97dd4c4d' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.741884,
+                        "y": -12.590889
+                    },
+                    "uuid": "341a6cf2-def0-4d0c-a972-18efb714ac00"
+                },
+                {
+                    "description": "Zone 'Recovered 7b68ac88c9f6397e' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.995884,
+                        "y": -12.843002
+                    },
+                    "uuid": "bba080b0-ec28-4908-8ae2-c7683c7a1e2d"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered f89ca9fc97dd4c4d' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.741884,
+                        "y": -12.590889
+                    },
+                    "uuid": "341a6cf2-def0-4d0c-a972-18efb714ac00"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "6b30acb2-18ea-4c75-95a3-739654cb7931"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered f89ca9fc97dd4c4d' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 25.741884,
+                        "y": -12.590889
+                    },
+                    "uuid": "341a6cf2-def0-4d0c-a972-18efb714ac00"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 0c4ec2ab920869d8' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.459384,
+                        "y": -17.196562
+                    },
+                    "uuid": "2fcf13b6-701f-48ae-8531-39246b2e1680"
+                },
+                {
+                    "description": "Zone 'Recovered f84a4fef3b3ddd93' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 20.478224,
+                        "y": -16.514112
+                    },
+                    "uuid": "7076e1c4-bd19-4375-a4e5-8dd261eff8d5"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 1120b51f5a765329' [VDD_BUS] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 28.627606,
+                        "y": -3.476193
+                    },
+                    "uuid": "2f4336c5-d0f7-49d7-add0-037aafab07b1"
+                },
+                {
+                    "description": "Zone 'Recovered 9e612d8edf537785' [VDD_BUS] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 29.135606,
+                        "y": -4.64104
+                    },
+                    "uuid": "9bd379e3-9d9f-4c5e-9024-fdca3361fa43"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 1120b51f5a765329' [VDD_BUS] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 28.627606,
+                        "y": -3.476193
+                    },
+                    "uuid": "2f4336c5-d0f7-49d7-add0-037aafab07b1"
+                },
+                {
+                    "description": "Zone 'Recovered 746a86ec39ac9e6d' [VDD_BUS] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 34.798,
+                        "y": -7.366
+                    },
+                    "uuid": "6270e49f-83a0-4cc3-a5dc-95d7ba239dcc"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered a8e86dc6a530abc9' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 18.611647,
+                        "y": -22.099742
+                    },
+                    "uuid": "2d4ed731-b045-4102-adbc-bbe97914ccdc"
+                },
+                {
+                    "description": "Zone 'Recovered d0586fb60e7fb6b7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 18.841819,
+                        "y": -21.845742
+                    },
+                    "uuid": "79db4ead-4c29-413b-a4fa-fbf71af2494c"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered eb272798206d6702' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 20.997286,
+                        "y": -16.533866
+                    },
+                    "uuid": "26bb88bc-c5f3-4fea-b973-35d00d5612f4"
+                },
+                {
+                    "description": "Zone 'Recovered 1ab2552ea13780c2' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 21.387816,
+                        "y": -15.764002
+                    },
+                    "uuid": "5ca80cd7-c045-44e6-885c-942d586f13ee"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 7910f8c42746b519' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.442125,
+                        "y": -21.845742
+                    },
+                    "uuid": "1cabc0e1-dd78-49a2-8125-2f28d35d0732"
+                },
+                {
+                    "description": "Zone 'Recovered f693a2a342b07c17' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.264818000000002,
+                        "y": -22.099742
+                    },
+                    "uuid": "f65232f3-a09c-42af-80f5-b29eae3268c5"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 09f2bd9caf94dd76' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 20.879816,
+                        "y": -14.842998
+                    },
+                    "uuid": "19141e67-ca0a-4703-a6d0-a04a506043b9"
+                },
+                {
+                    "description": "Zone 'Recovered 1ab2552ea13780c2' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 21.387816,
+                        "y": -15.764002
+                    },
+                    "uuid": "5ca80cd7-c045-44e6-885c-942d586f13ee"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 13fc66dcf638c6cf' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.212758,
+                        "y": -15.598135
+                    },
+                    "uuid": "1365a6e5-85df-4757-8534-0d3a3eb94d8c"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 22.663913,
+                        "y": -15.500539
+                    },
+                    "uuid": "925f244e-a134-4203-bdf7-558305a83f91"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 09315175cafdc25c' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 30.374791,
+                        "y": -16.249208
+                    },
+                    "uuid": "12b919e0-eb42-4e56-9402-65d44da8b4d3"
+                },
+                {
+                    "description": "Zone 'Recovered 4b19b7c0ed49d439' [3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 30.882791,
+                        "y": -16.981211
+                    },
+                    "uuid": "3b638a39-80e6-46f5-9cc3-7824952e8ec3"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 7910f8c42746b519' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.442125,
+                        "y": -21.845742
+                    },
+                    "uuid": "1cabc0e1-dd78-49a2-8125-2f28d35d0732"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 11.881573,
+                        "y": -28.800576
+                    },
+                    "uuid": "47dd4a38-d849-445a-a9fa-f03e728197fb"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered a8e86dc6a530abc9' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 18.611647,
+                        "y": -22.099742
+                    },
+                    "uuid": "2d4ed731-b045-4102-adbc-bbe97914ccdc"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 38.367407,
+                        "y": -0.560308
+                    },
+                    "uuid": "c9534a4e-f8bf-4050-8a00-5ef1227fe92b"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered a8e86dc6a530abc9' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 18.611647,
+                        "y": -22.099742
+                    },
+                    "uuid": "2d4ed731-b045-4102-adbc-bbe97914ccdc"
+                },
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 11.881573,
+                        "y": -28.800576
+                    },
+                    "uuid": "47dd4a38-d849-445a-a9fa-f03e728197fb"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 7910f8c42746b519' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.442125,
+                        "y": -21.845742
+                    },
+                    "uuid": "1cabc0e1-dd78-49a2-8125-2f28d35d0732"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 38.367407,
+                        "y": -0.560308
+                    },
+                    "uuid": "c9534a4e-f8bf-4050-8a00-5ef1227fe92b"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 11.881573,
+                        "y": -28.800576
+                    },
+                    "uuid": "47dd4a38-d849-445a-a9fa-f03e728197fb"
+                },
+                {
+                    "description": "Zone 'Recovered dca4e8522837e94e' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 20.566822,
+                        "y": -21.98656
+                    },
+                    "uuid": "4a2d44f4-1588-4458-a50e-d9a4aed8bb02"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Recovered 84a63625734e769f' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 11.881573,
+                        "y": -28.800576
+                    },
+                    "uuid": "47dd4a38-d849-445a-a9fa-f03e728197fb"
+                },
+                {
+                    "description": "Zone 'Recovered 9e6ef9e9729c8ee7' [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 38.367407,
+                        "y": -0.560308
+                    },
+                    "uuid": "c9534a4e-f8bf-4050-8a00-5ef1227fe92b"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+MicroDuck routed KiCad recovery — 2026-10-26
+
+Outcome
+Four routed native KiCad layout candidates now open and round-trip in KiCad
+10.0.7 without an EasyEDA client, login or activation. This supersedes earlier
+statements that no routed conversion exists. Physical reproduction is still
+unverified. None of these boards is a manufacturing release.
+
+Files to inspect
+editing/kicad-routed/imu_to_dxl/imu_to_dxl.kicad_pcb
+editing/kicad-routed/imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_pcb
+editing/kicad-routed/wire_hub_1V0A/wire_hub_1V0A.kicad_pcb
+editing/kicad-routed/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_pcb
+
+These are literal replay candidates with explicit active-board boundary
+filtering/clipping. Source projects and histories remain unchanged. Each folder
+contains conversion-audit.json, validation.json and a native KiCad drc.json.
+
+Recovered content
+                       pads     traces/arcs     vias     cached copper zones
+Older IMU               107          227          31              173
+Revised IMU              93          209          80              131
+Hub                      24           36          33                8
+Battery board             6            9           0                0
+
+Older IMU pads include two standalone nonplated mounting holes. The battery
+board has two placed components and two standalone pads; its schematic CN2 is
+outside the active PCB perimeter. Four of its nine copper strokes are arcs.
+The explicit outlines retain source arcs and deduplicated interior cutouts.
+
+Checks that passed
+230 saved pads were checked against converted source positions and nets.
+Native drill diameters, per-copper-layer pad polygon areas/bounds, and saved
+copper-fill areas also match the conversion contract. Copper-area checks
+include holes after KiCad polygon fracture. Both IMUs and the hub match every
+directly named recovered schematic pin net. Battery CN2 pins 1 and 2 remain a
+documented schematic/layout mismatch. Reader-based checks are not independent
+validation of the author's intended source design.
+
+DRC of the current literal boards
+Older IMU: 70 violations, 0 unconnected items.
+Revised IMU: 511 violations, 0 unconnected items.
+Hub: 56 violations, 4 unconnected items.
+Battery: 8 violations, 0 unconnected items (4 dangling copper arc endpoints).
+Counts can depend on KiCad version/item ordering; read the actual reports.
+Zero airwires does not prove that a board has no shorts.
+
+Explicit engineering repair
+editing/kicad-engineering/wire_hub_1V0A/wire_hub_1V0A.kicad_pcb
+The source hub has a copper fill on BATTERY while its schematic, pads and tracks
+use Battery. These are distinct nets. The engineering copy changes only this
+one zone's assigned net, source primitive a33f62a491f76b4a. Native DRC now has
+0 unconnected items and 36 remaining violations. Saved pad/copper geometry
+checks still pass. The parent board hash and exact change are recorded in its
+conversion-audit.json. This is an explicit repair, not a claim about source intent.
+
+Source-history ambiguity and alternate candidate
+editing/kicad-routed-transition-hypothesis/ contains separate alternate boards.
+Revised IMU has FILL 84a63625734e769f at ticket 40981, then a later POUR with
+the identical ID/path. No FILL tombstone was observed. Literal typed replay
+retains both; the old solid GND rectangle covers the board and shorts other nets.
+The alternate interpretation excludes the earlier identical-path FILL when a
+later POUR has the same ID. Its revised IMU DRC drops to 146 violations with
+0 unconnected items. This supports further review but does not prove the
+interpretation. The official format specifies type-scoped record identities:
+https://github.com/easyeda/easyeda-file-format
+Never silently promote the alternate to a verified source-equivalent layout.
+
+Remaining conversion work
+- Copper caches/teardrops are STATIC filled zones, not regenerated KiCad pours.
+  Do not refill zones or assume the cached geometry follows subsequent routing.
+  Pad connection FULL describes precomputed cache geometry; original thermal
+  shapes are already in the cached polygons. KiCad must not infer spokes again.
+- Same-net overlapping teardrop zones account for 26/102 zone-intersection
+  warnings in older/revised alternate IMUs. Original constraints, net classes,
+  solder-mask/paste settings and copper priorities are not faithfully translated.
+  Default KiCad clearance/hole limits also differ from the source. No design
+  rule was weakened or DRC finding suppressed to obtain a pass.
+- Non-pad footprint graphics, text/silkscreen, courtyards, source 3D placement,
+  noncopper fills and per-layer specialPad overrides are not fully reconstructed.
+  conversion-audit.json inventories omissions. Supplier 3D candidates elsewhere
+  in the package are not automatically attached to these source footprints.
+- Review schematics and routed boards are not linked by footprint UUID paths.
+  Do not run Update PCB from Schematic until a deliberate pairing/migration is
+  completed; generic candidate footprints can replace recovered source geometry.
+- Qualify dimensions, mask apertures, drills, connector heights, copper current
+  capacity and every remaining DRC item against datasheets/source drawings.
+  No Gerber release or PCB purchase is justified by these results.
+
+Repeatable local workflow (WSL NVIDIA-Workbench)
+Python: /home/workbench/robotics/pcb-tools/venv/bin/python
+Reader: separately acquired work/lceda-sch-reader at
+da5b4d46565ced7ef63fd710229959d853fc70ab; no explicit license found, code not bundled.
+Run from the asset root, passing Linux absolute paths:
+1. tools/recover_community_boards.py --reader <reader>   [if archives absent]
+2. tools/reconcile_instance_bom.py --reader <reader>    [see its --help]
+3. tools/prepare_routed_recovery.py --reader <reader>
+4. tools/build_routed_kicad.py --reader <reader>
+5. tools/build_routed_kicad.py --reader <reader> --transition-hypothesis
+6. tools/validate_routed_kicad.py
+7. tools/validate_routed_kicad.py --transition-hypothesis
+8. tools/check_routed_boards.py
+9. tools/repair_hub_power_net.py
+10. tools/validate_routed_kicad.py --engineering
+Generators overwrite generated outputs and assign fresh native UUIDs. Work on
+copies for design iteration, preserve user edits, and rerun DRC after generation.
+prepare_routed_recovery removes only EDIT_HEAD envelopes, retains strict replay
+provenance, and excludes deleted documents. Reader source is unchanged.
+
+Full-robot release gates still open
+Original Pollen source CAD/production IMU data are not recovered. The community
+XL330 CAD, Feetech SCS firmware/electronics, and official 14-actuator simulation
+represent different variants; some hardware includes a fifteenth mouth actuator.
+Choose and reconcile one build variant, validate IMU mounting axes, qualify the
+hub connector height, harness/pinouts, battery protection and full power budget.
+Eight IMU schematic pins still need electrical review. Exact STM32G031 execution,
+whole-board electrical models, measured timing and physical testing remain open.
+
+Existing software and training evidence remains valid within its stated scope:
+firmware mocks, bus/controller integration and four isolated TI buffer DC cases
+passed. Isaac Lab trained 128 environments for 10 iterations, reloaded/exported
+the checkpoint and rendered a 150-frame replay. That is a pipeline test: final
+success was 0 and fell_over was 1, so this is not a qualified walking policy.
+No full circuit/MCU/robot co-simulation or physical hardware operation is claimed.
+See END-TO-END-STATUS.txt and simulation/validation-runs/ for the earlier evidence.

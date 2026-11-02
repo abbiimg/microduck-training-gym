@@ -1,0 +1,232 @@
+(footprint "MPKSLE60D20-L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Solid State Relay, Single Phase DC Output, 60VDC-20A")
+	(property "Reference" "REF**"
+		(at 2 1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "88d7a237-e847-4487-8e89-3e282aa2e71c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MPKSLE60D20-L"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "838d7311-acc4-49fc-9378-41732f33b0ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95bbb7e5-6306-4f7d-a340-5014bd50753f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25d22ce6-cda3-4777-bafb-e39f1e5c0130")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 15 -10.5)
+		(end 30 -10.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ea96bd3d-d44e-470f-801a-ea0b50832dda")
+	)
+	(fp_line
+		(start 15 0)
+		(end 30 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1e8de8b9-7a57-4494-8b86-848b2bafc510")
+	)
+	(fp_rect
+		(start 0 -10.5)
+		(end 0 -8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8b09eaf2-3217-4a34-8e71-37ed5faedf28")
+	)
+	(fp_rect
+		(start 0 -10.5)
+		(end 2.5 -10.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4241e6b9-0c62-4da3-a858-2d556cdac2d8")
+	)
+	(fp_rect
+		(start 0 -2.5)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1533061a-7a22-494b-90ea-3a875316b9c9")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "82a0388d-ec4d-4eb9-a984-4cf30204a6fb")
+	)
+	(fp_rect
+		(start 42 -10.5)
+		(end 44.5 -10.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a933e9ec-d38a-4901-8ae1-881f3523f1bc")
+	)
+	(fp_rect
+		(start 42 0)
+		(end 44.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "485cd844-4ac5-443f-8f6c-dc9b8c7fdd27")
+	)
+	(fp_rect
+		(start 44.5 -10.5)
+		(end 44.5 -8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "61c0c49e-cb22-424e-aaec-5ca7d4b86708")
+	)
+	(fp_rect
+		(start 44.5 -2.5)
+		(end 44.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6c7854af-94e2-4240-9ff4-6783917e60bf")
+	)
+	(fp_rect
+		(start 0 -10.5)
+		(end 44.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ac89fe7e-cc52-40f1-ab1e-a71bda3dd335")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "89f6a41f-99b5-4bdc-94b1-1359737cfa91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 35.5 -7.3)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bf078c21-0a2a-4735-9941-118f813f14da")
+	)
+	(pad "2" thru_hole circle
+		(at 25.4 -7.3)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e4bc579-5f28-4913-ac76-c7434b896f78")
+	)
+	(pad "3" thru_hole circle
+		(at 12.7 -7.3)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6e987fda-158c-4481-b657-9c7de52eb3a1")
+	)
+	(pad "4" thru_hole circle
+		(at 7.6 -7.3)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "94b046bb-fd21-4caa-8bce-0fb5b7bb5863")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMOD}/MPKSLE60D20-L.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

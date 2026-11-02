@@ -1,0 +1,221 @@
+{
+  "schema": "microduck-kicad-model-export-validation/v1",
+  "candidate": "POGO_PIN_1V0A",
+  "passed": true,
+  "models_verified": 2,
+  "missing_models_preserved": [],
+  "skipped_footprints": [
+    "SOURCE_BOARD_PADS"
+  ],
+  "board_sha256": "a1a354d5a77fd0d322310d396894cf139a6f723224cad5d298d30004a4e594e0",
+  "attachment_audit_sha256": "eaea25fa22bc2052653caaa777339ba70d1e9d1346b398d9928f180b22db12aa",
+  "step_export_sha256": "2cc320f300d923e3d16101ad9844cc47472ce5957d75abf8a8d95bd8867c5013",
+  "glb_export_sha256": "b3158522f0b727ee1995a1d9418b7d08e9f80c28dcfc57eb6391a15a004cd661",
+  "geometry_verifier_sha256": "a57ab9d0c5ed5179c1930ed261b0f51ff7a0298b3a26561baff771c8f0f2fc51",
+  "local_library_sha256": {
+    "RecoveredLayout.pretty\\U1.kicad_mod": "cde2a30f5c6dc86b1e18969a3df9e30219b7b39e727bcf2fca6edc66a2e3c76d",
+    "RecoveredLayout.pretty\\U2.kicad_mod": "97ec094e6a177c13d3fad111c4c1122f9b75e9e5640fdc8354995aeff90b5ecc"
+  },
+  "calibration_sha256": "13a42278f328d094be0349709a467e828fe617c47b0de4fce12413cc0b124d0f",
+  "pose_review_sha256": "767054224fc150c73be980c4ba2e26c13ab08e8912d9922ae192aa72538d4ffa",
+  "actual_native_version": "10.0.7",
+  "nominal_native_board_thickness_mm": 1.600048,
+  "native_export_assembly_bounds_mm": [
+    73.635702,
+    5.7617,
+    -9.684999999999,
+    112.8003,
+    12.5263,
+    1.510048
+  ],
+  "native_export_assembly_dimensions_mm": [
+    39.164598,
+    6.764600000000001,
+    11.195047999999
+  ],
+  "native_export_model_datums_mm": {
+    "top": 1.595048,
+    "bottom": -0.085
+  },
+  "export_alignment_policy": "Per-instance author geometry translated by negative author footprint surface origin; bottom inverse Rx180; native footprints currently have zero angle with source rotation baked in geometry. No scaling of local model dimensions. KiCad places local models at its native top/bottom model datum. XY origins use current exact-mil positions rather than globally scaling the author assembly.",
+  "comparison_method": "Exact XCAF reference; fixed saved footprint XY/angle/side and calibrated native Z. Both directional Boolean differences; analytic bounds, solid count, volume, hashes. No free registration.",
+  "non_model_board_data_unchanged": true,
+  "models": [
+    {
+      "reference": "U1",
+      "source_model_id": "42f3a8a1e6a24de3b83c02c04481ebfb|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "e7f0e9d1d65edfbe5df0af724602d591d22453f96175d484bd29380de267043a",
+      "local_model_sha256": "ea36ead129ccc3b0028c54bc1eca5a7b82c48c6e30bac02c200eb42ed6b27107",
+      "bottom": true,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0,
+          110.183935
+        ],
+        [
+          0.0,
+          -1.0,
+          0,
+          9.791123
+        ],
+        [
+          0,
+          0,
+          -1,
+          -0.085
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          110.183935
+        ],
+        [
+          0.0,
+          -1.0,
+          -1.224646799147e-16,
+          9.791123
+        ],
+        [
+          0.0,
+          1.224646799147e-16,
+          -1.0,
+          -0.085
+        ]
+      ],
+      "placement_matrix_max_error": 1.224646799147e-16,
+      "author_nominal_surface_Z_mm": 0,
+      "native_export_model_datum_Z_mm": -0.085,
+      "native_minus_author_model_surface_mm": -0.085,
+      "source_to_local_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          -1.505002508697688,
+          -1.5000000999998713,
+          -0.9000000000000001,
+          1.5049975913023121,
+          1.5000001000001295,
+          9.599999999999
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 54.98995244122123,
+        "volume_error_mm3": 2.842170943040401e-14,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 5.49899524412212e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          108.6789324913023,
+          8.291122899999872,
+          -9.684999999999,
+          111.6889325913023,
+          11.29112309999987,
+          0.8150000000000002
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 54.98995244636247,
+        "volume_error_mm3": 5.141231440575211e-09,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 5.498995244122124e-06,
+        "passed": true
+      }
+    },
+    {
+      "reference": "U2",
+      "source_model_id": "42f3a8a1e6a24de3b83c02c04481ebfb|0819f05c4eef4c71ace90d822a990e87",
+      "source_placed_sha256": "96d891c7c0e14450cdad2889d0fc3b5b5778f5eaba8f8fbd94ad833bb923cd85",
+      "local_model_sha256": "77e0e5f365477c79f5469d8204ab41aeceafa796793589ef42c3fc48926d9e37",
+      "bottom": true,
+      "expected_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0,
+          76.384155
+        ],
+        [
+          0.0,
+          -1.0,
+          0,
+          9.789371
+        ],
+        [
+          0,
+          0,
+          -1,
+          -0.085
+        ]
+      ],
+      "actual_native_export_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          76.384155
+        ],
+        [
+          0.0,
+          -1.0,
+          -1.224646799147e-16,
+          9.789371
+        ],
+        [
+          0.0,
+          1.224646799147e-16,
+          -1.0,
+          -0.085
+        ]
+      ],
+      "placement_matrix_max_error": 1.224646799147e-16,
+      "author_nominal_surface_Z_mm": 0,
+      "native_export_model_datum_Z_mm": -0.085,
+      "native_minus_author_model_surface_mm": -0.085,
+      "source_to_local_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          -1.505002508698483,
+          -1.500000100000079,
+          -0.9000000000000001,
+          1.504997591302,
+          1.5000000999999217,
+          9.599999999999
+        ],
+        "bbox_max_error_mm": 4.827249711070181e-13,
+        "volume_mm3": 54.9899524412211,
+        "volume_error_mm3": 1.0658141036401503e-13,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 5.4989952441221204e-06,
+        "passed": true
+      },
+      "local_to_native_export_geometry": {
+        "solids": 1,
+        "bounds_mm": [
+          74.87915249130153,
+          8.289370900000078,
+          -9.684999999999,
+          77.88915259130201,
+          11.289371100000077,
+          0.8150000000000002
+        ],
+        "bbox_max_error_mm": 0.0,
+        "volume_mm3": 54.98995244636249,
+        "volume_error_mm3": 5.141409076259151e-09,
+        "expected_minus_actual_mm3": 0.0,
+        "actual_minus_expected_mm3": 0.0,
+        "volume_tolerance_mm3": 5.498995244122108e-06,
+        "passed": true
+      }
+    }
+  ],
+  "physical_fit_qualified": false,
+  "manufacturing_ready": false
+}

@@ -1,0 +1,39 @@
+MicroDuck remaining DRC review - 2026-10-27
+
+Read-only review. No boards, rules, source documents, severity settings or reports were changed.
+The integrated native reports remain the authoritative current DRC output. This review adds independent filled-copper geometry and localized source-rule context.
+Units are mm; distances from pads/tracks use native inward polygon approximation at 1 nm. Zone/zone intersections use exact saved polygon coordinates. Native Boolean and independent GEOS agree on positive-overlap results.
+
+Release blockers in recovered static copper
+Hub: CN1 Battery pad 1 overlaps B.Cu GND by 0.201673 mm2.
+Revised IMU transition hypothesis: VDD_BUS source FILL 746a86ec39ac9e6d overlaps GND by 3.344846 and 0.473537 mm2. Removing the separate ambiguous old GND FILL does not resolve these overlaps.
+These describe the current reconstructed candidates; stale source caches, source priority semantics and history still need reconciliation before attributing intended author design errors. Do not manufacture or approve them on this evidence.
+
+Representation/conservative findings
+Revised IMU: 10 of 12 clearance reports pass localized original class 6/class 7 pair limits. The conservative maximum applied to a mixed-class union causes these native reports. Keep them visible until a qualified local-provenance representation replaces the approximation.
+Revised IMU: all 5 same-net zone-intersection pairs only touch boundaries; both geometry engines measure zero positive overlap. No priorities or copper bridges were added to hide them.
+Hub: 12 via-edge reports depend on outer-outline versus cutout classification (source limits 0.29972 mm versus 0.1524 mm). Two track-edge and three pour-edge gaps are below both corresponding source category limits in the current recovery.
+Revised IMU: its one edge report also depends on localized mixed-zone provenance and edge category.
+
+Artwork findings
+Battery board: two warnings exactly preserve source mirror=false on backside U1/U2 references. A deliberately revised manufacturing-artwork copy could mirror them, but this would be an intentional design correction.
+Hub: 7 silk findings. Revised IMU: 48 silk findings. Source strokes and reference placement are retained; exact font metrics and source SILK_OPTS trimming are unqualified. Some native glyph conflicts may be converter typography effects.
+Any artwork cleanup should use a new derivative, then verify unchanged copper/mask/paste/outline and inspect actual bottom/top Gerber plots.
+
+Action order
+1. Reconcile cached copper versus current pads and source priority/history around the three positive-overlap regions.
+2. Preserve source primitive provenance locally to qualify conservative mixed-zone and edge checks.
+3. Repair static zone boundary bookkeeping only with identical copper/plot/connectivity evidence.
+4. Create separate manufacturing-artwork candidates and validate their silkscreen.
+5. Recheck all native rules, parity, airwires and manufacturing outputs; qualification remains incomplete.
+
+Details
+drc-remaining-review.json classifies every current finding exactly once and retains board/report hashes.
+drc-remaining-geometry.json records item UUIDs/positions, GEOS/native intersection areas, pair distances and original-source contributor class limits.
+Analysis script: work/review_remaining_drc_geometry.py in the task workspace. No native project changes.
+
+Later evidence: copper-overlap-source-review.txt traces the hub overlap to a
+cache preceding CN1, and traces the IMU power FILL through a later same-ID POUR
+conversion/deletion lifecycle. A separate hub engineering repair is under
+editing/kicad-cache-repaired/. This report continues to describe the preserved
+integrated baseline; it does not silently substitute that repaired candidate.

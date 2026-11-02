@@ -1,0 +1,17 @@
+* Authored functional review wrapper; not a TI-qualified eight-pin model.
+* Include the unchanged SN74LVC2G241.cir separately before this file.
+* External ports follow physical DCU pin numbers 1..8:
+* 1=1OE(active LOW), 2=1A, 3=2Y, 4=GND,
+* 5=2A, 6=1Y, 7=2OE(active HIGH), 8=VCC.
+*
+* Scope: fixed VCC=3.3 V; both enable voltages restricted to 0..VCC.
+* TX uses an IDEAL algebraic enable inversion. It does not preserve physical
+* pin1 input capacitance/impedance, enable timing or package supply current.
+* No power-off, back-drive, input-overvoltage or analog-package qualification.
+* VCC-DE becomes negative if DE>VCC; this wrapper must not be used to claim
+* behavior in that condition. Two stages do not establish shared-package ICC.
+.SUBCKT SN74LVC2G241_DCU_REVIEW P1 P2 P3 P4 P5 P6 P7 P8
+ETX_ENABLE EN_TX P4 VALUE = {V(P8,P4)-V(P1,P4)}
+XTX P6 P2 EN_TX P8 P4 SN74LVC2G241
+XRX P3 P5 P7 P8 P4 SN74LVC2G241
+.ENDS SN74LVC2G241_DCU_REVIEW

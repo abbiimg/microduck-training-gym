@@ -1,0 +1,98 @@
+[
+  {
+    "path": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+    "sha256": "752a67bd59c543903ffcac74d44470b473f4c99899cd5449d0392a443cd8c9ff",
+    "valid": true,
+    "solids": 124,
+    "bounds_mm": [
+      [
+        -0.03729997459995,
+        -0.037299974599951366,
+        -1.7999561489290001
+      ],
+      [
+        45.037388874778,
+        22.711353822708,
+        10.2000508001015
+      ]
+    ],
+    "dimensions_mm": [
+      45.07468884937795,
+      22.74865379730795,
+      12.000006949030501
+    ],
+    "scope": "whole author-exported STEP assembly; component identity/origin/board fit not qualified"
+  },
+  {
+    "path": "community\\microduck-replica\\hardware\\新版\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+    "sha256": "aadaea725e93fa6c9fe8a7baac5cb695b0e024145009c190096effd80ac3699b",
+    "valid": true,
+    "solids": 88,
+    "bounds_mm": [
+      [
+        -0.019298958597999905,
+        -0.05830073660199997,
+        -1.599949221572
+      ],
+      [
+        27.155354330709,
+        30.21636017272,
+        5.600050878427
+      ]
+    ],
+    "dimensions_mm": [
+      27.174653289307,
+      30.274660909322,
+      7.200000099999
+    ],
+    "scope": "whole author-exported STEP assembly; component identity/origin/board fit not qualified"
+  },
+  {
+    "path": "community\\microduck-replica\\hardware\\新版\\POGO_PIN_1V0A\\POGO_PIN_1V0A-PCB.step",
+    "sha256": "17601e73d1f1577808e8db7c83179356bc40df609b74a36f10a270e7c703dc86",
+    "valid": true,
+    "solids": 3,
+    "bounds_mm": [
+      [
+        0.01270002540005,
+        0.012700025400049775,
+        -9.599999999999
+      ],
+      [
+        39.177376174752,
+        6.777312674625,
+        1.600050800102
+      ]
+    ],
+    "dimensions_mm": [
+      39.16467614935195,
+      6.76461264922495,
+      11.200050800101
+    ],
+    "scope": "whole author-exported STEP assembly; component identity/origin/board fit not qualified"
+  },
+  {
+    "path": "community\\microduck-replica\\hardware\\新版\\wire_hub_1V0A\\wire_hub_1V0A-PCB.step",
+    "sha256": "8a5174f39a7dd42614d6ab4fd3a7b92cf30cd0bf03706414be574ef617f90e20",
+    "valid": true,
+    "solids": 59,
+    "bounds_mm": [
+      [
+        0.03369827943107229,
+        -0.0002997205994464,
+        -1.899949305862399
+      ],
+      [
+        22.31834645669301,
+        28.19435610871292,
+        10.000050794138
+      ]
+    ],
+    "dimensions_mm": [
+      22.28464817726194,
+      28.194655829312367,
+      11.9000001000004
+    ],
+    "scope": "whole author-exported STEP assembly; component identity/origin/board fit not qualified"
+  }
+]

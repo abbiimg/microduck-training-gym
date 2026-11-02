@@ -1,0 +1,83 @@
+{
+  "name": "neck",
+  "label_zh": "颈部连接件",
+  "quantity": 2,
+  "units": "mm",
+  "stl": "01_STL_original/neck__颈部连接件__x2.stl",
+  "step": "02_STEP_final/neck__颈部连接件__x2.step",
+  "stl_sha256": "3464df52bec6a4f4984080fe4fb12feeefafd88980d2ca8b85a2d3cec3c78eb7",
+  "step_sha256": "010102ada0bb5d9c7f6a30d49a7295f92c82f5268f911b8bf265bc1878de4c06",
+  "stl_bytes": 73484,
+  "step_bytes": 54055,
+  "stl_triangles": 1468,
+  "cad_faces": 16,
+  "valid_solid": true,
+  "deviation": {
+    "source_to_rebuilt": {
+      "samples": 2196,
+      "max_mm": 0.0016114438843070778,
+      "rms_mm": 0.0006135487067925337
+    },
+    "rebuilt_to_source": {
+      "samples": 7566,
+      "max_mm": 0.0018704420574769565,
+      "rms_mm": 0.0006079572586980795
+    }
+  },
+  "additional_audit": {
+    "random_bidirectional_samples": {
+      "source_to_step": {
+        "samples": 20000,
+        "max_mm": 0.0018648753405496763,
+        "rms_mm": 0.00035465516029178034
+      },
+      "step_to_source": {
+        "samples": 20000,
+        "max_mm": 0.001863486525429361,
+        "rms_mm": 0.0003538520072774636
+      }
+    },
+    "bounding_box_max_delta_mm": 0.0,
+    "volume_error_percent": -0.002791254355516415,
+    "edit_test": {
+      "operation": "subtract 0.4 mm box from material",
+      "center_mm": [
+        0.1,
+        -24.26013692220052,
+        74.69796244303386
+      ],
+      "valid_after_cut": true,
+      "removed_volume_mm3": 0.048000000000286036
+    },
+    "sha256": "010102ada0bb5d9c7f6a30d49a7295f92c82f5268f911b8bf265bc1878de4c06",
+    "volume_integration_relative_tolerance": 1e-09,
+    "bounding_box_basis": "complete CAD surface tessellation, 0.0005 mm mesh deflection",
+    "native_conservative_bbox_mm": [
+      0.0,
+      -32.0,
+      69.49999999999999,
+      2.0,
+      -11.999999999992001,
+      80.5
+    ],
+    "measured_surface_bbox_mm": [
+      0.0,
+      -32.0,
+      69.5,
+      2.0,
+      -12.0,
+      80.5
+    ]
+  },
+  "improved_in_latest_round": false,
+  "max_sampled_deviation_mm": 0.0018704420574769565,
+  "max_extra_sampled_deviation_mm": 0.0018648753405496763,
+  "measured_bbox_mm": [
+    0.0,
+    -32.0,
+    69.5,
+    2.0,
+    -12.0,
+    80.5
+  ]
+}

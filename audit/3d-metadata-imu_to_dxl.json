@@ -1,0 +1,2556 @@
+[
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "7279b67efd44b637",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "10410e6b7821f10c",
+      "zIndex": 9
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "1af8a6f09ab1f85f",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "10410e6b7821f10c",
+      "zIndex": 10
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "3f962922b0ea7161",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "10410e6b7821f10c",
+      "zIndex": 11
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "b50203c51e35c6af",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "8a7dbfb71064cb90",
+      "zIndex": 9
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "2ae01eefc9216bc2",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "8a7dbfb71064cb90",
+      "zIndex": 10
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "0eca30ac3393d2dc",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "8a7dbfb71064cb90",
+      "zIndex": 11
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "3c1f72aad1aaf9a7",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "ac8f14f6071dbcd0",
+      "zIndex": 20
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "3ccc9f7e74de3de1",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "ac8f14f6071dbcd0",
+      "zIndex": 21
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "a63f579f4f93d02e",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "ac8f14f6071dbcd0",
+      "zIndex": 22
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "7880a67d47202ea5",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "287973feee476839",
+      "zIndex": 20
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "56e98371fff9779b",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "287973feee476839",
+      "zIndex": 21
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "701da08e2b5b97c5",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "287973feee476839",
+      "zIndex": 22
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "4444eb134e27f901",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "c198b344a58d1095",
+      "zIndex": 20
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "383edb636ef96f5f",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "c198b344a58d1095",
+      "zIndex": 21
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "b7f4e44e9750d0f7",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "c198b344a58d1095",
+      "zIndex": 22
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "8ec00b43a9aaac61",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "71fa8d90bf943fd0",
+      "zIndex": 9
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "b9a625b3dca26f62",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "71fa8d90bf943fd0",
+      "zIndex": 10
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "a1d0251d1fee6a4e",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "71fa8d90bf943fd0",
+      "zIndex": 11
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "30880ea56a06fc80",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "9f9e0964a5aa5f6a",
+      "zIndex": 11
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "0ec295ccadc6e24f",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "9f9e0964a5aa5f6a",
+      "zIndex": 12
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "83b5d9ab21ceaec4",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "9f9e0964a5aa5f6a",
+      "zIndex": 13
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "da37dd39d34a31b3",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "47a8fd2df9f83a6d",
+      "zIndex": 9
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "890b916fa531a25e",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "47a8fd2df9f83a6d",
+      "zIndex": 10
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "9c90426967f35010",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "47a8fd2df9f83a6d",
+      "zIndex": 11
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "35aec8849e86e352",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "5f09d949bb852422",
+      "zIndex": 9
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "385ce374a43dedd0",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "5f09d949bb852422",
+      "zIndex": 10
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "e4fc916a8673215e",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "5f09d949bb852422",
+      "zIndex": 11
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "8b4fb58e054566e3",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "cf12bf7150adeafd",
+      "zIndex": 11
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "5e67cc98ec816810",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "cf12bf7150adeafd",
+      "zIndex": 12
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "6e54303f22e036ba",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "cf12bf7150adeafd",
+      "zIndex": 13
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "97b0b516baa89987",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "03d00f6a40f6b6ba",
+      "zIndex": 14
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "ea252de08e14ce66",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "03d00f6a40f6b6ba",
+      "zIndex": 15
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "680f69219f9469b4",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "03d00f6a40f6b6ba",
+      "zIndex": 16
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "946c079c475c5e03",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "a7d27ec2a039d8ff",
+      "zIndex": 14
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "20d2a3f7b18cced4",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "a7d27ec2a039d8ff",
+      "zIndex": 15
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "c5d11acd8b227cd1",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "a7d27ec2a039d8ff",
+      "zIndex": 16
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "b84584e96228f613",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "40734107e21ae5af",
+      "zIndex": 20
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "c7d14f8b737e896d",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "40734107e21ae5af",
+      "zIndex": 21
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "fbc735a90453e0e9",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "40734107e21ae5af",
+      "zIndex": 22
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "13d0caba80c9bd0d",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "0b17c59e1a03b69b",
+      "zIndex": 22
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "5674bc257cddd439",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "0b17c59e1a03b69b",
+      "zIndex": 23
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "1a61bbc7ad918ca3",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "0b17c59e1a03b69b",
+      "zIndex": 24
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "cb67677a337d1294",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "dfa0a04d0653edaf",
+      "zIndex": 14
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "c9b02714e132ec71",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "dfa0a04d0653edaf",
+      "zIndex": 15
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "5f997c193a9b22be",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": null,
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "dfa0a04d0653edaf",
+      "zIndex": 16
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "847dd8d3aa7396a1",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "01e4ed60a99ace99",
+      "zIndex": 11
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "79435555e544dfd1",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "01e4ed60a99ace99",
+      "zIndex": 12
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "206650e843c1151c",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "01e4ed60a99ace99",
+      "zIndex": 13
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "7c047d21426b3d97",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "b44be220b2583a65",
+      "zIndex": 9
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "574e57072316f889",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "b44be220b2583a65",
+      "zIndex": 10
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "79e821eb00273a1c",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "b44be220b2583a65",
+      "zIndex": 11
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "a2dcce9dc5c18b60",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "3a6a6deb7a727624",
+      "zIndex": 11
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "a604189c6d20eb0a",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "3a6a6deb7a727624",
+      "zIndex": 12
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "3a00a2b29d60c82d",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "3a6a6deb7a727624",
+      "zIndex": 13
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "1a3cde3de1a50e24",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "6d0df66ab727562b",
+      "zIndex": 9
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "bc3dc58904e9012d",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "6d0df66ab727562b",
+      "zIndex": 10
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "33e5d94942830c0e",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "6d0df66ab727562b",
+      "zIndex": 11
+    }
+  },
+  {
+    "doctype": "PCB",
+    "uuid": "0e53baf1402ddba7",
+    "type": "ATTR",
+    "id": "87ae47ddbf9c86f04832e946ec5c1220",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "partitionId": "",
+      "groupID": 0,
+      "parentId": "87ae47ddbf9c86f0",
+      "layerId": 3,
+      "x": 348.347,
+      "y": -38.13,
+      "key": "3D Model Title",
+      "value": "CONN-TH_B3B-EH-A-LF-SN",
+      "keyVisible": false,
+      "valueVisible": false,
+      "fontFamily": "default",
+      "fontSize": 45,
+      "strokeWidth": 6,
+      "bold": 0,
+      "italic": 0,
+      "origin": "LEFT_BOTTOM",
+      "angle": 720,
+      "reverse": false,
+      "expansion": 0,
+      "mirror": false,
+      "locked": false,
+      "zIndex": -1,
+      "specialColor": "#000000"
+    }
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4d8c3ba284861396",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "f1628daad26847a79b887277a2bc8541|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4d8c3ba284861396",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "F1206_L3.2-W1.7-H0.6"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4d8c3ba284861396",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "125.984,66.929,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "1e0b34c14b1e56e8",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "86f9151e155e4fe2af0c4f2e0a80302e|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "1e0b34c14b1e56e8",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "SOD-123FL_L2.8-W1.8-H1.1-LS3.6"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "1e0b34c14b1e56e8",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "141.732,70.866,0,180,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "8dba0c22ca471897",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "6db690b7897d4d18a30d90c1b89525ee|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "8dba0c22ca471897",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "8dba0c22ca471897",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "161.417,169.291,0,180,0,0,-18.661,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b84c7bc3e440e699",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b84c7bc3e440e699",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "C0805_L2.0-W1.3-H1.3"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b84c7bc3e440e699",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "78.74,51.181,0,0,0,0,0,0.0005,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b780a99013ccd2ba",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b780a99013ccd2ba",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "C0402_L1.0-W0.5-H0.5"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b780a99013ccd2ba",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "39.37,19.685,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "a057ead68faf6332",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "a057ead68faf6332",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "C0603_L1.6-W0.8-H0.8"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "a057ead68faf6332",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "62.992,31.496,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ad6ca39373669d12",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "c491f68934b34c649df5890a1d97cd0f|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ad6ca39373669d12",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ad6ca39373669d12",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "251.969,255.906,0,90,0,0,0.0005,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ff325597b9760028",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ff325597b9760028",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "R0402_L1.0-W0.5-H0.4"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ff325597b9760028",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "39.37,19.685,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b3b1ce2c54098142",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "64f32784a16f466f897e9e56b6bbdf45|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b3b1ce2c54098142",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "LGA-14_L3.0-W2.5-P0.50-BR"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b3b1ce2c54098142",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "118.11,98.425,0,180,0,0,-0.001,0.004,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "87c7f7f56ba5fdfd",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "c85411b4a3544d83a02d075c4dadd21f|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "87c7f7f56ba5fdfd",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "87c7f7f56ba5fdfd",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "78.74,122.047,0,90,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "bf20c27661ca0094",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "eb4de652aa64480a9db1bf18ae610871|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "bf20c27661ca0094",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "CONN-TH_B3B-EH-A-LF-SN"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "bf20c27661ca0094",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "393.7,149.606,0,0,0,0,0,-11.811,-125.984"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "11cb07e772e9cd47",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "112f4d05e8d64e99ab9a333894bea4f9|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "11cb07e772e9cd47",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "HDR-TH_4P-P2.54-M-LI-1X4P"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "11cb07e772e9cd47",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "399.999,104.7242,0,0,0,0,0,0,-118.11"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "1cab126f4970517e",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "1cab126f4970517e",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "1cab126f4970517e",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4d66edfec91b01f0",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4d66edfec91b01f0",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4d66edfec91b01f0",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "7da1d5e6b4fd0b56",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "7da1d5e6b4fd0b56",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "C0603_L1.6-W0.8-H0.8"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "7da1d5e6b4fd0b56",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "62.992,31.496,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "c8f49d8d8c179344",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "ae22b8d143894765bc8100c37cb6356f|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "c8f49d8d8c179344",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "OSC-SMD_4P-L3.2-W2.5-H1.0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "c8f49d8d8c179344",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "125.984,98.425,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "730dc535dc5bc78b",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "730dc535dc5bc78b",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "R0402_L1.0-W0.5-H0.4"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "730dc535dc5bc78b",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "39.37,19.685,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "6d0015fb05d71dfe",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "6d0015fb05d71dfe",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "6d0015fb05d71dfe",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "400adc1edeeaf10d",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "66a147c6933d4029b68665bbcd1e2924|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "400adc1edeeaf10d",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "HDR-TH_6P-P2.54-M-LI-1X6P"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "400adc1edeeaf10d",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "590.1563,98.425,0,0,0,0,0,0,-118.11"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "68b1d24b6a1acc58",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "68b1d24b6a1acc58",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "R0402_L1.0-W0.5-H0.4"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "68b1d24b6a1acc58",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "39.37,19.685,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "af3af7103a6bee40",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "db63db13d9e342eb939127d413d6200b|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "af3af7103a6bee40",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "SOD-323_L1.8-W1.3-LS2.5-RD"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "af3af7103a6bee40",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "104.3305,51.181,0,0,0,0,0,-0.004,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "18c385468cb5b10f",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "18c385468cb5b10f",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "R0603"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "18c385468cb5b10f",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "31.8897,63.7794,0,90,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b65cd20496340ccd",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b65cd20496340ccd",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "C0603_L1.6-W0.8-H0.8"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b65cd20496340ccd",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "62.992,31.496,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4b3d5490bc3f432c",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4b3d5490bc3f432c",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "R0603"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4b3d5490bc3f432c",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "31.8897,63.7794,0,90,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4cf24fec290408e6",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4cf24fec290408e6",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "R0603"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4cf24fec290408e6",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "31.8897,63.7794,0,90,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ba32cf21cae8bfc5",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "ad7e39f9e5534b3c96ffdc5532ebb493|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ba32cf21cae8bfc5",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "SOD-123_L2.7-W1.6-H1.4-LS3.7"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ba32cf21cae8bfc5",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "146.026,62.992,0,180,0,0,0.0005,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "64e6f84ad347d877",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "a9520a19719f44d590017de8a7a53ae9|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "64e6f84ad347d877",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "CONN-TH_3P-P2.00_TE_292253-3"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "64e6f84ad347d877",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "307.086,346.456,0,0,0,0,-11.81,-106.299,-125.984"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "a3a8cd982f923869",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "ced3ec0dc43640d397bfdc45d14bee2a|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "a3a8cd982f923869",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "CONN-TH_B3B-PH-K-S"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "a3a8cd982f923869",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "311.023,177.204,0,0,0,0,0,22.244,-133.858"
+  }
+]

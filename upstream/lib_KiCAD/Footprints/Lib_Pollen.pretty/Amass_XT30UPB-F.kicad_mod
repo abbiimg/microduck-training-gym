@@ -1,0 +1,252 @@
+(footprint "Amass_XT30UPB-F"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.7 -3.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "47a2d6a8-3898-48d8-8470-f7c16044c6fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Amass_XT30UPB-F"
+		(at 2.3 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a37eb200-e744-4069-a16a-de5d2f571d2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91979499-6139-414a-be36-36397fd13488")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81534a41-0333-45b8-9fd8-769be9d92aaf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.6 -2.6)
+		(end -2.6 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cbe10f12-04fd-4845-9094-e1a7c4f310eb")
+	)
+	(fp_line
+		(start -2.6 -2.6)
+		(end 6.5 -2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e32a764f-f3f5-4afc-a44d-9554435b8199")
+	)
+	(fp_line
+		(start -2.6 2.6)
+		(end 6.5 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2553fdfe-ce21-4112-b509-87dbe9711320")
+	)
+	(fp_line
+		(start 7.6 -1.5)
+		(end 6.5 -2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d3b45f1f-059b-48bb-adc5-8b81a06639df")
+	)
+	(fp_line
+		(start 7.6 1.5)
+		(end 6.5 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "02e5c5d3-2e85-4f22-b875-8d3496e7eb63")
+	)
+	(fp_line
+		(start 7.6 1.5)
+		(end 7.6 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ac77fcde-35c1-47da-b460-608df7bee9e6")
+	)
+	(fp_line
+		(start -2.7 -2.7)
+		(end -2.7 2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c6008898-b838-4584-8d8a-7a35387d98bb")
+	)
+	(fp_line
+		(start -2.7 2.7)
+		(end 6.5 2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d88f804b-bf55-47f2-9ee7-e151da248454")
+	)
+	(fp_line
+		(start 6.5 2.7)
+		(end 6.6 2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "30f11533-769a-4dc8-9991-f78c1fcc70ab")
+	)
+	(fp_line
+		(start 6.6 -2.7)
+		(end -2.7 -2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3a1981f0-b73f-4435-b656-1fe978b5a951")
+	)
+	(fp_line
+		(start 6.6 2.7)
+		(end 7.7 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "40a92cc9-87bf-4fee-a71f-d037a5c4e0d9")
+	)
+	(fp_line
+		(start 7.7 -1.6)
+		(end 6.6 -2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "30fa3245-23bd-4a15-80e0-3710eaf7597e")
+	)
+	(fp_line
+		(start 7.7 1.6)
+		(end 7.7 -1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "33b60711-dbff-442e-9ce0-e6c7afbf0fac")
+	)
+	(fp_text user "⏚"
+		(at 4.3 4.1 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "8d537bbd-c30f-4084-96e0-99b8feda0ab7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at -0.7 3.9 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "f867270a-5fc0-4305-918b-24cc2f587aa7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.3 4.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bbd85d64-5264-421d-9453-a6d43e77f1de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 5 0)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "d8001a8a-82de-46b3-8578-622829f98a41")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5a78341a-bbd3-4f43-b79f-98e8264bcc7a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMOD}/Amass_XT30U-F.stp"
+		(offset
+			(xyz -2.6 2.65 20.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

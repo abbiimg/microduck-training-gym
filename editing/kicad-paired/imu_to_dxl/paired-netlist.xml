@@ -1,0 +1,1421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-paired/imu_to_dxl/imu_to_dxl.kicad_sch</source>
+    <date>2026-10-26T19:56:32</date>
+    <tool>Eeschema 10.0.7-10.0.7~ubuntu24.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>imu_to_dxl.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>RecoveredLayout:C1</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer Part">CC0603KRX7R9BB104</field>
+        <field name="Footprint">RecoveredLayout:C1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="C1" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer Part" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae8a75b6-4e8f-4800-a62f-2c0a1240666b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>RecoveredLayout:C2</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer Part">CC0603KRX7R9BB104</field>
+        <field name="Footprint">RecoveredLayout:C2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="C2" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer Part" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41917bee-2888-4d12-9c1e-bbca5dfd7864</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>RecoveredLayout:C3</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer Part">CC0603KRX7R9BB104</field>
+        <field name="Footprint">RecoveredLayout:C3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="C3" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer Part" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>445dd293-9205-4c28-9242-a0d47f8f846d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>RecoveredLayout:C4</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer Part">CC0603KRX7R9BB104</field>
+        <field name="Footprint">RecoveredLayout:C4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="C4" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer Part" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5866fee7-1b8b-42d5-8aed-5ad804b8abb3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>4.7uF/16V</value>
+      <footprint>RecoveredLayout:C5</footprint>
+      <fields>
+        <field name="LCSC">C19666</field>
+        <field name="Manufacturer Part">CL10A475KO8NNNC</field>
+        <field name="Footprint">RecoveredLayout:C5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="C5" description=""/>
+      <property name="LCSC" value="C19666"/>
+      <property name="Manufacturer Part" value="CL10A475KO8NNNC"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb33bc32-a4c1-42fc-9674-e32a6be9ac7d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>10uF/25V</value>
+      <footprint>RecoveredLayout:C6</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Manufacturer Part">CL21A106KAYNNNE</field>
+        <field name="Footprint">RecoveredLayout:C6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="C6" description=""/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Manufacturer Part" value="CL21A106KAYNNNE"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7520f72-0217-46ed-8aa4-c2e67d4663d4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>10uF/10V</value>
+      <footprint>RecoveredLayout:C7</footprint>
+      <fields>
+        <field name="LCSC">C19702</field>
+        <field name="Manufacturer Part">CL10A106KP8NNNC</field>
+        <field name="Footprint">RecoveredLayout:C7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="C7" description=""/>
+      <property name="LCSC" value="C19702"/>
+      <property name="Manufacturer Part" value="CL10A106KP8NNNC"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>652d515e-91b3-4833-9931-3a8762637c01</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>RecoveredLayout:C8</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer Part">CC0603KRX7R9BB104</field>
+        <field name="Footprint">RecoveredLayout:C8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="C8" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer Part" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6752e1b8-b900-468a-83d8-ffdf4b740c75</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>RecoveredLayout:C9</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer Part">CC0603KRX7R9BB104</field>
+        <field name="Footprint">RecoveredLayout:C9</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="C9" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer Part" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91bf05d9-4304-4eaf-80e2-70e46de00a3e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>SMF12A</value>
+      <footprint>RecoveredLayout:D1</footprint>
+      <fields>
+        <field name="LCSC">C2943870</field>
+        <field name="Manufacturer Part">SMF12A</field>
+        <field name="Footprint">RecoveredLayout:D1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="D1" description=""/>
+      <property name="LCSC" value="C2943870"/>
+      <property name="Manufacturer Part" value="SMF12A"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02104d0e-869d-49f1-a9c7-17fd6a28577b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>5V1</value>
+      <footprint>RecoveredLayout:D2</footprint>
+      <fields>
+        <field name="LCSC">C151588</field>
+        <field name="Manufacturer Part">BZT52C5V1-7-F</field>
+        <field name="Footprint">RecoveredLayout:D2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="D2" description=""/>
+      <property name="LCSC" value="C151588"/>
+      <property name="Manufacturer Part" value="BZT52C5V1-7-F"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffe5088a-f028-402f-9dae-4cf770e64d3c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>MF-NSMF020X-2</value>
+      <footprint>RecoveredLayout:F1</footprint>
+      <fields>
+        <field name="LCSC">C210358</field>
+        <field name="Manufacturer Part">MF-NSMF020X-2</field>
+        <field name="Footprint">RecoveredLayout:F1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="F1" description=""/>
+      <property name="LCSC" value="C210358"/>
+      <property name="Manufacturer Part" value="MF-NSMF020X-2"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73eaca15-255d-43c5-a8db-abfd537a20e0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>B3B-EH-A(LF)(SN)</value>
+      <footprint>RecoveredLayout:J1</footprint>
+      <fields>
+        <field name="LCSC">C160259</field>
+        <field name="Manufacturer Part">B3B-EH-A(LF)(SN)</field>
+        <field name="Footprint">RecoveredLayout:J1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="J1" description=""/>
+      <property name="LCSC" value="C160259"/>
+      <property name="Manufacturer Part" value="B3B-EH-A(LF)(SN)"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b98160b-a00e-44e6-9dd4-729669ec17e4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>B3B-EH-A(LF)(SN)</value>
+      <footprint>RecoveredLayout:J2</footprint>
+      <fields>
+        <field name="LCSC">C160259</field>
+        <field name="Manufacturer Part">B3B-EH-A(LF)(SN)</field>
+        <field name="Footprint">RecoveredLayout:J2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="J2" description=""/>
+      <property name="LCSC" value="C160259"/>
+      <property name="Manufacturer Part" value="B3B-EH-A(LF)(SN)"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d875e392-3db2-4dbc-80e4-84305d4c2047</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>PZ254V-11-06P</value>
+      <footprint>RecoveredLayout:J3</footprint>
+      <fields>
+        <field name="LCSC">C492405</field>
+        <field name="Manufacturer Part">PZ254V-11-06P</field>
+        <field name="Footprint">RecoveredLayout:J3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="J3" description=""/>
+      <property name="LCSC" value="C492405"/>
+      <property name="Manufacturer Part" value="PZ254V-11-06P"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eed3dd7e-d9d5-4076-b378-9ccfb16abaf2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>B3B-PH-K-S(LF)(SN)</value>
+      <footprint>RecoveredLayout:J4</footprint>
+      <fields>
+        <field name="LCSC">C131339</field>
+        <field name="Manufacturer Part">B3B-PH-K-S(LF)(SN)</field>
+        <field name="Footprint">RecoveredLayout:J4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="J4" description=""/>
+      <property name="LCSC" value="C131339"/>
+      <property name="Manufacturer Part" value="B3B-PH-K-S(LF)(SN)"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c26bec9-4108-4480-8d68-3fe78f5b493e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>B3B-PH-K-S(LF)(SN)</value>
+      <footprint>RecoveredLayout:J5</footprint>
+      <fields>
+        <field name="LCSC">C131339</field>
+        <field name="Manufacturer Part">B3B-PH-K-S(LF)(SN)</field>
+        <field name="Footprint">RecoveredLayout:J5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="J5" description=""/>
+      <property name="LCSC" value="C131339"/>
+      <property name="Manufacturer Part" value="B3B-PH-K-S(LF)(SN)"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcb5830c-485c-482f-9ea6-a6eb52b8cf81</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>RecoveredLayout:R1</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="Manufacturer Part">0603WAF1002T5E</field>
+        <field name="Footprint">RecoveredLayout:R1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="R1" description=""/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Manufacturer Part" value="0603WAF1002T5E"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>074021cb-c5b9-4b44-9fc9-d28be7ce3589</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>RecoveredLayout:R2</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="Manufacturer Part">0603WAF1002T5E</field>
+        <field name="Footprint">RecoveredLayout:R2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="R2" description=""/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Manufacturer Part" value="0603WAF1002T5E"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18e70d13-df59-46a7-9ae4-7f3417f17aa9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>33R</value>
+      <footprint>RecoveredLayout:R3</footprint>
+      <fields>
+        <field name="LCSC">C23140</field>
+        <field name="Manufacturer Part">0603WAF330JT5E</field>
+        <field name="Footprint">RecoveredLayout:R3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="R3" description=""/>
+      <property name="LCSC" value="C23140"/>
+      <property name="Manufacturer Part" value="0603WAF330JT5E"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>828bdd49-ac88-4b30-96f6-6d87143352b2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>RecoveredLayout:R4</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="Manufacturer Part">0603WAF1002T5E</field>
+        <field name="Footprint">RecoveredLayout:R4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="R4" description=""/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Manufacturer Part" value="0603WAF1002T5E"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>839b4751-b0b5-4d72-badc-49fe88c0b729</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>RecoveredLayout:R5</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="Manufacturer Part">0603WAF1002T5E</field>
+        <field name="Footprint">RecoveredLayout:R5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="R5" description=""/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Manufacturer Part" value="0603WAF1002T5E"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd109d18-8f3e-4c5a-9a23-0aac3e0b9369</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>150R</value>
+      <footprint>RecoveredLayout:R6</footprint>
+      <fields>
+        <field name="LCSC">C22808</field>
+        <field name="Manufacturer Part">0603WAF1500T5E</field>
+        <field name="Footprint">RecoveredLayout:R6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="R6" description=""/>
+      <property name="LCSC" value="C22808"/>
+      <property name="Manufacturer Part" value="0603WAF1500T5E"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c9c47f2-2442-4efa-8c8b-c5f61c9e82d4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>RecoveredLayout:R7</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="Manufacturer Part">0603WAF1002T5E</field>
+        <field name="Footprint">RecoveredLayout:R7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="R7" description=""/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Manufacturer Part" value="0603WAF1002T5E"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>070f6a91-1f17-47bf-a1f9-945b45ab85b8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>STM32G031F8P6</value>
+      <footprint>RecoveredLayout:U1</footprint>
+      <fields>
+        <field name="LCSC">C529334</field>
+        <field name="Manufacturer Part">STM32G031F8P6</field>
+        <field name="Footprint">RecoveredLayout:U1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="U1" description=""/>
+      <property name="LCSC" value="C529334"/>
+      <property name="Manufacturer Part" value="STM32G031F8P6"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a651d899-8160-4236-b89d-4b12dda8afe0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>LSM6DSV16XTR</value>
+      <footprint>RecoveredLayout:U2</footprint>
+      <fields>
+        <field name="LCSC">C5267406</field>
+        <field name="Manufacturer Part">LSM6DSV16XTR</field>
+        <field name="Footprint">RecoveredLayout:U2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="U2" description=""/>
+      <property name="LCSC" value="C5267406"/>
+      <property name="Manufacturer Part" value="LSM6DSV16XTR"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a988da0-36db-4157-9d7b-d43b129a2c84</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>SN74LVC2G241DCUR</value>
+      <footprint>RecoveredLayout:U3</footprint>
+      <fields>
+        <field name="LCSC">C10430</field>
+        <field name="Manufacturer Part">SN74LVC2G241DCUR</field>
+        <field name="Footprint">RecoveredLayout:U3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="U3" description=""/>
+      <property name="LCSC" value="C10430"/>
+      <property name="Manufacturer Part" value="SN74LVC2G241DCUR"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e78c5780-71b8-43e3-9f42-c72860af894b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>HT7533-1</value>
+      <footprint>RecoveredLayout:U4</footprint>
+      <fields>
+        <field name="LCSC">C14289</field>
+        <field name="Manufacturer Part">HT7533-1</field>
+        <field name="Footprint">RecoveredLayout:U4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="U4" description=""/>
+      <property name="LCSC" value="C14289"/>
+      <property name="Manufacturer Part" value="HT7533-1"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a55a7910-7bc6-4bf0-bf54-def01c873a8f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="X1">
+      <value>16MHz</value>
+      <footprint>RecoveredLayout:X1</footprint>
+      <fields>
+        <field name="LCSC">C387369</field>
+        <field name="Manufacturer Part">S3D16.000000B20F30T</field>
+        <field name="Footprint">RecoveredLayout:X1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="X1" description=""/>
+      <property name="LCSC" value="C387369"/>
+      <property name="Manufacturer Part" value="S3D16.000000B20F30T"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb90e992-90ae-4c58-ac5f-2574ac708300</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Recovered" part="C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="C3">
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="C4">
+      <fields>
+        <field name="Reference">C4</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="C5">
+      <fields>
+        <field name="Reference">C5</field>
+        <field name="Value">4.7uF/16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="C6">
+      <fields>
+        <field name="Reference">C6</field>
+        <field name="Value">10uF/25V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="C7">
+      <fields>
+        <field name="Reference">C7</field>
+        <field name="Value">10uF/10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="C8">
+      <fields>
+        <field name="Reference">C8</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="C9">
+      <fields>
+        <field name="Reference">C9</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="D1">
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">SMF12A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="D2">
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Value">5V1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="F1">
+      <fields>
+        <field name="Reference">F1</field>
+        <field name="Value">MF-NSMF020X-2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">B3B-EH-A(LF)(SN)</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="J2">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">B3B-EH-A(LF)(SN)</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="J3">
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">PZ254V-11-06P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="J4">
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">B3B-PH-K-S(LF)(SN)</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="J5">
+      <fields>
+        <field name="Reference">J5</field>
+        <field name="Value">B3B-PH-K-S(LF)(SN)</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">33R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="R6">
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Value">150R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="R7">
+      <fields>
+        <field name="Reference">R7</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="U1">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">STM32G031F8P6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PB7/PB8" type="passive"/>
+        <pin num="2" name="PB9/PC14-OSC32_IN" type="passive"/>
+        <pin num="3" name="PC15-OSC32_OUT" type="passive"/>
+        <pin num="4" name="VDD/VDDA" type="passive"/>
+        <pin num="5" name="VSS/VSSA" type="passive"/>
+        <pin num="6" name="PF2-NRST" type="passive"/>
+        <pin num="7" name="PA0" type="passive"/>
+        <pin num="8" name="PA1" type="passive"/>
+        <pin num="9" name="PA2" type="passive"/>
+        <pin num="10" name="PA3" type="passive"/>
+        <pin num="11" name="PA4" type="passive"/>
+        <pin num="12" name="PA5" type="passive"/>
+        <pin num="13" name="PA6" type="passive"/>
+        <pin num="14" name="PA7" type="passive"/>
+        <pin num="15" name="PB0/PB1/PB2/PA8" type="passive"/>
+        <pin num="16" name="PA11[PA9]" type="passive"/>
+        <pin num="17" name="PA12[PA10]" type="passive"/>
+        <pin num="18" name="PA13" type="passive"/>
+        <pin num="19" name="PA15/PA14-BOOT0" type="passive"/>
+        <pin num="20" name="PB3/PB4/PB5/PB6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="U2">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">LSM6DSV16XTR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SDO/SA0" type="passive"/>
+        <pin num="2" name="SDx/AH1/Qvar1" type="passive"/>
+        <pin num="3" name="SCx/AH2/Qvar2" type="passive"/>
+        <pin num="4" name="INT1" type="passive"/>
+        <pin num="5" name="Vdd_IO" type="passive"/>
+        <pin num="6" name="GND#6" type="passive"/>
+        <pin num="7" name="GND#7" type="passive"/>
+        <pin num="8" name="Vdd" type="passive"/>
+        <pin num="9" name="INT2" type="passive"/>
+        <pin num="10" name="OCS_Aux" type="passive"/>
+        <pin num="11" name="SDO_Aux" type="passive"/>
+        <pin num="12" name="CS" type="passive"/>
+        <pin num="13" name="SCL" type="passive"/>
+        <pin num="14" name="SDA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="U3">
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">SN74LVC2G241DCUR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1OE#" type="passive"/>
+        <pin num="2" name="1A" type="passive"/>
+        <pin num="3" name="2Y" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="2A" type="passive"/>
+        <pin num="6" name="1Y" type="passive"/>
+        <pin num="7" name="2OE" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="U4">
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">HT7533-1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="Vin" type="passive"/>
+        <pin num="3" name="Vout" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="X1">
+      <fields>
+        <field name="Reference">X1</field>
+        <field name="Value">16MHz</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="Tri-state" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="OUTPUT" type="passive"/>
+        <pin num="4" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Recovered">
+      <uri>${KIPRJMOD}/Recovered.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3.3V" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VDD/VDDA_4" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="Vdd_IO_5" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="Vdd_8" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="VCC_8" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="Vout_3" pintype="passive"/>
+      <node ref="X1" pin="1" pinfunction="Tri-state_1" pintype="passive"/>
+      <node ref="X1" pin="4" pinfunction="VDD_4" pintype="passive"/>
+    </net>
+    <net code="2" name="/DE" class="Default">
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PA1_8" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="1OE#_1" pintype="passive"/>
+    </net>
+    <net code="3" name="/DXL_BUS" class="Default">
+      <node ref="D2" pin="1" pinfunction="C_1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="4" name="/DXL_DATA" class="Default">
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="2A_5" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="1Y_6" pintype="passive"/>
+    </net>
+    <net code="5" name="/GND" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VSS/VSSA_5" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="SDx/AH1/Qvar1_2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="SCx/AH2/Qvar2_3" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="GND#6_6" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="GND#7_7" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="X1" pin="2" pinfunction="GND_2" pintype="passive"/>
+    </net>
+    <net code="6" name="/IMU_INT1" class="Default">
+      <node ref="U1" pin="7" pinfunction="PA0_7" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="INT1_4" pintype="passive"/>
+    </net>
+    <net code="7" name="/IMU_INT2" class="Default">
+      <node ref="U1" pin="15" pinfunction="PB0/PB1/PB2/PA8_15" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="INT2_9" pintype="passive"/>
+    </net>
+    <net code="8" name="/MCU_RX" class="Default">
+      <node ref="U1" pin="10" pinfunction="PA3_10" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="2Y_3" pintype="passive"/>
+    </net>
+    <net code="9" name="/MCU_TX" class="Default">
+      <node ref="U1" pin="9" pinfunction="PA2_9" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="1A_2" pintype="passive"/>
+    </net>
+    <net code="10" name="/NRST" class="Default">
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PF2-NRST_6" pintype="passive"/>
+    </net>
+    <net code="11" name="/OSC_IN" class="Default">
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PB9/PC14-OSC32_IN_2" pintype="passive"/>
+    </net>
+    <net code="12" name="/RECOVERED_UNNAMED_1" class="Default">
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X1" pin="3" pinfunction="OUTPUT_3" pintype="passive"/>
+    </net>
+    <net code="13" name="/RX_EN" class="Default">
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PB7/PB8_1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="2OE_7" pintype="passive"/>
+    </net>
+    <net code="14" name="/SPI_CS" class="Default">
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PA4_11" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="CS_12" pintype="passive"/>
+    </net>
+    <net code="15" name="/SPI_MISO" class="Default">
+      <node ref="U1" pin="13" pinfunction="PA6_13" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="SDO/SA0_1" pintype="passive"/>
+    </net>
+    <net code="16" name="/SPI_MOSI" class="Default">
+      <node ref="U1" pin="14" pinfunction="PA7_14" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="SDA_14" pintype="passive"/>
+    </net>
+    <net code="17" name="/SPI_SCK" class="Default">
+      <node ref="U1" pin="12" pinfunction="PA5_12" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="SCL_13" pintype="passive"/>
+    </net>
+    <net code="18" name="/SWDCLK" class="Default">
+      <node ref="J3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="PA15/PA14-BOOT0_19" pintype="passive"/>
+    </net>
+    <net code="19" name="/SWDIO" class="Default">
+      <node ref="J3" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="PA13_18" pintype="passive"/>
+    </net>
+    <net code="20" name="/UART_RX" class="Default">
+      <node ref="J3" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="PA12[PA10]_17" pintype="passive"/>
+    </net>
+    <net code="21" name="/UART_TX" class="Default">
+      <node ref="J3" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PA11[PA9]_16" pintype="passive"/>
+    </net>
+    <net code="22" name="/VDD_BUS" class="Default">
+      <node ref="F1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="23" name="/VDD_F" class="Default">
+      <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="C_1" pintype="passive"/>
+      <node ref="F1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="Vin_2" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(U1-PB3/PB4/PB5/PB6-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="PB3/PB4/PB5/PB6_20" pintype="passive"/>
+    </net>
+    <net code="25" name="unconnected-(U1-PC15-OSC32_OUT-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="PC15-OSC32_OUT_3" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(U2-OCS_Aux-Pad10)" class="Default">
+      <node ref="U2" pin="10" pinfunction="OCS_Aux_10" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(U2-SDO_Aux-Pad11)" class="Default">
+      <node ref="U2" pin="11" pinfunction="SDO_Aux_11" pintype="passive"/>
+    </net>
+  </nets>
+</export>

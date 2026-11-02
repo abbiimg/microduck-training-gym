@@ -1,0 +1,122 @@
+{
+  "candidate": "POGO_PIN_1V0A",
+  "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\POGO_PIN_1V0A\\POGO_PIN_1V0A-PCB.step",
+  "source_step_sha256": "17601e73d1f1577808e8db7c83179356bc40df609b74a36f10a270e7c703dc86",
+  "source_step_unchanged": true,
+  "metadata_source": "audit/placed-device-model-metadata.json",
+  "expected_references": 2,
+  "recovered_references": 2,
+  "missing_references": [],
+  "components": [
+    {
+      "reference": "U1",
+      "source_instance_label": "U1",
+      "source_definition_label": "U1~SMD_BD3.0-D1.2-H9.5~SMD_BD3.0-D1.2-H9.5~6vWn",
+      "metadata_model_id": "42f3a8a1e6a24de3b83c02c04481ebfb|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "SMD_BD3.0-D1.2-H9.5",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          36.566003333314
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.042131064262
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.9
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          35.056003333314,
+          2.542130964262,
+          -9.599999999999
+        ],
+        [
+          38.066003433314,
+          5.542131164262,
+          0.9
+        ]
+      ],
+      "volume_mm3": 54.989952486829424,
+      "step_file": "U1.step",
+      "step_sha256": "e7f0e9d1d65edfbe5df0af724602d591d22453f96175d484bd29380de267043a",
+      "roundtrip_max_bbox_error_mm": 0.0,
+      "stl_file": "U1.stl",
+      "stl_sha256": "b03e62e5108959d490016fce2f3d4dcc11eac245bc10af45c2bfe5046273a7af",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "U2",
+      "source_instance_label": "U2",
+      "source_definition_label": "U2~SMD_BD3.0-D1.2-H9.5~SMD_BD3.0-D1.2-H9.5~65nH",
+      "metadata_model_id": "42f3a8a1e6a24de3b83c02c04481ebfb|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "SMD_BD3.0-D1.2-H9.5",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          2.766155733618
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.040378460757
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.9
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          1.256155733618,
+          2.5403783607570003,
+          -9.599999999999
+        ],
+        [
+          4.266155833618,
+          5.540378560757,
+          0.9
+        ]
+      ],
+      "volume_mm3": 54.98995248682941,
+      "step_file": "U2.step",
+      "step_sha256": "96d891c7c0e14450cdad2889d0fc3b5b5778f5eaba8f8fbd94ad833bb923cd85",
+      "roundtrip_max_bbox_error_mm": 0.0,
+      "stl_file": "U2.stl",
+      "stl_sha256": "6c1de5bd7b2fd2978e849fba5e4c2031ec3812f5c8b914db690483bd95cabf1d",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    }
+  ],
+  "coordinates": "millimetres in whole author PCB STEP world frame; these are placed component snapshots, not unplaced package models",
+  "new_parametric_history_recovered": false,
+  "kicad_placement_qualified": false,
+  "manufacturing_ready": false
+}

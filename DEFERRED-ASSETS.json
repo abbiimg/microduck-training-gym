@@ -1,0 +1,2277 @@
+{
+  "scope": "Recoverable omissions from Git only; all existing local payload files and the full source package are retained.",
+  "original_full_package": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets",
+  "original_git_history_backup": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\work\\github-full-snapshot-before-trim.bundle",
+  "original_CAD_archive": {
+    "path": "community/releases/SolidWorks-XL330-v1.1.zip",
+    "compressed_file_bytes": 332776144,
+    "members": 57,
+    "uncompressed_bytes": 346537685,
+    "by_suffix_count": {
+      ".sldasm": 16,
+      ".sldprt": 41
+    },
+    "by_suffix_bytes": {
+      ".sldasm": 150650413,
+      ".sldprt": 195887272
+    },
+    "top_level": [
+      "SolidWorks-XL330-v1.1"
+    ],
+    "exe_or_installer_members": [],
+    "sample_members": [
+      "SolidWorks-XL330-v1.1/00-microduck\u88c5\u914d\u4f53 XL330-288\u8235\u673a\u7248\u672c.SLDASM",
+      "SolidWorks-XL330-v1.1/01-upper_leg_rigidity_plate_\u4e0a\u817f\u52a0\u56fa\u677f.SLDPRT",
+      "SolidWorks-XL330-v1.1/01_\u8eaf\u5e72\u4e3b\u4f53.SLDASM",
+      "SolidWorks-XL330-v1.1/02_\u5de6\u9acbyaw-roll.SLDASM",
+      "SolidWorks-XL330-v1.1/03_\u5de6\u9acbroll.SLDASM",
+      "SolidWorks-XL330-v1.1/04_\u5de6\u5927\u817f.SLDASM",
+      "SolidWorks-XL330-v1.1/05_\u5de6\u5c0f\u817f.SLDASM",
+      "SolidWorks-XL330-v1.1/06_\u5de6\u8e1d\u811a.SLDASM",
+      "SolidWorks-XL330-v1.1/07_\u9888\u6839.SLDASM",
+      "SolidWorks-XL330-v1.1/08_\u9888\u4fef\u4ef0.SLDASM",
+      "SolidWorks-XL330-v1.1/09_\u5934yaw-roll.SLDASM",
+      "SolidWorks-XL330-v1.1/10_\u5934\u90e8\u603b\u6210.SLDASM",
+      "SolidWorks-XL330-v1.1/11_\u53f3\u9acbyaw-roll.SLDASM",
+      "SolidWorks-XL330-v1.1/12_\u53f3\u9acbroll.SLDASM",
+      "SolidWorks-XL330-v1.1/13_\u53f3\u5927\u817f.SLDASM",
+      "SolidWorks-XL330-v1.1/14_\u53f3\u5c0f\u817f.SLDASM",
+      "SolidWorks-XL330-v1.1/15_\u53f3\u8e1d\u811a.SLDASM",
+      "SolidWorks-XL330-v1.1/3D_PCB1_2026-09-08.SLDPRT",
+      "SolidWorks-XL330-v1.1/ankle_left_\u811a\u8e1d\u5de6.SLDPRT",
+      "SolidWorks-XL330-v1.1/ankle_right\u811a\u8e1d\u53f3.SLDPRT"
+    ],
+    "expanded_duplicate_check": {
+      "members_checked": 57,
+      "matching_members": 42,
+      "mismatched_members": [
+        {
+          "member": "SolidWorks-XL330-v1.1/01-upper_leg_rigidity_plate_\u4e0a\u817f\u52a0\u56fa\u677f.SLDPRT",
+          "archive_bytes": 157346,
+          "expanded_bytes": 162875,
+          "archive_crc32": "659abd47",
+          "expanded_crc32": "7943075b",
+          "matches": false
+        },
+        {
+          "member": "SolidWorks-XL330-v1.1/12_\u53f3\u9acbroll.SLDASM",
+          "archive_bytes": 3844701,
+          "expanded_bytes": 3847278,
+          "archive_crc32": "ed1419d8",
+          "expanded_crc32": "0d2890b3",
+          "matches": false
+        },
+        {
+          "member": "SolidWorks-XL330-v1.1/13_\u53f3\u5927\u817f.SLDASM",
+          "archive_bytes": 1962199,
+          "expanded_bytes": 1964920,
+          "archive_crc32": "603a082e",
+          "expanded_crc32": "7eb03dbe",
+          "matches": false
+        },
+        {
+          "member": "SolidWorks-XL330-v1.1/14_\u53f3\u5c0f\u817f.SLDASM",
+          "archive_bytes": 1884817,
+          "expanded_bytes": 1886464,
+          "archive_crc32": "981005a1",
+          "expanded_crc32": "84f761e5",
+          "matches": false
+        },
+        {
+          "member": "SolidWorks-XL330-v1.1/15_\u53f3\u8e1d\u811a.SLDASM",
+          "archive_bytes": 8743470,
+          "expanded_bytes": 8745788,
+          "archive_crc32": "752661f8",
+          "expanded_crc32": "2e721d61",
+          "matches": false
+        },
+        {
+          "member": "SolidWorks-XL330-v1.1/ankle_right\u811a\u8e1d\u53f3.SLDPRT",
+          "archive_bytes": 252747,
+          "expanded_bytes": 263128,
+          "archive_crc32": "98f8cf9b",
+          "expanded_crc32": "3f64e21f",
+          "matches": false
+        },
+        {
+          "member": "SolidWorks-XL330-v1.1/deep groove ball bearings gb.sldprt",
+          "archive_bytes": 471877,
+          "expanded_bytes": 398859,
+          "archive_crc32": "6efbc608",
+          "expanded_crc32": "6d76de8c",
+          "matches": false
+        },
+        {
+          "member": "SolidWorks-XL330-v1.1/foot_right_\u53f3\u811a.SLDPRT",
+          "archive_bytes": 11683054,
+          "expanded_bytes": 11689445,
+          "archive_crc32": "22e6292f",
+          "expanded_crc32": "f561d208",
+          "matches": false
+        },
+        {
+          "member": "SolidWorks-XL330-v1.1/hip_l_\u9acb\u90e8\u5de6.SLDPRT",
+          "archive_bytes": 10671631,
+          "expanded_bytes": 10696928,
+          "archive_crc32": "19af8fe5",
+          "expanded_crc32": "2735acb5",
+          "matches": false
+        },
+        {
+          "member": "SolidWorks-XL330-v1.1/leg_\u817f\u90e8.SLDPRT",
+          "archive_bytes": 4930017,
+          "expanded_bytes": 4945919,
+          "archive_crc32": "b7ce8fed",
+          "expanded_crc32": "147f6bb9",
+          "matches": false
+        },
+        {
+          "member": "SolidWorks-XL330-v1.1/right_upper_leg_\u53f3\u4e0a\u817f.SLDPRT",
+          "archive_bytes": 4890796,
+          "expanded_bytes": 4895849,
+          "archive_crc32": "47c835e4",
+          "expanded_crc32": "f28e1674",
+          "matches": false
+        },
+        {
+          "member": "SolidWorks-XL330-v1.1/sole_right_\u53f3\u811a\u5e95.SLDPRT",
+          "archive_bytes": 10899910,
+          "expanded_bytes": 10930056,
+          "archive_crc32": "8b469c0d",
+          "expanded_crc32": "2e5444d8",
+          "matches": false
+        },
+        {
+          "member": "SolidWorks-XL330-v1.1/top_head_shell_\u5934\u90e8\u4e0a\u58f3.SLDPRT",
+          "archive_bytes": 9876748,
+          "expanded_bytes": 9896540,
+          "archive_crc32": "02ac6e49",
+          "expanded_crc32": "7f10ed68",
+          "matches": false
+        },
+        {
+          "member": "SolidWorks-XL330-v1.1/\u8235\u673axl330-288.SLDPRT",
+          "archive_bytes": 163810,
+          "expanded_bytes": 167908,
+          "archive_crc32": "d1bca6ec",
+          "expanded_crc32": "7cd36023",
+          "matches": false
+        },
+        {
+          "member": "SolidWorks-XL330-v1.1/\u8f74\u627f16\u00d722\u00d74.SLDPRT",
+          "archive_bytes": 345732,
+          "expanded_bytes": 347459,
+          "archive_crc32": "d1ad850d",
+          "expanded_crc32": "f9cd549f",
+          "matches": false
+        }
+      ],
+      "method": "Read each expanded file, compare byte count and ZIP central-directory CRC32; no installer or CAD application executed."
+    },
+    "release_url": "https://github.com/fanhao375/microduck-replica-cad/releases/download/v1.1/SolidWorks-XL330-v1.1.zip",
+    "archive_sha256": "51bf6f6d4c50e6f8469751102d43520ccf3d69184c30166b5439bdbbd9749a0c"
+  },
+  "omitted_files": [
+    {
+      "path": "community/releases/SolidWorks-XL330-v1.1.zip",
+      "bytes": 332776144,
+      "sha256": "51bf6f6d4c50e6f8469751102d43520ccf3d69184c30166b5439bdbbd9749a0c",
+      "category": "original_native_CAD_release_archive",
+      "restore": "Keep all57 expanded native CAD files; archive remains in full local source package; upstream release URL/hash recorded in source provenance."
+    },
+    {
+      "path": "community/microduck-replica/tools/rufus/rufus-4.15-source.zip",
+      "bytes": 7829971,
+      "sha256": "21cf189915032c3094abbb1e9cf4103866340daf01f8ca12a7020e66f516ea9c",
+      "category": "optional_Rufus_program_bundle",
+      "restore": "Optional USB-image utility, not robot data; install from official Rufus source when needed. Original full package retained locally."
+    },
+    {
+      "path": "community/microduck-replica/tools/rufus/rufus-4.15p.exe",
+      "bytes": 1989992,
+      "sha256": "84c8a437f8af89257524478489e5c85f1edf25f761d299e2bcde46ac0afbe106",
+      "category": "optional_Rufus_program_bundle",
+      "restore": "Optional USB-image utility, not robot data; install from official Rufus source when needed. Original full package retained locally."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/ankle_left_cad_views.json",
+      "bytes": 321,
+      "sha256": "7d85552838f2ebd057017c86ae8f8c546a76a7733c6d531029148ced64bfbce9",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/ankle_left_cad_views.png",
+      "bytes": 225332,
+      "sha256": "ba94055e769b8a1fb20d6d16e59897420442c72ea0154e56431771ca76b4ea2f",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/ankle_left_cad_views.svg",
+      "bytes": 3796352,
+      "sha256": "2feca4646e02c0415c24ded37d63a45fb4034022d1dc55ce7d726369de8e45b6",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/ankle_right_cad_views.json",
+      "bytes": 323,
+      "sha256": "4351f213f57ec2362f042c9defcf38e43046b9a29e330be5a965c59f584e65fb",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/ankle_right_cad_views.png",
+      "bytes": 223774,
+      "sha256": "e56acc35b14ba4e414f7a64519d14db539dff624aebe824e14768e01138e759f",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/ankle_right_cad_views.svg",
+      "bytes": 3634423,
+      "sha256": "110195b091d83e1178dfa56bfb01dce64d370d51d5d8638b55d0ae5eb6fea27c",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/banana_pcb_locker_cad_views.json",
+      "bytes": 331,
+      "sha256": "d26d713b593e98adf404c1032166333e9019521aa173e05b33d6ec442cb192ff",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/banana_pcb_locker_cad_views.png",
+      "bytes": 103929,
+      "sha256": "f05b1c401a0afd927baf9fe110b12cc0727c9a1caa36f704434899b31f133fd2",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/banana_pcb_locker_cad_views.svg",
+      "bytes": 954533,
+      "sha256": "4e2cecd6eda202f7a2f7bd88b1ab00e834ba11f0e540cd2c6ee9a58575564842",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/bearing_roll_cad_views.json",
+      "bytes": 342,
+      "sha256": "5c250eb59e8bbb4411fbaa6acd65dd42d9a20c9c176a41a8f536610d92ee4b5e",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/bearing_roll_cad_views.png",
+      "bytes": 119366,
+      "sha256": "fe0e27ebd9cb9d896c7719c6ff5d0c0879c612badb841c3ae0b66b786bbc0ebf",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/bearing_roll_cad_views.svg",
+      "bytes": 1846001,
+      "sha256": "b43e7fbef9e4680538e26ca3372c0473bf55eae8c895146c8fd4942199e7965c",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/bottom_head_shell_cad_views.json",
+      "bytes": 342,
+      "sha256": "48bee0697ad7aeecd393a48e54a2ea4f972c09da52a0238fb075658f5efd503e",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/bottom_head_shell_cad_views.png",
+      "bytes": 283748,
+      "sha256": "7cf7d23fbb86287d8a88f5f0e29c8c18666cd257ae30b0540db34c26e7e5b720",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/bottom_head_shell_cad_views.svg",
+      "bytes": 17526154,
+      "sha256": "d09d4ddc1c45f86a702a68acbd882e567f5646d6e9784de7c434b457c20119f8",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/face_part_cad_views.json",
+      "bytes": 319,
+      "sha256": "ba86b09fc42fb69fd754d31fe87f073ce703806255d09f8a9256bb4b9e230496",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/face_part_cad_views.png",
+      "bytes": 147335,
+      "sha256": "3a9e7a5a215f936d141aa94188604db45be1f20a1ad435d74d03ce995ca81a7a",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/face_part_cad_views.svg",
+      "bytes": 9371605,
+      "sha256": "3baad45547c3151293089a84d4490e1f9f0f80b3ad3274e6c784c4a0cc2734c6",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/foot_left_cad_views.json",
+      "bytes": 313,
+      "sha256": "4967c9803d6daadd95150b79dc0edfc27ec60c19c1a1e56e16e0bfd29952dbf1",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/foot_left_cad_views.png",
+      "bytes": 269019,
+      "sha256": "74bff3257fad908f7f5013b90592cce5b043790b0cbd912b9ed26fb5586a1485",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/foot_left_cad_views.svg",
+      "bytes": 7909759,
+      "sha256": "cc4fe37b487ad2594395b9a20a4b3a83cc9404b1cdf4a1eac8c2fb109951265b",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/foot_right_cad_views.json",
+      "bytes": 315,
+      "sha256": "fdb167f7d1b8c879c6ad66718b20e525225ed981c10228e016233851033f6888",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/foot_right_cad_views.png",
+      "bytes": 272585,
+      "sha256": "974585cefe1c9fb5b4a225ad5f7e8ce560d46fcc1386b5e8d65b197f84d8a90b",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/foot_right_cad_views.svg",
+      "bytes": 7892210,
+      "sha256": "593c80d8a713ee7c55daa018aa3d660a45b8b31d17fd2976de8976af46f0e6c8",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/hip_l_cad_views.json",
+      "bytes": 324,
+      "sha256": "f1fa72aed0304b6edc5c059c16c6760827d59f1aa1be37058cbb915f1e86cf2d",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/hip_l_cad_views.png",
+      "bytes": 329350,
+      "sha256": "72de1c230c02411db394350e7ac33dd8890b2b12ecf2507626528ea6a893f7c9",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/hip_l_cad_views.svg",
+      "bytes": 16853914,
+      "sha256": "0e88a0fb597e5383a929a557f937b1d4c84b484f5255d7b45faf1c009e8c6592",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/jaw_before_after.png",
+      "bytes": 254031,
+      "sha256": "c90658e5b0680d415ce712b553dad2627cfa3fce03b016af7fdba2e5cf44d4c2",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/jaw_cad_views.json",
+      "bytes": 307,
+      "sha256": "2ac5e8e470186ae2475fe13d44d5ecbf4e53da50d853bf244db2d78cfa2b3c4d",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/jaw_cad_views.png",
+      "bytes": 223616,
+      "sha256": "25d00639172a3aa3d7e0230f7d54b546bb1b8df24a6f41f301cd241c50d7bae2",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/jaw_cad_views.svg",
+      "bytes": 4521216,
+      "sha256": "cc4f9f9f51db0c6d6a111cd0dab9a502dbbf685d59054edf496af6202865a75f",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/jaw_soft_cad_views.json",
+      "bytes": 340,
+      "sha256": "4639089105ffdf6903bdcb4b6369c225daa2b4f6fb104bf39aa6b9bfe4298cc7",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/jaw_soft_cad_views.png",
+      "bytes": 144959,
+      "sha256": "4a0c7bbfb2924109b5485c6f9b24a921000f62cb91d916665d5b3bcd77d3e4be",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/jaw_soft_cad_views.svg",
+      "bytes": 1484904,
+      "sha256": "97c0ab00175847df6a5fde6c14e116486a6b5689cc03474aec1f814e9067eb2c",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/left_shell_cad_views.json",
+      "bytes": 328,
+      "sha256": "49afb59bdc775a9d95c09dc76a788bf64e264b2f1806917b288639c8711a2c3e",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/left_shell_cad_views.png",
+      "bytes": 277301,
+      "sha256": "f4eefc779cd6b088f459b89639b6a5f98e03bb058e2c95864b0d1f16e8da6cb4",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/left_shell_cad_views.svg",
+      "bytes": 14368378,
+      "sha256": "adbc9edb253c0b1ac1795c162b9aea292be3ce6776719ad6782dc010b7e85eaf",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/leg_cad_views.json",
+      "bytes": 318,
+      "sha256": "61dfd4f7482097885b63ba018d5e7322d4566008964c0a40c6522d845eb78f5a",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/leg_cad_views.png",
+      "bytes": 195506,
+      "sha256": "28e76d0ccc1fd2956ad11b15bedfdfbf50364ce69f6f21e3795211924658ded1",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/leg_cad_views.svg",
+      "bytes": 12908982,
+      "sha256": "b66313348201a955ee705d255f02b441907513945b21a651d87775806c6ccd44",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/m12_lens_holder_cad_views.json",
+      "bytes": 333,
+      "sha256": "b184f5654ae212f0f17dc44f55234d74c7c0c8b4892fc4071b0c5361d413f381",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/m12_lens_holder_cad_views.png",
+      "bytes": 158667,
+      "sha256": "693502c487d90994cc7f30f7ebbe0d6d025f46cc6bc8989e06bd479b3c13032e",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/m12_lens_holder_cad_views.svg",
+      "bytes": 1920913,
+      "sha256": "4439927b6b2ff0b11333a4e70258270d6bc707ea77274b4b6ed9894a9080be0d",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/motor_support_cad_views.json",
+      "bytes": 339,
+      "sha256": "ae7be9cfa2bff38cb2a60ab233b2c3a5b34c048b86b582a8a15ec3fc57be080c",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/motor_support_cad_views.png",
+      "bytes": 190994,
+      "sha256": "21df2cd5b8a26e0517d3ac4597e8b92ffae7d4b602029dd32238d91b1593a591",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/motor_support_cad_views.svg",
+      "bytes": 2700600,
+      "sha256": "003bb62ddbd5c9a59f63df213dd9cd0e0e9731f6dd99c1f7c70e5b2e31c1a176",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/neck_cad_views.json",
+      "bytes": 320,
+      "sha256": "a2e90daabfe43b33cac7d64a3090a49187bb7aa255a5c7ed4e5744350fc16b45",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/neck_cad_views.png",
+      "bytes": 113684,
+      "sha256": "1278840fd9ab8f170c898b950b6a41568d3de0f98756e53b532a7bb0ce9729fb",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/neck_cad_views.svg",
+      "bytes": 1163305,
+      "sha256": "7f345ab88fd78b0819577b3b9d5f4676cc8bab6eea34c95670fb13dc25f016d1",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/neck_pitch_cad_views.json",
+      "bytes": 333,
+      "sha256": "f8c6580a793b6715fadda43f7a73aca914892c40db36f23db205f765344f1193",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/neck_pitch_cad_views.png",
+      "bytes": 213335,
+      "sha256": "23ba723ccb1da42e6ce80c726368e8bbe5ec34984d9a72c1546e55371bc8e98d",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/neck_pitch_cad_views.svg",
+      "bytes": 5278595,
+      "sha256": "82f47823f4e88e718cba7553e62f7f89cd4e34378ebf75d7535939bfdc2f15d3",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/noenoeil_cad_views.json",
+      "bytes": 316,
+      "sha256": "50d995d5714de8ca4dddc3f439c0506dcc818e82417160abd99c8b0291628157",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/noenoeil_cad_views.png",
+      "bytes": 181391,
+      "sha256": "80652525aa31c68dbc680cf0d92d3f0cf3db5a3ed96be4d8abf5d65063b75c19",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/noenoeil_cad_views.svg",
+      "bytes": 1270120,
+      "sha256": "bcd3b37ca8673e179c6b16028c79464470b300ac4d553cf9dda5484177c72922",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/parts_overview.png",
+      "bytes": 797636,
+      "sha256": "405b781ac85dcdbd6d89fd1cc8f8c41b42f5c06ff810ef83112d7753ecc2a27e",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/power_support_cad_views.json",
+      "bytes": 333,
+      "sha256": "517f8d1caa65c3997804588c433e3e24339a95beffded755a4fe6ef7d680fae1",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/power_support_cad_views.png",
+      "bytes": 187262,
+      "sha256": "d56a8453a08dc0a966e904b554a96ebcef93aa8edb174429976253d982e5d5bf",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/power_support_cad_views.svg",
+      "bytes": 8883823,
+      "sha256": "03fb8d8f5db2d63fe3ec31e96fceac43135cf28909c0357544fa4f864c44dfc2",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/right_shell_cad_views.json",
+      "bytes": 1619,
+      "sha256": "f359ceee7404032fbf8a65a503c175d8db84d558782d13617806e863dfd6fae4",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/right_shell_cad_views.png",
+      "bytes": 257705,
+      "sha256": "f5bedbd67d3f558da2d0988354db6e2960382643f043d00b8802372374555818",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/right_shell_cad_views.svg",
+      "bytes": 4973414,
+      "sha256": "41c5034dfad4ee18752f06ab9bcf05a41d8958de9bb4b268354790212841027e",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/soft_mouth_top_cad_views.json",
+      "bytes": 352,
+      "sha256": "86126246c79c2a9fdc0bd0da456ae31607db489c3360a11061517f2f7098b0b8",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/soft_mouth_top_cad_views.png",
+      "bytes": 121681,
+      "sha256": "e3ae80675ca71ceea3d0aa45fa6e4efb607ac4480f481de4aa1684ffb2cbbf13",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/soft_mouth_top_cad_views.svg",
+      "bytes": 1784590,
+      "sha256": "81f4d97f792dba1a464fad94fc2916405b754084ad164ce91c17b942ed09d8c8",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/sole_left_before_after.png",
+      "bytes": 189434,
+      "sha256": "55dd6ea12fa45b94761451dcb3441ff6b078298bd41aeeb5acc44e7921c52347",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/sole_left_cad_views.json",
+      "bytes": 336,
+      "sha256": "3b71657da9b8b492d46a2211f5fc9505e0f2d80dd5ea8a5735143af0a4a51150",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/sole_left_cad_views.png",
+      "bytes": 216957,
+      "sha256": "26157c270d816bd9868a0b7488de9f6f4d4f2738ed53c9d0b7be1ac6ab9d69ac",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/sole_left_cad_views.svg",
+      "bytes": 2642737,
+      "sha256": "e5ffcd2c65ca46001f973e469e4fa7df69f5e77fe4c6bd7400b7975d8c1cde44",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/sole_right_cad_views.json",
+      "bytes": 337,
+      "sha256": "1fa4e555a919a9e05787d1d3cb166fadce207548fae2539723df608c7a67d2bb",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/sole_right_cad_views.png",
+      "bytes": 217865,
+      "sha256": "3b6f02f4f2e94625df1e51fbab644ca9140c370e1e303eaffb2bd3b856b2d77c",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/sole_right_cad_views.svg",
+      "bytes": 2355371,
+      "sha256": "a440bd14debaa71826d6db6f3de89c88241ca808e4cca52045d2d488141d56de",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/top_head_shell_cad_views.json",
+      "bytes": 335,
+      "sha256": "e58ed3db38afb7e94e2feaa521073ab5e9b1091ddb426246542abbbbccd8802e",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/top_head_shell_cad_views.png",
+      "bytes": 307080,
+      "sha256": "1963979ac366e7c66dafe665039b1998755dcca02c2178c4f6296de68b84aba4",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/top_head_shell_cad_views.svg",
+      "bytes": 8075338,
+      "sha256": "8a82b303a762e4a98a8cb20526fe9930ff40b5e1ebe78e25f9d7822c1419a3c7",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/trunk_base_cad_views.json",
+      "bytes": 326,
+      "sha256": "918ad1ba7882319532d573f4ab561b57bc59c9de461b083903340e82abf5f0c2",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/trunk_base_cad_views.png",
+      "bytes": 129846,
+      "sha256": "d8053f2672566340115b602bb110f75cf49e424b7a7e2d77651e5a82db3abd62",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/trunk_base_cad_views.svg",
+      "bytes": 2698879,
+      "sha256": "13ea20ef3857815836508d41688d2dcd53c43be3b3bc6121fbe5803d59ab3fb2",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/upper_leg_left_cad_views.json",
+      "bytes": 329,
+      "sha256": "b5ae060c917511341638bee504dfa23eb0eee9b701bc82e14b97068e97fdec95",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/upper_leg_left_cad_views.png",
+      "bytes": 216727,
+      "sha256": "56e80f53c1a8c97994215a3494774722913829a62fbdd9aa90b5278757a6831b",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/upper_leg_left_cad_views.svg",
+      "bytes": 7633601,
+      "sha256": "803c8f52d3215439708a5ffc1cf0da437107096c4cadbaf35038ee663143250c",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/upper_leg_right_cad_views.json",
+      "bytes": 331,
+      "sha256": "4f338478716d83e2fb920c54e617e45e76542803fa37fef9e8f901b9f5f87c9c",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/upper_leg_right_cad_views.png",
+      "bytes": 215339,
+      "sha256": "9cc224ad0cd15632e90c3da5d39dcfe4833148cdc2b22d83a4a06051337feed5",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/upper_leg_right_cad_views.svg",
+      "bytes": 7438295,
+      "sha256": "f88b01dc0453f30213862aaf075a4624fd6250fc25e23b44b91d39b5a5bd4d10",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/upper_leg_rigidity_plate_cad_views.json",
+      "bytes": 360,
+      "sha256": "c6a5af838ff9934e063d70e1d28626dbe6013a445a891ee1f51ef23fc8312f0d",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/upper_leg_rigidity_plate_cad_views.png",
+      "bytes": 149065,
+      "sha256": "6521a1bb697b46d78e8a8874637ca85de3f5f819c20125a83cca704e6ecad8be",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/upper_leg_rigidity_plate_cad_views.svg",
+      "bytes": 3176712,
+      "sha256": "0b5d4b4903e5c2e707e351204e4f70c4e522b2b5e3040db4b190d7ce6f9bdc51",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/yaw2roll_cad_views.json",
+      "bytes": 340,
+      "sha256": "7f7a50c72ec25b88be4e57d82e36e93710b10dd6866a8b36916491256e4581c7",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/yaw2roll_cad_views.png",
+      "bytes": 232904,
+      "sha256": "8f6236863365a93968dffc1ce65b51bf408f7ff867a30dfa6705847e0e028827",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/yaw2roll_cad_views.svg",
+      "bytes": 6797462,
+      "sha256": "83ef85b9795409fc66e7ed5a8d556d2b6c689df951fdb9936e00da54a49be851",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/yaw_roll_motion_cad_views.json",
+      "bytes": 354,
+      "sha256": "6d15f1e27972632b04792f87f4f45448cf063cf77c44f7f2c6110c1277762d01",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/yaw_roll_motion_cad_views.png",
+      "bytes": 227417,
+      "sha256": "ed928f6eb10ca2984a2d83ca4d0e06efdbdcaea768958acd9c055dc8c05edd6e",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "community/microduck-step-reconstruction/docs/previews/yaw_roll_motion_cad_views.svg",
+      "bytes": 5633914,
+      "sha256": "d8bc9a25f681159a02e213a7d590b77c2cd61b93b48076c0f60626ec9e352809",
+      "category": "downloadable_reconstruction_previews",
+      "restore": "Rehydrate exact files from tianjin66/microduck-step-3d-models-ai-stl commit bf96450c75e635efb993676fe90c6456fb8a00af. Keep30STEPsolids and sourceSTLs."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/ankle_l_v1.stl",
+      "bytes": 235984,
+      "sha256": "7fd5bb348d42621ccce9b078cd8269b6ad7583e874b949d18b6dcc39aaeea411",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/ankle_left.stl",
+      "bytes": 248984,
+      "sha256": "77b9b03a529b290320bbb118bd26617cfc4b0663d7f924695e0b53607ba7a76b",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/ankle_r_v1.stl",
+      "bytes": 235784,
+      "sha256": "79d6758f7421b63d3f010ee10ba71db93c6595d4755b3dc5ebfb71542129fc39",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/ankle_right.stl",
+      "bytes": 248884,
+      "sha256": "cdfcb156aa01f659451d8699f62e1ae80cce04f19700d987c678a1baf018fce4",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/banana_pcb_locker.stl",
+      "bytes": 69484,
+      "sha256": "85569823b297e4db1858645d80d38ea1de4eab38c3b0bcdc4cf617863e98d595",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/bearing_roll.stl",
+      "bytes": 121084,
+      "sha256": "e7c84eba03ca9392f850fa500b79ee2cf229b9e3e34f8f4af4e4d393fe38208a",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/bottom_head_shell.stl",
+      "bytes": 1048584,
+      "sha256": "15b04dc60c0b58dbe3796edcc4f6e868b122987081eb3cbc4790b0bc0d156dd6",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/elec_rpi_robot_hat_pcb.stl",
+      "bytes": 942884,
+      "sha256": "69db5792409dc78e4c4bad6b36d5acefbb8b8e11ea838bbb5990722bf9f8e955",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/face_part.stl",
+      "bytes": 570684,
+      "sha256": "d0f0024648eb60164732ea4062bcb8a389adee1c173f7a0dcd761f865235ada0",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/foot_left.stl",
+      "bytes": 996184,
+      "sha256": "50861ea7001c010027e417a2166877405b763c60eb6b131175abe7363ebf7f62",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/foot_right.stl",
+      "bytes": 997684,
+      "sha256": "42fd28d86b8a5a146ef6b61314b674e356791a9d6262f614a4b38f41896ad52e",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/hip_l.stl",
+      "bytes": 1048584,
+      "sha256": "8ec33b9c5f5e9d4ced1b12eb57f3fd8f17cb0c906231460e6fd424bd3fe2f2dc",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/jaw.stl",
+      "bytes": 495984,
+      "sha256": "143060030bd31cd7e0db66723f06edc62f6c52c50aed2bc10f101ec647335a7e",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/jaw_soft.stl",
+      "bytes": 336384,
+      "sha256": "0f159b755778b735c7cff097defcfe41e636032ee19085f7924395013a459ef3",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/left_shell.stl",
+      "bytes": 1048584,
+      "sha256": "a5b57cb974bae16c93c510d83c9127a164b3dddcb608bb21cf7701dbe23cd5cc",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/leg.stl",
+      "bytes": 738884,
+      "sha256": "1f159b937e435a85d2e85c66cf6e0dc70b8cd5d871257aacd5f579605a4cd58d",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/lens.stl",
+      "bytes": 93684,
+      "sha256": "ab82b65d845ebd0bd9faf08df1acf38313455635a55e61ca9b6eb2e1cff0d69e",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/m12_lens_holder.stl",
+      "bytes": 549684,
+      "sha256": "2ad4a025941493432be76e927de075bcfdf2eca44da9c0d2c8eca750adaec547",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/motor_support.stl",
+      "bytes": 180884,
+      "sha256": "0b3c9a73a1c2c61427612792ae6bc91f0b135af6484135f8fbccaca23aec3530",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/neck.stl",
+      "bytes": 73484,
+      "sha256": "8109f54aec3ee42160318d5ab98b5348c1bc92d0564b44f23b78374736944e15",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/neck_pitch.stl",
+      "bytes": 356084,
+      "sha256": "a7644fb9c476e52928b11daa3a5ba1bada57695ff7ae0793517114e26c872afb",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/noenoeil.stl",
+      "bytes": 49284,
+      "sha256": "84ccd572ce03f90284d0cbac7a2a87f3114b827d615fe4ef4e505c0579fa2ea3",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/np_f970.stl",
+      "bytes": 1048584,
+      "sha256": "30896340345730659a11b707b8522bad9778f32121aba813a69d387fb2ba9c21",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/pcb__raspberry_pi_zero_2_w.stl",
+      "bytes": 1048584,
+      "sha256": "cb1a2744dfde275254968978d3cfa5e0595b772d0ffa2e52e82d90dd67b0edf0",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/power_support.stl",
+      "bytes": 641684,
+      "sha256": "dd43654eafd6b34c35a646d0bde3017953e94f7f116108ed6fda65da7634c26e",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/right_shell.stl",
+      "bytes": 1048584,
+      "sha256": "808cbc1a59f1cb5f8337086db047f8e6c7eba3a82b9a45d6130bc7e0528cf2c9",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/rim.stl",
+      "bytes": 115284,
+      "sha256": "4636b677b182a647c68ca013a58477b86d067f3c51648dba09fb114d913503e2",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/roller_blade.stl",
+      "bytes": 1048484,
+      "sha256": "dc7f9ea5dba15eff360f3926ca034cea4788a7f49b3b2f6533327e795616d7e4",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/seeed_bearing__configuration__22x16x4.stl",
+      "bytes": 1048584,
+      "sha256": "48f3341dfa200f384286f82b931af2f25a127b3c64bea3ba47d884da79226b26",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/seeed_bearing__configuration_default.stl",
+      "bytes": 1048584,
+      "sha256": "3e695ddb336e14dae6db96c9961abdf504fbc725a4f1440d2fbbe0d0bce60e85",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/soft_mouth_top.stl",
+      "bytes": 393584,
+      "sha256": "d32c93856180222980b86582e158956c4ecb06cb288860c3f9e9036c9493a04d",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/sole_left.stl",
+      "bytes": 789484,
+      "sha256": "cd986cbe73cf6140a75b395dad03c3f0ea4970354b1ad89411c79cbf028559c6",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/sole_right.stl",
+      "bytes": 795184,
+      "sha256": "a600d82bf6c3af7ecb6f3097b8def53709ebad6e6a4a7fd2b7643198081f88db",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/speaker.stl",
+      "bytes": 684,
+      "sha256": "cd91ba30b8b61defd672fdd168c3d0314ff4d2d4c298b8234ea27f2d2f7a5237",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/tire.stl",
+      "bytes": 352884,
+      "sha256": "d821b865e389860d8ecc717ec903d8124ea145fd2b7727e823656b7c515b5bd5",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/top_head_shell.stl",
+      "bytes": 806084,
+      "sha256": "01a42978d6a8245c216df388edb44c9764f8b1a2dc3286c03f523791eaccac1d",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/trunk_base.stl",
+      "bytes": 184984,
+      "sha256": "1a47157418574e4106859a7e5a2a5bfb1bdc85351eec8d3423bc3bffe3413f1e",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/upper_leg_left.stl",
+      "bytes": 612584,
+      "sha256": "b068170c8d351bdb11035f8803a7020cdb823f4704d0fcf51178f7383b49355b",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/upper_leg_right.stl",
+      "bytes": 612584,
+      "sha256": "3db18dd88c3aab313ebe9393f3bfbefe4cde3997286615c760992b7cb3217845",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/upper_leg_rigidity_plate.stl",
+      "bytes": 180084,
+      "sha256": "424583f49abf83c192c8606fb77abed6f1fce0a525b02683a0ceac6364805982",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/xl330.stl",
+      "bytes": 206384,
+      "sha256": "d5da9ecbbb2acef7ef3e22d75ee37708b561f41571e0c38be07183fb971b78b6",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/yaw2roll.stl",
+      "bytes": 620284,
+      "sha256": "6edd8fcba3f0c37de7da7232d8c7a7a5904af488fc64c1a127bfc9852e34e53b",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/meshes_mm/yaw_roll_motion.stl",
+      "bytes": 290784,
+      "sha256": "4f69264eeb6a1ef2779d85551754f9979ec3a127e30f1ab47734ff2ddebc5dbe",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/MicroDuck-assembled-mm.stl",
+      "bytes": 39842284,
+      "sha256": "5421ad22a000b2a3f3fca4da69e387f503f61de15921d298065797e522e156d2",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/rigid_links_mm/ankle_left.stl",
+      "bytes": 3082984,
+      "sha256": "c40b7becbcca697e65515860b0cc13303229d32dea75e24d9336478311a7260d",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/rigid_links_mm/ankle_right.stl",
+      "bytes": 3090084,
+      "sha256": "e4527266361c675309298a81bf91d0ae6e4a9171966b7db29d8b4e714c3115a9",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/rigid_links_mm/bearing_roll.stl",
+      "bytes": 1996084,
+      "sha256": "c70bdaaa503efe802544776b337526c9a3ebc57d1622867cfd4210b4233808da",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/rigid_links_mm/hip_l.stl",
+      "bytes": 2097084,
+      "sha256": "37edc0a70d541a4aae3754faf4009896ea3a07f7fb8fbc77ff712c6d3938ffc1",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/rigid_links_mm/hip_l_2.stl",
+      "bytes": 2097084,
+      "sha256": "4eb0fb344ac2f5d77fd37f0da853210f00ed08a41d2a4f9b39100abcfa551c27",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/rigid_links_mm/jaw_soft.stl",
+      "bytes": 7977084,
+      "sha256": "05a5dbc7db17224e21b01e0efa0f7c3ee909bd46fe53430b3cf7af36001a0e9d",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/rigid_links_mm/leg.stl",
+      "bytes": 945184,
+      "sha256": "fb2c22e9dc45efea204537672cfafe50193ab480a41f79371f911651acd098a1",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/rigid_links_mm/leg_2.stl",
+      "bytes": 945184,
+      "sha256": "7fa3fbc49417e990f00dc322e338dc0b4d9741d5b53802dd6c6e52b59960309f",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/rigid_links_mm/neck.stl",
+      "bytes": 559484,
+      "sha256": "99f00854da347b2202695c86d8719140d987bdf5304b7c0848e26eed7dec5d46",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/rigid_links_mm/neck_pitch.stl",
+      "bytes": 1404584,
+      "sha256": "a4e32fee74774b2114a435bc01eb138b9038182806170a1b68ba0aafe891b89d",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/rigid_links_mm/trunk_base.stl",
+      "bytes": 6551084,
+      "sha256": "dd13633cac451022995f189a8c252b24e1f2e708e777ae5cb19fcbd890515eee",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/rigid_links_mm/upper_leg_left.stl",
+      "bytes": 2253684,
+      "sha256": "ddd50afa9db47cf335a7907027797c164c4eed64a0fa71873c4ad21cff9ba02f",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/rigid_links_mm/upper_leg_right.stl",
+      "bytes": 2253684,
+      "sha256": "05e763e1e6940ec3c26faa356479b22f941b3ea30a55071b83b1d433f18e1c09",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/rigid_links_mm/yaw2roll.stl",
+      "bytes": 1996084,
+      "sha256": "dd7958e5df73e5682d6f7a2e8679de2c6452e4113ec15690c846d75e1b9c852b",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/rigid_links_mm/yaw_roll_motion.stl",
+      "bytes": 2594084,
+      "sha256": "a1f94db31f12c57acf64d112e44d660ad5213d024df08bc835767806b6b3ac92",
+      "category": "derived_robot_mesh_copies",
+      "restore": "Regenerate from retained upstream MJCF/STLs using tools/prepare_robot_assets.py in documented MuJoCo runtime. Preserve baseline .blend and assembly-mm.json."
+    },
+    {
+      "path": "editing/solidworks/Robot_HAT_reference_STEP/ASE01187-D1_elec_RPI_Robot_HAT_STEP.step",
+      "bytes": 19140612,
+      "sha256": "0bc9de44179fd2e2febfa355c88de525e79ce84debc48c73632d97ef6f338ff0",
+      "category": "duplicate_HAT_STEP_extract",
+      "restore": "Re-extract from retained upstream/elec_RPI_Robot_HAT/production/ASE01187-D1_elec_RPI_Robot_HAT_STEP.zip."
+    },
+    {
+      "path": "editing/kicad/Robot_HAT_reference/mechanical-export/mechanical-contract.json",
+      "bytes": 117003,
+      "sha256": "6a3f3b8cfc74afa118e0c1ff9f01b19242cc59f301d477a549fb644e7bb60320",
+      "category": "derived_HAT_mechanical_exchange",
+      "restore": "Regenerate from retained native HAT board, local oscillator envelope and required custom model files; no17-stage test hashes this export set."
+    },
+    {
+      "path": "editing/kicad/Robot_HAT_reference/mechanical-export/pcb-assembly.glb",
+      "bytes": 10292236,
+      "sha256": "ada3dacade0fc053e44fb0e27c30711186b5fa7cd89d766138ccf3c2310c9931",
+      "category": "derived_HAT_mechanical_exchange",
+      "restore": "Regenerate from retained native HAT board, local oscillator envelope and required custom model files; no17-stage test hashes this export set."
+    },
+    {
+      "path": "editing/kicad/Robot_HAT_reference/mechanical-export/pcb-assembly.step",
+      "bytes": 22161651,
+      "sha256": "9a2d27d7524fe7943ccf18b3e71901e3a6f6882d00d6f2416973870810820038",
+      "category": "derived_HAT_mechanical_exchange",
+      "restore": "Regenerate from retained native HAT board, local oscillator envelope and required custom model files; no17-stage test hashes this export set."
+    },
+    {
+      "path": "editing/kicad/Robot_HAT_reference/mechanical-export/pcb-board.step",
+      "bytes": 126426,
+      "sha256": "2b4ce0c1dfd731c63b4825d2624e9860038fec7d29fceb71d0b8d8964f91359f",
+      "category": "derived_HAT_mechanical_exchange",
+      "restore": "Regenerate from retained native HAT board, local oscillator envelope and required custom model files; no17-stage test hashes this export set."
+    },
+    {
+      "path": "editing/kicad/Robot_HAT_reference/mechanical-export/pcb-board.stl",
+      "bytes": 1825218,
+      "sha256": "7665b0184ac89aa70d927caac91df03573acf50954a3711eed9c04cbb1ae7c67",
+      "category": "derived_HAT_mechanical_exchange",
+      "restore": "Regenerate from retained native HAT board, local oscillator envelope and required custom model files; no17-stage test hashes this export set."
+    },
+    {
+      "path": "audit/assembled-robot.json",
+      "bytes": 23484255,
+      "sha256": "810690b7a1e68645af936dfd6822fdf522cdd19797ba7aacf4b88c12beb532c5",
+      "category": "large_generated_MuJoCo_scene_dump",
+      "restore": "Regenerate using tools/prepare_robot_assets.py from retained MJCF/STL sources; no17-stage check reads this file."
+    },
+    {
+      "path": "community/microduck-replica/hardware/imu_to_dxl/firmware/Build/host-tests/control_table_test",
+      "bytes": 71328,
+      "sha256": "6b32915422a6d8a20425cccae46aac771e3c8e391b2ae97b8547b35b18c7ff7d",
+      "category": "compiled_firmware_and_host_test_outputs",
+      "restore": "Host regression builds fresh executables under WSL external output directory; retain C/headers/tests/toolchain metadata. Firmware HEX can be rebuilt with its separate MCU toolchain or restored from local full package."
+    },
+    {
+      "path": "community/microduck-replica/hardware/imu_to_dxl/firmware/Build/host-tests/imu_test",
+      "bytes": 156240,
+      "sha256": "e50186b46e51b143f2a2517791fc9553e36e7ad9900fe89c1daf50da80d1bb8c",
+      "category": "compiled_firmware_and_host_test_outputs",
+      "restore": "Host regression builds fresh executables under WSL external output directory; retain C/headers/tests/toolchain metadata. Firmware HEX can be rebuilt with its separate MCU toolchain or restored from local full package."
+    },
+    {
+      "path": "community/microduck-replica/hardware/imu_to_dxl/firmware/Build/host-tests/protocol_test",
+      "bytes": 88264,
+      "sha256": "11c8ae80638da7a4d4e0eea40410d49e339941422150d0271ee3b8d71fa8f96f",
+      "category": "compiled_firmware_and_host_test_outputs",
+      "restore": "Host regression builds fresh executables under WSL external output directory; retain C/headers/tests/toolchain metadata. Firmware HEX can be rebuilt with its separate MCU toolchain or restored from local full package."
+    },
+    {
+      "path": "community/microduck-replica/hardware/imu_to_dxl/firmware/Build/imu_to_dxl.hex",
+      "bytes": 30222,
+      "sha256": "10ef4813c52a6f8ed0115d5ac09c271f895e1e1097d904f9f916cf7cde880f35",
+      "category": "compiled_firmware_and_host_test_outputs",
+      "restore": "Host regression builds fresh executables under WSL external output directory; retain C/headers/tests/toolchain metadata. Firmware HEX can be rebuilt with its separate MCU toolchain or restored from local full package."
+    },
+    {
+      "path": "community/microduck-replica/hardware/imu_to_dxl/firmware-1.0.0/Build/imu_to_dxl.hex",
+      "bytes": 31011,
+      "sha256": "82f92f8f4cd9a22c8f95ed14f44cddd3306a1fa6335cd7f39f68bed653e7d191",
+      "category": "compiled_firmware_and_host_test_outputs",
+      "restore": "Host regression builds fresh executables under WSL external output directory; retain C/headers/tests/toolchain metadata. Firmware HEX can be rebuilt with its separate MCU toolchain or restored from local full package."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/1-1734592-0.step",
+      "bytes": 371186,
+      "sha256": "1f05526753d4470153cafa2e45bff8b5594e51542e64d2312c7c17d7de35f00a",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/1-1734839-0.stp",
+      "bytes": 368701,
+      "sha256": "07ece2891292c470ed454f9a05a140bab230450fe068e932fd019ea6e8452a07",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/10118194-0001LF.step",
+      "bytes": 2349712,
+      "sha256": "5535faeebc38a58b7e43c27799cfadb610399278163f99878d6b6bccecf87c82",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/10uMax.step",
+      "bytes": 347390,
+      "sha256": "fcafd33c1a92bb4b88720d49aca2e5e5162a28363cf8d9c22e051833a9cca348",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/43650-0210.stp",
+      "bytes": 264097,
+      "sha256": "cf298e5b07f21469b8ef883837cb3f522a5aac2a38659e984a8232063fbeb743",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/43650-0310.stp",
+      "bytes": 206145,
+      "sha256": "f7b2fc9602cf9c292bd20154d90b86ccf8d193819749c5f56d968b6682636774",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/43650-0321.stp",
+      "bytes": 194151,
+      "sha256": "918465eb55c3942193b51023c6633d299606bca7205c88b6921e0aaef20a9cbb",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/53047-0310.stp",
+      "bytes": 118732,
+      "sha256": "d1d1ead728dc3bc1807e0858725ef634c87f35f9b9566cd64025b89582d193c3",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/9774025960R_spacer_3.3x2.5-Body.step",
+      "bytes": 8873,
+      "sha256": "21817bb6bca93ad626aec02e6b5029b10e6002b0a78793f2485651578e2e70cc",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Amass_XT30PW-M_pcb solder.stp",
+      "bytes": 779894,
+      "sha256": "fcf041edc9a3e1d192b808429e44db6a3c903cbb3428a7c092e6678054717086",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Amass_XT30U-F.stp",
+      "bytes": 920569,
+      "sha256": "11b1c3bebe9e400e1fc6d006a1cdb6f94cb94e9da96273bc257b69ac69ee571d",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Amass_XT30U_M.step",
+      "bytes": 1187620,
+      "sha256": "eae1cfad7eab647d61388b8fd337a3e429edbdb82987e2913878bc9e7ac73a3b",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Amass_XT30UPB-F.step",
+      "bytes": 805805,
+      "sha256": "c353c9e70ed68feb9858d1a3011776a4fd4335be75869b912661031f090be087",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Amass_XT90H-F.STEP",
+      "bytes": 1773050,
+      "sha256": "3663f95cec7f9c2493162b186fb51b95c97959c498369a7f9f945fc508d8ebe0",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Amass_XT90H-M.STEP",
+      "bytes": 2569820,
+      "sha256": "b590e15c24209187e83c6e4acfd0397f56a3bafee44634e3a361151ca45cbf79",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Amass_XT90PB-F.STEP",
+      "bytes": 266402,
+      "sha256": "09844d65c06574e616465b23fe8b3363f5bcc41d1f78de2584b4f1455340bb42",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Amphenol_LUSBA11100.STEP",
+      "bytes": 2428767,
+      "sha256": "12542c15cda027c4b9f30c414db03b2db4588785f8d23354e45d3386240e3fa8",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Arduino_Mega_2560_rev3.step",
+      "bytes": 10150658,
+      "sha256": "62c8822621873ef1fd5d312a63eabdc9e5d80fe3b5e81ffecdf3bdd6949f89c6",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/ASE-xx.yyyMHZ-ET.stp",
+      "bytes": 755208,
+      "sha256": "90b3fde1a7412ab099f6a117144d1ad573ac84bcab44bde8e18ae00cf2c8235a",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/BMI088.step",
+      "bytes": 389122,
+      "sha256": "f0a9f2df85e82e2e5fda66a0bb5adf75176bf5da05398a4fe2e392bbd5d61ab1",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/BSZ034N04LS.STEP",
+      "bytes": 173005,
+      "sha256": "5d792ad22a7b6b0cdf45ee16f1bbf07069a799d44fcb5f025f75fb429e4d471e",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/C&K_-_KMR221NGLFS.step",
+      "bytes": 467210,
+      "sha256": "cd426df60c5d064523e57b26b278b3d7b6f36b649f4c97a03472e03a016a8cbb",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/c-188275-8-u-3d.stp",
+      "bytes": 585866,
+      "sha256": "7fab5ebfdcecc1ec4bd47f9d79304e06be4c628b1260b2a08c76e06e0955c9bb",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/c-338728-8-g-3d.stp",
+      "bytes": 269781,
+      "sha256": "1edeaf64efddb79bf8a961c0377b0376e7765af6d2a1d351e2d311f47e4d19c1",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/capacitor_diam_12.5_code_H13.stp",
+      "bytes": 174189,
+      "sha256": "d377ddf4e94e92ff15d5d32c010af6a19bb507f7efdc4615719ee8aec4e7ccc4",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/capacitor_diam_6.3mm_P2.50mm_h11.step",
+      "bytes": 58180,
+      "sha256": "169af367eda23485c6a81569ec8c6cebfd100bd8fe395eae876b558d208fcb51",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/DC005_jack_barrel.STEP",
+      "bytes": 250574,
+      "sha256": "7224bf160017ce609a9d5bb225fdb3ca14e97c0245d6321beaf63bee642efdd2",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/DF20F-10DP-1V.stp",
+      "bytes": 498195,
+      "sha256": "fe1ff402e7e4a20ed7ac81471bb00bd2d55d86a5ca91d8d4e1172a261b21394a",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/EOZ_09.03201.02.step",
+      "bytes": 14666,
+      "sha256": "b617f3892bddbd2fd5495b51b84b530c64121cc7cfb4b064fa468f8f00545a05",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/ERJ8CWFR010V.step",
+      "bytes": 86926,
+      "sha256": "c86cd75900f08e5083326a314326358cd4e41e2a128802d3679d1bf568dfe903",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/eTQFP48_9x9_TRI.step",
+      "bytes": 844565,
+      "sha256": "2ed614be27e0c220bf8dc80689db056ce4f33bb12842ee9227ab90b6b8b08be9",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/FH12-10S-0.5SH-55.step",
+      "bytes": 1657469,
+      "sha256": "6032101be39320b98e3dbea89e782c75819b3be77393f9302fcb561f4af05269",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/FH12-40S-0.5SH-55.step",
+      "bytes": 6766486,
+      "sha256": "a3160db213e82b5fc77a1dd7c2e8ccb29e0ce82d458fd2f5168715f170e7cf5b",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/FOO_USB-C_vert.STEP",
+      "bytes": 1623686,
+      "sha256": "aa4955abf66b28b92139c2dab3df491a26a11023ac4df772760d6ddfad536cff",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Fuse_Holder_Schurter_8040.0001_03.STEP",
+      "bytes": 1686795,
+      "sha256": "1b82249f53401cca27d1c3f0bb972ad95b0da8b41341dccc2889f08ba0036619",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/header_3p_215297-3.step",
+      "bytes": 389827,
+      "sha256": "abdc988aba587316ddb6aedec65e91fedfb0973ba8c4c889feab9a61dc6e0774",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/HVQFN-32_L5.0-W5.0-P0.50-TL-EP3.1.step",
+      "bytes": 1940341,
+      "sha256": "9f3e2a9b9ff6d6f171d7d2cf949729c6e36633cad067e2da9564b4ffca24e4fa",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/JS102011SAQN.step",
+      "bytes": 529699,
+      "sha256": "e14fe0986a0257f5a61a03a542309d5c511f97572e8c45300f18d3023797b357",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Kailh_Choc_Low_Profile_Switch.step",
+      "bytes": 1361875,
+      "sha256": "63336eb63865989f11ebba218fe0938a9b5ceab8faab7908d9ee676619460e96",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/KW_DSLP31_CC_20191212_geometry.STEP",
+      "bytes": 94013,
+      "sha256": "148210942dd4a8ab9f9fe22747caa57d98cf93524a4a20a60d35170a1cd05df7",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/LPQFN20_ADI.step",
+      "bytes": 132394,
+      "sha256": "301bdb3585b152154f9d8319c0cac5c83a4d36b059e0b8e09422c70a61cbb73a",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/LQFP100.step",
+      "bytes": 3367609,
+      "sha256": "d475267585c97f3a78fa9ca3d9ccae633ef218579b2fdc280b4214d6275a0efb",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/MAX31730AUB_T.step",
+      "bytes": 347390,
+      "sha256": "fcafd33c1a92bb4b88720d49aca2e5e5162a28363cf8d9c22e051833a9cca348",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Molex_0530470410.stp",
+      "bytes": 153389,
+      "sha256": "df3a13d1b3187e40e51901deb615adfa0673856baa6fb65ec431e20b5f458319",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Molex_105133-0001.stp",
+      "bytes": 799097,
+      "sha256": "151c214e6993901d4504fb61a348c5c721f3bf16712798dfaa8d4ade78f59dde",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Molex_430450212.stp",
+      "bytes": 222300,
+      "sha256": "92bc4f218521b8234da93c182b2b456d10b9b3fa40b2056555648cc3ed83ffe8",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Molex_430450612.stp",
+      "bytes": 394947,
+      "sha256": "55bad0f2b24bcf609b8fd7b79983dee14b93799f66d5768852cf2377a7fd8be5",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Molex_43650-0200.stp",
+      "bytes": 130875,
+      "sha256": "c0dcf7a4ae85cb91555e81514e7664ad834c2f76aa24555cb67919b9040886ff",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Molex_43650-0300.stp",
+      "bytes": 157590,
+      "sha256": "3cf7e13037037cc39a99b779f55e27431364cc9d82fb83266d8a89fd52859847",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Molex_436500215.stp",
+      "bytes": 137533,
+      "sha256": "9c73fe931a37bb832051dbfca158f021dfc22e9043a68a51583f015194eb038f",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Molex_436500221.stp",
+      "bytes": 161170,
+      "sha256": "8347db123c52e84cc927e7a5217632c570b35c789cb02c5c60eaac7c3e75a58d",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Molex_502352-0400.stp",
+      "bytes": 322987,
+      "sha256": "ca65d2551a2b467a226eb1584679f4ccb9cf35481771673f10b81f3e408cb9fc",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Molex_529910208.stp",
+      "bytes": 926139,
+      "sha256": "5eb317b171069c6df4369ba55fe3ad37cf7f41c50d36234d4e35b913df88b6b7",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Molex_530470210.stp",
+      "bytes": 98169,
+      "sha256": "98650308ef4209d85a607560759e9adaf7e56b095f353d466f4f269884112a4f",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Molex_539160208.stp",
+      "bytes": 891098,
+      "sha256": "041459386723cce9a4cd9b0ee714286b53920cb053470e8800c6b70c42c875af",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Molex_MegaFit_2002411212.stp",
+      "bytes": 153341,
+      "sha256": "ebe380a017c81f48a242cf36c58161d687c5403ac877f7b6b5b1dacfe58afad6",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Molex_pico4_TH_0530470410.stp",
+      "bytes": 153389,
+      "sha256": "df3a13d1b3187e40e51901deb615adfa0673856baa6fb65ec431e20b5f458319",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Molex_pico4_TH_RA_0530480410.stp",
+      "bytes": 172708,
+      "sha256": "74ecbab46ae51ba81e02e0631ac735ca937edf20600fad9b959fd801fefdfd6a",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Molex_SPOX_5267-03A_Dynamixel.step",
+      "bytes": 83732,
+      "sha256": "7645ed844703e7e6a40440083bab8138c1aa61b97f96e8540ea7a3c309b0c39f",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/MPKSLE60D20-L.step",
+      "bytes": 7659,
+      "sha256": "e9a43d96d05481878beed833dfb78ce07973e43a9233282924d44eee07d21a5a",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/NCS214RSQT2G.step",
+      "bytes": 261550,
+      "sha256": "aa9b9877beed7f7cb6900ca03bc3f5ee0ace6b8b2f4b520015cb4b61c293c0e6",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/PowerSO20.STEP",
+      "bytes": 811581,
+      "sha256": "9a86d192272022047b5d5efdd796ae5fc20cf13f6b0015b539e5ff359be64313",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/PQFN-12.step",
+      "bytes": 9419,
+      "sha256": "578c3b28824c798cc2eff2776df0f268644d56939b3aebd349531e0e89ef2341",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/PT61020EL.step",
+      "bytes": 805063,
+      "sha256": "afcd455bb8286444fc4ac2e8ddc3ae0a76f7965bac4b1e61f4ba753632b48bb9",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/QFN-16 (3x3).stp",
+      "bytes": 125886,
+      "sha256": "10aa7f159890a59f6f3cd2b5ae2a86f13f226bbaf36755c94a4ca5b87cd12d6e",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/QFN37_7X7_TRI.step",
+      "bytes": 229427,
+      "sha256": "881fdd1235a0a95607a3acb4872ac5c64dca029558b972fef23871aecd7338b9",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/QFN76_11P5X6P5_TRI.step",
+      "bytes": 460121,
+      "sha256": "532030ca5ec4602f97599687a2a9ed70cadb7f57ba6477c3dc03f6f368e66d3e",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/raps_CM4 -Light.step",
+      "bytes": 9755100,
+      "sha256": "6b161eae0e97cb380e38fb2d7187d54ccbf10dd65caf1d81b2cf1c4b02efa1f9",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/rasp_AI_HAT_Plus.stp",
+      "bytes": 642431,
+      "sha256": "5316da76a83f01bc5d5225db6629d6be33694e608c315142ed7ab961c76e2bb8",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/rasp_Cooler_RPI_CMx.step",
+      "bytes": 6382868,
+      "sha256": "04548a564157cd6f3952c092a1a34d3e2b7b2a1a06fa74e45c4b4d04ce3c1061",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/RQM0029A.stp",
+      "bytes": 1419768,
+      "sha256": "2b506f614e8de3b8d4fd691a864bbf33dfe113a3ca635bd76cc83714a26860be",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Sensata_D06D100.step",
+      "bytes": 36495725,
+      "sha256": "ef792de00ac62113d80ac2bc5325ec9bf7901ebac8d7eb816996c668e1ac0351",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Sensata_D06D100_light.step",
+      "bytes": 12864586,
+      "sha256": "ce036a0a57bbdd6a842c290971f4492ded4827729297c5523f0506c45c1cd591",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Shou Han - USB TYPE-C 16PIN 2MD -073---3DModel-STEP-269445.STEP",
+      "bytes": 2060243,
+      "sha256": "1ee91d2432b038f98facd0e843e37c4316949bd85976727046533cb6b324da0d",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/ss-3336s-02-l1.stp",
+      "bytes": 326991,
+      "sha256": "1025acf1084f335b32c14e081f8b27fbe31282710be14a70022a76edda589b0c",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/TE_1734366-1.stp",
+      "bytes": 627945,
+      "sha256": "be3fbe0b735208ff523c944549f73e89ea4d80c4dbe4945ddd8e24778acd288d",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/TE_5787834-1.stp",
+      "bytes": 1060982,
+      "sha256": "7abefcade7c54bb3d239ba2a92f85143e308f27c726903a0f78a8fb0e7a64c6f",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/TMC4671+TMC6100-BOB.step",
+      "bytes": 4440114,
+      "sha256": "d4a5f9df68f2c3e112af2cd61fc2216512e521945733ed8860ac2a8c27163cdb",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/usblc6-2sc6.stp",
+      "bytes": 155674,
+      "sha256": "ca34ac1a2b788866aa7d5bc33ebc2189e9329b94e1bbc8099f7a22907e3f47b1",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/Vishay_SiC402_PowerPAK MLP55-32L.step",
+      "bytes": 501017,
+      "sha256": "4319e5152ed0ccc91ddbbce244a7c3b61ac1ad17551adf7f9cffa98bf77a11b5",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/3d_models/VQFN-40_5x7mm.stp",
+      "bytes": 1109789,
+      "sha256": "bbc3e9438f4b231cddcb7c00fed9b8ae9b02f9fb6886ff21efee7cf6e5d2e6e6",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/BAT-SMD_BH-18650-B1BA007.step",
+      "bytes": 2139776,
+      "sha256": "5216bfe38c023d092462d174fe3d43708af1a40b019da588723e986f795f63e9",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/BAT-TH_L77.0-W39.9_BH-18650-A1BJ021.step",
+      "bytes": 1856901,
+      "sha256": "bc89bd910e3625fffb0aca9a49f2d739cd604311f9daf70165d5890034c73af1",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-AMASS_TH_XT30PW-F-1.step",
+      "bytes": 1606520,
+      "sha256": "01ea6cc48509a389039c04725c21e0c0f1f9a4a895a92d34510503156503b012",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-AMASS_TH_XT30PW-M.step",
+      "bytes": 1857585,
+      "sha256": "8cb39471c37ad5e06b23dcab1105dd9ed73324733611a51df28ff54d74b56333",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-SMD-16P_AFC11-S16ICA-00-1.step",
+      "bytes": 2278684,
+      "sha256": "82e8c76071ca595b5f923f0ea9c9d786326d279a44d7d45006fa0c4a03e9ccf5",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-SMD-16P_AFC11-S16ICA-00-1.wrl",
+      "bytes": 88512,
+      "sha256": "e5160b27c550d7551e032c4e1c48b6f8156c25783e89748bac7283ab0aa0a59f",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-SMD_DF40C-20DP-0.4V.step",
+      "bytes": 2713387,
+      "sha256": "584e9398e5bec5fcbb464b0d81715a8c8216111179c3005a569e00084d521e18",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-SMD_DF40C-20DS-0.4V-51.step",
+      "bytes": 2482376,
+      "sha256": "f6e73735f9ce82e9b3ce213a7e91ba72819dd0861400bbda4976c9630aaf3c11",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-SMD_PH2.00-WS-4P.step",
+      "bytes": 2597914,
+      "sha256": "80f62bf076adff5ab28717d4efb4a2f8b22c8bd4d31fe45c514c1f745ba1d005",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-SMD_PH2.00-WS-4P.wrl",
+      "bytes": 216679,
+      "sha256": "ef87bca76cff2987fe925db8f8b64bead38b0b7e6e11a5a3d9eb3bf25223fbcb",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_4P-XT30PB-M.step",
+      "bytes": 1334674,
+      "sha256": "4052c9daa94cd7c3ccfda0d8df8c45b39dc0d71794d897a8880b6cc72a9608c9",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_4P-XT30PW-M.step",
+      "bytes": 1411651,
+      "sha256": "dc164e53a243b4fdca60ffd0f62cea1ff6b7f67c178130cd3703d0d263975762",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_XT30PW-F-1.wrl",
+      "bytes": 336399,
+      "sha256": "c6cb4379d1feeac7402e9fc762e9b2c5be612ef6582ce21782dd35069641b13c",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_XT30PW-M.wrl",
+      "bytes": 282465,
+      "sha256": "d174ae639c01701f15a7cb630f4ef60801e12dc0ab81921bb11257e750899b67",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_YZ08415060P-02.step",
+      "bytes": 1060230,
+      "sha256": "77b1ca588167cfab663fced74d2c32a97244be7e0045a25952e23780196fe332",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/FFC-SMD_P0.50-WS-6P.step",
+      "bytes": 2223716,
+      "sha256": "28e07de8c1f2b5ebc54df87219034ccc5297747c2056011e31ae8d0eb0a6acc6",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/FPC-SMD_P0.5-22P_FGS-XJ-H2.0.step",
+      "bytes": 5600024,
+      "sha256": "2d224e84ed1b306131606a4753c0af261149c0a0c10e0d7373964e5d985a2530",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/FPC-SMD_P0.5-22P_FGS-XJ-H2.0.wrl",
+      "bytes": 234965,
+      "sha256": "ca222ab7d62dd16350efa9b454c72eb8fe04ef7a7da7f85c2bb6e0085238b505",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/HDR-TH_40P-P2.54-F-LI-2X20P.step",
+      "bytes": 5583795,
+      "sha256": "ff053e4d7308bf69608faca99f7893b9eb1c739a89d49d4a8613ada15210727b",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/HDR-TH_5P-P2.54-H-F-W10.0-N.step",
+      "bytes": 1070928,
+      "sha256": "5c1e7144ff53be9195c921eb11db7314e868a099234564aaf757f2dae2592f97",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/HVQFN-32_L5.0-W5.0-H1.0-P0.50.step",
+      "bytes": 2536842,
+      "sha256": "29094e9b4f477e54c099821fa9bf281fc1209510f988ad042674004f9e09d9cf",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/IND-SMD_L7.2-W6.6-H3.0_GPSR0730.step",
+      "bytes": 1345582,
+      "sha256": "4ddecbd806e898a8bd8bccd7e67a84254531c2cf9d2f4551ee906501ae0ded71",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/KEY-SMD_4P-L4.2-W3.2-H2.5-LS4.6-P2.2.step",
+      "bytes": 1689311,
+      "sha256": "fa106d37b6433d3a87facf796fa6a530d08df4a52a529cb1c7a294793d7d04d5",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/KEY-SMD_4P-L4.2-W3.2-H2.5-LS4.6-P2.2.wrl",
+      "bytes": 103023,
+      "sha256": "19420c2ab026cdffe2105404a97de3307b548acb84bbb02b20522058c12402a8",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/KEY-TH_CPG135001D0X.step",
+      "bytes": 1511800,
+      "sha256": "b382609ce2a721dce31d31529423b01d50bbbfa948210d089cd3b1937ee592d6",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/KEY-TH_TC-6615-7-160G.step",
+      "bytes": 1514614,
+      "sha256": "46310f317c85341ad94761063dbf667a3dcdaa51b34f54495932b44f62056712",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/LED-SMD_4P-L3.2-W1.5_XL-3210SURSYGC.step",
+      "bytes": 1467603,
+      "sha256": "dbc9d4a1adb031199b28504c7ad8052a52b3d965bf0d866a6e40234f79c5ac8e",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/pogo-pin_YZ95315064P-01_C5157245.step",
+      "bytes": 8375,
+      "sha256": "453b19130e02f56dc3a7e0ac2d3ce4c7421aa521e40a8c1e69bc7fb560ccacbd",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/pogo_pin_YZR0163-15038-02_C5157386.step",
+      "bytes": 8412,
+      "sha256": "2b08a8f8d8a31394d48e55d924ee29de6c8d3517970fa1afa6dfd577c5bdbf0b",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/QFN-60_L7.0-W7.0-P0.40-TL-EP_XU316-1024.step",
+      "bytes": 2786807,
+      "sha256": "5549bce3ea749c7bb2106f73e88a57030485263e737041d32c8d902078641c73",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/QFN-60_L7.0-W7.0-P0.40-TL-EP_XU316-1024.wrl",
+      "bytes": 240351,
+      "sha256": "b3e1c313f1785a6697f5c62be01f4554ad80650d7dcf3dc4c15e0aabab7ec697",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/SMD-4_L2.0-W1.2-H1.3.step",
+      "bytes": 4545362,
+      "sha256": "063fa11fc32654175d27f7e35992639ac0145a13a220c8141f4763604a855bb6",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/SMD-4_L2.0-W1.2-H1.3.wrl",
+      "bytes": 1422279,
+      "sha256": "6e7387cc5bde2e9382064c4a15554daaab6e209ca4817f2b9d4ee0bae7d9285b",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/SMD_BD2.0-L2.0-W2.0_C9900001905.step",
+      "bytes": 1268774,
+      "sha256": "3a662b3077ced2483ec571f27d1fed6d359ba34e74e3d1d3dba6ffa2a087d3cf",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/SMD_BD5.6-D4.1.step",
+      "bytes": 984295,
+      "sha256": "2f9a0274ba1b81b50351726ae39af2af6beea82e34f6b73040e198c89f39bcfb",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/SOT-583-8_L2.1-W1.2-P0.50-LS1.6-BR.step",
+      "bytes": 1512397,
+      "sha256": "96a45611b61a98911f75fbb175d620658f0114932b3968a3a75ecfce4c15e3c0",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/SW-SMD_MSK12CO2.step",
+      "bytes": 452430,
+      "sha256": "c228816a49a43220b8dd3aa893331c64ccabcfec21ee2f9cbe1aec4c9b9559b1",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/SW-SMD_MSK12CO2.wrl",
+      "bytes": 44115,
+      "sha256": "63bafdd54d3bbf59e09e2e3173e9319f672289281567c8ec1312044d7415c8ee",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/SW-SMD_MST22D18G2.step",
+      "bytes": 738216,
+      "sha256": "5d202e91a5b3114d8e35d59e9156024c971429cd25ffce9b9f355c32d80675a0",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/SW-SMD_MST22D18G2.wrl",
+      "bytes": 73719,
+      "sha256": "723ef45a65b8023c6a91f1174bdc89398b9fa221243577d0b64abb87ed24d633",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/SW-TH_DM1-12UP-1-L12.8-W5.8-H11.3-P5.08.step",
+      "bytes": 1767900,
+      "sha256": "d78363c22ee858412b13d5833671ae47fc141b14a44195a4d3e94acfaf101fc3",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/USB-A-TH_MOLEX_484080003.step",
+      "bytes": 2690321,
+      "sha256": "b653ac1e3f23fcca1c1ec4ba91b793f50abfc11cd44b48c86c8a4c4461f48b12",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/USB-C_TYPE-C-24PLT-H10.5-1.step",
+      "bytes": 2275402,
+      "sha256": "fa788f8bc5e4e507279bccef31dd1debaf41ec6e9d1aeb3873f5b0dcc4810728",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/VQFN-48_L7.0-W7.0-P0.50-TL-EP5.1.step",
+      "bytes": 2221800,
+      "sha256": "b5137f9370ddf99334a94521bbbfce765fc6b348b9b07549f23483b597eb1bdb",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/Wago_2059-302_998-403.stp",
+      "bytes": 171603,
+      "sha256": "3df4976127fa66581736e9db6bbb4b54247f25ddeaa143863a225a5c3c20f0d7",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/wago_2059-303_998-403.step",
+      "bytes": 1472749,
+      "sha256": "36bef4bf27afb0226ced37e56124ea235bed57b51fc8c1ab60e868a81df59ad3",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/WQFN-24_L5.0-W4.0-H0.8-P0.50.step",
+      "bytes": 2391318,
+      "sha256": "7d08e9bc1012a03a4194ce478151d682c562a6c7aef39796859eb1966aab8bd5",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/WQFN-24_L5.0-W4.0-H0.8-P0.50.wrl",
+      "bytes": 101290,
+      "sha256": "7b1ea142c2e858d8dd25117d5accb35bccc901204c4132d624987902e4e27ea7",
+      "category": "unused_vendor_geometry",
+      "restore": "Fetch omitted exact files from pollen-robotics/lib_KiCAD commit4eeeb76997b7cb2e75f60a9e952f959a951f8c43 or restore from full local source package. Preserve all footprint/symbol libraries and any LICENSE/NOTICE files."
+    }
+  ],
+  "required_custom_HAT_models_retained": [
+    {
+      "path": "upstream/lib_KiCAD/3d_models/rasp_pi_zero_2_W_with_40_pin_male_connector v4.step",
+      "bytes": 8009079,
+      "sha256": "87d3c65e5d003a786d12692deebaa7df77081f710fe775ecd5cf25ac1500acf9"
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_DB125-2.54-2P-GN.step",
+      "bytes": 1806481,
+      "sha256": "8c51e8b2850ae2a42b842302271016757bae6be1e4ce3fb4adaaa77638bf24c7"
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/HDR-SMD_40P-P2.54-V-F-R2-C20-S6.6_FH-00339.step",
+      "bytes": 14326452,
+      "sha256": "ff25c5a8d921662d09affcc8cb800ea3347ba38061761344f880960d48af6c6d"
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/MIC-SMD_4P-L2.8-W1.9-H1.0-P1.84-TL.step",
+      "bytes": 1071675,
+      "sha256": "1263216d3af8d9638559514864f00c28f2a0abd275d925fc7bedacc694a48b1f"
+    },
+    {
+      "path": "upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/TDFN-8_L3.0-W2.0-H0.8-P0.50.step",
+      "bytes": 1389523,
+      "sha256": "6978f558f6e0343fe562b8b827c0c2172e27d7efd0b7d16af38b7609e73ae55b"
+    }
+  ],
+  "all_known_17_stage_inputs_retained": true,
+  "remote_LFS_storage_purged": false
+}

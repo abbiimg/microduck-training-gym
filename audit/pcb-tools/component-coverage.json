@@ -1,0 +1,6101 @@
+{
+  "candidate": "official-Robot-HAT-reference",
+  "source": "audit/Robot_HAT-netlist.xml",
+  "component_count": 133,
+  "model_covered_components": 0,
+  "components": [
+    {
+      "reference": "FID1",
+      "value": "DNP Fiducial",
+      "footprint": "Fiducial:Fiducial_1mm_Mask2mm",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Dielectric": null,
+        "Field7": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Length": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "Width": null,
+        "FT Position Offset": null,
+        "Footprint": "Fiducial:Fiducial_1mm_Mask2mm",
+        "Datasheet": null,
+        "Description": "Fiducial"
+      },
+      "pins": [],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "FID2",
+      "value": "DNP Fiducial",
+      "footprint": "Fiducial:Fiducial_1mm_Mask2mm",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Dielectric": null,
+        "Field7": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Length": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "Width": null,
+        "FT Position Offset": null,
+        "Footprint": "Fiducial:Fiducial_1mm_Mask2mm",
+        "Datasheet": null,
+        "Description": "Fiducial"
+      },
+      "pins": [],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "FID3",
+      "value": "DNP Fiducial",
+      "footprint": "Fiducial:Fiducial_1mm_Mask2mm",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Dielectric": null,
+        "Field7": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Length": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "Width": null,
+        "FT Position Offset": null,
+        "Footprint": "Fiducial:Fiducial_1mm_Mask2mm",
+        "Datasheet": null,
+        "Description": "Fiducial"
+      },
+      "pins": [],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "H1",
+      "value": "PCB01186",
+      "footprint": null,
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Dielectric": null,
+        "Field7": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Length": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "Width": null,
+        "FT Position Offset": null,
+        "Footprint": null,
+        "Datasheet": null,
+        "Description": "PCB"
+      },
+      "pins": [],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "H2",
+      "value": "Logo HF 2025",
+      "footprint": "Library_Pollen:Logo_HF_2025",
+      "fields": {
+        "Dielectric": null,
+        "Field7": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Length": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "Width": null,
+        "FT Position Offset": null,
+        "Footprint": "Library_Pollen:Logo_HF_2025",
+        "Datasheet": null,
+        "Description": "Logo HF"
+      },
+      "pins": [],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "H3",
+      "value": "DNP Logo Pollen 2021",
+      "footprint": "Library_Pollen:Logo_Pollen_2021_sq",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Dielectric": null,
+        "Field7": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Length": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "Width": null,
+        "FT Position Offset": null,
+        "Footprint": "Library_Pollen:Logo_Pollen_2021_sq",
+        "Datasheet": null,
+        "Description": "Logo Pollen"
+      },
+      "pins": [],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C25",
+      "value": "DNP-100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": null,
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "J4",
+      "value": "Female Header 2x20 SMD",
+      "footprint": "Library_Pollen:PinHeader_2x20_P2.54mm_Vertical_with_rasp_HAT_zero_SMD_connector",
+      "fields": {
+        "Field4": "Toby",
+        "Field5": "THD-20-R",
+        "Field6": "THD-20-R",
+        "Field7": "Toby",
+        "Field8": "UCON00511",
+        "Part Description": "PinHeader_2x20_P2.54mm_Vertical",
+        "FT Position Offset": null,
+        "FT Rotation Offset": "90",
+        "Sim.Pin": null,
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "LCSC Part": "C2685112",
+        "Footprint": "Library_Pollen:PinHeader_2x20_P2.54mm_Vertical_with_rasp_HAT_zero_SMD_connector",
+        "Datasheet": null,
+        "Description": "Generic connectable mounting pin connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": "Pin_1_1",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "17",
+          "net": "+3V3",
+          "pin_function": "Pin_17_17",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "+5V",
+          "pin_function": "Pin_2_2",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "4",
+          "net": "+5V",
+          "pin_function": "Pin_4_4",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "28",
+          "net": "/Schematic/Audio/ID_SC",
+          "pin_function": "Pin_28_28",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "27",
+          "net": "/Schematic/Audio/ID_SD",
+          "pin_function": "Pin_27_27",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "3",
+          "net": "/Schematic/Audio/IO_02",
+          "pin_function": "Pin_3_3",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "5",
+          "net": "/Schematic/Audio/IO_03",
+          "pin_function": "Pin_5_5",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "7",
+          "net": "/Schematic/Audio/IO_04",
+          "pin_function": "Pin_7_7",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "29",
+          "net": "/Schematic/Audio/IO_05",
+          "pin_function": "Pin_29_29",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "31",
+          "net": "/Schematic/Audio/IO_06",
+          "pin_function": "Pin_31_31",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "24",
+          "net": "/Schematic/Audio/IO_08",
+          "pin_function": "Pin_24_24",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "21",
+          "net": "/Schematic/Audio/IO_09",
+          "pin_function": "Pin_21_21",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "19",
+          "net": "/Schematic/Audio/IO_10",
+          "pin_function": "Pin_19_19",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "23",
+          "net": "/Schematic/Audio/IO_11",
+          "pin_function": "Pin_23_23",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "8",
+          "net": "/Schematic/Audio/IO_14",
+          "pin_function": "Pin_8_8",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "10",
+          "net": "/Schematic/Audio/IO_15",
+          "pin_function": "Pin_10_10",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "12",
+          "net": "/Schematic/Audio/IO_18",
+          "pin_function": "Pin_12_12",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "35",
+          "net": "/Schematic/Audio/IO_19",
+          "pin_function": "Pin_35_35",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "38",
+          "net": "/Schematic/Audio/IO_20",
+          "pin_function": "Pin_38_38",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "40",
+          "net": "/Schematic/Audio/IO_21",
+          "pin_function": "Pin_40_40",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "15",
+          "net": "/Schematic/Audio/IO_22",
+          "pin_function": "Pin_15_15",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "14",
+          "net": "GND",
+          "pin_function": "Pin_14_14",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "20",
+          "net": "GND",
+          "pin_function": "Pin_20_20",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "25",
+          "net": "GND",
+          "pin_function": "Pin_25_25",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "30",
+          "net": "GND",
+          "pin_function": "Pin_30_30",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "34",
+          "net": "GND",
+          "pin_function": "Pin_34_34",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "39",
+          "net": "GND",
+          "pin_function": "Pin_39_39",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "6",
+          "net": "GND",
+          "pin_function": "Pin_6_6",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "9",
+          "net": "GND",
+          "pin_function": "Pin_9_9",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "MP",
+          "net": "GND",
+          "pin_function": "MountPin_MP",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "11",
+          "net": "unconnected-(J4-Pin_11-Pad11)",
+          "pin_function": "Pin_11_11",
+          "pin_type": "passive+no_connect"
+        },
+        {
+          "pin": "13",
+          "net": "unconnected-(J4-Pin_13-Pad13)",
+          "pin_function": "Pin_13_13",
+          "pin_type": "passive+no_connect"
+        },
+        {
+          "pin": "16",
+          "net": "unconnected-(J4-Pin_16-Pad16)",
+          "pin_function": "Pin_16_16",
+          "pin_type": "passive+no_connect"
+        },
+        {
+          "pin": "18",
+          "net": "unconnected-(J4-Pin_18-Pad18)",
+          "pin_function": "Pin_18_18",
+          "pin_type": "passive+no_connect"
+        },
+        {
+          "pin": "22",
+          "net": "unconnected-(J4-Pin_22-Pad22)",
+          "pin_function": "Pin_22_22",
+          "pin_type": "passive+no_connect"
+        },
+        {
+          "pin": "26",
+          "net": "unconnected-(J4-Pin_26-Pad26)",
+          "pin_function": "Pin_26_26",
+          "pin_type": "passive+no_connect"
+        },
+        {
+          "pin": "32",
+          "net": "unconnected-(J4-Pin_32-Pad32)",
+          "pin_function": "Pin_32_32",
+          "pin_type": "passive+no_connect"
+        },
+        {
+          "pin": "33",
+          "net": "unconnected-(J4-Pin_33-Pad33)",
+          "pin_function": "Pin_33_33",
+          "pin_type": "passive+no_connect"
+        },
+        {
+          "pin": "36",
+          "net": "unconnected-(J4-Pin_36-Pad36)",
+          "pin_function": "Pin_36_36",
+          "pin_type": "passive+no_connect"
+        },
+        {
+          "pin": "37",
+          "net": "unconnected-(J4-Pin_37-Pad37)",
+          "pin_function": "Pin_37_37",
+          "pin_type": "passive+no_connect"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R10",
+      "value": "DNP-10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Length": null,
+        "Width": null,
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC Part": null,
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "/Schematic/Audio/ID_SC",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R11",
+      "value": "DNP-10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Length": null,
+        "Width": null,
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC Part": null,
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "/Schematic/Audio/ID_SD",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "U4",
+      "value": "DNP-CAT24C32HU4",
+      "footprint": "LCSC_parts_lib:TDFN-8_L3.0-W2.0-P0.50-BL-EP",
+      "fields": {
+        "LCSC Part": null,
+        "Footprint": "LCSC_parts_lib:TDFN-8_L3.0-W2.0-P0.50-BL-EP",
+        "Datasheet": "https://www.onsemi.com/pub/Collateral/CAT24C128-D.PDF",
+        "Description": "32 kb CMOS Serial EEPROM"
+      },
+      "pins": [
+        {
+          "pin": "8",
+          "net": "+3V3",
+          "pin_function": "VCC_8",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "6",
+          "net": "/Schematic/Audio/ID_SC",
+          "pin_function": "SCL_6",
+          "pin_type": "input"
+        },
+        {
+          "pin": "5",
+          "net": "/Schematic/Audio/ID_SD",
+          "pin_function": "SDA_5",
+          "pin_type": "bidirectional"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": "A0_1",
+          "pin_type": "input"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": "A1_2",
+          "pin_type": "input"
+        },
+        {
+          "pin": "3",
+          "net": "GND",
+          "pin_function": "A2_3",
+          "pin_type": "input"
+        },
+        {
+          "pin": "4",
+          "net": "GND",
+          "pin_function": "GND_4",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "7",
+          "net": "unconnected-(U4-WP-Pad7)",
+          "pin_function": "WP_7",
+          "pin_type": "input+no_connect"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C19",
+      "value": "10u 63V",
+      "footprint": "Capacitor_SMD:CP_Elec_6.3x7.7",
+      "fields": {
+        "Length": "6.6",
+        "Width": "6.6",
+        "Man.": "Kemet",
+        "Man. Ref.": "EDK106M100A9HAA",
+        "LCSC Part": "C72488",
+        "FT Rotation Offset": "180",
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:CP_Elec_6.3x7.7",
+        "Datasheet": null,
+        "Description": "Capa diam. 6,3 / pas 7,7"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+BATT",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C20",
+      "value": "100n 50V",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Length": "1.6",
+        "Width": "0.9",
+        "Man.": "Eurocircuit",
+        "Man. Ref.": "GPC0402104",
+        "LCSC Part": "C307331",
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Capa 0402"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "Net-(U9-BST)",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U9-SW)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C21",
+      "value": "22u 6V3",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "fields": {
+        "Length": "1.6",
+        "Width": "0.9",
+        "Man.": "Murata",
+        "Man. Ref.": "GRM188R61A226ME15D",
+        "LCSC Part": "C84419",
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(D1-K)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C22",
+      "value": "22u 6V3",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "fields": {
+        "Length": "1.6",
+        "Width": "0.9",
+        "Man.": "Murata",
+        "Man. Ref.": "GRM188R61A226ME15D",
+        "LCSC Part": "C84419",
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(D1-K)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C39",
+      "value": "100n 6V3",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Length": null,
+        "Width": null,
+        "LCSC Part": "C1525",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Capa 0402"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U10-VS)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C44",
+      "value": "10n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C15195",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "/Schematic/Audio/IO_06",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C45",
+      "value": "10u 35V",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "fields": {
+        "LCSC Part": "C33546007",
+        "Footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+BATT",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "D1",
+      "value": "BAT54W",
+      "footprint": "Package_TO_SOT_SMD:SOT-323_SC-70",
+      "fields": {
+        "LCSC Part": "C78606",
+        "Man.": "Nexperia",
+        "Man. Ref.": "BAT54SW,115",
+        "FT Rotation Offset": "180",
+        "Footprint": "Package_TO_SOT_SMD:SOT-323_SC-70",
+        "Datasheet": "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf",
+        "Description": "Schottky barrier diode, SOT-323"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": "A_1",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "3",
+          "net": "Net-(D1-K)",
+          "pin_function": "K_3",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "unconnected-(D1-NC-Pad2)",
+          "pin_function": "NC_2",
+          "pin_type": "no_connect"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "D2",
+      "value": "3V3 Zener Diode",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "fields": {
+        "LCSC Part": "C19077392",
+        "Footprint": "Diode_SMD:D_SOD-123",
+        "Datasheet": null,
+        "Description": "Zener diode"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "/Schematic/Audio/IO_06",
+          "pin_function": "K_1",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": "A_2",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "L4",
+      "value": "6,8u 2A",
+      "footprint": "Inductor_SMD:L_Bourns_SRN6045TA",
+      "fields": {
+        "Length": "6.0",
+        "Width": "6.0",
+        "Man.": "Bourns",
+        "Man. Ref.": "SRN6045TA-6R8M",
+        "LCSC Part": "C57254",
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Inductor_SMD:L_Bourns_SRN6045TA",
+        "Datasheet": null,
+        "Description": "Inductor 6,8u 2A 6x6 mm"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "Net-(D1-K)",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U9-SW)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "Q2",
+      "value": "N-Channel 5A",
+      "footprint": "Package_TO_SOT_SMD:TSOT-23",
+      "fields": {
+        "LCSC Part": "C22469448",
+        "Footprint": "Package_TO_SOT_SMD:TSOT-23",
+        "Datasheet": null,
+        "Description": "Depletion-mode N-channel MOSFET gate/source/drain"
+      },
+      "pins": [
+        {
+          "pin": "3",
+          "net": "+5V",
+          "pin_function": "D_3",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(D1-K)",
+          "pin_function": "S_2",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(Q2-G)",
+          "pin_function": "G_1",
+          "pin_type": "input"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R8",
+      "value": "100R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C2906860",
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U10-VS)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R24",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Length": "1.6",
+        "Width": "0.9",
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+BATT",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "/Schematic/Audio/IO_06",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "U9",
+      "value": "AP63205",
+      "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+      "fields": {
+        "Length": "6.2",
+        "Width": "5.0",
+        "Man.": "Diodes Inc.",
+        "Man. Ref.": "AP63205WU",
+        "LCSC Part": "C2071056",
+        "FT Rotation Offset": "90",
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+        "Datasheet": null,
+        "Description": "DC-DC Buck Converter"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+BATT",
+          "pin_function": "EN_2",
+          "pin_type": "input"
+        },
+        {
+          "pin": "3",
+          "net": "+BATT",
+          "pin_function": "IN_3",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "4",
+          "net": "GND",
+          "pin_function": "GND_4",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(D1-K)",
+          "pin_function": "FB_1",
+          "pin_type": "input"
+        },
+        {
+          "pin": "6",
+          "net": "Net-(U9-BST)",
+          "pin_function": "BST_6",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "5",
+          "net": "Net-(U9-SW)",
+          "pin_function": "SW_5",
+          "pin_type": "output"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "U10",
+      "value": "LM5050-1",
+      "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+      "fields": {
+        "LCSC Part": "C473393",
+        "FT Rotation Offset": "90",
+        "Footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/lm5050-1-q1.pdf",
+        "Description": "High side OR-ing FET controller, 5V to 75V operation, TSOT-23-6"
+      },
+      "pins": [
+        {
+          "pin": "6",
+          "net": "+5V",
+          "pin_function": "OUT_6",
+          "pin_type": "input"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": "GND_2",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "4",
+          "net": "Net-(D1-K)",
+          "pin_function": "IN_4",
+          "pin_type": "input"
+        },
+        {
+          "pin": "5",
+          "net": "Net-(Q2-G)",
+          "pin_function": "GATE_5",
+          "pin_type": "output"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U10-VS)",
+          "pin_function": "VS_1",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "3",
+          "net": "unconnected-(U10-OFF-Pad3)",
+          "pin_function": "OFF_3",
+          "pin_type": "input+no_connect"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C15",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "LCSC Part": "C307331",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C16",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C307331",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C17",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "LCSC Part": "C307331",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C18",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C307331",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "D4",
+      "value": "5V1",
+      "footprint": "Diode_SMD:D_SOD-323",
+      "fields": {
+        "Man.": "Vishay",
+        "Man. Ref.": "BZX384C5V1-E3-08",
+        "Length": "2.5",
+        "Width": "1.5",
+        "LCSC": null,
+        "FT Rotation Offset": null,
+        "LCSC Part": "C151348",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Diode_SMD:D_SOD-323",
+        "Datasheet": null,
+        "Description": "Zener diode"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": "A_2",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(D4-K)",
+          "pin_function": "K_1",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "J3",
+      "value": "Dynamixel-4",
+      "footprint": "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical",
+      "fields": {
+        "LCSC Part": "C160258",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical",
+        "Datasheet": null,
+        "Description": "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+BATT",
+          "pin_function": "Pin_2_2",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": "Pin_1_1",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "3",
+          "net": "Net-(J11-Pin_3)",
+          "pin_function": "Pin_3_3",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "4",
+          "net": "Net-(J11-Pin_4)",
+          "pin_function": "Pin_4_4",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "J11",
+      "value": "Dynamixel-4",
+      "footprint": "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical",
+      "fields": {
+        "LCSC Part": "C160258",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical",
+        "Datasheet": null,
+        "Description": "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+BATT",
+          "pin_function": "Pin_2_2",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": "Pin_1_1",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "3",
+          "net": "Net-(J11-Pin_3)",
+          "pin_function": "Pin_3_3",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "4",
+          "net": "Net-(J11-Pin_4)",
+          "pin_function": "Pin_4_4",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "J13",
+      "value": "Dynamixel-3",
+      "footprint": "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical",
+      "fields": {
+        "Man.": "JST",
+        "Man. Ref.": "B3B-EH-A(LF)(SN)",
+        "'FT Position Offset": null,
+        "LCSC Part": "C160259",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical",
+        "Datasheet": null,
+        "Description": "Dynamixel-3 (new)"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+BATT",
+          "pin_function": "Pin_2_2",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": "Pin_1_1",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "3",
+          "net": "Net-(J13-Pin_3)",
+          "pin_function": "Pin_3_3",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "J14",
+      "value": "Dynamixel-3",
+      "footprint": "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical",
+      "fields": {
+        "Man.": "JST",
+        "Man. Ref.": "B3B-EH-A(LF)(SN)",
+        "'FT Position Offset": null,
+        "LCSC Part": "C160259",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical",
+        "Datasheet": null,
+        "Description": "Dynamixel-3 (new)"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+BATT",
+          "pin_function": "Pin_2_2",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": "Pin_1_1",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "3",
+          "net": "Net-(J13-Pin_3)",
+          "pin_function": "Pin_3_3",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "Q1",
+      "value": "MMBT3906",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "fields": {
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C727128",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Sim.Device": "PNP",
+        "Sim.Pins": "1=B 2=E 3=C",
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Package_TO_SOT_SMD:SOT-23",
+        "Datasheet": "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf",
+        "Description": "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": "E_2",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "3",
+          "net": "/Schematic/Dynamixel/Dynamixel_dir",
+          "pin_function": "C_3",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(Q1-B)",
+          "pin_function": "B_1",
+          "pin_type": "input"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R26",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Length": "1.6",
+        "Width": "0.9",
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "/Schematic/Audio/IO_14",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R27",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Length": "1.6",
+        "Width": "0.9",
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "/Schematic/Audio/IO_14",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(Q1-B)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R28",
+      "value": "20k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Length": "1.6",
+        "Width": "0.9",
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C25765",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "/Schematic/Dynamixel/Dynamixel_dir",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R29",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Length": null,
+        "Width": null,
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U8-RO)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R31",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Length": "1.6",
+        "Width": "0.9",
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(R31-Pad2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R32",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Length": "1.6",
+        "Width": "0.9",
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(R32-Pad2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R33",
+      "value": "150R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Man. Ref.": null,
+        "Man.": null,
+        "Length": "1.6",
+        "Width": "0.9",
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C2909321",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "Net-(D4-K)",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(R32-Pad2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R40",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C17168",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "/Schematic/Dynamixel/Dynamixel_dir",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U8-~{RE})",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R41",
+      "value": "DNP-0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": null,
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U8-~{RE})",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "TH1",
+      "value": "100R thermistor",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "fields": {
+        "Man.": "Murata",
+        "Man. Ref.": "PRG18BB101MB1RB",
+        "Length": "1.6",
+        "Width": "0.9",
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C913703",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0603_1608Metric",
+        "Datasheet": null,
+        "Description": "Temperature dependent resistor"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "Net-(D4-K)",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(J13-Pin_3)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "U5",
+      "value": "74LVC1G08",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "fields": {
+        "LCSC Part": "C7666",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf",
+        "Description": "Single AND Gate, Low-Voltage CMOS"
+      },
+      "pins": [
+        {
+          "pin": "5",
+          "net": "+3V3",
+          "pin_function": "VCC_5",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "4",
+          "net": "/Schematic/Audio/IO_15",
+          "pin_function": null,
+          "pin_type": "output"
+        },
+        {
+          "pin": "3",
+          "net": "GND",
+          "pin_function": "GND_3",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(R31-Pad2)",
+          "pin_function": null,
+          "pin_type": "input"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U8-RO)",
+          "pin_function": null,
+          "pin_type": "input"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "U6",
+      "value": "SN74LVC1G125DBV",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": "SN74LVC1G125DBVT",
+        "Length": "3.0",
+        "Width": "3.0",
+        "LCSC": null,
+        "FT Rotation Offset": "90",
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C23654",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf",
+        "Description": "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+      },
+      "pins": [
+        {
+          "pin": "5",
+          "net": "+3V3",
+          "pin_function": "VCC_5",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "1",
+          "net": "/Schematic/Dynamixel/Dynamixel_dir",
+          "pin_function": null,
+          "pin_type": "input"
+        },
+        {
+          "pin": "3",
+          "net": "GND",
+          "pin_function": "GND_3",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "4",
+          "net": "Net-(R31-Pad2)",
+          "pin_function": null,
+          "pin_type": "tri_state"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(R32-Pad2)",
+          "pin_function": null,
+          "pin_type": "input"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "U7",
+      "value": "SN74LVC1G126DBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "fields": {
+        "Man.": "TI",
+        "Man. Ref.": "SN74LVC1G126DBVR",
+        "Length": "3.0",
+        "Width": "3.0",
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C7834",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "Datasheet": "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf",
+        "Description": "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+      },
+      "pins": [
+        {
+          "pin": "5",
+          "net": "+3V3",
+          "pin_function": "VCC_5",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "2",
+          "net": "/Schematic/Audio/IO_14",
+          "pin_function": null,
+          "pin_type": "input"
+        },
+        {
+          "pin": "1",
+          "net": "/Schematic/Dynamixel/Dynamixel_dir",
+          "pin_function": null,
+          "pin_type": "input"
+        },
+        {
+          "pin": "3",
+          "net": "GND",
+          "pin_function": "GND_3",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "4",
+          "net": "Net-(R32-Pad2)",
+          "pin_function": null,
+          "pin_type": "tri_state"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "U8",
+      "value": "GM3088ENA",
+      "footprint": "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.2x2.15mm",
+      "fields": {
+        "LCSC Part": "C49423279",
+        "Man.": "Gatemode",
+        "Man. Ref.": "GM3088ENA",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "FT Rotation Offset": "90",
+        "Footprint": "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.2x2.15mm",
+        "Datasheet": "http://www.icbase.com/pdf/SPX/SPX00480106.pdf",
+        "Description": "3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SOIC-8"
+      },
+      "pins": [
+        {
+          "pin": "8",
+          "net": "+3V3",
+          "pin_function": "VCC_8",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "4",
+          "net": "/Schematic/Audio/IO_14",
+          "pin_function": "DI_4",
+          "pin_type": "input"
+        },
+        {
+          "pin": "3",
+          "net": "/Schematic/Dynamixel/Dynamixel_dir",
+          "pin_function": "DE_3",
+          "pin_type": "input"
+        },
+        {
+          "pin": "5",
+          "net": "GND",
+          "pin_function": "GND_5",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "6",
+          "net": "Net-(J11-Pin_3)",
+          "pin_function": "A_6",
+          "pin_type": "bidirectional"
+        },
+        {
+          "pin": "7",
+          "net": "Net-(J11-Pin_4)",
+          "pin_function": "B_7",
+          "pin_type": "bidirectional"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U8-RO)",
+          "pin_function": "RO_1",
+          "pin_type": "output"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U8-~{RE})",
+          "pin_function": "~{RE}_2",
+          "pin_type": "input"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C23",
+      "value": "100n 6V3",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Length": null,
+        "Width": null,
+        "LCSC Part": "C1525",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Capa 0402"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U12-VDD)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C24",
+      "value": "100n 6V3",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Length": null,
+        "Width": null,
+        "LCSC Part": "C1525",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Capa 0402"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U12-VDD)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "G1",
+      "value": "qwiic_Logo",
+      "footprint": "Library_Pollen:Logo_qwiic_5mm",
+      "fields": {
+        "Footprint": "Library_Pollen:Logo_qwiic_5mm",
+        "Datasheet": null,
+        "Description": null
+      },
+      "pins": [],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "J5",
+      "value": "JST SH",
+      "footprint": "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical",
+      "fields": {
+        "LCSC Part": "C160390",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical",
+        "Datasheet": null,
+        "Description": "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": "Pin_2_2",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "3",
+          "net": "/Schematic/Audio/IO_02",
+          "pin_function": "Pin_3_3",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "4",
+          "net": "/Schematic/Audio/IO_03",
+          "pin_function": "Pin_4_4",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": "Pin_1_1",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "MP",
+          "net": "GND",
+          "pin_function": "MountPin_MP",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "J6",
+      "value": "JST SH",
+      "footprint": "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical",
+      "fields": {
+        "LCSC Part": "C160390",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical",
+        "Datasheet": null,
+        "Description": "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": "Pin_2_2",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": "Pin_1_1",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "MP",
+          "net": "GND",
+          "pin_function": "MountPin_MP",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "3",
+          "net": "Net-(J6-Pin_3)",
+          "pin_function": "Pin_3_3",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "4",
+          "net": "Net-(J6-Pin_4)",
+          "pin_function": "Pin_4_4",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "J7",
+      "value": "JST SH",
+      "footprint": "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical",
+      "fields": {
+        "LCSC Part": "C160390",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical",
+        "Datasheet": null,
+        "Description": "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": "Pin_2_2",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "3",
+          "net": "/Schematic/Audio/IO_08",
+          "pin_function": "Pin_3_3",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "4",
+          "net": "/Schematic/Audio/IO_09",
+          "pin_function": "Pin_4_4",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": "Pin_1_1",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "MP",
+          "net": "GND",
+          "pin_function": "MountPin_MP",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "J8",
+      "value": "JST SH",
+      "footprint": "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical",
+      "fields": {
+        "LCSC Part": "C160390",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical",
+        "Datasheet": null,
+        "Description": "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": "Pin_2_2",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "3",
+          "net": "/Schematic/Audio/IO_10",
+          "pin_function": "Pin_3_3",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "4",
+          "net": "/Schematic/Audio/IO_11",
+          "pin_function": "Pin_4_4",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": "Pin_1_1",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "MP",
+          "net": "GND",
+          "pin_function": "MountPin_MP",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R9",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C17168",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U12-VDD)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R12",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Length": null,
+        "Width": null,
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "/Schematic/Audio/IO_02",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R13",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Length": null,
+        "Width": null,
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "/Schematic/Audio/IO_03",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R14",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C17168",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U12-SDX)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R15",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C17168",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U12-SCX)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R16",
+      "value": "DNP-0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": null,
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "/Schematic/Audio/ID_SC",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(J6-Pin_4)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R17",
+      "value": "DNP-0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": null,
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "/Schematic/Audio/ID_SD",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(J6-Pin_3)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R18",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C17168",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "/Schematic/Audio/IO_04",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(J6-Pin_3)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R19",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C17168",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "/Schematic/Audio/IO_05",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(J6-Pin_4)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R20",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Length": null,
+        "Width": null,
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(J6-Pin_3)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R21",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Length": null,
+        "Width": null,
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(J6-Pin_4)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R25",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C17168",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "/Schematic/Audio/IO_22",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U12-INT1)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R30",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C17168",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U12-SDO/SA0)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R34",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Length": null,
+        "Width": null,
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "/Schematic/Audio/IO_08",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R35",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Length": null,
+        "Width": null,
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "/Schematic/Audio/IO_09",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R38",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Length": null,
+        "Width": null,
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "/Schematic/Audio/IO_10",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R39",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Length": null,
+        "Width": null,
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "/Schematic/Audio/IO_11",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "TP5",
+      "value": "TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "fields": {
+        "Field10": null,
+        "LCSC": null,
+        "Footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+        "Datasheet": null,
+        "Description": "test point"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "Net-(U12-INT2)",
+          "pin_function": "1_1",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "U12",
+      "value": "LSM6DSV16XTR",
+      "footprint": "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y",
+      "fields": {
+        "Field10": null,
+        "LCSC": null,
+        "LCSC Part": "C5267406",
+        "FT Rotation Offset": "180",
+        "Footprint": "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y",
+        "Datasheet": "https://www.st.com/resource/en/datasheet/lsm6dsm.pdf",
+        "Description": "I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope, with auxiliary SPI, 1.71V to 3.6V VCC"
+      },
+      "pins": [
+        {
+          "pin": "12",
+          "net": "+3V3",
+          "pin_function": "CS_12",
+          "pin_type": "input"
+        },
+        {
+          "pin": "14",
+          "net": "/Schematic/Audio/IO_02",
+          "pin_function": "SDA_14",
+          "pin_type": "bidirectional"
+        },
+        {
+          "pin": "13",
+          "net": "/Schematic/Audio/IO_03",
+          "pin_function": "SCL_13",
+          "pin_type": "input"
+        },
+        {
+          "pin": "6",
+          "net": "GND",
+          "pin_function": "GND_6",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "7",
+          "net": "GND",
+          "pin_function": "GND_7",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "4",
+          "net": "Net-(U12-INT1)",
+          "pin_function": "INT1_4",
+          "pin_type": "output"
+        },
+        {
+          "pin": "9",
+          "net": "Net-(U12-INT2)",
+          "pin_function": "INT2_9",
+          "pin_type": "output"
+        },
+        {
+          "pin": "3",
+          "net": "Net-(U12-SCX)",
+          "pin_function": "SCX_3",
+          "pin_type": "input"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U12-SDO/SA0)",
+          "pin_function": "SDO/SA0_1",
+          "pin_type": "bidirectional"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U12-SDX)",
+          "pin_function": "SDX_2",
+          "pin_type": "bidirectional"
+        },
+        {
+          "pin": "5",
+          "net": "Net-(U12-VDD)",
+          "pin_function": "VDDIO_5",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "8",
+          "net": "Net-(U12-VDD)",
+          "pin_function": "VDD_8",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "10",
+          "net": "unconnected-(U12-OCS_Aux-Pad10)",
+          "pin_function": "OCS_Aux_10",
+          "pin_type": "passive+no_connect"
+        },
+        {
+          "pin": "11",
+          "net": "unconnected-(U12-SDO_Aux-Pad11)",
+          "pin_function": "SDO_Aux_11",
+          "pin_type": "bidirectional+no_connect"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C1",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C52923",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "Net-(C1-Pad2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U2-LEFT_LOP)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C2",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C52923",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "Net-(C2-Pad2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U2-RIGHT_LOP)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C3",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C52923",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U1-VREF)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C4",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C52923",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C5",
+      "value": "10u",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "fields": {
+        "LCSC Part": "C1691",
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C6",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C52923",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C7",
+      "value": "10u",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "fields": {
+        "LCSC Part": "C1691",
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C8",
+      "value": "220n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C71693",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(J1-Pin_2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C9",
+      "value": "220n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C71693",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(J1-Pin_1)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C10",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C52923",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "Net-(C10-Pad1)",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U2-MIC2R/LINE2R)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C11",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C307331",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C12",
+      "value": "10u",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "fields": {
+        "LCSC Part": "C1691",
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+1V8",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C13",
+      "value": "10u",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "fields": {
+        "LCSC Part": "C1691",
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C14",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C307331",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C26",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "LCSC Part": "C307331",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+1V8",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C27",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C52923",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C28",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "LCSC Part": "C307331",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C29",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C52923",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C30",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "LCSC Part": "C307331",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C31",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C52923",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C32",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "LCSC Part": "C307331",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C33",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C52923",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U1-VDD)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C34",
+      "value": "10n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C15195",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U1-VDD)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C35",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C52923",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C36",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "LCSC Part": "C307331",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C37",
+      "value": "10u",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "fields": {
+        "LCSC Part": "C1691",
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C38",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C307331",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U2-~{RESET})",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C40",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C52923",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "Net-(J9-Pin_2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U2-MIC1RP/LINE1RP)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C41",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C52923",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "Net-(J2-Pin_2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U2-MIC1LP/LINE1LP)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C42",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C52923",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(C42-Pad2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "C43",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C52923",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Unpolarized capacitor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(C42-Pad2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "FB1",
+      "value": "1.3A 600R@100MHz",
+      "footprint": "Inductor_SMD:L_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C76884",
+        "Man.": "Murata",
+        "Man. Ref.": "BLM15AG601SN1D",
+        "Footprint": "Inductor_SMD:L_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Ferrite bead, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+5V",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U1-VDD)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "FB2",
+      "value": "2A - 120R@100MHz",
+      "footprint": "Inductor_SMD:L_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C88970",
+        "Footprint": "Inductor_SMD:L_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Ferrite bead, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "Net-(J1-Pin_2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U1--OUT_R)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "FB3",
+      "value": "2A - 120R@100MHz",
+      "footprint": "Inductor_SMD:L_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C88970",
+        "Footprint": "Inductor_SMD:L_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Ferrite bead, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "Net-(J1-Pin_1)",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U1-+OUT_R)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "J1",
+      "value": "Screw term.",
+      "footprint": "LCSC_parts_lib:CONN-TH_DB125-2.54-2P-GN",
+      "fields": {
+        "LCSC Part": "C918120",
+        "FT Rotation Offset": null,
+        "Footprint": "LCSC_parts_lib:CONN-TH_DB125-2.54-2P-GN",
+        "Datasheet": null,
+        "Description": "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "Net-(J1-Pin_1)",
+          "pin_function": "Pin_1_1",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(J1-Pin_2)",
+          "pin_function": "Pin_2_2",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "J2",
+      "value": "Screw term.",
+      "footprint": "LCSC_parts_lib:CONN-TH_DB125-2.54-2P-GN",
+      "fields": {
+        "LCSC Part": "C918120",
+        "FT Rotation Offset": null,
+        "Footprint": "LCSC_parts_lib:CONN-TH_DB125-2.54-2P-GN",
+        "Datasheet": null,
+        "Description": "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": "Pin_1_1",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(J2-Pin_2)",
+          "pin_function": "Pin_2_2",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "J9",
+      "value": "Screw term.",
+      "footprint": "LCSC_parts_lib:CONN-TH_DB125-2.54-2P-GN",
+      "fields": {
+        "LCSC Part": "C918120",
+        "FT Rotation Offset": null,
+        "Footprint": "LCSC_parts_lib:CONN-TH_DB125-2.54-2P-GN",
+        "Datasheet": null,
+        "Description": "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": "Pin_1_1",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(J9-Pin_2)",
+          "pin_function": "Pin_2_2",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "MK1",
+      "value": "Microphone_MEMS",
+      "footprint": "LCSC_parts_lib:MIC-SMD_4P-L2.8-W1.9-P1.84-TL",
+      "fields": {
+        "LCSC Part": "C7587901",
+        "Man.": "LinkMems",
+        "Man. Ref.": "LMA2718T421-OA5-2",
+        "Footprint": "LCSC_parts_lib:MIC-SMD_4P-L2.8-W1.9-P1.84-TL",
+        "Datasheet": null,
+        "Description": "Microphone"
+      },
+      "pins": [
+        {
+          "pin": "4",
+          "net": "+3V3",
+          "pin_function": "+_4",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": "-_2",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "3",
+          "net": "GND",
+          "pin_function": "-_3",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(C10-Pad1)",
+          "pin_function": "-_1",
+          "pin_type": "output"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R1",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Length": "1.6",
+        "Width": "0.9",
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "Net-(C1-Pad2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U1-INL)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R2",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Length": "1.6",
+        "Width": "0.9",
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "Net-(C2-Pad2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U1-INR)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R3",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C17168",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+5V",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U1-~{SHND})",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R4",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C17168",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+5V",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U1-~{MUTE})",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R5",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C17168",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+5V",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U1-MODE)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R6",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Length": null,
+        "Width": null,
+        "Man.": null,
+        "Man. Ref.": null,
+        "LCSC Part": "C25744",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U2-~{RESET})",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R7",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C17168",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(U2-MIC2L/LINE2L/MICDET)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R22",
+      "value": "4k7",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Length": "1.6",
+        "Width": "0.9",
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C105871",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "Net-(C42-Pad2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(J2-Pin_2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R23",
+      "value": "4k7",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "Man.": null,
+        "Man. Ref.": null,
+        "Length": "1.6",
+        "Width": "0.9",
+        "LCSC": null,
+        "'FT Position Offset": null,
+        "Field7": null,
+        "LCSC Part": "C105871",
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "Net-(C42-Pad2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(J9-Pin_2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R36",
+      "value": "DNP-1M",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": null,
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(J2-Pin_2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R37",
+      "value": "DNP-1M",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": null,
+        "Dielectric": null,
+        "Power Rating": null,
+        "Resistance": null,
+        "Tolerance": null,
+        "Voltage Rating": null,
+        "KLC_S3.3": null,
+        "KLC_S4.1": null,
+        "Arrow Part Number": null,
+        "Arrow Price/Stock": null,
+        "Height": null,
+        "Manufacturer_Name": null,
+        "Manufacturer_Part_Number": null,
+        "Mouser Part Number": null,
+        "Mouser Price/Stock": null,
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(J9-Pin_2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "R42",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "fields": {
+        "LCSC Part": "C105637",
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": null,
+        "Description": "Resistor, small symbol"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pin_function": null,
+          "pin_type": "passive"
+        },
+        {
+          "pin": "2",
+          "net": "Net-(C42-Pad2)",
+          "pin_function": null,
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "TP2",
+      "value": "TestPoint",
+      "footprint": "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile",
+      "fields": {
+        "Footprint": "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile",
+        "Datasheet": null,
+        "Description": "test point"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "Net-(U2-MICBIAS)",
+          "pin_function": "1_1",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "TP3",
+      "value": "TestPoint",
+      "footprint": "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile",
+      "fields": {
+        "Footprint": "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile",
+        "Datasheet": null,
+        "Description": "test point"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "Net-(U1-+OUT_L)",
+          "pin_function": "1_1",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "TP4",
+      "value": "TestPoint",
+      "footprint": "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile",
+      "fields": {
+        "Footprint": "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile",
+        "Datasheet": null,
+        "Description": "test point"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "Net-(U1--OUT_L)",
+          "pin_function": "1_1",
+          "pin_type": "passive"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "U1",
+      "value": "PAM8406D",
+      "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+      "fields": {
+        "LCSC Part": "C86270",
+        "Footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+        "Datasheet": "https://www.diodes.com/assets/Datasheets/PAM8406.pdf",
+        "Description": "5W Filterless Class-D / Class-AB Stereo Audio Amplifier, SOIC-16"
+      },
+      "pins": [
+        {
+          "pin": "13",
+          "net": "+5V",
+          "pin_function": "PVDDR_13",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "4",
+          "net": "+5V",
+          "pin_function": "PVDDL_4",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "11",
+          "net": "GND",
+          "pin_function": "GND_11",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "15",
+          "net": "GND",
+          "pin_function": "PGNDR_15",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": "PGNDL_2",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U1-+OUT_L)",
+          "pin_function": "+OUT_L_1",
+          "pin_type": "output"
+        },
+        {
+          "pin": "16",
+          "net": "Net-(U1-+OUT_R)",
+          "pin_function": "+OUT_R_16",
+          "pin_type": "output"
+        },
+        {
+          "pin": "3",
+          "net": "Net-(U1--OUT_L)",
+          "pin_function": "-OUT_L_3",
+          "pin_type": "output"
+        },
+        {
+          "pin": "14",
+          "net": "Net-(U1--OUT_R)",
+          "pin_function": "-OUT_R_14",
+          "pin_type": "output"
+        },
+        {
+          "pin": "7",
+          "net": "Net-(U1-INL)",
+          "pin_function": "INL_7",
+          "pin_type": "input"
+        },
+        {
+          "pin": "10",
+          "net": "Net-(U1-INR)",
+          "pin_function": "INR_10",
+          "pin_type": "input"
+        },
+        {
+          "pin": "9",
+          "net": "Net-(U1-MODE)",
+          "pin_function": "MODE_9",
+          "pin_type": "input"
+        },
+        {
+          "pin": "6",
+          "net": "Net-(U1-VDD)",
+          "pin_function": "VDD_6",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "8",
+          "net": "Net-(U1-VREF)",
+          "pin_function": "VREF_8",
+          "pin_type": "passive"
+        },
+        {
+          "pin": "5",
+          "net": "Net-(U1-~{MUTE})",
+          "pin_function": "~{MUTE}_5",
+          "pin_type": "input"
+        },
+        {
+          "pin": "12",
+          "net": "Net-(U1-~{SHND})",
+          "pin_function": "~{SHND}_12",
+          "pin_type": "input"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "U2",
+      "value": "TLV320AIC3104IRHBR",
+      "footprint": "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm",
+      "fields": {
+        "LCSC Part": "C181753",
+        "Footprint": "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm",
+        "Datasheet": "https://lcsc.com/product-detail/Audio-OpAmps_TI_TLV320AIC3104IRHBR_TLV320AIC3104IRHBR_C181753.html",
+        "Description": null
+      },
+      "pins": [
+        {
+          "pin": "32",
+          "net": "+1V8",
+          "pin_function": "DVDD_32",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "18",
+          "net": "+3V3",
+          "pin_function": "DRVDD_18",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "24",
+          "net": "+3V3",
+          "pin_function": "DRVDD_24",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "25",
+          "net": "+3V3",
+          "pin_function": "AVDD_25",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "7",
+          "net": "+3V3",
+          "pin_function": "IOVDD_7",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "9",
+          "net": "/Schematic/Audio/IO_02",
+          "pin_function": "SDA_9",
+          "pin_type": "bidirectional"
+        },
+        {
+          "pin": "8",
+          "net": "/Schematic/Audio/IO_03",
+          "pin_function": "SCL_8",
+          "pin_type": "input"
+        },
+        {
+          "pin": "2",
+          "net": "/Schematic/Audio/IO_18",
+          "pin_function": "BCLK_2",
+          "pin_type": "bidirectional"
+        },
+        {
+          "pin": "3",
+          "net": "/Schematic/Audio/IO_19",
+          "pin_function": "WCLK_3",
+          "pin_type": "bidirectional"
+        },
+        {
+          "pin": "5",
+          "net": "/Schematic/Audio/IO_20",
+          "pin_function": "DOUT_5",
+          "pin_type": "output"
+        },
+        {
+          "pin": "4",
+          "net": "/Schematic/Audio/IO_21",
+          "pin_function": "DIN_4",
+          "pin_type": "input"
+        },
+        {
+          "pin": "11",
+          "net": "GND",
+          "pin_function": "MIC1LM/LINE1LM_11",
+          "pin_type": "input"
+        },
+        {
+          "pin": "13",
+          "net": "GND",
+          "pin_function": "MIC1RM/LINE1RM_13",
+          "pin_type": "input"
+        },
+        {
+          "pin": "17",
+          "net": "GND",
+          "pin_function": "AVSS1_17",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "21",
+          "net": "GND",
+          "pin_function": "DRVSS_21",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "26",
+          "net": "GND",
+          "pin_function": "AVSS2_26",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "33",
+          "net": "GND",
+          "pin_function": "EP_33",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "6",
+          "net": "GND",
+          "pin_function": "DVSS_6",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "27",
+          "net": "Net-(U2-LEFT_LOP)",
+          "pin_function": "LEFT_LOP_27",
+          "pin_type": "output"
+        },
+        {
+          "pin": "1",
+          "net": "Net-(U2-MCLK)",
+          "pin_function": "MCLK_1",
+          "pin_type": "input"
+        },
+        {
+          "pin": "10",
+          "net": "Net-(U2-MIC1LP/LINE1LP)",
+          "pin_function": "MIC1LP/LINE1LP_10",
+          "pin_type": "input"
+        },
+        {
+          "pin": "12",
+          "net": "Net-(U2-MIC1RP/LINE1RP)",
+          "pin_function": "MIC1RP/LINE1RP_12",
+          "pin_type": "input"
+        },
+        {
+          "pin": "14",
+          "net": "Net-(U2-MIC2L/LINE2L/MICDET)",
+          "pin_function": "MIC2L/LINE2L/MICDET_14",
+          "pin_type": "input"
+        },
+        {
+          "pin": "16",
+          "net": "Net-(U2-MIC2R/LINE2R)",
+          "pin_function": "MIC2R/LINE2R_16",
+          "pin_type": "input"
+        },
+        {
+          "pin": "15",
+          "net": "Net-(U2-MICBIAS)",
+          "pin_function": "MICBIAS_15",
+          "pin_type": "output"
+        },
+        {
+          "pin": "29",
+          "net": "Net-(U2-RIGHT_LOP)",
+          "pin_function": "RIGHT_LOP_29",
+          "pin_type": "output"
+        },
+        {
+          "pin": "31",
+          "net": "Net-(U2-~{RESET})",
+          "pin_function": "~{RESET}_31",
+          "pin_type": "input"
+        },
+        {
+          "pin": "20",
+          "net": "unconnected-(U2-HPLCOM-Pad20)",
+          "pin_function": "HPLCOM_20",
+          "pin_type": "output+no_connect"
+        },
+        {
+          "pin": "19",
+          "net": "unconnected-(U2-HPLOUT-Pad19)",
+          "pin_function": "HPLOUT_19",
+          "pin_type": "output+no_connect"
+        },
+        {
+          "pin": "22",
+          "net": "unconnected-(U2-HPRCOM-Pad22)",
+          "pin_function": "HPRCOM_22",
+          "pin_type": "output+no_connect"
+        },
+        {
+          "pin": "23",
+          "net": "unconnected-(U2-HPROUT-Pad23)",
+          "pin_function": "HPROUT_23",
+          "pin_type": "output+no_connect"
+        },
+        {
+          "pin": "28",
+          "net": "unconnected-(U2-LEFT_LOM-Pad28)",
+          "pin_function": "LEFT_LOM_28",
+          "pin_type": "output+no_connect"
+        },
+        {
+          "pin": "30",
+          "net": "unconnected-(U2-RIGHT_LOM-Pad30)",
+          "pin_function": "RIGHT_LOM_30",
+          "pin_type": "output+no_connect"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "U3",
+      "value": "XC6206P182MR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-3",
+      "fields": {
+        "LCSC Part": "C347373",
+        "Footprint": "Package_TO_SOT_SMD:SOT-23-3",
+        "Datasheet": "https://www.torexsemi.com/file/xc6206/XC6206.pdf",
+        "Description": "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
+      },
+      "pins": [
+        {
+          "pin": "2",
+          "net": "+1V8",
+          "pin_function": "VO_2",
+          "pin_type": "power_out"
+        },
+        {
+          "pin": "3",
+          "net": "+3V3",
+          "pin_function": "VI_3",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "1",
+          "net": "GND",
+          "pin_function": "GND_1",
+          "pin_type": "power_in"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    },
+    {
+      "reference": "Y1",
+      "value": "12 MHz",
+      "footprint": "Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm",
+      "fields": {
+        "LCSC Part": "C7425459",
+        "Man.": "     YXC Crystal Oscillators ",
+        "Man. Ref.": "    OT3EL89CJI-111YLC-12M",
+        "FT Rotation Offset": null,
+        "Footprint": "Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm",
+        "Datasheet": "https://abracon.com/Oscillators/ASCO.pdf",
+        "Description": "Crystal Clock Oscillator"
+      },
+      "pins": [
+        {
+          "pin": "1",
+          "net": "+3V3",
+          "pin_function": "Tri-State_1",
+          "pin_type": "input"
+        },
+        {
+          "pin": "4",
+          "net": "+3V3",
+          "pin_function": "VDD_4",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pin_function": "GND_2",
+          "pin_type": "power_in"
+        },
+        {
+          "pin": "3",
+          "net": "Net-(U2-MCLK)",
+          "pin_function": "OUT_3",
+          "pin_type": "output"
+        }
+      ],
+      "electrical_model": null,
+      "model_pin_mapping_verified": false,
+      "electrical_acceptance": "unverified",
+      "note": "ERC/DRC and Gerber export do not establish component behavior."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "official-Robot-HAT-reference",
+      "native_kicad": true,
+      "fabrication_ready": false,
+      "electrical_simulation_complete": false
+    },
+    {
+      "id": "community-Feetech-IMU",
+      "native_kicad": false,
+      "host_firmware_checks": {
+        "protocol": 104,
+        "imu_scenarios": 16,
+        "control_table": 32,
+        "bus_integration": 24
+      },
+      "host_checks_passed": true,
+      "cpu_execution_emulated": false,
+      "physical_electrical_validation": false,
+      "xl330_protocol_compatibility": "not established; firmware implements Feetech SCS"
+    },
+    {
+      "id": "community-XL330-native-CAD",
+      "mechanical_assembly_resolved": true,
+      "matching_full_electronics_and_firmware": "unverified"
+    }
+  ]
+}

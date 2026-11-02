@@ -1,0 +1,148 @@
+{
+  "candidate": "imu_to_dxl_1V0A",
+  "geometry_engine": "Shapely/GEOS independent of native KiCad union",
+  "coordinate_comparison_tolerance_nm": 2,
+  "physical_equivalence_scope": "all literal saved copper",
+  "copper_differences": [
+    {
+      "layer": 0,
+      "net": "/SPI_SCK",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/GND",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/DXL_DATA",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/3.3V",
+      "symmetric_difference_mm2": 2.83420580036053e-07,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/DE",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/IMU_INT2",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/DXL_BUS",
+      "symmetric_difference_mm2": 3.716289504760761e-08,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/RX_EN",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/UART_TX",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/MCU_TX",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/SWDCLK",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/SPI_MISO",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/NRST",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/VDD_BUS",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/UART_RX",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/SPI_CS",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/IMU_INT1",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/SPI_MOSI",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/SWDIO",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 2,
+      "net": "/3.3V",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 2,
+      "net": "/SPI_MISO",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 2,
+      "net": "/RX_EN",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 2,
+      "net": "/GND",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    }
+  ],
+  "max_difference_mm2": 2.83420580036053e-07,
+  "manufacturing_ready": false
+}

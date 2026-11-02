@@ -1,0 +1,98 @@
+{
+  "schema": "microduck-pcb-model-review-package/v1",
+  "passed": true,
+  "projects": [
+    {
+      "candidate": "imu_to_dxl",
+      "models": 29,
+      "drc_counts": {
+        "zones_intersect": 4,
+        "copper_edge_clearance": 1,
+        "via_dangling": 11,
+        "silk_edge_clearance": 1,
+        "silk_overlap": 31,
+        "silk_over_copper": 9
+      },
+      "airwires": 0,
+      "schematic_parity": 0,
+      "blender_mesh_objects": 124,
+      "blender_vs_step_max_bounds_difference_mm": 5.259299502569093e-07,
+      "blender_review_sha256": "56428c2312ce153d4067dae06be455047c89355d97802d13ce3e4a4ea0d81c07",
+      "drc_report_sha256": "d16d2479129b24661f2cd7ee5a5d43358bdc012bf8264e346749e2a60023dc9c",
+      "passed": true
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A",
+      "models": 23,
+      "drc_counts": {
+        "clearance": 245,
+        "hole_clearance": 15,
+        "zones_intersect": 5,
+        "copper_edge_clearance": 1,
+        "solder_mask_bridge": 64,
+        "silk_overlap": 37,
+        "silk_over_copper": 11
+      },
+      "airwires": 0,
+      "schematic_parity": 0,
+      "blender_mesh_objects": 84,
+      "blender_vs_step_max_bounds_difference_mm": 4.861831683911078e-07,
+      "blender_review_sha256": "9ecd3e2324302d1a9e2148c1938c409de576ea09182f906fe1ee04e4f8bb563c",
+      "drc_report_sha256": "ed66da4afee9afccf05c5319fd92d99f292e70ab2cfcd9246eac6f6060520cda",
+      "passed": true
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A-transition-hypothesis",
+      "models": 23,
+      "drc_counts": {
+        "clearance": 12,
+        "zones_intersect": 5,
+        "copper_edge_clearance": 1,
+        "silk_overlap": 37,
+        "silk_over_copper": 11
+      },
+      "airwires": 0,
+      "schematic_parity": 0,
+      "blender_mesh_objects": 84,
+      "blender_vs_step_max_bounds_difference_mm": 4.861831683911078e-07,
+      "blender_review_sha256": "6370d0ea7ab259b310112bc43a0ba1cf02d1b2539fab6511a2535dd9fc284605",
+      "drc_report_sha256": "3abadcf996a6d51c75f1a68b0d5e1396e51fae2e51db7fd16c2af91105ae1829",
+      "passed": true
+    },
+    {
+      "candidate": "wire_hub_1V0A",
+      "models": 7,
+      "drc_counts": {
+        "clearance": 1,
+        "copper_edge_clearance": 17,
+        "silk_edge_clearance": 1,
+        "silk_overlap": 6
+      },
+      "airwires": 0,
+      "schematic_parity": 0,
+      "blender_mesh_objects": 59,
+      "blender_vs_step_max_bounds_difference_mm": 1.976535116909872e-06,
+      "blender_review_sha256": "117dd5fa755fb3a00ba3942a73e62ff52385c437c8881d0e1b6c23cc966affb3",
+      "drc_report_sha256": "c8223c33bbad632cdbbdfdf06e6f5c4c89aa83919c518e223fee6449faf594be",
+      "passed": true
+    },
+    {
+      "candidate": "POGO_PIN_1V0A",
+      "models": 2,
+      "drc_counts": {
+        "nonmirrored_text_on_back_layer": 2
+      },
+      "airwires": 0,
+      "schematic_parity": 0,
+      "blender_mesh_objects": 3,
+      "blender_vs_step_max_bounds_difference_mm": 2.815387730947805e-06,
+      "blender_review_sha256": "1838a731cf078f1ddfb9b3928fc914d9e23ef6bb8f418001eba01bf87dd6183f",
+      "drc_report_sha256": "650d887d5a01c3b37a4cda867a198272fad85992086213e28c0fa3c29deaf089",
+      "passed": true
+    }
+  ],
+  "bounds_tolerance_mm": 0.02,
+  "scope": "Exact non-model PCB tokens, unchanged native DRC counts, portable model/export hashes and Blender/STEP bounds; CAD geometry receipts verified separately",
+  "source_geometry_and_physical_fit_qualified": false,
+  "manufacturing_ready": false
+}

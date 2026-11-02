@@ -1,0 +1,135 @@
+MicroDuck copper, source-rule and buffer-model progress — 2026-10-26
+
+Outcome
+Separate engineering copies now consolidate same-net cached copper, project
+three evidenced source minima, and restore the battery board's copper-graphic
+classification. Baseline/recovered source boards remain unchanged. EasyEDA
+activation is not used. Complete robot reproduction is still unverified.
+
+Current native KiCad DRC results
+Candidate                       Previous paired        Current engineering
+Older IMU                            70                       34
+Revised IMU, literal source          511                      363
+Revised IMU, transition hypothesis   146                       41
+Repaired hub                         36                       36
+Battery board                         8                        0
+All listed engineering copies have zero airwires and zero schematic-parity
+findings. Counts can depend on KiCad/item ordering; read the per-copy JSON.
+Zero airwires and even zero DRC are NOT manufacturing approval.
+
+Projects for review
+Older IMU:
+editing/kicad-source-rules-projected/imu_to_dxl/imu_to_dxl.kicad_pro
+Hub:
+editing/kicad-source-rules-projected/wire_hub_1V0A/wire_hub_1V0A.kicad_pro
+Battery board, source copper graphics restored:
+editing/kicad-graphic-corrected/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_pro
+Revised IMU, literal interpretation (contains unresolved large GND fill):
+editing/kicad-source-rules-projected/imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_pro
+Revised IMU, EXPLICIT engineering hypothesis:
+editing/kicad-source-rules-projected/imu_to_dxl_1V0A-transition-hypothesis/imu_to_dxl_1V0A.kicad_pro
+
+Copper consolidation
+editing/kicad-copper-consolidated/ contains five copied paired projects. Saved
+copper was unioned only within the same native net and copper layer; disconnected
+regions remain separate static zones. Track/via geometry, pad polygons and
+drills were compared with the parent and preserved. Native saved-copper XOR
+checks are zero for every group. Independent Shapely/GEOS checks confirm that
+all differences lie within a 2 nm coordinate band, accounting for KiCad's
+integer-grid clipping of intersections. The largest GEOS area difference is
+about 2.84e-7 mm2, confined to that band. The union was not refilled or rerouted.
+Same-net overlaps were reduced without suppressing DRC checks. Boundary-touch
+zone warnings remain and must be assessed, rather than assigned arbitrary
+priorities merely to clear the report.
+
+The revised-IMU hypothesis explicitly excludes only the old large F.Cu FILL
+84a63625734e769f, identified by its source history, name, layer and area. It
+retains the later copper cache. No FILL tombstone has been found. The hypothesis
+has not become verified source intent; its geometry-equivalence scope excludes
+that one removal. Literal copies continue to preserve it and expose the shorts.
+
+Source manufacturing minima
+audit/source-rule-review.txt/.json and source-manufacturing-minima.json record
+the installed client decoder/DRC evidence and exact bundle hashes. Static file
+inspection requires no activation. The installed decoder divides raw rule
+lengths by 10 into 0.01-inch internal units: raw lengths are mil. RADIUS fields
+are radii and the installed DRC doubles them for diameter checks. Missing TRACK
+layers use reference layer 1. All four boards have no TRACK/RADIUS selector
+overrides and no named-via overrides.
+
+The engineering .kicad_pro files project these limits on KiCad's nm grid:
+  track width min                 0.127000 mm
+  via outer diameter min          0.499999 mm
+  through-hole/drill diameter min  0.299999 mm
+The source via-drill value is 0.2999994 mm before quantization. Rounding it
+upward to 0.300000 mm would create 1 nm false findings against the imported
+geometry. KiCad's global through-hole minimum also applies to PTH component
+pads; this is a bounded projection of the source via limit, not a reconstruction
+of every possible source hole rule. No existing PTH violation is hidden by this
+1 nm correction. Board files are BYTE-IDENTICAL to the consolidated parents;
+only the project constraints change.
+
+The latest published schema conflicts with this installed version's decoder
+unit convention. Preserve that version distinction. SAFE is a pair-class
+matrix, not one global clearance. Its indices and evidence are documented, but
+full native pair-class/selector translation remains incomplete. Mask/paste,
+edge and other clearances, maximum widths and default routing sizes are not
+fully translated. Do not weaken them based on plausible-looking numbers.
+
+Battery copper rings
+The active source contains two F.Cu POLY NORMAL circles with empty netName;
+the earlier converter represented their four halves as PCB_ARC tracks. Source
+graphics use a different clearance class from tracks. Their ~0.1 mm strokes
+therefore acquired four inappropriate track-width and four dangling-track
+findings. They are not isolated: each ring intersects two same-net 1.016 mm
+traces, which reach the PTH pads. The small gap from ring directly to PTH copper
+does not break that trace connection. audit/pogo-copper-ring-review.txt/.json
+records positive overlap areas and source IDs.
+
+restore_pogo_copper_graphics.py creates four net-assigned native gr_arc items,
+preserving exact saved start/mid/end, width, layer and parent derived net name.
+Pads and five trace segments are unchanged. No bridge or extra copper is added.
+The corrected copy passes native DRC/parity with zero findings. Its fabrication
+dimensions, solder mask, connector fit and electrical acceptance remain open.
+
+PCB-mapped buffer functional slice
+The eight physical SN74LVC2G241DCUR U3 pins and recovered PCB nets were reviewed
+against TI's datasheet. Two unchanged vendor active-high stages are placed in
+an authored eight-port wrapper. RX maps directly; TX enable uses an explicitly
+ideal algebraic inverter to model its active-low logical function.
+test_ti_buffer_package.py checks the recovered/native pin maps, R4/R5/R7 10k
+pull-ups and placed R6=0R, keeping DXL_DATA/DXL_BUS as separate nodes connected
+by a zero-volt link. All 12 cases and 22 voltage assertions pass: TX/RX logic,
+disabled-state fixture pulls, reset TX-off/RX-on bias, and TX-to-bus-to-RX loops.
+CPU and external bus signals are fixed-voltage mocks.
+
+Scope is fixed 3.3 V and enable voltages within 0..VCC. The ideal inversion
+does not qualify physical input capacitance, enable timing or shared package
+current. No power-off, overvoltage/back-drive, corner, contention, whole-board
+or hardware result is implied. Original TI model hash/notices are preserved.
+Read audit/buffer-package-review.txt and the wrapper comments before reuse.
+
+Repeatable commands
+Use WSL NVIDIA-Workbench and /home/workbench/robotics/pcb-tools/venv/bin/python.
+For each of POGO_PIN_1V0A, imu_to_dxl, imu_to_dxl_1V0A, wire_hub_1V0A, and
+imu_to_dxl_1V0A-transition-hypothesis:
+  tools/consolidate_static_copper.py --candidate <name>
+  tools/project_source_minima.py --candidate <name>
+Then:
+  tools/restore_pogo_copper_graphics.py
+  tools/test_ti_buffer_package.py
+  tools/verify_copper_engineering.py
+Existing generated outputs require --overwrite-generated. Preserve user edits.
+run_software_checks.py now includes the mapped buffer and copper verification.
+The latter is a geometry/provenance check, not a promise of zero physical DRC.
+
+Remaining release gates
+Reconcile original/alternate copper intent; translate and validate full source
+rules and mask/paste; finish source footprint graphics/models and qualified
+symbol pin types; resolve eight floating-pin intentions; validate manufacturing
+BOM/tolerances/harness, connector fit and power protection. Exact MCU/peripheral
+execution, complete-board electrical behavior and physical power/timing/thermal
+tests remain unqualified. Original CAD/production electronics access and one
+consistent CAD/actuator/firmware/simulation variant are still needed. The prior
+Isaac test proves training/export/replay integration, not walking quality or a
+ready-to-deploy robot. No physical hardware was operated or firmware flashed.

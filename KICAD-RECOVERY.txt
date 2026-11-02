@@ -1,0 +1,72 @@
+Activation-free recovery — 2026-10-26
+
+Result
+All four community .eprj2 files were read locally without running/activating
+EasyEDA, signing in, or uploading design files. All original file hashes match.
+Reader: https://github.com/alwaysmy/lceda-sch-reader
+Pinned revision: da5b4d46565ced7ef63fd710229959d853fc70ab
+Local checkout: work/lceda-sch-reader, outside the deliverable asset package.
+No explicit license file was found. Treat it as source-available local tooling,
+not a confirmed open-source licensed dependency. Its code is not redistributed.
+The source reader uses keys stored in the local project files to recover data;
+it does not activate or modify the proprietary editor.
+
+Editable KiCad electrical-review schematics
+editing/kicad-recovered/imu_to_dxl/imu_to_dxl.kicad_sch — 29 components
+editing/kicad-recovered/imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_sch — 24
+editing/kicad-recovered/wire_hub_1V0A/wire_hub_1V0A.kicad_sch — 7
+editing/kicad-recovered/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_sch — 3
+
+Each has embedded generic symbols, recovered physical pin numbers/names, and
+electrical net labels. All pins are conservatively typed passive: an ERC pass
+would NOT establish electrical correctness. Original graphics, page composition,
+native footprint assignments and routed PCB layouts are not recreated.
+Use these as review schematics, not manufacturing-ready replacements.
+
+Verification
+KiCad 10 CLI successfully loaded all four and exported XML netlists and SVG
+previews. All 63 component entries survived. 216 originally named pin assignments
+plus two pins on one unnamed direct wire match the recovered connection contract
+after accounting for KiCad's root-sheet '/' net prefix. No mismatches.
+The unnamed old-board R3.1 <-> X1.OUTPUT wire is retained with the explicitly
+generated RECOVERED_UNNAMED_1 label; it is not assumed electrically disconnected.
+Eight pins (four on each IMU variant) have no recovered named net or direct-wire
+peers, and no explicit no-connect marker. They remain open/unresolved, not guessed
+intentional no-connects. Independent PDF/pinout verification is still required.
+Full report: audit/pcb-tools/kicad-reconstruction-validation.json.
+
+Recovered sources
+editing/recovered-community/<candidate>/ has component/BOM/pin-map/netlist JSON,
+schematic-vs-PCB inventory, raw reader PCB records and a locally recovered V3
+archive. This archive is a reader reconstruction, not a vendor-validated export;
+do not call it a complete native round trip. Recovered counts agree with author
+documentation for the revised IMU and hub; detailed electrical verification is
+pending. The reader's own inferred connectivity is not independent ground truth.
+
+PCB layout conversion remains unresolved
+KiCad's native EasyEDA importer returned an empty board for the recovered V3
+archive (zero footprints/tracks); that result was rejected and not saved as a
+converted PCB. The reader's separate strict geometry extractor also rejected the
+reconstructed archive with MISSING_DOCHEAD at line 1. It expects a different
+observed export dialect. No repaired or partial layout is presented as complete.
+Full copper, drill, pad, footprint, outline and net validation is still required.
+
+Important recovered details
+- Revised IMU J1: 1 DXL_BUS / 2 VDD_BUS / 3 GND.
+- Revised IMU J2: 1 GND / 2 VDD_BUS / 3 DXL_BUS, plus pins 4/5 tied GND.
+- U3: 1 DE, 2 MCU_TX, 3 MCU_RX, 4 GND, 5/6 DXL_DATA, 7 RX_EN, 8 3.3V.
+- Preserve separate DXL_BUS and DXL_DATA nets across R6. The reader's optional
+  resolved_nets traverses zero-ohm resistors; using that as direct copper would
+  merge nets incorrectly. Generator uses direct net and direct-wire peers only.
+
+Reproduce
+tools/recover_community_boards.py --reader <pinned checkout>
+tools/build_recovered_kicad_schematics.py
+tools/verify_recovered_kicad.py (uses installed Windows KiCad CLI)
+First script needs cryptography in the isolated PCB-tools Python environment.
+Other generated artifacts are checked into this package, so the reader isn't
+needed for normal KiCad editing. Regeneration overwrites derived review copies;
+preserve user edits before invoking it again.
+
+Preferred workflow from here: native KiCad, no EasyEDA activation dependency.
+Do not activate, uninstall or alter the staged EasyEDA clients automatically.

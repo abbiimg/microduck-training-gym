@@ -1,0 +1,93 @@
+{
+  "candidate": "wire_hub_1V0A",
+  "kind": "intentional subtractive engineering repair of stale cache",
+  "parent_board": "editing/kicad-integrated/wire_hub_1V0A/wire_hub_1V0A.kicad_pcb",
+  "parent_sha256": "4cfa1b835e92eeb719fdf5658c41dbf6b8304028bbf2a17ea36d8b0af9a9bc64",
+  "engineering_board_sha256": "0d4deaf67fb7269589e09dd216a27f80bb8a1d8edbadfe09fa7431df0d0cf58c",
+  "source_replay_sha256": "63f16a87e4815eb35378cb619acc4b289bd5ac10e9bdd9f82685fbb9e80431cb",
+  "source_history_evidence": "audit/copper-overlap-source-review.json",
+  "source_history_evidence_sha256": "e775e14e798f6941c50a4260ffd5456929fadeca9ba449391c0efd335b399680",
+  "source_cache_ticket": 47251,
+  "source_component_first_ticket": 47725,
+  "target_pad": {
+    "reference": "CN1",
+    "number": "1",
+    "uuid": "b7dfd672-be4a-4303-956c-920e950739d0",
+    "net": "/Battery",
+    "x_mm": 59.817,
+    "y_mm": -23.241
+  },
+  "changed_zone": {
+    "uuid": "5db085cf-4ed6-451b-bcde-86e00f427419",
+    "name": "Static union /GND B.Cu 0",
+    "layer": "B.Cu",
+    "net": "/GND"
+  },
+  "clearance": {
+    "source_classes": [
+      2,
+      7
+    ],
+    "source_raw_mil": 10,
+    "source_exact_mm": 0.254,
+    "required_native_nm": 254000,
+    "outward_rounding_guard_nm": 2,
+    "polygon_max_error_nm": 1,
+    "operation": "native SHAPE_POLY_SET round-all-corners inflation of zero-clearance pad polygon; saved gap checked using a fresh native pad",
+    "measured_gap_mm": 0.2540005194468886
+  },
+  "copper_change": {
+    "before_mm2": 505.0845429421997,
+    "after_mm2": 503.7879912540618,
+    "removed_mm2": 1.2965516883391688,
+    "added_mm2": 2.0116358543727895e-10,
+    "native_added_area_mm2": 0.0,
+    "native_removed_vs_expected_xor_mm2": 1.21405e-08,
+    "removal_difference_outside_2nm_precision_band_mm2": 0.0,
+    "independent_expected_after_xor_mm2": 5.5148998980056556e-09,
+    "independent_after_difference_outside_2nm_precision_band_mm2": 0.0,
+    "saved_vs_expected_xor_mm2": 0.0,
+    "before_pad_overlap_mm2": 0.20167492288122088,
+    "after_pad_overlap_mm2": 0.0,
+    "raw_removal_difference_outside_exclusion_2nm_band_mm2": 5.298326515781063e-09,
+    "independent_added_copper_outside_original_2nm_boundary_band_mm2": 0.0
+  },
+  "board_text_outside_single_ground_zone_identical": true,
+  "other_zone_text_identical": true,
+  "unchanged_project_schematic_rules_libraries": {
+    "fp-lib-table": "9574e9b3397832b432ea9c4b5805ae68cc04f2441b25acbd9f0facfbf1dc3ac0",
+    "Recovered.kicad_sym": "016db0e8893821bbd97f023467fe6e0d922d9657d3aef8bda5ba6315bd393bc0",
+    "sym-lib-table": "0e0ba8edc148421cc63d275baa90d273b3c07a7d1708f072aba60633897fc0c2",
+    "wire_hub_1V0A.kicad_dru": "4424baabfc88642e128e3185566bbc9b1c55d8d16cec697c62bbff50322f7676",
+    "wire_hub_1V0A.kicad_pro": "33c2ba5a756e0340c804c37493ff286f23b1f58289012c993740d7fa9f7fcc9f",
+    "wire_hub_1V0A.kicad_sch": "b5559a20ea0d2dc8e99a768ee2a4f1eb8edc228a3eb0de61926625431857dca9",
+    "RecoveredLayout.pretty/CN1.kicad_mod": "2aeafde7feb991b751f57e3fdbf2e256a3c854a5f93dd45da1ab6eb26878e571",
+    "RecoveredLayout.pretty/J1.kicad_mod": "bb287d40ba33e0dfd41de2ff2f100b117358fa91254dbc37c630707bf7134fc8",
+    "RecoveredLayout.pretty/J2.kicad_mod": "901f70b623c8d0d665918e8a37dbd0c0dce7882b016ae1aa2ea8f5aa804430c1",
+    "RecoveredLayout.pretty/J3.kicad_mod": "c5e6a410e034516f317b6cb9c7039edb111a8b4dfc574b1e9dac4f12f3871f3b",
+    "RecoveredLayout.pretty/J4.kicad_mod": "009b12f23e60a26d9994786ce61edc9addfff6833fab6dd61f6f9f9d87d94f1f",
+    "RecoveredLayout.pretty/J5.kicad_mod": "f4b140901e3f0fa303b84cbd9f0d9aa3c3a8cbd6572c3cdb4576adef0bd17064",
+    "RecoveredLayout.pretty/J6.kicad_mod": "ab60440f262d4daf770f49677cc4c7f5a2c40a5cb66877deb5058edfebadfdea"
+  },
+  "source_board_and_replay_unchanged": true,
+  "source_rule_limits_changed": false,
+  "nets_pads_tracks_vias_outline_silk_mask_paste_unchanged": true,
+  "model_attachments": 0,
+  "copper_refilled": false,
+  "drc_before": {
+    "copper_edge_clearance": 17,
+    "clearance": 1,
+    "silk_overlap": 6,
+    "silk_edge_clearance": 1
+  },
+  "drc_after": {
+    "copper_edge_clearance": 17,
+    "silk_overlap": 6,
+    "silk_edge_clearance": 1
+  },
+  "schematic_parity": [],
+  "unconnected": 0,
+  "manufacturing_ready": false,
+  "drc_report_sha256": "a911ca59c396c8f8b0ceac9f1b6ed275d0e269731003c91e7b202ba37b5ca29e",
+  "coordinate_precision_band_nm": 2
+}

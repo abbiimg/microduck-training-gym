@@ -1,0 +1,75 @@
+{
+  "name": "neck_pitch",
+  "label_zh": "颈部俯仰件",
+  "quantity": 1,
+  "units": "mm",
+  "stl": "01_STL_original/neck_pitch__颈部俯仰件__x1.stl",
+  "step": "02_STEP_final/neck_pitch__颈部俯仰件__x1.step",
+  "stl_sha256": "70c1f5cb1c0cbbac93527753aa47548c9ee84f304fd1d8aba36adb1ce9d9dbc9",
+  "step_sha256": "e9f97031e04a899a47807366ade26341b789667d683ea5f8907b3bad1a587f5b",
+  "stl_bytes": 356084,
+  "step_bytes": 711507,
+  "stl_triangles": 7120,
+  "cad_faces": 111,
+  "valid_solid": true,
+  "deviation": {
+    "source_to_rebuilt": {
+      "samples": 10652,
+      "max_mm": 0.011106676749406663,
+      "rms_mm": 0.0019487111343001963,
+      "worst_point_mm": [
+        -10.138044198354086,
+        -2.0913400650024414,
+        -15.170708656311035
+      ]
+    },
+    "rebuilt_to_source": {
+      "samples": 38273,
+      "max_mm": 0.01263279528657801,
+      "rms_mm": 0.0024036523618433964,
+      "worst_point_mm": [
+        9.67327397575969,
+        2.2567735333297434,
+        -15.186032984181573
+      ]
+    }
+  },
+  "additional_audit": {
+    "random_bidirectional_samples": {
+      "source_to_step": {
+        "samples": 20000,
+        "max_mm": 0.01260822980067825,
+        "rms_mm": 0.0026604586655989758
+      },
+      "step_to_source": {
+        "samples": 20000,
+        "max_mm": 0.012818998289307128,
+        "rms_mm": 0.0027334257096243444
+      }
+    },
+    "bounding_box_max_delta_mm": 0.0029566778159271223,
+    "volume_error_percent": -0.02544062167297856,
+    "edit_test": {
+      "operation": "subtract 0.4 mm box from material",
+      "center_mm": [
+        0.0,
+        -8.9,
+        -16.56056086222331
+      ],
+      "valid_after_cut": true,
+      "removed_volume_mm3": 0.04819517911892035
+    },
+    "sha256": "e9f97031e04a899a47807366ade26341b789667d683ea5f8907b3bad1a587f5b"
+  },
+  "improved_in_latest_round": false,
+  "max_sampled_deviation_mm": 0.01263279528657801,
+  "max_extra_sampled_deviation_mm": 0.012818998289307128,
+  "measured_bbox_mm": [
+    -17.5,
+    -9.002956677815545,
+    -37.793114767204,
+    17.5000000000005,
+    9.002956677815927,
+    -10.09999932779
+  ]
+}

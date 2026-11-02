@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "lcsc") (type "KiCad") (uri "${KIPRJMOD}/libs/lcsc.pretty") (options "") (descr "Imported candidates")) (lib (name "C19702") (type "KiCad") (uri "${KIPRJMOD}/libs/C19702.pretty") (options "") (descr "Separate capacitor model")))

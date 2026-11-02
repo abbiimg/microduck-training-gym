@@ -1,0 +1,10 @@
+{
+  "cases": 12,
+  "checks_passed": 22,
+  "checks_total": 22,
+  "all_passed": true,
+  "whole_pcb_simulation": false
+}
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined

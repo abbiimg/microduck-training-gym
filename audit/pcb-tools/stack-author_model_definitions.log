@@ -1,0 +1,12 @@
+{
+  "metadata_model_ids_covered": 22,
+  "device_metadata_records": 62,
+  "source_instances_checked": 61,
+  "definition_variants": 22,
+  "step_and_stl_hashes_and_stl_lengths_verified": true,
+  "canonical_equivalence": "metric-only; unqualified",
+  "full_brep_equivalence_proven": false,
+  "kicad_attachment_performed": false,
+  "revised_imu_J3_placement_recovered": false,
+  "manufacturing_ready": false
+}

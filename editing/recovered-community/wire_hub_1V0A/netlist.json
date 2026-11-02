@@ -1,0 +1,62 @@
+[
+  {
+    "net": "Battery",
+    "sheets": [
+      "wire_hub::1-Conector"
+    ],
+    "components": [
+      "CN1",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6",
+      "PORT497c02a9f327ec5e",
+      "PORTa2ee798ee81b1c98",
+      "PORTb13dd3d090815bbe",
+      "PORTb92a311b29aa97ea",
+      "PORTbff30eec59f236c3",
+      "PORTd825e7758520d14c",
+      "PORTf579b4060c579ba2"
+    ]
+  },
+  {
+    "net": "DXL_BUS",
+    "sheets": [
+      "wire_hub::1-Conector"
+    ],
+    "components": [
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ]
+  },
+  {
+    "net": "GND",
+    "sheets": [
+      "wire_hub::1-Conector"
+    ],
+    "components": [
+      "CN1",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6",
+      "PORT0c74c2033e75e541",
+      "PORT8b2d98a9ee3a59ea",
+      "PORT66fe927b1e13a7eb",
+      "PORTa08a46b0f43e162c",
+      "PORTa56c9d1950221685",
+      "PORTaf182c6f6514c14e",
+      "PORTb41eecbff386e280",
+      "PORTfb5d7e0642fd5179",
+      "PORTfe07c1fa6992c4a9"
+    ]
+  }
+]

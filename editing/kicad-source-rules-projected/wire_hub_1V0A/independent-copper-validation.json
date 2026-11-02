@@ -1,0 +1,28 @@
+{
+  "candidate": "wire_hub_1V0A",
+  "geometry_engine": "Shapely/GEOS independent of native KiCad union",
+  "coordinate_comparison_tolerance_nm": 2,
+  "physical_equivalence_scope": "all literal saved copper",
+  "copper_differences": [
+    {
+      "layer": 0,
+      "net": "/GND",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/Battery",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    },
+    {
+      "layer": 2,
+      "net": "/GND",
+      "symmetric_difference_mm2": 0.0,
+      "outside_native_precision_band_mm2": 0.0
+    }
+  ],
+  "max_difference_mm2": 0.0,
+  "manufacturing_ready": false
+}

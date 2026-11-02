@@ -1,0 +1,296 @@
+[
+  {
+    "net": "3.3V",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C7",
+      "J3",
+      "PORT1b0c014f6e18d941",
+      "PORT2b99673335090ea2",
+      "PORT03d00f6a40f6b6ba",
+      "PORT5f09d949bb852422",
+      "PORT8a7dbfb71064cb90",
+      "PORT47a8fd2df9f83a6d",
+      "PORT10410e6b7821f10c",
+      "PORT14180fcc92b8a79d",
+      "PORTa7d27ec2a039d8ff",
+      "PORTdfa0a04d0653edaf",
+      "PORTe9e69682c5771fdd",
+      "PORTef7b4e2dacbdcf2d",
+      "R1",
+      "R2",
+      "R4",
+      "R5",
+      "R7",
+      "U1",
+      "U2",
+      "U3",
+      "U4"
+    ]
+  },
+  {
+    "net": "DE",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "R4",
+      "U1",
+      "U3"
+    ]
+  },
+  {
+    "net": "DXL_BUS",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "D2",
+      "J1",
+      "J2",
+      "R5",
+      "R6",
+      "U3"
+    ]
+  },
+  {
+    "net": "DXL_DATA",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "D2",
+      "J1",
+      "J2",
+      "R5",
+      "R6",
+      "U3"
+    ]
+  },
+  {
+    "net": "GND",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "D1",
+      "D2",
+      "J1",
+      "J2",
+      "J3",
+      "PORT6db12f699bd4f648",
+      "PORT9f9e0964a5aa5f6a",
+      "PORT880ea6a0a0e7644e",
+      "PORT2080fbf93d7771a4",
+      "PORT2436fb54661f2d2c",
+      "PORT8919d029dd418ae1",
+      "PORT40734107e21ae5af",
+      "PORTa03d0ea65597aaa9",
+      "PORTa3d004065d7781b2",
+      "PORTa56c9d1950221685",
+      "PORTb41eecbff386e280",
+      "PORTbb33dae7ddff91b2",
+      "PORTc198b344a58d1095",
+      "PORTcf12bf7150adeafd",
+      "PORTebd97598944224ac",
+      "U1",
+      "U2",
+      "U3",
+      "U4"
+    ]
+  },
+  {
+    "net": "IMU_INT1",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "U1",
+      "U2"
+    ]
+  },
+  {
+    "net": "IMU_INT2",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "U1",
+      "U2"
+    ]
+  },
+  {
+    "net": "MCU_RX",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "U1",
+      "U3"
+    ]
+  },
+  {
+    "net": "MCU_TX",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "U1",
+      "U3"
+    ]
+  },
+  {
+    "net": "NRST",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "R2",
+      "U1"
+    ]
+  },
+  {
+    "net": "OSC_IN",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "U1"
+    ]
+  },
+  {
+    "net": "RX_EN",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "R7",
+      "U1",
+      "U3"
+    ]
+  },
+  {
+    "net": "SPI_CS",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "R1",
+      "U1",
+      "U2"
+    ]
+  },
+  {
+    "net": "SPI_MISO",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "U1",
+      "U2"
+    ]
+  },
+  {
+    "net": "SPI_MOSI",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "U1",
+      "U2"
+    ]
+  },
+  {
+    "net": "SPI_SCK",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "U1",
+      "U2"
+    ]
+  },
+  {
+    "net": "SWDCLK",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "J3",
+      "U1"
+    ]
+  },
+  {
+    "net": "SWDIO",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "J3",
+      "U1"
+    ]
+  },
+  {
+    "net": "UART_RX",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "J3",
+      "U1"
+    ]
+  },
+  {
+    "net": "UART_TX",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "J3",
+      "U1"
+    ]
+  },
+  {
+    "net": "VDD_BUS",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "F1",
+      "J1",
+      "J2",
+      "PORT71fa8d90bf943fd0",
+      "PORT89e9d1a5d17b0579",
+      "PORTf579b4060c579ba2"
+    ]
+  },
+  {
+    "net": "VDD_F",
+    "sheets": [
+      "imu_to_dxl_1V0::IMU-MCU-PWR"
+    ],
+    "components": [
+      "C6",
+      "C8",
+      "D1",
+      "F1",
+      "PORT99465de8d424fa1b",
+      "U4"
+    ]
+  }
+]

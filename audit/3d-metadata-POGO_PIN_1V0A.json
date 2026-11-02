@@ -1,0 +1,1490 @@
+[
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "845a01e65153009e",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "021382aa79591a6f",
+      "zIndex": 9
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "acc161c7b63c0c95",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "021382aa79591a6f",
+      "zIndex": 10
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "b6dbb70045f08dad",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "021382aa79591a6f",
+      "zIndex": 11
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "5a9023033c3bc2b4",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model",
+      "fillColor": null,
+      "parentId": "28792db0e2e9811a",
+      "zIndex": 11
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "4d5ea556b6c8b7c1",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Title",
+      "fillColor": null,
+      "parentId": "28792db0e2e9811a",
+      "zIndex": 12
+    }
+  },
+  {
+    "doctype": "SCH_PAGE",
+    "uuid": "d83ae84e0582d3f2",
+    "type": "ATTR",
+    "id": "d058c0ac008e7dab",
+    "path": [
+      "ATTR-key"
+    ],
+    "value": {
+      "x": null,
+      "y": null,
+      "rotation": null,
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "italic": null,
+      "underline": null,
+      "align": null,
+      "value": "",
+      "keyVisible": null,
+      "valueVisible": null,
+      "key": "3D Model Transform",
+      "fillColor": null,
+      "parentId": "28792db0e2e9811a",
+      "zIndex": 13
+    }
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4d8c3ba284861396",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "f1628daad26847a79b887277a2bc8541|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4d8c3ba284861396",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "F1206_L3.2-W1.7-H0.6"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4d8c3ba284861396",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "125.984,66.929,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "1e0b34c14b1e56e8",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "86f9151e155e4fe2af0c4f2e0a80302e|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "1e0b34c14b1e56e8",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "SOD-123FL_L2.8-W1.8-H1.1-LS3.6"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "1e0b34c14b1e56e8",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "141.732,70.866,0,180,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "8dba0c22ca471897",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "6db690b7897d4d18a30d90c1b89525ee|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "8dba0c22ca471897",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "8dba0c22ca471897",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "161.417,169.291,0,180,0,0,-18.661,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b84c7bc3e440e699",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b84c7bc3e440e699",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "C0805_L2.0-W1.3-H1.3"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b84c7bc3e440e699",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "78.74,51.181,0,0,0,0,0,0.0005,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b780a99013ccd2ba",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b780a99013ccd2ba",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "C0402_L1.0-W0.5-H0.5"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b780a99013ccd2ba",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "39.37,19.685,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "a057ead68faf6332",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "a057ead68faf6332",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "C0603_L1.6-W0.8-H0.8"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "a057ead68faf6332",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "62.992,31.496,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ad6ca39373669d12",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "c491f68934b34c649df5890a1d97cd0f|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ad6ca39373669d12",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ad6ca39373669d12",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "251.969,255.906,0,90,0,0,0.0005,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ff325597b9760028",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ff325597b9760028",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "R0402_L1.0-W0.5-H0.4"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ff325597b9760028",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "39.37,19.685,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b3b1ce2c54098142",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "64f32784a16f466f897e9e56b6bbdf45|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b3b1ce2c54098142",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "LGA-14_L3.0-W2.5-P0.50-BR"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b3b1ce2c54098142",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "118.11,98.425,0,180,0,0,-0.001,0.004,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "87c7f7f56ba5fdfd",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "c85411b4a3544d83a02d075c4dadd21f|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "87c7f7f56ba5fdfd",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "87c7f7f56ba5fdfd",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "78.74,122.047,0,90,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "bf20c27661ca0094",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "eb4de652aa64480a9db1bf18ae610871|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "bf20c27661ca0094",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "CONN-TH_B3B-EH-A-LF-SN"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "bf20c27661ca0094",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "393.7,149.606,0,0,0,0,0,-11.811,-125.984"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "11cb07e772e9cd47",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "112f4d05e8d64e99ab9a333894bea4f9|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "11cb07e772e9cd47",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "HDR-TH_4P-P2.54-M-LI-1X4P"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "11cb07e772e9cd47",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "399.999,104.7242,0,0,0,0,0,0,-118.11"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "1cab126f4970517e",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "1cab126f4970517e",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "1cab126f4970517e",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4d66edfec91b01f0",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4d66edfec91b01f0",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4d66edfec91b01f0",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "7da1d5e6b4fd0b56",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "7da1d5e6b4fd0b56",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "C0603_L1.6-W0.8-H0.8"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "7da1d5e6b4fd0b56",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "62.992,31.496,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "c8f49d8d8c179344",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "ae22b8d143894765bc8100c37cb6356f|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "c8f49d8d8c179344",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "OSC-SMD_4P-L3.2-W2.5-H1.0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "c8f49d8d8c179344",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "125.984,98.425,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "730dc535dc5bc78b",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "730dc535dc5bc78b",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "R0402_L1.0-W0.5-H0.4"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "730dc535dc5bc78b",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "39.37,19.685,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "6d0015fb05d71dfe",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "6d0015fb05d71dfe",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "6d0015fb05d71dfe",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": ""
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "400adc1edeeaf10d",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "66a147c6933d4029b68665bbcd1e2924|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "400adc1edeeaf10d",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "HDR-TH_6P-P2.54-M-LI-1X6P"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "400adc1edeeaf10d",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "590.1563,98.425,0,0,0,0,0,0,-118.11"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "68b1d24b6a1acc58",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "68b1d24b6a1acc58",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "R0402_L1.0-W0.5-H0.4"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "68b1d24b6a1acc58",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "39.37,19.685,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "af3af7103a6bee40",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "db63db13d9e342eb939127d413d6200b|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "af3af7103a6bee40",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "SOD-323_L1.8-W1.3-LS2.5-RD"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "af3af7103a6bee40",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "104.3305,51.181,0,0,0,0,0,-0.004,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "18c385468cb5b10f",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "18c385468cb5b10f",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "R0603"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "18c385468cb5b10f",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "31.8897,63.7794,0,90,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b65cd20496340ccd",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b65cd20496340ccd",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "C0603_L1.6-W0.8-H0.8"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "b65cd20496340ccd",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "62.992,31.496,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4b3d5490bc3f432c",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4b3d5490bc3f432c",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "R0603"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4b3d5490bc3f432c",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "31.8897,63.7794,0,90,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4cf24fec290408e6",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4cf24fec290408e6",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "R0603"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "4cf24fec290408e6",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "31.8897,63.7794,0,90,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ba32cf21cae8bfc5",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "ad7e39f9e5534b3c96ffdc5532ebb493|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ba32cf21cae8bfc5",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "SOD-123_L2.7-W1.6-H1.4-LS3.7"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "ba32cf21cae8bfc5",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "146.026,62.992,0,180,0,0,0.0005,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "521662e26b28c811",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "503e76cdc9f844a6b2306dd53d5ecc2a|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "521662e26b28c811",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "CONN-SMD_3P-P1.20_HCTL_HC-1.2-3PWT"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "521662e26b28c811",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "216.535,177.165,0,0,0,0,0,-9.843,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "672ad920da8b2a59",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "821f361f67d84e41a483b3c32f441adb|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "672ad920da8b2a59",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "672ad920da8b2a59",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "212.9917,169.291,0,0,0,0,-0.001,-2.596,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "3d87eec74354ecb8",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "3d87eec74354ecb8",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "C0402_L1.0-W0.5-H0.5"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "3d87eec74354ecb8",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "39.37,19.685,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "c6fba1d8832f05c3",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "c6fba1d8832f05c3",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "R0402_L1.0-W0.5-H0.4"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "c6fba1d8832f05c3",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "39.37,19.685,0,0,0,0,0,0,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "6b7cff30b90e865f",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "36d1fbe1ca854ac3a399e20600ab7918|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "6b7cff30b90e865f",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "CONN-SMD_3P-P2.00_XUNPU_WAFER-PH2.0-3PWB"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "6b7cff30b90e865f",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "393.7,334.645,0,180,0,0,0,-9.331,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "cc7faf6dbc87269d",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "7576b685b3b842e1920e0f50f5ef1550|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "cc7faf6dbc87269d",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "CONN-TH_A2007WR-3P"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "cc7faf6dbc87269d",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "313.38914,346.456,0,0,0,0,11.811,105.708,-125.984"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "004a2d0880e65fde",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "deb6dd8d6be645a6b0b15d641ed56279|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "004a2d0880e65fde",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "CONN-TH_A2007WV-3P"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "004a2d0880e65fde",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "314.96,141.732,0,0,0,0,0,7.52,-125.984"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "38985e0e66485f69",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "74c3b656f07444d680595528b62734bc|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "38985e0e66485f69",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "SW-TH_XKB_SS-12M11XX"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "38985e0e66485f69",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "511.81,283.464,0,0,0,0,0,0,-86.614"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "18e559f3487fda27",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "787ed74d84ec4de88f4cbeffecee896f|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "18e559f3487fda27",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "CONN-TH_XH-2A-RED"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "18e559f3487fda27",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "295.669,220.472,0,0,0,0,0,23.622,-118.11"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "d95747ee7facf28d",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "42f3a8a1e6a24de3b83c02c04481ebfb|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "d95747ee7facf28d",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "SMD_BD3.0-D1.2-H9.5"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "d95747ee7facf28d",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "118.5035,118.044,0,0,0,0,0,0,-35.433"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "a7bf46f50d69a390",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "00addfcb75204d3783a4e837764e1482|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "a7bf46f50d69a390",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "CONN-SMD_2P-P2.54-XH2.54-WT"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "a7bf46f50d69a390",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "393.7,417.322,0,0,0,0,0,-11.022,0"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "15c19fd8ac934440",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "e364713d301b433da8ecef6fca46e972|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "15c19fd8ac934440",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "CONN-TH_DB125-2.54-2P-GN"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "15c19fd8ac934440",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "218.90114,248.031,0,0,0,0,0,-0.591,-137.795"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "a4f40197beb4a32c",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "fc7e8458d5034389ae221e8c6ef00dcc|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "a4f40197beb4a32c",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "CONN-TH_XY340V-3.81-2P"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "a4f40197beb4a32c",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "331.4954,279.527,0,0,0,0,0,-18.307,-137.795"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "3d73a67f498fd4a5",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model"
+    ],
+    "value": "4a45c14e0db04572b02ff25335379974|0819f05c4eef4c71ace90d822a990e87"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "3d73a67f498fd4a5",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Title"
+    ],
+    "value": "CONN-SMD_2060-452"
+  },
+  {
+    "doctype": "DEVICE",
+    "uuid": "3d73a67f498fd4a5",
+    "type": "META",
+    "id": "META",
+    "path": [
+      "attributes",
+      "3D Model Transform"
+    ],
+    "value": "515.747,311.023,0,0,0,0,-12.796,0,0"
+  }
+]

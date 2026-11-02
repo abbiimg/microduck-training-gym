@@ -1,0 +1,17 @@
+[
+  {
+    "suite": "protocol",
+    "output": "Protocol tests: 104 checks, 0 failures. Context: 664 bytes.",
+    "passed": true
+  },
+  {
+    "suite": "imu",
+    "output": "IMU host tests passed: 16 scenarios (no hardware)",
+    "passed": true
+  },
+  {
+    "suite": "control_table",
+    "output": "control table: 32 checks passed",
+    "passed": true
+  }
+]

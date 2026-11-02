@@ -1,0 +1,76 @@
+[
+  {
+    "project": "imu_to_dxl",
+    "component_count": 29,
+    "named_pins_checked": 101,
+    "unnamed_source_pins": [
+      [
+        "U1",
+        "3"
+      ],
+      [
+        "U1",
+        "20"
+      ],
+      [
+        "U2",
+        "10"
+      ],
+      [
+        "U2",
+        "11"
+      ]
+    ],
+    "pin_net_mismatches": [],
+    "field_mismatches": [],
+    "kicad_cli_load_and_export": true,
+    "electrical_review_only": true
+  },
+  {
+    "project": "imu_to_dxl_1V0A",
+    "component_count": 24,
+    "named_pins_checked": 89,
+    "unnamed_source_pins": [
+      [
+        "U1",
+        "3"
+      ],
+      [
+        "U1",
+        "20"
+      ],
+      [
+        "U2",
+        "10"
+      ],
+      [
+        "U2",
+        "11"
+      ]
+    ],
+    "pin_net_mismatches": [],
+    "field_mismatches": [],
+    "kicad_cli_load_and_export": true,
+    "electrical_review_only": true
+  },
+  {
+    "project": "POGO_PIN_1V0A",
+    "component_count": 3,
+    "named_pins_checked": 4,
+    "unnamed_source_pins": [],
+    "pin_net_mismatches": [],
+    "field_mismatches": [],
+    "kicad_cli_load_and_export": true,
+    "electrical_review_only": true
+  },
+  {
+    "project": "wire_hub_1V0A",
+    "component_count": 7,
+    "named_pins_checked": 24,
+    "unnamed_source_pins": [],
+    "pin_net_mismatches": [],
+    "field_mismatches": [],
+    "kicad_cli_load_and_export": true,
+    "electrical_review_only": true
+  }
+]

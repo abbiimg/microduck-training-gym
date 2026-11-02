@@ -1,0 +1,31 @@
+MicroDuck unconnected-pin review — 2026-10-26
+
+Both recovered IMU projects have the same four pins without a recovered net:
+U1.3 PC15-OSC32_OUT; U1.20 PB3/PB4/PB5/PB6;
+U2.10 OCS_Aux; U2.11 SDO_Aux.
+All eight source pinmap entries have not_connected=false, no named nets, and no
+wire peers. They are electrically unconnected in recovery but NOT explicit
+source no-connect declarations. Pairing does not add no-connect markers.
+
+Datasheet assessment
+ST's LSM6DSV16X DS13510 Rev 4 Table 23 (page 50) permits auxiliary pins 10 and 11
+to remain open in primary-interface modes 1 and 2. Their internal pull-ups are
+controlled by PIN_CTRL.OIS_PU_DIS (page 57). Therefore these four entries across
+the two IMUs are conditionally compatible with an unused auxiliary interface;
+this is not evidence of the author's intent or of measured pin state.
+Verify intended interface mode and register state before release.
+https://www.st.com/content/st_com/en/campaigns/resource/en/datasheet/lsm6dsv16x.pdf
+
+ST's STM32G031 DS12992 Rev 4 Figure 5 (page 32) identifies the TSSOP20 package
+functions. The reviewed firmware/Core/Src/board.c uses PA5/6/7 for main SPI,
+PA2/3 for bus USART, remapped PA9/10 for the log UART, PA1/PA4 and PB7/PB8 for
+buffer/CS control. It does not provide a release qualification of the unused
+PC15 and combined PB3/4/5/6 package pins. Check oscillator mode, reset/boot state,
+GPIO configuration and tied internal pad behavior against the selected firmware
+build. Keep these four MCU entries open pending that qualification.
+https://www.st.com/resource/en/datasheet/stm32g031j6.pdf
+
+The local generic passive symbols cannot establish electrical ERC correctness.
+No shorts, ties or pull resistors were added to make these pins appear resolved.
+The firmware and physical-hardware variant still need to be reconciled before
+any pin review can be promoted to complete-board acceptance.

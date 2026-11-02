@@ -1,0 +1,137 @@
+(footprint "rasp_CMx"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -10.5 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "040d72a0-eafb-435e-82f4-5e5c3d8dbfac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "rasp_CMx"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0bdf9096-db0d-4286-984d-25dd50ec77b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00606a38-dd43-4afd-9e39-72c88a4c2c69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Raspberry PI Compute Module, 3d file only"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a167bf09-d453-4240-81a3-53386cb8baa2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center -24 -16.5)
+		(end -23 -16.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "176a72ad-e0bb-4e3b-8c05-bfca971e3136")
+	)
+	(fp_circle
+		(center -24 16.5)
+		(end -23 16.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "0f7ee253-ddcc-47c5-85b7-7db5c041a6c2")
+	)
+	(fp_circle
+		(center 24 -16.5)
+		(end 25 -16.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "938426db-9d61-4915-b0c1-79708704a6bd")
+	)
+	(fp_circle
+		(center 24 16.5)
+		(end 25 16.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "5bacbe60-0d36-4d05-951c-6727adc092fe")
+	)
+	(fp_text user "CMx"
+		(at -12.5 -8.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "9fd6b380-29ec-4c55-bafb-da2cf9e3a066")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e9890906-be0a-4673-9175-706074a442a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMOD}/raps_CM4 -Light.step"
+		(offset
+			(xyz -27.5 -36 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,5659 @@
+{
+  "schema": "microduck-model-pose-review/v1",
+  "scope": "read-only source/author placement comparison; no native board edits or model attachments",
+  "candidate_count": 4,
+  "placed_step_instances": 61,
+  "model_id_groups": 22,
+  "author_coordinate_policy": "XY=(source coordinate-CANVAS origin)/39.37; Z author bottom0, author top=sum source LAYER_PHYS thickness/39.37. This is supported for all four assemblies by exact Board Z bounds. Source footprint frame is Rz(source angle), additionally Rx180 on bottom. Per-instance inverse frame matrices retain source model-specific offsets and rotations.",
+  "native_mapping_caution": "Native recovered PCB uses exact mil0.0254, while author exporter uses division39.37: global origin/scale are not one rigid transform. Map footprint origins exactly to current KiCad locations while preserving local model dimensions; declare this policy. Native exporter model Z datums must be calibrated against actual version and stackup, not inferred from nominal board thickness.",
+  "source_placed_model_override_warning": "Revised J3 has explicit empty placed 3D Model Title. Device model default remains populated but does not override this evidence. Missing placed source cannot be synthesized as exact recovery.",
+  "global_author_xy_to_exact_native_mechanical_frame": {
+    "scale_xy": 0.9999979999999999,
+    "translation_if_absolute_native_export_origin_mm": "source CANVAS origin*0.0254 with native3D X=KiCadX,Y=-KiCadY; add exporter chosen XY origin convention separately",
+    "is_rigid": false
+  },
+  "boards": [
+    {
+      "candidate": "imu_to_dxl",
+      "source_replay_sha256": "254caac97858923c335cd86dd529afabc57855d28b79a211d9a226b53e12c809",
+      "source_component_manifest_sha256": "7066b6a8cb8a433eba343c536025cac7e5b14f5996cfb46ee8dc52fd38f39a38",
+      "source_canvas_origin_mil": [
+        0,
+        0
+      ],
+      "source_physical_stack_mil": 62.994,
+      "source_physical_stack_mm_div39_37": 1.6000508001016003,
+      "source_physical_stack_mm_exact_mil": 1.6000476,
+      "author_board_Z_mm": [
+        0.0,
+        1.600050800102
+      ],
+      "source_step_board_label": "Board~ss66",
+      "placed_instances": [
+        {
+          "reference": "C1",
+          "source_component_id": "fa969556c186d44f",
+          "source_xy_mil": [
+            955,
+            705
+          ],
+          "source_angle_degrees": 270,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -0.0,
+              1.0,
+              0
+            ],
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            24.25704851409703,
+            17.90703581407163,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              1.0,
+              0.0,
+              24.257048514097
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              17.907035814072
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.000050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -3.694822225952521e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -2.842170943040401e-14
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.40000000000000013
+            ]
+          ],
+          "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0603_L1.6-W0.8-H0.8",
+          "device_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "C2",
+          "source_component_id": "9352bd5d8433be77",
+          "source_xy_mil": [
+            1080,
+            765
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            27.43205486410973,
+            19.431038862077724,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              27.43205486411
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              19.431038862078
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.000050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              2.7000623958883807e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.7711166694643907e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.40000000000000013
+            ]
+          ],
+          "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0603_L1.6-W0.8-H0.8",
+          "device_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "C3",
+          "source_component_id": "213e8c1d140441db",
+          "source_xy_mil": [
+            1040,
+            445
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            26.416052832105667,
+            11.303022606045213,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              26.416052832106
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              11.303022606045
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.000050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              3.339550858072471e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -2.1316282072803006e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.40000000000000013
+            ]
+          ],
+          "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0603_L1.6-W0.8-H0.8",
+          "device_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "C4",
+          "source_component_id": "64321774fa91b136",
+          "source_xy_mil": [
+            575,
+            345
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            14.60502921005842,
+            8.763017526035053,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              14.605029210058
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              8.763017526035
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.000050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              4.2099657093785936e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              5.3290705182007514e-14
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.40000000000000013
+            ]
+          ],
+          "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0603_L1.6-W0.8-H0.8",
+          "device_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "C5",
+          "source_component_id": "9e0967523f539345",
+          "source_xy_mil": [
+            575,
+            270
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            14.60502921005842,
+            6.858013716027433,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              14.605029210058
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              6.858013716027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.000050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              4.2099657093785936e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              4.32542890393961e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.40000000000000013
+            ]
+          ],
+          "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0603_L1.6-W0.8-H0.8",
+          "device_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "C6",
+          "source_component_id": "8286fcea075053a7",
+          "source_xy_mil": [
+            1405,
+            560
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            35.687071374142754,
+            14.224028448056897,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              35.687071374143
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              14.224015748031
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.25005077626
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -2.4868995751603507e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.2700025896705824e-05
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6499999761580002
+            ]
+          ],
+          "model_id": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0805_L2.0-W1.3-H1.3",
+          "device_model_transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "C7",
+          "source_component_id": "a4e1e468e245ba86",
+          "source_xy_mil": [
+            1275,
+            690
+          ],
+          "source_angle_degrees": 90,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              1.0,
+              0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            32.385064770129546,
+            17.526035052070107,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              32.38506477013
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              17.52603505207
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.000050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.0658141036401503e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -4.547473508864641e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.40000000000000013
+            ]
+          ],
+          "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0603_L1.6-W0.8-H0.8",
+          "device_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "C8",
+          "source_component_id": "2cdbefa90e5e1105",
+          "source_xy_mil": [
+            1415,
+            465
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            35.94107188214377,
+            11.811023622047244,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              35.941071882144
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              11.811023622047
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.000050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              2.3447910280083306e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -2.4513724383723456e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.40000000000000013
+            ]
+          ],
+          "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0603_L1.6-W0.8-H0.8",
+          "device_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "C9",
+          "source_component_id": "58ec13c880e3ff1a",
+          "source_xy_mil": [
+            245,
+            325
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            6.223012446024892,
+            8.25501651003302,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              6.223012446025
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              8.255016510033
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.000050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.0746958878371515e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.9539925233402755e-14
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.40000000000000013
+            ]
+          ],
+          "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0603_L1.6-W0.8-H0.8",
+          "device_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "D1",
+          "source_component_id": "36a52c96fe0fd433",
+          "source_xy_mil": [
+            1375,
+            380
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            34.9250698501397,
+            9.652019304038609,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              34.92506985014
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              9.652019304039
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.510050794141
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              -2.984279490192421e-13
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -3.907985046680551e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.090000005961
+            ]
+          ],
+          "model_id": "86f9151e155e4fe2af0c4f2e0a80302e|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "SOD-123FL_L2.8-W1.8-H1.1-LS3.6",
+          "device_model_transform": "141.732,70.866,0,180,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "D2",
+          "source_component_id": "3b32011eea8cbecb",
+          "source_xy_mil": [
+            950,
+            270
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            24.130048260096522,
+            6.858013716027433,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              24.130035560071
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              6.858013716027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.574194802347
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              1.2700025521894531e-05
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              4.32542890393961e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.025855997754999915
+            ]
+          ],
+          "model_id": "ad7e39f9e5534b3c96ffdc5532ebb493|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "SOD-123_L2.7-W1.6-H1.4-LS3.7",
+          "device_model_transform": "146.026,62.992,0,180,0,0,0.0005,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "F1",
+          "source_component_id": "ea184d3a47a79869",
+          "source_xy_mil": [
+            1380,
+            280
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            35.05207010414021,
+            7.1120142240284485,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              35.05207010414
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              7.112014224028
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -2.1316282072803006e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -4.4853010194856324e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "model_id": "f1628daad26847a79b887277a2bc8541|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "F1206_L3.2-W1.7-H0.6",
+          "device_model_transform": "125.984,66.929,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "J1",
+          "source_component_id": "87ae47ddbf9c86f0",
+          "source_xy_mil": [
+            550.197,
+            125.984
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            13.9750317500635,
+            3.2,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              13.975031750064
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.9
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600050847785
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              4.991562718714704e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.30000000000000027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              4.768299999291514e-08
+            ]
+          ],
+          "model_id": "eb4de652aa64480a9db1bf18ae610871|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "CONN-TH_B3B-EH-A-LF-SN",
+          "device_model_transform": "393.7,149.606,0,0,0,0,0,-11.811,-125.984",
+          "placed_model_attribute_overrides": {
+            "3D Model Title": "CONN-TH_B3B-EH-A-LF-SN"
+          }
+        },
+        {
+          "reference": "J2",
+          "source_component_id": "08a188d16d6b6205",
+          "source_xy_mil": [
+            1022.639,
+            125.984
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            25.9750825501651,
+            3.2,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              25.975082550165
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.9
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600050847785
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.0302869668521453e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.30000000000000027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              4.768299999291514e-08
+            ]
+          ],
+          "model_id": "eb4de652aa64480a9db1bf18ae610871|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "CONN-TH_B3B-EH-A-LF-SN",
+          "device_model_transform": "393.7,149.606,0,0,0,0,0,-11.811,-125.984",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "J3",
+          "source_component_id": "3957999c0b6a31d4",
+          "source_xy_mil": [
+            471.457,
+            788.465
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            11.9750317500635,
+            20.02705105410211,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              11.975031750064
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              20.027051054102
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              4.991562718714704e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1013412404281553e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "model_id": "66a147c6933d4029b68665bbcd1e2924|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "HDR-TH_6P-P2.54-M-LI-1X6P",
+          "device_model_transform": "590.1563,98.425,0,0,0,0,0,0,-118.11",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "J4",
+          "source_component_id": "4ad5c65c40297754",
+          "source_xy_mil": [
+            1655,
+            405
+          ],
+          "source_angle_degrees": 90,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              1.0,
+              0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            42.03708407416815,
+            10.287020574041149,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              41.472585306895
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              10.287020574041
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600043851071
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.4921397450962104e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.5644987672731503
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -6.949030999958694e-06
+            ]
+          ],
+          "model_id": "ced3ec0dc43640d397bfdc45d14bee2a|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "CONN-TH_B3B-PH-K-S",
+          "device_model_transform": "311.023,177.204,0,0,0,0,0,22.244,-133.858",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "J5",
+          "source_component_id": "167b67928725a615",
+          "source_xy_mil": [
+            1430,
+            140
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            36.322072644145294,
+            3.5560071120142243,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              36.322072644145
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              2.991508344741
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600043851071
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              2.913225216616411e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.5644987672732245
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -6.949030999958694e-06
+            ]
+          ],
+          "model_id": "ced3ec0dc43640d397bfdc45d14bee2a|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "CONN-TH_B3B-PH-K-S",
+          "device_model_transform": "311.023,177.204,0,0,0,0,0,22.244,-133.858",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "R1",
+          "source_component_id": "30c582bda9e08810",
+          "source_xy_mil": [
+            835,
+            650
+          ],
+          "source_angle_degrees": 90,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              1.0,
+              0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            21.209042418084838,
+            16.51003302006604,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              21.204042422868
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              16.510033020066
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.610050799849
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -3.907985046680551e-14
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.004999995216838471
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.009999999746999944
+            ]
+          ],
+          "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "R0603",
+          "device_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "R2",
+          "source_component_id": "53330a21f03b7071",
+          "source_xy_mil": [
+            690,
+            305
+          ],
+          "source_angle_degrees": 90,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              1.0,
+              0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            17.526035052070107,
+            7.747015494030989,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              17.521035056853
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              7.747015494031
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.610050799849
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              1.1546319456101628e-14
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.004999995217108477
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.009999999746999944
+            ]
+          ],
+          "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "R0603",
+          "device_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "R3",
+          "source_component_id": "49a9bd7c8cbd220a",
+          "source_xy_mil": [
+            390,
+            465
+          ],
+          "source_angle_degrees": -90,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              -1.0,
+              0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            9.906019812039625,
+            11.811023622047244,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              9.911019807257
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              11.811023622047
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.610050799849
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              2.4513724383723456e-13
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.004999995217374931
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.009999999746999944
+            ]
+          ],
+          "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "R0603",
+          "device_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "R4",
+          "source_component_id": "0768958262e343ff",
+          "source_xy_mil": [
+            855,
+            510
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            21.717043434086868,
+            12.954025908051817,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              1.0,
+              0.0,
+              21.717043434087
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              12.949025912835
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.610050799849
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -1.3145040611561853e-13
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.004999995216817155
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.009999999746999944
+            ]
+          ],
+          "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "R0603",
+          "device_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "R5",
+          "source_component_id": "c589bbc37afa7286",
+          "source_xy_mil": [
+            1135,
+            345
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            28.829057658115318,
+            8.763017526035053,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              1.0,
+              0.0,
+              28.829057658115
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              8.758017530818
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.610050799849
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              3.161915174132446e-13
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.00499999521705341
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.009999999746999944
+            ]
+          ],
+          "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "R0603",
+          "device_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "R6",
+          "source_component_id": "7ecf897e82180978",
+          "source_xy_mil": [
+            1136.733,
+            269.213
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            28.873075946151893,
+            6.838023876047753,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              28.873075946152
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              6.843023871265
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.610050799849
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              1.0658141036401503e-13
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.004999995217247033
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.009999999746999944
+            ]
+          ],
+          "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "R0603",
+          "device_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "R7",
+          "source_component_id": "d816537d3e691220",
+          "source_xy_mil": [
+            415,
+            295
+          ],
+          "source_angle_degrees": 270,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -0.0,
+              1.0,
+              0
+            ],
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            10.541021082042164,
+            7.493014986029973,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              10.546021077259
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              7.49301498603
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.610050799849
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -2.7533531010703882e-14
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.004999995216836695
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.009999999746999944
+            ]
+          ],
+          "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "R0603",
+          "device_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "U1",
+          "source_component_id": "85cf352b2913a941",
+          "source_xy_mil": [
+            599.548,
+            546.419
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            15.228549657099315,
+            13.879070358140718,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              15.228562357125
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              13.879070358141
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.619239146602
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              1.270002568531936e-05
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              2.824407374646398e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.01918834650000001
+            ]
+          ],
+          "model_id": "c491f68934b34c649df5890a1d97cd0f|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65",
+          "device_model_transform": "251.969,255.906,0,90,0,0,0.0005,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "U2",
+          "source_component_id": "f979100f9d32b288",
+          "source_xy_mil": [
+            1080,
+            650
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            27.43205486410973,
+            16.51003302006604,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              27.432029464059
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              16.510134620269
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.810050793545
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              -2.540005073115026e-05
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.00010160020296012817
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.20999999344300013
+            ]
+          ],
+          "model_id": "64f32784a16f466f897e9e56b6bbdf45|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "LGA-14_L3.0-W2.5-P0.50-BR",
+          "device_model_transform": "118.11,98.425,0,180,0,0,-0.001,0.004,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "U3",
+          "source_component_id": "f97305f78771a528",
+          "source_xy_mil": [
+            880,
+            415
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            22.35204470408941,
+            10.541021082042164,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              1.0,
+              0.0,
+              22.352044704089
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              10.541021082042
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.135050826328
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              4.085620730620576e-13
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.6342482922482304e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.535000026226
+            ]
+          ],
+          "model_id": "c85411b4a3544d83a02d075c4dadd21f|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL",
+          "device_model_transform": "78.74,122.047,0,90,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "U4",
+          "source_component_id": "a466634ecdf02883",
+          "source_xy_mil": [
+            1443.993,
+            720.53
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            36.67749555499111,
+            18.301498602997206,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              37.316485857506
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              18.301498602997
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              -0.6389903025148911
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              2.0605739337042905e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "model_id": "6db690b7897d4d18a30d90c1b89525ee|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50",
+          "device_model_transform": "161.417,169.291,0,180,0,0,-18.661,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "X1",
+          "source_component_id": "b1fc7b77166c8652",
+          "source_xy_mil": [
+            245,
+            455
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            6.223012446024892,
+            11.55702311404623,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              6.223012446025
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              11.557023114046
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.610050799729
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.0746958878371515e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -2.291500322826323e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.009999999626999934
+            ]
+          ],
+          "model_id": "ae22b8d143894765bc8100c37cb6356f|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "OSC-SMD_4P-L3.2-W2.5-H1.0",
+          "device_model_transform": "125.984,98.425,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        }
+      ],
+      "missing_instances": []
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A",
+      "source_replay_sha256": "27309693c8f562871ea343da554f2da32876855375be9f1b8b8ed6ffd9bc1ad5",
+      "source_component_manifest_sha256": "a9fcc8e9412750cff6f813b053a04b8a8cac5ddb9eb377ffcdfe3e44b6d14a5b",
+      "source_canvas_origin_mil": [
+        455,
+        -15
+      ],
+      "source_physical_stack_mil": 62.994,
+      "source_physical_stack_mm_div39_37": 1.6000508001016003,
+      "source_physical_stack_mm_exact_mil": 1.6000476,
+      "author_board_Z_mm": [
+        0.0,
+        1.600050800102
+      ],
+      "source_step_board_label": "Board~3kha",
+      "placed_instances": [
+        {
+          "reference": "C1",
+          "source_component_id": "816ad2e2ebac3eb5",
+          "source_xy_mil": [
+            1035,
+            480
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            14.732029464058929,
+            12.573025146050293,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              14.732029464059
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              12.57302514605
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.850050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              7.105427357601002e-14
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -2.9309887850104133e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.25
+            ]
+          ],
+          "model_id": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0402_L1.0-W0.5-H0.5",
+          "device_model_transform": "39.37,19.685,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "C2",
+          "source_component_id": "45255b01413f73bb",
+          "source_xy_mil": [
+            960,
+            480
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            12.827025654051308,
+            12.573025146050293,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              12.827025654051
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              12.57302514605
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.850050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              3.0730973321624333e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.9309887850104133e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.25
+            ]
+          ],
+          "model_id": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0402_L1.0-W0.5-H0.5",
+          "device_model_transform": "39.37,19.685,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "C3",
+          "source_component_id": "f1ba0f15f23b889e",
+          "source_xy_mil": [
+            815,
+            675
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            9.144018288036577,
+            17.526035052070107,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              9.144018288037
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              17.52603505207
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.850050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              4.227729277772596e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.0658141036401503e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.25
+            ]
+          ],
+          "model_id": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0402_L1.0-W0.5-H0.5",
+          "device_model_transform": "39.37,19.685,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "C4",
+          "source_component_id": "ed6cbcc10e7ade8f",
+          "source_xy_mil": [
+            784.0874,
+            882.3706
+          ],
+          "source_angle_degrees": 90,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              1.0,
+              0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            8.358836677673356,
+            22.793258826517654,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              8.358836677673
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              22.793258826518
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.850050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              3.446132268436486e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              3.552713678800501e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.25
+            ]
+          ],
+          "model_id": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0402_L1.0-W0.5-H0.5",
+          "device_model_transform": "39.37,19.685,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "C5",
+          "source_component_id": "9e0967523f539345",
+          "source_xy_mil": [
+            709.0874,
+            882.3706
+          ],
+          "source_angle_degrees": 90,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              1.0,
+              0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            6.453832867665736,
+            22.793258826517654,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              6.453832867666
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              22.793258826518
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.000050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              3.446132268436486e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -2.637889906509372e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.40000000000000013
+            ]
+          ],
+          "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0603_L1.6-W0.8-H0.8",
+          "device_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "C6",
+          "source_component_id": "8286fcea075053a7",
+          "source_xy_mil": [
+            1365,
+            525
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            23.11404622809246,
+            13.716027432054865,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              23.114046228092
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              13.71604013208
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.25005077626
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -4.583000645652646e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.270002513464874e-05
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6499999761580002
+            ]
+          ],
+          "model_id": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0805_L2.0-W1.3-H1.3",
+          "device_model_transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "C7",
+          "source_component_id": "a4e1e468e245ba86",
+          "source_xy_mil": [
+            1304.1318,
+            908.1827
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            21.567990855981716,
+            23.448887477774957,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              21.567990855982
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              23.448887477775
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.000050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              2.8421709430404007e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              4.263256414560601e-14
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.40000000000000013
+            ]
+          ],
+          "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0603_L1.6-W0.8-H0.8",
+          "device_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "C8",
+          "source_component_id": "41989c5d6a07f8d9",
+          "source_xy_mil": [
+            1340,
+            605
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            22.47904495808992,
+            15.748031496062993,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              22.47904495809
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              15.748031496063
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.850050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -8.171241461241152e-14
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -7.105427357601002e-15
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.25
+            ]
+          ],
+          "model_id": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "C0402_L1.0-W0.5-H0.5",
+          "device_model_transform": "39.37,19.685,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "D1",
+          "source_component_id": "36a52c96fe0fd433",
+          "source_xy_mil": [
+            1385,
+            435
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            23.62204724409449,
+            11.430022860045721,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              23.622047244094
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              11.430022860046
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.510050794141
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              -4.902744876744691e-13
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              2.788880237858393e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.090000005961
+            ]
+          ],
+          "model_id": "86f9151e155e4fe2af0c4f2e0a80302e|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "SOD-123FL_L2.8-W1.8-H1.1-LS3.6",
+          "device_model_transform": "141.732,70.866,0,180,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "D2",
+          "source_component_id": "3b32011eea8cbecb",
+          "source_xy_mil": [
+            605,
+            380
+          ],
+          "source_angle_degrees": 270,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -0.0,
+              1.0,
+              0
+            ],
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            3.81000762001524,
+            10.033020066040132,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              3.810007620015
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              10.033007366015
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.574194802347
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              1.2700025132872383e-05
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -2.402522625288839e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.025855997754999915
+            ]
+          ],
+          "model_id": "ad7e39f9e5534b3c96ffdc5532ebb493|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "SOD-123_L2.7-W1.6-H1.4-LS3.7",
+          "device_model_transform": "146.026,62.992,0,180,0,0,0.0005,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "F1",
+          "source_component_id": "ea184d3a47a79869",
+          "source_xy_mil": [
+            1315,
+            290
+          ],
+          "source_angle_degrees": 90,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              1.0,
+              0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            21.84404368808738,
+            7.747015494030989,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              21.844043688087
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              7.747015494031
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.1546319456101628e-14
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              3.765876499528531e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "model_id": "f1628daad26847a79b887277a2bc8541|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "F1206_L3.2-W1.7-H0.6",
+          "device_model_transform": "125.984,66.929,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "J1",
+          "source_component_id": "7b17afd3436e1a98",
+          "source_xy_mil": [
+            845,
+            290
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            9.906019812039625,
+            7.747015494030989,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              9.606069760731
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              5.062026924054
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600050778427
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.29995005130862573
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.684988569976989
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -2.1675000017040702e-08
+            ]
+          ],
+          "model_id": "7576b685b3b842e1920e0f50f5ef1550|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "CONN-TH_A2007WR-3P",
+          "device_model_transform": "313.38914,346.456,0,0,0,0,11.811,105.708,-125.984",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "J2",
+          "source_component_id": "55b6edb0b2f02527",
+          "source_xy_mil": [
+            1137.9385,
+            110.2655
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            17.346672593345186,
+            3.1817500635001275,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              17.341647198285
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              3.115811531623
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.650050798629
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.005025395060187066
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.06593853187712728
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0499999985270001
+            ]
+          ],
+          "model_id": "821f361f67d84e41a483b3c32f441adb|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF",
+          "device_model_transform": "212.9917,169.291,0,0,0,0,-0.001,-2.596,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "R1",
+          "source_component_id": "8e2912c746006e6a",
+          "source_xy_mil": [
+            1115,
+            685
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            16.764033528067056,
+            17.78003556007112,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              16.764033528067
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              17.780035560071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -5.684341886080802e-14
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.2079226507921703e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "model_id": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "R0402_L1.0-W0.5-H0.4",
+          "device_model_transform": "39.37,19.685,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "R2",
+          "source_component_id": "c86527648e1982c2",
+          "source_xy_mil": [
+            650,
+            880
+          ],
+          "source_angle_degrees": 270,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -0.0,
+              1.0,
+              0
+            ],
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            4.953009906019813,
+            22.733045466090935,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              1.0,
+              0.0,
+              4.95300990602
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              22.733045466091
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -6.394884621840902e-14
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.8740564655672642e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "model_id": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "R0402_L1.0-W0.5-H0.4",
+          "device_model_transform": "39.37,19.685,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "R4",
+          "source_component_id": "1554b3fc98dc54bf",
+          "source_xy_mil": [
+            650,
+            800
+          ],
+          "source_angle_degrees": 270,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -0.0,
+              1.0,
+              0
+            ],
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            4.953009906019813,
+            20.701041402082804,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              1.0,
+              0.0,
+              4.95300990602
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              20.701041402083
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.9539925233402755e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.8740564655672642e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "model_id": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "R0402_L1.0-W0.5-H0.4",
+          "device_model_transform": "39.37,19.685,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "R5",
+          "source_component_id": "678e535a24dd088c",
+          "source_xy_mil": [
+            815,
+            580
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            9.144018288036577,
+            15.113030226060452,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              9.144018288037
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              15.11303022606
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -4.227729277772596e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              4.5297099404706387e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "model_id": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "R0402_L1.0-W0.5-H0.4",
+          "device_model_transform": "39.37,19.685,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "R6",
+          "source_component_id": "7ecf897e82180978",
+          "source_xy_mil": [
+            730,
+            445
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            6.98501397002794,
+            11.684023368046736,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              1.0,
+              0.0,
+              6.985013970028
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              11.67902337283
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.610050799849
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -5.950795411990839e-14
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.004999995216735442
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.009999999746999944
+            ]
+          ],
+          "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "R0603",
+          "device_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "R7",
+          "source_component_id": "18f24a309c6d9176",
+          "source_xy_mil": [
+            815,
+            625
+          ],
+          "source_angle_degrees": 0,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            9.144018288036577,
+            16.256032512065026,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              9.144018288037
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              16.256032512065
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              4.227729277772596e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -2.4868995751603507e-14
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "model_id": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "R0402_L1.0-W0.5-H0.4",
+          "device_model_transform": "39.37,19.685,0,0,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "U1",
+          "source_component_id": "85cf352b2913a941",
+          "source_xy_mil": [
+            985.5064,
+            857.8226
+          ],
+          "source_angle_degrees": 270,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -0.0,
+              1.0,
+              0
+            ],
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            13.47488950977902,
+            22.169738379476758,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              13.474889509779
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              22.169725679451
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.619239146602
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              1.2700025759926348e-05
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.9539925233402755e-14
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.01918834650000001
+            ]
+          ],
+          "model_id": "c491f68934b34c649df5890a1d97cd0f|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65",
+          "device_model_transform": "251.969,255.906,0,90,0,0,0.0005,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "U2",
+          "source_component_id": "f979100f9d32b288",
+          "source_xy_mil": [
+            986.7611,
+            599.2648
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            13.50675895351791,
+            15.602357124714251,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              13.506784353569
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              15.602255524511
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.810050793545
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              -2.540005108997434e-05
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0001016002032514507
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.20999999344300013
+            ]
+          ],
+          "model_id": "64f32784a16f466f897e9e56b6bbdf45|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "LGA-14_L3.0-W2.5-P0.50-BR",
+          "device_model_transform": "118.11,98.425,0,180,0,0,-0.001,0.004,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "U3",
+          "source_component_id": "f97305f78771a528",
+          "source_xy_mil": [
+            685,
+            640
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            5.842011684023368,
+            16.63703327406655,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              1.0,
+              0.0,
+              5.842011684023
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              16.637033274067
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.135050826328
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              3.6770586575585185e-13
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              -4.511946372076636e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.535000026226
+            ]
+          ],
+          "model_id": "c85411b4a3544d83a02d075c4dadd21f|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL",
+          "device_model_transform": "78.74,122.047,0,90,0,0,0,0,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "U4",
+          "source_component_id": "a466634ecdf02883",
+          "source_xy_mil": [
+            1324.5563,
+            770.1582
+          ],
+          "source_angle_degrees": 90,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              1.0,
+              0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            22.086774193548386,
+            19.943058166116334,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              1.0,
+              0.0,
+              22.086774193548
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              19.304067863601
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600050800102
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              -0.6389903025153352
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              3.872457909892546e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "model_id": "6db690b7897d4d18a30d90c1b89525ee|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50",
+          "device_model_transform": "161.417,169.291,0,180,0,0,-18.661,0,0",
+          "placed_model_attribute_overrides": {}
+        }
+      ],
+      "missing_instances": [
+        {
+          "reference": "J3",
+          "source_component_id": "3957999c0b6a31d4",
+          "device_model_metadata": {
+            "3D Model": "66a147c6933d4029b68665bbcd1e2924|0819f05c4eef4c71ace90d822a990e87",
+            "3D Model Title": "HDR-TH_6P-P2.54-M-LI-1X6P",
+            "3D Model Transform": "590.1563,98.425,0,0,0,0,0,0,-118.11"
+          },
+          "placed_model_attribute_overrides": {
+            "3D Model Title": ""
+          },
+          "conclusion": "source placed title is explicitly empty; do not treat device default model metadata as evidence that instance should be exported"
+        }
+      ]
+    },
+    {
+      "candidate": "wire_hub_1V0A",
+      "source_replay_sha256": "63f16a87e4815eb35378cb619acc4b289bd5ac10e9bdd9f82685fbb9e80431cb",
+      "source_component_manifest_sha256": "798cdd52df8a34e426ae67a37544879d73e1491fb9b4d7e291bbb117da426f63",
+      "source_canvas_origin_mil": [
+        1880,
+        -55
+      ],
+      "source_physical_stack_mil": 62.994,
+      "source_physical_stack_mm_div39_37": 1.6000508001016003,
+      "source_physical_stack_mm_exact_mil": 1.6000476,
+      "author_board_Z_mm": [
+        0.0,
+        1.600050800102
+      ],
+      "source_step_board_label": "Board~QOFv",
+      "placed_instances": [
+        {
+          "reference": "CN1",
+          "source_component_id": "a7ac844818530c4e",
+          "source_xy_mil": [
+            2305,
+            915
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            10.79502159004318,
+            24.638049276098553,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              10.795071657943
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              24.653060706121
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600050694138
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -5.0067899818984074e-05
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.015011430022447314
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -1.0596400001894324e-07
+            ]
+          ],
+          "model_id": "e364713d301b433da8ecef6fca46e972|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "CONN-TH_DB125-2.54-2P-GN",
+          "device_model_transform": "218.90114,248.031,0,0,0,0,0,-0.591,-137.795",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "J1",
+          "source_component_id": "dd0bccd2dc7abc0b",
+          "source_xy_mil": [
+            2620,
+            945
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            18.796037592075184,
+            25.400050800101603,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              18.796037592075
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              25.650063500127
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.620050799655
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.8474111129762605e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.25001270002539755
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.019999999553000025
+            ]
+          ],
+          "model_id": "503e76cdc9f844a6b2306dd53d5ecc2a|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "CONN-SMD_3P-P1.20_HCTL_HC-1.2-3PWT",
+          "device_model_transform": "216.535,177.165,0,0,0,0,0,-9.843,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "J2",
+          "source_component_id": "55b6edb0b2f02527",
+          "source_xy_mil": [
+            2015,
+            945
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              -0.0,
+              0
+            ],
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            3.4290068580137163,
+            25.400050800101603,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              3.434032253074
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              25.465989331979
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.650050798629
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.005025395060283877
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.0659385318773964
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0499999985270001
+            ]
+          ],
+          "model_id": "821f361f67d84e41a483b3c32f441adb|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF",
+          "device_model_transform": "212.9917,169.291,0,0,0,0,-0.001,-2.596,0",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "J3",
+          "source_component_id": "eb95f8d80f5376f1",
+          "source_xy_mil": [
+            2470,
+            320
+          ],
+          "source_angle_degrees": -90,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              -1.0,
+              0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            14.986029972059946,
+            9.5250190500381,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              1.0,
+              0.0,
+              17.671018542037
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              9.225068998729
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600050778427
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.2999500513091
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.6849885699770546
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -2.1675000017040702e-08
+            ]
+          ],
+          "model_id": "7576b685b3b842e1920e0f50f5ef1550|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "CONN-TH_A2007WR-3P",
+          "device_model_transform": "313.38914,346.456,0,0,0,0,11.811,105.708,-125.984",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "J4",
+          "source_component_id": "0d495293505bde39",
+          "source_xy_mil": [
+            2170,
+            290
+          ],
+          "source_angle_degrees": 90,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              1.0,
+              0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            7.366014732029464,
+            8.763017526035053,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              4.681026162052
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              9.062967577344
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600050778427
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.29995005130894725
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.684988569977464
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -2.1675000017040702e-08
+            ]
+          ],
+          "model_id": "7576b685b3b842e1920e0f50f5ef1550|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "CONN-TH_A2007WR-3P",
+          "device_model_transform": "313.38914,346.456,0,0,0,0,11.811,105.708,-125.984",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "J5",
+          "source_component_id": "255600c2694ebdb3",
+          "source_xy_mil": [
+            2100,
+            640
+          ],
+          "source_angle_degrees": 90,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              1.0,
+              0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            5.588011176022352,
+            17.653035306070613,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              7.015752790746
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              17.653035306071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.218800632929
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              3.872457909892546e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.4277416147236481
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.6187498328270002
+            ]
+          ],
+          "model_id": "deb6dd8d6be645a6b0b15d641ed56279|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "CONN-TH_A2007WV-3P",
+          "device_model_transform": "314.96,141.732,0,0,0,0,0,7.52,-125.984",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "J6",
+          "source_component_id": "f2b10e0bc93e4f38",
+          "source_xy_mil": [
+            2545,
+            645
+          ],
+          "source_angle_degrees": 90,
+          "source_layer": 1,
+          "source_frame_rotation": [
+            [
+              0.0,
+              -1.0,
+              0
+            ],
+            [
+              1.0,
+              0.0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            16.891033782067566,
+            17.78003556007112,
+            1.600050800102
+          ],
+          "step_instance_matrix": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              18.318775396791
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              17.780035560071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.218800632929
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.2079226507921703e-13
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.427741614723434
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.6187498328270002
+            ]
+          ],
+          "model_id": "deb6dd8d6be645a6b0b15d641ed56279|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "CONN-TH_A2007WV-3P",
+          "device_model_transform": "314.96,141.732,0,0,0,0,0,7.52,-125.984",
+          "placed_model_attribute_overrides": {}
+        }
+      ],
+      "missing_instances": []
+    },
+    {
+      "candidate": "POGO_PIN_1V0A",
+      "source_replay_sha256": "566cd286a46b198145f81a4e32ed03b8c18e32c0b4a32c6a13409b71991676e0",
+      "source_component_manifest_sha256": "fd13ec4c4d331be124eda6fae7d5a384df013ea9bba472199a136c9ea2deed39",
+      "source_canvas_origin_mil": [
+        2898.5434,
+        226.3386
+      ],
+      "source_physical_stack_mil": 62.994,
+      "source_physical_stack_mm_div39_37": 1.6000508001016003,
+      "source_physical_stack_mm_exact_mil": 1.6000476,
+      "author_board_Z_mm": [
+        0.0,
+        1.600050800102
+      ],
+      "source_step_board_label": "Board~l4fB",
+      "placed_instances": [
+        {
+          "reference": "U1",
+          "source_component_id": "42c33da36ed4bc39",
+          "source_xy_mil": [
+            4337.9502,
+            385.4773
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 2,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            36.56100584201169,
+            4.042131064262128,
+            0.0
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              36.566003333314
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              4.042131064262
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              0.9
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.004997491302312085
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.2878587085651816e-13
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.9
+            ]
+          ],
+          "model_id": "42f3a8a1e6a24de3b83c02c04481ebfb|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "SMD_BD3.0-D1.2-H9.5",
+          "device_model_transform": "118.5035,118.044,0,0,0,0,0,0,-35.433",
+          "placed_model_attribute_overrides": {}
+        },
+        {
+          "reference": "U2",
+          "source_component_id": "f0e13b7b7bcbb5ee",
+          "source_xy_mil": [
+            3007.2502,
+            385.4083
+          ],
+          "source_angle_degrees": 180,
+          "source_layer": 2,
+          "source_frame_rotation": [
+            [
+              -1.0,
+              0.0,
+              0
+            ],
+            [
+              0.0,
+              1.0,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ]
+          ],
+          "source_frame_origin_author_mm": [
+            2.761158242316483,
+            4.040378460756921,
+            0.0
+          ],
+          "step_instance_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              2.766155733618
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              4.040378460757
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              0.9
+            ]
+          ],
+          "definition_to_source_footprint_frame_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.004997491301517165
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              7.904787935331115e-14
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.9
+            ]
+          ],
+          "model_id": "42f3a8a1e6a24de3b83c02c04481ebfb|0819f05c4eef4c71ace90d822a990e87",
+          "model_title": "SMD_BD3.0-D1.2-H9.5",
+          "device_model_transform": "118.5035,118.044,0,0,0,0,0,0,-35.433",
+          "placed_model_attribute_overrides": {}
+        }
+      ],
+      "missing_instances": []
+    }
+  ],
+  "per_model_relative_consistency": [
+    {
+      "model_id": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "C0805_L2.0-W1.3-H1.3",
+      "instances": 2,
+      "members": [
+        [
+          "imu_to_dxl",
+          "C6"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "C6"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 7.620570841027074e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.4868995751603507e-13
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.2700025896705824e-05
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.6499999761580002
+        ]
+      ]
+    },
+    {
+      "model_id": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "C0402_L1.0-W0.5-H0.5",
+      "instances": 5,
+      "members": [
+        [
+          "imu_to_dxl_1V0A",
+          "C1"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "C2"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "C3"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "C4"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "C8"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 6.483702463810914e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          7.105427357601002e-14
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -2.9309887850104133e-13
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.25
+        ]
+      ]
+    },
+    {
+      "model_id": "42f3a8a1e6a24de3b83c02c04481ebfb|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SMD_BD3.0-D1.2-H9.5",
+      "instances": 2,
+      "members": [
+        [
+          "POGO_PIN_1V0A",
+          "U1"
+        ],
+        [
+          "POGO_PIN_1V0A",
+          "U2"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 7.949196856316121e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.004997491302312085
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2878587085651816e-13
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.9
+        ]
+      ]
+    },
+    {
+      "model_id": "503e76cdc9f844a6b2306dd53d5ecc2a|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "CONN-SMD_3P-P1.20_HCTL_HC-1.2-3PWT",
+      "instances": 1,
+      "members": [
+        [
+          "wire_hub_1V0A",
+          "J1"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 0.0,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.8474111129762605e-13
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.25001270002539755
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.019999999553000025
+        ]
+      ]
+    },
+    {
+      "model_id": "64f32784a16f466f897e9e56b6bbdf45|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "LGA-14_L3.0-W2.5-P0.50-BR",
+      "instances": 2,
+      "members": [
+        [
+          "imu_to_dxl",
+          "U2"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "U2"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 3.588240815588506e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -2.540005073115026e-05
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.00010160020296012817
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.20999999344300013
+        ]
+      ]
+    },
+    {
+      "model_id": "66a147c6933d4029b68665bbcd1e2924|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "HDR-TH_6P-P2.54-M-LI-1X6P",
+      "instances": 1,
+      "members": [
+        [
+          "imu_to_dxl",
+          "J3"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 0.0,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          4.991562718714704e-13
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.1013412404281553e-13
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "model_id": "6db690b7897d4d18a30d90c1b89525ee|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50",
+      "instances": 2,
+      "members": [
+        [
+          "imu_to_dxl",
+          "U4"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "U4"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 4.440892098500626e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -0.6389903025148911
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          2.0605739337042905e-13
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "model_id": "7576b685b3b842e1920e0f50f5ef1550|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "CONN-TH_A2007WR-3P",
+      "instances": 3,
+      "members": [
+        [
+          "imu_to_dxl_1V0A",
+          "J1"
+        ],
+        [
+          "wire_hub_1V0A",
+          "J3"
+        ],
+        [
+          "wire_hub_1V0A",
+          "J4"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 4.75175454539567e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.29995005130862573
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          2.684988569976989
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -2.1675000017040702e-08
+        ]
+      ]
+    },
+    {
+      "model_id": "821f361f67d84e41a483b3c32f441adb|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF",
+      "instances": 2,
+      "members": [
+        [
+          "imu_to_dxl_1V0A",
+          "J2"
+        ],
+        [
+          "wire_hub_1V0A",
+          "J2"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 2.6911806116913795e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.005025395060187066
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.06593853187712728
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0499999985270001
+        ]
+      ]
+    },
+    {
+      "model_id": "86f9151e155e4fe2af0c4f2e0a80302e|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SOD-123FL_L2.8-W1.8-H1.1-LS3.6",
+      "instances": 2,
+      "members": [
+        [
+          "imu_to_dxl",
+          "D1"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "D1"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 6.696865284538944e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -2.984279490192421e-13
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -3.907985046680551e-13
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.090000005961
+        ]
+      ]
+    },
+    {
+      "model_id": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "R0402_L1.0-W0.5-H0.4",
+      "instances": 5,
+      "members": [
+        [
+          "imu_to_dxl_1V0A",
+          "R1"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "R2"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "R4"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "R5"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "R7"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 5.737632591262809e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.684341886080802e-14
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2079226507921703e-13
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "C0603_L1.6-W0.8-H0.8",
+      "instances": 10,
+      "members": [
+        [
+          "imu_to_dxl",
+          "C1"
+        ],
+        [
+          "imu_to_dxl",
+          "C2"
+        ],
+        [
+          "imu_to_dxl",
+          "C3"
+        ],
+        [
+          "imu_to_dxl",
+          "C4"
+        ],
+        [
+          "imu_to_dxl",
+          "C5"
+        ],
+        [
+          "imu_to_dxl",
+          "C7"
+        ],
+        [
+          "imu_to_dxl",
+          "C8"
+        ],
+        [
+          "imu_to_dxl",
+          "C9"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "C5"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "C7"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 7.904787935331115e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.694822225952521e-13
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -2.842170943040401e-14
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.40000000000000013
+        ]
+      ]
+    },
+    {
+      "model_id": "ad7e39f9e5534b3c96ffdc5532ebb493|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "SOD-123_L2.7-W1.6-H1.4-LS3.7",
+      "instances": 2,
+      "members": [
+        [
+          "imu_to_dxl",
+          "D2"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "D2"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 6.727951529228449e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          1.2700025521894531e-05
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          4.32542890393961e-13
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.025855997754999915
+        ]
+      ]
+    },
+    {
+      "model_id": "ae22b8d143894765bc8100c37cb6356f|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "OSC-SMD_4P-L3.2-W2.5-H1.0",
+      "instances": 1,
+      "members": [
+        [
+          "imu_to_dxl",
+          "X1"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 0.0,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0746958878371515e-13
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -2.291500322826323e-13
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.009999999626999934
+        ]
+      ]
+    },
+    {
+      "model_id": "c491f68934b34c649df5890a1d97cd0f|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65",
+      "instances": 2,
+      "members": [
+        [
+          "imu_to_dxl",
+          "U1"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "U1"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 3.019806626980426e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          1.270002568531936e-05
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.824407374646398e-13
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.01918834650000001
+        ]
+      ]
+    },
+    {
+      "model_id": "c85411b4a3544d83a02d075c4dadd21f|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL",
+      "instances": 2,
+      "members": [
+        [
+          "imu_to_dxl",
+          "U3"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "U3"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 6.146194664324867e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          4.085620730620576e-13
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.6342482922482304e-13
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.535000026226
+        ]
+      ]
+    },
+    {
+      "model_id": "ced3ec0dc43640d397bfdc45d14bee2a|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "CONN-TH_B3B-PH-K-S",
+      "instances": 2,
+      "members": [
+        [
+          "imu_to_dxl",
+          "J4"
+        ],
+        [
+          "imu_to_dxl",
+          "J5"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 4.405364961712621e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.4921397450962104e-13
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5644987672731503
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -6.949030999958694e-06
+        ]
+      ]
+    },
+    {
+      "model_id": "deb6dd8d6be645a6b0b15d641ed56279|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "CONN-TH_A2007WV-3P",
+      "instances": 2,
+      "members": [
+        [
+          "wire_hub_1V0A",
+          "J5"
+        ],
+        [
+          "wire_hub_1V0A",
+          "J6"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 5.080380560684716e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          3.872457909892546e-13
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.4277416147236481
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.6187498328270002
+        ]
+      ]
+    },
+    {
+      "model_id": "e364713d301b433da8ecef6fca46e972|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "CONN-TH_DB125-2.54-2P-GN",
+      "instances": 1,
+      "members": [
+        [
+          "wire_hub_1V0A",
+          "CN1"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 0.0,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.0067899818984074e-05
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.015011430022447314
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.0596400001894324e-07
+        ]
+      ]
+    },
+    {
+      "model_id": "eb4de652aa64480a9db1bf18ae610871|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "CONN-TH_B3B-EH-A-LF-SN",
+      "instances": 2,
+      "members": [
+        [
+          "imu_to_dxl",
+          "J1"
+        ],
+        [
+          "imu_to_dxl",
+          "J2"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 6.021849685566849e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          4.991562718714704e-13
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.30000000000000027
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.768299999291514e-08
+        ]
+      ]
+    },
+    {
+      "model_id": "f1628daad26847a79b887277a2bc8541|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "F1206_L3.2-W1.7-H0.6",
+      "instances": 2,
+      "members": [
+        [
+          "imu_to_dxl",
+          "F1"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "F1"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 8.251177519014163e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.1316282072803006e-13
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.4853010194856324e-13
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "model_title": "R0603",
+      "instances": 8,
+      "members": [
+        [
+          "imu_to_dxl",
+          "R1"
+        ],
+        [
+          "imu_to_dxl",
+          "R2"
+        ],
+        [
+          "imu_to_dxl",
+          "R3"
+        ],
+        [
+          "imu_to_dxl",
+          "R4"
+        ],
+        [
+          "imu_to_dxl",
+          "R5"
+        ],
+        [
+          "imu_to_dxl",
+          "R6"
+        ],
+        [
+          "imu_to_dxl",
+          "R7"
+        ],
+        [
+          "imu_to_dxl_1V0A",
+          "R6"
+        ]
+      ],
+      "max_relative_rotation_matrix_delta": 0.0,
+      "max_relative_translation_delta_mm": 5.364597654988756e-13,
+      "common_matrix_within_1e_7": true,
+      "representative_definition_to_source_footprint_frame_matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -3.907985046680551e-14
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.004999995216838471
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.009999999746999944
+        ]
+      ]
+    }
+  ],
+  "native_board_placement_qualified": false,
+  "original_vendor_geometry_origin_qualified": false,
+  "full_definition_brep_equivalence_qualified": false,
+  "manufacturing_ready": false
+}

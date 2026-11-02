@@ -1,0 +1,75 @@
+{
+  "schema": "microduck-kicad-model-export-suite/v1",
+  "passed": true,
+  "candidates": 5,
+  "models_verified_including_hypothesis": 84,
+  "aggregation": "Current hash-checked per-project heavy CAD receipts",
+  "physical_fit_qualified": false,
+  "manufacturing_ready": false,
+  "results": [
+    {
+      "candidate": "imu_to_dxl",
+      "models_verified": 29,
+      "missing_models_preserved": [],
+      "step_export_sha256": "f6ba03dadca5e72710b85b4ef55fbec09d860643d711502537e7b02511fcb52b",
+      "glb_export_sha256": "0be01a4845443b41c5d85376db86dfad5c093bdbe2dfca633cc3e96ad5895a67",
+      "board_sha256": "70cfd4e5785d5b3f8bfcae193c3eeb56a7f5d55732c18937b8e83a59e37b51d2",
+      "native_export_model_datums_mm": {
+        "top": 1.595048,
+        "bottom": -0.085
+      }
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A",
+      "models_verified": 23,
+      "missing_models_preserved": [
+        "J3"
+      ],
+      "step_export_sha256": "31a0e6a090b0bac854ba7120566a37d32d4c54ab433c3017fcb197349154ed73",
+      "glb_export_sha256": "93cffb262ce0b54f2778230d34692b2860949860cac7468e9c8f70ad2b014477",
+      "board_sha256": "62c70ca9241027defd570f2ea50d4418c218d8b1bc769e21ea1da765820ba023",
+      "native_export_model_datums_mm": {
+        "top": 1.595048,
+        "bottom": -0.085
+      }
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A-transition-hypothesis",
+      "models_verified": 23,
+      "missing_models_preserved": [
+        "J3"
+      ],
+      "step_export_sha256": "1f5f9c22873c62fe47b5efe8284dbeaeb655690498d2e1f6c132499f80c5380c",
+      "glb_export_sha256": "91fd80bb6f323c667cd2ef2d73cc6fe1643b9c961eab5099361ba54bf069671a",
+      "board_sha256": "700e08a19ca814ea10485fc8b7e80faf082e40b9a57aab02ae0de6c4d98e864d",
+      "native_export_model_datums_mm": {
+        "top": 1.595048,
+        "bottom": -0.085
+      }
+    },
+    {
+      "candidate": "wire_hub_1V0A",
+      "models_verified": 7,
+      "missing_models_preserved": [],
+      "step_export_sha256": "43b6b5b20a92ae0e4d41d057fe3ff9eec89b031569a5e708a245f18bd4d23075",
+      "glb_export_sha256": "22fe2fe0a5ddcad2971157e451011c346b715c12eeea8dd65e9910df43ceff7d",
+      "board_sha256": "d1704b7d6f76d8ae2d54efb7b1b0717de55851b953af10f060d2cc2809989a34",
+      "native_export_model_datums_mm": {
+        "top": 1.595048,
+        "bottom": -0.085
+      }
+    },
+    {
+      "candidate": "POGO_PIN_1V0A",
+      "models_verified": 2,
+      "missing_models_preserved": [],
+      "step_export_sha256": "2cc320f300d923e3d16101ad9844cc47472ce5957d75abf8a8d95bd8867c5013",
+      "glb_export_sha256": "b3158522f0b727ee1995a1d9418b7d08e9f80c28dcfc57eb6391a15a004cd661",
+      "board_sha256": "a1a354d5a77fd0d322310d396894cf139a6f723224cad5d298d30004a4e594e0",
+      "native_export_model_datums_mm": {
+        "top": 1.595048,
+        "bottom": -0.085
+      }
+    }
+  ]
+}

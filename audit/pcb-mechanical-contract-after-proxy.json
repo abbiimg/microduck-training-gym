@@ -1,0 +1,3521 @@
+{
+  "schema": "appliance-mechanical-contract/v1",
+  "source": {
+    "pcb": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference\\elec_RPI_Robot_HAT.kicad_pcb",
+    "sha256": "31d5d00af53c458e1cb541a2fd0baca8afda28248d6c4c4c12b58adea936093e",
+    "kicad_version": "10.0.7",
+    "dependencies": [
+      {
+        "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_DB125-2.54-2P-GN.step",
+        "sha256": "8c51e8b2850ae2a42b842302271016757bae6be1e4ce3fb4adaaa77638bf24c7",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.step",
+        "sha256": "1007b8f67a3e81e2c5182bfd1fd27afe4d8d3710e0bfa1a14b8a91db8b595eb5",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+        "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step",
+        "sha256": "8980de73cbad53eb5e794fa02d776853bd9e12958c401f80c4b4c723ec196b98",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile.step",
+        "sha256": "3f5c9afdd1159db0c237023b21338ca49f2310133d1b5841d7c3907325c70cd3",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile.step",
+        "sha256": "3f5c9afdd1159db0c237023b21338ca49f2310133d1b5841d7c3907325c70cd3",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical.step",
+        "sha256": "6af8c9d4b052b4d7b4785c2aa640458d32a1e9b79f9bed72e845352e5d2edad5",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+        "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_DB125-2.54-2P-GN.step",
+        "sha256": "8c51e8b2850ae2a42b842302271016757bae6be1e4ce3fb4adaaa77638bf24c7",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step",
+        "sha256": "8980de73cbad53eb5e794fa02d776853bd9e12958c401f80c4b4c723ec196b98",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Inductor_SMD.3dshapes/L_Bourns_SRN6045TA.step",
+        "sha256": "5464de33dcd974504045ea4d428515d8cab35e348d943f8073efb9df666ae346",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-3.step",
+        "sha256": "16964b14f93e6c778288a0c110b35f670fab733109c26f0da7dfc07cc3350040",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/CP_Elec_6.3x7.7.step",
+        "sha256": "c2a2efc3a0562b25c21f2b732dd2d6f0c3ff67148e12d40edff0e8fbdf71989b",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23.step",
+        "sha256": "dd5d1711204e1d8d26cd11490923bd84340820baa69538c385a4300ec2539bc0",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/MIC-SMD_4P-L2.8-W1.9-H1.0-P1.84-TL.step",
+        "sha256": "1263216d3af8d9638559514864f00c28f2a0abd275d925fc7bedacc694a48b1f",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical.step",
+        "sha256": "b31435643c9c989721c0ebabed78115ec3779ea291ff6ba64b6dcffbc12d03ba",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step",
+        "sha256": "8980de73cbad53eb5e794fa02d776853bd9e12958c401f80c4b4c723ec196b98",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical.step",
+        "sha256": "6af8c9d4b052b4d7b4785c2aa640458d32a1e9b79f9bed72e845352e5d2edad5",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile.step",
+        "sha256": "3f5c9afdd1159db0c237023b21338ca49f2310133d1b5841d7c3907325c70cd3",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step",
+        "sha256": "8980de73cbad53eb5e794fa02d776853bd9e12958c401f80c4b4c723ec196b98",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+        "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_LGA.3dshapes/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step",
+        "sha256": "135b7bb3b2262aa62b4493c9b0e06504cf329c6e4970fa84d0f8d063763daeb5",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical.step",
+        "sha256": "b31435643c9c989721c0ebabed78115ec3779ea291ff6ba64b6dcffbc12d03ba",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_DB125-2.54-2P-GN.step",
+        "sha256": "8c51e8b2850ae2a42b842302271016757bae6be1e4ce3fb4adaaa77638bf24c7",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+        "sha256": "720a6eab0024069bbee68e7cb4c3ff1149468a34611225cdc852662c5d0ec2b7",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.step",
+        "sha256": "1007b8f67a3e81e2c5182bfd1fd27afe4d8d3710e0bfa1a14b8a91db8b595eb5",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/HDR-SMD_40P-P2.54-V-F-R2-C20-S6.6_FH-00339.step",
+        "sha256": "ff25c5a8d921662d09affcc8cb800ea3347ba38061761344f880960d48af6c6d",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/3d_models/rasp_pi_zero_2_W_with_40_pin_male_connector v4.step",
+        "sha256": "87d3c65e5d003a786d12692deebaa7df77081f710fe775ecd5cf25ac1500acf9",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+        "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/TSOT-23.step",
+        "sha256": "4650ae674567ef40fa91eeca9a1c1391f1844e8330e248ae87d17c4b16d86de4",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.step",
+        "sha256": "acbf75a28fe41aa90efb38cd2b78220968d6eb6ebae1625dfd532dbeb268fece",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Diode_SMD.3dshapes/D_SOD-323.step",
+        "sha256": "cd8619b2119cd95683a2c5e660ab4f2d4db674f696cd6f9e9756f221171a214d",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+        "sha256": "720a6eab0024069bbee68e7cb4c3ff1149468a34611225cdc852662c5d0ec2b7",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_SO.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.step",
+        "sha256": "d5eeddb4c0b304dc61950919b126fc61d7586abd5f16ab71a2a79759ec6498bf",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+        "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Diode_SMD.3dshapes/D_SOD-123.step",
+        "sha256": "b3dc4065573abc72e3d5b4cca0e908f72a24205a41b6284b1f75ccacbe99adf8",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+        "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+        "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm.step",
+        "sha256": "65626b93d9b55c6bfae7e3fdafcfd9dc36fe0121778aa04d8da3a20c7d1f041e",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+        "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+        "sha256": "8bf2ae2bbd9d8b716db21d8d7fb903fac5ba2696150c3ec2e35bcea17b208ff2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+        "sha256": "720a6eab0024069bbee68e7cb4c3ff1149468a34611225cdc852662c5d0ec2b7",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_DFN_QFN.3dshapes/Texas_RHB0032E_VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step",
+        "sha256": "8f8d0b4cd914e19a9ed60dac2855f2fe2e737656c4d30cccd8e24d502fdd814b",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/TDFN-8_L3.0-W2.0-H0.8-P0.50.step",
+        "sha256": "6978f558f6e0343fe562b8b827c0c2172e27d7efd0b7d16af38b7609e73ae55b",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+        "sha256": "8bf2ae2bbd9d8b716db21d8d7fb903fac5ba2696150c3ec2e35bcea17b208ff2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/models/ASDMB_datasheet_max_envelope.step",
+        "sha256": "45b1ad9eb8c22bd59cf5172ff0bf999692408b7516082f71b7191fe0a208064c",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+        "sha256": "8bf2ae2bbd9d8b716db21d8d7fb903fac5ba2696150c3ec2e35bcea17b208ff2",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      },
+      {
+        "path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+        "role": "component_3d_model"
+      }
+    ]
+  },
+  "frame": {
+    "units": "mm",
+    "origin_kicad_mm": [
+      0,
+      0
+    ],
+    "mapping": "x = KiCadX - originX; y = originY - KiCadY; z = height above nominal PCB top",
+    "board_top_z_mm": 0,
+    "board_bottom_z_mm": -1,
+    "kicad_export_to_mechanical_translation_mm": [
+      0,
+      0,
+      -1
+    ],
+    "transform_status": "KiCad 10 bottom-datum convention; validate imported bounds and component placement for each package",
+    "note": "STEP/GLB substrate can exclude copper/mask thickness. Board mechanical envelope uses nominal full thickness; preserve actual export offset."
+  },
+  "board": {
+    "bounds_mm": [
+      [
+        71.397468,
+        -84.540034,
+        -1
+      ],
+      [
+        136.397502,
+        -53.63997,
+        0
+      ]
+    ],
+    "thickness_mm": 1,
+    "outline_count": 1,
+    "edge_segments": [
+      {
+        "shape": "0",
+        "start_mm": [
+          71.397502,
+          -57.140001
+        ],
+        "end_mm": [
+          71.397468,
+          -81.04
+        ]
+      },
+      {
+        "shape": "2",
+        "start_mm": [
+          71.397501,
+          -57.140001
+        ],
+        "end_mm": [
+          74.897501,
+          -53.640001
+        ],
+        "mid_mm": [
+          72.422627,
+          -54.665127
+        ]
+      },
+      {
+        "shape": "2",
+        "start_mm": [
+          74.897468,
+          -84.54
+        ],
+        "end_mm": [
+          71.397468,
+          -81.04
+        ],
+        "mid_mm": [
+          72.422594,
+          -83.514874
+        ]
+      },
+      {
+        "shape": "0",
+        "start_mm": [
+          74.8975,
+          -53.63997
+        ],
+        "end_mm": [
+          132.897501,
+          -53.640001
+        ]
+      },
+      {
+        "shape": "0",
+        "start_mm": [
+          74.897501,
+          -84.540001
+        ],
+        "end_mm": [
+          132.897502,
+          -84.540034
+        ]
+      },
+      {
+        "shape": "2",
+        "start_mm": [
+          132.897501,
+          -53.640001
+        ],
+        "end_mm": [
+          136.397501,
+          -57.140001
+        ],
+        "mid_mm": [
+          135.372375,
+          -54.665127
+        ]
+      },
+      {
+        "shape": "0",
+        "start_mm": [
+          136.397502,
+          -81.04
+        ],
+        "end_mm": [
+          136.397501,
+          -57.140001
+        ]
+      },
+      {
+        "shape": "2",
+        "start_mm": [
+          136.397502,
+          -81.040034
+        ],
+        "end_mm": [
+          132.897502,
+          -84.540034
+        ],
+        "mid_mm": [
+          135.372376,
+          -83.514908
+        ]
+      }
+    ],
+    "outline_regions_mm": [
+      {
+        "outer": [
+          [
+            132.897501,
+            -53.640001
+          ],
+          [
+            133.080803,
+            -53.642397
+          ],
+          [
+            133.445397,
+            -53.680718
+          ],
+          [
+            133.803989,
+            -53.756939
+          ],
+          [
+            134.15265,
+            -53.870226
+          ],
+          [
+            134.487558,
+            -54.019337
+          ],
+          [
+            134.805046,
+            -54.202639
+          ],
+          [
+            135.101634,
+            -54.418123
+          ],
+          [
+            135.374073,
+            -54.663428
+          ],
+          [
+            135.619379,
+            -54.935867
+          ],
+          [
+            135.834862,
+            -55.232456
+          ],
+          [
+            136.018164,
+            -55.549943
+          ],
+          [
+            136.167275,
+            -55.884852
+          ],
+          [
+            136.280561,
+            -56.233512
+          ],
+          [
+            136.356782,
+            -56.592105
+          ],
+          [
+            136.395103,
+            -56.956699
+          ],
+          [
+            136.397501,
+            -57.140001
+          ],
+          [
+            136.397502,
+            -81.040034
+          ],
+          [
+            136.395134,
+            -81.223336
+          ],
+          [
+            136.35681,
+            -81.587932
+          ],
+          [
+            136.280586,
+            -81.946524
+          ],
+          [
+            136.167296,
+            -82.295185
+          ],
+          [
+            136.018182,
+            -82.630093
+          ],
+          [
+            135.834878,
+            -82.947581
+          ],
+          [
+            135.619392,
+            -83.244168
+          ],
+          [
+            135.374085,
+            -83.516607
+          ],
+          [
+            135.101644,
+            -83.761912
+          ],
+          [
+            134.805054,
+            -83.977396
+          ],
+          [
+            134.487565,
+            -84.160697
+          ],
+          [
+            134.152655,
+            -84.309808
+          ],
+          [
+            133.803993,
+            -84.423094
+          ],
+          [
+            133.4454,
+            -84.499315
+          ],
+          [
+            133.080804,
+            -84.537635
+          ],
+          [
+            132.897502,
+            -84.540034
+          ],
+          [
+            74.897468,
+            -84.54
+          ],
+          [
+            74.714166,
+            -84.537632
+          ],
+          [
+            74.34957,
+            -84.499308
+          ],
+          [
+            73.990978,
+            -84.423084
+          ],
+          [
+            73.642317,
+            -84.309795
+          ],
+          [
+            73.307408,
+            -84.160681
+          ],
+          [
+            72.989921,
+            -83.977377
+          ],
+          [
+            72.693333,
+            -83.761891
+          ],
+          [
+            72.420894,
+            -83.516583
+          ],
+          [
+            72.175589,
+            -83.244142
+          ],
+          [
+            71.960106,
+            -82.947552
+          ],
+          [
+            71.776805,
+            -82.630063
+          ],
+          [
+            71.627694,
+            -82.295153
+          ],
+          [
+            71.514408,
+            -81.946491
+          ],
+          [
+            71.438187,
+            -81.587898
+          ],
+          [
+            71.399866,
+            -81.223302
+          ],
+          [
+            71.397468,
+            -81.04
+          ],
+          [
+            71.397502,
+            -57.140001
+          ],
+          [
+            71.399968,
+            -56.956701
+          ],
+          [
+            71.438288,
+            -56.59211
+          ],
+          [
+            71.514506,
+            -56.233521
+          ],
+          [
+            71.62779,
+            -55.884863
+          ],
+          [
+            71.776897,
+            -55.549957
+          ],
+          [
+            71.960193,
+            -55.23247
+          ],
+          [
+            72.175672,
+            -54.935883
+          ],
+          [
+            72.420971,
+            -54.663443
+          ],
+          [
+            72.693404,
+            -54.418135
+          ],
+          [
+            72.989986,
+            -54.202649
+          ],
+          [
+            73.307467,
+            -54.019343
+          ],
+          [
+            73.642369,
+            -53.870226
+          ],
+          [
+            73.991023,
+            -53.756933
+          ],
+          [
+            74.34961,
+            -53.680703
+          ],
+          [
+            74.7142,
+            -53.642374
+          ],
+          [
+            74.8975,
+            -53.63997
+          ]
+        ],
+        "holes": []
+      }
+    ],
+    "outline_approximation": "Native KiCad polygonization; curved edges are tessellated. Keep margins above tessellation uncertainty."
+  },
+  "mounting_holes": [],
+  "components": [
+    {
+      "reference": "J1",
+      "value": "Screw term.",
+      "position_mm": [
+        111.6925,
+        -80.745
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KIPRJMOD}/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_DB125-2.54-2P-GN.step",
+          "resolved_path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_DB125-2.54-2P-GN.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "U9",
+      "value": "AP63205",
+      "position_mm": [
+        99.937501,
+        -79.440001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C42",
+      "value": "1u",
+      "position_mm": [
+        131.417501,
+        -73.440001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C13",
+      "value": "10u",
+      "position_mm": [
+        131.052621,
+        -67.690001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "J5",
+      "value": "JST SH",
+      "position_mm": [
+        75.654881,
+        -64.840001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C43",
+      "value": "1u",
+      "position_mm": [
+        120.997501,
+        -73.540001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "TP3",
+      "value": "TestPoint",
+      "position_mm": [
+        104.597501,
+        -73.865001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C11",
+      "value": "100n",
+      "position_mm": [
+        133.122501,
+        -70.140001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R23",
+      "value": "4k7",
+      "position_mm": [
+        129.497501,
+        -74.340001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "TP2",
+      "value": "TestPoint",
+      "position_mm": [
+        133.497501,
+        -76.640001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "J14",
+      "value": "Dynamixel-3",
+      "position_mm": [
+        78.647501,
+        -75.490001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C21",
+      "value": "22u 6V3",
+      "position_mm": [
+        99.754881,
+        -83.177501
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "J9",
+      "value": "Screw term.",
+      "position_mm": [
+        127.5625,
+        -80.745
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KIPRJMOD}/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_DB125-2.54-2P-GN.step",
+          "resolved_path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_DB125-2.54-2P-GN.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R16",
+      "value": "DNP-0R",
+      "position_mm": [
+        113.497501,
+        -62.540001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C41",
+      "value": "1u",
+      "position_mm": [
+        130.097501,
+        -71.440001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R37",
+      "value": "DNP-1M",
+      "position_mm": [
+        127.487501,
+        -74.340001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "J6",
+      "value": "JST SH",
+      "position_mm": [
+        83.654881,
+        -64.830001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R28",
+      "value": "20k",
+      "position_mm": [
+        100.197501,
+        -74.740001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C40",
+      "value": "1u",
+      "position_mm": [
+        131.297501,
+        -72.440001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C10",
+      "value": "1u",
+      "position_mm": [
+        134.157501,
+        -72.020001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "G1",
+      "value": "qwiic_Logo",
+      "position_mm": [
+        105.8925,
+        -62.545
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [],
+      "envelope": null
+    },
+    {
+      "reference": "R30",
+      "value": "0R",
+      "position_mm": [
+        97.897501,
+        -63.590001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "L4",
+      "value": "6,8u 2A",
+      "position_mm": [
+        104.954881,
+        -80.440001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRN6045TA.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Inductor_SMD.3dshapes/L_Bourns_SRN6045TA.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R19",
+      "value": "0R",
+      "position_mm": [
+        113.497501,
+        -63.540001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R22",
+      "value": "4k7",
+      "position_mm": [
+        121.997501,
+        -72.540001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R14",
+      "value": "0R",
+      "position_mm": [
+        96.847501,
+        -63.590001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "U3",
+      "value": "XC6206P182MR",
+      "position_mm": [
+        128.215121,
+        -67.690001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-3.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-3.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R27",
+      "value": "10k",
+      "position_mm": [
+        98.064881,
+        -70.740001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C19",
+      "value": "10u 63V",
+      "position_mm": [
+        94.554881,
+        -79.340001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_6.3x7.7.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/CP_Elec_6.3x7.7.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "Q1",
+      "value": "MMBT3906",
+      "position_mm": [
+        98.644881,
+        -73.277501
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R12",
+      "value": "10k",
+      "position_mm": [
+        75.597501,
+        -61.640001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R15",
+      "value": "0R",
+      "position_mm": [
+        95.797501,
+        -63.590001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "FID2",
+      "value": "DNP Fiducial",
+      "position_mm": [
+        116.497501,
+        -82.040001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [],
+      "envelope": null
+    },
+    {
+      "reference": "MK1",
+      "value": "Microphone_MEMS",
+      "position_mm": [
+        134.754881,
+        -69.740001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KIPRJMOD}/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/MIC-SMD_4P-L2.8-W1.9-H1.0-P1.84-TL.step",
+          "resolved_path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/MIC-SMD_4P-L2.8-W1.9-H1.0-P1.84-TL.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "TP5",
+      "value": "TestPoint",
+      "position_mm": [
+        95.047501,
+        -70.740001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [],
+      "envelope": null
+    },
+    {
+      "reference": "FID1",
+      "value": "DNP Fiducial",
+      "position_mm": [
+        132.754881,
+        -61.840001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [],
+      "envelope": null
+    },
+    {
+      "reference": "C23",
+      "value": "100n 6V3",
+      "position_mm": [
+        92.197501,
+        -67.840001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R26",
+      "value": "10k",
+      "position_mm": [
+        96.564881,
+        -71.240001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "J3",
+      "value": "Dynamixel-4",
+      "position_mm": [
+        88.297501,
+        -81.040001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "J7",
+      "value": "JST SH",
+      "position_mm": [
+        102.117501,
+        -66.115001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R13",
+      "value": "10k",
+      "position_mm": [
+        72.797501,
+        -62.340001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "J13",
+      "value": "Dynamixel-3",
+      "position_mm": [
+        73.847501,
+        -75.490001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "TP4",
+      "value": "TestPoint",
+      "position_mm": [
+        108.197501,
+        -73.865001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "J8",
+      "value": "JST SH",
+      "position_mm": [
+        110.154881,
+        -66.100001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R9",
+      "value": "0R",
+      "position_mm": [
+        92.797501,
+        -64.940001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R25",
+      "value": "0R",
+      "position_mm": [
+        94.747501,
+        -62.940001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C12",
+      "value": "10u",
+      "position_mm": [
+        125.352621,
+        -67.690001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "U12",
+      "value": "LSM6DSV16XTR",
+      "position_mm": [
+        94.897501,
+        -67.040001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_LGA.3dshapes/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R36",
+      "value": "DNP-1M",
+      "position_mm": [
+        120.987501,
+        -74.540001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C24",
+      "value": "100n 6V3",
+      "position_mm": [
+        93.047501,
+        -69.340001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C20",
+      "value": "100n 50V",
+      "position_mm": [
+        99.437501,
+        -76.840001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R24",
+      "value": "10k",
+      "position_mm": [
+        98.507501,
+        -75.740001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "J11",
+      "value": "Dynamixel-4",
+      "position_mm": [
+        83.497501,
+        -81.040001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Connector_JST.3dshapes/JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "FID3",
+      "value": "DNP Fiducial",
+      "position_mm": [
+        79.054881,
+        -82.340001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [],
+      "envelope": null
+    },
+    {
+      "reference": "J2",
+      "value": "Screw term.",
+      "position_mm": [
+        121.6925,
+        -80.745
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KIPRJMOD}/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_DB125-2.54-2P-GN.step",
+          "resolved_path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/CONN-TH_DB125-2.54-2P-GN.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R42",
+      "value": "1k",
+      "position_mm": [
+        116.6825,
+        -76.445
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "top",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "U5",
+      "value": "74LVC1G08",
+      "position_mm": [
+        89.704881,
+        -64.502501
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R20",
+      "value": "10k",
+      "position_mm": [
+        83.097501,
+        -66.040001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "U10",
+      "value": "LM5050-1",
+      "position_mm": [
+        104.547501,
+        -77.740001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C34",
+      "value": "10n",
+      "position_mm": [
+        118.897501,
+        -69.440001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "J4",
+      "value": "Female Header 2x20 SMD",
+      "position_mm": [
+        103.8975,
+        -58.04
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KIPRJMOD}/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/HDR-SMD_40P-P2.54-V-F-R2-C20-S6.6_FH-00339.step",
+          "resolved_path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/HDR-SMD_40P-P2.54-V-F-R2-C20-S6.6_FH-00339.step",
+          "exists": true
+        },
+        {
+          "path": "${KIPRJMOD}/../../../upstream/lib_KiCAD/3d_models/rasp_pi_zero_2_W_with_40_pin_male_connector v4.step",
+          "resolved_path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/3d_models/rasp_pi_zero_2_W_with_40_pin_male_connector v4.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C44",
+      "value": "10n",
+      "position_mm": [
+        101.497501,
+        -70.140001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C22",
+      "value": "22u 6V3",
+      "position_mm": [
+        97.397501,
+        -81.940001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R38",
+      "value": "10k",
+      "position_mm": [
+        109.597501,
+        -67.400001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C31",
+      "value": "1u",
+      "position_mm": [
+        125.840121,
+        -77.290001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "Q2",
+      "value": "N-Channel 5A",
+      "position_mm": [
+        103.997501,
+        -81.440001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/TSOT-23.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "D1",
+      "value": "BAT54W",
+      "position_mm": [
+        99.547501,
+        -79.440001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "D4",
+      "value": "5V1",
+      "position_mm": [
+        76.5925,
+        -67.745
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Diode_SMD.3dshapes/D_SOD-323.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "U6",
+      "value": "SN74LVC1G125DBV",
+      "position_mm": [
+        90.860001,
+        -70.590001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C27",
+      "value": "1u",
+      "position_mm": [
+        129.615121,
+        -67.590001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R34",
+      "value": "10k",
+      "position_mm": [
+        101.790121,
+        -67.315001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C3",
+      "value": "1u",
+      "position_mm": [
+        120.297501,
+        -70.940001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R40",
+      "value": "0R",
+      "position_mm": [
+        96.597501,
+        -76.740001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "U1",
+      "value": "PAM8406D",
+      "position_mm": [
+        114.749881,
+        -74.215001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_SO.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C38",
+      "value": "100n",
+      "position_mm": [
+        123.197501,
+        -70.640001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C7",
+      "value": "10u",
+      "position_mm": [
+        117.3925,
+        -80.645
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R32",
+      "value": "10k",
+      "position_mm": [
+        82.0175,
+        -70.927501
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "D2",
+      "value": "3V3 Zener Diode",
+      "position_mm": [
+        100.097501,
+        -71.840001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Diode_SMD.3dshapes/D_SOD-123.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C39",
+      "value": "100n 6V3",
+      "position_mm": [
+        107.197501,
+        -77.240001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R11",
+      "value": "DNP-10k",
+      "position_mm": [
+        115.197501,
+        -65.665001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C6",
+      "value": "1u",
+      "position_mm": [
+        114.3925,
+        -79.945
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C36",
+      "value": "100n",
+      "position_mm": [
+        129.235121,
+        -76.315001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C8",
+      "value": "220n",
+      "position_mm": [
+        112.0925,
+        -78.945
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C45",
+      "value": "10u 35V",
+      "position_mm": [
+        95.0425,
+        -80.145
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R10",
+      "value": "DNP-10k",
+      "position_mm": [
+        116.172501,
+        -64.665001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R5",
+      "value": "0R",
+      "position_mm": [
+        119.197501,
+        -78.845
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C9",
+      "value": "220n",
+      "position_mm": [
+        111.097501,
+        -78.945
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R21",
+      "value": "10k",
+      "position_mm": [
+        82.097501,
+        -66.030001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C5",
+      "value": "10u",
+      "position_mm": [
+        115.404881,
+        -67.815001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C2",
+      "value": "1u",
+      "position_mm": [
+        123.672501,
+        -72.190001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "U8",
+      "value": "GM3088ENA",
+      "position_mm": [
+        92.897501,
+        -77.340001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R18",
+      "value": "0R",
+      "position_mm": [
+        87.197501,
+        -62.540001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R2",
+      "value": "10k",
+      "position_mm": [
+        121.772501,
+        -72.190001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "TH1",
+      "value": "100R thermistor",
+      "position_mm": [
+        76.4925,
+        -70.245
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C26",
+      "value": "100n",
+      "position_mm": [
+        123.615121,
+        -69.640001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C1",
+      "value": "1u",
+      "position_mm": [
+        123.697501,
+        -73.415001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C25",
+      "value": "DNP-100n",
+      "position_mm": [
+        118.217501,
+        -63.760001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R31",
+      "value": "10k",
+      "position_mm": [
+        90.910001,
+        -67.990001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C37",
+      "value": "10u",
+      "position_mm": [
+        127.515121,
+        -77.445
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R39",
+      "value": "10k",
+      "position_mm": [
+        108.597501,
+        -67.400001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "FB2",
+      "value": "2A - 120R@100MHz",
+      "position_mm": [
+        113.0925,
+        -78.945
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C16",
+      "value": "100n",
+      "position_mm": [
+        92.447501,
+        -64.165001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R1",
+      "value": "10k",
+      "position_mm": [
+        121.772501,
+        -73.415001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C18",
+      "value": "100n",
+      "position_mm": [
+        82.602621,
+        -68.377501
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C29",
+      "value": "1u",
+      "position_mm": [
+        123.715121,
+        -75.390001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "U7",
+      "value": "SN74LVC1G126DBVR",
+      "position_mm": [
+        84.647501,
+        -70.377501
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C35",
+      "value": "1u",
+      "position_mm": [
+        129.235121,
+        -77.315001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R6",
+      "value": "10k",
+      "position_mm": [
+        122.697501,
+        -66.840001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C30",
+      "value": "100n",
+      "position_mm": [
+        123.715121,
+        -74.390001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C28",
+      "value": "100n",
+      "position_mm": [
+        129.615121,
+        -68.590001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C33",
+      "value": "1u",
+      "position_mm": [
+        117.897501,
+        -69.440001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C4",
+      "value": "1u",
+      "position_mm": [
+        114.097501,
+        -68.440001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R33",
+      "value": "150R",
+      "position_mm": [
+        79.197501,
+        -67.845
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C32",
+      "value": "100n",
+      "position_mm": [
+        125.840121,
+        -76.290001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "U2",
+      "value": "TLV320AIC3104IRHBR",
+      "position_mm": [
+        127.747501,
+        -72.415001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RHB0032E_VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Package_DFN_QFN.3dshapes/Texas_RHB0032E_VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "U4",
+      "value": "DNP-CAT24C32HU4",
+      "position_mm": [
+        119.197501,
+        -65.415001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KIPRJMOD}/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/TDFN-8_L3.0-W2.0-H0.8-P0.50.step",
+          "resolved_path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/../../../upstream/lib_KiCAD/LCSC_parts/easyeda2kicad.3dshapes/TDFN-8_L3.0-W2.0-H0.8-P0.50.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R7",
+      "value": "0R",
+      "position_mm": [
+        132.215121,
+        -73.190001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C14",
+      "value": "100n",
+      "position_mm": [
+        124.237501,
+        -65.600001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R4",
+      "value": "0R",
+      "position_mm": [
+        114.854881,
+        -69.940001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C17",
+      "value": "100n",
+      "position_mm": [
+        93.110001,
+        -69.940001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R3",
+      "value": "0R",
+      "position_mm": [
+        115.397501,
+        -78.940001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R41",
+      "value": "DNP-0R",
+      "position_mm": [
+        95.797501,
+        -74.840001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "C15",
+      "value": "100n",
+      "position_mm": [
+        91.997501,
+        -74.940001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R29",
+      "value": "10k",
+      "position_mm": [
+        93.997501,
+        -74.940001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "FB3",
+      "value": "2A - 120R@100MHz",
+      "position_mm": [
+        110.097501,
+        -79.025001
+      ],
+      "rotation_degrees_kicad": -90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "Y1",
+      "value": "12 MHz",
+      "position_mm": [
+        124.815121,
+        -67.610001
+      ],
+      "rotation_degrees_kicad": 0,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KIPRJMOD}/models/ASDMB_datasheet_max_envelope.step",
+          "resolved_path": "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\outputs\\microduck-assets\\editing\\kicad\\Robot_HAT_reference/models/ASDMB_datasheet_max_envelope.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R17",
+      "value": "DNP-0R",
+      "position_mm": [
+        86.997501,
+        -64.340001
+      ],
+      "rotation_degrees_kicad": 180,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "FB1",
+      "value": "1.3A 600R@100MHz",
+      "position_mm": [
+        119.922501,
+        -68.440001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R8",
+      "value": "100R",
+      "position_mm": [
+        107.897501,
+        -79.240001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    },
+    {
+      "reference": "R35",
+      "value": "10k",
+      "position_mm": [
+        100.790121,
+        -67.315001
+      ],
+      "rotation_degrees_kicad": 90,
+      "side": "bottom",
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ],
+      "envelope": null
+    }
+  ],
+  "missing_component_envelopes": [
+    "J1",
+    "U9",
+    "C42",
+    "C13",
+    "J5",
+    "C43",
+    "TP3",
+    "C11",
+    "R23",
+    "TP2",
+    "J14",
+    "C21",
+    "J9",
+    "R16",
+    "C41",
+    "R37",
+    "J6",
+    "R28",
+    "C40",
+    "C10",
+    "G1",
+    "R30",
+    "L4",
+    "R19",
+    "R22",
+    "R14",
+    "U3",
+    "R27",
+    "C19",
+    "Q1",
+    "R12",
+    "R15",
+    "FID2",
+    "MK1",
+    "TP5",
+    "FID1",
+    "C23",
+    "R26",
+    "J3",
+    "J7",
+    "R13",
+    "J13",
+    "TP4",
+    "J8",
+    "R9",
+    "R25",
+    "C12",
+    "U12",
+    "R36",
+    "C24",
+    "C20",
+    "R24",
+    "J11",
+    "FID3",
+    "J2",
+    "R42",
+    "U5",
+    "R20",
+    "U10",
+    "C34",
+    "J4",
+    "C44",
+    "C22",
+    "R38",
+    "C31",
+    "Q2",
+    "D1",
+    "D4",
+    "U6",
+    "C27",
+    "R34",
+    "C3",
+    "R40",
+    "U1",
+    "C38",
+    "C7",
+    "R32",
+    "D2",
+    "C39",
+    "R11",
+    "C6",
+    "C36",
+    "C8",
+    "C45",
+    "R10",
+    "R5",
+    "C9",
+    "R21",
+    "C5",
+    "C2",
+    "U8",
+    "R18",
+    "R2",
+    "TH1",
+    "C26",
+    "C1",
+    "C25",
+    "R31",
+    "C37",
+    "R39",
+    "FB2",
+    "C16",
+    "R1",
+    "C18",
+    "C29",
+    "U7",
+    "C35",
+    "R6",
+    "C30",
+    "C28",
+    "C33",
+    "C4",
+    "R33",
+    "C32",
+    "U2",
+    "U4",
+    "R7",
+    "C14",
+    "R4",
+    "C17",
+    "R3",
+    "R41",
+    "C15",
+    "R29",
+    "FB3",
+    "Y1",
+    "R17",
+    "FB1",
+    "R8",
+    "R35"
+  ],
+  "envelope_coverage_complete": false,
+  "limitations": [
+    "Envelope fit checks do not validate electrical safety, thermal performance, EMC, cable flex, or manufacturing tolerances not explicitly specified.",
+    "H-numbered footprints define mounting-hole candidates; other NPTH pads are not automatically mounting holes."
+  ],
+  "missing_3d_models": [
+    "G1",
+    "FID2",
+    "TP5",
+    "FID1",
+    "FID3"
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "net": "Battery",
+    "sheets": [
+      "POGP_PIN::POGOPIN"
+    ],
+    "components": [
+      "CN2",
+      "PORT021382aa79591a6f",
+      "U1"
+    ]
+  },
+  {
+    "net": "GND",
+    "sheets": [
+      "POGP_PIN::POGOPIN"
+    ],
+    "components": [
+      "CN2",
+      "PORT28792db0e2e9811a",
+      "U2"
+    ]
+  }
+]

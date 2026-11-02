@@ -1,0 +1,642 @@
+{
+  "candidate": "wire_hub_1V0A",
+  "source_records": {
+    "LAYER": 60,
+    "LAYER_PHYS": 9,
+    "RULE": 15,
+    "PRIMITIVE": 38,
+    "SILK_OPTS": 2,
+    "PANELIZE": 1,
+    "POURED": 11,
+    "POLY": 40,
+    "POUR": 3,
+    "FILL": 4,
+    "NET": 3,
+    "RULE_SELECTOR": 2,
+    "RULE_TEMPLATE": 1,
+    "BOARD": 1,
+    "CANVAS": 1,
+    "META": 1,
+    "PREFERENCE": 1,
+    "VIA": 33,
+    "PAD_NET": 24,
+    "COMPONENT": 7,
+    "ATTR": 21,
+    "LINE": 36,
+    "ACTIVE_LAYER": 1,
+    "STRING": 1
+  },
+  "converted": {
+    "interior_cutouts": 2,
+    "pads": 24,
+    "components": 7,
+    "tracks": 36,
+    "vias": 33,
+    "FILL": 2,
+    "static_copper_polygons": 8
+  },
+  "excluded_outside_active_board": [
+    "84a63625734e769f"
+  ],
+  "warnings": [
+    {
+      "source": "18af75916912bc73",
+      "issue": "duplicate interior cutout omitted",
+      "same_as": "a4297c2eaa981611"
+    },
+    {
+      "source": "8a7319cf7e8d5571",
+      "issue": "duplicate interior cutout omitted",
+      "same_as": "b7bd621d4fc06df2"
+    },
+    {
+      "source": "fe353db70d7ee380",
+      "issue": "duplicate interior cutout omitted",
+      "same_as": "a4297c2eaa981611"
+    },
+    {
+      "source": "361f34e9e8642f18",
+      "issue": "duplicate interior cutout omitted",
+      "same_as": "a4297c2eaa981611"
+    },
+    {
+      "source": "39349650ce2d9f74",
+      "issue": "duplicate interior cutout omitted",
+      "same_as": "b7bd621d4fc06df2"
+    },
+    {
+      "source": "5d2bedce60beb31f",
+      "issue": "duplicate interior cutout omitted",
+      "same_as": "b7bd621d4fc06df2"
+    },
+    {
+      "source": "32aafba35a775d77",
+      "issue": "POUR has no active cached copper; not regenerated"
+    }
+  ],
+  "source_copper_cache": "retained as static KiCad filled zones; not regenerated",
+  "native_rules_translated": false,
+  "manufacturing_ready": false,
+  "shape_transition_hypotheses": [],
+  "expected_static_copper_area_mm2": {
+    "a33f62a491f76b4a": 164.44249965285258,
+    "6433fd3c96979807": 505.0845411590283,
+    "7e8293db382f614b": 300.9672975376104
+  },
+  "omitted_nonpad_footprint_records": {
+    "META": 7,
+    "LAYER": 134,
+    "ACTIVE_LAYER": 7,
+    "CANVAS": 7,
+    "ELE_PLACEHOLDER": 34,
+    "FILL": 44,
+    "POLY": 115,
+    "ATTR": 14,
+    "NET": 7
+  },
+  "active_board_bounds_mm": [
+    47.78569818,
+    -1.39729972,
+    70.07030182,
+    26.797299719999998
+  ],
+  "declared_thickness_mm": 1.6000476,
+  "reopened": {
+    "footprints": 7,
+    "pads": 24,
+    "tracks_and_vias": 69,
+    "zones": 8
+  },
+  "expected_pads": [
+    {
+      "reference": "J3",
+      "number": "3",
+      "source_number": "3",
+      "net": "GND",
+      "x_mm": 62.73812700000002,
+      "y_mm": -10.128122999999999,
+      "source_id": "e35",
+      "drill_mm": 0.9999979999999999,
+      "copper_area_mm2": 1.7665456288478074,
+      "copper_bounds_mm": [
+        61.988001499999996,
+        -10.8779945,
+        63.4879985,
+        -9.3779975
+      ],
+      "copper_layers": [
+        0,
+        2
+      ],
+      "native_uuid": "b8d5bc21-43ef-49a1-b8a1-6a4be2d6afc6"
+    },
+    {
+      "reference": "J3",
+      "number": "2",
+      "source_number": "2",
+      "net": "Battery",
+      "x_mm": 62.738126999999984,
+      "y_mm": -8.128152400000001,
+      "source_id": "e36",
+      "drill_mm": 0.9999979999999999,
+      "copper_area_mm2": 1.7665456288478079,
+      "copper_bounds_mm": [
+        61.988001499999996,
+        -8.8780239,
+        63.4879985,
+        -7.3780269
+      ],
+      "copper_layers": [
+        0,
+        2
+      ],
+      "native_uuid": "b81f0bfc-6d41-4d8d-ae00-88b6f385ba16"
+    },
+    {
+      "reference": "J3",
+      "number": "1",
+      "source_number": "1",
+      "net": "DXL_BUS",
+      "x_mm": 62.73812700000002,
+      "y_mm": -6.128130999999998,
+      "source_id": "e37",
+      "drill_mm": 0.9999979999999999,
+      "copper_area_mm2": 1.7665456288478072,
+      "copper_bounds_mm": [
+        61.988001499999996,
+        -6.8780025,
+        63.4879985,
+        -5.3780055
+      ],
+      "copper_layers": [
+        0,
+        2
+      ],
+      "native_uuid": "10f8c776-8195-487b-b9c3-c313657fa322"
+    },
+    {
+      "reference": "J4",
+      "number": "3",
+      "source_number": "3",
+      "net": "GND",
+      "x_mm": 55.117872999999996,
+      "y_mm": -5.365877,
+      "source_id": "e35",
+      "drill_mm": 0.9999979999999999,
+      "copper_area_mm2": 1.766545628847806,
+      "copper_bounds_mm": [
+        54.36800149999999,
+        -6.1160025000000005,
+        55.8679985,
+        -4.6160055
+      ],
+      "copper_layers": [
+        0,
+        2
+      ],
+      "native_uuid": "335cb6c2-9808-46a9-b475-8349cac6eba5"
+    },
+    {
+      "reference": "J4",
+      "number": "2",
+      "source_number": "2",
+      "net": "Battery",
+      "x_mm": 55.11787299999997,
+      "y_mm": -7.3658476,
+      "source_id": "e36",
+      "drill_mm": 0.9999979999999999,
+      "copper_area_mm2": 1.766545628847807,
+      "copper_bounds_mm": [
+        54.36800149999999,
+        -8.1159731,
+        55.8679985,
+        -6.615976099999999
+      ],
+      "copper_layers": [
+        0,
+        2
+      ],
+      "native_uuid": "2d3268ae-7c47-4de6-ab1c-6eedf321688c"
+    },
+    {
+      "reference": "J4",
+      "number": "1",
+      "source_number": "1",
+      "net": "DXL_BUS",
+      "x_mm": 55.11787299999994,
+      "y_mm": -9.365868999999996,
+      "source_id": "e37",
+      "drill_mm": 0.9999979999999999,
+      "copper_area_mm2": 1.7665456288478067,
+      "copper_bounds_mm": [
+        54.36800149999999,
+        -10.1159945,
+        55.8679985,
+        -8.615997499999999
+      ],
+      "copper_layers": [
+        0,
+        2
+      ],
+      "native_uuid": "fc787639-d55b-4c06-b0de-1b804a837fe1"
+    },
+    {
+      "reference": "J6",
+      "number": "1",
+      "source_number": "1",
+      "net": "DXL_BUS",
+      "x_mm": 64.64300000000001,
+      "y_mm": -14.383004000000001,
+      "source_id": "e13",
+      "drill_mm": 0.9199879999999999,
+      "copper_area_mm2": 1.959992160007849,
+      "copper_bounds_mm": [
+        63.94300139999999,
+        -15.083002599999999,
+        65.3429986,
+        -13.6830054
+      ],
+      "copper_layers": [
+        0,
+        2
+      ],
+      "native_uuid": "56940579-487a-4ca3-90e0-d8772b7cde2a"
+    },
+    {
+      "reference": "J6",
+      "number": "2",
+      "source_number": "2",
+      "net": "Battery",
+      "x_mm": 64.64299999999999,
+      "y_mm": -16.382999999999992,
+      "source_id": "e14",
+      "drill_mm": 0.9199879999999999,
+      "copper_area_mm2": 1.5387930025493521,
+      "copper_bounds_mm": [
+        63.94300139999999,
+        -17.0829986,
+        65.3429986,
+        -15.6830014
+      ],
+      "copper_layers": [
+        0,
+        2
+      ],
+      "native_uuid": "94a55e14-7702-4c17-8401-5c17e7c0ba0c"
+    },
+    {
+      "reference": "J6",
+      "number": "3",
+      "source_number": "3",
+      "net": "GND",
+      "x_mm": 64.64300000000003,
+      "y_mm": -18.38299600000001,
+      "source_id": "e15",
+      "drill_mm": 0.9199879999999999,
+      "copper_area_mm2": 1.538793002549352,
+      "copper_bounds_mm": [
+        63.94300139999999,
+        -19.0829946,
+        65.3429986,
+        -17.6829974
+      ],
+      "copper_layers": [
+        0,
+        2
+      ],
+      "native_uuid": "0fa16074-6eec-4f87-b1e5-33d97cf9d8fc"
+    },
+    {
+      "reference": "J2",
+      "number": "4",
+      "source_number": "4",
+      "net": "GND",
+      "x_mm": 53.530880999999994,
+      "y_mm": -25.865455,
+      "source_id": "e9",
+      "drill_mm": null,
+      "copper_area_mm2": 0.7699969200030787,
+      "copper_bounds_mm": [
+        53.18088169999999,
+        -26.415453899999996,
+        53.880880299999994,
+        -25.3154561
+      ],
+      "copper_layers": [
+        0
+      ],
+      "native_uuid": "bada30f7-8465-46ea-8267-d23dab24f714"
+    },
+    {
+      "reference": "J2",
+      "number": "2",
+      "source_number": "2",
+      "net": "Battery",
+      "x_mm": 51.180873,
+      "y_mm": -22.140545,
+      "source_id": "e10",
+      "drill_mm": null,
+      "copper_area_mm2": 0.5100055799868026,
+      "copper_bounds_mm": [
+        50.880873599999994,
+        -22.5655505,
+        51.480872399999996,
+        -21.7155395
+      ],
+      "copper_layers": [
+        0
+      ],
+      "native_uuid": "566f79be-f439-492d-a82d-4dfb16bb7d31"
+    },
+    {
+      "reference": "J2",
+      "number": "1",
+      "source_number": "1",
+      "net": "GND",
+      "x_mm": 52.38102299999999,
+      "y_mm": -22.140545,
+      "source_id": "e11",
+      "drill_mm": null,
+      "copper_area_mm2": 0.5100055799867965,
+      "copper_bounds_mm": [
+        52.0810236,
+        -22.5655505,
+        52.681022399999996,
+        -21.7155395
+      ],
+      "copper_layers": [
+        0
+      ],
+      "native_uuid": "80084cd4-7ac8-4386-977a-185a05f989fd"
+    },
+    {
+      "reference": "J2",
+      "number": "3",
+      "source_number": "3",
+      "net": "DXL_BUS",
+      "x_mm": 49.980977,
+      "y_mm": -22.140545,
+      "source_id": "e12",
+      "drill_mm": null,
+      "copper_area_mm2": 0.5100055799868026,
+      "copper_bounds_mm": [
+        49.6809776,
+        -22.5655505,
+        50.2809764,
+        -21.7155395
+      ],
+      "copper_layers": [
+        0
+      ],
+      "native_uuid": "2f9dc447-3169-47ce-8960-b4e0a7b0e126"
+    },
+    {
+      "reference": "J2",
+      "number": "5",
+      "source_number": "5",
+      "net": "GND",
+      "x_mm": 48.831118999999994,
+      "y_mm": -25.865455,
+      "source_id": "e13",
+      "drill_mm": null,
+      "copper_area_mm2": 0.7699969200030787,
+      "copper_bounds_mm": [
+        48.4811197,
+        -26.415453899999996,
+        49.1811183,
+        -25.3154561
+      ],
+      "copper_layers": [
+        0
+      ],
+      "native_uuid": "b0401bc5-b101-4ef9-b605-b7ff331ee48c"
+    },
+    {
+      "reference": "J5",
+      "number": "1",
+      "source_number": "1",
+      "net": "DXL_BUS",
+      "x_mm": 53.340000000000025,
+      "y_mm": -14.256004000000004,
+      "source_id": "e13",
+      "drill_mm": 0.9199879999999999,
+      "copper_area_mm2": 1.959992160007849,
+      "copper_bounds_mm": [
+        52.640001399999996,
+        -14.956002599999998,
+        54.039998600000004,
+        -13.5560054
+      ],
+      "copper_layers": [
+        0,
+        2
+      ],
+      "native_uuid": "78b00608-ec12-43e8-a8c9-527961bfb20f"
+    },
+    {
+      "reference": "J5",
+      "number": "2",
+      "source_number": "2",
+      "net": "Battery",
+      "x_mm": 53.33999999999999,
+      "y_mm": -16.256,
+      "source_id": "e14",
+      "drill_mm": 0.9199879999999999,
+      "copper_area_mm2": 1.5387930025493526,
+      "copper_bounds_mm": [
+        52.640001399999996,
+        -16.955998599999997,
+        54.039998600000004,
+        -15.5560014
+      ],
+      "copper_layers": [
+        0,
+        2
+      ],
+      "native_uuid": "bf6b498d-63e6-44b6-ae1e-0f48b239faf5"
+    },
+    {
+      "reference": "J5",
+      "number": "3",
+      "source_number": "3",
+      "net": "GND",
+      "x_mm": 53.33999999999996,
+      "y_mm": -18.25599599999999,
+      "source_id": "e15",
+      "drill_mm": 0.9199879999999999,
+      "copper_area_mm2": 1.5387930025493524,
+      "copper_bounds_mm": [
+        52.640001399999996,
+        -18.9559946,
+        54.039998600000004,
+        -17.5559974
+      ],
+      "copper_layers": [
+        0,
+        2
+      ],
+      "native_uuid": "4a6d225b-7376-4839-986b-a595b35e75d2"
+    },
+    {
+      "reference": "J1",
+      "number": "1",
+      "source_number": "1",
+      "net": "GND",
+      "x_mm": 67.74784519999999,
+      "y_mm": -22.203028999999997,
+      "source_id": "e11",
+      "drill_mm": null,
+      "copper_area_mm2": 0.5100055799867965,
+      "copper_bounds_mm": [
+        67.4478458,
+        -22.628034500000002,
+        68.04784459999999,
+        -21.7780235
+      ],
+      "copper_layers": [
+        0
+      ],
+      "native_uuid": "f88e147f-3f2d-4ab5-8e9c-c1b07761eee1"
+    },
+    {
+      "reference": "J1",
+      "number": "2",
+      "source_number": "2",
+      "net": "Battery",
+      "x_mm": 66.5479492,
+      "y_mm": -22.203028999999997,
+      "source_id": "e12",
+      "drill_mm": null,
+      "copper_area_mm2": 0.5100055799867965,
+      "copper_bounds_mm": [
+        66.2479498,
+        -22.628034500000002,
+        66.8479486,
+        -21.7780235
+      ],
+      "copper_layers": [
+        0
+      ],
+      "native_uuid": "a8598f8c-9004-4085-9970-0bd54e7afb0c"
+    },
+    {
+      "reference": "J1",
+      "number": "3",
+      "source_number": "3",
+      "net": "DXL_BUS",
+      "x_mm": 65.3477992,
+      "y_mm": -22.203028999999997,
+      "source_id": "e13",
+      "drill_mm": null,
+      "copper_area_mm2": 0.5100055799868086,
+      "copper_bounds_mm": [
+        65.04779979999999,
+        -22.628034500000002,
+        65.6477986,
+        -21.7780235
+      ],
+      "copper_layers": [
+        0
+      ],
+      "native_uuid": "ae2b32fd-5e76-4fac-9416-649b1875592d"
+    },
+    {
+      "reference": "J1",
+      "number": "5",
+      "source_number": "5",
+      "net": "GND",
+      "x_mm": 68.84791919999999,
+      "y_mm": -25.802971,
+      "source_id": "e14",
+      "drill_mm": null,
+      "copper_area_mm2": 0.6999972000028017,
+      "copper_bounds_mm": [
+        68.4979199,
+        -26.30297,
+        69.1979185,
+        -25.302971999999997
+      ],
+      "copper_layers": [
+        0
+      ],
+      "native_uuid": "0d6cf236-aa8c-4d53-8081-b0ef270681e1"
+    },
+    {
+      "reference": "J1",
+      "number": "4",
+      "source_number": "4",
+      "net": "GND",
+      "x_mm": 64.24797919999999,
+      "y_mm": -25.802971,
+      "source_id": "e15",
+      "drill_mm": null,
+      "copper_area_mm2": 0.6999972000028089,
+      "copper_bounds_mm": [
+        63.89797989999999,
+        -26.30297,
+        64.5979785,
+        -25.302971999999997
+      ],
+      "copper_layers": [
+        0
+      ],
+      "native_uuid": "8fc57d45-d84b-4fe8-957e-9c56ad5c6f8f"
+    },
+    {
+      "reference": "CN1",
+      "number": "2",
+      "source_number": "2",
+      "net": "GND",
+      "x_mm": 57.27700000000001,
+      "y_mm": -23.241,
+      "source_id": "e18",
+      "drill_mm": 1.1999975999999999,
+      "copper_area_mm2": 2.54395523890546,
+      "copper_bounds_mm": [
+        56.377001799999995,
+        -24.1409982,
+        58.1769982,
+        -22.3410018
+      ],
+      "copper_layers": [
+        0,
+        2
+      ],
+      "native_uuid": "cae57a4c-7a65-4fc0-b9fd-011890844b9c"
+    },
+    {
+      "reference": "CN1",
+      "number": "1",
+      "source_number": "1",
+      "net": "Battery",
+      "x_mm": 59.817000000000014,
+      "y_mm": -23.24100000000001,
+      "source_id": "e19",
+      "drill_mm": 1.1999975999999999,
+      "copper_area_mm2": 3.239987040012952,
+      "copper_bounds_mm": [
+        58.9170018,
+        -24.1409982,
+        60.7169982,
+        -22.3410018
+      ],
+      "copper_layers": [
+        0,
+        2
+      ],
+      "native_uuid": "b7dfd672-be4a-4303-956c-920e950739d0"
+    }
+  ],
+  "engineering_changes": [
+    {
+      "source_primitive": "a33f62a491f76b4a",
+      "from_net": "BATTERY",
+      "to_net": "Battery",
+      "rationale": "case mismatch with all battery pads, tracks and recovered schematic; explicit engineering repair, not literal source recovery",
+      "native_uuids": [
+        "87d8a1f2-e0c8-4fba-97be-62496806f0d9"
+      ]
+    }
+  ],
+  "unmodified_parent_sha256": "1b1a855197d5a93ab880116d992318a7589ee3a5029db08ec63d56d5f7f757e7"
+}

@@ -1,0 +1,948 @@
+[
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/ankle_l_v1.stl",
+    "sha256": "cf4407956caf05b2e9bb2c75764fa365d217f44efb5d365ed18ccfa62db3436f",
+    "derivative": "editing/solidworks/meshes_mm/ankle_l_v1.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        30.364498496055603,
+        -8.536792360246181,
+        -22.42291159927845
+      ],
+      [
+        69.85364109277725,
+        37.96127438545227,
+        2.977087628096342
+      ]
+    ],
+    "triangles": 4718,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/ankle_left.stl",
+    "sha256": "2ec1bd89205b407efebaa9a8898ad9fea741389d87b80ecc5c96b21d1668119e",
+    "derivative": "editing/solidworks/meshes_mm/ankle_left.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        30.364498496055603,
+        0.16320761642418802,
+        -22.522911429405212
+      ],
+      [
+        69.85364109277725,
+        36.66320815682411,
+        2.977087628096342
+      ]
+    ],
+    "triangles": 4978,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/ankle_r_v1.stl",
+    "sha256": "0ddd5d3135cde74bddbfbaf6469f50ac02ba44681b796853a052bf0d23751d1d",
+    "derivative": "editing/solidworks/meshes_mm/ankle_r_v1.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -69.85364109277725,
+        -8.536792360246181,
+        -22.42291159927845
+      ],
+      [
+        -30.364498496055603,
+        37.96055540442467,
+        2.977087628096342
+      ]
+    ],
+    "triangles": 4714,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/ankle_right.stl",
+    "sha256": "f83f388ae00787415e76b8ecaab769f08f25b8c4e90c1937ff0fc4d68d81722e",
+    "derivative": "editing/solidworks/meshes_mm/ankle_right.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -69.85364109277725,
+        0.16320761642418802,
+        -22.522911429405212
+      ],
+      [
+        -30.364498496055603,
+        36.66320815682411,
+        2.977087628096342
+      ]
+    ],
+    "triangles": 4976,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/banana_pcb_locker.stl",
+    "sha256": "42ddde9d01bf5d91f88b99847017f14d97d2537ee27383c6d41dd8bf30a51134",
+    "derivative": "editing/solidworks/meshes_mm/banana_pcb_locker.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -27.02503278851509,
+        32.69999846816063,
+        48.97381737828255
+      ],
+      [
+        27.02503278851509,
+        36.4999994635582,
+        55.62618374824524
+      ]
+    ],
+    "triangles": 1388,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/bearing_roll.stl",
+    "sha256": "b5603a64b2d965ad75ea847767b5798130852e12a658fde7b5068fc457e2adcc",
+    "derivative": "editing/solidworks/meshes_mm/bearing_roll.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        6.000000052154064,
+        -14.499999582767487,
+        -24.49999935925007
+      ],
+      [
+        28.999999165534973,
+        -11.500000022351742,
+        15.49999974668026
+      ]
+    ],
+    "triangles": 2420,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/bottom_head_shell.stl",
+    "sha256": "1820f7cf96646b0fc0c431f07da87b91b13111bfa9857ab1bf2b1fc3388f8da2",
+    "derivative": "editing/solidworks/meshes_mm/bottom_head_shell.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -45.8814762532711,
+        -60.248278081417084,
+        -12.636257335543633
+      ],
+      [
+        45.88155075907707,
+        56.49999901652336,
+        7.499999832361937
+      ]
+    ],
+    "triangles": 20970,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/elec_rpi_robot_hat_pcb.stl",
+    "sha256": "1a61582759d82b5b4df9b7d11099bf1bb3944fc77e6b74d3237adf24dd5d03d7",
+    "derivative": "editing/solidworks/meshes_mm/elec_rpi_robot_hat_pcb.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -3.5200000274926424,
+        -26.510000228881836,
+        0.0
+      ],
+      [
+        61.50500103831291,
+        3.5149999894201756,
+        0.8399999933317304
+      ]
+    ],
+    "triangles": 18856,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/face_part.stl",
+    "sha256": "d0e89a173e7bdc8038c4d413f458140d8f42f1a2f098f67a887c2388eff31718",
+    "derivative": "editing/solidworks/meshes_mm/face_part.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -43.82534697651863,
+        -55.50000071525574,
+        -0.7999999797903001
+      ],
+      [
+        43.82534697651863,
+        -43.0000014603138,
+        43.82647946476936
+      ]
+    ],
+    "triangles": 11412,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/foot_left.stl",
+    "sha256": "a1f5d43456d0f522bd60870153795f1e8112c1adf9b8b4373b59608d9545c044",
+    "derivative": "editing/solidworks/meshes_mm/foot_left.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        30.08081018924713,
+        -12.000000104308128,
+        -29.250944033265114
+      ],
+      [
+        70.16631215810776,
+        41.999999433755875,
+        -12.34192494302988
+      ]
+    ],
+    "triangles": 19922,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/foot_right.stl",
+    "sha256": "54f97fa1f0e0e611d31329df9f3c3b17ffcca2d695c579d1d32cbe99e8a6c7ef",
+    "derivative": "editing/solidworks/meshes_mm/foot_right.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -70.16631215810776,
+        -12.000000104308128,
+        -29.250944033265114
+      ],
+      [
+        -30.08081018924713,
+        41.999999433755875,
+        -12.34192494302988
+      ]
+    ],
+    "triangles": 19952,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/hip_l.stl",
+    "sha256": "e175896932d76dc7648cf939aa39cb7b1d188b783d91745adb9a4cec65e9052c",
+    "derivative": "editing/solidworks/meshes_mm/hip_l.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        8.00000037997961,
+        -25.00000037252903,
+        -9.499999694526196
+      ],
+      [
+        40.45005142688751,
+        9.499999694526196,
+        9.499999694526196
+      ]
+    ],
+    "triangles": 20970,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/jaw.stl",
+    "sha256": "45cdbd319a4583095d8daa0db07dee726522a743d59acb82d27d82ded500a1cf",
+    "derivative": "editing/solidworks/meshes_mm/jaw.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -45.70792242884636,
+        -59.71049517393112,
+        -12.947659939527512
+      ],
+      [
+        45.70792242884636,
+        8.999999612569809,
+        16.499999910593033
+      ]
+    ],
+    "triangles": 9918,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/jaw_soft.stl",
+    "sha256": "2d2ade4e86df4b37ce313bb9b96023109dd04bab39dba08b154e76d332fbce2e",
+    "derivative": "editing/solidworks/meshes_mm/jaw_soft.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -43.836869299411774,
+        -57.73528292775154,
+        -11.147729121148586
+      ],
+      [
+        43.836869299411774,
+        -25.50133317708969,
+        -2.710149623453617
+      ]
+    ],
+    "triangles": 6726,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/left_shell.stl",
+    "sha256": "2abde8e2b79c9b011cdb11957c67ab4287b45d7301affd4235ab81141118e331",
+    "derivative": "editing/solidworks/meshes_mm/left_shell.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -1.9499999471008778,
+        -30.500000342726707,
+        17.835848033428192
+      ],
+      [
+        31.76448866724968,
+        50.39006471633911,
+        59.52636897563934
+      ]
+    ],
+    "triangles": 20970,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/leg.stl",
+    "sha256": "9a91cc1ae31ecd9e0c1ba93f3bb2ad8a12e29bff24ec27d1ac66c0c3037d9fcf",
+    "derivative": "editing/solidworks/meshes_mm/leg.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        32.499998807907104,
+        12.000000104308128,
+        -12.222912162542343
+      ],
+      [
+        40.449999272823334,
+        32.00000151991844,
+        45.7770861685276
+      ]
+    ],
+    "triangles": 14776,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/lens.stl",
+    "sha256": "b1c717432ff7666398de58adec6a1b7e03a7e45aa155dbfe27a6152ef19663e5",
+    "derivative": "editing/solidworks/meshes_mm/lens.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -8.469999767839909,
+        7.400000002235174,
+        -8.469999767839909
+      ],
+      [
+        8.469999767839909,
+        26.319999247789383,
+        8.469999767839909
+      ]
+    ],
+    "triangles": 1872,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/m12_lens_holder.stl",
+    "sha256": "031d5ffaf6247328cf6d020f6b6695ffb3f8d3f22cf923b85811351d89ecfd7c",
+    "derivative": "editing/solidworks/meshes_mm/m12_lens_holder.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -12.000000104308128,
+        -2.025957019249324e-15,
+        -8.00000037997961
+      ],
+      [
+        12.000000104308128,
+        14.800000004470348,
+        8.00000037997961
+      ]
+    ],
+    "triangles": 10992,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/motor_support.stl",
+    "sha256": "ce0aa5bef82c7474512d302568c341b9769b3005e0bdb91a19c2eaaba6dad480",
+    "derivative": "editing/solidworks/meshes_mm/motor_support.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -39.500001817941666,
+        -26.200000196695328,
+        0.39999998989515007
+      ],
+      [
+        34.00000184774399,
+        28.00000086426735,
+        19.200000911951065
+      ]
+    ],
+    "triangles": 3616,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/neck.stl",
+    "sha256": "b6e86b886153be8a8a776c1cb219c074ee9e89c8bd431117662a2d9e504d7cb5",
+    "derivative": "editing/solidworks/meshes_mm/neck.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        0.0,
+        -32.00000151991844,
+        69.49999928474426
+      ],
+      [
+        2.0000000949949026,
+        -12.000000104308128,
+        80.49999922513962
+      ]
+    ],
+    "triangles": 1468,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/neck_pitch.stl",
+    "sha256": "a685ce65348ae4d0d49417c69a7a8871f8bbd54a6e3419362be9c334abd5d2ae",
+    "derivative": "editing/solidworks/meshes_mm/neck_pitch.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -17.500000074505806,
+        -8.999999612569809,
+        -37.7931147813797
+      ],
+      [
+        17.500000074505806,
+        8.999999612569809,
+        -10.099999606609344
+      ]
+    ],
+    "triangles": 7120,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/noenoeil.stl",
+    "sha256": "e1167b3d5ad7fbbe6e63296bcd0c6b61556611e6bc1367b15ecfd27e3abb72f5",
+    "derivative": "editing/solidworks/meshes_mm/noenoeil.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -14.999999664723873,
+        -63.50000202655792,
+        4.999999888241291
+      ],
+      [
+        14.999999664723873,
+        -54.00000140070915,
+        35.00000014901161
+      ]
+    ],
+    "triangles": 984,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/np_f970.stl",
+    "sha256": "0e55a48281331b3b7b1a363d2e93b6012f37c52045b6dc922a149ca7c1b38388",
+    "derivative": "editing/solidworks/meshes_mm/np_f970.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -19.30033043026924,
+        -10.325501672923565,
+        -35.39993241429329
+      ],
+      [
+        19.308149814605713,
+        10.250000283122063,
+        35.4086272418499
+      ]
+    ],
+    "triangles": 20970,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/pcb__raspberry_pi_zero_2_w.stl",
+    "sha256": "802cc66fc5447c67fc642d1339e55160df10f2ad04a65efd130e35fb7b2d3c90",
+    "derivative": "editing/solidworks/meshes_mm/pcb__raspberry_pi_zero_2_w.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -32.499998807907104,
+        -0.7999999797903001,
+        -14.999999664723873
+      ],
+      [
+        32.499998807907104,
+        0.7999999797903001,
+        14.999999664723873
+      ]
+    ],
+    "triangles": 20970,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/power_support.stl",
+    "sha256": "ee45e397d3f3422f34940a4b61156c3c11c7e8c2b240451ce5f9ddd1622a130e",
+    "derivative": "editing/solidworks/meshes_mm/power_support.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -27.249999344348907,
+        17.999999225139618,
+        -26.546131819486618
+      ],
+      [
+        27.249999344348907,
+        35.00000014901161,
+        56.94364756345749
+      ]
+    ],
+    "triangles": 12832,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/right_shell.stl",
+    "sha256": "3efba3e193cc6aa49d49a9c92cdded0504917397c9e2c5b8fe002a958e2f2d2b",
+    "derivative": "editing/solidworks/meshes_mm/right_shell.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -31.76448866724968,
+        -30.500000342726707,
+        17.833702266216278
+      ],
+      [
+        1.3734212335123064e-11,
+        50.397854298353195,
+        59.52636897563934
+      ]
+    ],
+    "triangles": 20970,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/rim.stl",
+    "sha256": "b3c9cc8ea50a1406d289060dc007894e009471f15b59baf443a5545bfc242c6f",
+    "derivative": "editing/solidworks/meshes_mm/rim.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        46.19999974966049,
+        -27.59999968111515,
+        -48.82291331887245
+      ],
+      [
+        53.80000174045563,
+        -7.400000002235174,
+        -28.622912243008614
+      ]
+    ],
+    "triangles": 2304,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/roller_blade.stl",
+    "sha256": "cbdc755394d5046640db6045dd241921654ec17a313db9de8e851c14b918472f",
+    "derivative": "editing/solidworks/meshes_mm/roller_blade.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        29.729316011071205,
+        -21.499743685126305,
+        -42.7207313477993
+      ],
+      [
+        70.27068734169006,
+        51.49974301457405,
+        -12.34192494302988
+      ]
+    ],
+    "triangles": 20968,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/seeed_bearing__configuration__22x16x4.stl",
+    "sha256": "295ee68ed9766c91fe06d3a2a49d39f7c2f56cc943395d293afdeb013123435e",
+    "derivative": "editing/solidworks/meshes_mm/seeed_bearing__configuration__22x16x4.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -10.999999940395355,
+        -10.999999940395355,
+        0.0
+      ],
+      [
+        10.999999940395355,
+        10.999999940395355,
+        4.000000189989805
+      ]
+    ],
+    "triangles": 20970,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/seeed_bearing__configuration_default.stl",
+    "sha256": "e815f3483a2e7b80844f3c0938a47e53db38b12faed9b2d364414c19e4322da4",
+    "derivative": "editing/solidworks/meshes_mm/seeed_bearing__configuration_default.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -7.499999832361937,
+        -7.499999832361937,
+        0.0
+      ],
+      [
+        7.499999832361937,
+        7.499999832361937,
+        3.000000026077032
+      ]
+    ],
+    "triangles": 20970,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/soft_mouth_top.stl",
+    "sha256": "3c2b52b0b6e2ce944a1e1b5a0838e1216be1ad3a34c8cdf91be186e634aec57b",
+    "derivative": "editing/solidworks/meshes_mm/soft_mouth_top.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -43.91101375222206,
+        -58.06638300418854,
+        -4.970773123204708
+      ],
+      [
+        43.91101375222206,
+        -25.501331314444542,
+        -1.6945712268352509
+      ]
+    ],
+    "triangles": 7870,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/sole_left.stl",
+    "sha256": "e028c8b09fecd4cb354d042bf7fd95a1a1bc2d524d760d62137fa8d74093fc23",
+    "derivative": "editing/solidworks/meshes_mm/sole_left.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        29.455414041876793,
+        -12.000000104308128,
+        -31.249284744262695
+      ],
+      [
+        70.55395096540451,
+        41.999999433755875,
+        -18.341924995183945
+      ]
+    ],
+    "triangles": 15788,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/sole_right.stl",
+    "sha256": "3f5068872f3add10eb967327651445bdfca635f5a8a01befa0ef05e462b72b4c",
+    "derivative": "editing/solidworks/meshes_mm/sole_right.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -70.55409252643585,
+        -12.000000104308128,
+        -31.249530613422394
+      ],
+      [
+        -29.455361887812614,
+        41.999999433755875,
+        -18.341924995183945
+      ]
+    ],
+    "triangles": 15902,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/speaker.stl",
+    "sha256": "75a35f9bcf94cd8e52f99b3fd6ae667b48f52503f9075ee2f699eebe8e7b3ddf",
+    "derivative": "editing/solidworks/meshes_mm/speaker.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        0.0,
+        -25.00000037252903,
+        0.0
+      ],
+      [
+        35.00000014901161,
+        0.0,
+        7.000000216066837
+      ]
+    ],
+    "triangles": 12,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/tire.stl",
+    "sha256": "8aa460566e99afcccccd5c0507c883d3f6d1901e28ddd492cf0c7edc41067b54",
+    "derivative": "editing/solidworks/meshes_mm/tire.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        46.19999974966049,
+        -32.499998807907104,
+        -53.72291058301926
+      ],
+      [
+        53.80000174045563,
+        -2.4999999441206455,
+        -23.72291311621666
+      ]
+    ],
+    "triangles": 7056,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/top_head_shell.stl",
+    "sha256": "6d01f396f514c9d2185cf6b8250b1d8382ac3fa0702eb525bcb284f706196291",
+    "derivative": "editing/solidworks/meshes_mm/top_head_shell.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -45.879654586315155,
+        -66.19001924991608,
+        -0.0013558080809161766
+      ],
+      [
+        45.87980359792709,
+        56.49999901652336,
+        46.33478447794914
+      ]
+    ],
+    "triangles": 16120,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/trunk_base.stl",
+    "sha256": "aa4f853ae555a8b765e585ce4519c0bbff325ce298ec15a1437792c52a0beac1",
+    "derivative": "editing/solidworks/meshes_mm/trunk_base.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -28.50000001490116,
+        -13.000000268220901,
+        16.499999910593033
+      ],
+      [
+        28.50000001490116,
+        23.000000044703484,
+        19.500000402331352
+      ]
+    ],
+    "triangles": 3698,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/upper_leg_left.stl",
+    "sha256": "8cb1c12dfa6d366a318bb1ec16f585427b9a185afeb7738d0a6f41f5db46a07d",
+    "derivative": "editing/solidworks/meshes_mm/upper_leg_left.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        42.500000447034836,
+        -13.467418029904366,
+        -12.1974628418684
+      ],
+      [
+        70.50000131130219,
+        34.19199958443642,
+        48.79915341734886
+      ]
+    ],
+    "triangles": 12250,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/upper_leg_right.stl",
+    "sha256": "5caf996cc3e151b01f393cdc6a6a6a940c1d86179d8b7c7f5f85cf1f1ac2fb63",
+    "derivative": "editing/solidworks/meshes_mm/upper_leg_right.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -70.50000131130219,
+        -13.467418029904366,
+        -12.1974628418684
+      ],
+      [
+        -42.500000447034836,
+        34.19199958443642,
+        48.79915341734886
+      ]
+    ],
+    "triangles": 12250,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/upper_leg_rigidity_plate.stl",
+    "sha256": "231b3e5f1e24d146d735dc158cbcfec0c95a0d0ca8c500f61f04d15d0b665652",
+    "derivative": "editing/solidworks/meshes_mm/upper_leg_rigidity_plate.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        42.500000447034836,
+        -12.000000104308128,
+        -10.99906861782074
+      ],
+      [
+        43.49999874830246,
+        32.99648314714432,
+        47.05866426229477
+      ]
+    ],
+    "triangles": 3600,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/xl330.stl",
+    "sha256": "96238ed0d020ce0009cf1a5aa4b6926176c800840318ee65e4375be2298d2744",
+    "derivative": "editing/solidworks/meshes_mm/xl330.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -14.499999582767487,
+        -9.999999776482582,
+        -24.49999935925007
+      ],
+      [
+        14.499999582767487,
+        9.999999776482582,
+        9.499999694526196
+      ]
+    ],
+    "triangles": 4126,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/yaw2roll.stl",
+    "sha256": "6c8f193ec7cb40be0f48eeb5fba81bce2c87f12e1aab3f77f1bc4981386e1495",
+    "derivative": "editing/solidworks/meshes_mm/yaw2roll.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        6.000000052154064,
+        -13.299999758601189,
+        -4.999999888241291
+      ],
+      [
+        28.999999165534973,
+        12.500000186264515,
+        15.49999974668026
+      ]
+    ],
+    "triangles": 12404,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  },
+  {
+    "source": "upstream/microduck_rl/src/mjlab_microduck/robot/microduck/assets/yaw_roll_motion.stl",
+    "sha256": "b0c9902dee19f06cdb7fa930292e0e1c91e2dc59baa971211495b58ff76c3c60",
+    "derivative": "editing/solidworks/meshes_mm/yaw_roll_motion.stl",
+    "coordinate_units": "mm",
+    "scale_from_source": 1000,
+    "bounds_mm": [
+      [
+        -24.49999935925007,
+        -17.999999225139618,
+        -4.4999998062849045
+      ],
+      [
+        9.499999694526196,
+        17.899999395012856,
+        17.999999225139618
+      ]
+    ],
+    "triangles": 5814,
+    "watertight_after_trimesh_vertex_processing": true,
+    "native_parametric_CAD": false
+  }
+]

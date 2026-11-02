@@ -1,0 +1,228 @@
+(footprint "HDR-TH_5P-P2.54-H-F-W10.0-N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "d0552193-320a-48d1-b110-ec315920d13b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HDR-TH_5P-P2.54-H-F-W10.0-N"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "ce0cdb9a-a025-4e55-9d92-a5b8c586eae5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f15e559-d064-4bb1-bd17-b3cf53ab217a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a366d74-9ff8-4999-be69-a08fbdfe0f9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.49 1.5)
+		(end -6.49 10)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c0e390e-084e-42c4-a987-abd3c3532af3")
+	)
+	(fp_line
+		(start -6.49 1.5)
+		(end 6.49 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8ac91ba-fad1-4602-8862-360e9fdebf0d")
+	)
+	(fp_line
+		(start -6.49 10)
+		(end 6.49 10)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57ecccfc-2f00-43e3-ae8c-ea88d0bd64dc")
+	)
+	(fp_line
+		(start -5.08 1.5)
+		(end -5.08 1.18)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81831437-48b6-4ac4-b588-9bc28efd8133")
+	)
+	(fp_line
+		(start -2.54 1.18)
+		(end -2.54 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca1e336b-4ae2-4c82-8bff-e289a14cea33")
+	)
+	(fp_line
+		(start 0 1.18)
+		(end 0 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "922db4b0-f126-44f2-9091-4d532b653633")
+	)
+	(fp_line
+		(start 2.54 1.18)
+		(end 2.54 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccc23ce1-da8e-48c2-aad2-cc3fcaa98d43")
+	)
+	(fp_line
+		(start 5.08 1.18)
+		(end 5.08 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0261be6-0a1f-4ffb-8676-023c3f86131a")
+	)
+	(fp_line
+		(start 6.49 10)
+		(end 6.49 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26531c9c-d2a7-4b2e-8e06-8ffafe28e8e5")
+	)
+	(fp_rect
+		(start -6.5 0)
+		(end 6.5 10)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9ff19534-2a88-450d-a8f2-5bac7cf53096")
+	)
+	(fp_circle
+		(center -6.55 10)
+		(end -6.52 10)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d23924d1-51c1-4786-9064-86e12a106330")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2db6cbde-36e5-45ea-b77c-461537ca21e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 0)
+		(size 1.9 1.9)
+		(drill 1.100023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "29e1dbcf-ff80-42a4-aa09-9b04e46d64e1")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 1.9 1.9)
+		(drill 1.100023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "191ba653-23dd-437f-a2a3-c1bd363831a8")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 1.9 1.9)
+		(drill 1.100023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "27b10c46-d7b3-4478-8576-c678ea9882a6")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 0)
+		(size 1.9 1.9)
+		(drill 1.100023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3adc6d5e-1fde-4b86-a4b3-1be50258016c")
+	)
+	(pad "5" thru_hole circle
+		(at 5.08 0)
+		(size 1.9 1.9)
+		(drill 1.100023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fc55815b-77d3-427f-9b62-ae6e9701cf23")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_LIB}/LCSC_parts/easyeda2kicad.3dshapes/HDR-TH_5P-P2.54-H-F-W10.0-N.step"
+		(offset
+			(xyz 0 -4.88 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

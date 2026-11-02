@@ -1,0 +1,45 @@
+{
+  "review_date": "2026-10-27",
+  "reviewer": "Codex primary assistant",
+  "method": "Actual rendered PNGs opened with view_image and visually inspected; numerical geometry and bounds checked separately.",
+  "scope": "Camera framing, visible recovered components, board/hole orientation and bottom-side contacts; no copper, silkscreen typography, tolerance, physical fit or manufacturing review.",
+  "previews": [
+    {
+      "candidate": "imu_to_dxl",
+      "file": "editing/kicad-models-attached/imu_to_dxl/assembly-review.png",
+      "sha256": "13d572455ed48fdf7d59661339eb036bd7508a46c642a68f3f84a14505c634a6",
+      "view": "top",
+      "framing_and_visible_geometry_reviewed": true
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A",
+      "file": "editing/kicad-models-attached/imu_to_dxl_1V0A/assembly-review.png",
+      "sha256": "21b3329342d3d0f8fe8fa89c965d1b3e6d2f00dea68b6dde921d9c1e3d272f12",
+      "view": "top",
+      "framing_and_visible_geometry_reviewed": true
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A-transition-hypothesis",
+      "file": "editing/kicad-models-attached/imu_to_dxl_1V0A-transition-hypothesis/assembly-review.png",
+      "sha256": "26082267d9612c5bac4a9eeddfaa64a855d36d78d338efa3da4552a7abba0abb",
+      "view": "top",
+      "framing_and_visible_geometry_reviewed": true
+    },
+    {
+      "candidate": "wire_hub_1V0A",
+      "file": "editing/kicad-models-attached/wire_hub_1V0A/assembly-review.png",
+      "sha256": "b28f12e66b228a1eaddf2a6bd1df63a8c8ff675020e1b69c5827aaa114dd50fa",
+      "view": "top",
+      "framing_and_visible_geometry_reviewed": true
+    },
+    {
+      "candidate": "POGO_PIN_1V0A",
+      "file": "editing/kicad-models-attached/POGO_PIN_1V0A/assembly-review.png",
+      "sha256": "8e2061397e33d03d7a0823ff5f60c789b24d5454aa054f5e9df015b6a00b6a4a",
+      "view": "bottom",
+      "framing_and_visible_geometry_reviewed": true
+    }
+  ],
+  "physical_fit_qualified": false,
+  "manufacturing_ready": false
+}

@@ -1,0 +1,379 @@
+(kicad_pcb
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "70223ae5-9753-46a9-b3c2-b90c71bb1487")
+		(at 50 20 37)
+		(property "Reference" "F37"
+			(at 0 0 37)
+			(layer "F.SilkS")
+			(uuid "37f6fdf5-34d9-4785-bd79-2fbb35eaee60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 37)
+			(layer "F.Fab")
+			(uuid "0106d77e-5c02-4cc9-82d8-5aa7f3f9258b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 37)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b33d9e71-c7bf-4d91-b61a-171eea181182")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 37)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f53d04b9-fb13-47cf-b24c-9f6eb9f6db92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(embedded_fonts no)
+		(model "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\work\\model-frame-calibration\\asymmetric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "b34730ed-d3ab-4195-adc3-d25a752d91d8")
+		(at 20 20)
+		(property "Reference" "F0"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "93ac4ebb-df01-49bb-89fa-690bfc40f39b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b42408e8-7279-4f85-be94-66a22013df19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32e6aa4c-2b53-4e96-bbc0-b3cc6835f334")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d23c04a8-03f4-4e8f-9c93-60aa0df59f65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(embedded_fonts no)
+		(model "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\work\\model-frame-calibration\\asymmetric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint ""
+		(layer "B.Cu")
+		(uuid "8cfce524-51f4-43c8-a1bc-ade5e73a0cf2")
+		(at 20 60)
+		(property "Reference" "B0"
+			(at 0 0 180)
+			(layer "B.SilkS")
+			(uuid "002d1319-4ccb-4e2f-a923-0ece8b7da43f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(uuid "ba960ab5-d6c3-42f3-8c6f-862545caf087")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "399713eb-e0c4-49a0-8be6-3c8cb329dea6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "701d4e60-bfd6-4ee1-bcc4-a6d5cbc7aa0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(embedded_fonts no)
+		(model "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\work\\model-frame-calibration\\asymmetric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint ""
+		(layer "B.Cu")
+		(uuid "b81533b4-c07a-4601-8ae5-03d8bdea468c")
+		(at 70 60 53)
+		(property "Reference" "B53"
+			(at 0 0 233)
+			(layer "B.SilkS")
+			(uuid "e0fac273-bcb0-4340-ac5e-9a321af58beb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 233)
+			(layer "B.Fab")
+			(uuid "62e15c14-e35e-4ccc-8b7a-a46cc2587c08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 233)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bd4c0212-574a-4748-99e4-220114ae7614")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 233)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2063a9b7-98be-419e-9646-e3c0d2987181")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(embedded_fonts no)
+		(model "C:\\Users\\abbii\\Documents\\Codex\\2026-10-26\\files-pasted-by-the-user-setup\\work\\model-frame-calibration\\asymmetric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_line
+		(start 0 0)
+		(end 120 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "91fdb1ef-8e94-47dc-9aae-75b39bfd64f7")
+	)
+	(gr_line
+		(start 0 100)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "79299aea-4258-4a13-82f1-1c344809972c")
+	)
+	(gr_line
+		(start 120 0)
+		(end 120 100)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7f0443c1-c5bc-4c62-ac77-a6064283d7b1")
+	)
+	(gr_line
+		(start 120 100)
+		(end 0 100)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7b96883d-9592-40a8-932d-f0e092191270")
+	)
+	(embedded_fonts no)
+)

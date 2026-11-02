@@ -1,0 +1,7 @@
+{
+  "issue": "https://github.com/PySpice-org/PySpice/issues/379",
+  "change": "Classify only exact SPARSE solver informational stderr as non-fatal",
+  "before_sha256": "206dcb289a12b115702dacfee57192b66e46c3cb9dc4b750dab79bcb43d7363e",
+  "after_sha256": "23597745f9dbceed1d72fa377d3b8f4da5b2a452d76220f98018049b0fdbb9bd",
+  "original": "/home/workbench/robotics/pcb-tools/downloads/PySpice-1.5-Shared.py.original"
+}

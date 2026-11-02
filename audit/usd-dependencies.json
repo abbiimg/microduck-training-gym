@@ -1,0 +1,46 @@
+[
+  {
+    "file": "simulation/isaaclab/microduck_allcollisions.usd",
+    "opened": true,
+    "meters_per_unit": 1.0,
+    "up_axis": "Z",
+    "layers": 1,
+    "asset_dependencies": [],
+    "unresolved_dependencies": [],
+    "mesh_prims": 1,
+    "physics_joint_prims": 14
+  },
+  {
+    "file": "simulation/isaaclab/microduck_allcollisions_backlash.usd",
+    "opened": true,
+    "meters_per_unit": 1.0,
+    "up_axis": "Z",
+    "layers": 1,
+    "asset_dependencies": [],
+    "unresolved_dependencies": [],
+    "mesh_prims": 1,
+    "physics_joint_prims": 28
+  },
+  {
+    "file": "simulation/isaaclab/microduck_walk.usd",
+    "opened": true,
+    "meters_per_unit": 1.0,
+    "up_axis": "Z",
+    "layers": 1,
+    "asset_dependencies": [],
+    "unresolved_dependencies": [],
+    "mesh_prims": 3,
+    "physics_joint_prims": 14
+  },
+  {
+    "file": "simulation/isaaclab/microduck_walk_backlash.usd",
+    "opened": true,
+    "meters_per_unit": 1.0,
+    "up_axis": "Z",
+    "layers": 1,
+    "asset_dependencies": [],
+    "unresolved_dependencies": [],
+    "mesh_prims": 3,
+    "physics_joint_prims": 28
+  }
+]

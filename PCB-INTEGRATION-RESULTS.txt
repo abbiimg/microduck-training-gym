@@ -1,0 +1,48 @@
+PCB candidate integration progress — 2026-10-26
+
+Passed: 24/24 upstream bus integration assertions.
+Runner: tools/run_bus_integration.py
+Evidence: audit/pcb-tools/bus-integration.log
+Source: pinned community/microduck-replica, hardware/imu_to_dxl/firmware.
+
+The runner replaces only the Windows/MSVC DLL build step with Linux GCC .so
+compilation. Upstream tests and production protocol/control-table source are
+unchanged. GCC uses -Wall -Wextra -Werror. The tests use actual controller-side
+imu200 acceptance and servo-web polling logic. Board time and IMU snapshots are
+mocked; servos are simulated. No physical serial port or web server was started.
+Additional Python web-module dependencies were installed into the PCB venv to
+allow the polling module to import; Python pins were refreshed.
+
+Observed
+- 80 frames with no missing IMU or servo responses and no checksum/ID errors.
+- Polling all 15 simulated servos plus IMU succeeds.
+- Missing device, IMU response order, broadcast behavior and collision checks pass.
+- Virtual bus sync-read p99: 3.94 ms, against the test's 6 ms budget.
+- Protocol reply delay: 50 microseconds in virtual time.
+These timing values are modeled, not MCU execution or physical measurements.
+The assumed servo response delay is 30 microseconds and awaits measurement.
+This suite does not execute actual IMU fusion silicon or the MCU board layer.
+
+Component coverage
+audit/pcb-tools/component-coverage.json inventories all 133 schematic-netlist
+components, including their pin/net associations and available fields. The PCB
+has a different footprint count; schematic entries are not assumed populated.
+Every entry is explicitly unverified for electrical model coverage. No supplier
+SPICE model or pin mapping has yet been qualified. This prevents a passing
+software smoke test from being mistaken for complete electronic verification.
+
+Separate candidates recorded in that manifest
+1. Official native-KiCad HAT reference: available, unresolved ERC/DRC findings.
+2. Community Feetech IMU firmware/boards: host tests pass; native KiCad conversion
+   and physical electrical acceptance remain unresolved.
+3. Community XL330 native CAD: assembly resolves; matching electronics/firmware
+   compatibility is unverified. Do not substitute Feetech bus firmware blindly.
+
+Next substantive gaps
+Recover supported EasyEDA exports for the exact IMU/hub/POGO revision and compare
+schematic nets/pins to native KiCad. Then qualify power/buffer/protection models
+for that exact board. Physical supply, timing, sensor axes and thermal checks
+remain required before claiming a complete reproducible robot.
+
+Earlier PCB-TEST-STRATEGY.txt said bus_sim_test.py was not executed. This report
+supersedes that historical status; its electrical/physical limitations still apply.

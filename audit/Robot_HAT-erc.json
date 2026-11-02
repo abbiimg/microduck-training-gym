@@ -1,0 +1,77 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-26T12:08:55",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/bc05f5da-608c-4912-90e4-36b13d989976",
+            "violations": [
+                {
+                    "description": "Symbol 'PWR_FLAG' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG04 [PWR_FLAG]",
+                            "pos": {
+                                "x": 223.52,
+                                "y": 69.85
+                            },
+                            "uuid": "1cd45147-b75f-4513-86b9-e05dacc80cf4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                }
+            ]
+        },
+        {
+            "path": "/Schematic/",
+            "uuid_path": "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749",
+            "violations": []
+        },
+        {
+            "path": "/Schematic/Power/",
+            "uuid_path": "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05",
+            "violations": []
+        },
+        {
+            "path": "/Schematic/Dynamixel/",
+            "uuid_path": "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/dd8df41a-ac53-4462-a3fb-30e558be4c8a",
+            "violations": []
+        },
+        {
+            "path": "/Schematic/Sensors/",
+            "uuid_path": "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/7c72b1ef-1385-4d18-a22c-ca8fe94f1469",
+            "violations": []
+        },
+        {
+            "path": "/Schematic/Audio/",
+            "uuid_path": "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/0c96912b-e4c1-4c95-9b89-2df53fe3745d",
+            "violations": []
+        }
+    ],
+    "source": "elec_RPI_Robot_HAT.kicad_sch"
+}

@@ -1,0 +1,123 @@
+Native KiCad clearance-rule review — 2026-10-26
+
+Scope
+Read-only review of recovered/source boards and isolated native KiCad 10.0.7
+test fixtures. No canonical board, source repository, design rule or activation
+state was modified by this review. Compact results are in
+audit/native-clearance-rule-probes.json. Complete probe boards, rules and DRC
+JSON are under work/clearance-probes/ outside the deliverable package.
+
+Native expression classes confirmed by deliberate assertion-failure fixtures
+  A.Type == 'Track' matches BOTH straight and arc tracks.
+  A.Type == 'Graphic' matches a native copper gr_arc.
+  A.Type == 'Pad' && A.Pad_Type == 'SMD'
+  A.Type == 'Pad' && A.Pad_Type == 'Through-hole'
+  A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical'
+  A.Type == 'Via'
+  A.Type == 'Zone'
+The final fixture produced the expected 11 assertions: five Track items
+(four straight, one arc), one copper Graphic, one of each pad type, one Via and
+one Zone. No separate Type='Arc' condition is needed for routed arcs. Native
+Type='Graphic' replaces the older-version spelling 'Graphic Shape'.
+
+For a copper-graphic edge rule, exclude the Edge.Cuts graphic operand:
+  A.Type == 'Graphic' && A.Layer != 'Edge.Cuts'
+Otherwise the edge graphic itself can make that condition match unrelated
+copper classes. Copper-to-copper providers already reject noncopper shapes,
+but explicit exclusions keep the rule's intended selection clear.
+
+Valid rule example
+(version 1)
+(rule "Source front track pair"
+  (layer "F.Cu")
+  (condition "A.Type == 'Track' && B.Type == 'Track'")
+  (constraint clearance (min 0.101999mm)))
+
+Constraint resolution: do not lower global defaults unnecessarily
+The KiCad 10 manual says Board Setup minima cannot be overridden downward.
+Actual KiCad 10.0.7 explicit-custom-rule behavior is more specific:
+- A 0.15 mm track/track gap failed the 0.2 mm baseline.
+- An explicit 0.1 mm track/track rule accepted that same gap even when the
+  project's board minimum remained 0.2 mm.
+- An unrepresented SMD-pad/via pair at the same 0.15 mm gap continued to fail
+  Default netclass clearance 0.2 mm. Leaving defaults unchanged protects it.
+- Restricting the track rule to F.Cu accepted the front pair while the back
+  pair still failed Default 0.2 mm. The layer clause is therefore operational.
+- An explicit copper-Graphic edge constraint of 0.1 mm accepted its 0.2 mm
+  edge gap despite global copper-edge minimum 0.5 mm.
+- Explicit Via/Pad hole_clearance 0.1 mm accepted the 0.4 mm hole-to-copper
+  gap despite global hole clearance 0.5 mm. A custom 0.5 mm rule rejected it.
+- A PTH/NPTH hole_to_hole rule of 5 mm reported the intended 4.5 mm gap.
+
+The official 10.0 drc_engine.cpp returns a resolved explicit rule before its
+later implicit/local/global clearance-clamp path (lines 1734–1735 in reviewed
+branch source). This agrees with the native fixtures and explains the manual
+wording mismatch. The translator can retain current global/default values and
+apply only supported explicit source pair rules. Do not depend on a lowered
+global floor, and do not assume the global minimum still protects a pair that
+has an explicit custom rule. Every projected pair needs its own correct bound.
+
+Hole properties and direction
+Pad dimensions use Hole_Size_X/Hole_Size_Y. Via hole diameter property is Hole.
+A condition using Hole_Size_X on all items misses via drill pairs. For the
+source OTHER global hole-to-hole minimum, an unconditional hole_to_hole rule
+is appropriate: KiCad's provider itself filters mechanically drilled holes.
+Alternatively explicitly select Via OR drilled Pad for each operand.
+
+hole_clearance is copper-to-hole on different nets; hole_to_hole is drill-to-
+drill. These constraints are not interchangeable. Native pair matching tests
+both A/B orderings. If both objects are drilled and the source directed limits
+12->classA and 12->classB differ, use the larger for the native symmetric pair
+and document that conservative collapse. For a single hole owner against a
+track/SMD/zone, use source class12 against the other copper class.
+
+Current source selector and layer audit
+All four active PCBs have zero SAFE selector overrides. Old IMU has a DEFAULT
+copperThickness1oz SAFE rule with ALL mode, layer1 only; unused NORMAL 2oz is
+not the selected default. Revised IMU, POGO and hub use LAYERED tables for 1/2.
+Only COPPER selectors occur in revised IMU/hub; they do not select SAFE limits.
+The compact probe JSON records this audit.
+
+Installed decoder ES semantics, same hash as source-rule-review.json:
+- ALL uses the reference-layer table (1), irrespective of requested layer.
+- LAYERED uses that layer, falling back to the reference layer if missing.
+- If BOTH source classes are in {8,11,12}, getClearance takes the maximum over
+  stored layer tables. Ordinary class pairs use the selected-layer table.
+- Explicit labels refine the source mapping: 0 Track, 1 SMD Pad, 2 TH Pad,
+  3 SMD Test Point, 4 TH Test Point, 5 Via, 6 Fill Region/Teardrop,
+  7 Copper/Plane Zone, 8 Slot Region, 9 Line, 10 Text/Image, 11 Board Outline,
+  12 Hole. Types13/14 normalize to7 before normal pair lookup.
+
+Bounded translation recommendation
+Emit per-layer copper clearance rules for supported Track, ordinary SMD/PTH,
+Via and copper Graphic categories. Check actual PLACED source pad types before
+treating every native SMD/PTH as source1/2; test pads3/4 need individual mapping.
+Leave NPTH, text/image and other unmapped categories on existing defaults.
+For merged zones, trace positive copper intersections back to source zone
+IDs/layers and retain the resulting source-class set. A region solely6 or7 can
+use that class; mixed or ambiguous provenance should use the maximum relevant
+source limits and state that it is conservative, not source-equivalent.
+Native Zone.Name conditions can scope these groups; preserve names uniquely.
+
+Exact outline/slot distinctions are not automatically recoverable from a
+generic native Edge.Cuts item. A maximum of source8/11 is conservative for that
+ambiguity. Per-layer rules are preferable for ordinary copper pairs. Native
+edge and two-drill checks may use documented all-layer maxima where directional
+or native category semantics collapse. Never replace all pair clearances by
+the minimum cell of the source matrix.
+
+Review of parent prototype project_source_clearances.py
+Positive-overlap source-zone classification and mixed-class maxima are sound
+for a conservative experiment. Per-layer rules and retained defaults are good.
+Flagged corrections: honor ALL explicitly in table lookup; fix Via hole_to_hole
+selection (Pad-only Hole_Size_X is insufficient); reject actually placed TEST
+pads until mapped. Reverse Via/PTH rules use the same maximum and do not weaken
+one another. Current literal/hypothesis geometry distinction must remain visible.
+
+Primary references
+https://docs.kicad.org/10.0/en/pcbnew/pcbnew.html
+https://gitlab.com/kicad/code/kicad/-/raw/10.0/pcbnew/drc/drc_engine.cpp
+Version-specific local decoder evidence: audit/source-rule-review.txt/.json.
+
+These results validate syntax and constraint selection only. They are not full
+source-rule fidelity, regenerative copper, fab acceptance or hardware evidence.

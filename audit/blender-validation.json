@@ -1,0 +1,26 @@
+{
+  "blender_version": "5.2.3 LTS",
+  "body_frames": 15,
+  "visual_mesh_instances": 70,
+  "joint_metadata_objects": 15,
+  "bounds_m": [
+    [
+      -0.047501012682914734,
+      -0.07102830708026886,
+      0.0028179839719086885
+    ],
+    [
+      0.075189009308815,
+      0.07102831453084946,
+      0.274433970451355
+    ]
+  ],
+  "dimensions_m": [
+    0.12269002199172974,
+    0.14205661416053772,
+    0.27161598205566406
+  ],
+  "source_pose": "STAND keyframe from official scene_walk.xml",
+  "native_cad_feature_history": false,
+  "automatic_joint_rig": false
+}

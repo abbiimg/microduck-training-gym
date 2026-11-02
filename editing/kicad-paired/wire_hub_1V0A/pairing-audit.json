@@ -1,0 +1,70 @@
+{
+  "candidate": "wire_hub_1V0A",
+  "parent_board": "editing/kicad-engineering/wire_hub_1V0A/wire_hub_1V0A.kicad_pcb",
+  "parent_sha256": "2102aa769b88f4e021736ce482a63446de7bb7273ba72b9d876c1fd4cd107903",
+  "parent_schematic_sha256": "304ca31fa387c304c795f0a563baae947a1cb4084dbfb511e40e95689e69d80e",
+  "paired": [
+    {
+      "reference": "CN1",
+      "path": "/6b853b48-ae0c-4790-acc7-533ae12e4b75/9ffecaed-208f-4864-8611-3184751d18b7",
+      "footprint": "RecoveredLayout:CN1"
+    },
+    {
+      "reference": "J1",
+      "path": "/6b853b48-ae0c-4790-acc7-533ae12e4b75/c08e1123-e1fc-46eb-b7f0-3b00f2834cb5",
+      "footprint": "RecoveredLayout:J1"
+    },
+    {
+      "reference": "J2",
+      "path": "/6b853b48-ae0c-4790-acc7-533ae12e4b75/bf3821f6-fc41-4f52-a4e8-28f122790606",
+      "footprint": "RecoveredLayout:J2"
+    },
+    {
+      "reference": "J3",
+      "path": "/6b853b48-ae0c-4790-acc7-533ae12e4b75/e46bbb21-9111-4ce7-bc0c-08eada0a9cfb",
+      "footprint": "RecoveredLayout:J3"
+    },
+    {
+      "reference": "J4",
+      "path": "/6b853b48-ae0c-4790-acc7-533ae12e4b75/e5b762b4-2c89-421e-805c-fde67299e0d5",
+      "footprint": "RecoveredLayout:J4"
+    },
+    {
+      "reference": "J5",
+      "path": "/6b853b48-ae0c-4790-acc7-533ae12e4b75/cefab0c5-3e26-4a20-aa9c-647109bfb77d",
+      "footprint": "RecoveredLayout:J5"
+    },
+    {
+      "reference": "J6",
+      "path": "/6b853b48-ae0c-4790-acc7-533ae12e4b75/95493539-d22c-4bf9-a13a-8907ec02ffee",
+      "footprint": "RecoveredLayout:J6"
+    }
+  ],
+  "excluded_offboard_symbols": [],
+  "board_only_footprints": [],
+  "net_changes": [
+    {
+      "reference": "J2",
+      "pad": "1",
+      "from": "GND",
+      "to": "/GND",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "J2",
+      "pad": "2",
+      "from": "Battery",
+      "to": "/Battery",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "J2",
+      "pad": "3",
+      "from": "DXL_BUS",
+      "to": "/DXL_BUS",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    }
+  ],
+  "manufacturing_ready": false,
+  "source_history_interpretation": "literal typed replay; hub uses explicit engineering net repair"
+}

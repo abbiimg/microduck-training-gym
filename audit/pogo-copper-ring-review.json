@@ -1,0 +1,233 @@
+{
+  "read_only": true,
+  "rings": [
+    {
+      "source_id": "019b7888d641f854",
+      "source_net": "",
+      "source_type": "POLY, NORMAL",
+      "width_mm": 0.09999979999999999,
+      "circle_center_mm": [
+        76.38299938,
+        -9.78899998
+      ],
+      "circle_centerline_radius_mm": 0.8500008400000004,
+      "top_pad_distances_mm": [
+        {
+          "reference": "SOURCE_BOARD_PADS",
+          "number": "1",
+          "net": "/GND",
+          "distance": 8.882689938712574,
+          "intersection_area": 0.0
+        },
+        {
+          "reference": "SOURCE_BOARD_PADS",
+          "number": "2",
+          "net": "/Battery",
+          "distance": 12.883189938712576,
+          "intersection_area": 0.0
+        },
+        {
+          "reference": "U1",
+          "number": "1",
+          "net": "/Battery",
+          "distance": 32.20093600373765,
+          "intersection_area": 0.0
+        },
+        {
+          "reference": "U2",
+          "number": "1",
+          "net": "/GND",
+          "distance": 0.09878816865352161,
+          "intersection_area": 0.0
+        }
+      ],
+      "top_track_distances_mm": [
+        {
+          "uuid": "243d4226-3752-4074-ac6d-143e1caf0c18",
+          "net": "/GND",
+          "distance": 0.0,
+          "intersection_area": 0.1103517709191056
+        },
+        {
+          "uuid": "88dcf9ad-790d-434b-b19d-fb8754167590",
+          "net": "/GND",
+          "distance": 0.0,
+          "intersection_area": 0.10893692787143976
+        },
+        {
+          "uuid": "c76e42ef-6154-45a1-861f-2c816b5f0042",
+          "net": "/Battery",
+          "distance": 13.587323297219413,
+          "intersection_area": 0.0
+        },
+        {
+          "uuid": "d6006788-f564-424f-a3c4-70cca65696c8",
+          "net": "/Battery",
+          "distance": 31.807685921930116,
+          "intersection_area": 0.0
+        }
+      ],
+      "touching_top_tracks": [
+        {
+          "uuid": "243d4226-3752-4074-ac6d-143e1caf0c18",
+          "net": "/GND",
+          "distance": 0.0,
+          "intersection_area": 0.1103517709191056
+        },
+        {
+          "uuid": "88dcf9ad-790d-434b-b19d-fb8754167590",
+          "net": "/GND",
+          "distance": 0.0,
+          "intersection_area": 0.10893692787143976
+        }
+      ]
+    },
+    {
+      "source_id": "11df8aac0dd30763",
+      "source_net": "",
+      "source_type": "POLY, NORMAL",
+      "width_mm": 0.09999979999999999,
+      "circle_center_mm": [
+        110.18300162999999,
+        -9.78899998
+      ],
+      "circle_centerline_radius_mm": 0.849999569999992,
+      "top_pad_distances_mm": [
+        {
+          "reference": "SOURCE_BOARD_PADS",
+          "number": "1",
+          "net": "/GND",
+          "distance": 20.71701221871257,
+          "intersection_area": 0.0
+        },
+        {
+          "reference": "SOURCE_BOARD_PADS",
+          "number": "2",
+          "net": "/Battery",
+          "distance": 16.716512218712566,
+          "intersection_area": 0.0
+        },
+        {
+          "reference": "U1",
+          "number": "1",
+          "net": "/Battery",
+          "distance": 0.09768144430666213,
+          "intersection_area": 0.0
+        },
+        {
+          "reference": "U2",
+          "number": "1",
+          "net": "/GND",
+          "distance": 32.19884822005841,
+          "intersection_area": 0.0
+        }
+      ],
+      "top_track_distances_mm": [
+        {
+          "uuid": "243d4226-3752-4074-ac6d-143e1caf0c18",
+          "net": "/GND",
+          "distance": 21.41693989722702,
+          "intersection_area": 0.0
+        },
+        {
+          "uuid": "88dcf9ad-790d-434b-b19d-fb8754167590",
+          "net": "/GND",
+          "distance": 31.805608538903208,
+          "intersection_area": 0.0
+        },
+        {
+          "uuid": "c76e42ef-6154-45a1-861f-2c816b5f0042",
+          "net": "/Battery",
+          "distance": 0.0,
+          "intersection_area": 0.11054344988596826
+        },
+        {
+          "uuid": "d6006788-f564-424f-a3c4-70cca65696c8",
+          "net": "/Battery",
+          "distance": 0.0,
+          "intersection_area": 0.10893651137939635
+        }
+      ],
+      "touching_top_tracks": [
+        {
+          "uuid": "c76e42ef-6154-45a1-861f-2c816b5f0042",
+          "net": "/Battery",
+          "distance": 0.0,
+          "intersection_area": 0.11054344988596826
+        },
+        {
+          "uuid": "d6006788-f564-424f-a3c4-70cca65696c8",
+          "net": "/Battery",
+          "distance": 0.0,
+          "intersection_area": 0.10893651137939635
+        }
+      ]
+    }
+  ],
+  "native_arcs": [
+    {
+      "uuid": "4c0a7f96-73a2-419a-b0cd-590c67de5a73",
+      "net": "/GND",
+      "start_nm": [
+        75532999,
+        -9789000
+      ],
+      "end_nm": [
+        77233000,
+        -9789000
+      ],
+      "mid_nm": [
+        76401288,
+        -10638804
+      ]
+    },
+    {
+      "uuid": "e10def09-0d2d-4716-af4b-d2be52985d85",
+      "net": "/GND",
+      "start_nm": [
+        77233000,
+        -9789000
+      ],
+      "end_nm": [
+        75532999,
+        -9789000
+      ],
+      "mid_nm": [
+        76364711,
+        -8939196
+      ]
+    },
+    {
+      "uuid": "44c44e19-ab86-4e73-b4e8-a72b6376f0a2",
+      "net": "/Battery",
+      "start_nm": [
+        111033001,
+        -9789000
+      ],
+      "end_nm": [
+        109333002,
+        -9789000
+      ],
+      "mid_nm": [
+        110164713,
+        -8939197
+      ]
+    },
+    {
+      "uuid": "91cd956c-7d74-42d1-ad1e-e1212742d661",
+      "net": "/Battery",
+      "start_nm": [
+        109333002,
+        -9789000
+      ],
+      "end_nm": [
+        111033001,
+        -9789000
+      ],
+      "mid_nm": [
+        110201290,
+        -10638803
+      ]
+    }
+  ]
+}

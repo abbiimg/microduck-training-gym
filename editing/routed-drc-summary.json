@@ -1,0 +1,124 @@
+[
+  {
+    "tree": "kicad-routed",
+    "candidate": "POGO_PIN_1V0A",
+    "returncode": 0,
+    "stdout": "Found 8 violations\nFound 0 unconnected items\nSaved DRC Report to /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-routed/POGO_PIN_1V0A/drc.json\n",
+    "stderr": "",
+    "violation_counts": {
+      "track_width": 4,
+      "track_dangling": 4
+    },
+    "unconnected": 0,
+    "violations": 8
+  },
+  {
+    "tree": "kicad-routed",
+    "candidate": "imu_to_dxl",
+    "returncode": 0,
+    "stdout": "Found 70 violations\nFound 0 unconnected items\nSaved DRC Report to /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-routed/imu_to_dxl/drc.json\n",
+    "stderr": "",
+    "violation_counts": {
+      "drill_out_of_range": 14,
+      "copper_edge_clearance": 5,
+      "clearance": 14,
+      "zones_intersect": 26,
+      "via_dangling": 11
+    },
+    "unconnected": 0,
+    "violations": 70
+  },
+  {
+    "tree": "kicad-routed",
+    "candidate": "imu_to_dxl_1V0A",
+    "returncode": 0,
+    "stdout": "Found 511 violations\nFound 0 unconnected items\nSaved DRC Report to /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-routed/imu_to_dxl_1V0A/drc.json\n",
+    "stderr": "",
+    "violation_counts": {
+      "solder_mask_bridge": 64,
+      "drill_out_of_range": 3,
+      "copper_edge_clearance": 4,
+      "clearance": 281,
+      "hole_clearance": 15,
+      "zones_intersect": 144
+    },
+    "unconnected": 0,
+    "violations": 511
+  },
+  {
+    "tree": "kicad-routed",
+    "candidate": "wire_hub_1V0A",
+    "returncode": 0,
+    "stdout": "Found 56 violations\nFound 4 unconnected items\nSaved DRC Report to /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-routed/wire_hub_1V0A/drc.json\n",
+    "stderr": "",
+    "violation_counts": {
+      "solder_mask_bridge": 1,
+      "copper_edge_clearance": 30,
+      "clearance": 19,
+      "hole_clearance": 5,
+      "isolated_copper": 1
+    },
+    "unconnected": 4,
+    "violations": 56
+  },
+  {
+    "tree": "kicad-routed-transition-hypothesis",
+    "candidate": "POGO_PIN_1V0A",
+    "returncode": 0,
+    "stdout": "Found 8 violations\nFound 0 unconnected items\nSaved DRC Report to /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-routed-transition-hypothesis/POGO_PIN_1V0A/drc.json\n",
+    "stderr": "",
+    "violation_counts": {
+      "track_width": 4,
+      "track_dangling": 4
+    },
+    "unconnected": 0,
+    "violations": 8
+  },
+  {
+    "tree": "kicad-routed-transition-hypothesis",
+    "candidate": "imu_to_dxl",
+    "returncode": 0,
+    "stdout": "Found 70 violations\nFound 0 unconnected items\nSaved DRC Report to /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-routed-transition-hypothesis/imu_to_dxl/drc.json\n",
+    "stderr": "",
+    "violation_counts": {
+      "drill_out_of_range": 14,
+      "copper_edge_clearance": 5,
+      "clearance": 14,
+      "zones_intersect": 26,
+      "via_dangling": 11
+    },
+    "unconnected": 0,
+    "violations": 70
+  },
+  {
+    "tree": "kicad-routed-transition-hypothesis",
+    "candidate": "imu_to_dxl_1V0A",
+    "returncode": 0,
+    "stdout": "Found 146 violations\nFound 0 unconnected items\nSaved DRC Report to /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-routed-transition-hypothesis/imu_to_dxl_1V0A/drc.json\n",
+    "stderr": "",
+    "violation_counts": {
+      "drill_out_of_range": 3,
+      "copper_edge_clearance": 3,
+      "clearance": 38,
+      "zones_intersect": 102
+    },
+    "unconnected": 0,
+    "violations": 146
+  },
+  {
+    "tree": "kicad-routed-transition-hypothesis",
+    "candidate": "wire_hub_1V0A",
+    "returncode": 0,
+    "stdout": "Found 55 violations\nFound 4 unconnected items\nSaved DRC Report to /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-routed-transition-hypothesis/wire_hub_1V0A/drc.json\n",
+    "stderr": "",
+    "violation_counts": {
+      "solder_mask_bridge": 1,
+      "copper_edge_clearance": 30,
+      "clearance": 18,
+      "hole_clearance": 5,
+      "isolated_copper": 1
+    },
+    "unconnected": 4,
+    "violations": 55
+  }
+]

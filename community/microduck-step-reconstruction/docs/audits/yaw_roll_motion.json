@@ -1,0 +1,75 @@
+{
+  "name": "yaw_roll_motion",
+  "label_zh": "头部偏航横滚件",
+  "quantity": 1,
+  "units": "mm",
+  "stl": "01_STL_original/yaw_roll_motion__头部偏航横滚件__x1.stl",
+  "step": "02_STEP_final/yaw_roll_motion__头部偏航横滚件__x1.step",
+  "stl_sha256": "65d5e2eafb518c3d9245502f21e629dcf1bada016ef08deae8fc878bd52174c4",
+  "step_sha256": "dc6ba3ff9b72168bad5d9d6c8f564ef059e20b6a502a1010708c4a4b8e2e8aa2",
+  "stl_bytes": 290784,
+  "step_bytes": 349345,
+  "stl_triangles": 5814,
+  "cad_faces": 87,
+  "valid_solid": true,
+  "deviation": {
+    "source_to_rebuilt": {
+      "samples": 8701,
+      "max_mm": 0.007604374733160584,
+      "rms_mm": 0.0020418622019086484,
+      "worst_point_mm": [
+        2.828577995300293,
+        -13.333333333333334,
+        13.03593381245931
+      ]
+    },
+    "rebuilt_to_source": {
+      "samples": 34045,
+      "max_mm": 0.008565931393927414,
+      "rms_mm": 0.0024208103188285636,
+      "worst_point_mm": [
+        -4.156513329782729,
+        -10.0,
+        -3.482693517033158
+      ]
+    }
+  },
+  "additional_audit": {
+    "random_bidirectional_samples": {
+      "source_to_step": {
+        "samples": 20000,
+        "max_mm": 0.008529884848012224,
+        "rms_mm": 0.002175417695388778
+      },
+      "step_to_source": {
+        "samples": 20000,
+        "max_mm": 0.008552843196986813,
+        "rms_mm": 0.0022286421622115977
+      }
+    },
+    "bounding_box_max_delta_mm": 5.7423998889305494e-08,
+    "volume_error_percent": 0.025140845477911178,
+    "edit_test": {
+      "operation": "subtract 0.4 mm box from material",
+      "center_mm": [
+        3.7767996788024902,
+        1.9754425684611003,
+        16.1
+      ],
+      "valid_after_cut": true,
+      "removed_volume_mm3": 0.04800204660386953
+    },
+    "sha256": "dc6ba3ff9b72168bad5d9d6c8f564ef059e20b6a502a1010708c4a4b8e2e8aa2"
+  },
+  "improved_in_latest_round": false,
+  "max_sampled_deviation_mm": 0.008565931393927414,
+  "max_extra_sampled_deviation_mm": 0.008552843196986813,
+  "measured_bbox_mm": [
+    -24.500000004854698,
+    -18.0,
+    -4.499999942576001,
+    9.50000000000027,
+    17.89999961853,
+    18.0
+  ]
+}

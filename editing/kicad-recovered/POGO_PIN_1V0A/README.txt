@@ -1,0 +1,2 @@
+Recovered electrical review schematic. Generic passive-pin symbols; source graphics, electrical pin types, footprint mapping and PCB routing are NOT reconstructed. Do not use ERC as electrical validation. Source pinmap and expected-pin-nets.json retained for comparison. Reader-inferred connectivity remains subject to source/PDF verification. Unconnected pins are not assumed no-connect unless source says so.
+Entries without recovered pins: []

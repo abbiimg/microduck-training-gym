@@ -1,0 +1,113 @@
+MicroDuck PCB and firmware candidate testing — 2026-10-26
+
+Conclusion
+Use layered tests. No single KiCad/GitHub tool establishes full robot reproduction.
+Keep the official HAT, community IMU boards, XL330 CAD, and Feetech design
+variants separate until their electrical, protocol and mechanical contracts agree.
+
+GitHub shortlist (reviewed primary project sources)
+1. KiBot: https://github.com/INTI-CMNB/KiBot
+   Repeatable KiCad ERC/DRC, fabrication outputs, BOM and documentation in CI.
+   Use native installed KiCad CLI first; add KiBot for packaging/orchestration.
+   Pin KiCad/tool versions before comparing candidate reports. Rule checking is
+   not component behavior simulation. KiCad 10 compatibility must be tested.
+2. ngspice: https://github.com/ngspice/ngspice
+   PySpice: https://github.com/PySpice-org/PySpice
+   Simulate power rails, loads, signal buffers and protection networks where
+   appropriate models exist. Batch ngspice is sufficient initially; PySpice is
+   optional for sweeps/results. Neither automatically converts an arbitrary
+   PCB/BOM into a faithful simulated board. Models and pin mapping need review.
+3. Ceedling/Unity/CMock: https://github.com/ThrowTheSwitch/Ceedling
+   Test real C logic on a host, mocking board access, SPI, clocks and UART.
+   Existing community tests already cover several of these boundaries, so reuse
+   those before introducing a new framework or redundant tests.
+4. Renode: https://github.com/renode/renode
+   STM32G0 platform: https://github.com/renode/renode/blob/master/platforms/cpus/stm32g0.repl
+   Promising for executing target firmware with modeled peripherals. The generic
+   platform references G031 but is not an exact STM32G031F8P6 board: memory/clock
+   settings need review and the source explicitly notes EXTI register mismatch.
+   LSM6DSV16X and half-duplex buffer behavior are not established by this review.
+   Treat as an integration project, not a supported exact-board turnkey emulator.
+5. pytest-embedded: https://github.com/espressif/pytest-embedded
+   Serial and OpenOCD/GDB services can help later bench tests. Do not infer STM32
+   support from ESP-specific flashing/QEMU services. A plain pytest + serial
+   adapter may be simpler for this board.
+
+Actual tests executed locally
+Source: community/microduck-replica at 055ac7d17167db0670f42fdeaabfc21fc3022e4f
+Scope: hardware/imu_to_dxl/firmware (not firmware-1.0.0).
+Runtime: NVIDIA-Workbench WSL, system gcc, host execution.
+- Tools/protocol_test.py --cc gcc: 104 checks, zero failures.
+- Tests/imu_test.c + actual imu.c + ST lsm6dsv16x_reg.c: 16 scenarios passed.
+- Tests/control_table_test.c + actual control_table.c: 32 checks passed.
+No target firmware was flashed. No physical board or servo was operated.
+These are upstream tests, not independent proof of the protocol specification.
+The simulated-bus acceptance suite was inspected but NOT executed: its current
+build path is Windows/MSVC DLL-specific; MSVC was not found at the expected path.
+The mock sensor uses modeled registers/FIFO and faults, not sensor silicon,
+electrical timing, analog noise or genuine SFLP fusion behavior.
+
+Important compatibility finding
+board_config.h targets STM32G031F8P6, 64 MHz internal clock/PLL, 1 Mbps bus,
+SPI mode 3 at 2 MHz. protocol.c explicitly implements Feetech SCS framing.
+The native community SolidWorks release we validated is XL330. Do not combine
+this firmware and those servos on the assumption that a shared connector means
+protocol compatibility. Original simulation has 14 commanded actuators whereas
+hardware variants can contain 15 servos. Record the mouth joint separately.
+
+Candidate acceptance sequence
+A. Reproducibility contract
+   Pin robot variant and every source revision. Require MPN, value, footprint,
+   package/pin mapping, connector pinout, voltage, protocol, model provenance,
+   firmware/toolchain, mechanical revision, servo IDs and actuator mapping.
+   Export a BOM/netlist and require coverage for EVERY populated component:
+   manufacturer electrical model, qualified behavioral approximation, passive
+   model, or explicitly unverified. Missing coverage cannot silently pass.
+B. KiCad checks
+   Native schematics/netlist/PCB consistency, ERC/DRC, pin-one orientation,
+   unrouted nets, drill/clearance/stackup rules, Gerber/drill inspection and
+   assembly/BOM checks. Keep exclusions explicit and reviewed.
+C. Electrical subcircuits
+   Input supply and cable drop; LDO startup/dropout/load transient and thermal
+   budget; decoupling ESR/tolerance; buffer enable/disable and contention;
+   voltage thresholds; clamp/leakage behavior. Use supplier models when
+   available. Behavioral models must state limits and never claim ESD/EMC
+   qualification or fuse trip accuracy without appropriate evidence.
+   Inject CPU TX/RX/enable stimulus and current loads at the real PCB nets when
+   CPU emulation is unnecessary. A CPU mock does not remove its electrical load.
+D. Firmware host tests
+   Preserve the passing suites. Expand from requirements for malformed packets,
+   checksums, timeouts/wraparound, missing devices, collisions, enable timing,
+   watchdog/reset, SPI failures, stale/FIFO overflow, register write policy and
+   mounting-axis transforms. Check requirements independently of implementation.
+E. Firmware/controller integration
+   Run the actual controller against actual protocol C with simulated IMU and
+   servos. Port/run the existing bus_sim_test.py first. Measure real device reply
+   delays later: its modeled SERVO_TRESP_US=30 is explicitly awaiting measurement.
+   Renode adds target CPU execution only after exact platform behavior is checked.
+F. Physical acceptance (still required)
+   Fabrication inspection, current-limited power-up, rail/ripple/load/temperature,
+   logic-analyzer bus timing, real IMU axes/data/fusion, connector/cable and
+   assembled fit checks. Then compare controller telemetry and simulation before
+   retraining or evaluating a changed physical design. Requires a bench fixture
+   and explicit hardware-operation scope; this research performed no such work.
+
+Current blockers to a full reproduction claim
+- Original Pollen parametric CAD is still behind Onshape access; reconstructed
+  XL330 CAD is available but is not established equivalent to official physics.
+- Four community boards are EasyEDA Pro V3 SQLite .eprj2; faithful KiCad conversion
+  is unresolved. Empty native import was rejected. Compare component/net/pin
+  inventories and geometry after any supported export/conversion.
+- HAT reference audit remains 40 hole-clearance errors, six footprint warnings,
+  one schematic symbol mismatch; not a manufacturing release.
+- Exact variant protocol compatibility, complete component simulation models,
+  supplier/part availability and physical acceptance remain unverified.
+- Clearances/tolerances and actuator/mass/inertia evidence must match the chosen
+  morphology. Passing mock tests cannot close these mechanical/electrical gaps.
+
+Recommended order
+Preserve the passing host tests; make the variant/coverage matrix; recover native
+IMU schematics via supported EasyEDA export; validate nets/pins; resolve real
+ERC/DRC findings; add power/bus model tests; run controller/bus integration;
+then qualify a physical prototype. Keep robot simulation/retraining as a separate
+acceptance layer linked to the same frozen variant.

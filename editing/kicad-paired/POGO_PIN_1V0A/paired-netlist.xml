@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-paired/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_sch</source>
+    <date>2026-10-26T19:56:17</date>
+    <tool>Eeschema 10.0.7-10.0.7~ubuntu24.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>POGO_PIN_1V0A.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="CN2">
+      <value>XY340V-3.81-2P</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="CN2" description=""/>
+      <property name="Sheetname" value="POGO_PIN_1V0A"/>
+      <property name="Sheetfile" value="POGO_PIN_1V0A.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7797b4ff-8bfc-43fb-abc0-c789e2388f06</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>YZ39730097P-01</value>
+      <footprint>RecoveredLayout:U1</footprint>
+      <fields>
+        <field name="Footprint">RecoveredLayout:U1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="U1" description=""/>
+      <property name="Sheetname" value="POGO_PIN_1V0A"/>
+      <property name="Sheetfile" value="POGO_PIN_1V0A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14051cc9-7475-45f8-aa62-9b9a6901247a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>YZ39730097P-01</value>
+      <footprint>RecoveredLayout:U2</footprint>
+      <fields>
+        <field name="Footprint">RecoveredLayout:U2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="U2" description=""/>
+      <property name="Sheetname" value="POGO_PIN_1V0A"/>
+      <property name="Sheetfile" value="POGO_PIN_1V0A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62ea583d-01cd-4450-95c3-a440846ce78f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Recovered" part="CN2">
+      <fields>
+        <field name="Reference">CN2</field>
+        <field name="Value">XY340V-3.81-2P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="U1">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">YZ39730097P-01</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="U2">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">YZ39730097P-01</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Recovered">
+      <uri>${KIPRJMOD}/Recovered.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Battery" class="Default">
+      <node ref="CN2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="2" name="/GND" class="Default">
+      <node ref="CN2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

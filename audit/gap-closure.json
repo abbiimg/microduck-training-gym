@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-26",
+  "status": "Expanded mixed-provenance design-study package; not original factory package or manufacturing qualification",
+  "community_sources": [
+    {
+      "path": "community\\microduck-replica",
+      "url": "https://github.com/fanhao375/microduck-replica.git",
+      "commit": "055ac7d17167db0670f42fdeaabfc21fc3022e4f",
+      "changes": ""
+    },
+    {
+      "path": "community\\microduck-replica-cad",
+      "url": "https://github.com/fanhao375/microduck-replica-cad.git",
+      "commit": "a3ac692b9e874a568b021a9191dcc9ba8c5cea9f",
+      "changes": ""
+    },
+    {
+      "path": "community\\microduck-step-reconstruction",
+      "url": "https://github.com/tianjin66/microduck-step-3d-models-ai-stl.git",
+      "commit": "bf96450c75e635efb993676fe90c6456fb8a00af",
+      "changes": ""
+    }
+  ],
+  "native_CAD": {
+    "source": "https://github.com/fanhao375/microduck-replica-cad/releases/tag/v1.1",
+    "designer": "机械行者Robo",
+    "variant": "XL330 v1.1 (2026-09-15)",
+    "archive_sha256": "51bf6f6d4c50e6f8469751102d43520ccf3d69184c30166b5439bdbbd9749a0c",
+    "files": {
+      ".SLDASM": 16,
+      ".SLDPRT": 41
+    },
+    "solidworks_revision_tested": "34.4.1",
+    "opened_read_only": true,
+    "configuration_for_reference_check": "2",
+    "resolved_component_instances": 86,
+    "missing_component_files": [],
+    "representative_part": "trunk_base_躯干底座.SLDPRT",
+    "representative_part_result": "Imported solid body plus sketch; not a recovered original feature tree"
+  },
+  "reconstructed_STEP": {
+    "parts": 30,
+    "locally_valid_single_solids": 30,
+    "author_hashes_matched": 30,
+    "original_snapshot": "29e887ecfbf5d37144759e5a9f8a176dfb83d547",
+    "same_as_current_official_geometry": "not established"
+  },
+  "assembly_manual": {
+    "path": "community\\microduck-replica-cad\\安装说明书\\microduck装配安装说明书.pdf",
+    "pages": 21
+  },
+  "community_electronics": [
+    {
+      "file": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl.eprj2",
+      "sqlite_integrity": "ok",
+      "native_editor": "EasyEDA Pro V3",
+      "kicad_conversion": "not validated"
+    },
+    {
+      "file": "community\\microduck-replica\\hardware\\新版\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A.eprj2",
+      "sqlite_integrity": "ok",
+      "native_editor": "EasyEDA Pro V3",
+      "kicad_conversion": "not validated"
+    },
+    {
+      "file": "community\\microduck-replica\\hardware\\新版\\POGO_PIN_1V0A\\POGO_PIN_1V0A.eprj2",
+      "sqlite_integrity": "ok",
+      "native_editor": "EasyEDA Pro V3",
+      "kicad_conversion": "not validated"
+    },
+    {
+      "file": "community\\microduck-replica\\hardware\\新版\\wire_hub_1V0A\\wire_hub_1V0A.eprj2",
+      "sqlite_integrity": "ok",
+      "native_editor": "EasyEDA Pro V3",
+      "kicad_conversion": "not validated"
+    }
+  ],
+  "oscillator": {
+    "method": "Manufacturer datasheet-derived box envelope; not manufacturer detail CAD",
+    "source": "https://abracon.com/Oscillators/ASDMB.pdf",
+    "nominal_mm": [
+      2.5,
+      2.0,
+      0.85
+    ],
+    "maximum_envelope_mm": [
+      2.55,
+      2.05,
+      0.9
+    ],
+    "missing_referenced_PCB_model_files": []
+  },
+  "remaining": {
+    "original_Pollen_source_CAD": "Requires original source access; not obtained",
+    "original_imu_to_dxl_electronics": "Not obtained; community reconstructions included",
+    "KiCad_IMU_conversion": "Current eprj2 SQLite source returned empty boards in installed native importer; rejected",
+    "BOM_variants": "Community XL330 reconstruction BOM and newer Feetech procurement list are different; do not merge as verified official BOM",
+    "manufacturing": "Hardware revision, tolerances, electrical qualification, harness and physical tests unresolved",
+    "simulation": "Community CAD is not automatically mapped to the tested Isaac Lab articulation or policy; requires a separate revisioned conversion and validation"
+  },
+  "preference_note": "SolidWorks adjusted swSTLDeviation during open. Closest restored readback 0.224997705 mm versus initial 0.229357798 mm; exact readback was quantized. See preference recovery report."
+}

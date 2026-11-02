@@ -1,0 +1,186 @@
+MicroDuck footprint graphics and 3D placement review — 2026-10-26
+
+Scope
+Read-only source audit followed by separate engineering silkscreen copies.
+Source repositories, recovered baselines, copper/mask/paste and models were not
+edited. Recoverable silk comes from explicit layer types, not guessed layers.
+
+Placed-footprint inventory (source objects, counted per placed instance)
+Board                  components   silk POLY   silk FILL   positioned references
+Older IMU                   29          204          4                29
+Revised IMU                 24          197          5                24
+Hub                          7          108          5                 7
+Battery                      2            2          0                 2
+Total                       62          511         14                62
+The revised-IMU copper-history hypothesis uses the same 24 footprints/202 silk
+objects and therefore receives the same graphics. These used footprints have
+no separate LINE/ARC/CARC/STRING record types: their strokes/arcs are in POLY.
+Inventory: footprint-graphics-inventory.json. Do not confuse all archived,
+unused footprint documents with the active placed set.
+
+What must NOT be reclassified as silk
+Used footprints also contain model/construction records on layer types
+COMPONENT_SHAPE (observed ID48), COMPONENT_MARKING (49), PIN_SOLDERING (50),
+PIN_FLOATING (51), plus DOCUMENT13 and TOP_PASTE_MASK7. These are not silk.
+The older/revised boards have 16/14 explicit paste-layer FILLs; none were added
+to this recovery. The revised PCB's one STRING is on layer5 TOP_SOLDER_MASK,
+not silk. It says IMU_TO_DXL / V1.0A and remains unconverted here. Reassigning it
+to silk would change the source, and reproducing it on mask needs separate
+mask polarity/semantics review. ELE_PLACEHOLDER is an allocation/configuration
+record, not a graphical primitive. Hidden footprint ATTR records with null
+positions are not placed text.
+
+Coordinates and side
+The established observed-source profile uses PCB/footprint coordinates in mil
+(0.0254 mm). lceda_pcb_geometry.transform applies local-Y reflection for bottom
+components, then source CCW angle rotation, then component x/y translation.
+The native board coordinate mapping finally flips global Y. Silk layer types
+TOP_SILK/BOT_SILK swap on bottom components. CANVAS is viewport metadata and is
+not applied as another geometry translation. These are the same source-frame
+operations used by the previously verified pad conversion.
+
+POLY is a continuous path: explicit coordinates plus L/ARC sweeps, or CIRCLE.
+Native line/arc/circle geometry retains the source stroke width. Circles remain
+native circles. SOLID silk FILL paths here are straight-edged polygons, retained
+as filled native polygon graphics with source width. Only explicit silk records
+are selected. Each native item's source type/ID, reference, geometry and UUID
+is recorded for review; one source POLY can create several native segments.
+
+PCB Designator ATTRs already have GLOBAL PCB x/y positions. Do not apply the
+component transform to them again. All 62 placed references are visible,
+positioned LEFT_BOTTOM records with source fontFamily=default, fontSize45 mil
+and strokeWidth6 mil; their non-normalized angles include full turns and are
+normalized modulo360, with sign inversion for the native coordinate frame.
+Content, anchor, layer, mirrored/bold/italic flags and metric size/width are
+mapped to editable native reference fields. Source default-font glyph geometry
+is not recovered; native KiCad stroke text is an EXPLICIT substitute. Exact
+glyph metrics, visual alignment and font parity remain unqualified.
+
+Notably the two battery Designator ATTRs are on back silk with mirror=false.
+That source setting is retained, producing two native nonmirrored-back-text
+warnings. Do not silently mirror those labels merely to clear the warnings.
+
+Implementation
+tools/recover_footprint_silkscreen.py uses the separately pinned community
+reader's geometry helpers. Arguments:
+  --reader <Linux absolute reader path>
+  --candidate <name>
+  --source-root <optional absolute or asset-root-relative folder>
+  --destination-root <optional absolute or asset-root-relative folder>
+  --overwrite-generated  [only after preserving user edits]
+  --drc-timeout <seconds> [default180]
+Defaults read source-rules-projected parents, except battery uses the prior
+graphic-corrected parent; output is editing/kicad-silkscreen-recovered/.
+The root overrides allow integration onto the reviewed source-clearance copies.
+Generator writes a pre-DRC geometry/library audit and records timeout explicitly.
+
+Baseline recovery results
+Older IMU: 208 source objects -> 228 native graphics; 29 positioned references.
+Revised IMU: 202 -> 204; 24 references.
+Hub: 113 -> 119; 7 references.
+Battery: 2 -> 2; 2 references.
+Hypothesis: 202 -> 204; 24 references.
+For every baseline copy, saved pad polygons/drills/layer sets, track/via geometry,
+cached copper zones and existing copper graphics compare equal to the parent.
+All recovered native graphic coordinates reload as expected. Per-instance local
+footprint libraries also reload with matching silk graphic definitions after
+the native board-side flip. Copper invariance and library assertions pass.
+Native schematic parity is zero and airwires are zero on all five copies.
+
+These source graphics expose additional silk-overlap/over-copper/edge findings:
+older adds31/9/1, revised and hypothesis add37/11/0, hub adds6/0/1; battery adds
+the two nonmirrored-back-text warnings above. Source geometry was preserved
+instead of moving/clipping text or outlines to reduce these findings.
+The initial concurrent hypothesis DRC exceeded90s. It was rerun sequentially
+under the new180s bound and completed successfully; the initial timeout log
+remains under work/silkscreen-recovery-imu_to_dxl_1V0A-transition-hypothesis.log.
+
+Integration results
+All five sequential integration runs onto editing/kicad-source-clearances/
+completed successfully. Working copies are in editing/kicad-integrated/<name>/.
+Their native DRC totals, including preserved source silk findings, are:
+  Older IMU57; revised literal378; revised hypothesis66; hub25; battery2.
+All five have zero schematic-parity findings and zero airwires. No copper,
+mask/paste, existing pad or library-geometry assertion failed. Total recovered
+native graphics757 and positioned references86 include the duplicated revised
+IMU hypothesis; the four distinct physical boards total553 graphics/62 references.
+
+tools/verify_recovered_silkscreen.py --project-root editing/kicad-integrated
+also passed on all five. It independently reopens source/copy/library files,
+checks parent/replay/output hashes, unchanged .pro/.dru/.sch/local library-table
+and symbol-library hashes, saved copper/pad/local mask/paste margins, native
+graphic definitions, reference text/position/size/stroke/angle/anchor/style
+flags, and local-library graphic reloads. Exact font metrics remain unqualified.
+Results: editing/kicad-integrated/silkscreen-validation-summary.json and each
+silkscreen-validation.json. Per-copy silkscreen-recovery-audit.json records all
+source/native mappings and the authoritative drc-silkscreen.json remains present.
+
+Visual check
+Baseline hub top render: editing/kicad-silkscreen-recovered/wire_hub_1V0A/
+preview-top.png. It was viewed: pin markers, connector outlines and J/CN labels
+lie around the expected pads/traces. Some source labels/outlines overhang the
+board edge and the source silk/metal overlaps are visibly plausible findings.
+No manufacturer model geometry is attached in this render. This is a coordinate
+plausibility check, not an independent reproduction of the author's pixels.
+
+The integrated hub 3D auto-fit produced an off-frame image despite matching
+numeric geometry bounds: baseline and integrated whole-board bounding boxes
+are (47.772998,-26.81),22.741030 x28.220000 mm; edge bounds are identical too.
+The failed image is labeled preview-top-autofit-failed.png. Native SVG exports
+provide the actual 2D visual QA instead. SVGs and rasterizations were viewed:
+  editing/kicad-integrated/wire_hub_1V0A/review-top.svg and .png
+  editing/kicad-integrated/imu_to_dxl_1V0A-transition-hypothesis/review-top.svg/.png
+  editing/kicad-integrated/POGO_PIN_1V0A/review-bottom.svg and .png
+Top overlays include F.Cu/F.SilkS/Edge.Cuts; bottom includes B.Cu/B.SilkS/Edge.Cuts
+in the global board frame (not additionally mirrored). Native KiCad generated
+the SVGs; Inkscape rasterized them. Pin markers/outlines sit around the expected
+pad groups. Crowded source reference labels, overlaps and edge overhangs remain
+visible and correspond to the new DRC findings. Exact font/pixel equivalence or
+author intent is not claimed. Source SILK_OPTS/automatic mask trimming has not
+been reconstructed; exports deliberately omit --subtract-soldermask so raw
+source silk is reviewable rather than silently clipped.
+
+3D placement evidence
+All 62 placed components have nonempty 3D Model IDs/titles and nine-field
+3D Model Transform metadata in their referenced DEVICE META.attributes, even
+though the PCB COMPONENT.attrs do not repeat them. See
+placed-device-model-metadata.json. Device/library defaults must be reconciled
+with placed overrides before attachment. IDs often include a | suffix; retain
+the complete identifier until its version/ownership semantics are established.
+
+The documented transform specifies normalized model size, Z/X/Y rotations and
+offsets relative to a top-side, unrotated footprint at origin. It recenters the
+model at XY midpoint/minimum Z before scaling and rotating. A raw transform is
+not a drop-in KiCad offset/rotation: source binary bounds/units and KiCad model
+units/rotation order must first be qualified. Replay contains no MODEL-type
+documents; recovery of actual model binary resources has not been established.
+No substitute 3D models were attached by this work.
+
+The revised-IMU supplier catalog already covers24 components/16 supplier IDs
+with candidate models. Its dimensions/electrical/model-placement qualification
+flags remain false. Similar titles or matching pad counts do not establish an
+exact original model match.
+
+All four author-exported PCB STEP assemblies load as valid CAD shapes:
+  Older IMU:124 solids, whole bounds45.074689 x22.748654 x12.000007 mm.
+  Revised:88 solids, 27.174653 x30.274661 x7.200000 mm.
+  Battery:3 solids, 39.164676 x6.764613 x11.200051 mm.
+  Hub:59 solids, 22.284648 x28.194656 x11.900000 mm.
+Exact paths, hashes and bounds are in source-pcb-step-review.json. Those whole
+assembly bounds include component overhangs and pins; they are not bare-board
+dimensions or verified envelopes for the robot cavity. Components can have
+multiple solids, so do not assign one solid per reference by list order.
+These STEP assemblies are useful ground truth for a future explicit model-
+identity/placement comparison, not proof of manufacturing fit.
+
+Format references (primary)
+https://github.com/easyeda/easyeda-file-format/blob/main/en/pcb/shape.md
+https://github.com/easyeda/easyeda-file-format/blob/main/en/pcb/text.md
+https://github.com/easyeda/easyeda-file-format/blob/main/en/pcb/component.md
+Local observed geometry profile: work/lceda-sch-reader/lceda_pcb_geometry.py
+at pinned reader revision da5b4d46565ced7ef63fd710229959d853fc70ab.
+
+Manufacturing readiness remains false. Source copper intent/rules/mask/paste,
+font/glyph fidelity, exact 3D identity/placement, physical fit and electrical/
+hardware acceptance remain separate gates. This work does not change the robot
+variant, operating hardware, firmware, actuator configuration or training task.

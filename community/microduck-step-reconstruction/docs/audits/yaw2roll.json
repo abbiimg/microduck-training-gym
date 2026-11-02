@@ -1,0 +1,164 @@
+{
+  "name": "yaw2roll",
+  "label_zh": "髋偏航转横滚件",
+  "quantity": 2,
+  "units": "mm",
+  "stl": "01_STL_original/yaw2roll__髋偏航转横滚件__x2.stl",
+  "step": "02_STEP_final/yaw2roll__髋偏航转横滚件__x2.step",
+  "stl_sha256": "b414414707e8595a5325388b5138028966121e2eea7ac542f7c4e1683b155e3b",
+  "step_sha256": "cbd7ee66cd5650e1cfb2b2ed8059c7484f4da635d30f27ce5fcf1cf4ead056ac",
+  "stl_bytes": 620284,
+  "step_bytes": 407996,
+  "stl_triangles": 12404,
+  "cad_faces": 66,
+  "valid_solid": true,
+  "deviation": {
+    "source_to_rebuilt": {
+      "samples": 18590,
+      "max_mm": 0.013220926313802488,
+      "rms_mm": 0.0026610901027805407,
+      "worst_point_mm": [
+        27.997201283772785,
+        -7.210307757059733,
+        14.732014973958334
+      ]
+    },
+    "rebuilt_to_source": {
+      "samples": 115463,
+      "max_mm": 0.013714568483527173,
+      "rms_mm": 0.0033938892705399045,
+      "worst_point_mm": [
+        27.947175234856125,
+        -7.202814864657756,
+        14.747378433723977
+      ]
+    }
+  },
+  "additional_audit": {
+    "random_bidirectional_samples": {
+      "source_to_step": {
+        "samples": 20000,
+        "max_mm": 0.012005394916677271,
+        "rms_mm": 0.0014529351863908913
+      },
+      "step_to_source": {
+        "samples": 20000,
+        "max_mm": 0.012167499468264597,
+        "rms_mm": 0.0014860161979889492
+      }
+    },
+    "bounding_box_max_delta_mm": 0.0002439955927595605,
+    "volume_error_percent": 0.02229078428339637,
+    "edit_test": {
+      "operation": "subtract 0.4 mm box from material",
+      "center_mm": [
+        7.249999904632569,
+        4.0,
+        6.622008462746938
+      ],
+      "valid_after_cut": true,
+      "removed_volume_mm3": 0.04799983592829449
+    },
+    "sha256": "cbd7ee66cd5650e1cfb2b2ed8059c7484f4da635d30f27ce5fcf1cf4ead056ac",
+    "volume_integration_relative_tolerance": 1e-09,
+    "bounding_box_basis": "complete CAD surface tessellation, 0.0005 mm mesh deflection",
+    "native_conservative_bbox_mm": [
+      5.999999899999999,
+      -13.3000001,
+      -5.000000000000006,
+      29.000000100000012,
+      12.500000000000002,
+      15.500000100000008
+    ],
+    "measured_surface_bbox_mm": [
+      6.0,
+      -13.3,
+      -4.99975600440724,
+      29.0,
+      12.5,
+      15.5
+    ]
+  },
+  "improved_in_latest_round": true,
+  "repair_comparison": {
+    "baseline_bytes": 4111340,
+    "new_bytes": 407996,
+    "baseline": {
+      "faces": {
+        "GeomAbs_Cylinder": 27,
+        "GeomAbs_BSplineSurface": 205,
+        "GeomAbs_Plane": 37
+      },
+      "edge_curve_types": {
+        "GeomAbs_BSplineCurve degree 1": 941,
+        "GeomAbs_Line": 19,
+        "GeomAbs_Circle": 36
+      },
+      "spline_control_points": 10316,
+      "analytic_surface_area_fraction": 0.8761571940064116
+    },
+    "new": {
+      "faces": {
+        "GeomAbs_Plane": 25,
+        "GeomAbs_Cylinder": 33,
+        "GeomAbs_BSplineSurface": 6,
+        "GeomAbs_Cone": 2
+      },
+      "edge_curve_types": {
+        "GeomAbs_Line": 74,
+        "GeomAbs_Circle": 62,
+        "GeomAbs_Ellipse": 2,
+        "GeomAbs_BSplineCurve degree 9": 6,
+        "GeomAbs_BSplineCurve degree 6": 2,
+        "GeomAbs_BSplineCurve degree 2": 6,
+        "GeomAbs_BSplineCurve degree 5": 2,
+        "GeomAbs_BSplineCurve degree 8": 2,
+        "GeomAbs_Hyperbola": 2,
+        "GeomAbs_BSplineCurve degree 14": 2,
+        "GeomAbs_BSplineCurve degree 7": 2
+      },
+      "spline_control_points": 366,
+      "analytic_surface_area_fraction": 0.9950881472389295
+    }
+  },
+  "measured_rebuild_parameters": {
+    "construction": "extruded bracket, two triangular ribs, measured tab profiles, concentric bosses and counterbores",
+    "tab_profiles": [
+      {
+        "analytic_tangent_arc_radii_mm": [
+          0.5,
+          2.5,
+          11.25,
+          0.5
+        ]
+      },
+      {
+        "analytic_tangent_arc_radii_mm": [
+          0.5,
+          2.5,
+          11.25,
+          0.5
+        ]
+      }
+    ],
+    "base_plate_mm": [
+      23,
+      25.8,
+      2.5
+    ],
+    "rib_thickness_mm": 1.35,
+    "back_thickness_mm": 3,
+    "back_lower_radius_mm": 5,
+    "back_top_radius_mm": 2
+  },
+  "max_sampled_deviation_mm": 0.013714568483527173,
+  "max_extra_sampled_deviation_mm": 0.012167499468264597,
+  "measured_bbox_mm": [
+    6.0,
+    -13.3,
+    -4.99975600440724,
+    29.0,
+    12.5,
+    15.5
+  ]
+}

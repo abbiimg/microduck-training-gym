@@ -1,0 +1,1 @@
+[lceda_reader] 格式: 立创EDA .epro2（V3 ZIP 导出） | 文件: /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/recovered-community/imu_to_dxl_1V0A/imu_to_dxl_1V0A.epro2

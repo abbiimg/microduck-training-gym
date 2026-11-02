@@ -1,0 +1,250 @@
+{
+  "sch_comps": 29,
+  "pcbs": [
+    {
+      "pcb": "PCB1",
+      "board": "Board1",
+      "comps": 29,
+      "nets": 23,
+      "pads": 105,
+      "matched": 28,
+      "renamed": 1,
+      "only_sch": [],
+      "only_pcb": 0,
+      "rows": [
+        {
+          "uid": "gge24",
+          "pcb": "",
+          "sch": "C2",
+          "page": "Board1::P1",
+          "status": "renamed",
+          "device": "b65cd20496340ccd"
+        },
+        {
+          "uid": "gge23",
+          "pcb": "C1",
+          "sch": "C1",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "b65cd20496340ccd"
+        },
+        {
+          "uid": "gge25",
+          "pcb": "C3",
+          "sch": "C3",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "b65cd20496340ccd"
+        },
+        {
+          "uid": "gge26",
+          "pcb": "C4",
+          "sch": "C4",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "b65cd20496340ccd"
+        },
+        {
+          "uid": "gge19",
+          "pcb": "C5",
+          "sch": "C5",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "7da1d5e6b4fd0b56"
+        },
+        {
+          "uid": "gge4",
+          "pcb": "C6",
+          "sch": "C6",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "b84c7bc3e440e699"
+        },
+        {
+          "uid": "gge6",
+          "pcb": "C7",
+          "sch": "C7",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "a057ead68faf6332"
+        },
+        {
+          "uid": "gge27",
+          "pcb": "C8",
+          "sch": "C8",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "b65cd20496340ccd"
+        },
+        {
+          "uid": "gge28",
+          "pcb": "C9",
+          "sch": "C9",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "b65cd20496340ccd"
+        },
+        {
+          "uid": "gge2",
+          "pcb": "D1",
+          "sch": "D1",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "1e0b34c14b1e56e8"
+        },
+        {
+          "uid": "gge34",
+          "pcb": "D2",
+          "sch": "D2",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "ba32cf21cae8bfc5"
+        },
+        {
+          "uid": "gge1",
+          "pcb": "F1",
+          "sch": "F1",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "4d8c3ba284861396"
+        },
+        {
+          "uid": "gge17",
+          "pcb": "J1",
+          "sch": "J1",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "bf20c27661ca0094"
+        },
+        {
+          "uid": "gge18",
+          "pcb": "J2",
+          "sch": "J2",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "bf20c27661ca0094"
+        },
+        {
+          "uid": "gge21",
+          "pcb": "J3",
+          "sch": "J3",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "400adc1edeeaf10d"
+        },
+        {
+          "uid": "gge36",
+          "pcb": "J4",
+          "sch": "J4",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "a3a8cd982f923869"
+        },
+        {
+          "uid": "gge37",
+          "pcb": "J5",
+          "sch": "J5",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "a3a8cd982f923869"
+        },
+        {
+          "uid": "gge29",
+          "pcb": "R1",
+          "sch": "R1",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "4b3d5490bc3f432c"
+        },
+        {
+          "uid": "gge30",
+          "pcb": "R2",
+          "sch": "R2",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "4b3d5490bc3f432c"
+        },
+        {
+          "uid": "gge33",
+          "pcb": "R3",
+          "sch": "R3",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "4cf24fec290408e6"
+        },
+        {
+          "uid": "gge31",
+          "pcb": "R4",
+          "sch": "R4",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "4b3d5490bc3f432c"
+        },
+        {
+          "uid": "gge32",
+          "pcb": "R5",
+          "sch": "R5",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "4b3d5490bc3f432c"
+        },
+        {
+          "uid": "gge22",
+          "pcb": "R6",
+          "sch": "R6",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "18c385468cb5b10f"
+        },
+        {
+          "uid": "gge35",
+          "pcb": "R7",
+          "sch": "R7",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "4b3d5490bc3f432c"
+        },
+        {
+          "uid": "gge7",
+          "pcb": "U1",
+          "sch": "U1",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "ad6ca39373669d12"
+        },
+        {
+          "uid": "gge11",
+          "pcb": "U2",
+          "sch": "U2",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "b3b1ce2c54098142"
+        },
+        {
+          "uid": "gge15",
+          "pcb": "U3",
+          "sch": "U3",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "87c7f7f56ba5fdfd"
+        },
+        {
+          "uid": "gge5",
+          "pcb": "U4",
+          "sch": "U4",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "8dba0c22ca471897"
+        },
+        {
+          "uid": "gge20",
+          "pcb": "X1",
+          "sch": "X1",
+          "page": "Board1::P1",
+          "status": "match",
+          "device": "c8f49d8d8c179344"
+        }
+      ]
+    }
+  ]
+}

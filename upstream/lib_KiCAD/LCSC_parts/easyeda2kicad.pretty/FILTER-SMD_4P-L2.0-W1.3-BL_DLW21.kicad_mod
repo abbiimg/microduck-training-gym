@@ -1,0 +1,233 @@
+(footprint "FILTER-SMD_4P-L2.0-W1.3-BL_DLW21"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.4 0)
+		(layer "F.SilkS")
+		(uuid "c7fc7cec-e7be-41cc-80ce-9d6db3aca196")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FILTER-SMD_4P-L2.0-W1.3-BL_DLW21"
+		(at 0 4.4 0)
+		(layer "F.Fab")
+		(uuid "877e9067-509f-4d3e-9753-db863a61bd63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b4290d1-8fc9-419b-9507-0fdd7ccde89d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "208c9f07-e3b9-46e4-ba15-7f3a22d9b543")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.3 -0.85)
+		(end 1.3 -0.85)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "520a183b-0480-4024-896e-342aadc3410a")
+	)
+	(fp_line
+		(start -1.3 -0.83)
+		(end -1.3 -0.85)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "680dabc8-108c-4668-b390-11fe2c065be7")
+	)
+	(fp_line
+		(start -1.3 0.85)
+		(end -1.3 0.83)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0d342b2-019f-4c99-ab74-1e8a496972a3")
+	)
+	(fp_line
+		(start -1.3 0.85)
+		(end 1.3 0.85)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1668e57-2411-4fc3-8641-02e899d2bbdf")
+	)
+	(fp_line
+		(start 1.3 -0.83)
+		(end 1.3 -0.85)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9af40b11-0f9f-4bb3-9944-b106e18282de")
+	)
+	(fp_line
+		(start 1.3 0.85)
+		(end 1.3 0.83)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b6aba7b-a0c1-4004-86f2-869632872052")
+	)
+	(fp_circle
+		(center -1.78 0.51)
+		(end -1.68 0.51)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "be2d3e66-f186-4f64-b862-efbb5eb507e4")
+	)
+	(fp_circle
+		(center -1.4 0.41)
+		(end -1.27 0.41)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "a6303024-68a3-44ef-a25c-bbc530c4b06b")
+	)
+	(fp_line
+		(start -1.4 -0.7)
+		(end -1.4 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "52be901e-28a8-448c-aa58-165cdcd06606")
+	)
+	(fp_line
+		(start -1.4 0.7)
+		(end 1.4 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a74e30dd-9bc0-4a50-995b-d7fe8a82797c")
+	)
+	(fp_line
+		(start 1.4 -0.7)
+		(end -1.4 -0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e3c237c8-f567-492d-a554-a8881964ab0f")
+	)
+	(fp_line
+		(start 1.4 0.7)
+		(end 1.4 -0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6cd453f9-f8be-4909-9dd2-ea0c494fb1ce")
+	)
+	(fp_circle
+		(center -1 0.65)
+		(end -0.97 0.65)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b9686822-0693-40d5-b42d-bf0d51badf19")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9e7e60b2-2a62-4911-b86c-810211a839fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.85 0.4 90)
+		(size 0.4 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6340c7fe-b254-4394-a57d-49092cacfb6d")
+	)
+	(pad "2" smd rect
+		(at 0.85 0.4 90)
+		(size 0.4 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2154274f-2e20-49ce-9502-5461b68e2ade")
+	)
+	(pad "3" smd rect
+		(at 0.85 -0.4 90)
+		(size 0.4 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c5e31daa-864c-4738-ad78-e1eaf30e330f")
+	)
+	(pad "4" smd rect
+		(at -0.85 -0.4 90)
+		(size 0.4 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e35bec58-186f-440e-811b-7a9040a39903")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_LIB}/LCSC_parts/easyeda2kicad.3dshapes/SMD-4_L2.0-W1.2-H1.3.step"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

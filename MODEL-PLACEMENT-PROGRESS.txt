@@ -1,0 +1,148 @@
+MicroDuck KiCad / Blender component integration - 2026-10-27
+
+Open these new editing projects
+editing/kicad-models-attached/ contains five separate, portable native projects:
+  imu_to_dxl/imu_to_dxl.kicad_pro                         29 models
+  imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_pro               23 models
+  imu_to_dxl_1V0A-transition-hypothesis/imu_to_dxl_1V0A.kicad_pro
+                                                        23 models
+  wire_hub_1V0A/wire_hub_1V0A.kicad_pro                    7 models
+  POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_pro                    2 models
+The hypothesis repeats revised-IMU components: there are 61 distinct recovered
+placed components, 84 attachments across the five projects. Keep whole project
+folders together: model paths use ${KIPRJMOD}/models/<reference>.step.
+
+Each project includes assembly-review.step for SolidWorks/CAD exchange,
+assembly-review.glb, assembly-review.blend and assembly-review.png. The Blender
+files are separate review scenes imported from the native KiCad GLB exports;
+they preserve metre units and component transforms. The battery-board camera
+looks from below so both bottom-mounted contacts can be inspected. Existing
+interactive Blender/SolidWorks documents and robot baselines were preserved.
+STEP import in SolidWorks for these new assemblies has not been performed.
+
+All five fresh native KiCad reports have 0 airwires and 0 schematic-parity
+findings. Model attachment leaves every non-model PCB token and project/rule/
+schematic file unchanged. Existing integrated DRC findings are therefore still
+57 older IMU, 378 revised literal, 66 revised hypothesis, 25 hub, 2 battery board.
+These are editing/review projects, not manufacturing releases.
+
+How placement was established
+Author assembly reference labels identify each placed component exactly; source
+model UUIDs were not invented inside STEP. Each model is taken from its own
+recovered placed geometry rather than assuming matching dimensions establish
+canonical definition equivalence. Exact author footprint origins are removed;
+bottom-side inverse rotation is applied. Original local dimensions are kept.
+Source rotation is already baked into the recovered native footprint geometry,
+so each local model includes that same source rotation. The saved native
+footprint angle is checked as 0; subsequent edits can move/rotate the footprint
+and its attached model together.
+
+The author exporter divides source coordinates by 39.37, while the native
+recovery uses exact mil 0.0254 mm. This is a 2 ppm difference. We map individual
+footprint origins to their exact native coordinates without scaling local part
+geometry or globally forcing author PCB bounds to fit. Source board bottom Z 0
+and top Z 1.600050800102 mm were independently verified from the physical stack
+and author Board solids. Both IMU author outlines still differ from the current
+source cache; these attachments do not establish enclosure/board revision fit.
+
+An asymmetric synthetic KiCad 10.0.7 fixture established top/bottom translation,
+rotation and angle conventions. The native exporter puts the current nominal
+1.600048 mm boards' top model datum at 1.595048 mm and bottom datum at -0.085 mm.
+These measured exporter offsets are retained and reported; models are attached
+relative to their board-side surface, with no guessed zero-offset world models
+or compensating substrate rescaling. Viewer/exporter offsets and physical
+stackup/model tolerances still require mechanical qualification.
+
+The detailed CAD check compares source-placed geometry to local models, then
+compares exact-reference native STEP instances with the fixed calibrated pose.
+It uses analytic bounds, solid counts, volume and both directional Boolean
+differences. No free alignment, registration or fitting is allowed. A displaced
+synthetic model must fail. Hash-bound receipts permit later fast checks without
+claiming the expensive kernel checks were rerun. See per-project
+model-export-validation.json and audit/kicad-model-export-validation.json.
+Blender bounds are compared with analytic STEP bounds, with 0.02 mm tolerance;
+this is a bounded mesh-import check, not a component-dimension/fit certification.
+
+All five detailed CAD checks passed for all 84 attachments. Both directional
+Boolean differences were zero; maximum analytic bounds residual was about
+9.41e-12 mm. All five Blender package checks passed; maximum STEP/Blender bounds
+difference was about 2.82e-6 mm. Actual top/bottom preview images were opened and
+inspected; audit/pcb-model-visual-review.json binds that review to their hashes.
+
+Revised J3 omission is intentional in these recovery copies
+Revised J3 is missing from its author STEP. Its placed ATTR explicitly clears
+3D Model Title, despite a populated device-library default. Do not attach old
+J3 or the supplier candidate as an exact recovered revised-board placement.
+The model-type geometry remains available separately with its provenance.
+
+Copper findings and engineering repair
+audit/drc-remaining-review.txt/.json classify 93 findings from the hub, battery
+board and revised hypothesis. Independent native/GEOS geometry confirms a hub
+Battery-pad/GND overlap and two revised-IMU VDD_BUS/GND overlap regions.
+Ten revised clearances arise from conservative mixed-class region rules; five
+same-net zone intersections only touch boundaries. These do not excuse the
+positive electrical overlaps.
+
+audit/copper-overlap-source-review.txt/.json trace the raw source cache and
+history. The hub GND cache predates CN1's later placement/net assignment. A
+separate engineering candidate under editing/kicad-cache-repaired/wire_hub_1V0A
+subtracts the exact recovered pad/pour clearance from that one GND region.
+Its repair audit and fresh DRC describe the measured change and remaining
+findings. The repair passed: 1.296551688 mm2 of GND copper is removed from one
+zone, with zero added copper on the native integer grid. Saved Battery/GND gap
+is 0.254000519 mm against the source 0.254 mm requirement. Independent geometry
+normalization differences are recorded within a 2 nm boundary band. Native DRC
+falls from 25 to 24: the clearance violation is removed, while all 17 edge,
+6 silk-overlap and 1 silk-edge findings stay unchanged. Airwires and parity
+remain zero. The source-faithful model project above is kept as its comparison
+baseline. The cache-repaired project has no new 3D attachments; do not confuse
+the two revisions. The revised IMU history is documented separately; no new
+cross-type deletion interpretation was silently merged into existing projects.
+
+Reusable commands
+Run tools/attach_author_models.py prepare --candidate <candidate> with KiCad's
+pcbnew Python; geometry with CadQuery/OCP Python; attach with pcbnew Python.
+Existing destinations require --overwrite-generated; preserve edits first.
+The build protects changed generated boards on repeat attachment and preserves
+the original integrated parents. Direct board serialization avoids expanding
+the project defaults. Models also reload from the local footprint libraries.
+
+Run tools/verify_kicad_model_exports.py with CadQuery/OCP for fresh heavy CAD
+checks. Use verify_kicad_model_integrity.py for hash-bound receipt checks and
+verify_pcb_model_review_package.py for the Blender/native DRC package checks.
+tools/build_pcb_model_blender_review.py runs in a separate Blender background
+process with --factory-startup and a candidate after --. It never clears the
+user's live scene. The installed live Blender MCP connection was unavailable
+during this phase; no integration was reinstalled or unrelated document opened.
+
+tools/verify_author_step_geometry.py separately compares all exact source
+product definitions against the 22 recovered definition assets, with numerical
+solid differences, asymmetric negative controls and sampled boundary distances.
+Its report states finite-sampling limits; it does not claim topological identity
+or original vendor model origins. verify_author_step_geometry_receipt.py checks
+the saved evidence without silently repeating CAD kernels.
+
+All 61 source-definition comparisons passed: 30 full Boolean/boundary checks
+and 31 exact serialized-BRep duplicate checks across 22 recovered model types.
+Directed difference volumes were zero. Maximum sampled boundary residual was
+8.854e-8 mm against a 1e-5 mm limit. The preserved extraction index's earlier
+metric-only flags describe that older extraction stage; this new separate
+receipt adds the numerical geometry evidence and its stated limits.
+
+Read audit/pcb-tools/software-stack-result.json for the current software suite
+result and per-stage logs. A software pass leaves hardware_release_ready=false.
+All 17 stages are passing. Sixteen passed in the combined run; only the hub
+stage was repeated after correcting its geometry-audit normalization handling.
+The runner explicitly records retained prior results for unchanged stages.
+Source geometry/pose, manufacturer dimensions, exact package pins/origin, current
+board revision, harness/power/clearances, MCU peripherals and physical operation
+remain separate qualification gates. Source model/repository terms still apply.
+Mask/paste rules and full regenerative copper are still incomplete. Original
+Raspberry Pi HAT reference findings remain in its separate DRC/ERC reports;
+the community-board model and hub changes do not repair that reference design.
+
+The canonical XL330-versus-Feetech choice is still pending. The tested Isaac
+baseline uses 14 XL330-style actuators; the recovered community MCU protocol is
+Feetech SCS. No unification, new morphology, full-board electrical simulation,
+hardware test or trained-walking-quality result is implied by these PCB assets.
+The existing bounded Isaac training/export/replay evidence is unchanged.

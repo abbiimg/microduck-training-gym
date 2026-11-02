@@ -1,0 +1,61 @@
+AUTHOR STEP PRODUCT-DEFINITION MODEL RECOVERY
+Date: 2026-10-26
+
+Recovered 22 model-ID groups as 22 STEP + 22 STL representative definitions.
+These cover every unique 3D-model ID in all 62 placed-device metadata records.
+61 explicitly labeled source instances were checked across the four preserved
+author PCB STEP assemblies. Exact reference + matching title + XCAF assembly
+identity establishes each link; metadata UUIDs are not embedded in the STEP.
+
+Frame and extraction
+The tool calls GetReferredShape_s on the exact component instance, then exports
+GetShape_s(referred_definition) directly. Its frame is the author's STEP
+PRODUCT-DEFINITION local frame in millimetres. It does not infer an origin,
+invert or guess a placement, or claim original vendor/native KiCad model-local
+coordinates. All checked definition-label locations are identity; nested
+definition geometry and its assembly transforms are retained as represented.
+No native board was edited and no model was attached to KiCad.
+
+Grouping scope is explicitly metric-only and unqualified
+For every shared model ID, all definition-local analytic bounds, volumes and
+solid counts agree. Pairwise maximum bbox and volume differences are both zero
+for these imported definitions. Matching metrics do not prove identical
+asymmetric geometry or baked orientation. Full BRep equivalence is NOT proven.
+Each model manifest and both indices explicitly record this limitation.
+
+One deterministic representative is exported per model-ID metric group. No
+metric-different group occurred. If future input differs beyond 1e-7 mm bbox,
+max(1e-6 mm3,1e-7 relative) volume, or exact solid-count equality, the tool keeps
+separate variant directories instead of choosing one canonical geometry.
+
+No source definition is lost: every contributing instance records the exact
+source assembly path + SHA256, reference, instance/referred-definition labels,
+instance/definition location matrices, metrics and comparison to representative.
+Those records support exact retrieval from the preserved source if a later
+orientation/shape review needs a particular instance definition.
+
+J3 coverage
+Model ID 66a147c6933d4029b68665bbcd1e2924|0819f05c4eef4c71ace90d822a990e87,
+title HDR-TH_6P-P2.54-M-LI-1X6P, is recovered from the exact old IMU J3 identity.
+It is the same full metadata ID/title used by revised IMU J3. This establishes
+availability of that model-type geometry. The revised author STEP still lacks
+the J3 placed instance, and its placement remains missing/unqualified.
+
+Verification
+All 22 exported STEP definitions re-import as valid shapes with preserved solid
+counts and bounds/volume within the stated comparison tolerance. All generated
+file hashes match the manifests. Every binary STL has nonzero triangle count
+and correct 84+50*N byte length. STL deflection is 0.02 mm / 0.1 rad; STL itself
+is unitless, with numeric coordinates in mm. All four original author STEP
+hashes remain unchanged. These are recovered snapshots, not new parametric
+history, manufacturing qualification, or newly granted model/license rights.
+
+Deliverables
+- recovered/author-step-model-definitions/model-definition-index.json
+- recovered/author-step-model-definitions/<full-id-with-pipe-replaced-by-_>/
+  model.step, model.stl, model-manifest.json, PROVENANCE.txt
+- audit/author-model-definition-review.json: full index/provenance/metrics
+- audit/author-model-definition-integrity.json: independent hash/count checks
+- tools/extract_author_step_model_definitions.py: reusable CadQuery/OCP extractor
+  Run with the installed CadQuery Python and --stl. Existing outputs are
+  preserved unless --overwrite-generated is explicitly provided.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Parametric Mechanical Design"
+  short_description: "Generate CAD parts with CadQuery and build123d"
+  default_prompt: "Use $parametric-mechanical-design to generate and verify a configurable mechanical assembly for SolidWorks and Blender."

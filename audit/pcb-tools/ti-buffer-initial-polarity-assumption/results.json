@@ -1,0 +1,33 @@
+{
+  "source": "https://www.ti.com/lit/zip/scem614",
+  "model_sha256": "a6e6bd3e0b2656e797fe4a7bfd5b58cbb474d71f065b94698d4d02de91fb3d63",
+  "scope": "single modeled active-low channel, 3.3V, DC, 10kohm load",
+  "physical_pin_mapping_verified": false,
+  "pcb_connected_model": false,
+  "cases": [
+    {
+      "case": "enabled_low",
+      "voltage": 3.267003,
+      "expected": "low",
+      "passed": false
+    },
+    {
+      "case": "enabled_high",
+      "voltage": 0.0,
+      "expected": "high",
+      "passed": false
+    },
+    {
+      "case": "disabled_low_input_pullup",
+      "voltage": 0.007171896,
+      "expected": "high",
+      "passed": false
+    },
+    {
+      "case": "disabled_high_input_pulldown",
+      "voltage": 3.290786,
+      "expected": "low",
+      "passed": false
+    }
+  ]
+}

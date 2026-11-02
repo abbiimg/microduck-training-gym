@@ -1,0 +1,7 @@
+{
+  "source": "https://image.lceda.cn/files/lceda-pro-linux-arm64-4.1.78.zip",
+  "sha512": "c4c56945579b4fc7ffeb966e0b8da6d1a4ce967e8f9fbe1134e38388cfef232638a635933bf2bfb41323a1e4c413035af9800f02078dcd41261ca339a560e8c7",
+  "sha256": "b030280f72c23c937b2a6c68e91c360ec77fb89f09a8dc83bab1efaf4b70ca68",
+  "crosscheck": "https://raw.githubusercontent.com/gentoo-zh/overlay/master/sci-electronics/lceda-pro/Manifest",
+  "extracted_to": "/home/workbench/robotics/pcb-tools/easyeda-client-4.1.78"
+}

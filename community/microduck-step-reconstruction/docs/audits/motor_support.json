@@ -1,0 +1,75 @@
+{
+  "name": "motor_support",
+  "label_zh": "嘴舵机支架",
+  "quantity": 1,
+  "units": "mm",
+  "stl": "01_STL_original/motor_support__嘴舵机支架__x1.stl",
+  "step": "02_STEP_final/motor_support__嘴舵机支架__x1.step",
+  "stl_sha256": "89ef820e51add3856200cd8f24150afa567b05b62745dd24e534df7bfbd3635d",
+  "step_sha256": "6210491a7309a8e41bc6f056fb88fcd919fbf386448a41bdd81699672810d32c",
+  "stl_bytes": 180884,
+  "step_bytes": 817535,
+  "stl_triangles": 3616,
+  "cad_faces": 118,
+  "valid_solid": true,
+  "deviation": {
+    "source_to_rebuilt": {
+      "samples": 5416,
+      "max_mm": 0.010410693711868134,
+      "rms_mm": 0.0027784932316193005,
+      "worst_point_mm": [
+        -4.103703022003174,
+        -17.33454481760661,
+        16.50771649678548
+      ]
+    },
+    "rebuilt_to_source": {
+      "samples": 253054,
+      "max_mm": 0.011714663472250276,
+      "rms_mm": 0.0035380285649600734,
+      "worst_point_mm": [
+        -5.290402208611974,
+        -20.31300810834128,
+        16.04563263108929
+      ]
+    }
+  },
+  "additional_audit": {
+    "random_bidirectional_samples": {
+      "source_to_step": {
+        "samples": 20000,
+        "max_mm": 0.011648601360978245,
+        "rms_mm": 0.002074654382027622
+      },
+      "step_to_source": {
+        "samples": 20000,
+        "max_mm": 0.01168667698552211,
+        "rms_mm": 0.0020577939094756693
+      }
+    },
+    "bounding_box_max_delta_mm": 1.517019470043124e-07,
+    "volume_error_percent": -0.0007679762936141366,
+    "edit_test": {
+      "operation": "subtract 0.4 mm box from material",
+      "center_mm": [
+        29.0,
+        -8.699657440185547,
+        19.10000076293945
+      ],
+      "valid_after_cut": true,
+      "removed_volume_mm3": 0.048215524914667185
+    },
+    "sha256": "6210491a7309a8e41bc6f056fb88fcd919fbf386448a41bdd81699672810d32c"
+  },
+  "improved_in_latest_round": false,
+  "max_sampled_deviation_mm": 0.011714663472250276,
+  "max_extra_sampled_deviation_mm": 0.01168667698552211,
+  "measured_bbox_mm": [
+    -39.5,
+    -26.200000862939305,
+    0.39999987615799465,
+    34.0000001,
+    28.000000151701947,
+    19.200000862939138
+  ]
+}

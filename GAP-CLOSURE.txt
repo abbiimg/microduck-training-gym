@@ -1,0 +1,113 @@
+MicroDuck package expansion — October 26, 2026
+
+CURRENT STATUS
+The package now has a practical community-based route for mechanical editing
+and electronics study. It is still not Pollen's original complete factory
+design, and it is not qualified for fabrication or deployment.
+
+The earlier ASSET-AUDIT.txt describes the first collection pass. This file and
+audit/gap-closure.json record the supplements and current remaining gaps.
+
+1. NATIVE SOLIDWORKS CAD — COMMUNITY ALTERNATIVE OBTAINED
+community/SolidWorks-XL330-v1.1/SolidWorks-XL330-v1.1/
+  Main assembly: 00-microduck装配体 XL330-288舵机版本.SLDASM
+  41 native parts and 16 assemblies. Release archive SHA-256 verified against
+  GitHub's published digest. Opened read-only in SOLIDWORKS 2026 (34.4.1), with
+  86 component instances resolved and no missing referenced files in config 2.
+  Screenshots and component records are in audit/.
+
+  Credit: 机械行者Robo, distributed by fanhao375/microduck-replica-cad.
+  This is an independent reconstruction, not original Pollen source CAD.
+  Native files do not imply all features are parametric: the inspected trunk
+  part contains an imported solid plus sketch (880 faces), rather than the
+  original design history. Keep source snapshots intact; make new variant files
+  or a Pack and Go working copy before editing references or dimensions.
+
+  XL330 v1.1 has revised ankle/leg/foot geometry. It must not be substituted
+  into the existing simulation/policy without checking frames, geometry,
+  masses, joints and control interfaces. Feetech-HD1910 CAD and print files in
+  the companion repository describe a different variant; do not mix them.
+
+2. NEUTRAL STEP SOLIDS — COMMUNITY RECONSTRUCTIONS OBTAINED
+community/microduck-step-reconstruction/02_STEP_final/
+  30 reconstructed STEP parts. All 30 matched author SHA-256 hashes and passed
+  local OpenCascade checks as valid single solids. See community-step-validation.json.
+  Units are already millimeters; do not multiply by 1000 again.
+  Credit: Pollen Robotics original meshes; tianjin66 reconstruction.
+  Source snapshot is older than the currently collected official RL checkout.
+  Not a complete assembly, recovered feature tree, or tolerance qualification.
+
+3. ASSEMBLY, BOM AND WIRING DOCUMENTS — COLLECTED
+community/microduck-replica-cad/安装说明书/ contains the 21-page assembly manual.
+The same repository contains component/exploded views, BOM documents and print
+project files. The companion community/microduck-replica repository includes
+reconstructed BOMs, hole analysis, wiring, electronics and firmware sources.
+The newer procurement spreadsheet is explicitly for Feetech; it is not a
+verified XL330 or official production BOM. Preserve each document's revision
+and applicability. No parts were ordered and no firmware was flashed.
+
+4. IMU AND SUPPORT ELECTRONICS — COMMUNITY SOURCES OBTAINED
+community/microduck-replica/hardware/
+  imu_to_dxl/ : earlier IMU reconstruction, schematic/PCB PDFs, STEP, wiring,
+               BOM, protocol and firmware sources, native .eprj2 project.
+  新版/imu_to_dxl_1V0A/ : newer IMU reconstruction and board STEP/schematic PDF.
+  新版/wire_hub_1V0A/ : servo bus hub project and STEP.
+  新版/POGO_PIN_1V0A/ : battery interface project and STEP.
+
+  These are EasyEDA Pro V3 SQLite projects, NOT native KiCad projects. All four
+  databases passed integrity checks. KiCad 10's installed EasyEDA Pro importer
+  returned empty boards for the two IMU files; those results were rejected and
+  no empty KiCad board is presented as a conversion.
+  A supported older-format export/conversion and schematic/netlist comparison
+  are still needed for a trustworthy KiCad version. Changing the extension is
+  not conversion. The community documents identify these boards as independent
+  and not yet fully hardware-validated. Original Pollen IMU PCB sources remain
+  unavailable in this collection. Do not treat them as drop-in replacements.
+
+5. OSCILLATOR MODEL DEPENDENCY — FILLED WITH A LABELED FIT MODEL
+reconstructed/oscillator/
+  ASDMB_nominal_package.step and ASDMB_datasheet_max_envelope.step
+  Generator and provenance included. Manufacturer drawing (Abracon ASDMB,
+  revision I, page 7) gives 2.50 +/-0.05 x 2.00 +/-0.05 x 0.85 +/-0.05 mm.
+  The maximum-envelope model is 2.55 x 2.05 x 0.90 mm, seating plane Z=0.
+  Both STEP models reimported as valid solids with checked dimensions.
+  They represent package envelopes, not an original detailed manufacturer model.
+  Solder standoff, cable/access volumes and assembly allowances are not included.
+
+  Only the missing model path in the HAT working PCB was replaced. Original
+  copper, pads, nets, footprints and board outline were preserved. All referenced
+  3D model file paths now resolve on this machine. Five artwork/fiducial/test-pad
+  footprints have no assigned 3D shape; that is recorded separately from missing
+  files. Fresh STEP/GLB/STL exports and a mechanical contract are under:
+  editing/kicad/Robot_HAT_reference/mechanical-export/
+  The original electrical DRC/ERC findings remain unresolved.
+
+WHAT STILL PREVENTS CALLING THIS AN ENTIRE VERIFIED HARDWARE PACKAGE
+- Original Pollen mechanical CAD still requires source-document access.
+- Original production electronics and a confirmed hardware revision are not
+  established by the community alternatives.
+- IMU/hub/battery projects need a faithful native KiCad conversion and review.
+- Manufacturing fits, material choices, tolerances, wiring, electrical safety,
+  measured inertias/actuators and physical operation still require validation.
+- Community CAD has not yet been rebuilt into a validated Isaac Lab variant or
+  retrained. Existing tested training assets and policy are kept separate.
+
+SOURCES AND LICENSES
+All original notices are retained. Community robot CAD/geometry/documents carry
+CC BY-NC-SA 4.0 attribution/non-commercial/share-alike requirements. Electronics
+and firmware may have distinct file-level terms; consult their source notices.
+Public download access does not establish a blanket license for every file.
+No purchase, external post, account creation or physical robot operation occurred.
+
+SOLIDWORKS SESSION NOTE
+Opening CAD changed the swSTLDeviation export preference. SOLIDWORKS quantized
+the restoration: nearest readback 0.224997705 mm vs earlier 0.229357798 mm.
+This is recorded in audit/solidworks-preference-recovery.json. It does not alter
+the source geometry; review Tools > Options > System Options > Export > STL
+when choosing tessellation for future exports.
+
+SOURCE REPOSITORIES
+https://github.com/fanhao375/microduck-replica-cad
+https://github.com/fanhao375/microduck-replica
+https://github.com/tianjin66/microduck-step-3d-models-ai-stl
+Manufacturer drawing: https://abracon.com/Oscillators/ASDMB.pdf

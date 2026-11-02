@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "RecoveredLayout") (type "KiCad") (uri "${KIPRJMOD}/RecoveredLayout.pretty") (options "") (descr "Recovered source pad geometry, per-instance footprints")))

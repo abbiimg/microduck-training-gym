@@ -1,0 +1,60 @@
+POGO copper-circle classification review — 2026-10-26
+
+Read-only review; no board was changed. Exact source records, native arc
+endpoints, pad distances and positive copper-overlap measurements are in
+pogo-copper-ring-review.json beside this report.
+
+Source objects and classification
+The source contains TWO F.Cu POLY records, each describing a closed circle as
+two 180-degree arcs. They are not four separate source tracks:
+  019b7888d641f854 (near GND/U2)
+  11df8aac0dd30763 (near Battery/U1)
+Both have polyType=NORMAL and EMPTY netName. Each stroke is 3.937 mil, or
+0.0999998 mm; centerline radius is approximately 0.850000 mm.
+The installed source DRC maps a non-outline POLY/Line graphic to SAFE class 9,
+whereas an actual source track has class 0 and the TRACK minimum-width rule.
+
+Current converter output
+build_routed_kicad.py turns each arc segment into native PCB_ARC track items,
+resulting in four track objects. Their current native nets are /GND and /Battery;
+those assignments are not explicit source POLY net labels. They reflect the
+connected copper context. Both arcs within each circle have exactly matching
+start/end coordinates after save, so there is no nanometre endpoint gap between
+the two halves. DRC still emits four track_dangling and four track_width checks.
+
+Physical contact assessment
+The GND circle center is (76.38299938, -9.78899998) mm. Its copper is separated
+from matching U2 F.Cu PTH copper by approximately 0.098788 mm. Battery circle
+center is (110.18300163, -9.78899998) mm, with an approximately 0.097681 mm gap
+to matching U1 F.Cu PTH copper. Thus neither ring directly touches the matching
+small top annular pad.
+
+However, neither ring is an isolated copper island. Each positively intersects
+both of the same-net 40-mil (1.016 mm) F.Cu track polygons running into the
+corresponding PTH center. Per-track overlap areas are roughly 0.109–0.111 mm².
+The broad track enters the center/annular-pad area and gives the ring physical
+contact to the same net. The 3.3 mm B.Cu disk at each hole overlaps the ring in
+plan view, but layer separation means that planar overlap is not direct F.Cu
+contact; the routed PTH connection is what matters. Other-net tracks are tens
+of millimetres away from each ring.
+
+Recommendation
+Represent the source POLY circles as native copper graphics (PCB_SHAPE gr_arc
+or a gr_circle), rather than PCB_ARC tracks. This restores the source graphic
+classification; it does not add a bridge across the pad-to-ring gaps. Preserve
+the original centerline/stroke geometry. If native graphic net assignment is
+used, document it as derived from the already touching /GND or /Battery copper,
+not as an explicit source POLY net name.
+
+Changing classification removes inappropriate TRACK-width and track-end tests
+from these graphics. It is justified by the source type and verified positive
+trace contact, rather than merely hiding a physical discontinuity. Still verify
+native copper XOR/area, unchanged physical track-to-pad continuity, zero
+unconnected items, and different-net/edge clearances after conversion. Do not
+widen the ring or move source geometry merely to make a track-only DRC pass.
+
+Remaining qualification
+These measurements do not establish mechanical hole tolerance, annular-ring
+manufacturability, full mask apertures, current capacity, original author intent,
+or PCB readiness for fabrication. The unplaced CN2 and other package-level
+qualification gates remain separate.

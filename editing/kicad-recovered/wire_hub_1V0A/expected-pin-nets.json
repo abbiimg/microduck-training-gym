@@ -1,0 +1,40 @@
+{
+  "CN1": {
+    "1": "Battery",
+    "2": "GND"
+  },
+  "J1": {
+    "1": "GND",
+    "2": "Battery",
+    "3": "DXL_BUS",
+    "4": "GND",
+    "5": "GND"
+  },
+  "J2": {
+    "1": "GND",
+    "2": "Battery",
+    "3": "DXL_BUS",
+    "4": "GND",
+    "5": "GND"
+  },
+  "J3": {
+    "1": "DXL_BUS",
+    "2": "Battery",
+    "3": "GND"
+  },
+  "J4": {
+    "1": "DXL_BUS",
+    "2": "Battery",
+    "3": "GND"
+  },
+  "J5": {
+    "1": "DXL_BUS",
+    "2": "Battery",
+    "3": "GND"
+  },
+  "J6": {
+    "1": "DXL_BUS",
+    "2": "Battery",
+    "3": "GND"
+  }
+}

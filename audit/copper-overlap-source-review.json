@@ -1,0 +1,1533 @@
+{
+  "read_only": true,
+  "boards_edited": false,
+  "rules_edited": false,
+  "activation_used": false,
+  "coordinate_profile": "source geometry mil; POURED cache0.01 inch; nativeglobalY flipped",
+  "source_cache_buffer_policy": "owner solid fineness/2 round boundary; raw unexpanded result also measured",
+  "installed_decoder_evidence": {
+    "path": "/mnt/c/Users/abbii/Documents/Codex/tools/lceda-pro-4.1.78/resources/app/assets/pro-pcb/4.1.67.65530fb3/js/decodeWorker.js",
+    "sha256": "112e589a741bbb2b3250a70442a8eb3dd59f2bfe8160d71ddc4eb9e0a36be1a4",
+    "verified_semantic_token_offsets": {
+      "raw_fineness_divided_by10_in_POUR_decoder": 4172217,
+      "cached_copper_inherits_owner_layer_and_net": 4174861,
+      "solid_cached_copper_expands_each_primitive_by_optimization_width": 3855397
+    },
+    "scope": "Local installed official decoder 4.1.67 only, read without running or activating the client. Recovered owner fineness 8 becomes internal 0.8 at a 0.01-inch scale; shape math adds a round stroke of that width. Cache layer/net inherit the current POUR owner. No global cross-type deletion semantics are established by these model-stage excerpts."
+  },
+  "results": {
+    "wire_hub_1V0A": {
+      "source_replay_sha256": "63f16a87e4815eb35378cb619acc4b289bd5ac10e9bdd9f82685fbb9e80431cb",
+      "raw_history": "editing/recovered-community/wire_hub_1V0A/geometry-input.epru",
+      "raw_history_sha256": "186e64404cdd939762619fdcbe4e0676c36b2a0bd28bc8f4c93f4c5916560295",
+      "source_component": {
+        "header": {
+          "type": "COMPONENT",
+          "ticket": 47940,
+          "id": "a7ac844818530c4e"
+        },
+        "line": 29210,
+        "segment": 169,
+        "client": "eb5ff09f7ae717ac"
+      },
+      "source_pad": {
+        "header": {
+          "type": "PAD",
+          "ticket": 45,
+          "id": "e19",
+          "client": "3fb3d453f16534d6"
+        },
+        "line": 28982,
+        "segment": 1,
+        "client": "ce741ee925568dde"
+      },
+      "source_pour": {
+        "header": {
+          "type": "POUR",
+          "ticket": 47248,
+          "id": "6433fd3c96979807"
+        },
+        "line": 28790,
+        "segment": 165,
+        "client": "a0c6ebed8c5086e3"
+      },
+      "source_cache": {
+        "header": {
+          "type": "POURED",
+          "ticket": 47251,
+          "id": "[\"POURED\",\"6433fd3c96979807\"]"
+        },
+        "line": 28792,
+        "segment": 165,
+        "client": "a0c6ebed8c5086e3"
+      },
+      "component_first_appearance_ticket": 47725,
+      "latest_component_ticket": 47940,
+      "latest_cache_ticket": 47251,
+      "cache_predates_component_first_appearance": true,
+      "original_source_pad_center_mm": [
+        59.81699999999999,
+        23.241
+      ],
+      "pad_copper_area_mm2": 3.239987040012952,
+      "pad_hole_area_mm2": 1.1304849265267949,
+      "source_unexpanded_cache_to_pad": {
+        "distance_mm": 0.0,
+        "intersection_area_mm2": 0.0794088351405906,
+        "physical_annulus_overlap_mm2": 0.0794088351405906
+      },
+      "source_optimized_cache_to_pad": {
+        "distance_mm": 0.0,
+        "intersection_area_mm2": 0.2016731434863003,
+        "physical_annulus_overlap_mm2": 0.2016731434863003
+      },
+      "preunion_native": {
+        "board": "editing/kicad-paired/wire_hub_1V0A/wire_hub_1V0A.kicad_pcb",
+        "sha256": "0f095810194f7820865c60acd036277f2e5136af0f34ceab0372228e62588f80",
+        "pad_cache_intersection_area_mm2": 0.2016727600626668,
+        "source_pad_xor_mm2": 1.4399969514578004e-06,
+        "source_ground_xor_mm2": 4.022404081785121e-05,
+        "pad_difference_outside_2nm_band_mm2": 0.0,
+        "ground_difference_outside_2nm_band_mm2": 0.0
+      },
+      "history": [
+        {
+          "type": "POUR",
+          "id": "6433fd3c96979807",
+          "ticket": 47248,
+          "line": 28790,
+          "segment": 428,
+          "client": "a0c6ebed8c5086e3",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "GND",
+            "layerId": 2,
+            "width": 0.2,
+            "name": "POUR1",
+            "order": 0,
+            "pourType": {
+              "pourType": "SOLID",
+              "fineness": 8
+            },
+            "keepIsland": false,
+            "locked": false,
+            "zIndex": -1,
+            "path_sha256": "5b2470a3ea2643666e015d75aab6a9094bfcb3e6fd4cf357d8d6c67c188e993b"
+          },
+          "record_line_sha256": "961f606b0ff7aaadc705c9f959894a4d18a284dcf2970a4e042c1f36f43d9a55"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"6433fd3c96979807\"]",
+          "ticket": 47251,
+          "line": 28792,
+          "segment": 428,
+          "client": "a0c6ebed8c5086e3",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 1
+          },
+          "record_line_sha256": "fc3eae7ed585edd884ad5e4139a033edc55446d0ea2f0ead09cc2f0c411d72fa"
+        },
+        {
+          "type": "COMPONENT",
+          "id": "a7ac844818530c4e",
+          "ticket": 47725,
+          "line": 29172,
+          "segment": 438,
+          "client": "eb5ff09f7ae717ac",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "layerId": 1,
+            "x": 2325,
+            "y": 1195,
+            "angle": 180,
+            "attrs": {
+              "Reuse Block": "",
+              "Group ID": "",
+              "Channel ID": "$1I266",
+              "Unique ID": "gge21"
+            },
+            "locked": false,
+            "zIndex": -1
+          },
+          "record_line_sha256": "dd42d3b25ee319003fd240d88ad6386c5d69edb9227918e63633619a8aa7b399"
+        },
+        {
+          "type": "PAD_NET",
+          "id": "[\"PAD_NET\",\"a7ac844818530c4e\",\"2\",\"e18\"]",
+          "ticket": 47726,
+          "line": 29173,
+          "segment": 438,
+          "client": "eb5ff09f7ae717ac",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "padNet": "",
+            "padLen": null,
+            "attrsMap": {}
+          },
+          "record_line_sha256": "8c4b9c81e23757c3d9390ffe7ffb6bfbe65687dc1879fa6eeafb373b119f5ba3"
+        },
+        {
+          "type": "PAD_NET",
+          "id": "[\"PAD_NET\",\"a7ac844818530c4e\",\"1\",\"e19\"]",
+          "ticket": 47727,
+          "line": 29174,
+          "segment": 438,
+          "client": "eb5ff09f7ae717ac",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "padNet": "",
+            "padLen": null,
+            "attrsMap": {}
+          },
+          "record_line_sha256": "0bce35210f336fbd8c9529b8084e703d83ecd1a0fe7f85a9b14cf0f1214f1585"
+        },
+        {
+          "type": "ATTR",
+          "id": "a7ac844818530c4ee20",
+          "ticket": 47728,
+          "line": 29175,
+          "segment": 438,
+          "client": "eb5ff09f7ae717ac",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "a7ac844818530c4e",
+            "layerId": 3,
+            "x": null,
+            "y": null,
+            "key": "Footprint",
+            "value": "65ed241ad05f87ec",
+            "keyVisible": false,
+            "valueVisible": false,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 180,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": 20,
+            "specialColor": null
+          },
+          "record_line_sha256": "aaae2a49f157c2a08f1cc5304646927da96fa3b8aa3e7eaf1e947e0dfbea6e08"
+        },
+        {
+          "type": "ATTR",
+          "id": "a7ac844818530c4ee21",
+          "ticket": 47729,
+          "line": 29176,
+          "segment": 438,
+          "client": "eb5ff09f7ae717ac",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "a7ac844818530c4e",
+            "layerId": 3,
+            "x": 2439.449,
+            "y": 1061.4,
+            "key": "Designator",
+            "value": "CN2",
+            "keyVisible": false,
+            "valueVisible": true,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 180,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": 21,
+            "specialColor": null
+          },
+          "record_line_sha256": "a94122cb31e0eadd40d3ccd73ac2b89cd16932891bb2cd1a7a96e24b275613fc"
+        },
+        {
+          "type": "ATTR",
+          "id": "a7ac844818530c4ee0",
+          "ticket": 47730,
+          "line": 29177,
+          "segment": 438,
+          "client": "eb5ff09f7ae717ac",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "a7ac844818530c4e",
+            "layerId": 3,
+            "x": null,
+            "y": null,
+            "key": "Device",
+            "value": "bf9aeb7c425cdca8",
+            "keyVisible": false,
+            "valueVisible": false,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 180,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": -1,
+            "specialColor": null
+          },
+          "record_line_sha256": "4d7226b79bae5a7b0ed6756c0f9dc74238da332d2202a74262fa8a67faa6c079"
+        },
+        {
+          "type": "PAD_NET",
+          "id": "[\"PAD_NET\",\"a7ac844818530c4e\",\"2\",\"e18\"]",
+          "ticket": 47941,
+          "line": 29202,
+          "segment": 439,
+          "client": "eb5ff09f7ae717ac",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "padNet": "GND",
+            "padLen": null,
+            "attrsMap": {}
+          },
+          "record_line_sha256": "f9d80b3b8725a246b58d52a936984ac0341a8d423bc9d6da62767c3f21f1bd9f"
+        },
+        {
+          "type": "PAD_NET",
+          "id": "[\"PAD_NET\",\"a7ac844818530c4e\",\"1\",\"e19\"]",
+          "ticket": 47942,
+          "line": 29203,
+          "segment": 439,
+          "client": "eb5ff09f7ae717ac",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "padNet": "Battery",
+            "padLen": null,
+            "attrsMap": {}
+          },
+          "record_line_sha256": "c1419682f9a28fa2daef1eda1782dae51400d51ca1040968a92f22b50f0df932"
+        },
+        {
+          "type": "COMPONENT",
+          "id": "a7ac844818530c4e",
+          "ticket": 47940,
+          "line": 29210,
+          "segment": 439,
+          "client": "eb5ff09f7ae717ac",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "layerId": 1,
+            "x": 2305,
+            "y": 915,
+            "angle": 180,
+            "attrs": {
+              "Reuse Block": "",
+              "Group ID": "",
+              "Channel ID": "$1I266",
+              "Unique ID": "gge21"
+            },
+            "locked": false,
+            "zIndex": -1
+          },
+          "record_line_sha256": "a5253c230d650cd03e3f50c282c638625a17b71c87528e50f93da02df141f1e3"
+        },
+        {
+          "type": "ATTR",
+          "id": "a7ac844818530c4ee20",
+          "ticket": 47943,
+          "line": 29211,
+          "segment": 439,
+          "client": "eb5ff09f7ae717ac",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "a7ac844818530c4e",
+            "layerId": 3,
+            "x": null,
+            "y": null,
+            "key": "Footprint",
+            "value": "65ed241ad05f87ec",
+            "keyVisible": false,
+            "valueVisible": false,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 180,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": 20,
+            "specialColor": null
+          },
+          "record_line_sha256": "58d5f32d41bb562fd8646a59c06be08721d263e692783c2c05d4d4946ca86581"
+        },
+        {
+          "type": "ATTR",
+          "id": "a7ac844818530c4ee21",
+          "ticket": 47958,
+          "line": 29212,
+          "segment": 439,
+          "client": "eb5ff09f7ae717ac",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "a7ac844818530c4e",
+            "layerId": 3,
+            "x": 2348.9,
+            "y": 730,
+            "key": "Designator",
+            "value": "CN1",
+            "keyVisible": false,
+            "valueVisible": true,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 360,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": 21,
+            "specialColor": null
+          },
+          "record_line_sha256": "5d89a17e4205b6d7f2047ac2042787677d1b90c4dc7c0604295f1607e6220bf2"
+        },
+        {
+          "type": "ATTR",
+          "id": "a7ac844818530c4ee0",
+          "ticket": 47945,
+          "line": 29213,
+          "segment": 439,
+          "client": "eb5ff09f7ae717ac",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupID": 0,
+            "parentId": "a7ac844818530c4e",
+            "layerId": 3,
+            "x": null,
+            "y": null,
+            "key": "Device",
+            "value": "bf9aeb7c425cdca8",
+            "keyVisible": false,
+            "valueVisible": false,
+            "fontFamily": "default",
+            "fontSize": 45,
+            "strokeWidth": 6,
+            "bold": 0,
+            "italic": 0,
+            "origin": "LEFT_BOTTOM",
+            "angle": 180,
+            "reverse": false,
+            "expansion": 0,
+            "mirror": false,
+            "locked": false,
+            "zIndex": -1,
+            "specialColor": null
+          },
+          "record_line_sha256": "ec8855112ddbcfbf300b9e9e91135f8301c5b9e06c6eadd0dc2543577f6fcc06"
+        }
+      ],
+      "attribution": "Latest source GND cache predates introduction of CN1 and its current Battery/GND pad assignments. Positive overlap exists directly in source cache/current source pad, including after drill subtraction, and in native paired board before consolidation. Neither union nor net repair creates it.",
+      "recommended_copy_only_correction": "Intentional engineering subtraction of the new Battery pad exclusion from stale GND static copper using source PTH/pour clearance; preserve source and literal recovered candidates. Full source cache regeneration remains unqualified."
+    },
+    "imu_to_dxl_1V0A": {
+      "source_replay_sha256": "27309693c8f562871ea343da554f2da32876855375be9f1b8b8ed6ffd9bc1ad5",
+      "raw_history": "editing/recovered-community/imu_to_dxl_1V0A/geometry-input.epru",
+      "raw_history_sha256": "495037cad2bb3bc632ac02dff8546e2e0c776ff689894af29c77fcddc0adfa12",
+      "source_fill": {
+        "header": {
+          "type": "FILL",
+          "ticket": 38492,
+          "id": "746a86ec39ac9e6d"
+        },
+        "line": 23179,
+        "segment": 126,
+        "client": "4e90fed98ab5e755"
+      },
+      "source_fill_net": "VDD_BUS",
+      "source_fill_area_mm2": 19.929788045008717,
+      "source_fill_bridging_flag": false,
+      "source_fill_networkList": [],
+      "same_id_identical_contour_FILL_to_POUR": [
+        {
+          "type": "POUR",
+          "id": "746a86ec39ac9e6d",
+          "ticket": 44571,
+          "line": 25656,
+          "segment": 408,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "VDD_BUS",
+            "layerId": 1,
+            "width": 0.2,
+            "name": "POUR5",
+            "order": 1,
+            "pourType": {
+              "pourType": "SOLID",
+              "fineness": 8
+            },
+            "keepIsland": false,
+            "locked": false,
+            "zIndex": -1,
+            "path_sha256": "db162a851b7f8ff96b59942eef636638a1820f79099a20ba3ab682921777250b"
+          },
+          "record_line_sha256": "285544763fe55ab53410792ef95ba39e831ff7c849ad06d170818b35180ed232"
+        }
+      ],
+      "latest_same_id_shape_event": {
+        "type": "POUR",
+        "id": "746a86ec39ac9e6d",
+        "ticket": 44594,
+        "line": 25668,
+        "segment": 409,
+        "client": "b69dcbace350b6e7",
+        "tombstone": true,
+        "data_summary": null,
+        "record_line_sha256": "c054cea1d2d4ca552cd934c437653f9e7704b4d467f9664be9bdf8adb11ee71c"
+      },
+      "source_ground_pairs": [
+        {
+          "source_pour": {
+            "header": {
+              "type": "POUR",
+              "ticket": 44597,
+              "id": "9e6ef9e9729c8ee7"
+            },
+            "line": 25671,
+            "segment": 165,
+            "client": "b69dcbace350b6e7"
+          },
+          "source_cache": {
+            "header": {
+              "type": "POURED",
+              "ticket": 45215,
+              "id": "[\"POURED\",\"9e6ef9e9729c8ee7\"]"
+            },
+            "line": 26063,
+            "segment": 178,
+            "client": "87d43982ca436704"
+          },
+          "owner_net": "GND",
+          "raw_cache_fill_intersection_mm2": 2.87869053573671,
+          "optimized_cache_fill_intersection_mm2": 3.8183847235685153
+        },
+        {
+          "source_pour": {
+            "header": {
+              "type": "POUR",
+              "ticket": 44598,
+              "id": "84a63625734e769f"
+            },
+            "line": 25672,
+            "segment": 165,
+            "client": "b69dcbace350b6e7"
+          },
+          "source_cache": {
+            "header": {
+              "type": "POURED",
+              "ticket": 45217,
+              "id": "[\"POURED\",\"84a63625734e769f\"]"
+            },
+            "line": 26064,
+            "segment": 178,
+            "client": "87d43982ca436704"
+          },
+          "owner_net": "GND",
+          "raw_cache_fill_intersection_mm2": 2.87869053573671,
+          "optimized_cache_fill_intersection_mm2": 3.8183847235685153
+        }
+      ],
+      "source_ground_union_overlap_unexpanded_mm2": 2.87869053573671,
+      "source_ground_union_overlap_optimized_mm2": 3.8183847235685153,
+      "preunion_native": {
+        "board": "editing/kicad-paired/imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_pcb",
+        "sha256": "2ea632ead0430effc6123cdc17dfaa3149666e0d0ec014491d058bda7b48390e",
+        "excluded_ambiguous_old_ground_fill_uuids": [
+          "c209d7da-c13b-48d6-be2f-998388103403"
+        ],
+        "ground_vdd_intersection_mm2": 3.818383233548745,
+        "source_vdd_xor_mm2": 1.1737295919326482e-06,
+        "source_ground_xor_mm2": 7.832718441459203e-05,
+        "vdd_difference_outside_2nm_band_mm2": 0.0,
+        "ground_difference_outside_2nm_band_mm2": 0.0
+      },
+      "active_geometric_ids_with_multiple_record_types": {
+        "064381cd954f215b": [
+          "POLY",
+          "FILL"
+        ],
+        "165bf2a673ef9986": [
+          "POLY",
+          "FILL"
+        ],
+        "30e7ab160d5821d3": [
+          "POLY",
+          "FILL"
+        ],
+        "01e7362ed570dc2e": [
+          "POLY",
+          "FILL"
+        ],
+        "84a63625734e769f": [
+          "FILL",
+          "POUR"
+        ]
+      },
+      "history": [
+        {
+          "type": "FILL",
+          "id": "746a86ec39ac9e6d",
+          "ticket": 38492,
+          "line": 23179,
+          "segment": 341,
+          "client": "4e90fed98ab5e755",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "VDD_BUS",
+            "layerId": 1,
+            "width": 0.2,
+            "fillStyle": "SOLID",
+            "locked": false,
+            "zIndex": -1,
+            "isBridgingCopper": false,
+            "networkList": [],
+            "refs": [
+              null
+            ],
+            "path_sha256": "db162a851b7f8ff96b59942eef636638a1820f79099a20ba3ab682921777250b"
+          },
+          "record_line_sha256": "122f1fe3e16ee1cfb39853716283b601a321cf2658fcba79b778f377c3bc2123"
+        },
+        {
+          "type": "FILL",
+          "id": "84a63625734e769f",
+          "ticket": 40981,
+          "line": 24481,
+          "segment": 365,
+          "client": "4e90fed98ab5e755",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "GND",
+            "layerId": 1,
+            "width": 0.2,
+            "fillStyle": "SOLID",
+            "locked": false,
+            "zIndex": -1,
+            "isBridgingCopper": false,
+            "networkList": [],
+            "refs": null,
+            "path_sha256": "752588417f675229f06a6c207b33a907994e63085bd7826bc6e45ce456de7649"
+          },
+          "record_line_sha256": "2e7b931bd6b7a46e2c660b782ad38bba750ec82646c83f6609f7b8dfa5719ba8"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 40983,
+          "line": 24483,
+          "segment": 365,
+          "client": "4e90fed98ab5e755",
+          "tombstone": true,
+          "data_summary": null,
+          "record_line_sha256": "556df4b1b1bae53f54343b48c68ba2f232652d00ef3d0b46b0b68900a6f23101"
+        },
+        {
+          "type": "POUR",
+          "id": "84a63625734e769f",
+          "ticket": 41181,
+          "line": 24485,
+          "segment": 366,
+          "client": "4e90fed98ab5e755",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "GND",
+            "layerId": 1,
+            "width": 0.2,
+            "name": "POUR1",
+            "order": 1,
+            "pourType": {
+              "pourType": "SOLID",
+              "fineness": 0
+            },
+            "keepIsland": true,
+            "locked": false,
+            "zIndex": -1,
+            "path_sha256": "752588417f675229f06a6c207b33a907994e63085bd7826bc6e45ce456de7649"
+          },
+          "record_line_sha256": "7bcddfd9559f78b5f0ff32c50eb38b4cd5a718fff359b91c4a1cbb410a44210b"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 41185,
+          "line": 24486,
+          "segment": 366,
+          "client": "4e90fed98ab5e755",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 18
+          },
+          "record_line_sha256": "7476112b5c0b8cc82cee904c69d95bada04c8ff415943bfde23c455e49946f92"
+        },
+        {
+          "type": "POUR",
+          "id": "84a63625734e769f",
+          "ticket": 41187,
+          "line": 24549,
+          "segment": 367,
+          "client": "4e90fed98ab5e755",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "GND",
+            "layerId": 1,
+            "width": 0.2,
+            "name": "POUR1",
+            "order": 1,
+            "pourType": {
+              "pourType": "SOLID",
+              "fineness": 8
+            },
+            "keepIsland": true,
+            "locked": false,
+            "zIndex": -1,
+            "path_sha256": "752588417f675229f06a6c207b33a907994e63085bd7826bc6e45ce456de7649"
+          },
+          "record_line_sha256": "77eb435a89384938b35f37284f71dd4164491e930a117587df2f600aedcc4be0"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 41191,
+          "line": 24550,
+          "segment": 367,
+          "client": "4e90fed98ab5e755",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 15
+          },
+          "record_line_sha256": "961312fcf06990c20b866acbea58afa95fed259e4bddf3776f9cceea7355ed91"
+        },
+        {
+          "type": "POUR",
+          "id": "84a63625734e769f",
+          "ticket": 41200,
+          "line": 24552,
+          "segment": 368,
+          "client": "8151f71a8e2ac8c4",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "GND",
+            "layerId": 1,
+            "width": 0.2,
+            "name": "POUR1",
+            "order": 1,
+            "pourType": {
+              "pourType": "SOLID",
+              "fineness": 8
+            },
+            "keepIsland": true,
+            "locked": false,
+            "zIndex": -1,
+            "path_sha256": "752588417f675229f06a6c207b33a907994e63085bd7826bc6e45ce456de7649"
+          },
+          "record_line_sha256": "7c29a8675b1bc81b4935c558e29c542b8b74ebb97dc147bad10cdc6e8c39a31e"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 41202,
+          "line": 24553,
+          "segment": 368,
+          "client": "8151f71a8e2ac8c4",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 15
+          },
+          "record_line_sha256": "4cf56bc7898e0ceb4618fcf7c46088221634a9438f3c4d675229ecf58ba53796"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 41462,
+          "line": 24618,
+          "segment": 369,
+          "client": "8151f71a8e2ac8c4",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 1
+          },
+          "record_line_sha256": "de397c8589bb28b573f4121fd303be15d5ef4fc7ae141a173cbd7629178596da"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 41627,
+          "line": 24679,
+          "segment": 370,
+          "client": "8151f71a8e2ac8c4",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 17
+          },
+          "record_line_sha256": "a91c7105dacc93670aad253a404b518a7b9a12aab50552212f1ae025de90c067"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 41792,
+          "line": 24740,
+          "segment": 371,
+          "client": "c25daf672aae58e6",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 15
+          },
+          "record_line_sha256": "bf6a42cb2026fefff37ad48187a7242ba61951f07cc56e31118e5cbf2695c9d8"
+        },
+        {
+          "type": "POUR",
+          "id": "84a63625734e769f",
+          "ticket": 41903,
+          "line": 24779,
+          "segment": 372,
+          "client": "c25daf672aae58e6",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "GND",
+            "layerId": 1,
+            "width": 0.2,
+            "name": "POUR1",
+            "order": 1,
+            "pourType": {
+              "pourType": "SOLID",
+              "fineness": 8
+            },
+            "keepIsland": false,
+            "locked": false,
+            "zIndex": -1,
+            "path_sha256": "752588417f675229f06a6c207b33a907994e63085bd7826bc6e45ce456de7649"
+          },
+          "record_line_sha256": "3785c8fae8f330a8a341ab28264ed8a50cf827b8e4f52930d154cff7415eeae0"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 41907,
+          "line": 24780,
+          "segment": 372,
+          "client": "c25daf672aae58e6",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "0c57506c1196d8c2ca7d581eb0c5932c3a250b5e28df19041a92243fbdf1bf9f"
+        },
+        {
+          "type": "POUR",
+          "id": "84a63625734e769f",
+          "ticket": 42177,
+          "line": 24937,
+          "segment": 376,
+          "client": "c25daf672aae58e6",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "GND",
+            "layerId": 1,
+            "width": 0.2,
+            "name": "POUR1",
+            "order": 1,
+            "pourType": {
+              "pourType": "SOLID",
+              "fineness": 8
+            },
+            "keepIsland": false,
+            "locked": false,
+            "zIndex": -1,
+            "path_sha256": "752588417f675229f06a6c207b33a907994e63085bd7826bc6e45ce456de7649"
+          },
+          "record_line_sha256": "26b82ed87b796cb92af03a9f125c26018169d43d2fba1db1c97ecb2f27371edd"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 42176,
+          "line": 24938,
+          "segment": 376,
+          "client": "c25daf672aae58e6",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "fd386840d1975232a48744be66bab8bbeda62d708e1ca926f60e133d6768dc40"
+        },
+        {
+          "type": "POUR",
+          "id": "84a63625734e769f",
+          "ticket": 44201,
+          "line": 25458,
+          "segment": 396,
+          "client": "fd8e7ebbd37373d4",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "GND",
+            "layerId": 1,
+            "width": 0.2,
+            "name": "POUR1",
+            "order": 2,
+            "pourType": {
+              "pourType": "SOLID",
+              "fineness": 8
+            },
+            "keepIsland": false,
+            "locked": false,
+            "zIndex": -1,
+            "path_sha256": "752588417f675229f06a6c207b33a907994e63085bd7826bc6e45ce456de7649"
+          },
+          "record_line_sha256": "7e8a43e5a3e7452af7d35707630f3a410354c5023197a126d1f0c2a229576967"
+        },
+        {
+          "type": "POUR",
+          "id": "9e6ef9e9729c8ee7",
+          "ticket": 44202,
+          "line": 25459,
+          "segment": 396,
+          "client": "fd8e7ebbd37373d4",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "GND",
+            "layerId": 1,
+            "width": 0.2,
+            "name": "POUR4",
+            "order": 1,
+            "pourType": {
+              "pourType": "SOLID",
+              "fineness": 8
+            },
+            "keepIsland": false,
+            "locked": false,
+            "zIndex": -1,
+            "path_sha256": "f3141961adf46525f3cffd96c6d7d9ce08ddd1823ae2fb3a253c7102f08f6172"
+          },
+          "record_line_sha256": "ed3b2bb164a0bedd34c263c9e81b57e9ccb60b8c52c27f2d25a347b1e11da968"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"9e6ef9e9729c8ee7\"]",
+          "ticket": 44204,
+          "line": 25461,
+          "segment": 396,
+          "client": "fd8e7ebbd37373d4",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "a517fa7f77e64787e500d212783367876642469ea46a378d1da884e5016cfda3"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 44208,
+          "line": 25462,
+          "segment": 396,
+          "client": "fd8e7ebbd37373d4",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "fe38d7bfe5048422a728f71598310d1df7bd978998a4c2f1cfa607ee70c4d6ba"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"9e6ef9e9729c8ee7\"]",
+          "ticket": 44390,
+          "line": 25555,
+          "segment": 400,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "a5260bfece779de8903fd16dc2add7f2ada2b4689ce0fab8eac23292e73aa683"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 44392,
+          "line": 25556,
+          "segment": 400,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "27d6b2238c11a148d519279132da08d5b452eca04beafbf46a95f40d036b1840"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"9e6ef9e9729c8ee7\"]",
+          "ticket": 44403,
+          "line": 25564,
+          "segment": 402,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "0eb117aecef41a144690a1cf5da6fa2aa838249eb1bf7aa5756a41973ed9e4d7"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 44405,
+          "line": 25565,
+          "segment": 402,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "41ff77cc79f224501f22040cabe53ae0d268ba8672c15f35792ce38f3c4c51ba"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"9e6ef9e9729c8ee7\"]",
+          "ticket": 44426,
+          "line": 25583,
+          "segment": 403,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "e56a1564ce5cf076628fcd516cf5a061232ad69273fa2c69c504cf6fac2a943a"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 44428,
+          "line": 25584,
+          "segment": 403,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "d31a71adb02a424938cdb160e9bbb69f937faf1c0466451a02577ecaccaaa01f"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"9e6ef9e9729c8ee7\"]",
+          "ticket": 44484,
+          "line": 25619,
+          "segment": 405,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "1140570fbf93e44ff0f099d860f5307059ced460eebafad3a4ac687c454f8959"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 44486,
+          "line": 25620,
+          "segment": 405,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "4153945071b534481e5cb6bbb0111da871d98c15d710994d48b2aec355ec4ba7"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"9e6ef9e9729c8ee7\"]",
+          "ticket": 44567,
+          "line": 25653,
+          "segment": 407,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "c3840d84659e340a7032536b2951b4388690cb8c6c4dfcbf4a6a8d11e2f6a872"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 44569,
+          "line": 25654,
+          "segment": 407,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "be6704270e7291150ea9ba944e7a768abd692f93f5313440f99376d380764572"
+        },
+        {
+          "type": "POUR",
+          "id": "746a86ec39ac9e6d",
+          "ticket": 44571,
+          "line": 25656,
+          "segment": 408,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "VDD_BUS",
+            "layerId": 1,
+            "width": 0.2,
+            "name": "POUR5",
+            "order": 1,
+            "pourType": {
+              "pourType": "SOLID",
+              "fineness": 8
+            },
+            "keepIsland": false,
+            "locked": false,
+            "zIndex": -1,
+            "path_sha256": "db162a851b7f8ff96b59942eef636638a1820f79099a20ba3ab682921777250b"
+          },
+          "record_line_sha256": "285544763fe55ab53410792ef95ba39e831ff7c849ad06d170818b35180ed232"
+        },
+        {
+          "type": "POUR",
+          "id": "9e6ef9e9729c8ee7",
+          "ticket": 44577,
+          "line": 25657,
+          "segment": 408,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "GND",
+            "layerId": 1,
+            "width": 0.2,
+            "name": "POUR4",
+            "order": 3,
+            "pourType": {
+              "pourType": "SOLID",
+              "fineness": 8
+            },
+            "keepIsland": false,
+            "locked": false,
+            "zIndex": -1,
+            "path_sha256": "f3141961adf46525f3cffd96c6d7d9ce08ddd1823ae2fb3a253c7102f08f6172"
+          },
+          "record_line_sha256": "cceee2279d3ec85e80d255ff8aeceaec941b620c7eff0004867e1cea75b3a805"
+        },
+        {
+          "type": "POUR",
+          "id": "84a63625734e769f",
+          "ticket": 44580,
+          "line": 25658,
+          "segment": 408,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "GND",
+            "layerId": 1,
+            "width": 0.2,
+            "name": "POUR1",
+            "order": 5,
+            "pourType": {
+              "pourType": "SOLID",
+              "fineness": 8
+            },
+            "keepIsland": false,
+            "locked": false,
+            "zIndex": -1,
+            "path_sha256": "752588417f675229f06a6c207b33a907994e63085bd7826bc6e45ce456de7649"
+          },
+          "record_line_sha256": "cd6318d4984df07b9a98e130ea05e7a03b1791c904139bd41bb91dff15835801"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"746a86ec39ac9e6d\"]",
+          "ticket": 44574,
+          "line": 25659,
+          "segment": 408,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 1
+          },
+          "record_line_sha256": "d8e409050dc929e9661ef239e5260b73164ae053682de27d57ee6851e2ea8ecf"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"9e6ef9e9729c8ee7\"]",
+          "ticket": 44589,
+          "line": 25664,
+          "segment": 408,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "32312874bb909e40898e813003b0b2e42c8b55822c2f7930fa01657b51303c85"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 44591,
+          "line": 25665,
+          "segment": 408,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "15f34f7ade673a6df69d7ed52a898b63bf6efbd245021bb3ffbf76f810e3673b"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"746a86ec39ac9e6d\"]",
+          "ticket": 44593,
+          "line": 25667,
+          "segment": 409,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 1
+          },
+          "record_line_sha256": "bc1c9b1c5aabe768c72361d4d385fe3d20247d551fb1baa9b7a69dbd29e913af"
+        },
+        {
+          "type": "POUR",
+          "id": "746a86ec39ac9e6d",
+          "ticket": 44594,
+          "line": 25668,
+          "segment": 409,
+          "client": "b69dcbace350b6e7",
+          "tombstone": true,
+          "data_summary": null,
+          "record_line_sha256": "c054cea1d2d4ca552cd934c437653f9e7704b4d467f9664be9bdf8adb11ee71c"
+        },
+        {
+          "type": "POUR",
+          "id": "9e6ef9e9729c8ee7",
+          "ticket": 44597,
+          "line": 25671,
+          "segment": 409,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "GND",
+            "layerId": 1,
+            "width": 0.2,
+            "name": "POUR4",
+            "order": 4,
+            "pourType": {
+              "pourType": "SOLID",
+              "fineness": 8
+            },
+            "keepIsland": false,
+            "locked": false,
+            "zIndex": -1,
+            "path_sha256": "f3141961adf46525f3cffd96c6d7d9ce08ddd1823ae2fb3a253c7102f08f6172"
+          },
+          "record_line_sha256": "c1f8ffb6508c1d9f3fddce2f4705d7825ed7dbbf3a0721a78c08aa9586a5736b"
+        },
+        {
+          "type": "POUR",
+          "id": "84a63625734e769f",
+          "ticket": 44598,
+          "line": 25672,
+          "segment": 409,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "GND",
+            "layerId": 1,
+            "width": 0.2,
+            "name": "POUR1",
+            "order": 6,
+            "pourType": {
+              "pourType": "SOLID",
+              "fineness": 8
+            },
+            "keepIsland": false,
+            "locked": false,
+            "zIndex": -1,
+            "path_sha256": "752588417f675229f06a6c207b33a907994e63085bd7826bc6e45ce456de7649"
+          },
+          "record_line_sha256": "9145e64e12cd36547bfccaa290572d096012a37f522a7dc873df71881a448e3e"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"9e6ef9e9729c8ee7\"]",
+          "ticket": 44604,
+          "line": 25675,
+          "segment": 409,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "4db1e79271baa919f30522c81c95b65833113c8c6546c12420d4e6692b202148"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 44606,
+          "line": 25676,
+          "segment": 409,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "c38e4678d22350349a1a66ba2d532914b03cba758f31c7cdf67eecd04577feed"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"9e6ef9e9729c8ee7\"]",
+          "ticket": 44654,
+          "line": 25699,
+          "segment": 412,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "39ba2e231a9f6ab0dcf2b9434186279695321f05293597357dc4deb53a218e9c"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 44656,
+          "line": 25700,
+          "segment": 412,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "fa1a306897b822e2e25312a3a8e403d9132791349c9c451c5e3e759b5e80e944"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"9e6ef9e9729c8ee7\"]",
+          "ticket": 44680,
+          "line": 25715,
+          "segment": 413,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "4bb47bd9fee635b869c7ead9db8d6ed13c666b1a79bc29d91343efb2b2ba207a"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 44682,
+          "line": 25716,
+          "segment": 413,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "511b20bad061e7bafbfe6a86d992eb44c6c9901964fd4530c1a338c4c99e6901"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"9e6ef9e9729c8ee7\"]",
+          "ticket": 44713,
+          "line": 25736,
+          "segment": 415,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "f88da30ed1750b0dfabc9a2501ce0dbbed63040d9782d030d679ba6e2c0540ee"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 44715,
+          "line": 25737,
+          "segment": 415,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "0fbd98fed78e1d16f8ab60e2c8d8d272ddf08a141cefab96a2b1a48fb3db4eea"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"9e6ef9e9729c8ee7\"]",
+          "ticket": 44859,
+          "line": 25869,
+          "segment": 416,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "dd443b4aad9f9c9366ebd77f1783bbb3984c3f6758bd887490e9c4b44594bc55"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 44861,
+          "line": 25870,
+          "segment": 416,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "10e5e84b8062df8311719501d5a42159928208b816f2edb4cd56f8202b68593e"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"9e6ef9e9729c8ee7\"]",
+          "ticket": 44867,
+          "line": 25877,
+          "segment": 417,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "96d7bee445562453246e4c61fc7542500f6e02ab508f5b5749f9f966021e9286"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 44869,
+          "line": 25878,
+          "segment": 417,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "bdc815399fcdfff4662d163f847721213058affcce3fc153b0d04da00c59f5e3"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"9e6ef9e9729c8ee7\"]",
+          "ticket": 45016,
+          "line": 25949,
+          "segment": 418,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "0ed75c75fc149488c2f33c48256c5da2114c1bd3df5a30e77013b6a61fb6277c"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 45018,
+          "line": 25950,
+          "segment": 418,
+          "client": "b69dcbace350b6e7",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "9789e41e4d169c9f303912ce60a5420da58160435800f63dddcfe8180b771d9e"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"9e6ef9e9729c8ee7\"]",
+          "ticket": 45215,
+          "line": 26063,
+          "segment": 423,
+          "client": "87d43982ca436704",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "84181b1f4d0dc2ec9aa1c520b3b01857cf681c88b8c15a704662d4bafd48e4b7"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"84a63625734e769f\"]",
+          "ticket": 45217,
+          "line": 26064,
+          "segment": 423,
+          "client": "87d43982ca436704",
+          "tombstone": false,
+          "data_summary": {
+            "cache_fill_count": 4
+          },
+          "record_line_sha256": "b3d851fedb606d953c8bd349568e43734dfa2b9f7811bef8e44433a451e63f17"
+        }
+      ],
+      "attribution": "Positive overlap exists in latest cached source ground versus an ancient FILL retained by typed replay, before union and without optimization expansion. The same source VDD contour later becomes a same-ID POUR and that POUR has an explicit tombstone. This supports a stale-FILL/type-transition interpretation; it does not prove global cross-type replay semantics.",
+      "recommended_copy_only_interpretation": "Keep literal and existing old-GND-transition hypothesis untouched. A separate clearly labeled dual-transition hypothesis may omit ancient VDD FILL 746a86ec39ac9e6d as superseded/deleted after the same-ID, identical-contour POUR lifecycle. Do not claim confirmed source intent until the author or source client state resolves cross-type identity."
+    }
+  },
+  "manufacturing_ready": false
+}

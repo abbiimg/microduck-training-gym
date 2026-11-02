@@ -1,0 +1,53 @@
+Electrical-model and conversion progress — 2026-10-26
+
+TI bus-buffer model acquired and tested
+Original SN74LVC2G241 model/archive and notices are preserved under
+electrical-models/ti-sn74lvc2g241/. Source: https://www.ti.com/lit/zip/scem614
+Four DC cases passed in ngspice 42 PSpice compatibility mode at 3.3V:
+enabled low/high, disabled with pullup/pulldown. Results and full simulator logs:
+audit/pcb-tools/ti-buffer/. Reusable runner: tools/test_ti_bus_buffer.py.
+
+The model exposes ONE active-high channel, not the complete eight-pin package.
+The physical chip has active-low 1OE and active-high 2OE. An initial active-low
+assumption in our test harness failed; those results are retained separately.
+The actual firmware's PA1 transmit enable is active low and PB7 receive enable
+is active high, consistent with the intended chip channel polarities. Actual
+schematic pin mapping remains unverified until a faithful netlist is exported.
+No complete component-coverage entry is marked qualified by this isolated test.
+No transient, power-off, temperature-corner, ESD or complete PCB test claimed.
+
+EasyEDA client staged
+Native ARM64 JLCEDA Pro 4.1.78.34f5b8d9 is extracted at:
+/home/workbench/robotics/pcb-tools/easyeda-client-4.1.78/lceda-pro/lceda-pro
+Archive SHA256 b030280f72c23c937b2a6c68e91c360ec77fb89f09a8dc83bab1efaf4b70ca68
+SHA512 verified against independently maintained Gentoo package manifest.
+Vendor download used a per-request resolved vendor IP after default endpoint
+timeouts; no hosts file, DNS setting or network configuration changed.
+
+CLI help and doctor work; bridge connected with matching version. The supported
+API documents export to both .epro and .epro2. Opening a copied IMU project fails
+BRIDGE_NOT_READY after 20000ms, reason=command-space-missing. Same failure with
+WSLg and Xvfb/software rendering; GPU initialization errors also appeared.
+Root cause is not isolated. No native design export or KiCad conversion produced.
+Prepared copies of all four boards are under pcb-tools/easyeda-working; hashes
+of original community .eprj2 files were rechecked and remain unchanged.
+Status and provenance: audit/pcb-tools/easyeda-client-status.json.
+The staged client's own processes were stopped after graceful stop did not
+respond. No user-owned application process was targeted.
+
+Runtime dependencies
+ALSA packages were added and seven Mesa/GL/GBM/XTest packages received Ubuntu
+maintenance updates during client preparation. Existing Isaac Lab CUDA tensor
+check still passes (8x8 matrix product returns 8 on RTX Spark). This is not a
+rendering or policy regression test. The Isaac Lab Python environment was not
+modified. PCB-TOOLS-INSTALLED.txt records the system update distinction.
+
+Reusable skill
+microduck-training-gym now routes PCB/mocking work to references/pcb-testing.md;
+skill validation passed. It records tool paths, tests and model/variant limits.
+
+Remaining conversion path
+Obtain a functioning native editor session, export .epro plus authoritative
+schematic/PCB netlists, then compare component counts, pin-net memberships,
+geometry and DRC after KiCad import. Do not rename .eprj2 or accept an empty
+board. A Windows ARM64 client is a possible next fallback; not installed here.

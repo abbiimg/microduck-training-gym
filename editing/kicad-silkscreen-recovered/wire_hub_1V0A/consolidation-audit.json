@@ -1,0 +1,87 @@
+{
+  "candidate": "wire_hub_1V0A",
+  "parent_board": "editing/kicad-paired/wire_hub_1V0A/wire_hub_1V0A.kicad_pcb",
+  "parent_sha256": "0f095810194f7820865c60acd036277f2e5136af0f34ceab0372228e62588f80",
+  "source_zones": 8,
+  "result_zones": 8,
+  "pads_checked": 24,
+  "routing_items_checked": 69,
+  "pad_and_routing_geometry_preserved": true,
+  "copper_symmetric_differences": [
+    {
+      "layer": 0,
+      "net": "/GND",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/Battery",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 2,
+      "net": "/GND",
+      "symmetric_difference_mm2": 0.0
+    }
+  ],
+  "source_groups": [
+    {
+      "layer": 0,
+      "net": "/GND",
+      "source_zone_count": 6,
+      "source_zone_names": [
+        "Recovered 7e8293db382f614b",
+        "Recovered 7e8293db382f614b",
+        "Recovered 7e8293db382f614b",
+        "Recovered 7e8293db382f614b",
+        "Recovered 7e8293db382f614b",
+        "Recovered 7e8293db382f614b"
+      ],
+      "source_zone_uuids": [
+        "2f634803-975e-4d23-b271-d0cf5564a043",
+        "60654b2f-01fe-49a3-a80b-348e38641908",
+        "79dbebf5-3969-4b2a-83d1-31364a7e908b",
+        "8ad4fb31-b124-4d17-9666-a50766af3bad",
+        "9ea8d115-f300-40b1-a3d6-e439feb57564",
+        "fba32959-5b47-494f-b6bb-88ee7980c1a6"
+      ],
+      "union_area_mm2": 300.967306214884
+    },
+    {
+      "layer": 0,
+      "net": "/Battery",
+      "source_zone_count": 1,
+      "source_zone_names": [
+        "Recovered a33f62a491f76b4a"
+      ],
+      "source_zone_uuids": [
+        "87d8a1f2-e0c8-4fba-97be-62496806f0d9"
+      ],
+      "union_area_mm2": 164.442500558279
+    },
+    {
+      "layer": 2,
+      "net": "/GND",
+      "source_zone_count": 1,
+      "source_zone_names": [
+        "Recovered 6433fd3c96979807"
+      ],
+      "source_zone_uuids": [
+        "4e3fc0a4-f6df-4179-88b9-a7ed24bc17a7"
+      ],
+      "union_area_mm2": 505.084542942199
+    }
+  ],
+  "excluded_source_geometry": [],
+  "transition_hypothesis": false,
+  "physical_equivalence_scope": "all literal saved copper",
+  "schematic_parity": [],
+  "drc_counts": {
+    "copper_edge_clearance": 30,
+    "clearance": 6
+  },
+  "unconnected": 0,
+  "source_rules_changed": false,
+  "copper_refilled": false,
+  "manufacturing_ready": false
+}

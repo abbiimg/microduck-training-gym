@@ -1,0 +1,4670 @@
+{
+  "schema": "microduck-author-model-geometry/v1",
+  "passed": true,
+  "source_model_ids": 22,
+  "source_definitions_checked": 61,
+  "full_boolean_boundary_comparisons": 30,
+  "exact_brep_duplicate_comparisons": 31,
+  "recovered_variants_checked": 22,
+  "failures": [],
+  "index_file": "recovered\\author-step-model-definitions\\model-definition-index.json",
+  "index_sha256": "aa0139b7eff70c8f032a4f905f82db38cfed9c3667c9bbf2412d8a6cd7eccdb6",
+  "source_hashes": {
+    "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step": "752a67bd59c543903ffcac74d44470b473f4c99899cd5449d0392a443cd8c9ff",
+    "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step": "aadaea725e93fa6c9fe8a7baac5cb695b0e024145009c190096effd80ac3699b",
+    "community\\microduck-replica\\hardware\\\u65b0\u7248\\POGO_PIN_1V0A\\POGO_PIN_1V0A-PCB.step": "17601e73d1f1577808e8db7c83179356bc40df609b74a36f10a270e7c703dc86",
+    "community\\microduck-replica\\hardware\\\u65b0\u7248\\wire_hub_1V0A\\wire_hub_1V0A-PCB.step": "8a5174f39a7dd42614d6ab4fd3a7b92cf30cd0bf03706414be574ef617f90e20"
+  },
+  "recovered_model_hashes": {
+    "recovered\\author-step-model-definitions\\1ba041120af144c991958decab20d241_0819f05c4eef4c71ace90d822a990e87\\model.step": "0cf0badee59767230ba0838b39d566ff37f3185bf5b42210887f098343ca2bc2",
+    "recovered\\author-step-model-definitions\\36a51122f27c49738f86b3bfa98863e0_0819f05c4eef4c71ace90d822a990e87\\model.step": "b525c1e2f4a42b68e4e529c1cbf0b1cdc2ce8a838fd2130ea4151e60e73e8c17",
+    "recovered\\author-step-model-definitions\\42f3a8a1e6a24de3b83c02c04481ebfb_0819f05c4eef4c71ace90d822a990e87\\model.step": "e84f65f1af9f1ef9eb00431bc4fa52a7e4cd585ff63213a9a8589f4bbe67c318",
+    "recovered\\author-step-model-definitions\\503e76cdc9f844a6b2306dd53d5ecc2a_0819f05c4eef4c71ace90d822a990e87\\model.step": "0db4133b022cabfc29ce7036892d232353845459fccbd74e715c82d4bd57f0c2",
+    "recovered\\author-step-model-definitions\\64f32784a16f466f897e9e56b6bbdf45_0819f05c4eef4c71ace90d822a990e87\\model.step": "0d0dcc680b6d6d5ca36e0da6a101546b851b12cbcdb7eebb2712b62056ba2090",
+    "recovered\\author-step-model-definitions\\66a147c6933d4029b68665bbcd1e2924_0819f05c4eef4c71ace90d822a990e87\\model.step": "69a015ca2c1e240323dce63c4e3d665f2db96868030deb77862e48cda8d03dca",
+    "recovered\\author-step-model-definitions\\6db690b7897d4d18a30d90c1b89525ee_0819f05c4eef4c71ace90d822a990e87\\model.step": "30799bf77f38d30712545786d325a25c0b073698c8944d5194e826bb520aadb7",
+    "recovered\\author-step-model-definitions\\7576b685b3b842e1920e0f50f5ef1550_0819f05c4eef4c71ace90d822a990e87\\model.step": "73e2a4abc7e6c04732b356d4c5ad60c2e9fe637dd63c1da5307140cdc898dc2a",
+    "recovered\\author-step-model-definitions\\821f361f67d84e41a483b3c32f441adb_0819f05c4eef4c71ace90d822a990e87\\model.step": "b867a1b04614519d8e2072a6bef956369314e8dcf74f220df74ac439b2bf4150",
+    "recovered\\author-step-model-definitions\\86f9151e155e4fe2af0c4f2e0a80302e_0819f05c4eef4c71ace90d822a990e87\\model.step": "d93356030a41cdc744fb2bbbd169cf62d3f81d9ae122169f630990be487df8b0",
+    "recovered\\author-step-model-definitions\\98c88bc2b9094f218f3a3e30a7012738_0819f05c4eef4c71ace90d822a990e87\\model.step": "622e0bdaefa2c403cb52b0f2cace220865cb649bf4e67650fce1764c3ee8c11b",
+    "recovered\\author-step-model-definitions\\ac125912035d415993ca9572d50418b1_0819f05c4eef4c71ace90d822a990e87\\model.step": "e32005ad065df92b58f0aaa567f2500bfeef1976d0e09ea64d60167ff62ec0cc",
+    "recovered\\author-step-model-definitions\\ad7e39f9e5534b3c96ffdc5532ebb493_0819f05c4eef4c71ace90d822a990e87\\model.step": "afeac5aea03ea794c8b34688c2cd755652496199bbcb0f62c47f4caafb8dc7bc",
+    "recovered\\author-step-model-definitions\\ae22b8d143894765bc8100c37cb6356f_0819f05c4eef4c71ace90d822a990e87\\model.step": "0d708fb08fa44f52bf5af40fd392b8964fc99aa7c2063cc63472aaf3b0c2fbb4",
+    "recovered\\author-step-model-definitions\\c491f68934b34c649df5890a1d97cd0f_0819f05c4eef4c71ace90d822a990e87\\model.step": "9757d35d36032b7dac2e967b1e3adc8c8a7af6c13af7d7b918031073ec2519a1",
+    "recovered\\author-step-model-definitions\\c85411b4a3544d83a02d075c4dadd21f_0819f05c4eef4c71ace90d822a990e87\\model.step": "55e1cc94e255383103e91235e9bd9dece0e400149a43a57a06054f1370ab295f",
+    "recovered\\author-step-model-definitions\\ced3ec0dc43640d397bfdc45d14bee2a_0819f05c4eef4c71ace90d822a990e87\\model.step": "803262a76dd10c63597711f11f76f0e0d740a0fb168904feb4b9fe1e63bea718",
+    "recovered\\author-step-model-definitions\\deb6dd8d6be645a6b0b15d641ed56279_0819f05c4eef4c71ace90d822a990e87\\model.step": "b78cea577c7305c376dddf6a4cd7305d8d2c49399b143a38a9b3d36c18f8ea44",
+    "recovered\\author-step-model-definitions\\e364713d301b433da8ecef6fca46e972_0819f05c4eef4c71ace90d822a990e87\\model.step": "3c5fd5d80af53d6395ad52f92371b56192b626f0c7422ae02361329db207e61d",
+    "recovered\\author-step-model-definitions\\eb4de652aa64480a9db1bf18ae610871_0819f05c4eef4c71ace90d822a990e87\\model.step": "c0868c15095fb89ce0fe282eb19dcb6f8bdbe208b5c396c3b57f44aeb842413d",
+    "recovered\\author-step-model-definitions\\f1628daad26847a79b887277a2bc8541_0819f05c4eef4c71ace90d822a990e87\\model.step": "ca45c83ff2c877355e115b339c8b4df9758f13b26d10796b21b41484cec8acf5",
+    "recovered\\author-step-model-definitions\\fc143cca1e79419f9cd78b61e9279f08_0819f05c4eef4c71ace90d822a990e87\\model.step": "9f8df445ea159341944af110b4cb2ba086619f1fc7255b7f397df5f340f38001"
+  },
+  "sources_unchanged": true,
+  "recovered_models_unchanged": true,
+  "comparison_frame": "exact XCAF referred PRODUCT-DEFINITION local, unchanged; no fitting, registration, or alignment",
+  "tolerances": {
+    "bbox_absolute_mm": 1e-06,
+    "directed_volume_absolute_mm3": 1e-06,
+    "directed_volume_relative": 1e-09,
+    "sampled_boundary_distance_mm": 1e-05,
+    "surface_area_absolute_mm2": 1e-05,
+    "surface_area_relative": 1e-09
+  },
+  "method": "each unique source BRep/recovered STEP pair: valid BRep solids, exact solid counts, two directed full-solid Boolean cuts, surface area, deterministic exact-boundary samples in both directions; repeated sources reuse only after exact serialized BRep byte equality including geometry/topology/locations and identical recovered STEP hash",
+  "boundary_sampling": "all vertices, edge quarter/mid/three-quarter points, 3x3 UV grids per trimmed face; exact target-face distances with analytic AABB pruning and numerical-zero stopping <=1e-10mm",
+  "limitations": [
+    "numerical kernel verification within stated tolerances, not mathematical or topological identity",
+    "finite boundary sampling is not a certified global Hausdorff bound",
+    "no original vendor/native KiCad origin, board placement, package dimensions, pin-1 direction, or manufacturing qualification"
+  ],
+  "controls": {
+    "identical_asymmetric_positive": {
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        4.999999999999999,
+        4.999999999999999
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        22.0,
+        22.0
+      ],
+      "surface_area_difference_mm2": 0.0,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 12,
+          "edge_samples": 54,
+          "face_uv_samples": 64,
+          "faces": 8,
+          "faces_with_uv_sample": 8,
+          "unique_points": 130
+        },
+        "maximum_sampled_distance_mm": 0.0,
+        "worst_sample_mm": null,
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 12,
+          "edge_samples": 54,
+          "face_uv_samples": 64,
+          "faces": 8,
+          "faces_with_uv_sample": 8,
+          "unique_points": 130
+        },
+        "maximum_sampled_distance_mm": 0.0,
+        "worst_sample_mm": null,
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    "equal_bbox_volume_rotated_asymmetric_negative": {
+      "passed": false,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 4.440892098500626e-16,
+      "volumes_mm3": [
+        4.999999999999999,
+        4.999999999999999
+      ],
+      "directed_difference_volumes_mm3": [
+        2.999999999999999,
+        3.0
+      ],
+      "symmetric_difference_volume_mm3": 5.999999999999999,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        22.0,
+        22.0
+      ],
+      "surface_area_difference_mm2": 0.0,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 12,
+          "edge_samples": 54,
+          "face_uv_samples": 64,
+          "faces": 8,
+          "faces_with_uv_sample": 8,
+          "unique_points": 130
+        },
+        "maximum_sampled_distance_mm": 1.9999999999999996,
+        "worst_sample_mm": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "within_tolerance": false,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 12,
+          "edge_samples": 54,
+          "face_uv_samples": 64,
+          "faces": 8,
+          "faces_with_uv_sample": 8,
+          "unique_points": 130
+        },
+        "maximum_sampled_distance_mm": 2.0,
+        "worst_sample_mm": [
+          3.0,
+          3.0,
+          1.0
+        ],
+        "within_tolerance": false,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    "controls_passed": true
+  },
+  "results": [
+    {
+      "model_id": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "C6",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "C6~C0805~C0805_L2.0-W1.3-H1.3~R4Rq",
+      "source_brep_sha256": "555cd1db34b197731203711b9cd1e72efdce5a8fa11dd998c3795dd054d975f6",
+      "source_brep_bytes": 678306,
+      "recovered_step": "recovered\\author-step-model-definitions\\1ba041120af144c991958decab20d241_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        3.2617823127409076,
+        3.261782389548479
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        13.471435969010946,
+        13.471435380936956
+      ],
+      "surface_area_difference_mm2": 5.880739895047782e-07,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 626,
+          "edge_samples": 2889,
+          "face_uv_samples": 2996,
+          "faces": 365,
+          "faces_with_uv_sample": 364,
+          "unique_points": 6511
+        },
+        "maximum_sampled_distance_mm": 2.0652507276255082e-08,
+        "worst_sample_mm": [
+          -0.5928388507138163,
+          -0.6327637879402714,
+          -0.6377692793950702
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 626,
+          "edge_samples": 2889,
+          "face_uv_samples": 2996,
+          "faces": 365,
+          "faces_with_uv_sample": 364,
+          "unique_points": 6511
+        },
+        "maximum_sampled_distance_mm": 2.0652507276255082e-08,
+        "worst_sample_mm": [
+          -0.5928388507138163,
+          -0.6327637879402714,
+          -0.6377692793950702
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "C6",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "C6~C0805~C0805_L2.0-W1.3-H1.3~UIJz",
+      "source_brep_sha256": "555cd1db34b197731203711b9cd1e72efdce5a8fa11dd998c3795dd054d975f6",
+      "source_brep_bytes": 678306,
+      "recovered_step": "recovered\\author-step-model-definitions\\1ba041120af144c991958decab20d241_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        3.2617823127409076,
+        3.261782389548479
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        13.471435969010946,
+        13.471435380936956
+      ],
+      "surface_area_difference_mm2": 5.880739895047782e-07,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 626,
+          "edge_samples": 2889,
+          "face_uv_samples": 2996,
+          "faces": 365,
+          "faces_with_uv_sample": 364,
+          "unique_points": 6511
+        },
+        "maximum_sampled_distance_mm": 2.0652507276255082e-08,
+        "worst_sample_mm": [
+          -0.5928388507138163,
+          -0.6327637879402714,
+          -0.6377692793950702
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 626,
+          "edge_samples": 2889,
+          "face_uv_samples": 2996,
+          "faces": 365,
+          "faces_with_uv_sample": 364,
+          "unique_points": 6511
+        },
+        "maximum_sampled_distance_mm": 2.0652507276255082e-08,
+        "worst_sample_mm": [
+          -0.5928388507138163,
+          -0.6327637879402714,
+          -0.6377692793950702
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "C6"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "C1",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "C1~C0402~C0402_L1.0-W0.5-H0.5~h2om",
+      "source_brep_sha256": "99ec88b2e30cccffed961896c4364f0ad3e69ef6e7f633704fd7d6f775ee4c68",
+      "source_brep_bytes": 693439,
+      "recovered_step": "recovered\\author-step-model-definitions\\36a51122f27c49738f86b3bfa98863e0_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.23927570817297755,
+        0.23927570639146167
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        2.4619633047735405,
+        2.4619633298863004
+      ],
+      "surface_area_difference_mm2": 2.5112759871603885e-08,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 626,
+          "edge_samples": 2889,
+          "face_uv_samples": 3019,
+          "faces": 365,
+          "faces_with_uv_sample": 364,
+          "unique_points": 6534
+        },
+        "maximum_sampled_distance_mm": 4.954095452200905e-08,
+        "worst_sample_mm": [
+          0.025414124004259218,
+          0.239999999999,
+          -0.14398615152185532
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 626,
+          "edge_samples": 2889,
+          "face_uv_samples": 3019,
+          "faces": 365,
+          "faces_with_uv_sample": 364,
+          "unique_points": 6534
+        },
+        "maximum_sampled_distance_mm": 4.954095452200905e-08,
+        "worst_sample_mm": [
+          0.025414124004259218,
+          0.239999999999,
+          -0.14398615152185532
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "C2",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "C2~C0402~C0402_L1.0-W0.5-H0.5~bt0V",
+      "source_brep_sha256": "5203c9c7496f24847cda305771b7e9814f62d010c0eca21e633970602fcb5b51",
+      "source_brep_bytes": 830776,
+      "recovered_step": "recovered\\author-step-model-definitions\\36a51122f27c49738f86b3bfa98863e0_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.23927570817297755,
+        0.23927570639146167
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        2.4619633047735405,
+        2.4619633298863004
+      ],
+      "surface_area_difference_mm2": 2.5112759871603885e-08,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 626,
+          "edge_samples": 2889,
+          "face_uv_samples": 3019,
+          "faces": 365,
+          "faces_with_uv_sample": 364,
+          "unique_points": 6534
+        },
+        "maximum_sampled_distance_mm": 4.954095452200905e-08,
+        "worst_sample_mm": [
+          0.025414124004259218,
+          0.239999999999,
+          -0.14398615152185532
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 626,
+          "edge_samples": 2889,
+          "face_uv_samples": 3019,
+          "faces": 365,
+          "faces_with_uv_sample": 364,
+          "unique_points": 6534
+        },
+        "maximum_sampled_distance_mm": 4.954095452200905e-08,
+        "worst_sample_mm": [
+          0.025414124004259218,
+          0.239999999999,
+          -0.14398615152185532
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "C3",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "C3~C0402~C0402_L1.0-W0.5-H0.5~RPvC",
+      "source_brep_sha256": "5203c9c7496f24847cda305771b7e9814f62d010c0eca21e633970602fcb5b51",
+      "source_brep_bytes": 830776,
+      "recovered_step": "recovered\\author-step-model-definitions\\36a51122f27c49738f86b3bfa98863e0_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.23927570817297755,
+        0.23927570639146167
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        2.4619633047735405,
+        2.4619633298863004
+      ],
+      "surface_area_difference_mm2": 2.5112759871603885e-08,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 626,
+          "edge_samples": 2889,
+          "face_uv_samples": 3019,
+          "faces": 365,
+          "faces_with_uv_sample": 364,
+          "unique_points": 6534
+        },
+        "maximum_sampled_distance_mm": 4.954095452200905e-08,
+        "worst_sample_mm": [
+          0.025414124004259218,
+          0.239999999999,
+          -0.14398615152185532
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 626,
+          "edge_samples": 2889,
+          "face_uv_samples": 3019,
+          "faces": 365,
+          "faces_with_uv_sample": 364,
+          "unique_points": 6534
+        },
+        "maximum_sampled_distance_mm": 4.954095452200905e-08,
+        "worst_sample_mm": [
+          0.025414124004259218,
+          0.239999999999,
+          -0.14398615152185532
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl_1V0A",
+        "reference": "C2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "C4",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "C4~C0402~C0402_L1.0-W0.5-H0.5~Q6pj",
+      "source_brep_sha256": "5203c9c7496f24847cda305771b7e9814f62d010c0eca21e633970602fcb5b51",
+      "source_brep_bytes": 830776,
+      "recovered_step": "recovered\\author-step-model-definitions\\36a51122f27c49738f86b3bfa98863e0_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.23927570817297755,
+        0.23927570639146167
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        2.4619633047735405,
+        2.4619633298863004
+      ],
+      "surface_area_difference_mm2": 2.5112759871603885e-08,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 626,
+          "edge_samples": 2889,
+          "face_uv_samples": 3019,
+          "faces": 365,
+          "faces_with_uv_sample": 364,
+          "unique_points": 6534
+        },
+        "maximum_sampled_distance_mm": 4.954095452200905e-08,
+        "worst_sample_mm": [
+          0.025414124004259218,
+          0.239999999999,
+          -0.14398615152185532
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 626,
+          "edge_samples": 2889,
+          "face_uv_samples": 3019,
+          "faces": 365,
+          "faces_with_uv_sample": 364,
+          "unique_points": 6534
+        },
+        "maximum_sampled_distance_mm": 4.954095452200905e-08,
+        "worst_sample_mm": [
+          0.025414124004259218,
+          0.239999999999,
+          -0.14398615152185532
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl_1V0A",
+        "reference": "C2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "C8",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "C8~C0402~C0402_L1.0-W0.5-H0.5~GJPs",
+      "source_brep_sha256": "5203c9c7496f24847cda305771b7e9814f62d010c0eca21e633970602fcb5b51",
+      "source_brep_bytes": 830776,
+      "recovered_step": "recovered\\author-step-model-definitions\\36a51122f27c49738f86b3bfa98863e0_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.23927570817297755,
+        0.23927570639146167
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        2.4619633047735405,
+        2.4619633298863004
+      ],
+      "surface_area_difference_mm2": 2.5112759871603885e-08,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 626,
+          "edge_samples": 2889,
+          "face_uv_samples": 3019,
+          "faces": 365,
+          "faces_with_uv_sample": 364,
+          "unique_points": 6534
+        },
+        "maximum_sampled_distance_mm": 4.954095452200905e-08,
+        "worst_sample_mm": [
+          0.025414124004259218,
+          0.239999999999,
+          -0.14398615152185532
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 626,
+          "edge_samples": 2889,
+          "face_uv_samples": 3019,
+          "faces": 365,
+          "faces_with_uv_sample": 364,
+          "unique_points": 6534
+        },
+        "maximum_sampled_distance_mm": 4.954095452200905e-08,
+        "worst_sample_mm": [
+          0.025414124004259218,
+          0.239999999999,
+          -0.14398615152185532
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl_1V0A",
+        "reference": "C2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "42f3a8a1e6a24de3b83c02c04481ebfb|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "POGO_PIN_1V0A",
+      "reference": "U1",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\POGO_PIN_1V0A\\POGO_PIN_1V0A-PCB.step",
+      "source_definition_label": "U1~SMD_BD3.0-D1.2-H9.5~SMD_BD3.0-D1.2-H9.5~6vWn",
+      "source_brep_sha256": "f98942fbed69d73eb71f1494024a6763476003121d0e661df1fc433dc860e669",
+      "source_brep_bytes": 742835,
+      "recovered_step": "recovered\\author-step-model-definitions\\42f3a8a1e6a24de3b83c02c04481ebfb_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        54.98995248682941,
+        54.989952441244576
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        92.90540955110288,
+        92.90541471740393
+      ],
+      "surface_area_difference_mm2": 5.166301050962829e-06,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 427,
+          "edge_samples": 1926,
+          "face_uv_samples": 1865,
+          "faces": 235,
+          "faces_with_uv_sample": 234,
+          "unique_points": 4218
+        },
+        "maximum_sampled_distance_mm": 8.90744334256617e-09,
+        "worst_sample_mm": [
+          1.4008761804107297,
+          -0.5635979206258088,
+          1.9537581401170423
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 427,
+          "edge_samples": 1926,
+          "face_uv_samples": 1865,
+          "faces": 235,
+          "faces_with_uv_sample": 234,
+          "unique_points": 4218
+        },
+        "maximum_sampled_distance_mm": 8.90744334256617e-09,
+        "worst_sample_mm": [
+          1.4008761804107297,
+          -0.5635979206258088,
+          1.9537581401170423
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "42f3a8a1e6a24de3b83c02c04481ebfb|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "POGO_PIN_1V0A",
+      "reference": "U2",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\POGO_PIN_1V0A\\POGO_PIN_1V0A-PCB.step",
+      "source_definition_label": "U2~SMD_BD3.0-D1.2-H9.5~SMD_BD3.0-D1.2-H9.5~65nH",
+      "source_brep_sha256": "c1d42b4a1dc57f4355e5da337348609b6c94139534d22297901bcf84a3252a1e",
+      "source_brep_bytes": 779622,
+      "recovered_step": "recovered\\author-step-model-definitions\\42f3a8a1e6a24de3b83c02c04481ebfb_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        54.98995248682941,
+        54.989952441244576
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        92.90540955110288,
+        92.90541471740393
+      ],
+      "surface_area_difference_mm2": 5.166301050962829e-06,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 427,
+          "edge_samples": 1926,
+          "face_uv_samples": 1865,
+          "faces": 235,
+          "faces_with_uv_sample": 234,
+          "unique_points": 4218
+        },
+        "maximum_sampled_distance_mm": 8.90744334256617e-09,
+        "worst_sample_mm": [
+          1.4008761804107297,
+          -0.5635979206258088,
+          1.9537581401170423
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 427,
+          "edge_samples": 1926,
+          "face_uv_samples": 1865,
+          "faces": 235,
+          "faces_with_uv_sample": 234,
+          "unique_points": 4218
+        },
+        "maximum_sampled_distance_mm": 8.90744334256617e-09,
+        "worst_sample_mm": [
+          1.4008761804107297,
+          -0.5635979206258088,
+          1.9537581401170423
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "503e76cdc9f844a6b2306dd53d5ecc2a|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "wire_hub_1V0A",
+      "reference": "J1",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\wire_hub_1V0A\\wire_hub_1V0A-PCB.step",
+      "source_definition_label": "J1~CONN-SMD_3P-P1.20_HCTL_HC-1.2-3PWT~CONN-SMD_3P-P1.20_HCTL_HC-1.2-3PWT~tsxM",
+      "source_brep_sha256": "1aec9c5ff41e35d245ee6066950fbe70ce3986ef9212df499e5673171a4216f7",
+      "source_brep_bytes": 500163,
+      "recovered_step": "recovered\\author-step-model-definitions\\503e76cdc9f844a6b2306dd53d5ecc2a_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        16,
+        16
+      ],
+      "max_bbox_difference_mm": 5.329070518200751e-15,
+      "volumes_mm3": [
+        14.987589659024533,
+        14.987589659024065
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        96.58040959903248,
+        96.58040959903146
+      ],
+      "surface_area_difference_mm2": 1.0231815394945443e-12,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 772,
+          "edge_samples": 3526,
+          "face_uv_samples": 3747,
+          "faces": 446,
+          "faces_with_uv_sample": 443,
+          "unique_points": 8045
+        },
+        "maximum_sampled_distance_mm": 8.854174615713362e-08,
+        "worst_sample_mm": [
+          1.4553703148235,
+          0.172737678453,
+          0.0
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 772,
+          "edge_samples": 3526,
+          "face_uv_samples": 3747,
+          "faces": 446,
+          "faces_with_uv_sample": 443,
+          "unique_points": 8045
+        },
+        "maximum_sampled_distance_mm": 8.854174615713362e-08,
+        "worst_sample_mm": [
+          1.4553703148235,
+          0.172737678453,
+          0.0
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "64f32784a16f466f897e9e56b6bbdf45|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "U2",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "U2~LGA-14_L3.0-W2.5-P0.50-BR~LGA-14_L3.0-W2.5-P0.50-BR~BUMi",
+      "source_brep_sha256": "5b9c5151fc9fb50fbe70aefc5529a2a6abe4723d0efe6da0d40ca5385e77ec26",
+      "source_brep_bytes": 447029,
+      "recovered_step": "recovered\\author-step-model-definitions\\64f32784a16f466f897e9e56b6bbdf45_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        2,
+        2
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        6.466518731754197,
+        6.466518731754214
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        39.67414318913039,
+        39.674143189130554
+      ],
+      "surface_area_difference_mm2": 1.6342482922482304e-13,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 644,
+          "edge_samples": 2904,
+          "face_uv_samples": 3192,
+          "faces": 369,
+          "faces_with_uv_sample": 368,
+          "unique_points": 6740
+        },
+        "maximum_sampled_distance_mm": 8.190483019759109e-09,
+        "worst_sample_mm": [
+          0.6640169888044424,
+          -0.9936256938809572,
+          0.6599999999991251
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 644,
+          "edge_samples": 2904,
+          "face_uv_samples": 3192,
+          "faces": 369,
+          "faces_with_uv_sample": 368,
+          "unique_points": 6740
+        },
+        "maximum_sampled_distance_mm": 8.190483019759109e-09,
+        "worst_sample_mm": [
+          0.6640169888044424,
+          -0.9936256938809572,
+          0.6599999999991251
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "64f32784a16f466f897e9e56b6bbdf45|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "U2",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "U2~LGA-14_L3.0-W2.5-P0.50-BR~LGA-14_L3.0-W2.5-P0.50-BR~e8DW",
+      "source_brep_sha256": "5b9c5151fc9fb50fbe70aefc5529a2a6abe4723d0efe6da0d40ca5385e77ec26",
+      "source_brep_bytes": 447029,
+      "recovered_step": "recovered\\author-step-model-definitions\\64f32784a16f466f897e9e56b6bbdf45_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        2,
+        2
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        6.466518731754197,
+        6.466518731754214
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        39.67414318913039,
+        39.674143189130554
+      ],
+      "surface_area_difference_mm2": 1.6342482922482304e-13,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 644,
+          "edge_samples": 2904,
+          "face_uv_samples": 3192,
+          "faces": 369,
+          "faces_with_uv_sample": 368,
+          "unique_points": 6740
+        },
+        "maximum_sampled_distance_mm": 8.190483019759109e-09,
+        "worst_sample_mm": [
+          0.6640169888044424,
+          -0.9936256938809572,
+          0.6599999999991251
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 644,
+          "edge_samples": 2904,
+          "face_uv_samples": 3192,
+          "faces": 369,
+          "faces_with_uv_sample": 368,
+          "unique_points": 6740
+        },
+        "maximum_sampled_distance_mm": 8.190483019759109e-09,
+        "worst_sample_mm": [
+          0.6640169888044424,
+          -0.9936256938809572,
+          0.6599999999991251
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "U2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "66a147c6933d4029b68665bbcd1e2924|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "J3",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "J3~HDR-TH_6P-P2.54-V-M~HDR-TH_6P-P2.54-M-LI-1X6P~HPuw",
+      "source_brep_sha256": "cf721604c83ddf28946d1c45bece02fb0ae20a4778e47c951545f05cf00b133a",
+      "source_brep_bytes": 519706,
+      "recovered_step": "recovered\\author-step-model-definitions\\66a147c6933d4029b68665bbcd1e2924_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        93.9706758234612,
+        93.97067582346337
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        319.0662750431848,
+        319.0662750432044
+      ],
+      "surface_area_difference_mm2": 1.9610979506978765e-11,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 808,
+          "edge_samples": 3636,
+          "face_uv_samples": 3863,
+          "faces": 444,
+          "faces_with_uv_sample": 440,
+          "unique_points": 8307
+        },
+        "maximum_sampled_distance_mm": 1.638096601595753e-08,
+        "worst_sample_mm": [
+          -7.494999999999,
+          -0.10478344256841435,
+          1.2500475337788848
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 808,
+          "edge_samples": 3636,
+          "face_uv_samples": 3863,
+          "faces": 444,
+          "faces_with_uv_sample": 440,
+          "unique_points": 8307
+        },
+        "maximum_sampled_distance_mm": 1.638096601595753e-08,
+        "worst_sample_mm": [
+          -7.494999999999,
+          -0.10478344256841435,
+          1.2500475337788848
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "6db690b7897d4d18a30d90c1b89525ee|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "U4",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "U4~SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR~SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50~ptpz",
+      "source_brep_sha256": "e48be4a3052fbbf6d86e198996d3a8f58a0170c39274d5398a2e83d8cbcb81b9",
+      "source_brep_bytes": 404940,
+      "recovered_step": "recovered\\author-step-model-definitions\\6db690b7897d4d18a30d90c1b89525ee_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 2.220446049250313e-16,
+      "volumes_mm3": [
+        15.855070790939422,
+        15.855070766407174
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        45.40233661541674,
+        45.40233657232057
+      ],
+      "surface_area_difference_mm2": 4.3096171964407404e-08,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 510,
+          "edge_samples": 2331,
+          "face_uv_samples": 2153,
+          "faces": 288,
+          "faces_with_uv_sample": 285,
+          "unique_points": 4994
+        },
+        "maximum_sampled_distance_mm": 1.2285724491237853e-08,
+        "worst_sample_mm": [
+          1.177122792689192,
+          -0.17989231351308652,
+          0.9285482743493123
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 510,
+          "edge_samples": 2331,
+          "face_uv_samples": 2153,
+          "faces": 288,
+          "faces_with_uv_sample": 285,
+          "unique_points": 4994
+        },
+        "maximum_sampled_distance_mm": 1.2285724491237853e-08,
+        "worst_sample_mm": [
+          1.177122792689192,
+          -0.17989231351308652,
+          0.9285482743493123
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "6db690b7897d4d18a30d90c1b89525ee|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "U4",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "U4~SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR~SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50~6607",
+      "source_brep_sha256": "e48be4a3052fbbf6d86e198996d3a8f58a0170c39274d5398a2e83d8cbcb81b9",
+      "source_brep_bytes": 404940,
+      "recovered_step": "recovered\\author-step-model-definitions\\6db690b7897d4d18a30d90c1b89525ee_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 2.220446049250313e-16,
+      "volumes_mm3": [
+        15.855070790939422,
+        15.855070766407174
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        45.40233661541674,
+        45.40233657232057
+      ],
+      "surface_area_difference_mm2": 4.3096171964407404e-08,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 510,
+          "edge_samples": 2331,
+          "face_uv_samples": 2153,
+          "faces": 288,
+          "faces_with_uv_sample": 285,
+          "unique_points": 4994
+        },
+        "maximum_sampled_distance_mm": 1.2285724491237853e-08,
+        "worst_sample_mm": [
+          1.177122792689192,
+          -0.17989231351308652,
+          0.9285482743493123
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 510,
+          "edge_samples": 2331,
+          "face_uv_samples": 2153,
+          "faces": 288,
+          "faces_with_uv_sample": 285,
+          "unique_points": 4994
+        },
+        "maximum_sampled_distance_mm": 1.2285724491237853e-08,
+        "worst_sample_mm": [
+          1.177122792689192,
+          -0.17989231351308652,
+          0.9285482743493123
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "U4"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "7576b685b3b842e1920e0f50f5ef1550|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "J1",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "J1~CONN-TH_A2007WR-3P~CONN-TH_A2007WR-3P~6Mxn",
+      "source_brep_sha256": "03a78832c4dcdf7a5b07b038e70e73d84728c882c2f2f1d1ca1cab70c2e03edf",
+      "source_brep_bytes": 408293,
+      "recovered_step": "recovered\\author-step-model-definitions\\7576b685b3b842e1920e0f50f5ef1550_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 1.4210854715202004e-13,
+      "volumes_mm3": [
+        101.93523692941739,
+        101.93523692941761
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        323.46150823396425,
+        323.46150823396874
+      ],
+      "surface_area_difference_mm2": 4.490630090003833e-12,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 614,
+          "edge_samples": 2772,
+          "face_uv_samples": 2858,
+          "faces": 333,
+          "faces_with_uv_sample": 332,
+          "unique_points": 6244
+        },
+        "maximum_sampled_distance_mm": 2.0476207172422137e-08,
+        "worst_sample_mm": [
+          3.97999999999975,
+          2.2455576978758556,
+          1.5710964135493573
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 614,
+          "edge_samples": 2772,
+          "face_uv_samples": 2858,
+          "faces": 333,
+          "faces_with_uv_sample": 332,
+          "unique_points": 6244
+        },
+        "maximum_sampled_distance_mm": 2.0476207172422137e-08,
+        "worst_sample_mm": [
+          3.97999999999975,
+          2.2455576978758556,
+          1.5710964135493573
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "7576b685b3b842e1920e0f50f5ef1550|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "wire_hub_1V0A",
+      "reference": "J3",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\wire_hub_1V0A\\wire_hub_1V0A-PCB.step",
+      "source_definition_label": "J3~CONN-TH_A2007WR-3P~CONN-TH_A2007WR-3P~CLgU",
+      "source_brep_sha256": "03a78832c4dcdf7a5b07b038e70e73d84728c882c2f2f1d1ca1cab70c2e03edf",
+      "source_brep_bytes": 408293,
+      "recovered_step": "recovered\\author-step-model-definitions\\7576b685b3b842e1920e0f50f5ef1550_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 1.4210854715202004e-13,
+      "volumes_mm3": [
+        101.93523692941739,
+        101.93523692941761
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        323.46150823396425,
+        323.46150823396874
+      ],
+      "surface_area_difference_mm2": 4.490630090003833e-12,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 614,
+          "edge_samples": 2772,
+          "face_uv_samples": 2858,
+          "faces": 333,
+          "faces_with_uv_sample": 332,
+          "unique_points": 6244
+        },
+        "maximum_sampled_distance_mm": 2.0476207172422137e-08,
+        "worst_sample_mm": [
+          3.97999999999975,
+          2.2455576978758556,
+          1.5710964135493573
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 614,
+          "edge_samples": 2772,
+          "face_uv_samples": 2858,
+          "faces": 333,
+          "faces_with_uv_sample": 332,
+          "unique_points": 6244
+        },
+        "maximum_sampled_distance_mm": 2.0476207172422137e-08,
+        "worst_sample_mm": [
+          3.97999999999975,
+          2.2455576978758556,
+          1.5710964135493573
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl_1V0A",
+        "reference": "J1"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "7576b685b3b842e1920e0f50f5ef1550|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "wire_hub_1V0A",
+      "reference": "J4",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\wire_hub_1V0A\\wire_hub_1V0A-PCB.step",
+      "source_definition_label": "J4~CONN-TH_A2007WR-3P~CONN-TH_A2007WR-3P~ugY2",
+      "source_brep_sha256": "03a78832c4dcdf7a5b07b038e70e73d84728c882c2f2f1d1ca1cab70c2e03edf",
+      "source_brep_bytes": 408293,
+      "recovered_step": "recovered\\author-step-model-definitions\\7576b685b3b842e1920e0f50f5ef1550_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 1.4210854715202004e-13,
+      "volumes_mm3": [
+        101.93523692941739,
+        101.93523692941761
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        323.46150823396425,
+        323.46150823396874
+      ],
+      "surface_area_difference_mm2": 4.490630090003833e-12,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 614,
+          "edge_samples": 2772,
+          "face_uv_samples": 2858,
+          "faces": 333,
+          "faces_with_uv_sample": 332,
+          "unique_points": 6244
+        },
+        "maximum_sampled_distance_mm": 2.0476207172422137e-08,
+        "worst_sample_mm": [
+          3.97999999999975,
+          2.2455576978758556,
+          1.5710964135493573
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 614,
+          "edge_samples": 2772,
+          "face_uv_samples": 2858,
+          "faces": 333,
+          "faces_with_uv_sample": 332,
+          "unique_points": 6244
+        },
+        "maximum_sampled_distance_mm": 2.0476207172422137e-08,
+        "worst_sample_mm": [
+          3.97999999999975,
+          2.2455576978758556,
+          1.5710964135493573
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl_1V0A",
+        "reference": "J1"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "821f361f67d84e41a483b3c32f441adb|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "J2",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "J2~CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF~CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF~nEv8",
+      "source_brep_sha256": "435a18c0cc5b08f9647329e4f35109d1348ba95ff94b33ce25eff27792488d3e",
+      "source_brep_bytes": 384505,
+      "recovered_step": "recovered\\author-step-model-definitions\\821f361f67d84e41a483b3c32f441adb_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 2.220446049250313e-16,
+      "volumes_mm3": [
+        14.257059727128913,
+        14.257059727129182
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        88.56193215589867,
+        88.56193215589963
+      ],
+      "surface_area_difference_mm2": 9.521272659185342e-13,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 624,
+          "edge_samples": 2874,
+          "face_uv_samples": 3098,
+          "faces": 358,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6596
+        },
+        "maximum_sampled_distance_mm": 1.70636299393224e-08,
+        "worst_sample_mm": [
+          2.7,
+          -0.34196676165145845,
+          0.5003096872480175
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 624,
+          "edge_samples": 2874,
+          "face_uv_samples": 3098,
+          "faces": 358,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6596
+        },
+        "maximum_sampled_distance_mm": 1.70636299393224e-08,
+        "worst_sample_mm": [
+          2.7,
+          -0.34196676165145845,
+          0.5003096872480175
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "821f361f67d84e41a483b3c32f441adb|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "wire_hub_1V0A",
+      "reference": "J2",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\wire_hub_1V0A\\wire_hub_1V0A-PCB.step",
+      "source_definition_label": "J2~CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF~CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF~JXS8",
+      "source_brep_sha256": "435a18c0cc5b08f9647329e4f35109d1348ba95ff94b33ce25eff27792488d3e",
+      "source_brep_bytes": 384505,
+      "recovered_step": "recovered\\author-step-model-definitions\\821f361f67d84e41a483b3c32f441adb_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 2.220446049250313e-16,
+      "volumes_mm3": [
+        14.257059727128913,
+        14.257059727129182
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        88.56193215589867,
+        88.56193215589963
+      ],
+      "surface_area_difference_mm2": 9.521272659185342e-13,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 624,
+          "edge_samples": 2874,
+          "face_uv_samples": 3098,
+          "faces": 358,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6596
+        },
+        "maximum_sampled_distance_mm": 1.70636299393224e-08,
+        "worst_sample_mm": [
+          2.7,
+          -0.34196676165145845,
+          0.5003096872480175
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 624,
+          "edge_samples": 2874,
+          "face_uv_samples": 3098,
+          "faces": 358,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6596
+        },
+        "maximum_sampled_distance_mm": 1.70636299393224e-08,
+        "worst_sample_mm": [
+          2.7,
+          -0.34196676165145845,
+          0.5003096872480175
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl_1V0A",
+        "reference": "J2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "86f9151e155e4fe2af0c4f2e0a80302e|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "D1",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "D1~SOD-123FL_L2.7-W1.8-LS3.7-RD~SOD-123FL_L2.8-W1.8-H1.1-LS3.6~yEpV",
+      "source_brep_sha256": "ba8c5976a3f9d92f6c485511f8d85132478529f72b2c690153d6598ebedf2b83",
+      "source_brep_bytes": 400580,
+      "recovered_step": "recovered\\author-step-model-definitions\\86f9151e155e4fe2af0c4f2e0a80302e_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        5.241283504082826,
+        5.24128350408286
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        20.850062537978047,
+        20.850062537978104
+      ],
+      "surface_area_difference_mm2": 5.684341886080802e-14,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 470,
+          "edge_samples": 2151,
+          "face_uv_samples": 2073,
+          "faces": 268,
+          "faces_with_uv_sample": 268,
+          "unique_points": 4694
+        },
+        "maximum_sampled_distance_mm": 9.1573457455886e-09,
+        "worst_sample_mm": [
+          0.17429097110503705,
+          0.8618382621875553,
+          0.44766436880853766
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 470,
+          "edge_samples": 2151,
+          "face_uv_samples": 2073,
+          "faces": 268,
+          "faces_with_uv_sample": 268,
+          "unique_points": 4694
+        },
+        "maximum_sampled_distance_mm": 9.1573457455886e-09,
+        "worst_sample_mm": [
+          0.17429097110503705,
+          0.8618382621875553,
+          0.44766436880853766
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "86f9151e155e4fe2af0c4f2e0a80302e|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "D1",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "D1~SOD-123FL_L2.7-W1.8-LS3.7-RD~SOD-123FL_L2.8-W1.8-H1.1-LS3.6~O2PW",
+      "source_brep_sha256": "ba8c5976a3f9d92f6c485511f8d85132478529f72b2c690153d6598ebedf2b83",
+      "source_brep_bytes": 400580,
+      "recovered_step": "recovered\\author-step-model-definitions\\86f9151e155e4fe2af0c4f2e0a80302e_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        5.241283504082826,
+        5.24128350408286
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        20.850062537978047,
+        20.850062537978104
+      ],
+      "surface_area_difference_mm2": 5.684341886080802e-14,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 470,
+          "edge_samples": 2151,
+          "face_uv_samples": 2073,
+          "faces": 268,
+          "faces_with_uv_sample": 268,
+          "unique_points": 4694
+        },
+        "maximum_sampled_distance_mm": 9.1573457455886e-09,
+        "worst_sample_mm": [
+          0.17429097110503705,
+          0.8618382621875553,
+          0.44766436880853766
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 470,
+          "edge_samples": 2151,
+          "face_uv_samples": 2073,
+          "faces": 268,
+          "faces_with_uv_sample": 268,
+          "unique_points": 4694
+        },
+        "maximum_sampled_distance_mm": 9.1573457455886e-09,
+        "worst_sample_mm": [
+          0.17429097110503705,
+          0.8618382621875553,
+          0.44766436880853766
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "D1"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "R1",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "R1~R0402~R0402_L1.0-W0.5-H0.4~KnlE",
+      "source_brep_sha256": "ccb9c7d3c849cd86d530fd5900dd6ff7adc0a8c1b6754d7a24a4f16118082d8b",
+      "source_brep_bytes": 288645,
+      "recovered_step": "recovered\\author-step-model-definitions\\98c88bc2b9094f218f3a3e30a7012738_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        3,
+        3
+      ],
+      "max_bbox_difference_mm": 3.26405569239796e-14,
+      "volumes_mm3": [
+        0.2877816829205268,
+        0.2877816829205272
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        4.5641441387086585,
+        4.564144138708663
+      ],
+      "surface_area_difference_mm2": 4.440892098500626e-15,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 474,
+          "edge_samples": 2179,
+          "face_uv_samples": 2308,
+          "faces": 270,
+          "faces_with_uv_sample": 266,
+          "unique_points": 4961
+        },
+        "maximum_sampled_distance_mm": 4.095381421062513e-09,
+        "worst_sample_mm": [
+          0.0602349369385374,
+          0.25,
+          0.1346268035572095
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 474,
+          "edge_samples": 2179,
+          "face_uv_samples": 2308,
+          "faces": 270,
+          "faces_with_uv_sample": 266,
+          "unique_points": 4961
+        },
+        "maximum_sampled_distance_mm": 4.095381421062513e-09,
+        "worst_sample_mm": [
+          0.0602349369385374,
+          0.25,
+          0.1346268035572095
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "R2",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "R2~R0402~R0402_L1.0-W0.5-H0.4~rtfb",
+      "source_brep_sha256": "e6c947fddb51c8c915a3aa1e8b29252a6a31c4c56616c7f62ff89d038347dbdc",
+      "source_brep_bytes": 390082,
+      "recovered_step": "recovered\\author-step-model-definitions\\98c88bc2b9094f218f3a3e30a7012738_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        3,
+        3
+      ],
+      "max_bbox_difference_mm": 3.26405569239796e-14,
+      "volumes_mm3": [
+        0.2877816829205268,
+        0.2877816829205272
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        4.5641441387086585,
+        4.564144138708663
+      ],
+      "surface_area_difference_mm2": 4.440892098500626e-15,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 474,
+          "edge_samples": 2179,
+          "face_uv_samples": 2308,
+          "faces": 270,
+          "faces_with_uv_sample": 266,
+          "unique_points": 4961
+        },
+        "maximum_sampled_distance_mm": 4.095381421062513e-09,
+        "worst_sample_mm": [
+          0.0602349369385374,
+          0.25,
+          0.1346268035572095
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 474,
+          "edge_samples": 2179,
+          "face_uv_samples": 2308,
+          "faces": 270,
+          "faces_with_uv_sample": 266,
+          "unique_points": 4961
+        },
+        "maximum_sampled_distance_mm": 4.095381421062513e-09,
+        "worst_sample_mm": [
+          0.0602349369385374,
+          0.25,
+          0.1346268035572095
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "R4",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "R4~R0402~R0402_L1.0-W0.5-H0.4~3M5a",
+      "source_brep_sha256": "e6c947fddb51c8c915a3aa1e8b29252a6a31c4c56616c7f62ff89d038347dbdc",
+      "source_brep_bytes": 390082,
+      "recovered_step": "recovered\\author-step-model-definitions\\98c88bc2b9094f218f3a3e30a7012738_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        3,
+        3
+      ],
+      "max_bbox_difference_mm": 3.26405569239796e-14,
+      "volumes_mm3": [
+        0.2877816829205268,
+        0.2877816829205272
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        4.5641441387086585,
+        4.564144138708663
+      ],
+      "surface_area_difference_mm2": 4.440892098500626e-15,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 474,
+          "edge_samples": 2179,
+          "face_uv_samples": 2308,
+          "faces": 270,
+          "faces_with_uv_sample": 266,
+          "unique_points": 4961
+        },
+        "maximum_sampled_distance_mm": 4.095381421062513e-09,
+        "worst_sample_mm": [
+          0.0602349369385374,
+          0.25,
+          0.1346268035572095
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 474,
+          "edge_samples": 2179,
+          "face_uv_samples": 2308,
+          "faces": 270,
+          "faces_with_uv_sample": 266,
+          "unique_points": 4961
+        },
+        "maximum_sampled_distance_mm": 4.095381421062513e-09,
+        "worst_sample_mm": [
+          0.0602349369385374,
+          0.25,
+          0.1346268035572095
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl_1V0A",
+        "reference": "R2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "R5",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "R5~R0402~R0402_L1.0-W0.5-H0.4~J9cj",
+      "source_brep_sha256": "e6c947fddb51c8c915a3aa1e8b29252a6a31c4c56616c7f62ff89d038347dbdc",
+      "source_brep_bytes": 390082,
+      "recovered_step": "recovered\\author-step-model-definitions\\98c88bc2b9094f218f3a3e30a7012738_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        3,
+        3
+      ],
+      "max_bbox_difference_mm": 3.26405569239796e-14,
+      "volumes_mm3": [
+        0.2877816829205268,
+        0.2877816829205272
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        4.5641441387086585,
+        4.564144138708663
+      ],
+      "surface_area_difference_mm2": 4.440892098500626e-15,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 474,
+          "edge_samples": 2179,
+          "face_uv_samples": 2308,
+          "faces": 270,
+          "faces_with_uv_sample": 266,
+          "unique_points": 4961
+        },
+        "maximum_sampled_distance_mm": 4.095381421062513e-09,
+        "worst_sample_mm": [
+          0.0602349369385374,
+          0.25,
+          0.1346268035572095
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 474,
+          "edge_samples": 2179,
+          "face_uv_samples": 2308,
+          "faces": 270,
+          "faces_with_uv_sample": 266,
+          "unique_points": 4961
+        },
+        "maximum_sampled_distance_mm": 4.095381421062513e-09,
+        "worst_sample_mm": [
+          0.0602349369385374,
+          0.25,
+          0.1346268035572095
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl_1V0A",
+        "reference": "R2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "R7",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "R7~R0402~R0402_L1.0-W0.5-H0.4~A4IS",
+      "source_brep_sha256": "e6c947fddb51c8c915a3aa1e8b29252a6a31c4c56616c7f62ff89d038347dbdc",
+      "source_brep_bytes": 390082,
+      "recovered_step": "recovered\\author-step-model-definitions\\98c88bc2b9094f218f3a3e30a7012738_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        3,
+        3
+      ],
+      "max_bbox_difference_mm": 3.26405569239796e-14,
+      "volumes_mm3": [
+        0.2877816829205268,
+        0.2877816829205272
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        4.5641441387086585,
+        4.564144138708663
+      ],
+      "surface_area_difference_mm2": 4.440892098500626e-15,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 474,
+          "edge_samples": 2179,
+          "face_uv_samples": 2308,
+          "faces": 270,
+          "faces_with_uv_sample": 266,
+          "unique_points": 4961
+        },
+        "maximum_sampled_distance_mm": 4.095381421062513e-09,
+        "worst_sample_mm": [
+          0.0602349369385374,
+          0.25,
+          0.1346268035572095
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 474,
+          "edge_samples": 2179,
+          "face_uv_samples": 2308,
+          "faces": 270,
+          "faces_with_uv_sample": 266,
+          "unique_points": 4961
+        },
+        "maximum_sampled_distance_mm": 4.095381421062513e-09,
+        "worst_sample_mm": [
+          0.0602349369385374,
+          0.25,
+          0.1346268035572095
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl_1V0A",
+        "reference": "R2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "C1",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "C1~C0603~C0603_L1.6-W0.8-H0.8~tojG",
+      "source_brep_sha256": "d665bd0edbf321666afbcc2987d39087034b0f424493f4a4ea08be006a277a29",
+      "source_brep_bytes": 653092,
+      "recovered_step": "recovered\\author-step-model-definitions\\ac125912035d415993ca9572d50418b1_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.9906814997295404,
+        0.990681510851469
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        6.354065640882945,
+        6.354065820674025
+      ],
+      "surface_area_difference_mm2": 1.7979107980181652e-07,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.593844764703526e-08,
+        "worst_sample_mm": [
+          -0.5527547551977123,
+          0.39025014695741767,
+          0.39717365556964096
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.5867225068271628e-08,
+        "worst_sample_mm": [
+          0.5524948876666931,
+          -0.39049339988449966,
+          -0.3962186179979997
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "C2",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "C2~C0603~C0603_L1.6-W0.8-H0.8~ku6t",
+      "source_brep_sha256": "9af75d290ef722d428ce15bc73d1bb8e6aedcb3bf18f62c7da158fdb22b45446",
+      "source_brep_bytes": 788399,
+      "recovered_step": "recovered\\author-step-model-definitions\\ac125912035d415993ca9572d50418b1_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.9906814997295404,
+        0.990681510851469
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        6.354065640882945,
+        6.354065820674025
+      ],
+      "surface_area_difference_mm2": 1.7979107980181652e-07,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.593844764703526e-08,
+        "worst_sample_mm": [
+          -0.5527547551977123,
+          0.39025014695741767,
+          0.39717365556964096
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.5867225068271628e-08,
+        "worst_sample_mm": [
+          0.5524948876666931,
+          -0.39049339988449966,
+          -0.3962186179979997
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "C3",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "C3~C0603~C0603_L1.6-W0.8-H0.8~3BiY",
+      "source_brep_sha256": "9af75d290ef722d428ce15bc73d1bb8e6aedcb3bf18f62c7da158fdb22b45446",
+      "source_brep_bytes": 788399,
+      "recovered_step": "recovered\\author-step-model-definitions\\ac125912035d415993ca9572d50418b1_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.9906814997295404,
+        0.990681510851469
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        6.354065640882945,
+        6.354065820674025
+      ],
+      "surface_area_difference_mm2": 1.7979107980181652e-07,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.593844764703526e-08,
+        "worst_sample_mm": [
+          -0.5527547551977123,
+          0.39025014695741767,
+          0.39717365556964096
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.5867225068271628e-08,
+        "worst_sample_mm": [
+          0.5524948876666931,
+          -0.39049339988449966,
+          -0.3962186179979997
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "C2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "C4",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "C4~C0603~C0603_L1.6-W0.8-H0.8~QSPu",
+      "source_brep_sha256": "9af75d290ef722d428ce15bc73d1bb8e6aedcb3bf18f62c7da158fdb22b45446",
+      "source_brep_bytes": 788399,
+      "recovered_step": "recovered\\author-step-model-definitions\\ac125912035d415993ca9572d50418b1_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.9906814997295404,
+        0.990681510851469
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        6.354065640882945,
+        6.354065820674025
+      ],
+      "surface_area_difference_mm2": 1.7979107980181652e-07,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.593844764703526e-08,
+        "worst_sample_mm": [
+          -0.5527547551977123,
+          0.39025014695741767,
+          0.39717365556964096
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.5867225068271628e-08,
+        "worst_sample_mm": [
+          0.5524948876666931,
+          -0.39049339988449966,
+          -0.3962186179979997
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "C2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "C5",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "C5~C0603~C0603_L1.6-W0.8-H0.8~HzPf",
+      "source_brep_sha256": "9af75d290ef722d428ce15bc73d1bb8e6aedcb3bf18f62c7da158fdb22b45446",
+      "source_brep_bytes": 788399,
+      "recovered_step": "recovered\\author-step-model-definitions\\ac125912035d415993ca9572d50418b1_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.9906814997295404,
+        0.990681510851469
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        6.354065640882945,
+        6.354065820674025
+      ],
+      "surface_area_difference_mm2": 1.7979107980181652e-07,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.593844764703526e-08,
+        "worst_sample_mm": [
+          -0.5527547551977123,
+          0.39025014695741767,
+          0.39717365556964096
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.5867225068271628e-08,
+        "worst_sample_mm": [
+          0.5524948876666931,
+          -0.39049339988449966,
+          -0.3962186179979997
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "C2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "C7",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "C7~C0603~C0603_L1.6-W0.8-H0.8~q93I",
+      "source_brep_sha256": "9af75d290ef722d428ce15bc73d1bb8e6aedcb3bf18f62c7da158fdb22b45446",
+      "source_brep_bytes": 788399,
+      "recovered_step": "recovered\\author-step-model-definitions\\ac125912035d415993ca9572d50418b1_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.9906814997295404,
+        0.990681510851469
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        6.354065640882945,
+        6.354065820674025
+      ],
+      "surface_area_difference_mm2": 1.7979107980181652e-07,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.593844764703526e-08,
+        "worst_sample_mm": [
+          -0.5527547551977123,
+          0.39025014695741767,
+          0.39717365556964096
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.5867225068271628e-08,
+        "worst_sample_mm": [
+          0.5524948876666931,
+          -0.39049339988449966,
+          -0.3962186179979997
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "C2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "C8",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "C8~C0603~C0603_L1.6-W0.8-H0.8~zumw",
+      "source_brep_sha256": "9af75d290ef722d428ce15bc73d1bb8e6aedcb3bf18f62c7da158fdb22b45446",
+      "source_brep_bytes": 788399,
+      "recovered_step": "recovered\\author-step-model-definitions\\ac125912035d415993ca9572d50418b1_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.9906814997295404,
+        0.990681510851469
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        6.354065640882945,
+        6.354065820674025
+      ],
+      "surface_area_difference_mm2": 1.7979107980181652e-07,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.593844764703526e-08,
+        "worst_sample_mm": [
+          -0.5527547551977123,
+          0.39025014695741767,
+          0.39717365556964096
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.5867225068271628e-08,
+        "worst_sample_mm": [
+          0.5524948876666931,
+          -0.39049339988449966,
+          -0.3962186179979997
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "C2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "C9",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "C9~C0603~C0603_L1.6-W0.8-H0.8~0wl7",
+      "source_brep_sha256": "9af75d290ef722d428ce15bc73d1bb8e6aedcb3bf18f62c7da158fdb22b45446",
+      "source_brep_bytes": 788399,
+      "recovered_step": "recovered\\author-step-model-definitions\\ac125912035d415993ca9572d50418b1_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.9906814997295404,
+        0.990681510851469
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        6.354065640882945,
+        6.354065820674025
+      ],
+      "surface_area_difference_mm2": 1.7979107980181652e-07,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.593844764703526e-08,
+        "worst_sample_mm": [
+          -0.5527547551977123,
+          0.39025014695741767,
+          0.39717365556964096
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.5867225068271628e-08,
+        "worst_sample_mm": [
+          0.5524948876666931,
+          -0.39049339988449966,
+          -0.3962186179979997
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "C2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "C5",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "C5~C0603~C0603_L1.6-W0.8-H0.8~wqis",
+      "source_brep_sha256": "d665bd0edbf321666afbcc2987d39087034b0f424493f4a4ea08be006a277a29",
+      "source_brep_bytes": 653092,
+      "recovered_step": "recovered\\author-step-model-definitions\\ac125912035d415993ca9572d50418b1_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.9906814997295404,
+        0.990681510851469
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        6.354065640882945,
+        6.354065820674025
+      ],
+      "surface_area_difference_mm2": 1.7979107980181652e-07,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.593844764703526e-08,
+        "worst_sample_mm": [
+          -0.5527547551977123,
+          0.39025014695741767,
+          0.39717365556964096
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.5867225068271628e-08,
+        "worst_sample_mm": [
+          0.5524948876666931,
+          -0.39049339988449966,
+          -0.3962186179979997
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "C1"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "C7",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "C7~C0603~C0603_L1.6-W0.8-H0.8~MSOm",
+      "source_brep_sha256": "d665bd0edbf321666afbcc2987d39087034b0f424493f4a4ea08be006a277a29",
+      "source_brep_bytes": 653092,
+      "recovered_step": "recovered\\author-step-model-definitions\\ac125912035d415993ca9572d50418b1_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.9906814997295404,
+        0.990681510851469
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        6.354065640882945,
+        6.354065820674025
+      ],
+      "surface_area_difference_mm2": 1.7979107980181652e-07,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.593844764703526e-08,
+        "worst_sample_mm": [
+          -0.5527547551977123,
+          0.39025014695741767,
+          0.39717365556964096
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 634,
+          "edge_samples": 2889,
+          "face_uv_samples": 2948,
+          "faces": 357,
+          "faces_with_uv_sample": 356,
+          "unique_points": 6471
+        },
+        "maximum_sampled_distance_mm": 1.5867225068271628e-08,
+        "worst_sample_mm": [
+          0.5524948876666931,
+          -0.39049339988449966,
+          -0.3962186179979997
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "C1"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "ad7e39f9e5534b3c96ffdc5532ebb493|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "D2",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "D2~SOD-123_L2.7-W1.6-LS3.7-RD~SOD-123_L2.7-W1.6-H1.4-LS3.7~kK6g",
+      "source_brep_sha256": "e9472dd72f4e352b5122d4800ebf10df4079d277e5df9e81872e0ad8e80c9b50",
+      "source_brep_bytes": 421075,
+      "recovered_step": "recovered\\author-step-model-definitions\\ad7e39f9e5534b3c96ffdc5532ebb493_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        5.093467032877178,
+        5.093467032877201
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        20.689781056105407,
+        20.68978105610552
+      ],
+      "surface_area_difference_mm2": 1.1368683772161603e-13,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 498,
+          "edge_samples": 2295,
+          "face_uv_samples": 2235,
+          "faces": 288,
+          "faces_with_uv_sample": 288,
+          "unique_points": 5028
+        },
+        "maximum_sampled_distance_mm": 9.156974840174022e-09,
+        "worst_sample_mm": [
+          0.25237946434502123,
+          0.7816090108650472,
+          0.21020996425112978
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 498,
+          "edge_samples": 2295,
+          "face_uv_samples": 2235,
+          "faces": 288,
+          "faces_with_uv_sample": 288,
+          "unique_points": 5028
+        },
+        "maximum_sampled_distance_mm": 9.156974840174022e-09,
+        "worst_sample_mm": [
+          0.25237946434502123,
+          0.7816090108650472,
+          0.21020996425112978
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "ad7e39f9e5534b3c96ffdc5532ebb493|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "D2",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "D2~SOD-123_L2.7-W1.6-LS3.7-RD~SOD-123_L2.7-W1.6-H1.4-LS3.7~HO4c",
+      "source_brep_sha256": "e9472dd72f4e352b5122d4800ebf10df4079d277e5df9e81872e0ad8e80c9b50",
+      "source_brep_bytes": 421075,
+      "recovered_step": "recovered\\author-step-model-definitions\\ad7e39f9e5534b3c96ffdc5532ebb493_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        5.093467032877178,
+        5.093467032877201
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        20.689781056105407,
+        20.68978105610552
+      ],
+      "surface_area_difference_mm2": 1.1368683772161603e-13,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 498,
+          "edge_samples": 2295,
+          "face_uv_samples": 2235,
+          "faces": 288,
+          "faces_with_uv_sample": 288,
+          "unique_points": 5028
+        },
+        "maximum_sampled_distance_mm": 9.156974840174022e-09,
+        "worst_sample_mm": [
+          0.25237946434502123,
+          0.7816090108650472,
+          0.21020996425112978
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 498,
+          "edge_samples": 2295,
+          "face_uv_samples": 2235,
+          "faces": 288,
+          "faces_with_uv_sample": 288,
+          "unique_points": 5028
+        },
+        "maximum_sampled_distance_mm": 9.156974840174022e-09,
+        "worst_sample_mm": [
+          0.25237946434502123,
+          0.7816090108650472,
+          0.21020996425112978
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "D2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "ae22b8d143894765bc8100c37cb6356f|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "X1",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "X1~OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI~OSC-SMD_4P-L3.2-W2.5-H1.0~gTE2",
+      "source_brep_sha256": "f9824f9c57750f99e0a9d535f96a31fd364b4f0dd192235821639d2806900542",
+      "source_brep_bytes": 446001,
+      "recovered_step": "recovered\\author-step-model-definitions\\ae22b8d143894765bc8100c37cb6356f_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        6.007129110182673,
+        6.007129110182724
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        24.433186889722595,
+        24.433186889722858
+      ],
+      "surface_area_difference_mm2": 2.6290081223123707e-13,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 666,
+          "edge_samples": 3033,
+          "face_uv_samples": 3122,
+          "faces": 376,
+          "faces_with_uv_sample": 361,
+          "unique_points": 6821
+        },
+        "maximum_sampled_distance_mm": 1.0238103700650239e-08,
+        "worst_sample_mm": [
+          -0.2050669725540721,
+          -0.09589299520457145,
+          0.8
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 666,
+          "edge_samples": 3033,
+          "face_uv_samples": 3122,
+          "faces": 376,
+          "faces_with_uv_sample": 361,
+          "unique_points": 6821
+        },
+        "maximum_sampled_distance_mm": 1.0238103700650239e-08,
+        "worst_sample_mm": [
+          -0.2050669725540721,
+          -0.09589299520457145,
+          0.8
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "c491f68934b34c649df5890a1d97cd0f|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "U1",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "U1~TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL~TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65~Ur8N",
+      "source_brep_sha256": "7ae7bbf06ffc6521d04295ce833708363059d6d16597e59d1c28a63416778e8a",
+      "source_brep_bytes": 2331934,
+      "recovered_step": "recovered\\author-step-model-definitions\\c491f68934b34c649df5890a1d97cd0f_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        34,
+        34
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        27.55625033354795,
+        27.55625033354815
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        88.4703132173235,
+        88.47031321732366
+      ],
+      "surface_area_difference_mm2": 1.7053025658242404e-13,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 1874,
+          "edge_samples": 9759,
+          "face_uv_samples": 12360,
+          "faces": 1465,
+          "faces_with_uv_sample": 1462,
+          "unique_points": 23993
+        },
+        "maximum_sampled_distance_mm": 2.045838945141567e-08,
+        "worst_sample_mm": [
+          1.3156720707106786,
+          2.0636919565009304,
+          1.030103029999
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 1874,
+          "edge_samples": 9759,
+          "face_uv_samples": 12360,
+          "faces": 1465,
+          "faces_with_uv_sample": 1462,
+          "unique_points": 23993
+        },
+        "maximum_sampled_distance_mm": 2.045838945141567e-08,
+        "worst_sample_mm": [
+          1.3156720707106786,
+          2.0636919565009304,
+          1.030103029999
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "c491f68934b34c649df5890a1d97cd0f|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "U1",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "U1~TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL~TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65~VOGl",
+      "source_brep_sha256": "7ae7bbf06ffc6521d04295ce833708363059d6d16597e59d1c28a63416778e8a",
+      "source_brep_bytes": 2331934,
+      "recovered_step": "recovered\\author-step-model-definitions\\c491f68934b34c649df5890a1d97cd0f_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        34,
+        34
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        27.55625033354795,
+        27.55625033354815
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        88.4703132173235,
+        88.47031321732366
+      ],
+      "surface_area_difference_mm2": 1.7053025658242404e-13,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 1874,
+          "edge_samples": 9759,
+          "face_uv_samples": 12360,
+          "faces": 1465,
+          "faces_with_uv_sample": 1462,
+          "unique_points": 23993
+        },
+        "maximum_sampled_distance_mm": 2.045838945141567e-08,
+        "worst_sample_mm": [
+          1.3156720707106786,
+          2.0636919565009304,
+          1.030103029999
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 1874,
+          "edge_samples": 9759,
+          "face_uv_samples": 12360,
+          "faces": 1465,
+          "faces_with_uv_sample": 1462,
+          "unique_points": 23993
+        },
+        "maximum_sampled_distance_mm": 2.045838945141567e-08,
+        "worst_sample_mm": [
+          1.3156720707106786,
+          2.0636919565009304,
+          1.030103029999
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "U1"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "c85411b4a3544d83a02d075c4dadd21f|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "U3",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "U3~VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BR~VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL~7tsc",
+      "source_brep_sha256": "5370cc465229e011da0df0caa7224c5c1bd170268eb4f0982b99d066e1c0201a",
+      "source_brep_bytes": 470782,
+      "recovered_step": "recovered\\author-step-model-definitions\\c85411b4a3544d83a02d075c4dadd21f_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        14,
+        14
+      ],
+      "max_bbox_difference_mm": 3.275157922644212e-14,
+      "volumes_mm3": [
+        3.6694049111185034,
+        3.6694049111184746
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        19.377897968782673,
+        19.37789796878282
+      ],
+      "surface_area_difference_mm2": 1.4566126083082054e-13,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 726,
+          "edge_samples": 3327,
+          "face_uv_samples": 3518,
+          "faces": 419,
+          "faces_with_uv_sample": 417,
+          "unique_points": 7571
+        },
+        "maximum_sampled_distance_mm": 6.14286221096556e-09,
+        "worst_sample_mm": [
+          -0.5662322739330433,
+          0.8147200429811571,
+          0.316
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 726,
+          "edge_samples": 3327,
+          "face_uv_samples": 3518,
+          "faces": 419,
+          "faces_with_uv_sample": 417,
+          "unique_points": 7571
+        },
+        "maximum_sampled_distance_mm": 6.14286221096556e-09,
+        "worst_sample_mm": [
+          -0.5662322739330433,
+          0.8147200429811571,
+          0.316
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "c85411b4a3544d83a02d075c4dadd21f|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "U3",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "U3~VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BR~VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL~jF3o",
+      "source_brep_sha256": "5370cc465229e011da0df0caa7224c5c1bd170268eb4f0982b99d066e1c0201a",
+      "source_brep_bytes": 470782,
+      "recovered_step": "recovered\\author-step-model-definitions\\c85411b4a3544d83a02d075c4dadd21f_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        14,
+        14
+      ],
+      "max_bbox_difference_mm": 3.275157922644212e-14,
+      "volumes_mm3": [
+        3.6694049111185034,
+        3.6694049111184746
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        19.377897968782673,
+        19.37789796878282
+      ],
+      "surface_area_difference_mm2": 1.4566126083082054e-13,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 726,
+          "edge_samples": 3327,
+          "face_uv_samples": 3518,
+          "faces": 419,
+          "faces_with_uv_sample": 417,
+          "unique_points": 7571
+        },
+        "maximum_sampled_distance_mm": 6.14286221096556e-09,
+        "worst_sample_mm": [
+          -0.5662322739330433,
+          0.8147200429811571,
+          0.316
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 726,
+          "edge_samples": 3327,
+          "face_uv_samples": 3518,
+          "faces": 419,
+          "faces_with_uv_sample": 417,
+          "unique_points": 7571
+        },
+        "maximum_sampled_distance_mm": 6.14286221096556e-09,
+        "worst_sample_mm": [
+          -0.5662322739330433,
+          0.8147200429811571,
+          0.316
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "U3"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "ced3ec0dc43640d397bfdc45d14bee2a|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "J4",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "J4~CONN-TH_B3B-PH-K-S~CONN-TH_B3B-PH-K-S~wpbf",
+      "source_brep_sha256": "16d45ff7843c9348ac10bf39336d6e2e92f88e51f29798da70af1a2940f71d5a",
+      "source_brep_bytes": 607945,
+      "recovered_step": "recovered\\author-step-model-definitions\\ced3ec0dc43640d397bfdc45d14bee2a_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        96.79640815661452,
+        96.79640814030515
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        343.3930303421681,
+        343.39303014771923
+      ],
+      "surface_area_difference_mm2": 1.944488872140937e-07,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 728,
+          "edge_samples": 3390,
+          "face_uv_samples": 3722,
+          "faces": 427,
+          "faces_with_uv_sample": 424,
+          "unique_points": 7840
+        },
+        "maximum_sampled_distance_mm": 2.0476389868430435e-08,
+        "worst_sample_mm": [
+          0.6391192189323129,
+          2.25,
+          1.2375196791795513
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 728,
+          "edge_samples": 3390,
+          "face_uv_samples": 3722,
+          "faces": 427,
+          "faces_with_uv_sample": 424,
+          "unique_points": 7840
+        },
+        "maximum_sampled_distance_mm": 2.0476389868430435e-08,
+        "worst_sample_mm": [
+          0.6391192189323129,
+          2.25,
+          1.2375196791795513
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "ced3ec0dc43640d397bfdc45d14bee2a|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "J5",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "J5~CONN-TH_B3B-PH-K-S~CONN-TH_B3B-PH-K-S~Gdo3",
+      "source_brep_sha256": "81bab052765a7a78bc906173df262525c2484138785d523be2fa9db630f17164",
+      "source_brep_bytes": 752490,
+      "recovered_step": "recovered\\author-step-model-definitions\\ced3ec0dc43640d397bfdc45d14bee2a_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        96.79640815661452,
+        96.79640814030515
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        343.3930303421681,
+        343.39303014771923
+      ],
+      "surface_area_difference_mm2": 1.944488872140937e-07,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 728,
+          "edge_samples": 3390,
+          "face_uv_samples": 3722,
+          "faces": 427,
+          "faces_with_uv_sample": 424,
+          "unique_points": 7840
+        },
+        "maximum_sampled_distance_mm": 2.0476389868430435e-08,
+        "worst_sample_mm": [
+          0.6391192189323129,
+          2.25,
+          1.2375196791795513
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 728,
+          "edge_samples": 3390,
+          "face_uv_samples": 3722,
+          "faces": 427,
+          "faces_with_uv_sample": 424,
+          "unique_points": 7840
+        },
+        "maximum_sampled_distance_mm": 2.0476389868430435e-08,
+        "worst_sample_mm": [
+          0.6391192189323129,
+          2.25,
+          1.2375196791795513
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "deb6dd8d6be645a6b0b15d641ed56279|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "wire_hub_1V0A",
+      "reference": "J5",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\wire_hub_1V0A\\wire_hub_1V0A-PCB.step",
+      "source_definition_label": "J5~CONN-TH_A2007WV-3P~CONN-TH_A2007WV-3P~ME6M",
+      "source_brep_sha256": "dc264e2055a2f9467f8d145ed5844d890e2cdb756888eab3daee64934e5edda8",
+      "source_brep_bytes": 491590,
+      "recovered_step": "recovered\\author-step-model-definitions\\deb6dd8d6be645a6b0b15d641ed56279_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        17,
+        17
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        85.93272846375389,
+        85.93272863003943
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        286.6393875203798,
+        286.63938862812415
+      ],
+      "surface_area_difference_mm2": 1.107744367345731e-06,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 656,
+          "edge_samples": 2973,
+          "face_uv_samples": 3089,
+          "faces": 368,
+          "faces_with_uv_sample": 366,
+          "unique_points": 6718
+        },
+        "maximum_sampled_distance_mm": 3.345406216919806e-08,
+        "worst_sample_mm": [
+          2.1965226977172847,
+          1.222227302280711,
+          -4.639728195384493
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 656,
+          "edge_samples": 2973,
+          "face_uv_samples": 3089,
+          "faces": 368,
+          "faces_with_uv_sample": 366,
+          "unique_points": 6718
+        },
+        "maximum_sampled_distance_mm": 3.345428269900973e-08,
+        "worst_sample_mm": [
+          2.19652273244641,
+          1.2222272675514678,
+          -4.639728164231885
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "deb6dd8d6be645a6b0b15d641ed56279|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "wire_hub_1V0A",
+      "reference": "J6",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\wire_hub_1V0A\\wire_hub_1V0A-PCB.step",
+      "source_definition_label": "J6~CONN-TH_A2007WV-3P~CONN-TH_A2007WV-3P~qsdQ",
+      "source_brep_sha256": "1778cc1b242a9ae6834166553844a0def650c20f84847baa4ccfb93273633e12",
+      "source_brep_bytes": 664451,
+      "recovered_step": "recovered\\author-step-model-definitions\\deb6dd8d6be645a6b0b15d641ed56279_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        17,
+        17
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        85.93272846375389,
+        85.93272863003943
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        286.6393875203798,
+        286.63938862812415
+      ],
+      "surface_area_difference_mm2": 1.107744367345731e-06,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 656,
+          "edge_samples": 2973,
+          "face_uv_samples": 3089,
+          "faces": 368,
+          "faces_with_uv_sample": 366,
+          "unique_points": 6718
+        },
+        "maximum_sampled_distance_mm": 3.345406216919806e-08,
+        "worst_sample_mm": [
+          2.1965226977172847,
+          1.222227302280711,
+          -4.639728195384493
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 656,
+          "edge_samples": 2973,
+          "face_uv_samples": 3089,
+          "faces": 368,
+          "faces_with_uv_sample": 366,
+          "unique_points": 6718
+        },
+        "maximum_sampled_distance_mm": 3.345428269900973e-08,
+        "worst_sample_mm": [
+          2.19652273244641,
+          1.2222272675514678,
+          -4.639728164231885
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "e364713d301b433da8ecef6fca46e972|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "wire_hub_1V0A",
+      "reference": "CN1",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\wire_hub_1V0A\\wire_hub_1V0A-PCB.step",
+      "source_definition_label": "CN1~CONN-TH_DB125-2.54-2P-GN~CONN-TH_DB125-2.54-2P-GN~ovzE",
+      "source_brep_sha256": "49cd4ac01ab55a294294af8aa8d62b5bc442984e8e26e0b4357dab572b62d230",
+      "source_brep_bytes": 553051,
+      "recovered_step": "recovered\\author-step-model-definitions\\e364713d301b433da8ecef6fca46e972_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        5,
+        5
+      ],
+      "max_bbox_difference_mm": 1.4077627952246985e-13,
+      "volumes_mm3": [
+        155.67770214854795,
+        155.67770214851404
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        694.1734950617372,
+        694.1734950617373
+      ],
+      "surface_area_difference_mm2": 1.1368683772161603e-13,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 848,
+          "edge_samples": 3879,
+          "face_uv_samples": 3980,
+          "faces": 480,
+          "faces_with_uv_sample": 467,
+          "unique_points": 8707
+        },
+        "maximum_sampled_distance_mm": 3.071431110868234e-08,
+        "worst_sample_mm": [
+          2.779999999999,
+          -0.7429890262772163,
+          1.6661816124962856
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 848,
+          "edge_samples": 3879,
+          "face_uv_samples": 3980,
+          "faces": 480,
+          "faces_with_uv_sample": 467,
+          "unique_points": 8707
+        },
+        "maximum_sampled_distance_mm": 3.071431110868234e-08,
+        "worst_sample_mm": [
+          2.779999999999,
+          -0.7429890262772163,
+          1.6661816124962856
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "eb4de652aa64480a9db1bf18ae610871|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "J1",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "J1~CONN-TH_B3B-EH-A-LF-SN~CONN-TH_B3B-EH-A-LF-SN~wdo6",
+      "source_brep_sha256": "6c3d5a0e1d04a9931179f0188ececef0f9c795b15690d3937bd164972f63089b",
+      "source_brep_bytes": 342184,
+      "recovered_step": "recovered\\author-step-model-definitions\\eb4de652aa64480a9db1bf18ae610871_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        14,
+        14
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        111.447690633479,
+        111.44769063347994
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        310.4112853698477,
+        310.41128536984786
+      ],
+      "surface_area_difference_mm2": 1.7053025658242404e-13,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 562,
+          "edge_samples": 2574,
+          "face_uv_samples": 2782,
+          "faces": 330,
+          "faces_with_uv_sample": 327,
+          "unique_points": 5918
+        },
+        "maximum_sampled_distance_mm": 2.2523828223557275e-08,
+        "worst_sample_mm": [
+          -5.001,
+          0.4908037955511586,
+          0.7056116931477427
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 562,
+          "edge_samples": 2574,
+          "face_uv_samples": 2782,
+          "faces": 330,
+          "faces_with_uv_sample": 327,
+          "unique_points": 5918
+        },
+        "maximum_sampled_distance_mm": 2.2523828223557275e-08,
+        "worst_sample_mm": [
+          -5.001,
+          0.4908037955511586,
+          0.7056116931477427
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "eb4de652aa64480a9db1bf18ae610871|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "J2",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "J2~CONN-TH_B3B-EH-A-LF-SN~CONN-TH_B3B-EH-A-LF-SN~KqwZ",
+      "source_brep_sha256": "3bbd619792ece9504122a43b0b106d4eb8e674115e3a19dcd7237f82ff2fa12d",
+      "source_brep_bytes": 462727,
+      "recovered_step": "recovered\\author-step-model-definitions\\eb4de652aa64480a9db1bf18ae610871_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        14,
+        14
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        111.447690633479,
+        111.44769063347994
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        310.4112853698477,
+        310.41128536984786
+      ],
+      "surface_area_difference_mm2": 1.7053025658242404e-13,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 562,
+          "edge_samples": 2574,
+          "face_uv_samples": 2782,
+          "faces": 330,
+          "faces_with_uv_sample": 327,
+          "unique_points": 5918
+        },
+        "maximum_sampled_distance_mm": 2.2523828223557275e-08,
+        "worst_sample_mm": [
+          -5.001,
+          0.4908037955511586,
+          0.7056116931477427
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 562,
+          "edge_samples": 2574,
+          "face_uv_samples": 2782,
+          "faces": 330,
+          "faces_with_uv_sample": 327,
+          "unique_points": 5918
+        },
+        "maximum_sampled_distance_mm": 2.2523828223557275e-08,
+        "worst_sample_mm": [
+          -5.001,
+          0.4908037955511586,
+          0.7056116931477427
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "f1628daad26847a79b887277a2bc8541|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "F1",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "F1~F1206~F1206_L3.2-W1.7-H0.6~NTFH",
+      "source_brep_sha256": "a4d9399fce67ff6591662ed94a4136bd3f0aae05666891364da61be1d4ef3ba3",
+      "source_brep_bytes": 406495,
+      "recovered_step": "recovered\\author-step-model-definitions\\f1628daad26847a79b887277a2bc8541_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        2.9954074077056947,
+        2.9954074077057373
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        16.72157428921459,
+        16.721574289214313
+      ],
+      "surface_area_difference_mm2": 2.7711166694643907e-13,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 580,
+          "edge_samples": 2610,
+          "face_uv_samples": 2699,
+          "faces": 318,
+          "faces_with_uv_sample": 313,
+          "unique_points": 5889
+        },
+        "maximum_sampled_distance_mm": 1.023810375955273e-08,
+        "worst_sample_mm": [
+          -0.28412485401857207,
+          -0.04181515045607146,
+          0.58
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 580,
+          "edge_samples": 2610,
+          "face_uv_samples": 2699,
+          "faces": 318,
+          "faces_with_uv_sample": 313,
+          "unique_points": 5889
+        },
+        "maximum_sampled_distance_mm": 1.023810375955273e-08,
+        "worst_sample_mm": [
+          -0.28412485401857207,
+          -0.04181515045607146,
+          0.58
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "f1628daad26847a79b887277a2bc8541|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "F1",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "F1~F1206~F1206_L3.2-W1.7-H0.6~6Xx9",
+      "source_brep_sha256": "a4d9399fce67ff6591662ed94a4136bd3f0aae05666891364da61be1d4ef3ba3",
+      "source_brep_bytes": 406495,
+      "recovered_step": "recovered\\author-step-model-definitions\\f1628daad26847a79b887277a2bc8541_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        1,
+        1
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        2.9954074077056947,
+        2.9954074077057373
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        16.72157428921459,
+        16.721574289214313
+      ],
+      "surface_area_difference_mm2": 2.7711166694643907e-13,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 580,
+          "edge_samples": 2610,
+          "face_uv_samples": 2699,
+          "faces": 318,
+          "faces_with_uv_sample": 313,
+          "unique_points": 5889
+        },
+        "maximum_sampled_distance_mm": 1.023810375955273e-08,
+        "worst_sample_mm": [
+          -0.28412485401857207,
+          -0.04181515045607146,
+          0.58
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 580,
+          "edge_samples": 2610,
+          "face_uv_samples": 2699,
+          "faces": 318,
+          "faces_with_uv_sample": 313,
+          "unique_points": 5889
+        },
+        "maximum_sampled_distance_mm": 1.023810375955273e-08,
+        "worst_sample_mm": [
+          -0.28412485401857207,
+          -0.04181515045607146,
+          0.58
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "F1"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "R1",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "R1~R0603~R0603~es4d",
+      "source_brep_sha256": "9c206293e7af5bc97056c9a35dbd563ac06c1f0c3b758a6415cae67de13615ef",
+      "source_brep_bytes": 332963,
+      "recovered_step": "recovered\\author-step-model-definitions\\fc143cca1e79419f9cd78b61e9279f08_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        4,
+        4
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.5732351423923466,
+        0.5732351423923459
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        9.297050592681297,
+        9.297050592681241
+      ],
+      "surface_area_difference_mm2": 5.5067062021407764e-14,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 466,
+          "edge_samples": 2107,
+          "face_uv_samples": 2226,
+          "faces": 264,
+          "faces_with_uv_sample": 259,
+          "unique_points": 4799
+        },
+        "maximum_sampled_distance_mm": 4.777905477000759e-09,
+        "worst_sample_mm": [
+          -0.4,
+          0.586381498945372,
+          0.26960031659520334
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 466,
+          "edge_samples": 2107,
+          "face_uv_samples": 2226,
+          "faces": 264,
+          "faces_with_uv_sample": 259,
+          "unique_points": 4799
+        },
+        "maximum_sampled_distance_mm": 4.777905477000759e-09,
+        "worst_sample_mm": [
+          -0.4,
+          0.586381498945372,
+          0.26960031659520334
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "R2",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "R2~R0603~R0603~dyic",
+      "source_brep_sha256": "108d5189a993c247074e9123db32488fb4fb0389ccb1fe267c6404f45e08a037",
+      "source_brep_bytes": 441446,
+      "recovered_step": "recovered\\author-step-model-definitions\\fc143cca1e79419f9cd78b61e9279f08_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        4,
+        4
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.5732351423923466,
+        0.5732351423923459
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        9.297050592681297,
+        9.297050592681241
+      ],
+      "surface_area_difference_mm2": 5.5067062021407764e-14,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 466,
+          "edge_samples": 2107,
+          "face_uv_samples": 2226,
+          "faces": 264,
+          "faces_with_uv_sample": 259,
+          "unique_points": 4799
+        },
+        "maximum_sampled_distance_mm": 4.777905477000759e-09,
+        "worst_sample_mm": [
+          -0.4,
+          0.586381498945372,
+          0.26960031659520334
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 466,
+          "edge_samples": 2107,
+          "face_uv_samples": 2226,
+          "faces": 264,
+          "faces_with_uv_sample": 259,
+          "unique_points": 4799
+        },
+        "maximum_sampled_distance_mm": 4.777905477000759e-09,
+        "worst_sample_mm": [
+          -0.4,
+          0.586381498945372,
+          0.26960031659520334
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      }
+    },
+    {
+      "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "R3",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "R3~R0603~R0603~xe3C",
+      "source_brep_sha256": "108d5189a993c247074e9123db32488fb4fb0389ccb1fe267c6404f45e08a037",
+      "source_brep_bytes": 441446,
+      "recovered_step": "recovered\\author-step-model-definitions\\fc143cca1e79419f9cd78b61e9279f08_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        4,
+        4
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.5732351423923466,
+        0.5732351423923459
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        9.297050592681297,
+        9.297050592681241
+      ],
+      "surface_area_difference_mm2": 5.5067062021407764e-14,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 466,
+          "edge_samples": 2107,
+          "face_uv_samples": 2226,
+          "faces": 264,
+          "faces_with_uv_sample": 259,
+          "unique_points": 4799
+        },
+        "maximum_sampled_distance_mm": 4.777905477000759e-09,
+        "worst_sample_mm": [
+          -0.4,
+          0.586381498945372,
+          0.26960031659520334
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 466,
+          "edge_samples": 2107,
+          "face_uv_samples": 2226,
+          "faces": 264,
+          "faces_with_uv_sample": 259,
+          "unique_points": 4799
+        },
+        "maximum_sampled_distance_mm": 4.777905477000759e-09,
+        "worst_sample_mm": [
+          -0.4,
+          0.586381498945372,
+          0.26960031659520334
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "R2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "R4",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "R4~R0603~R0603~Sdwo",
+      "source_brep_sha256": "108d5189a993c247074e9123db32488fb4fb0389ccb1fe267c6404f45e08a037",
+      "source_brep_bytes": 441446,
+      "recovered_step": "recovered\\author-step-model-definitions\\fc143cca1e79419f9cd78b61e9279f08_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        4,
+        4
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.5732351423923466,
+        0.5732351423923459
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        9.297050592681297,
+        9.297050592681241
+      ],
+      "surface_area_difference_mm2": 5.5067062021407764e-14,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 466,
+          "edge_samples": 2107,
+          "face_uv_samples": 2226,
+          "faces": 264,
+          "faces_with_uv_sample": 259,
+          "unique_points": 4799
+        },
+        "maximum_sampled_distance_mm": 4.777905477000759e-09,
+        "worst_sample_mm": [
+          -0.4,
+          0.586381498945372,
+          0.26960031659520334
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 466,
+          "edge_samples": 2107,
+          "face_uv_samples": 2226,
+          "faces": 264,
+          "faces_with_uv_sample": 259,
+          "unique_points": 4799
+        },
+        "maximum_sampled_distance_mm": 4.777905477000759e-09,
+        "worst_sample_mm": [
+          -0.4,
+          0.586381498945372,
+          0.26960031659520334
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "R2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "R5",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "R5~R0603~R0603~egl2",
+      "source_brep_sha256": "108d5189a993c247074e9123db32488fb4fb0389ccb1fe267c6404f45e08a037",
+      "source_brep_bytes": 441446,
+      "recovered_step": "recovered\\author-step-model-definitions\\fc143cca1e79419f9cd78b61e9279f08_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        4,
+        4
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.5732351423923466,
+        0.5732351423923459
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        9.297050592681297,
+        9.297050592681241
+      ],
+      "surface_area_difference_mm2": 5.5067062021407764e-14,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 466,
+          "edge_samples": 2107,
+          "face_uv_samples": 2226,
+          "faces": 264,
+          "faces_with_uv_sample": 259,
+          "unique_points": 4799
+        },
+        "maximum_sampled_distance_mm": 4.777905477000759e-09,
+        "worst_sample_mm": [
+          -0.4,
+          0.586381498945372,
+          0.26960031659520334
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 466,
+          "edge_samples": 2107,
+          "face_uv_samples": 2226,
+          "faces": 264,
+          "faces_with_uv_sample": 259,
+          "unique_points": 4799
+        },
+        "maximum_sampled_distance_mm": 4.777905477000759e-09,
+        "worst_sample_mm": [
+          -0.4,
+          0.586381498945372,
+          0.26960031659520334
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "R2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "R6",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "R6~R0603~R0603~5EQo",
+      "source_brep_sha256": "108d5189a993c247074e9123db32488fb4fb0389ccb1fe267c6404f45e08a037",
+      "source_brep_bytes": 441446,
+      "recovered_step": "recovered\\author-step-model-definitions\\fc143cca1e79419f9cd78b61e9279f08_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        4,
+        4
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.5732351423923466,
+        0.5732351423923459
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        9.297050592681297,
+        9.297050592681241
+      ],
+      "surface_area_difference_mm2": 5.5067062021407764e-14,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 466,
+          "edge_samples": 2107,
+          "face_uv_samples": 2226,
+          "faces": 264,
+          "faces_with_uv_sample": 259,
+          "unique_points": 4799
+        },
+        "maximum_sampled_distance_mm": 4.777905477000759e-09,
+        "worst_sample_mm": [
+          -0.4,
+          0.586381498945372,
+          0.26960031659520334
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 466,
+          "edge_samples": 2107,
+          "face_uv_samples": 2226,
+          "faces": 264,
+          "faces_with_uv_sample": 259,
+          "unique_points": 4799
+        },
+        "maximum_sampled_distance_mm": 4.777905477000759e-09,
+        "worst_sample_mm": [
+          -0.4,
+          0.586381498945372,
+          0.26960031659520334
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "R2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl",
+      "reference": "R7",
+      "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+      "source_definition_label": "R7~R0603~R0603~Eand",
+      "source_brep_sha256": "108d5189a993c247074e9123db32488fb4fb0389ccb1fe267c6404f45e08a037",
+      "source_brep_bytes": 441446,
+      "recovered_step": "recovered\\author-step-model-definitions\\fc143cca1e79419f9cd78b61e9279f08_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        4,
+        4
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.5732351423923466,
+        0.5732351423923459
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        9.297050592681297,
+        9.297050592681241
+      ],
+      "surface_area_difference_mm2": 5.5067062021407764e-14,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 466,
+          "edge_samples": 2107,
+          "face_uv_samples": 2226,
+          "faces": 264,
+          "faces_with_uv_sample": 259,
+          "unique_points": 4799
+        },
+        "maximum_sampled_distance_mm": 4.777905477000759e-09,
+        "worst_sample_mm": [
+          -0.4,
+          0.586381498945372,
+          0.26960031659520334
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 466,
+          "edge_samples": 2107,
+          "face_uv_samples": 2226,
+          "faces": 264,
+          "faces_with_uv_sample": 259,
+          "unique_points": 4799
+        },
+        "maximum_sampled_distance_mm": 4.777905477000759e-09,
+        "worst_sample_mm": [
+          -0.4,
+          0.586381498945372,
+          0.26960031659520334
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "R2"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    },
+    {
+      "model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "variant_number": 1,
+      "candidate": "imu_to_dxl_1V0A",
+      "reference": "R6",
+      "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+      "source_definition_label": "R6~R0603~R0603~muQk",
+      "source_brep_sha256": "9c206293e7af5bc97056c9a35dbd563ac06c1f0c3b758a6415cae67de13615ef",
+      "source_brep_bytes": 332963,
+      "recovered_step": "recovered\\author-step-model-definitions\\fc143cca1e79419f9cd78b61e9279f08_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "passed": true,
+      "valid_input_solids": true,
+      "directed_cut_shapes_valid": true,
+      "solid_counts": [
+        4,
+        4
+      ],
+      "max_bbox_difference_mm": 0.0,
+      "volumes_mm3": [
+        0.5732351423923466,
+        0.5732351423923459
+      ],
+      "directed_difference_volumes_mm3": [
+        0,
+        0
+      ],
+      "symmetric_difference_volume_mm3": 0,
+      "allowed_each_direction_volume_mm3": 1e-06,
+      "surface_areas_mm2": [
+        9.297050592681297,
+        9.297050592681241
+      ],
+      "surface_area_difference_mm2": 5.5067062021407764e-14,
+      "allowed_surface_area_difference_mm2": 1e-05,
+      "source_boundary_to_recovered_boundary": {
+        "sampling": {
+          "vertices": 466,
+          "edge_samples": 2107,
+          "face_uv_samples": 2226,
+          "faces": 264,
+          "faces_with_uv_sample": 259,
+          "unique_points": 4799
+        },
+        "maximum_sampled_distance_mm": 4.777905477000759e-09,
+        "worst_sample_mm": [
+          -0.4,
+          0.586381498945372,
+          0.26960031659520334
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "recovered_boundary_to_source_boundary": {
+        "sampling": {
+          "vertices": 466,
+          "edge_samples": 2107,
+          "face_uv_samples": 2226,
+          "faces": 264,
+          "faces_with_uv_sample": 259,
+          "unique_points": 4799
+        },
+        "maximum_sampled_distance_mm": 4.777905477000759e-09,
+        "worst_sample_mm": [
+          -0.4,
+          0.586381498945372,
+          0.26960031659520334
+        ],
+        "within_tolerance": true,
+        "distance_policy": "minimum exact-face distance with analytic AABB pruning; distances <=1e-10mm stop at a numerical-zero upper bound"
+      },
+      "comparison_reused_from": {
+        "candidate": "imu_to_dxl",
+        "reference": "R1"
+      },
+      "reuse_basis": "exact serialized source BRep byte equality, including geometry/topology/locations; same recovered STEP hash"
+    }
+  ],
+  "elapsed_seconds": 754.7691650390625,
+  "kicad_attachment_performed": false,
+  "manufacturing_ready": false
+}

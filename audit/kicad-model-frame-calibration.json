@@ -1,0 +1,307 @@
+{
+  "schema": "microduck-native-model-frame-calibration/v1",
+  "kind": "explicitly synthetic asymmetric geometry fixture; no robot component geometry",
+  "native_version": "10.0.7",
+  "fixture_nominal_thickness_mm": 1.6,
+  "top_datum_minus_nominal_thickness_mm": -0.005,
+  "bottom_model_datum_mm": -0.085,
+  "origin_convention": "KiCad CLI pcb export step --user-origin 0x0mm; native3D X=KiCadX,Y=-KiCadY. ModelorientationRz(nativeAngle), additionallyRx180onbottom.",
+  "scope": "Measured10.0.7 exporter fixture with no explicitstackup; verifyactualexportmatricesagainforrealboards. Nominal thicknessformulaonlyacceptedwheneachactualmatrixagrees.",
+  "inputs": [
+    {
+      "reference": "F0",
+      "x": 20,
+      "y": 20,
+      "angle": 0,
+      "bottom": false
+    },
+    {
+      "reference": "F37",
+      "x": 50,
+      "y": 20,
+      "angle": 37,
+      "bottom": false
+    },
+    {
+      "reference": "B0",
+      "x": 20,
+      "y": 60,
+      "angle": 0,
+      "bottom": true
+    },
+    {
+      "reference": "B53",
+      "x": 70,
+      "y": 60,
+      "angle": 53,
+      "bottom": true
+    }
+  ],
+  "results": [
+    {
+      "name": "F37",
+      "definition": "asymmetric",
+      "matrix": [
+        [
+          0.79863551004721,
+          -0.6018150231521583,
+          0.0,
+          50.0
+        ],
+        [
+          0.6018150231521583,
+          0.79863551004721,
+          0.0,
+          -20.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595
+        ]
+      ],
+      "bbox": [
+        47.78956039428642,
+        -17.800913956753423,
+        4.595,
+        51.19227648383731,
+        -13.599562357155316,
+        8.595
+      ]
+    },
+    {
+      "name": "=>[0:1:1:3]",
+      "definition": "Open CASCADE STEP translator 7.9 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "bbox": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        7.0
+      ]
+    },
+    {
+      "name": "F0",
+      "definition": "asymmetric",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          20.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -20.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.595
+        ]
+      ],
+      "bbox": [
+        21.0,
+        -18.0,
+        4.595,
+        24.0,
+        -15.0,
+        8.595
+      ]
+    },
+    {
+      "name": "=>[0:1:1:3]",
+      "definition": "Open CASCADE STEP translator 7.9 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "bbox": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        7.0
+      ]
+    },
+    {
+      "name": "B0",
+      "definition": "asymmetric",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          20.0
+        ],
+        [
+          0.0,
+          -1.0,
+          -1.224646799147e-16,
+          -60.0
+        ],
+        [
+          0.0,
+          1.224646799147e-16,
+          -1.0,
+          -0.085
+        ]
+      ],
+      "bbox": [
+        21.0,
+        -65.0,
+        -7.085,
+        24.0,
+        -62.0,
+        -3.084999999999999
+      ]
+    },
+    {
+      "name": "=>[0:1:1:3]",
+      "definition": "Open CASCADE STEP translator 7.9 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "bbox": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        7.0
+      ]
+    },
+    {
+      "name": "B53",
+      "definition": "asymmetric",
+      "matrix": [
+        [
+          0.6018150231521583,
+          0.79863551004721,
+          9.780464210648e-17,
+          70.0
+        ],
+        [
+          0.79863551004721,
+          -0.6018150231521583,
+          -7.370108417819e-17,
+          -60.0
+        ],
+        [
+          1.8686142692422717e-29,
+          1.2246467991473007e-16,
+          -1.0,
+          -0.085
+        ]
+      ],
+      "bbox": [
+        72.19908604324658,
+        -62.21043960571358,
+        -7.085,
+        76.40043764284468,
+        -58.80772351616269,
+        -3.084999999999999
+      ]
+    },
+    {
+      "name": "=>[0:1:1:3]",
+      "definition": "Open CASCADE STEP translator 7.9 1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "bbox": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        7.0
+      ]
+    }
+  ],
+  "fixture_files": {
+    "audit\\model-frame-calibration\\asymmetric.step": "db280e029878da289cfaa1d719689756b8731c997648f17c58b71ba0139d48a9",
+    "audit\\model-frame-calibration\\fixture.kicad_pcb": "444e08f576cd9f14dc449eade6aebdbfe1f70f52ec3a06fe38409109ae00eba9",
+    "audit\\model-frame-calibration\\fixture.step": "af78c00002124e0e5e79f031fefbcca54fddb72d664ed044747cdee91b302ec0",
+    "audit\\model-frame-calibration\\inputs.json": "ab2cc885ed9d8d5f495cf6488953c1d2ea6a068884a59c57630c8a00cd6ec9a7",
+    "audit\\model-frame-calibration\\original-calibration-script.py": "c07554fcb9ba7a481decc58ca41efa8175b595eec1939519221b7870eacbbdd9",
+    "audit\\model-frame-calibration\\result.json": "b183302b70044c669716bb077bd3bc88346cf717e14826c5383d04785a0f4b07"
+  },
+  "physical_fit_qualified": false
+}

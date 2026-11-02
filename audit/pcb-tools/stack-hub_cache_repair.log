@@ -1,0 +1,43 @@
+{
+  "candidate": "wire_hub_1V0A",
+  "board_sha256": "0d4deaf67fb7269589e09dd216a27f80bb8a1d8edbadfe09fa7431df0d0cf58c",
+  "parent_sha256": "4cfa1b835e92eeb719fdf5658c41dbf6b8304028bbf2a17ea36d8b0af9a9bc64",
+  "fresh_saved_native_geometry_checked": true,
+  "all_board_text_outside_one_ground_zone_identical": true,
+  "project_schematic_rules_library_hashes_identical": true,
+  "subtractive_only_on_native_integer_grid": true,
+  "coordinate_precision_band_nm": 2,
+  "native_added_copper_mm2": 0.0,
+  "independent_added_copper_raw_mm2": 2.0116358543727895e-10,
+  "independent_added_copper_outside_2nm_band_mm2": 0.0,
+  "source_clearance_mm": 0.254,
+  "measured_saved_gap_mm": 0.2540005194468886,
+  "independent_offset_difference_outside_2nm_band_mm2": 0.0,
+  "copper_removed_mm2": 1.2965516883391688,
+  "positive_Battery_GND_overlap_removed": true,
+  "drc_counts": {
+    "copper_edge_clearance": 17,
+    "silk_overlap": 6,
+    "silk_edge_clearance": 1
+  },
+  "all_other_DRC_findings_unchanged": true,
+  "schematic_parity": 0,
+  "airwires": 0,
+  "model_attachments": 0,
+  "manufacturing_ready": false
+}
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+10:17:36: Debug: Adding duplicate image handler for 'PNG file'
+10:17:36: Debug: Adding duplicate image handler for 'JPEG file'
+10:17:36: Debug: Adding duplicate image handler for 'TIFF file'
+10:17:36: Debug: Adding duplicate image handler for 'GIF file'
+10:17:36: Debug: Adding duplicate image handler for 'PNM file'
+10:17:36: Debug: Adding duplicate image handler for 'PCX file'
+10:17:36: Debug: Adding duplicate image handler for 'IFF file'
+10:17:36: Debug: Adding duplicate image handler for 'Windows icon file'
+10:17:36: Debug: Adding duplicate image handler for 'Windows cursor file'
+10:17:36: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+10:17:36: Debug: Adding duplicate image handler for 'TGA file'
+10:17:36: Debug: Adding duplicate image handler for 'XPM file'

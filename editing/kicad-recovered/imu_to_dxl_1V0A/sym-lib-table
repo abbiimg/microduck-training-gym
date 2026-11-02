@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "lcsc") (type "KiCad") (uri "${KIPRJMOD}/libs/lcsc.kicad_sym") (options "") (descr "Imported candidates")) (lib (name "C19702") (type "KiCad") (uri "${KIPRJMOD}/libs/C19702.kicad_sym") (options "") (descr "Separate capacitor model")))

@@ -1,0 +1,110 @@
+AUTHOR STEP IDENTITY, COMPONENT EXTRACTION, AND OUTLINE REVIEW
+Date: 2026-10-26
+
+Result
+61 of 62 placed device instances have unambiguous assembly reference identity in
+the preserved author PCB STEP files. Those 61 instances were extracted as new
+STEP and STL assets under recovered/author-step-components/<candidate>/<ref>.
+The source files and native KiCad boards were not edited. No model was attached
+to KiCad and no placement or contour was guessed.
+
+Candidate                 Expected  Extracted  Component solids  Missing
+imu_to_dxl                    29       29           123          none
+imu_to_dxl_1V0A               24       23            83          J3
+wire_hub_1V0A                  7        7            58          none
+POGO_PIN_1V0A                  2        2             2          none
+
+Identity evidence and exact transformations
+- STEP PRODUCT names have an exact '<ref>~' prefix and contain the corresponding
+  placed-device metadata model title; NEXT_ASSEMBLY_USAGE_OCCURRENCE names have
+  the same exact reference. Each matched reference is unique within its board.
+- XCAF independently exposes those same reference instance names and referred
+  product definition labels. Example POGO instance 'U1' refers to
+  'U1~SMD_BD3.0-D1.2-H9.5~SMD_BD3.0-D1.2-H9.5~6vWn'; nested 'U1->0' refers to
+  shared definition 'SMD_BD3.0-D1.2-H9.5~SMD_BD3.0-D1.2-H9.5~461I'.
+- POGO U1 instance transform is diag(-1,1,-1) with translation
+  (36.566003333314,4.042131064262,0.9) mm. This is obtained from XCAF, not inferred
+  from component dimensions or pad geometry.
+- Installed OCP XCAFDoc_ShapeTool.GetShape_s documentation: 'For component,
+  returns new shape with correct location'. GetLocation_s returns the 'location
+  of instance'. Each file has exactly one free/root assembly and its root
+  location is identity. Extraction exports GetShape_s of the exact reference
+  label, retaining its nested assembly and instance transforms.
+- Model UUIDs do not occur in the STEP text. The identity claim is exact
+  reference + matching title + explicit assembly link, not a UUID match.
+- Revised IMU J3 is absent from its author STEP. Its metadata UUID, title and
+  model transform are identical to old IMU J3, whose geometry was recovered;
+  this does not establish the missing revised-board instance's placement.
+
+Delivered assets and verification
+- Each candidate has component-manifest.json and PROVENANCE.txt. Manifests record
+  the original STEP SHA256, exact labels, metadata ID/title, XCAF instance matrix,
+  valid solid count, analytic bounds, volume, output hashes and roundtrip error.
+- All 61 exported STEP files re-import as valid shapes with unchanged solid
+  counts and volumes within the stated tool tolerance. Maximum analytic bbox
+  roundtrip residual is 1.4077627952246985e-13 mm.
+- Analytic bounding uses BRepBndLib.AddOptimal_s(shape,box,False,False), explicitly
+  excluding triangulation caches; STL export of shared source definitions can
+  otherwise change mesh-based bbox approximations without changing geometry.
+- All generated STEP/STL hashes match their manifests. All 61 binary STL files
+  have nonzero triangle counts and the expected 84+50*N byte structure. STL was
+  tessellated with 0.02 mm linear and 0.1 rad angular deflection. STL is unitless;
+  its numeric coordinates are millimetres.
+- All four original STEP hashes still match audit/source-pcb-step-review.json.
+- Aggregate verification: audit/author-component-extraction-review.json.
+- Reusable tool: tools/extract_author_step_components.py. It requires the
+  installed CadQuery/OCP Python and an explicit candidate name.
+- These are placed snapshots in the WHOLE AUTHOR PCB STEP coordinate frame,
+  not local-origin package models. No parametric history, manufacturing readiness,
+  KiCad placement qualification or new license rights are claimed.
+
+POGO cached outline versus raw outline: observed facts
+- Four active raw layer-11 POLY segments form a rectangle with centreline bounds
+  x=2898.5434..4441.4567 and y=226.3386..493.6614 source mil.
+  Their line width is 3.937 mil, approximately 0.100 mm.
+- Raw centreline dimensions using exact mil=0.0254 mm are
+  39.18999782 x 6.78999912 mm, consistent with README 39.19 x 6.79 mm rounding.
+- The cached BOARD rectangle is x=2899.0434..4440.9567,
+  y=226.8386..493.1614. It is inset exactly 0.5 mil=0.0127 mm on every side.
+- The inset is NOT half the raw stroke: half of 3.937 mil is about 0.050 mm.
+  No half-stroke geometry correction is justified by these records.
+- CANVAS origin is (2898.5434,226.3386). Subtracting this origin and dividing
+  cached coordinates by 39.37 gives author STEP Board~l4fB bounds to 3.6e-13 mm:
+  x=0.01270002540005..39.177376174752,
+  y=0.01270002540005..6.777312674625 mm.
+  STEP width=39.16467614935195 mm; exact-mil cached width=39.16459782 mm.
+- Dividing by 39.37 instead of multiplying by exact 0.0254 introduces a roughly
+  2 ppm scale difference. The installed client has an MM=39.37 unit table and
+  also an exact mil2mm(t){return t*.0254} helper. The numeric exporter match is
+  strong evidence for that conversion path, but its precise export call site
+  and the algorithm producing the 0.5-mil cache inset were not established.
+
+Other author board bodies do not all match the cached outline
+- Hub Board~QOFv bounds match cached BOARD minus CANVAS origin divided by39.37
+  within 3.3e-8 mm.
+- Revised IMU Board~3kha consists of FIVE solids and extends 0.050 mm beyond
+  those cached bounds in x/y. Its body is not a direct single-contour equivalent.
+- Old IMU Board~ss66 is one solid; compared with cached bounds converted by
+  /39.37, x extends 0.050 mm on each side, and its y maximum is 0.724010668 mm
+  larger. No active raw layer-11 outline primitive was found for this old PCB.
+- These mismatches have not been attributed to stale export, stroke, cutouts,
+  or another specific cause. They prevent treating these author board bodies
+  as proof that a recovered native PCB outline or model placement is correct.
+  No automatic rescaling, contour replacement, or model attachment was done.
+
+Sources and scope
+- audit/step-identity-labels.json: textual PRODUCT/usage identity records.
+- audit/step-xcaf-identity-review.json: XCAF names, locations and hierarchy.
+- audit/outline-cache-review.json: source BOARD/CANVAS and raw polygon records.
+- audit/author-step-outline-comparison.json: numerical board comparisons.
+- audit/placed-device-model-metadata.json: all 62 placed-device model metadata.
+- Pinned community format notes work/easyeda-format-skill/primitives/PCB/board.md
+  describe BOARD as the fixed singleton whole-board complex outline path and
+  describe decoder finish() selecting path[0]. Those notes do not document a
+  centreline/stroke inset rule; they are community documentation, not an export
+  tolerance specification.
+- Installed client decodeWorker.js under lceda-pro-4.1.78 resources,
+  pro-pcb/4.1.67.65530fb3/js, SHA256
+  112e589a741bbb2b3250a70442a8eb3dd59f2bfe8160d71ddc4eb9e0a36be1a4.
+  Local snippets in work/outline-offset-probe.json establish the conversion
+  constants only; they do not establish why the cached BOARD was inset.

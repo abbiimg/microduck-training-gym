@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -euo pipefail
+root=/home/workbench/robotics/pcb-tools
+export GEM_HOME="$root/gems"
+export GEM_PATH="$root/gems:$(ruby -e 'puts Gem.default_dir')"
+export PATH="$root/venv/bin:$root/gems/bin:$PATH"
+tool="${1:?Specify a tool}"
+shift
+case "$tool" in
+  kibot|python|pytest) exec "$root/venv/bin/$tool" "$@" ;;
+  ceedling) exec "$root/gems/bin/ceedling" "$@" ;;
+  ngspice|kicad-cli) exec "/usr/bin/$tool" "$@" ;;
+  renode) exec "$root/renode_1.17.0-portable/renode" "$@" ;;
+  *) echo 'Unsupported tool' >&2; exit 2 ;;
+esac

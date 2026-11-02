@@ -1,0 +1,169 @@
+{
+  "candidate": "POGO_PIN_1V0A",
+  "parent_board": "editing/kicad-source-clearances/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_pcb",
+  "parent_sha256": "a5e09109ac9c26e054e94f99b6b57f789221cbe885ef27ace507b30b678f1036",
+  "replay_sha256": "566cd286a46b198145f81a4e32ed03b8c18e32c0b4a32c6a13409b71991676e0",
+  "recovered_source_objects": [
+    {
+      "reference": "U1",
+      "footprint": "246f539b7556da2f",
+      "type": "POLY",
+      "source_id": "e5",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "U2",
+      "footprint": "246f539b7556da2f",
+      "type": "POLY",
+      "source_id": "e5",
+      "layer_type": "TOP_SILK"
+    }
+  ],
+  "native_graphic_objects": [
+    {
+      "reference": "U1",
+      "source_type": "POLY",
+      "source_id": "e5",
+      "native_uuid": "1cf93a2b-ec7c-441d-8850-d387d52234a2",
+      "expected": {
+        "shape": 3,
+        "layer": 7,
+        "width": 151994,
+        "fill_mode": 1,
+        "start": [
+          110183935,
+          -9791123
+        ],
+        "end": [
+          108284015,
+          -9791123
+        ]
+      }
+    },
+    {
+      "reference": "U2",
+      "source_type": "POLY",
+      "source_id": "e5",
+      "native_uuid": "40d66569-f3aa-4b7c-9239-4f0ff4520873",
+      "expected": {
+        "shape": 3,
+        "layer": 7,
+        "width": 151994,
+        "fill_mode": 1,
+        "start": [
+          76384155,
+          -9789371
+        ],
+        "end": [
+          74484235,
+          -9789371
+        ]
+      }
+    }
+  ],
+  "references": [
+    {
+      "reference": "U1",
+      "source_record": {
+        "header": {
+          "type": "ATTR",
+          "ticket": 48259,
+          "id": "42c33da36ed4bc39e2"
+        },
+        "data": {
+          "partitionId": "",
+          "groupID": 0,
+          "parentId": "42c33da36ed4bc39",
+          "layerId": 4,
+          "x": 4278.5434,
+          "y": 251.3386,
+          "key": "Designator",
+          "value": "U1",
+          "keyVisible": false,
+          "valueVisible": true,
+          "fontFamily": "default",
+          "fontSize": 45,
+          "strokeWidth": 6,
+          "bold": 0,
+          "italic": 0,
+          "origin": "LEFT_BOTTOM",
+          "angle": 0,
+          "reverse": false,
+          "expansion": 0,
+          "mirror": false,
+          "locked": false,
+          "zIndex": 2,
+          "specialColor": null
+        },
+        "line": 29809,
+        "segment": 174,
+        "client": "595d43fbfc1f31fb"
+      },
+      "native_position_nm": [
+        108675002,
+        -6384000
+      ],
+      "native_layer": 7,
+      "native_angle_degrees": 0.0,
+      "typography_qualified": false
+    },
+    {
+      "reference": "U2",
+      "source_record": {
+        "header": {
+          "type": "ATTR",
+          "ticket": 48260,
+          "id": "f0e13b7b7bcbb5eee2"
+        },
+        "data": {
+          "partitionId": "",
+          "groupID": 0,
+          "parentId": "f0e13b7b7bcbb5ee",
+          "layerId": 4,
+          "x": 3108.5434,
+          "y": 256.3386,
+          "key": "Designator",
+          "value": "U2",
+          "keyVisible": false,
+          "valueVisible": true,
+          "fontFamily": "default",
+          "fontSize": 45,
+          "strokeWidth": 6,
+          "bold": 0,
+          "italic": 0,
+          "origin": "LEFT_BOTTOM",
+          "angle": 0,
+          "reverse": false,
+          "expansion": 0,
+          "mirror": false,
+          "locked": false,
+          "zIndex": 2,
+          "specialColor": null
+        },
+        "line": 29810,
+        "segment": 174,
+        "client": "595d43fbfc1f31fb"
+      },
+      "native_position_nm": [
+        78957002,
+        -6511000
+      ],
+      "native_layer": 7,
+      "native_angle_degrees": 0.0,
+      "typography_qualified": false
+    }
+  ],
+  "skipped": [],
+  "copper_mask_paste_changed": false,
+  "manufacturing_ready": false,
+  "typography": "KiCad stroke-font substitution; source content/position/style/anchor/angle/mirror retained; glyph metrics/font parity unqualified",
+  "saved_copper_and_pad_geometry_verified": true,
+  "library_graphics_reload_verified": true,
+  "engineering_board_sha256": "a3da5545a0251f4b08176befa0932d6f028e3c57425e34eb494d5b5f91ac91cf",
+  "drc_status": "completed",
+  "drc_counts": {
+    "nonmirrored_text_on_back_layer": 2
+  },
+  "unconnected": 0,
+  "schematic_parity": []
+}

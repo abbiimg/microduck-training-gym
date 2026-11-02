@@ -1,0 +1,30 @@
+(footprint "TestPoint_Line_0.2x0.8mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 8a6b2342-6da6-40f9-add1-0e1201556c76)
+  )
+  (fp_text value "TestPoint_Line_0.2x0.8mm" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 30b1ba32-ddb9-43e2-aa49-7d819e7f9642)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e2600473-797f-457a-ae63-fbe20876d42f)
+  )
+  (fp_poly
+    (pts
+      (xy -0.4 -0.1)
+      (xy 0.4 -0.1)
+      (xy 0.4 0.1)
+      (xy -0.4 0.1)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Mask") (tstamp f55ecd94-2671-478c-af5f-7e161f782485))
+  (pad "1" smd custom (at 0 0) (size 0.8 0.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ) (tstamp d99a738f-d5f9-4ee5-9b1e-0b659f694d8b))
+)

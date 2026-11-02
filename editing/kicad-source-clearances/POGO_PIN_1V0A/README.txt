@@ -1,0 +1,1 @@
+Bounded source-clearance engineering copy. Copper/board bytes unchanged. Explicit supported SAFE pairs plus conservative zone/edge/drill envelopes; global defaults retained for unmapped objects. Full source-rule fidelity and manufacturing readiness remain false. Read ../../../SOURCE-CLEARANCE-PROGRESS.txt. Never refill static copper.

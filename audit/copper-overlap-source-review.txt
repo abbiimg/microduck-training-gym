@@ -1,0 +1,68 @@
+MicroDuck copper-overlap source/history review - 2026-10-27
+
+No source, native board or rules were edited by this audit. Source coordinates,
+cache polygons and current pad definitions were measured independently of the
+KiCad consolidation. Native paired boards before union give the same overlaps;
+source/native polygon discrepancies are confined to a 2 nm coordinate band.
+
+Hub: demonstrably stale cache versus new connector
+The current bottom GND POUR record 6433fd3c96979807 is ticket 47248; its last
+POURED cache is ticket 47251. CN1 (ID a7ac844818530c4e) first appears later at
+ticket 47725, initially with empty pad nets. It moves to source coordinates
+x = 2305 mil, y = 915 mil, angle = 180 degrees at ticket 47940. Its current
+pad 2 GND and pad 1 Battery assignments are tickets 47941 and 47942.
+This cached copper could not account
+for the subsequently added connector. Direct source/current-pad intersection
+is 0.079409 mm2 even without optimization expansion, and 0.201673 mm2 with the documented
+owner-fineness boundary stroke. Subtracting the actual drill leaves the same
+positive annulus overlap. Original paired KiCad copper already overlaps; the
+same-net union and earlier BATTERY/Battery repair did not introduce it.
+
+An intentional engineering candidate may subtract the new Battery pad plus
+its exact source PTH-pad/pour clearance from the stale GND copper. This is a
+design correction derived from evidence, not exact source recovery or a full
+cache refill. Keep all source and literal copies unchanged.
+
+Revised IMU: stale typed FILL after same-ID conversion/deletion
+VDD_BUS FILL record 746a86ec39ac9e6d is ticket 38492. The same ID with an
+identical contour becomes a POUR record at ticket 44571. Its author-assigned
+object name is "POUR5"; the suffix 5 is part of that name, not a copper layer.
+The record is on source layer 1 (top copper). It receives POURED cache records
+at tickets 44574 and 44593, then an explicit POUR tombstone at ticket 44594.
+The typed (type, id) replay retains the earlier FILL because no FILL tombstone
+is present. The latest GND caches at tickets 45215 and 45217 are later still.
+The retained old FILL overlaps their union by 2.878691 mm2 without optimization
+expansion, or 3.818385 mm2 with it; before-union native copper gives 3.818383 mm2.
+This accounts for the two positive-overlap regions found in the existing
+transition hypothesis. It is separate from old GND FILL 84a63625734e769f.
+
+The VDD_BUS FILL has isBridgingCopper=false and an empty networkList. Cache net/layer
+come from its owner POUR, and the cached geometry is already the pour result;
+no verified hidden net override or priority operation was found that cancels
+the retained old FILL. The later matching-ID POUR lifecycle strongly supports
+an obsolete-FILL interpretation, but does not prove global cross-type replay
+semantics. Other POLY/FILL shared IDs exist, so globally dropping older shapes
+would be unjustified. Do not change the generic reader or existing candidates
+on this inference.
+
+Proposed next IMU experiment: preserve the literal and old-GND-only hypothesis,
+then create a separately named dual-transition hypothesis that also omits
+the demonstrably later-converted/deleted VDD_BUS FILL. Record the precise source
+history and qualification boundary, and rerun copper diff, parity and DRC.
+
+Installed official decoder inspection
+The optional JSON evidence records exact local file SHA and semantic offsets.
+POUR fineness is converted from mil to 0.01-inch internal units; solid cached
+copper math includes a round boundary stroke of its optimization width. The
+cache inherits owner layer and net. These observations support the measured
+geometry profile; they do not establish cross-type record deletion behavior.
+No client execution, account login or EasyEDA activation was required.
+
+Repeatable read-only tool: tools/review_copper_overlap_sources.py --reader PATH
+[--decoder installed-decodeWorker.js]. Run with the WSL PCB Python. The JSON
+contains exact history line/ticket/client/segment hashes and source/native
+areas. Within the raw history list, "segment" counts DOCHEAD entries across
+the entire log. Active source record summaries retain the reader's own
+per-document segment field; those are different counters. Line numbers and
+record-line hashes identify the exact raw records in either representation.
+All manufacturing qualification flags remain false.

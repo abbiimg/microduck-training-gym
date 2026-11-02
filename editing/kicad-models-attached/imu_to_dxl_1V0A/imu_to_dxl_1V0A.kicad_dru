@@ -1,0 +1,460 @@
+(version 1)
+
+(rule "Source SAFE F.Cu track to track"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Track')")
+  (constraint clearance (min 0.101999mm)))
+
+(rule "Source SAFE F.Cu track to smd"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu track to pth"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu track to via"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Via')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu track to graphic"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE F.Cu track to zone_6"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu track to zone_6_7"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE F.Cu track to zone_7"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE F.Cu smd to smd"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu smd to pth"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu smd to via"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Via')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu smd to graphic"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE F.Cu smd to zone_6"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu smd to zone_6_7"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE F.Cu smd to zone_7"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE F.Cu pth to pth"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu pth to via"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Via')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu pth to graphic"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE F.Cu pth to zone_6"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu pth to zone_6_7"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE F.Cu pth to zone_7"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE F.Cu via to via"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Via') && (B.Type == 'Via')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu via to graphic"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Via') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE F.Cu via to zone_6"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu via to zone_6_7"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE F.Cu via to zone_7"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE F.Cu graphic to graphic"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE F.Cu graphic to zone_6"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE F.Cu graphic to zone_6_7"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE F.Cu graphic to zone_7"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE F.Cu zone_6 to zone_6"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Zone' && (A.Name == 'Static union /SWDCLK F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 17' || A.Name == 'Static union /3.3V F.Cu 20' || A.Name == 'Static union /DE F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 11' || A.Name == 'Static union /DXL_BUS F.Cu 4' || A.Name == 'Static union /UART_RX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 6' || A.Name == 'Static union /SWDIO F.Cu 0' || A.Name == 'Static union /UART_RX F.Cu 1' || A.Name == 'Static union /SPI_CS F.Cu 2' || A.Name == 'Static union /SPI_MISO F.Cu 2' || A.Name == 'Static union /DXL_BUS F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 23' || A.Name == 'Static union /3.3V F.Cu 19' || A.Name == 'Static union /SPI_MOSI F.Cu 0' || A.Name == 'Static union /RX_EN F.Cu 3' || A.Name == 'Static union /UART_TX F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 5' || A.Name == 'Static union /DE F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 2' || A.Name == 'Static union /SWDIO F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 0' || A.Name == 'Static union /SPI_SCK F.Cu 1' || A.Name == 'Static union /RX_EN F.Cu 2' || A.Name == 'Static union /SPI_CS F.Cu 1' || A.Name == 'Static union /SPI_SCK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 0' || A.Name == 'Static union /UART_TX F.Cu 0' || A.Name == 'Static union /NRST F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 1' || A.Name == 'Static union /SPI_MISO F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 10' || A.Name == 'Static union /SPI_MOSI F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 3' || A.Name == 'Static union /DXL_DATA F.Cu 4' || A.Name == 'Static union /SPI_CS F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 7' || A.Name == 'Static union /3.3V F.Cu 4' || A.Name == 'Static union /3.3V F.Cu 18' || A.Name == 'Static union /SWDCLK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 15' || A.Name == 'Static union /MCU_TX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 14' || A.Name == 'Static union /3.3V F.Cu 12' || A.Name == 'Static union /IMU_INT1 F.Cu 1' || A.Name == 'Static union /VDD_BUS F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 2' || A.Name == 'Static union /RX_EN F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 9' || A.Name == 'Static union /IMU_INT2 F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT1 F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 8' || A.Name == 'Static union /DE F.Cu 0' || A.Name == 'Static union /NRST F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 22' || A.Name == 'Static union /3.3V F.Cu 13' || A.Name == 'Static union /3.3V F.Cu 21' || A.Name == 'Static union /RX_EN F.Cu 0' || A.Name == 'Static union /SPI_CS F.Cu 3' || A.Name == 'Static union /VDD_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT2 F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 16' || A.Name == 'Static union /3.3V B.Cu 2' || A.Name == 'Static union /SPI_MISO B.Cu 1' || A.Name == 'Static union /RX_EN B.Cu 0' || A.Name == 'Static union /RX_EN B.Cu 1' || A.Name == 'Static union /3.3V B.Cu 3' || A.Name == 'Static union /3.3V B.Cu 4' || A.Name == 'Static union /3.3V B.Cu 1' || A.Name == 'Static union /SPI_MISO B.Cu 0' || A.Name == 'Static union /3.3V B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu zone_6 to zone_6_7"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Zone' && (A.Name == 'Static union /SWDCLK F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 17' || A.Name == 'Static union /3.3V F.Cu 20' || A.Name == 'Static union /DE F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 11' || A.Name == 'Static union /DXL_BUS F.Cu 4' || A.Name == 'Static union /UART_RX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 6' || A.Name == 'Static union /SWDIO F.Cu 0' || A.Name == 'Static union /UART_RX F.Cu 1' || A.Name == 'Static union /SPI_CS F.Cu 2' || A.Name == 'Static union /SPI_MISO F.Cu 2' || A.Name == 'Static union /DXL_BUS F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 23' || A.Name == 'Static union /3.3V F.Cu 19' || A.Name == 'Static union /SPI_MOSI F.Cu 0' || A.Name == 'Static union /RX_EN F.Cu 3' || A.Name == 'Static union /UART_TX F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 5' || A.Name == 'Static union /DE F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 2' || A.Name == 'Static union /SWDIO F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 0' || A.Name == 'Static union /SPI_SCK F.Cu 1' || A.Name == 'Static union /RX_EN F.Cu 2' || A.Name == 'Static union /SPI_CS F.Cu 1' || A.Name == 'Static union /SPI_SCK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 0' || A.Name == 'Static union /UART_TX F.Cu 0' || A.Name == 'Static union /NRST F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 1' || A.Name == 'Static union /SPI_MISO F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 10' || A.Name == 'Static union /SPI_MOSI F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 3' || A.Name == 'Static union /DXL_DATA F.Cu 4' || A.Name == 'Static union /SPI_CS F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 7' || A.Name == 'Static union /3.3V F.Cu 4' || A.Name == 'Static union /3.3V F.Cu 18' || A.Name == 'Static union /SWDCLK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 15' || A.Name == 'Static union /MCU_TX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 14' || A.Name == 'Static union /3.3V F.Cu 12' || A.Name == 'Static union /IMU_INT1 F.Cu 1' || A.Name == 'Static union /VDD_BUS F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 2' || A.Name == 'Static union /RX_EN F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 9' || A.Name == 'Static union /IMU_INT2 F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT1 F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 8' || A.Name == 'Static union /DE F.Cu 0' || A.Name == 'Static union /NRST F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 22' || A.Name == 'Static union /3.3V F.Cu 13' || A.Name == 'Static union /3.3V F.Cu 21' || A.Name == 'Static union /RX_EN F.Cu 0' || A.Name == 'Static union /SPI_CS F.Cu 3' || A.Name == 'Static union /VDD_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT2 F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 16' || A.Name == 'Static union /3.3V B.Cu 2' || A.Name == 'Static union /SPI_MISO B.Cu 1' || A.Name == 'Static union /RX_EN B.Cu 0' || A.Name == 'Static union /RX_EN B.Cu 1' || A.Name == 'Static union /3.3V B.Cu 3' || A.Name == 'Static union /3.3V B.Cu 4' || A.Name == 'Static union /3.3V B.Cu 1' || A.Name == 'Static union /SPI_MISO B.Cu 0' || A.Name == 'Static union /3.3V B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE F.Cu zone_6 to zone_7"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Zone' && (A.Name == 'Static union /SWDCLK F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 17' || A.Name == 'Static union /3.3V F.Cu 20' || A.Name == 'Static union /DE F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 11' || A.Name == 'Static union /DXL_BUS F.Cu 4' || A.Name == 'Static union /UART_RX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 6' || A.Name == 'Static union /SWDIO F.Cu 0' || A.Name == 'Static union /UART_RX F.Cu 1' || A.Name == 'Static union /SPI_CS F.Cu 2' || A.Name == 'Static union /SPI_MISO F.Cu 2' || A.Name == 'Static union /DXL_BUS F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 23' || A.Name == 'Static union /3.3V F.Cu 19' || A.Name == 'Static union /SPI_MOSI F.Cu 0' || A.Name == 'Static union /RX_EN F.Cu 3' || A.Name == 'Static union /UART_TX F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 5' || A.Name == 'Static union /DE F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 2' || A.Name == 'Static union /SWDIO F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 0' || A.Name == 'Static union /SPI_SCK F.Cu 1' || A.Name == 'Static union /RX_EN F.Cu 2' || A.Name == 'Static union /SPI_CS F.Cu 1' || A.Name == 'Static union /SPI_SCK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 0' || A.Name == 'Static union /UART_TX F.Cu 0' || A.Name == 'Static union /NRST F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 1' || A.Name == 'Static union /SPI_MISO F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 10' || A.Name == 'Static union /SPI_MOSI F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 3' || A.Name == 'Static union /DXL_DATA F.Cu 4' || A.Name == 'Static union /SPI_CS F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 7' || A.Name == 'Static union /3.3V F.Cu 4' || A.Name == 'Static union /3.3V F.Cu 18' || A.Name == 'Static union /SWDCLK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 15' || A.Name == 'Static union /MCU_TX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 14' || A.Name == 'Static union /3.3V F.Cu 12' || A.Name == 'Static union /IMU_INT1 F.Cu 1' || A.Name == 'Static union /VDD_BUS F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 2' || A.Name == 'Static union /RX_EN F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 9' || A.Name == 'Static union /IMU_INT2 F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT1 F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 8' || A.Name == 'Static union /DE F.Cu 0' || A.Name == 'Static union /NRST F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 22' || A.Name == 'Static union /3.3V F.Cu 13' || A.Name == 'Static union /3.3V F.Cu 21' || A.Name == 'Static union /RX_EN F.Cu 0' || A.Name == 'Static union /SPI_CS F.Cu 3' || A.Name == 'Static union /VDD_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT2 F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 16' || A.Name == 'Static union /3.3V B.Cu 2' || A.Name == 'Static union /SPI_MISO B.Cu 1' || A.Name == 'Static union /RX_EN B.Cu 0' || A.Name == 'Static union /RX_EN B.Cu 1' || A.Name == 'Static union /3.3V B.Cu 3' || A.Name == 'Static union /3.3V B.Cu 4' || A.Name == 'Static union /3.3V B.Cu 1' || A.Name == 'Static union /SPI_MISO B.Cu 0' || A.Name == 'Static union /3.3V B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE F.Cu zone_6_7 to zone_6_7"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Zone' && (A.Name == 'Static union /GND F.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE F.Cu zone_6_7 to zone_7"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Zone' && (A.Name == 'Static union /GND F.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE F.Cu zone_7 to zone_7"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Zone' && (A.Name == 'Static union /GND B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE B.Cu track to track"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Track')")
+  (constraint clearance (min 0.101999mm)))
+
+(rule "Source SAFE B.Cu track to smd"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu track to pth"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu track to via"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Via')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu track to graphic"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE B.Cu track to zone_6"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu track to zone_6_7"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE B.Cu track to zone_7"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE B.Cu smd to smd"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu smd to pth"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu smd to via"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Via')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu smd to graphic"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE B.Cu smd to zone_6"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu smd to zone_6_7"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE B.Cu smd to zone_7"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE B.Cu pth to pth"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu pth to via"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Via')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu pth to graphic"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE B.Cu pth to zone_6"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu pth to zone_6_7"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE B.Cu pth to zone_7"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE B.Cu via to via"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Via') && (B.Type == 'Via')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu via to graphic"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Via') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE B.Cu via to zone_6"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu via to zone_6_7"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE B.Cu via to zone_7"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE B.Cu graphic to graphic"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE B.Cu graphic to zone_6"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE B.Cu graphic to zone_6_7"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE B.Cu graphic to zone_7"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE B.Cu zone_6 to zone_6"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Zone' && (A.Name == 'Static union /SWDCLK F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 17' || A.Name == 'Static union /3.3V F.Cu 20' || A.Name == 'Static union /DE F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 11' || A.Name == 'Static union /DXL_BUS F.Cu 4' || A.Name == 'Static union /UART_RX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 6' || A.Name == 'Static union /SWDIO F.Cu 0' || A.Name == 'Static union /UART_RX F.Cu 1' || A.Name == 'Static union /SPI_CS F.Cu 2' || A.Name == 'Static union /SPI_MISO F.Cu 2' || A.Name == 'Static union /DXL_BUS F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 23' || A.Name == 'Static union /3.3V F.Cu 19' || A.Name == 'Static union /SPI_MOSI F.Cu 0' || A.Name == 'Static union /RX_EN F.Cu 3' || A.Name == 'Static union /UART_TX F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 5' || A.Name == 'Static union /DE F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 2' || A.Name == 'Static union /SWDIO F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 0' || A.Name == 'Static union /SPI_SCK F.Cu 1' || A.Name == 'Static union /RX_EN F.Cu 2' || A.Name == 'Static union /SPI_CS F.Cu 1' || A.Name == 'Static union /SPI_SCK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 0' || A.Name == 'Static union /UART_TX F.Cu 0' || A.Name == 'Static union /NRST F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 1' || A.Name == 'Static union /SPI_MISO F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 10' || A.Name == 'Static union /SPI_MOSI F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 3' || A.Name == 'Static union /DXL_DATA F.Cu 4' || A.Name == 'Static union /SPI_CS F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 7' || A.Name == 'Static union /3.3V F.Cu 4' || A.Name == 'Static union /3.3V F.Cu 18' || A.Name == 'Static union /SWDCLK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 15' || A.Name == 'Static union /MCU_TX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 14' || A.Name == 'Static union /3.3V F.Cu 12' || A.Name == 'Static union /IMU_INT1 F.Cu 1' || A.Name == 'Static union /VDD_BUS F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 2' || A.Name == 'Static union /RX_EN F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 9' || A.Name == 'Static union /IMU_INT2 F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT1 F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 8' || A.Name == 'Static union /DE F.Cu 0' || A.Name == 'Static union /NRST F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 22' || A.Name == 'Static union /3.3V F.Cu 13' || A.Name == 'Static union /3.3V F.Cu 21' || A.Name == 'Static union /RX_EN F.Cu 0' || A.Name == 'Static union /SPI_CS F.Cu 3' || A.Name == 'Static union /VDD_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT2 F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 16' || A.Name == 'Static union /3.3V B.Cu 2' || A.Name == 'Static union /SPI_MISO B.Cu 1' || A.Name == 'Static union /RX_EN B.Cu 0' || A.Name == 'Static union /RX_EN B.Cu 1' || A.Name == 'Static union /3.3V B.Cu 3' || A.Name == 'Static union /3.3V B.Cu 4' || A.Name == 'Static union /3.3V B.Cu 1' || A.Name == 'Static union /SPI_MISO B.Cu 0' || A.Name == 'Static union /3.3V B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu zone_6 to zone_6_7"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Zone' && (A.Name == 'Static union /SWDCLK F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 17' || A.Name == 'Static union /3.3V F.Cu 20' || A.Name == 'Static union /DE F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 11' || A.Name == 'Static union /DXL_BUS F.Cu 4' || A.Name == 'Static union /UART_RX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 6' || A.Name == 'Static union /SWDIO F.Cu 0' || A.Name == 'Static union /UART_RX F.Cu 1' || A.Name == 'Static union /SPI_CS F.Cu 2' || A.Name == 'Static union /SPI_MISO F.Cu 2' || A.Name == 'Static union /DXL_BUS F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 23' || A.Name == 'Static union /3.3V F.Cu 19' || A.Name == 'Static union /SPI_MOSI F.Cu 0' || A.Name == 'Static union /RX_EN F.Cu 3' || A.Name == 'Static union /UART_TX F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 5' || A.Name == 'Static union /DE F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 2' || A.Name == 'Static union /SWDIO F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 0' || A.Name == 'Static union /SPI_SCK F.Cu 1' || A.Name == 'Static union /RX_EN F.Cu 2' || A.Name == 'Static union /SPI_CS F.Cu 1' || A.Name == 'Static union /SPI_SCK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 0' || A.Name == 'Static union /UART_TX F.Cu 0' || A.Name == 'Static union /NRST F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 1' || A.Name == 'Static union /SPI_MISO F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 10' || A.Name == 'Static union /SPI_MOSI F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 3' || A.Name == 'Static union /DXL_DATA F.Cu 4' || A.Name == 'Static union /SPI_CS F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 7' || A.Name == 'Static union /3.3V F.Cu 4' || A.Name == 'Static union /3.3V F.Cu 18' || A.Name == 'Static union /SWDCLK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 15' || A.Name == 'Static union /MCU_TX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 14' || A.Name == 'Static union /3.3V F.Cu 12' || A.Name == 'Static union /IMU_INT1 F.Cu 1' || A.Name == 'Static union /VDD_BUS F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 2' || A.Name == 'Static union /RX_EN F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 9' || A.Name == 'Static union /IMU_INT2 F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT1 F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 8' || A.Name == 'Static union /DE F.Cu 0' || A.Name == 'Static union /NRST F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 22' || A.Name == 'Static union /3.3V F.Cu 13' || A.Name == 'Static union /3.3V F.Cu 21' || A.Name == 'Static union /RX_EN F.Cu 0' || A.Name == 'Static union /SPI_CS F.Cu 3' || A.Name == 'Static union /VDD_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT2 F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 16' || A.Name == 'Static union /3.3V B.Cu 2' || A.Name == 'Static union /SPI_MISO B.Cu 1' || A.Name == 'Static union /RX_EN B.Cu 0' || A.Name == 'Static union /RX_EN B.Cu 1' || A.Name == 'Static union /3.3V B.Cu 3' || A.Name == 'Static union /3.3V B.Cu 4' || A.Name == 'Static union /3.3V B.Cu 1' || A.Name == 'Static union /SPI_MISO B.Cu 0' || A.Name == 'Static union /3.3V B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE B.Cu zone_6 to zone_7"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Zone' && (A.Name == 'Static union /SWDCLK F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 17' || A.Name == 'Static union /3.3V F.Cu 20' || A.Name == 'Static union /DE F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 11' || A.Name == 'Static union /DXL_BUS F.Cu 4' || A.Name == 'Static union /UART_RX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 6' || A.Name == 'Static union /SWDIO F.Cu 0' || A.Name == 'Static union /UART_RX F.Cu 1' || A.Name == 'Static union /SPI_CS F.Cu 2' || A.Name == 'Static union /SPI_MISO F.Cu 2' || A.Name == 'Static union /DXL_BUS F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 23' || A.Name == 'Static union /3.3V F.Cu 19' || A.Name == 'Static union /SPI_MOSI F.Cu 0' || A.Name == 'Static union /RX_EN F.Cu 3' || A.Name == 'Static union /UART_TX F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 5' || A.Name == 'Static union /DE F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 2' || A.Name == 'Static union /SWDIO F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 0' || A.Name == 'Static union /SPI_SCK F.Cu 1' || A.Name == 'Static union /RX_EN F.Cu 2' || A.Name == 'Static union /SPI_CS F.Cu 1' || A.Name == 'Static union /SPI_SCK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 0' || A.Name == 'Static union /UART_TX F.Cu 0' || A.Name == 'Static union /NRST F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 1' || A.Name == 'Static union /SPI_MISO F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 10' || A.Name == 'Static union /SPI_MOSI F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 3' || A.Name == 'Static union /DXL_DATA F.Cu 4' || A.Name == 'Static union /SPI_CS F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 7' || A.Name == 'Static union /3.3V F.Cu 4' || A.Name == 'Static union /3.3V F.Cu 18' || A.Name == 'Static union /SWDCLK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 15' || A.Name == 'Static union /MCU_TX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 14' || A.Name == 'Static union /3.3V F.Cu 12' || A.Name == 'Static union /IMU_INT1 F.Cu 1' || A.Name == 'Static union /VDD_BUS F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 2' || A.Name == 'Static union /RX_EN F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 9' || A.Name == 'Static union /IMU_INT2 F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT1 F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 8' || A.Name == 'Static union /DE F.Cu 0' || A.Name == 'Static union /NRST F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 22' || A.Name == 'Static union /3.3V F.Cu 13' || A.Name == 'Static union /3.3V F.Cu 21' || A.Name == 'Static union /RX_EN F.Cu 0' || A.Name == 'Static union /SPI_CS F.Cu 3' || A.Name == 'Static union /VDD_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT2 F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 16' || A.Name == 'Static union /3.3V B.Cu 2' || A.Name == 'Static union /SPI_MISO B.Cu 1' || A.Name == 'Static union /RX_EN B.Cu 0' || A.Name == 'Static union /RX_EN B.Cu 1' || A.Name == 'Static union /3.3V B.Cu 3' || A.Name == 'Static union /3.3V B.Cu 4' || A.Name == 'Static union /3.3V B.Cu 1' || A.Name == 'Static union /SPI_MISO B.Cu 0' || A.Name == 'Static union /3.3V B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE B.Cu zone_6_7 to zone_6_7"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Zone' && (A.Name == 'Static union /GND F.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE B.Cu zone_6_7 to zone_7"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Zone' && (A.Name == 'Static union /GND F.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source SAFE B.Cu zone_7 to zone_7"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Zone' && (A.Name == 'Static union /GND B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint clearance (min 0.254000mm)))
+
+(rule "Source edge envelope track"
+  (condition "A.Type == 'Track'")
+  (constraint edge_clearance (min 0.299999mm)))
+
+(rule "Source edge envelope smd"
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'SMD'")
+  (constraint edge_clearance (min 0.299720mm)))
+
+(rule "Source edge envelope pth"
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'")
+  (constraint edge_clearance (min 0.299720mm)))
+
+(rule "Source edge envelope via"
+  (condition "A.Type == 'Via'")
+  (constraint edge_clearance (min 0.299720mm)))
+
+(rule "Source edge envelope graphic"
+  (condition "A.Type == 'Graphic' && A.Layer != 'Edge.Cuts'")
+  (constraint edge_clearance (min 0.299999mm)))
+
+(rule "Source edge envelope zone_6"
+  (condition "A.Type == 'Zone' && (A.Name == 'Static union /SWDCLK F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 17' || A.Name == 'Static union /3.3V F.Cu 20' || A.Name == 'Static union /DE F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 11' || A.Name == 'Static union /DXL_BUS F.Cu 4' || A.Name == 'Static union /UART_RX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 6' || A.Name == 'Static union /SWDIO F.Cu 0' || A.Name == 'Static union /UART_RX F.Cu 1' || A.Name == 'Static union /SPI_CS F.Cu 2' || A.Name == 'Static union /SPI_MISO F.Cu 2' || A.Name == 'Static union /DXL_BUS F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 23' || A.Name == 'Static union /3.3V F.Cu 19' || A.Name == 'Static union /SPI_MOSI F.Cu 0' || A.Name == 'Static union /RX_EN F.Cu 3' || A.Name == 'Static union /UART_TX F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 5' || A.Name == 'Static union /DE F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 2' || A.Name == 'Static union /SWDIO F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 0' || A.Name == 'Static union /SPI_SCK F.Cu 1' || A.Name == 'Static union /RX_EN F.Cu 2' || A.Name == 'Static union /SPI_CS F.Cu 1' || A.Name == 'Static union /SPI_SCK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 0' || A.Name == 'Static union /UART_TX F.Cu 0' || A.Name == 'Static union /NRST F.Cu 1' || A.Name == 'Static union /DXL_DATA F.Cu 1' || A.Name == 'Static union /SPI_MISO F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 3' || A.Name == 'Static union /3.3V F.Cu 10' || A.Name == 'Static union /SPI_MOSI F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 3' || A.Name == 'Static union /DXL_DATA F.Cu 4' || A.Name == 'Static union /SPI_CS F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 7' || A.Name == 'Static union /3.3V F.Cu 4' || A.Name == 'Static union /3.3V F.Cu 18' || A.Name == 'Static union /SWDCLK F.Cu 0' || A.Name == 'Static union /SPI_MISO F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 15' || A.Name == 'Static union /MCU_TX F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 14' || A.Name == 'Static union /3.3V F.Cu 12' || A.Name == 'Static union /IMU_INT1 F.Cu 1' || A.Name == 'Static union /VDD_BUS F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 2' || A.Name == 'Static union /RX_EN F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 1' || A.Name == 'Static union /3.3V F.Cu 9' || A.Name == 'Static union /IMU_INT2 F.Cu 1' || A.Name == 'Static union /DXL_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT1 F.Cu 0' || A.Name == 'Static union /DXL_DATA F.Cu 2' || A.Name == 'Static union /3.3V F.Cu 8' || A.Name == 'Static union /DE F.Cu 0' || A.Name == 'Static union /NRST F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 22' || A.Name == 'Static union /3.3V F.Cu 13' || A.Name == 'Static union /3.3V F.Cu 21' || A.Name == 'Static union /RX_EN F.Cu 0' || A.Name == 'Static union /SPI_CS F.Cu 3' || A.Name == 'Static union /VDD_BUS F.Cu 0' || A.Name == 'Static union /IMU_INT2 F.Cu 0' || A.Name == 'Static union /3.3V F.Cu 16' || A.Name == 'Static union /3.3V B.Cu 2' || A.Name == 'Static union /SPI_MISO B.Cu 1' || A.Name == 'Static union /RX_EN B.Cu 0' || A.Name == 'Static union /RX_EN B.Cu 1' || A.Name == 'Static union /3.3V B.Cu 3' || A.Name == 'Static union /3.3V B.Cu 4' || A.Name == 'Static union /3.3V B.Cu 1' || A.Name == 'Static union /SPI_MISO B.Cu 0' || A.Name == 'Static union /3.3V B.Cu 0')")
+  (constraint edge_clearance (min 0.299720mm)))
+
+(rule "Source edge envelope zone_6_7"
+  (condition "A.Type == 'Zone' && (A.Name == 'Static union /GND F.Cu 0')")
+  (constraint edge_clearance (min 0.299720mm)))
+
+(rule "Source edge envelope zone_7"
+  (condition "A.Type == 'Zone' && (A.Name == 'Static union /GND B.Cu 0')")
+  (constraint edge_clearance (min 0.254000mm)))
+
+(rule "Source drill envelope pth to track"
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Track')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope pth to smd"
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope pth to pth"
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope pth to via"
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Via')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope pth to graphic"
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope pth to zone_6"
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope pth to zone_6_7"
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))")
+  (constraint hole_clearance (min 0.254000mm)))
+
+(rule "Source drill envelope pth to zone_7"
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint hole_clearance (min 0.254000mm)))
+
+(rule "Source drill envelope via to track"
+  (condition "(A.Type == 'Via') && (B.Type == 'Track')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope via to smd"
+  (condition "(A.Type == 'Via') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope via to pth"
+  (condition "(A.Type == 'Via') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope via to via"
+  (condition "(A.Type == 'Via') && (B.Type == 'Via')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope via to graphic"
+  (condition "(A.Type == 'Via') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope via to zone_6"
+  (condition "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /SWDCLK F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 17' || B.Name == 'Static union /3.3V F.Cu 20' || B.Name == 'Static union /DE F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 11' || B.Name == 'Static union /DXL_BUS F.Cu 4' || B.Name == 'Static union /UART_RX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 6' || B.Name == 'Static union /SWDIO F.Cu 0' || B.Name == 'Static union /UART_RX F.Cu 1' || B.Name == 'Static union /SPI_CS F.Cu 2' || B.Name == 'Static union /SPI_MISO F.Cu 2' || B.Name == 'Static union /DXL_BUS F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 23' || B.Name == 'Static union /3.3V F.Cu 19' || B.Name == 'Static union /SPI_MOSI F.Cu 0' || B.Name == 'Static union /RX_EN F.Cu 3' || B.Name == 'Static union /UART_TX F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 5' || B.Name == 'Static union /DE F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 2' || B.Name == 'Static union /SWDIO F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 0' || B.Name == 'Static union /SPI_SCK F.Cu 1' || B.Name == 'Static union /RX_EN F.Cu 2' || B.Name == 'Static union /SPI_CS F.Cu 1' || B.Name == 'Static union /SPI_SCK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 0' || B.Name == 'Static union /UART_TX F.Cu 0' || B.Name == 'Static union /NRST F.Cu 1' || B.Name == 'Static union /DXL_DATA F.Cu 1' || B.Name == 'Static union /SPI_MISO F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 3' || B.Name == 'Static union /3.3V F.Cu 10' || B.Name == 'Static union /SPI_MOSI F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 3' || B.Name == 'Static union /DXL_DATA F.Cu 4' || B.Name == 'Static union /SPI_CS F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 7' || B.Name == 'Static union /3.3V F.Cu 4' || B.Name == 'Static union /3.3V F.Cu 18' || B.Name == 'Static union /SWDCLK F.Cu 0' || B.Name == 'Static union /SPI_MISO F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 15' || B.Name == 'Static union /MCU_TX F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 14' || B.Name == 'Static union /3.3V F.Cu 12' || B.Name == 'Static union /IMU_INT1 F.Cu 1' || B.Name == 'Static union /VDD_BUS F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 2' || B.Name == 'Static union /RX_EN F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 1' || B.Name == 'Static union /3.3V F.Cu 9' || B.Name == 'Static union /IMU_INT2 F.Cu 1' || B.Name == 'Static union /DXL_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT1 F.Cu 0' || B.Name == 'Static union /DXL_DATA F.Cu 2' || B.Name == 'Static union /3.3V F.Cu 8' || B.Name == 'Static union /DE F.Cu 0' || B.Name == 'Static union /NRST F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 22' || B.Name == 'Static union /3.3V F.Cu 13' || B.Name == 'Static union /3.3V F.Cu 21' || B.Name == 'Static union /RX_EN F.Cu 0' || B.Name == 'Static union /SPI_CS F.Cu 3' || B.Name == 'Static union /VDD_BUS F.Cu 0' || B.Name == 'Static union /IMU_INT2 F.Cu 0' || B.Name == 'Static union /3.3V F.Cu 16' || B.Name == 'Static union /3.3V B.Cu 2' || B.Name == 'Static union /SPI_MISO B.Cu 1' || B.Name == 'Static union /RX_EN B.Cu 0' || B.Name == 'Static union /RX_EN B.Cu 1' || B.Name == 'Static union /3.3V B.Cu 3' || B.Name == 'Static union /3.3V B.Cu 4' || B.Name == 'Static union /3.3V B.Cu 1' || B.Name == 'Static union /SPI_MISO B.Cu 0' || B.Name == 'Static union /3.3V B.Cu 0'))")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope via to zone_6_7"
+  (condition "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0'))")
+  (constraint hole_clearance (min 0.254000mm)))
+
+(rule "Source drill envelope via to zone_7"
+  (condition "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /GND B.Cu 0'))")
+  (constraint hole_clearance (min 0.254000mm)))
+
+(rule "Source drill to drill minimum"
+  (constraint hole_to_hole (min 0.299999mm)))

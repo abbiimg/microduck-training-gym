@@ -1,0 +1,75 @@
+{
+  "name": "ankle_right",
+  "label_zh": "右脚踝",
+  "quantity": 1,
+  "units": "mm",
+  "stl": "01_STL_original/ankle_right__右脚踝__x1.stl",
+  "step": "02_STEP_final/ankle_right__右脚踝__x1.step",
+  "stl_sha256": "259f96641dca214c1bd56cae000a7bf9721bbbbd4aa1c43edf83849e51de67ba",
+  "step_sha256": "69af2759f1920ce2787e38fd5049d08975bf9b1e41a6219c5ed4cf35c59e9f46",
+  "stl_bytes": 248884,
+  "step_bytes": 887982,
+  "stl_triangles": 4976,
+  "cad_faces": 159,
+  "valid_solid": true,
+  "deviation": {
+    "source_to_rebuilt": {
+      "samples": 7452,
+      "max_mm": 0.01319658005974467,
+      "rms_mm": 0.002161573733342195,
+      "worst_point_mm": [
+        -33.73333231608073,
+        33.651788075764976,
+        -17.602516174316406
+      ]
+    },
+    "rebuilt_to_source": {
+      "samples": 26904,
+      "max_mm": 0.014861725665827271,
+      "rms_mm": 0.0029889035453476522,
+      "worst_point_mm": [
+        -67.0,
+        31.749029240666786,
+        -19.28608299987061
+      ]
+    }
+  },
+  "additional_audit": {
+    "random_bidirectional_samples": {
+      "source_to_step": {
+        "samples": 20000,
+        "max_mm": 0.014860889772169593,
+        "rms_mm": 0.005116111938509368
+      },
+      "step_to_source": {
+        "samples": 20000,
+        "max_mm": 0.014854584182291157,
+        "rms_mm": 0.005132890146298743
+      }
+    },
+    "bounding_box_max_delta_mm": 4.669468069096183e-06,
+    "volume_error_percent": 0.08634033460515056,
+    "edit_test": {
+      "operation": "subtract 0.4 mm box from material",
+      "center_mm": [
+        -45.1000010172526,
+        21.399999300638836,
+        -15.941925621032714
+      ],
+      "valid_after_cut": true,
+      "removed_volume_mm3": 0.04800980735399207
+    },
+    "sha256": "69af2759f1920ce2787e38fd5049d08975bf9b1e41a6219c5ed4cf35c59e9f46"
+  },
+  "improved_in_latest_round": false,
+  "max_sampled_deviation_mm": 0.014861725665827271,
+  "max_extra_sampled_deviation_mm": 0.014860889772169593,
+  "measured_bbox_mm": [
+    -69.85364236478057,
+    0.16320762038199987,
+    -22.522912427488002,
+    -30.364498138419755,
+    36.66320800781213,
+    2.97708773613
+  ]
+}

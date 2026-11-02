@@ -1,0 +1,80 @@
+MicroDuck recovered model geometry verification — 2026-10-27
+
+Result
+All61 exact source XCAF referred PRODUCT definitions match the22 recovered
+canonical STEP definitions within the stated numerical tolerances. This adds
+whole-solid and asymmetric boundary checks to the earlier bounds/volume/solid
+count consistency evidence. Original source assemblies, recovered model files,
+and the extraction index were unchanged; all recorded input hashes are current.
+
+The run performed30 full geometry comparisons. The remaining31 definitions
+reused a comparison only after exact serialized BRep BYTE equality, including
+geometry, topology and locations, and an identical recovered STEP hash. Different
+serialization was not treated as equality: it triggered another full check.
+
+Evidence
+  Valid source and recovered solids; identical solid counts.
+  Two full-solid directed Boolean cuts per full comparison.
+  Maximum symmetric difference volume:0mm^3; both directions0 for every case.
+  Maximum analytic bounding-box difference:1.4211e-13mm.
+  Maximum total surface-area difference:5.1664e-6mm^2.
+  Maximum sampled exact-boundary distance:8.8542e-8mm.
+  410116 boundary-point queries across the30 full bidirectional comparisons.
+
+Samples include every vertex, edge quarter/mid/three-quarter points, and a3x3
+UV grid per face. The trimmed-face classifier rejects samples outside a face
+or inside its holes. Target queries use exact BRep faces with analytic bounding
+box pruning; no mesh distance or triangle-centroid approximation is used.
+Distances at most1e-10mm stop at a numerical-zero upper bound. Finite sampling
+is supplementary to the whole-solid cuts, not a certified global Hausdorff bound.
+
+Tolerances
+  Analytic bounding-box difference:1e-6mm.
+  Each directed solid-volume difference:max(1e-6mm^3,1e-9*larger volume).
+  Surface-area difference:max(1e-5mm^2,1e-9*larger area).
+  Maximum sampled boundary distance:1e-5mm.
+
+An identical asymmetric positive control passed. A180degree-rotated asymmetric
+solid with equal volume and equal bounds was rejected: symmetric difference
+volume6mm^3 and sampled boundary distance2mm. This confirms that equal metrics
+alone cannot pass the full geometry test.
+
+Frames and limits
+Every comparison used the exact XCAF referred PRODUCT-DEFINITION local frame.
+There was no fitting, registration, recentering, scaling or pose optimization.
+The checks therefore retain sensitivity to asymmetric baked orientation changes.
+They establish bounded numerical geometry consistency, not mathematical or
+topological identity, original vendor origins, parametric history, footprint
+placement, pin-1 identification, package dimensions or manufacturing readiness.
+
+Revised-IMU J3 remains absent from its author STEP assembly. Its model type is
+available through old J3, but that missing revised placed instance is not one
+of the61 checked source definitions. This report makes no placement claim.
+Source model-ID assignment still relies on the earlier exact reference/title
+provenance; UUIDs are not invented as embedded STEP identities.
+
+The frozen extraction index continues to describe the earlier metric-only
+grouping operation. This separate receipt supplies the new geometry evidence
+without rewriting extraction provenance or declaring full formal BRep identity.
+
+Reproduce
+Windows CAD Python:
+C:/Users/abbii/Documents/Codex/tools/parametric-cad/cadquery/Scripts/python.exe
+  tools/verify_author_step_geometry.py
+Full run: exit0,754.8seconds; Python3.12.14 AMD64, CadQuery2.8.0,
+cadquery-ocp7.9.3.1.1, NumPy2.5.4. Recovered geometry is numeric millimetres.
+
+Routine receipt validation, ordinary Python:
+  tools/verify_author_step_geometry_receipt.py
+It checks complete61-reference coverage, hashes of all four source assemblies,
+all22 recovered STEP models and the extraction index, expected tolerances,
+positive/negative controls, per-case outcomes and exact-BRep reuse links.
+It does not rerun the CAD kernel; fresh_geometry_kernel_run_performed=false.
+The receipt validator passed after the full run and supports Windows/WSL paths.
+
+Machine-readable evidence
+  audit/author-model-geometry-validation.json
+  audit/author-model-geometry-receipt-validation.json
+
+No board, model attachment, physical hardware, flash, order or manufacturing
+release was performed by these geometry verification tools.

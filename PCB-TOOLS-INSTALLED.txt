@@ -1,0 +1,66 @@
+PCB test tools installed and checked — 2026-10-26
+
+Environment: NVIDIA-Workbench WSL, Ubuntu 24.04, native aarch64.
+Root: /home/workbench/robotics/pcb-tools
+Python venv: root/venv (system-site-packages for KiCad pcbnew/wx).
+Ruby gems: root/gems. No Isaac Lab Python dependencies changed.
+Initial tool installation added apt dependencies without upgrades/removals.
+Subsequent EasyEDA runtime preparation added ALSA libraries and upgraded seven
+Mesa/GL/GBM/XTest packages to the current Ubuntu maintenance versions.
+KiCad official stable PPA added: ppa:kicad/kicad-10.0-releases.
+
+Installed
+- KiCad 10.0.7 (WSL; existing Windows installation preserved)
+- KiBot 1.9.1, KiAuto 2.3.10, lxml 6.1.3
+- ngspice/libngspice 42, including development library symlink
+- PySpice 1.5
+- Ceedling 1.2.1; bundled CMock 2.7.2, Unity 2.7.2, CException 1.3.5
+- Renode 1.17.0 Linux ARM64 portable, .NET 8 runtime included
+- pytest-embedded, serial and jtag services 2.9.3; pytest 9.1.1
+- OpenOCD 0.12.0 for future JTAG integration (no probe connected)
+
+Checks completed
+- KiBot generated F.Cu, B.Cu and Edge.Cuts Gerbers from our HAT reference.
+  Three metadata/schematic association warnings; no fabrication pass claimed.
+- PySpice operating-point calculation: 5 V / two 1 kohm resistors = 2.5 V.
+- Ceedling generated a CMock SPI-access mock, compiled and ran: 1/1 pass.
+- Renode started, loaded platforms/cpus/stm32g0.repl and located flash at
+  0x08000000. This is platform initialization, not MicroDuck firmware execution.
+- pytest embedded/serial/jtag modules import and pytest CLI runs.
+- No firmware flashed, physical servo moved or hardware test performed.
+
+Compatibility patch
+PySpice 1.5 misclassifies ngspice's exact informational stderr line
+"Using SPARSE 1.3 as Direct Linear Solver" as fatal. The isolated Shared.py
+is patched to classify ONLY that exact line as non-fatal. Other error handling
+is retained. The unsupported-version warning remains visible. Reference:
+https://github.com/PySpice-org/PySpice/issues/379
+Original file and before/after hashes saved under root/downloads and
+root/pyspice-compatibility.json. A package reinstall will remove this patch;
+review/reapply the included patch script and rerun smoke tests after upgrades.
+
+Renode archive was verified against the SHA256 digest from its GitHub release:
+e9051578411441bfb47b77de0381cfba3badce03663367fab561472fd7807f1f
+https://github.com/renode/renode/releases/tag/v1.17.0
+Archive and release API metadata retained in root/downloads.
+
+Use from Windows PowerShell
+  & ./tools/pcb-tool.ps1 kibot --version
+  & ./tools/pcb-tool.ps1 renode --version
+  & ./tools/pcb-tool.ps1 python /mnt/c/path/to/analysis.py
+Use absolute Linux/WSL paths for tool inputs; /mnt/c/... refers to Windows C:.
+
+Use from WSL
+  /home/workbench/robotics/pcb-tools/bin/pcb-tool TOOL ARGS...
+Supported tools: kibot, ngspice, python, pytest, ceedling, renode, kicad-cli.
+No shell startup files or global PATH were changed.
+
+Repeat checks
+  root/venv/bin/python root/pcb_tools_smoke.py
+  cd root/ceedling-smoke
+  root/bin/pcb-tool ceedling test:all
+Replace root above with /home/workbench/robotics/pcb-tools.
+Python pins are saved in python-requirements.lock, Ruby pins in ruby-gems.txt.
+Other evidence is in audit/pcb-tools/. Tool sources and limitations are described
+in PCB-TEST-STRATEGY.txt. Installation does not close the robot variant,
+EasyEDA-to-KiCad conversion, electrical-model coverage or physical-test gaps.

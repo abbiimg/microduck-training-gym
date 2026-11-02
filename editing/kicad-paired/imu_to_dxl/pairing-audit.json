@@ -1,0 +1,350 @@
+{
+  "candidate": "imu_to_dxl",
+  "parent_board": "editing/kicad-routed/imu_to_dxl/imu_to_dxl.kicad_pcb",
+  "parent_sha256": "45d6d02728c731dcd4a28221fb85646bdaf95a4b2aab87c3106a07922bdeb11e",
+  "parent_schematic_sha256": "3d88bbb1841c20043923f948cea05ff3e15a2df00780b2171dff2b441c0e2f7f",
+  "paired": [
+    {
+      "reference": "C1",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/ae8a75b6-4e8f-4800-a62f-2c0a1240666b",
+      "footprint": "RecoveredLayout:C1"
+    },
+    {
+      "reference": "C2",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/41917bee-2888-4d12-9c1e-bbca5dfd7864",
+      "footprint": "RecoveredLayout:C2"
+    },
+    {
+      "reference": "C3",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/445dd293-9205-4c28-9242-a0d47f8f846d",
+      "footprint": "RecoveredLayout:C3"
+    },
+    {
+      "reference": "C4",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/5866fee7-1b8b-42d5-8aed-5ad804b8abb3",
+      "footprint": "RecoveredLayout:C4"
+    },
+    {
+      "reference": "C5",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/cb33bc32-a4c1-42fc-9674-e32a6be9ac7d",
+      "footprint": "RecoveredLayout:C5"
+    },
+    {
+      "reference": "C6",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/b7520f72-0217-46ed-8aa4-c2e67d4663d4",
+      "footprint": "RecoveredLayout:C6"
+    },
+    {
+      "reference": "C7",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/652d515e-91b3-4833-9931-3a8762637c01",
+      "footprint": "RecoveredLayout:C7"
+    },
+    {
+      "reference": "C8",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/6752e1b8-b900-468a-83d8-ffdf4b740c75",
+      "footprint": "RecoveredLayout:C8"
+    },
+    {
+      "reference": "C9",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/91bf05d9-4304-4eaf-80e2-70e46de00a3e",
+      "footprint": "RecoveredLayout:C9"
+    },
+    {
+      "reference": "D1",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/02104d0e-869d-49f1-a9c7-17fd6a28577b",
+      "footprint": "RecoveredLayout:D1"
+    },
+    {
+      "reference": "D2",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/ffe5088a-f028-402f-9dae-4cf770e64d3c",
+      "footprint": "RecoveredLayout:D2"
+    },
+    {
+      "reference": "F1",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/73eaca15-255d-43c5-a8db-abfd537a20e0",
+      "footprint": "RecoveredLayout:F1"
+    },
+    {
+      "reference": "J1",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/1b98160b-a00e-44e6-9dd4-729669ec17e4",
+      "footprint": "RecoveredLayout:J1"
+    },
+    {
+      "reference": "J2",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/d875e392-3db2-4dbc-80e4-84305d4c2047",
+      "footprint": "RecoveredLayout:J2"
+    },
+    {
+      "reference": "J3",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/eed3dd7e-d9d5-4076-b378-9ccfb16abaf2",
+      "footprint": "RecoveredLayout:J3"
+    },
+    {
+      "reference": "J4",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/3c26bec9-4108-4480-8d68-3fe78f5b493e",
+      "footprint": "RecoveredLayout:J4"
+    },
+    {
+      "reference": "J5",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/dcb5830c-485c-482f-9ea6-a6eb52b8cf81",
+      "footprint": "RecoveredLayout:J5"
+    },
+    {
+      "reference": "R1",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/074021cb-c5b9-4b44-9fc9-d28be7ce3589",
+      "footprint": "RecoveredLayout:R1"
+    },
+    {
+      "reference": "R2",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/18e70d13-df59-46a7-9ae4-7f3417f17aa9",
+      "footprint": "RecoveredLayout:R2"
+    },
+    {
+      "reference": "R3",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/828bdd49-ac88-4b30-96f6-6d87143352b2",
+      "footprint": "RecoveredLayout:R3"
+    },
+    {
+      "reference": "R4",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/839b4751-b0b5-4d72-badc-49fe88c0b729",
+      "footprint": "RecoveredLayout:R4"
+    },
+    {
+      "reference": "R5",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/cd109d18-8f3e-4c5a-9a23-0aac3e0b9369",
+      "footprint": "RecoveredLayout:R5"
+    },
+    {
+      "reference": "R6",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/9c9c47f2-2442-4efa-8c8b-c5f61c9e82d4",
+      "footprint": "RecoveredLayout:R6"
+    },
+    {
+      "reference": "R7",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/070f6a91-1f17-47bf-a1f9-945b45ab85b8",
+      "footprint": "RecoveredLayout:R7"
+    },
+    {
+      "reference": "U1",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/a651d899-8160-4236-b89d-4b12dda8afe0",
+      "footprint": "RecoveredLayout:U1"
+    },
+    {
+      "reference": "U2",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/0a988da0-36db-4157-9d7b-d43b129a2c84",
+      "footprint": "RecoveredLayout:U2"
+    },
+    {
+      "reference": "U3",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/e78c5780-71b8-43e3-9f42-c72860af894b",
+      "footprint": "RecoveredLayout:U3"
+    },
+    {
+      "reference": "U4",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/a55a7910-7bc6-4bf0-bf54-def01c873a8f",
+      "footprint": "RecoveredLayout:U4"
+    },
+    {
+      "reference": "X1",
+      "path": "/73247635-b8ed-4f86-96a0-c0c407981b43/bb90e992-90ae-4c58-ac5f-2574ac708300",
+      "footprint": "RecoveredLayout:X1"
+    }
+  ],
+  "excluded_offboard_symbols": [],
+  "board_only_footprints": [
+    "SOURCE_BOARD_PADS"
+  ],
+  "net_changes": [
+    {
+      "reference": "J3",
+      "pad": "1",
+      "from": "GND",
+      "to": "/GND",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "J3",
+      "pad": "2",
+      "from": "SWDCLK",
+      "to": "/SWDCLK",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "J3",
+      "pad": "3",
+      "from": "SWDIO",
+      "to": "/SWDIO",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "J3",
+      "pad": "4",
+      "from": "UART_RX",
+      "to": "/UART_RX",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "J3",
+      "pad": "5",
+      "from": "UART_TX",
+      "to": "/UART_TX",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "J3",
+      "pad": "6",
+      "from": "3.3V",
+      "to": "/3.3V",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "R5",
+      "pad": "2",
+      "from": "DXL_DATA",
+      "to": "/DXL_DATA",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "R3",
+      "pad": "1",
+      "from": "$1N175",
+      "to": "/RECOVERED_UNNAMED_1",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "R3",
+      "pad": "2",
+      "from": "OSC_IN",
+      "to": "/OSC_IN",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "D1",
+      "pad": "1",
+      "from": "VDD_F",
+      "to": "/VDD_F",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "J2",
+      "pad": "2",
+      "from": "VDD_BUS",
+      "to": "/VDD_BUS",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "J2",
+      "pad": "3",
+      "from": "DXL_BUS",
+      "to": "/DXL_BUS",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "U2",
+      "pad": "1",
+      "from": "SPI_MISO",
+      "to": "/SPI_MISO",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "U2",
+      "pad": "4",
+      "from": "IMU_INT1",
+      "to": "/IMU_INT1",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "U2",
+      "pad": "9",
+      "from": "IMU_INT2",
+      "to": "/IMU_INT2",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "U2",
+      "pad": "10",
+      "from": "",
+      "to": "unconnected-(U2-OCS_Aux-Pad10)",
+      "reason": "KiCad singleton name for an electrically unconnected schematic pin; not a source no-connect declaration; no physical connection added"
+    },
+    {
+      "reference": "U2",
+      "pad": "11",
+      "from": "",
+      "to": "unconnected-(U2-SDO_Aux-Pad11)",
+      "reason": "KiCad singleton name for an electrically unconnected schematic pin; not a source no-connect declaration; no physical connection added"
+    },
+    {
+      "reference": "U2",
+      "pad": "12",
+      "from": "SPI_CS",
+      "to": "/SPI_CS",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "U2",
+      "pad": "13",
+      "from": "SPI_SCK",
+      "to": "/SPI_SCK",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "U2",
+      "pad": "14",
+      "from": "SPI_MOSI",
+      "to": "/SPI_MOSI",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "R4",
+      "pad": "2",
+      "from": "DE",
+      "to": "/DE",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "R2",
+      "pad": "2",
+      "from": "NRST",
+      "to": "/NRST",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "U3",
+      "pad": "2",
+      "from": "MCU_TX",
+      "to": "/MCU_TX",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "U3",
+      "pad": "3",
+      "from": "MCU_RX",
+      "to": "/MCU_RX",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "U3",
+      "pad": "7",
+      "from": "RX_EN",
+      "to": "/RX_EN",
+      "reason": "match schematic hierarchical net name; connectivity unchanged"
+    },
+    {
+      "reference": "U1",
+      "pad": "3",
+      "from": "",
+      "to": "unconnected-(U1-PC15-OSC32_OUT-Pad3)",
+      "reason": "KiCad singleton name for an electrically unconnected schematic pin; not a source no-connect declaration; no physical connection added"
+    },
+    {
+      "reference": "U1",
+      "pad": "20",
+      "from": "",
+      "to": "unconnected-(U1-PB3{slash}PB4{slash}PB5{slash}PB6-Pad20)",
+      "reason": "KiCad singleton name for an electrically unconnected schematic pin; not a source no-connect declaration; no physical connection added"
+    }
+  ],
+  "manufacturing_ready": false,
+  "source_history_interpretation": "literal typed replay; hub uses explicit engineering net repair"
+}

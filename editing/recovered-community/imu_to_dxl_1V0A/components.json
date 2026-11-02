@@ -1,0 +1,429 @@
+[
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "C1",
+    "title": "CL05B104KO5NNNC.1",
+    "symbol_uuid": "81802720067404cb",
+    "device_uuid": "3d87eec74354ecb8",
+    "device": "CL05B104KO5NNNC",
+    "description": "容值:100nF;精度:±10%;额定电压:16V;温度系数:X7R;",
+    "value": {
+      "容值": "100nF",
+      "精度": "±10%",
+      "额定电压": "16V",
+      "温度系数": "X7R"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "C2",
+    "title": "CL05B104KO5NNNC.1",
+    "symbol_uuid": "81802720067404cb",
+    "device_uuid": "3d87eec74354ecb8",
+    "device": "CL05B104KO5NNNC",
+    "description": "容值:100nF;精度:±10%;额定电压:16V;温度系数:X7R;",
+    "value": {
+      "容值": "100nF",
+      "精度": "±10%",
+      "额定电压": "16V",
+      "温度系数": "X7R"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "C3",
+    "title": "CL05B104KO5NNNC.1",
+    "symbol_uuid": "81802720067404cb",
+    "device_uuid": "3d87eec74354ecb8",
+    "device": "CL05B104KO5NNNC",
+    "description": "容值:100nF;精度:±10%;额定电压:16V;温度系数:X7R;",
+    "value": {
+      "容值": "100nF",
+      "精度": "±10%",
+      "额定电压": "16V",
+      "温度系数": "X7R"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "C4",
+    "title": "CL05B104KO5NNNC.1",
+    "symbol_uuid": "81802720067404cb",
+    "device_uuid": "3d87eec74354ecb8",
+    "device": "CL05B104KO5NNNC",
+    "description": "容值:100nF;精度:±10%;额定电压:16V;温度系数:X7R;",
+    "value": {
+      "容值": "100nF",
+      "精度": "±10%",
+      "额定电压": "16V",
+      "温度系数": "X7R"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "C5",
+    "title": "CL10A475KO8NNNC.1",
+    "symbol_uuid": "4975ba05328babc6",
+    "device_uuid": "7da1d5e6b4fd0b56",
+    "device": "CL10A475KO8NNNC",
+    "description": "容值:4.7uF;精度:±10%;额定电压:16V;温度系数:X5R;",
+    "value": {
+      "容值": "4.7uF",
+      "精度": "±10%",
+      "额定电压": "16V",
+      "温度系数": "X5R"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "C6",
+    "title": "CL21A106KAYNNNE.1",
+    "symbol_uuid": "ee1b4a2fba3a030d",
+    "device_uuid": "b84c7bc3e440e699",
+    "device": "CL21A106KAYNNNE",
+    "description": "容值:10uF;精度:±10%;额定电压:25V;温度系数:X5R;",
+    "value": {
+      "容值": "10uF",
+      "精度": "±10%",
+      "额定电压": "25V",
+      "温度系数": "X5R"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "C7",
+    "title": "CL10A106KP8NNNC.1",
+    "symbol_uuid": "64e2c0991b96dfd6",
+    "device_uuid": "a057ead68faf6332",
+    "device": "CL10A106KP8NNNC",
+    "description": "容值:10uF;精度:±10%;额定电压:10V;温度系数:X5R;",
+    "value": {
+      "容值": "10uF",
+      "精度": "±10%",
+      "额定电压": "10V",
+      "温度系数": "X5R"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "C8",
+    "title": "CL05B104KO5NNNC.1",
+    "symbol_uuid": "81802720067404cb",
+    "device_uuid": "3d87eec74354ecb8",
+    "device": "CL05B104KO5NNNC",
+    "description": "容值:100nF;精度:±10%;额定电压:16V;温度系数:X7R;",
+    "value": {
+      "容值": "100nF",
+      "精度": "±10%",
+      "额定电压": "16V",
+      "温度系数": "X7R"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "D1",
+    "title": "SMF12A_C2943870.1",
+    "symbol_uuid": "8a69d8a601fe19c2",
+    "device_uuid": "1e0b34c14b1e56e8",
+    "device": "SMF12A",
+    "description": "极性:单向;反向截止电压(Vrwm):12V;钳位电压:19.9V;峰值脉冲电流(Ipp):10.1A;峰值脉冲功率(Ppp):200W;击穿电压(VBR):13.3V;",
+    "value": {
+      "极性": "单向",
+      "反向截止电压(Vrwm)": "12V",
+      "钳位电压": "19.9V",
+      "峰值脉冲电流(Ipp)": "10.1A",
+      "峰值脉冲功率(Ppp)": "200W",
+      "击穿电压(VBR)": "13.3V"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "D2",
+    "title": "BZT52C5V1-7-F.1",
+    "symbol_uuid": "32113cdb5d525919",
+    "device_uuid": "ba32cf21cae8bfc5",
+    "device": "BZT52C5V1-7-F",
+    "description": "二极管配置:1个独立式;稳压值(标称值):5.1V;稳压值(范围值):4.8V~5.4V;耗散功率(Pd):370mW;",
+    "value": {
+      "二极管配置": "1个独立式",
+      "稳压值(标称值)": "5.1V",
+      "稳压值(范围值)": "4.8V~5.4V",
+      "耗散功率(Pd)": "370mW"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "F1",
+    "title": "MF-NSMF020X-2.1",
+    "symbol_uuid": "2505a5a3748ccfdb",
+    "device_uuid": "4d8c3ba284861396",
+    "device": "MF-NSMF020X-2",
+    "description": "耐压(Vmax):30V;最大电流(Imax):60A;保持电流(Ihold):200mA;跳闸电流(Itrip):400mA;",
+    "value": {
+      "耐压(Vmax)": "30V",
+      "最大电流(Imax)": "60A",
+      "保持电流(Ihold)": "200mA",
+      "跳闸电流(Itrip)": "400mA"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "J1",
+    "title": "A2007WR-3P.1",
+    "symbol_uuid": "cb1d4cb55c870017",
+    "device_uuid": "0e66af9a0bb2d3b8",
+    "device": "A2007WR-3P",
+    "description": "插针结构:1x3P;间距:2mm;安装方式:弯插;参考系列:-;总PIN数:3P;排数:1;每排PIN数:3;行距:-;额定电流:4A;触头材质:黄铜;触头镀层:锡;工作温度:-40℃~+105℃;",
+    "value": {
+      "插针结构": "1x3P",
+      "间距": "2mm",
+      "安装方式": "弯插",
+      "参考系列": "-",
+      "总PIN数": "3P",
+      "排数": "1",
+      "每排PIN数": "3",
+      "行距": "-",
+      "额定电流": "4A",
+      "触头材质": "黄铜",
+      "触头镀层": "锡",
+      "工作温度": "-40℃~+105℃"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "J2",
+    "title": "BM03B-ACHSS-GAN-ETF.1",
+    "symbol_uuid": "0df1eb4b9f80796b",
+    "device_uuid": "672ad920da8b2a59",
+    "device": "BM03B-ACHSS-GAN-ETF(LF)(SN)",
+    "description": "插针结构:1x3P;间距:1.2mm;安装方式:卧贴;参考系列:ACH;总PIN数:3P;排数:1;每排PIN数:3;行距:-;额定电流:2A;触头材质:铜合金;触头镀层:金;工作温度:-25℃~+85℃;",
+    "value": {
+      "插针结构": "1x3P",
+      "间距": "1.2mm",
+      "安装方式": "卧贴",
+      "参考系列": "ACH",
+      "总PIN数": "3P",
+      "排数": "1",
+      "每排PIN数": "3",
+      "行距": "-",
+      "额定电流": "2A",
+      "触头材质": "铜合金",
+      "触头镀层": "金",
+      "工作温度": "-25℃~+85℃"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "J3",
+    "title": "PZ254V-11-06P.1",
+    "symbol_uuid": "e89132aaf27e700d",
+    "device_uuid": "400adc1edeeaf10d",
+    "device": "PZ254V-11-06P",
+    "description": "插针结构:1x6P;间距:2.54mm;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:6P;额定电流:3A;额定电压:250V;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:-;工作温度:-40℃~+105℃;颜色:黑色;",
+    "value": {
+      "插针结构": "1x6P",
+      "间距": "2.54mm",
+      "行距": "-",
+      "圆针/方针": "方针",
+      "安装方式": "直插",
+      "排数": "单排",
+      "总PIN位数": "6P",
+      "额定电流": "3A",
+      "额定电压": "250V",
+      "配合针长度": "6mm",
+      "塑高": "2.5mm",
+      "端接针长度": "3mm",
+      "触头材质": "黄铜",
+      "触头镀层": "-",
+      "工作温度": "-40℃~+105℃",
+      "颜色": "黑色"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "R1",
+    "title": "RC0402FR-0710KL.1",
+    "symbol_uuid": "67ac739874eb8cbe",
+    "device_uuid": "c6fba1d8832f05c3",
+    "device": "RC0402FR-0710KL",
+    "description": "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:62.5mW;工作电压:50V;温度系数:±100ppm/℃;",
+    "value": {
+      "电阻类型": "厚膜电阻",
+      "阻值": "10kΩ",
+      "精度": "±1%",
+      "功率": "62.5mW",
+      "工作电压": "50V",
+      "温度系数": "±100ppm/℃"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "R2",
+    "title": "RC0402FR-0710KL.1",
+    "symbol_uuid": "67ac739874eb8cbe",
+    "device_uuid": "c6fba1d8832f05c3",
+    "device": "RC0402FR-0710KL",
+    "description": "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:62.5mW;工作电压:50V;温度系数:±100ppm/℃;",
+    "value": {
+      "电阻类型": "厚膜电阻",
+      "阻值": "10kΩ",
+      "精度": "±1%",
+      "功率": "62.5mW",
+      "工作电压": "50V",
+      "温度系数": "±100ppm/℃"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "R4",
+    "title": "RC0402FR-0710KL.1",
+    "symbol_uuid": "67ac739874eb8cbe",
+    "device_uuid": "c6fba1d8832f05c3",
+    "device": "RC0402FR-0710KL",
+    "description": "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:62.5mW;工作电压:50V;温度系数:±100ppm/℃;",
+    "value": {
+      "电阻类型": "厚膜电阻",
+      "阻值": "10kΩ",
+      "精度": "±1%",
+      "功率": "62.5mW",
+      "工作电压": "50V",
+      "温度系数": "±100ppm/℃"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "R5",
+    "title": "RC0402FR-0710KL.1",
+    "symbol_uuid": "67ac739874eb8cbe",
+    "device_uuid": "c6fba1d8832f05c3",
+    "device": "RC0402FR-0710KL",
+    "description": "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:62.5mW;工作电压:50V;温度系数:±100ppm/℃;",
+    "value": {
+      "电阻类型": "厚膜电阻",
+      "阻值": "10kΩ",
+      "精度": "±1%",
+      "功率": "62.5mW",
+      "工作电压": "50V",
+      "温度系数": "±100ppm/℃"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "R6",
+    "title": "0603WAF1500T5E.1",
+    "symbol_uuid": "1cf93950cae11966",
+    "device_uuid": "18c385468cb5b10f",
+    "device": "0603WAF1500T5E",
+    "description": "电阻类型:厚膜电阻;阻值:150Ω;精度:±1%;功率:100mW;最大工作电压:75V;温度系数:±100ppm/℃;",
+    "value": {
+      "电阻类型": "厚膜电阻",
+      "阻值": "150Ω",
+      "精度": "±1%",
+      "功率": "100mW",
+      "最大工作电压": "75V",
+      "温度系数": "±100ppm/℃"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "R7",
+    "title": "RC0402FR-0710KL.1",
+    "symbol_uuid": "67ac739874eb8cbe",
+    "device_uuid": "c6fba1d8832f05c3",
+    "device": "RC0402FR-0710KL",
+    "description": "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:62.5mW;工作电压:50V;温度系数:±100ppm/℃;",
+    "value": {
+      "电阻类型": "厚膜电阻",
+      "阻值": "10kΩ",
+      "精度": "±1%",
+      "功率": "62.5mW",
+      "工作电压": "50V",
+      "温度系数": "±100ppm/℃"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "U1",
+    "title": "STM32G031F8P6.1",
+    "symbol_uuid": "5d7bb805bf5c8768",
+    "device_uuid": "ad6ca39373669d12",
+    "device": "STM32G031F8P6",
+    "description": "CPU内核:ARM Cortex-M0+;CPU最大主频:64MHz;CPU位数:32 Bit;",
+    "value": {
+      "CPU内核": "ARM Cortex-M0+",
+      "CPU最大主频": "64MHz",
+      "CPU位数": "32 Bit"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "U2",
+    "title": "LSM6DSV16XTR.1",
+    "symbol_uuid": "9444a4af931bcf02",
+    "device_uuid": "b3b1ce2c54098142",
+    "device": "LSM6DSV16XTR",
+    "description": "传感器类型:IMU(加速度计+陀螺仪);接口类型:I2C；SPI;",
+    "value": {
+      "传感器类型": "IMU(加速度计+陀螺仪)",
+      "接口类型": "I2C；SPI"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "U3",
+    "title": "SN74LVC2G241DCU.1",
+    "symbol_uuid": "56820e3fdec5aa25",
+    "device_uuid": "87c7f7f56ba5fdfd",
+    "device": "SN74LVC2G241DCUR",
+    "description": "输入类型:-;工作电压:1.65V~5.5V;元件数:2;每个元件位数:1;灌电流(IOL):32mA;拉电流(IOH):32mA;",
+    "value": {
+      "输入类型": "-",
+      "工作电压": "1.65V~5.5V",
+      "元件数": "2",
+      "每个元件位数": "1",
+      "灌电流(IOL)": "32mA",
+      "拉电流(IOH)": "32mA"
+    }
+  },
+  {
+    "sheet": "imu_to_dxl_1V0::IMU-MCU-PWR",
+    "schematic": "imu_to_dxl_1V0",
+    "designator": "U4",
+    "title": "HT7533-1_C14289.1",
+    "symbol_uuid": "e91964aaec0c56be",
+    "device_uuid": "8dba0c22ca471897",
+    "device": "HT7533-1",
+    "description": "输出类型:固定;工作电压:30V;输出电压:3.3V;输出电流:100mA;电源纹波抑制比(PSRR):-;输出极性:正极;",
+    "value": {
+      "输出类型": "固定",
+      "工作电压": "30V",
+      "输出电压": "3.3V",
+      "输出电流": "100mA",
+      "电源纹波抑制比(PSRR)": "-",
+      "输出极性": "正极"
+    }
+  }
+]

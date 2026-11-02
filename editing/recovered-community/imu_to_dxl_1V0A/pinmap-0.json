@@ -1,0 +1,2616 @@
+[
+  {
+    "designator": "C5",
+    "symbol": "CL10A475KO8NNNC.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORT6db12f699bd4f648.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORT14180fcc92b8a79d.Pin1"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTebd97598944224ac",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "C7.2",
+          "U4.GND"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT8919d029dd418ae1",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "U3.GND"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT880ea6a0a0e7644e",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "C6.2",
+          "C8.1",
+          "D1.A"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT99465de8d424fa1b",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "VDD_F",
+        "nets": [
+          "VDD_F"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "C6.1",
+          "C8.2",
+          "D1.C",
+          "F1.2",
+          "U4.Vin"
+        ],
+        "resolved_nets": [
+          "VDD_F"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTef7b4e2dacbdcf2d",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "U1.VDD/VDDA"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT1b0c014f6e18d941",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "C7.1",
+          "U4.Vout"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT8a7dbfb71064cb90",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [
+          "R1.2"
+        ],
+        "wire_peers": [],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT2b99673335090ea2",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "C4.2"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT14180fcc92b8a79d",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "C5.2"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT2436fb54661f2d2c",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "C4.1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT6db12f699bd4f648",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "C5.1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "U3",
+    "symbol": "SN74LVC2G241DCU.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1OE#",
+        "number": "1",
+        "net": "DE",
+        "nets": [
+          "DE"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "R4.2"
+        ],
+        "resolved_nets": [
+          "DE"
+        ]
+      },
+      {
+        "pin": "1A",
+        "number": "2",
+        "net": "MCU_TX",
+        "nets": [
+          "MCU_TX"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "MCU_TX"
+        ]
+      },
+      {
+        "pin": "2Y",
+        "number": "3",
+        "net": "MCU_RX",
+        "nets": [
+          "MCU_RX"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "MCU_RX"
+        ]
+      },
+      {
+        "pin": "GND",
+        "number": "4",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORT8919d029dd418ae1.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2A",
+        "number": "5",
+        "net": "DXL_DATA",
+        "nets": [
+          "DXL_DATA"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "R5.2",
+          "R6.1",
+          "U3.1Y"
+        ],
+        "resolved_nets": [
+          "DXL_BUS",
+          "DXL_DATA"
+        ]
+      },
+      {
+        "pin": "1Y",
+        "number": "6",
+        "net": "DXL_DATA",
+        "nets": [
+          "DXL_DATA"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "R5.2",
+          "R6.1",
+          "U3.2A"
+        ],
+        "resolved_nets": [
+          "DXL_BUS",
+          "DXL_DATA"
+        ]
+      },
+      {
+        "pin": "2OE",
+        "number": "7",
+        "net": "RX_EN",
+        "nets": [
+          "RX_EN"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "R7.1"
+        ],
+        "resolved_nets": [
+          "RX_EN"
+        ]
+      },
+      {
+        "pin": "VCC",
+        "number": "8",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORT47a8fd2df9f83a6d.Pin1"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "U1",
+    "symbol": "STM32G031F8P6.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "PB7/PB8",
+        "number": "1",
+        "net": "RX_EN",
+        "nets": [
+          "RX_EN"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "RX_EN"
+        ]
+      },
+      {
+        "pin": "PB9/PC14-OSC32_IN",
+        "number": "2",
+        "net": "OSC_IN",
+        "nets": [
+          "OSC_IN"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "OSC_IN"
+        ]
+      },
+      {
+        "pin": "PC15-OSC32_OUT",
+        "number": "3",
+        "net": "",
+        "nets": [],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": []
+      },
+      {
+        "pin": "VDD/VDDA",
+        "number": "4",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTef7b4e2dacbdcf2d.Pin1"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "VSS/VSSA",
+        "number": "5",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORT9f9e0964a5aa5f6a.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "PF2-NRST",
+        "number": "6",
+        "net": "NRST",
+        "nets": [
+          "NRST"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "R2.2"
+        ],
+        "resolved_nets": [
+          "NRST"
+        ]
+      },
+      {
+        "pin": "PA0",
+        "number": "7",
+        "net": "IMU_INT1",
+        "nets": [
+          "IMU_INT1"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "IMU_INT1"
+        ]
+      },
+      {
+        "pin": "PA1",
+        "number": "8",
+        "net": "DE",
+        "nets": [
+          "DE"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "DE"
+        ]
+      },
+      {
+        "pin": "PA2",
+        "number": "9",
+        "net": "MCU_TX",
+        "nets": [
+          "MCU_TX"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "MCU_TX"
+        ]
+      },
+      {
+        "pin": "PA3",
+        "number": "10",
+        "net": "MCU_RX",
+        "nets": [
+          "MCU_RX"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "MCU_RX"
+        ]
+      },
+      {
+        "pin": "PA4",
+        "number": "11",
+        "net": "SPI_CS",
+        "nets": [
+          "SPI_CS"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "R1.1"
+        ],
+        "resolved_nets": [
+          "SPI_CS"
+        ]
+      },
+      {
+        "pin": "PA5",
+        "number": "12",
+        "net": "SPI_SCK",
+        "nets": [
+          "SPI_SCK"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "SPI_SCK"
+        ]
+      },
+      {
+        "pin": "PA6",
+        "number": "13",
+        "net": "SPI_MISO",
+        "nets": [
+          "SPI_MISO"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "SPI_MISO"
+        ]
+      },
+      {
+        "pin": "PA7",
+        "number": "14",
+        "net": "SPI_MOSI",
+        "nets": [
+          "SPI_MOSI"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "SPI_MOSI"
+        ]
+      },
+      {
+        "pin": "PB0/PB1/PB2/PA8",
+        "number": "15",
+        "net": "IMU_INT2",
+        "nets": [
+          "IMU_INT2"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "IMU_INT2"
+        ]
+      },
+      {
+        "pin": "PA11[PA9]",
+        "number": "16",
+        "net": "UART_TX",
+        "nets": [
+          "UART_TX"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "UART_TX"
+        ]
+      },
+      {
+        "pin": "PA12[PA10]",
+        "number": "17",
+        "net": "UART_RX",
+        "nets": [
+          "UART_RX"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "UART_RX"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "number": "18",
+        "net": "SWDIO",
+        "nets": [
+          "SWDIO"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "SWDIO"
+        ]
+      },
+      {
+        "pin": "PA15/PA14-BOOT0",
+        "number": "19",
+        "net": "SWDCLK",
+        "nets": [
+          "SWDCLK"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "SWDCLK"
+        ]
+      },
+      {
+        "pin": "PB3/PB4/PB5/PB6",
+        "number": "20",
+        "net": "",
+        "nets": [],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": []
+      }
+    ]
+  },
+  {
+    "designator": "C7",
+    "symbol": "CL10A106KP8NNNC.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORT1b0c014f6e18d941.Pin1",
+          "U4.Vout"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTebd97598944224ac.Pin1",
+          "U4.GND"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "U4",
+    "symbol": "HT7533-1_C14289.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "GND",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "C7.2",
+          "PORTebd97598944224ac.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "Vin",
+        "number": "2",
+        "net": "VDD_F",
+        "nets": [
+          "VDD_F"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "C6.1",
+          "C8.2",
+          "D1.C",
+          "F1.2",
+          "PORT99465de8d424fa1b.Pin1"
+        ],
+        "resolved_nets": [
+          "VDD_F"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "Vout",
+        "number": "3",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "C7.1",
+          "PORT1b0c014f6e18d941.Pin1"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "C6",
+    "symbol": "CL21A106KAYNNNE.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "VDD_F",
+        "nets": [
+          "VDD_F"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "C8.2",
+          "D1.C",
+          "F1.2",
+          "PORT99465de8d424fa1b.Pin1",
+          "U4.Vin"
+        ],
+        "resolved_nets": [
+          "VDD_F"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "C8.1",
+          "D1.A",
+          "PORT880ea6a0a0e7644e.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "D1",
+    "symbol": "SMF12A_C2943870.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "C",
+        "number": "1",
+        "net": "VDD_F",
+        "nets": [
+          "VDD_F"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "C6.1",
+          "C8.2",
+          "F1.2",
+          "PORT99465de8d424fa1b.Pin1",
+          "U4.Vin"
+        ],
+        "resolved_nets": [
+          "VDD_F"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "A",
+        "number": "2",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "C6.2",
+          "C8.1",
+          "PORT880ea6a0a0e7644e.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "F1",
+    "symbol": "MF-NSMF020X-2.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "VDD_BUS",
+        "nets": [
+          "VDD_BUS"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORT71fa8d90bf943fd0.Pin1"
+        ],
+        "resolved_nets": [
+          "VDD_BUS"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "VDD_F",
+        "nets": [
+          "VDD_F"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "C6.1",
+          "C8.2",
+          "D1.C",
+          "PORT99465de8d424fa1b.Pin1",
+          "U4.Vin"
+        ],
+        "resolved_nets": [
+          "VDD_F"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT71fa8d90bf943fd0",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "VDD_BUS",
+        "nets": [
+          "VDD_BUS"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "F1.1"
+        ],
+        "resolved_nets": [
+          "VDD_BUS"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT9f9e0964a5aa5f6a",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "U1.VSS/VSSA"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT47a8fd2df9f83a6d",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "U3.VCC"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT03d00f6a40f6b6ba",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [
+          "R5.1"
+        ],
+        "wire_peers": [],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTa7d27ec2a039d8ff",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [
+          "R4.1"
+        ],
+        "wire_peers": [],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT5f09d949bb852422",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [
+          "C3.1"
+        ],
+        "wire_peers": [],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTcf12bf7150adeafd",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [
+          "C3.2"
+        ],
+        "wire_peers": [],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTa03d0ea65597aaa9",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "U2.GND#6",
+          "U2.GND#7",
+          "U2.SCx/AH2/Qvar2",
+          "U2.SDx/AH1/Qvar1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT2080fbf93d7771a4",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [
+          "C1.1"
+        ],
+        "wire_peers": [],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTa3d004065d7781b2",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [
+          "C2.1"
+        ],
+        "wire_peers": [],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "U2",
+    "symbol": "LSM6DSV16XTR.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "SDO/SA0",
+        "number": "1",
+        "net": "SPI_MISO",
+        "nets": [
+          "SPI_MISO"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "SPI_MISO"
+        ]
+      },
+      {
+        "pin": "SDx/AH1/Qvar1",
+        "number": "2",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTa03d0ea65597aaa9.Pin1",
+          "U2.GND#6",
+          "U2.GND#7",
+          "U2.SCx/AH2/Qvar2"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "SCx/AH2/Qvar2",
+        "number": "3",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTa03d0ea65597aaa9.Pin1",
+          "U2.GND#6",
+          "U2.GND#7",
+          "U2.SDx/AH1/Qvar1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "INT1",
+        "number": "4",
+        "net": "IMU_INT1",
+        "nets": [
+          "IMU_INT1"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "IMU_INT1"
+        ]
+      },
+      {
+        "pin": "Vdd_IO",
+        "number": "5",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "C2.2"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ]
+      },
+      {
+        "pin": "GND#6",
+        "number": "6",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTa03d0ea65597aaa9.Pin1",
+          "U2.GND#7",
+          "U2.SCx/AH2/Qvar2",
+          "U2.SDx/AH1/Qvar1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "GND#7",
+        "number": "7",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTa03d0ea65597aaa9.Pin1",
+          "U2.GND#6",
+          "U2.SCx/AH2/Qvar2",
+          "U2.SDx/AH1/Qvar1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "Vdd",
+        "number": "8",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "C1.2"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ]
+      },
+      {
+        "pin": "INT2",
+        "number": "9",
+        "net": "IMU_INT2",
+        "nets": [
+          "IMU_INT2"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "IMU_INT2"
+        ]
+      },
+      {
+        "pin": "OCS_Aux",
+        "number": "10",
+        "net": "",
+        "nets": [],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": []
+      },
+      {
+        "pin": "SDO_Aux",
+        "number": "11",
+        "net": "",
+        "nets": [],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": []
+      },
+      {
+        "pin": "CS",
+        "number": "12",
+        "net": "SPI_CS",
+        "nets": [
+          "SPI_CS"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "SPI_CS"
+        ]
+      },
+      {
+        "pin": "SCL",
+        "number": "13",
+        "net": "SPI_SCK",
+        "nets": [
+          "SPI_SCK"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "SPI_SCK"
+        ]
+      },
+      {
+        "pin": "SDA",
+        "number": "14",
+        "net": "SPI_MOSI",
+        "nets": [
+          "SPI_MOSI"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "SPI_MOSI"
+        ]
+      }
+    ]
+  },
+  {
+    "designator": "D2",
+    "symbol": "BZT52C5V1-7-F.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "C",
+        "number": "1",
+        "net": "DXL_BUS",
+        "nets": [
+          "DXL_BUS"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "R6.2"
+        ],
+        "resolved_nets": [
+          "DXL_BUS",
+          "DXL_DATA"
+        ]
+      },
+      {
+        "pin": "A",
+        "number": "2",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [
+          "PORT40734107e21ae5af.Pin1"
+        ],
+        "wire_peers": [],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT40734107e21ae5af",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [
+          "D2.A"
+        ],
+        "wire_peers": [],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTdfa0a04d0653edaf",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "R7.2"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTe9e69682c5771fdd",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J3.6"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTc198b344a58d1095",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J3.1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTf579b4060c579ba2",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "VDD_BUS",
+        "nets": [
+          "VDD_BUS"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J2.2"
+        ],
+        "resolved_nets": [
+          "VDD_BUS"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTb41eecbff386e280",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J2.1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "J2",
+    "symbol": "BM03B-ACHSS-GAN-ETF.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTb41eecbff386e280.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "VDD_BUS",
+        "nets": [
+          "VDD_BUS"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTf579b4060c579ba2.Pin1"
+        ],
+        "resolved_nets": [
+          "VDD_BUS"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "3",
+        "number": "3",
+        "net": "DXL_BUS",
+        "nets": [
+          "DXL_BUS"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "DXL_BUS",
+          "DXL_DATA"
+        ]
+      },
+      {
+        "pin": "4",
+        "number": "4",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "J2.5",
+          "PORTa56c9d1950221685.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "5",
+        "number": "5",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "J2.4",
+          "PORTa56c9d1950221685.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTa56c9d1950221685",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J2.4",
+          "J2.5"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "C1",
+    "symbol": "CL05B104KO5NNNC.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [
+          "PORT2080fbf93d7771a4.Pin1"
+        ],
+        "wire_peers": [],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "U2.Vdd"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ]
+      }
+    ]
+  },
+  {
+    "designator": "C2",
+    "symbol": "CL05B104KO5NNNC.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [
+          "PORTa3d004065d7781b2.Pin1"
+        ],
+        "wire_peers": [],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "U2.Vdd_IO"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ]
+      }
+    ]
+  },
+  {
+    "designator": "C3",
+    "symbol": "CL05B104KO5NNNC.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [
+          "PORT5f09d949bb852422.Pin1"
+        ],
+        "wire_peers": [],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [
+          "PORTcf12bf7150adeafd.Pin1"
+        ],
+        "wire_peers": [],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "C4",
+    "symbol": "CL05B104KO5NNNC.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORT2436fb54661f2d2c.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORT2b99673335090ea2.Pin1"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "R1",
+    "symbol": "RC0402FR-0710KL.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "SPI_CS",
+        "nets": [
+          "SPI_CS"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "U1.PA4"
+        ],
+        "resolved_nets": [
+          "SPI_CS"
+        ]
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [
+          "PORT8a7dbfb71064cb90.Pin1"
+        ],
+        "wire_peers": [],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "R4",
+    "symbol": "RC0402FR-0710KL.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [
+          "PORTa7d27ec2a039d8ff.Pin1"
+        ],
+        "wire_peers": [],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "DE",
+        "nets": [
+          "DE"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "U3.1OE#"
+        ],
+        "resolved_nets": [
+          "DE"
+        ]
+      }
+    ]
+  },
+  {
+    "designator": "R5",
+    "symbol": "RC0402FR-0710KL.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "PORT03d00f6a40f6b6ba.Pin1"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "DXL_DATA",
+        "nets": [
+          "DXL_DATA"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "R6.1",
+          "U3.1Y",
+          "U3.2A"
+        ],
+        "resolved_nets": [
+          "DXL_BUS",
+          "DXL_DATA"
+        ]
+      }
+    ]
+  },
+  {
+    "designator": "R7",
+    "symbol": "RC0402FR-0710KL.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "RX_EN",
+        "nets": [
+          "RX_EN"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "U3.2OE"
+        ],
+        "resolved_nets": [
+          "RX_EN"
+        ]
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [
+          "PORTdfa0a04d0653edaf.Pin1"
+        ],
+        "wire_peers": [],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "C8",
+    "symbol": "CL05B104KO5NNNC.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "C6.2",
+          "D1.A",
+          "PORT880ea6a0a0e7644e.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "VDD_F",
+        "nets": [
+          "VDD_F"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "C6.1",
+          "D1.C",
+          "F1.2",
+          "PORT99465de8d424fa1b.Pin1",
+          "U4.Vin"
+        ],
+        "resolved_nets": [
+          "VDD_F"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "R2",
+    "symbol": "RC0402FR-0710KL.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "PORT10410e6b7821f10c.Pin1"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "NRST",
+        "nets": [
+          "NRST"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "U1.PF2-NRST"
+        ],
+        "resolved_nets": [
+          "NRST"
+        ]
+      }
+    ]
+  },
+  {
+    "designator": "PORT10410e6b7821f10c",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "R2.1"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTbb33dae7ddff91b2",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J1.3"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT89e9d1a5d17b0579",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "VDD_BUS",
+        "nets": [
+          "VDD_BUS"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J1.2"
+        ],
+        "resolved_nets": [
+          "VDD_BUS"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "J1",
+    "symbol": "A2007WR-3P.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "DXL_BUS",
+        "nets": [
+          "DXL_BUS"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "DXL_BUS",
+          "DXL_DATA"
+        ]
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "VDD_BUS",
+        "nets": [
+          "VDD_BUS"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORT89e9d1a5d17b0579.Pin1"
+        ],
+        "resolved_nets": [
+          "VDD_BUS"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "3",
+        "number": "3",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTbb33dae7ddff91b2.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "R6",
+    "symbol": "0603WAF1500T5E.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "DXL_DATA",
+        "nets": [
+          "DXL_DATA"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "R5.2",
+          "U3.1Y",
+          "U3.2A"
+        ],
+        "resolved_nets": [
+          "DXL_BUS",
+          "DXL_DATA"
+        ]
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "DXL_BUS",
+        "nets": [
+          "DXL_BUS"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "D2.C"
+        ],
+        "resolved_nets": [
+          "DXL_BUS",
+          "DXL_DATA"
+        ]
+      }
+    ]
+  },
+  {
+    "designator": "J3",
+    "symbol": "PZ254V-11-06P.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTc198b344a58d1095.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "SWDCLK",
+        "nets": [
+          "SWDCLK"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "SWDCLK"
+        ]
+      },
+      {
+        "pin": "3",
+        "number": "3",
+        "net": "SWDIO",
+        "nets": [
+          "SWDIO"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "SWDIO"
+        ]
+      },
+      {
+        "pin": "4",
+        "number": "4",
+        "net": "UART_RX",
+        "nets": [
+          "UART_RX"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "UART_RX"
+        ]
+      },
+      {
+        "pin": "5",
+        "number": "5",
+        "net": "UART_TX",
+        "nets": [
+          "UART_TX"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "UART_TX"
+        ]
+      },
+      {
+        "pin": "6",
+        "number": "6",
+        "net": "3.3V",
+        "nets": [
+          "3.3V"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTe9e69682c5771fdd.Pin1"
+        ],
+        "resolved_nets": [
+          "3.3V"
+        ],
+        "net_inferred": true
+      }
+    ]
+  }
+]

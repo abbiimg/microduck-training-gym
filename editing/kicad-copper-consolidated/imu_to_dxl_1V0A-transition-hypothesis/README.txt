@@ -1,0 +1,1 @@
+Static same-net copper union engineering copy. No refill or source-rule changes. Read ../../../COPPER-CONSOLIDATION.txt and consolidation-audit.json. A transition-hypothesis folder explicitly removes one ambiguous fill and is not literal source-equivalent. Manufacturing readiness remains false.

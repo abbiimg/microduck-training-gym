@@ -1,0 +1,57 @@
+[
+  {
+    "candidate": "POGO_PIN_1V0A",
+    "pads_checked": 6,
+    "geometry_or_net_errors": [],
+    "schematic_parity": [],
+    "drc_counts": {
+      "track_width": 4,
+      "track_dangling": 4
+    },
+    "unconnected": 0,
+    "manufacturing_ready": false
+  },
+  {
+    "candidate": "imu_to_dxl",
+    "pads_checked": 107,
+    "geometry_or_net_errors": [],
+    "schematic_parity": [],
+    "drc_counts": {
+      "drill_out_of_range": 14,
+      "copper_edge_clearance": 5,
+      "clearance": 14,
+      "zones_intersect": 26,
+      "via_dangling": 11
+    },
+    "unconnected": 0,
+    "manufacturing_ready": false
+  },
+  {
+    "candidate": "imu_to_dxl_1V0A",
+    "pads_checked": 93,
+    "geometry_or_net_errors": [],
+    "schematic_parity": [],
+    "drc_counts": {
+      "solder_mask_bridge": 64,
+      "drill_out_of_range": 3,
+      "copper_edge_clearance": 4,
+      "clearance": 281,
+      "hole_clearance": 15,
+      "zones_intersect": 144
+    },
+    "unconnected": 0,
+    "manufacturing_ready": false
+  },
+  {
+    "candidate": "wire_hub_1V0A",
+    "pads_checked": 24,
+    "geometry_or_net_errors": [],
+    "schematic_parity": [],
+    "drc_counts": {
+      "copper_edge_clearance": 30,
+      "clearance": 6
+    },
+    "unconnected": 0,
+    "manufacturing_ready": false
+  }
+]

@@ -1,0 +1,263 @@
+{
+  "model_id": "64f32784a16f466f897e9e56b6bbdf45|0819f05c4eef4c71ace90d822a990e87",
+  "model_title": "LGA-14_L3.0-W2.5-P0.50-BR",
+  "variants": [
+    {
+      "variant_number": 1,
+      "metrics": {
+        "valid": true,
+        "solids": 2,
+        "bounds_mm": [
+          [
+            -1.5000001,
+            -1.250000099999,
+            -0.21
+          ],
+          [
+            1.5000001,
+            1.2500001,
+            0.6610001
+          ]
+        ],
+        "volume_mm3": 6.466518731754197
+      },
+      "representative": {
+        "candidate": "imu_to_dxl",
+        "reference": "U2",
+        "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+        "source_step_sha256": "752a67bd59c543903ffcac74d44470b473f4c99899cd5449d0392a443cd8c9ff",
+        "source_instance_label": "U2",
+        "source_definition_label": "U2~LGA-14_L3.0-W2.5-P0.50-BR~LGA-14_L3.0-W2.5-P0.50-BR~BUMi",
+        "source_instance_location_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            27.432029464059
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            16.510134620269
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.810050793545
+          ]
+        ],
+        "source_definition_location_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "definition_metrics": {
+          "valid": true,
+          "solids": 2,
+          "bounds_mm": [
+            [
+              -1.5000001,
+              -1.250000099999,
+              -0.21
+            ],
+            [
+              1.5000001,
+              1.2500001,
+              0.6610001
+            ]
+          ],
+          "volume_mm3": 6.466518731754197
+        },
+        "comparison_to_variant_representative": {
+          "max_bbox_difference_mm": 0.0,
+          "volume_difference_mm3": 0.0,
+          "solid_counts_equal": true,
+          "metrics_agree": true
+        }
+      },
+      "instances": [
+        {
+          "candidate": "imu_to_dxl",
+          "reference": "U2",
+          "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+          "source_step_sha256": "752a67bd59c543903ffcac74d44470b473f4c99899cd5449d0392a443cd8c9ff",
+          "source_instance_label": "U2",
+          "source_definition_label": "U2~LGA-14_L3.0-W2.5-P0.50-BR~LGA-14_L3.0-W2.5-P0.50-BR~BUMi",
+          "source_instance_location_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              27.432029464059
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              16.510134620269
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.810050793545
+            ]
+          ],
+          "source_definition_location_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "definition_metrics": {
+            "valid": true,
+            "solids": 2,
+            "bounds_mm": [
+              [
+                -1.5000001,
+                -1.250000099999,
+                -0.21
+              ],
+              [
+                1.5000001,
+                1.2500001,
+                0.6610001
+              ]
+            ],
+            "volume_mm3": 6.466518731754197
+          },
+          "comparison_to_variant_representative": {
+            "max_bbox_difference_mm": 0.0,
+            "volume_difference_mm3": 0.0,
+            "solid_counts_equal": true,
+            "metrics_agree": true
+          }
+        },
+        {
+          "candidate": "imu_to_dxl_1V0A",
+          "reference": "U2",
+          "source_step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+          "source_step_sha256": "aadaea725e93fa6c9fe8a7baac5cb695b0e024145009c190096effd80ac3699b",
+          "source_instance_label": "U2",
+          "source_definition_label": "U2~LGA-14_L3.0-W2.5-P0.50-BR~LGA-14_L3.0-W2.5-P0.50-BR~e8DW",
+          "source_instance_location_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              13.506784353569
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              15.602255524511
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.810050793545
+            ]
+          ],
+          "source_definition_location_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "definition_metrics": {
+            "valid": true,
+            "solids": 2,
+            "bounds_mm": [
+              [
+                -1.5000001,
+                -1.250000099999,
+                -0.21
+              ],
+              [
+                1.5000001,
+                1.2500001,
+                0.6610001
+              ]
+            ],
+            "volume_mm3": 6.466518731754197
+          },
+          "comparison_to_variant_representative": {
+            "max_bbox_difference_mm": 0.0,
+            "volume_difference_mm3": 0.0,
+            "solid_counts_equal": true,
+            "metrics_agree": true
+          }
+        }
+      ],
+      "step_file": "recovered\\author-step-model-definitions\\64f32784a16f466f897e9e56b6bbdf45_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "step_sha256": "0d0dcc680b6d6d5ca36e0da6a101546b851b12cbcdb7eebb2712b62056ba2090",
+      "step_roundtrip": {
+        "max_bbox_difference_mm": 0.0,
+        "volume_difference_mm3": 1.7763568394002505e-14,
+        "solid_counts_equal": true,
+        "metrics_agree": true
+      },
+      "stl_file": "recovered\\author-step-model-definitions\\64f32784a16f466f897e9e56b6bbdf45_0819f05c4eef4c71ace90d822a990e87\\model.stl",
+      "stl_sha256": "d38c795b436f046e3dd2a46f0b8859c4c7bd4f13486f50d82330690314734e32",
+      "stl_triangles": 6574,
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; numeric coordinates are millimetres"
+    }
+  ],
+  "variant_count": 1,
+  "definition_metric_consistency": "all checked definition-local bounds, volumes and solid counts agree within stated tolerances",
+  "full_brep_equivalence_proven": false,
+  "coordinate_frame": "exact XCAF referred PRODUCT-DEFINITION local frame in millimetres; not original vendor/native KiCad model-local",
+  "metadata_uuid_embedded_in_step": false,
+  "identity_basis": "metadata model ID grouped only after exact reference and matching title identity was established",
+  "canonical_equivalence": "metric-only; unqualified for asymmetric geometry or baked orientation equivalence",
+  "representative_selection": "first exact source definition in deterministic board/ref order within each model-ID metric group; all exact source definitions remain retrievable through per-instance source hash/ref/definition-label provenance"
+}

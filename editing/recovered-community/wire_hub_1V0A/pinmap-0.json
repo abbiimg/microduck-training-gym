@@ -1,0 +1,894 @@
+[
+  {
+    "designator": "J2",
+    "symbol": "BM03B-ACHSS-GAN-ETF.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTb41eecbff386e280.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTf579b4060c579ba2.Pin1"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "3",
+        "number": "3",
+        "net": "DXL_BUS",
+        "nets": [
+          "DXL_BUS"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "DXL_BUS"
+        ]
+      },
+      {
+        "pin": "4",
+        "number": "4",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "J2.5",
+          "PORTa56c9d1950221685.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "5",
+        "number": "5",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "J2.4",
+          "PORTa56c9d1950221685.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "J1",
+    "symbol": "HC-1.2-3PWT.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORT66fe927b1e13a7eb.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORT497c02a9f327ec5e.Pin1"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "3",
+        "number": "3",
+        "net": "DXL_BUS",
+        "nets": [
+          "DXL_BUS"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "DXL_BUS"
+        ]
+      },
+      {
+        "pin": "4",
+        "number": "4",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "J1.5",
+          "PORT0c74c2033e75e541.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "5",
+        "number": "5",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "J1.4",
+          "PORT0c74c2033e75e541.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTf579b4060c579ba2",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J2.2"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT497c02a9f327ec5e",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J1.2"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTa56c9d1950221685",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J2.4",
+          "J2.5"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT66fe927b1e13a7eb",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J1.1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTb41eecbff386e280",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J2.1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT0c74c2033e75e541",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J1.4",
+          "J1.5"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT8b2d98a9ee3a59ea",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J3.3"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTb92a311b29aa97ea",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J3.2"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTaf182c6f6514c14e",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J4.3"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTd825e7758520d14c",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J4.2"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTa08a46b0f43e162c",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J5.3"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTa2ee798ee81b1c98",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J5.2"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTfb5d7e0642fd5179",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J6.3"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTb13dd3d090815bbe",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "J6.2"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "J3",
+    "symbol": "A2007WR-3P.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "DXL_BUS",
+        "nets": [
+          "DXL_BUS"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "DXL_BUS"
+        ]
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTb92a311b29aa97ea.Pin1"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "3",
+        "number": "3",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORT8b2d98a9ee3a59ea.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "J4",
+    "symbol": "A2007WR-3P.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "DXL_BUS",
+        "nets": [
+          "DXL_BUS"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "DXL_BUS"
+        ]
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTd825e7758520d14c.Pin1"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "3",
+        "number": "3",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTaf182c6f6514c14e.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "J5",
+    "symbol": "A2007WV-3P.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "DXL_BUS",
+        "nets": [
+          "DXL_BUS"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "DXL_BUS"
+        ]
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTa2ee798ee81b1c98.Pin1"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "3",
+        "number": "3",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTa08a46b0f43e162c.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "J6",
+    "symbol": "A2007WV-3P.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "DXL_BUS",
+        "nets": [
+          "DXL_BUS"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [],
+        "resolved_nets": [
+          "DXL_BUS"
+        ]
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTb13dd3d090815bbe.Pin1"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "3",
+        "number": "3",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTfb5d7e0642fd5179.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "CN1",
+    "symbol": "DB125-2.54-2P-GN.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTbff30eec59f236c3.Pin1"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORTfe07c1fa6992c4a9.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTbff30eec59f236c3",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "CN1.1"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORTfe07c1fa6992c4a9",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "CN1.2"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  }
+]

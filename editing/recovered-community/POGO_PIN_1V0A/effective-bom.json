@@ -1,0 +1,32 @@
+[
+  {
+    "reference": "CN2",
+    "value": null,
+    "manufacturer_part": "XY340V-3.81-2P",
+    "supplier_part": "C911105",
+    "device_library_part": "XY340V-3.81-2P",
+    "device_library_description": "结构:1x2P;间距:3.81mm;颜色:绿色;安装类型:直插;排数:1;每排PIN数:2;额定电流:7A;额定电压:300V;线规 - AWG:18~24;线规 - 平方毫米:1;工作温度:-;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "U1",
+    "value": null,
+    "manufacturer_part": "YZ39730097P-01",
+    "supplier_part": "C5157280",
+    "device_library_part": "YZ39730097P-01",
+    "device_library_description": "类型:弹簧顶针(POGO PIN);总PIN数:1P;全长/全高:9.7mm;工作高度:6.7mm;接触电阻:50mΩ;弹性寿命:10000次;额定电流:2A;额定电压:12V;触头材质:黄铜;触头镀层:金;工作温度:-20℃~+70℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "U2",
+    "value": null,
+    "manufacturer_part": "YZ39730097P-01",
+    "supplier_part": "C5157280",
+    "device_library_part": "YZ39730097P-01",
+    "device_library_description": "类型:弹簧顶针(POGO PIN);总PIN数:1P;全长/全高:9.7mm;工作高度:6.7mm;接触电阻:50mΩ;弹性寿命:10000次;额定电流:2A;额定电压:12V;触头材质:黄铜;触头镀层:金;工作温度:-20℃~+70℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  }
+]

@@ -1,0 +1,22 @@
+Authored fixed-supply package functional test: tx_low
+.include "/mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/electrical-models/ti-sn74lvc2g241/SN74LVC2G241.cir"
+.include "/mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/electrical-models/ti-sn74lvc2g241/SN74LVC2G241_DCU_review.lib"
+Vcc vcc 0 3.3
+* Recovered physical U3 pin order 1..8. Pins 5/6 share DXL_DATA.
+XU3 de mcu_tx mcu_rx 0 dxl_data dxl_data rx_en vcc SN74LVC2G241_DCU_REVIEW
+R4 vcc de 10k
+R5 vcc dxl_data 10k
+R7 rx_en vcc 10k
+* Placed R6=0R modeled as a zero-volt link/current probe; boundary retained.
+VR6 dxl_data dxl_bus 0
+Vcpu_tx mcu_tx 0 0
+Vcpu_de de 0 0
+Vcpu_rx_en rx_en 0 0
+Rcpu_test_load mcu_rx 0 10k
+.op
+.control
+run
+print v(dxl_data) v(dxl_bus) v(mcu_rx) v(de) v(rx_en)
+quit
+.endc
+.end

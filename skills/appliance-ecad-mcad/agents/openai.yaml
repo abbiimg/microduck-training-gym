@@ -1,0 +1,4 @@
+interface:
+  display_name: "Appliance PCB and Enclosure Bridge"
+  short_description: "Coordinate KiCad boards, CAD enclosures and Blender"
+  default_prompt: "Use $appliance-ecad-mcad to develop my PCB and enclosure together and verify their fit."

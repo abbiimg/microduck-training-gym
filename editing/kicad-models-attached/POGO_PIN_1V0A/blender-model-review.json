@@ -1,0 +1,127 @@
+{
+  "candidate": "POGO_PIN_1V0A",
+  "blender_version": "5.2.3 LTS",
+  "source_glb": "assembly-review.glb",
+  "source_glb_sha256": "b3158522f0b727ee1995a1d9418b7d08e9f80c28dcfc57eb6391a15a004cd661",
+  "blend_file": "assembly-review.blend",
+  "blend_sha256": "f5e952ddb600d461a5aae1ff892269c957e97cd2d962afb75750910d9962ec03",
+  "preview_file": "assembly-review.png",
+  "preview_sha256": "8e2061397e33d03d7a0823ff5f60c789b24d5454aa054f5e9df015b6a00b6a4a",
+  "mesh_objects": 3,
+  "vertices": 6096,
+  "unit_scale": 1.0,
+  "coordinate_units": "metres",
+  "camera_view": "bottom",
+  "imported_world_bounds_mm": [
+    [
+      73.63570481538773,
+      5.761700216680765,
+      -9.685000404715538
+    ],
+    [
+      112.80030012130737,
+      12.526299804449081,
+      1.5100480522960424
+    ]
+  ],
+  "imported_world_dimensions_mm": [
+    39.16459530591965,
+    6.764599587768316,
+    11.195048689842224
+  ],
+  "import_transform_policy": "Native Blender glTF importer, no additional geometry translation/rotation/scale. Camera framed from actual transformed mesh bounds.",
+  "objects": [
+    {
+      "name": "=>[0:1:1:3]",
+      "vertices": 2938,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.11018393188714981
+        ],
+        [
+          0.0,
+          -1.0,
+          -1.2246468525851679e-16,
+          0.009791122749447823
+        ],
+        [
+          0.0,
+          1.2246468525851679e-16,
+          -1.0,
+          -8.499999967170879e-05
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "=>[0:1:1:5]",
+      "vertices": 2938,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.07638415694236755
+        ],
+        [
+          0.0,
+          -1.0,
+          -1.2246468525851679e-16,
+          0.00978937093168497
+        ],
+        [
+          0.0,
+          1.2246468525851679e-16,
+          -1.0,
+          -8.499999967170879e-05
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "=>[0:1:1:6]",
+      "vertices": 220,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "dimensions_qualified": false,
+  "electrical_release_ready": false
+}

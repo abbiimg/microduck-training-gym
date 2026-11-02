@@ -1,0 +1,22 @@
+{
+  "candidate": "POGO_PIN_1V0A",
+  "pads_checked": 6,
+  "pad_geometry_or_net_errors": [],
+  "schematic_to_pcb_named_pin_mismatches": [
+    {
+      "reference": "CN2",
+      "pin": "1",
+      "schematic_net": "Battery",
+      "pcb_nets": []
+    },
+    {
+      "reference": "CN2",
+      "pin": "2",
+      "schematic_net": "GND",
+      "pcb_nets": []
+    }
+  ],
+  "filled_copper_area_errors": [],
+  "zone_fill_count": 0,
+  "manufacturing_ready": false
+}

@@ -1,0 +1,15 @@
+TI buffer DC model test
+.include "/mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/work/electrical-models/ti-buffer/SN74LVC2G241.cir"
+Vcc vcc 0 3.3
+Vin input 0 3.3
+Voe enable 0 0
+Vpull pull 0 0
+Xbuffer output input enable vcc 0 SN74LVC2G241
+Rload output pull 10k
+.op
+.control
+run
+print v(output)
+quit
+.endc
+.end

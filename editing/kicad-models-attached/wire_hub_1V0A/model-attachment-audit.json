@@ -1,0 +1,261 @@
+{
+  "schema": "microduck-kicad-author-models/v1",
+  "candidate": "wire_hub_1V0A",
+  "base_candidate": "wire_hub_1V0A",
+  "parent_board": "editing\\kicad-integrated\\wire_hub_1V0A\\wire_hub_1V0A.kicad_pcb",
+  "parent_board_sha256": "4cfa1b835e92eeb719fdf5658c41dbf6b8304028bbf2a17ea36d8b0af9a9bc64",
+  "pose_review_sha256": "767054224fc150c73be980c4ba2e26c13ab08e8912d9922ae192aa72538d4ffa",
+  "component_manifest_sha256": "798cdd52df8a34e426ae67a37544879d73e1491fb9b4d7e291bbb117da426f63",
+  "unchanged_project_files": {
+    "wire_hub_1V0A.kicad_pro": "33c2ba5a756e0340c804c37493ff286f23b1f58289012c993740d7fa9f7fcc9f",
+    "wire_hub_1V0A.kicad_sch": "b5559a20ea0d2dc8e99a768ee2a4f1eb8edc228a3eb0de61926625431857dca9",
+    "wire_hub_1V0A.kicad_dru": "4424baabfc88642e128e3185566bbc9b1c55d8d16cec697c62bbff50322f7676",
+    "fp-lib-table": "9574e9b3397832b432ea9c4b5805ae68cc04f2441b25acbd9f0facfbf1dc3ac0",
+    "sym-lib-table": "0e0ba8edc148421cc63d275baa90d273b3c07a7d1708f072aba60633897fc0c2"
+  },
+  "native_version": "10.0.7",
+  "nominal_native_board_thickness_mm": 1.600048,
+  "coordinate_policy": "Per-instance author geometry translated by negative author footprint surface origin; bottom inverse Rx180; native footprints currently have zero angle with source rotation baked in geometry. No scaling of local model dimensions. KiCad places local models at its native top/bottom model datum. XY origins use current exact-mil positions rather than globally scaling the author assembly.",
+  "author_source_surface_mm": {
+    "bottom": 0,
+    "top": 1.6000508001016003
+  },
+  "source_outline_fit_qualified": false,
+  "vendor_dimensions_qualified": false,
+  "manufacturing_ready": false,
+  "missing_models": [],
+  "missing_model_reason": null,
+  "models": [
+    {
+      "reference": "CN1",
+      "source_placed_step": "recovered\\author-step-components\\wire_hub_1V0A\\CN1.step",
+      "source_placed_sha256": "6ad1e55a33c065213b8dcbd2137a3ff41106c5516be0ac01393898e85d587f80",
+      "source_model_id": "e364713d301b433da8ecef6fca46e972|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "CONN-TH_DB125-2.54-2P-GN",
+      "author_footprint_origin_mm": [
+        10.79502159004318,
+        24.638049276098553,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        58.547,
+        23.241
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/CN1.step",
+      "model_path": "${KIPRJMOD}/models/CN1.step",
+      "local_model_sha256": "b2f5e5ee5adefcc04513d8cf3a1102820be0bdd2e9a9ef2a97f43001ad8380fd",
+      "local_model_bounds_mm": [
+        -2.7800500321000006,
+        -3.1349886699779987,
+        -3.5000001059645403,
+        2.7800500679,
+        3.1650115300209998,
+        8.399999994036
+      ],
+      "solids": 5,
+      "volume_mm3": 155.67770214851384
+    },
+    {
+      "reference": "J1",
+      "source_placed_step": "recovered\\author-step-components\\wire_hub_1V0A\\J1.step",
+      "source_placed_sha256": "fbd23f81606650d924dc6a99d6f610a9ded791c427d2ba562256f503d08c4fe3",
+      "source_model_id": "503e76cdc9f844a6b2306dd53d5ecc2a|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "CONN-SMD_3P-P1.20_HCTL_HC-1.2-3PWT",
+      "author_footprint_origin_mm": [
+        18.796037592075184,
+        25.400050800101603,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        66.548,
+        24.003
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/J1.step",
+      "model_path": "${KIPRJMOD}/models/J1.step",
+      "local_model_sha256": "aff93aa223cb6861eeb660d616be7e29afdf18f3d3641800e4159a7761bd6f7f",
+      "local_model_bounds_mm": [
+        -2.7510000999989996,
+        -1.9999872999752493,
+        -4.4800003984324377e-10,
+        2.7500001,
+        2.5000128000249995,
+        1.4199999995526666
+      ],
+      "solids": 16,
+      "volume_mm3": 14.987589659024085
+    },
+    {
+      "reference": "J2",
+      "source_placed_step": "recovered\\author-step-components\\wire_hub_1V0A\\J2.step",
+      "source_placed_sha256": "5d67e7b0fe55557d1e30b110448418b6c5ad25e46f069e9c2ad3924ef4339469",
+      "source_model_id": "821f361f67d84e41a483b3c32f441adb|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF",
+      "author_footprint_origin_mm": [
+        3.4290068580137163,
+        25.400050800101603,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        51.181,
+        24.003
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/J2.step",
+      "model_path": "${KIPRJMOD}/models/J2.step",
+      "local_model_sha256": "1d46bf5d4e2ce947605b505af9dc2ff9df95e9f37ed86fb4f6067ff5b1e9a8ad",
+      "local_model_bounds_mm": [
+        -2.7049747049399997,
+        -2.084061568122,
+        -1.4733086972640308e-09,
+        2.70502539506,
+        2.215938631877,
+        1.4500000985270023
+      ],
+      "solids": 1,
+      "volume_mm3": 14.257059727128912
+    },
+    {
+      "reference": "J3",
+      "source_placed_step": "recovered\\author-step-components\\wire_hub_1V0A\\J3.step",
+      "source_placed_sha256": "b83377350c019a986afe61c3b20aacc5854c1793a0fc50eef1285c039ee00962",
+      "source_model_id": "7576b685b3b842e1920e0f50f5ef1550|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "CONN-TH_A2007WR-3P",
+      "author_footprint_origin_mm": [
+        14.986029972059946,
+        9.5250190500381,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        62.738,
+        8.128
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/J3.step",
+      "model_path": "${KIPRJMOD}/models/J3.step",
+      "local_model_sha256": "8c5dae9a9188f892244a21cdf5e8035118a85c3133e4c8ad0ecce55faa6eb3b1",
+      "local_model_bounds_mm": [
+        -1.7150114300235115,
+        -4.280050151309,
+        -3.200000021674,
+        7.084988669976,
+        3.680049948691,
+        4.000000078325
+      ],
+      "solids": 1,
+      "volume_mm3": 101.93523692941775
+    },
+    {
+      "reference": "J4",
+      "source_placed_step": "recovered\\author-step-components\\wire_hub_1V0A\\J4.step",
+      "source_placed_sha256": "b746a38685fb1f29dce9e282c71188fc74206ca6082d1dcc35c6c166f869fcea",
+      "source_model_id": "7576b685b3b842e1920e0f50f5ef1550|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "CONN-TH_A2007WR-3P",
+      "author_footprint_origin_mm": [
+        7.366014732029464,
+        8.763017526035053,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        55.118,
+        7.366
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/J4.step",
+      "model_path": "${KIPRJMOD}/models/J4.step",
+      "local_model_sha256": "dec7effc4d45405f56569067db6cc414cfeaabab8f202dcd3505260e30dfa73d",
+      "local_model_bounds_mm": [
+        -7.084988669976,
+        -3.680049948691,
+        -3.200000021674,
+        1.7150114300235115,
+        4.280050151309,
+        4.000000078325
+      ],
+      "solids": 1,
+      "volume_mm3": 101.93523692941775
+    },
+    {
+      "reference": "J5",
+      "source_placed_step": "recovered\\author-step-components\\wire_hub_1V0A\\J5.step",
+      "source_placed_sha256": "7325ff2f05d44fb0173731f0a308c4ae882527c7594fa5a68886bcdb5559d2b3",
+      "source_model_id": "deb6dd8d6be645a6b0b15d641ed56279|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "CONN-TH_A2007WV-3P",
+      "author_footprint_origin_mm": [
+        5.588011176022352,
+        17.653035306070613,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        53.34,
+        16.256
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/J5.step",
+      "model_path": "${KIPRJMOD}/models/J5.step",
+      "local_model_sha256": "212b96fbb5504a17c6fc21917cf6946660ac25785f24ae1c4e856a7dc49d400e",
+      "local_model_bounds_mm": [
+        -1.9910084852749994,
+        -4.000000099999024,
+        -3.2000001671719995,
+        1.6099917147240026,
+        4.000000000001013,
+        6.799999832827006
+      ],
+      "solids": 17,
+      "volume_mm3": 85.93272863005203
+    },
+    {
+      "reference": "J6",
+      "source_placed_step": "recovered\\author-step-components\\wire_hub_1V0A\\J6.step",
+      "source_placed_sha256": "b760edd5cb86c3cfe22b64a4b64200a7e9a8cd8cca34b8db23620f1f6f0bcab4",
+      "source_model_id": "deb6dd8d6be645a6b0b15d641ed56279|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "CONN-TH_A2007WV-3P",
+      "author_footprint_origin_mm": [
+        16.891033782067566,
+        17.78003556007112,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        64.643,
+        16.383
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/J6.step",
+      "model_path": "${KIPRJMOD}/models/J6.step",
+      "local_model_sha256": "b1f3a8816e352343b3676d3e997a1d6bda5fea5dc77ff6d12869b18ccded80bc",
+      "local_model_bounds_mm": [
+        -1.9910084852760004,
+        -4.000000099999028,
+        -3.2000001671719995,
+        1.6099917147230025,
+        4.000000000001012,
+        6.799999832827006
+      ],
+      "solids": 17,
+      "volume_mm3": 85.93272863005211
+    }
+  ],
+  "attached": true,
+  "local_geometry_generated": true,
+  "attached_models": 7,
+  "non_model_board_data_unchanged": true,
+  "library_model_reload_verified": true,
+  "board_sha256": "d1704b7d6f76d8ae2d54efb7b1b0717de55851b953af10f060d2cc2809989a34",
+  "step_export": {
+    "file": "assembly-review.step",
+    "sha256": "43b6b5b20a92ae0e4d41d057fe3ff9eec89b031569a5e708a245f18bd4d23075"
+  },
+  "glb_export": {
+    "file": "assembly-review.glb",
+    "sha256": "22fe2fe0a5ddcad2971157e451011c346b715c12eeea8dd65e9910df43ceff7d"
+  }
+}

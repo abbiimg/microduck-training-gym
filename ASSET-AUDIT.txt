@@ -1,0 +1,102 @@
+MicroDuck editable-asset audit — October 26, 2026
+
+HISTORICAL FIRST-PASS AUDIT: subsequent additions and current gap status are in
+GAP-CLOSURE.txt and audit/gap-closure.json. In particular, community native CAD
+and electronics sources were later collected, native SolidWorks validation
+was performed, and a labeled datasheet-derived oscillator envelope was added.
+
+Prepared the available official source assets locally. This is NOT a complete
+original manufacturing package. The gaps below remain explicit.
+
+OPEN / EDIT
+Blender: editing/blender/MicroDuck-baseline.blend
+  Reopened with Blender 5.2.3. 70 visual mesh instances, 15 rigid-link frames,
+  joint metadata, SI coordinates, upstream STAND pose. Approximately
+  122.69 x 142.06 x 271.62 mm, measured from actual transformed vertices.
+  Editable mesh assembly, not a parametric CAD tree
+  or a completed Blender animation/physics rig. Preview is in audit/.
+
+SolidWorks: editing/solidworks/MicroDuck-assembled-mm.stl
+  Complete standing-pose reference in millimeter coordinates.
+  rigid_links_mm/ contains 15 named rigid-link meshes in their local frames;
+  assembly-mm.json supplies their assembly transforms, in mm with Z up.
+  meshes_mm/ contains all 43 upstream STL shapes with explicit m-to-mm conversion.
+  All 43 were watertight under trimesh's vertex-processing diagnostic. This does
+  not establish that SolidWorks will import every file as an editable solid.
+  Original SLDPRT/SLDASM feature history is NOT included. SolidWorks was not
+  running during this audit; native import was not tested.
+
+  Robot_HAT_reference_STEP/ contains the official exported PCB assembly STEP.
+  It is board CAD, not a STEP model of the entire robot.
+
+KiCad: editing/kicad/Robot_HAT_reference/elec_RPI_Robot_HAT.kicad_pro
+  Native upstream PCB and hierarchical schematics, copied for editing. Local
+  library tables and extracted schematic-cache symbol libraries were added.
+  Custom 3D paths were made project-relative, and standard model references
+  mapped to installed KiCad 10 libraries. Original copper, nets and board outline
+  were retained. Upstream originals remain untouched under upstream/.
+  All footprint names resolve against the downloaded and installed libraries.
+  One referenced oscillator 3D model is missing. Existing complete production
+  STEP, BOM, placement, schematic/assembly PDFs and Gerbers are retained upstream.
+
+SIMULATION SOURCES
+upstream/microduck_rl/src/mjlab_microduck/robot/microduck/
+  Full local MJCF scenes, meshes, joint/sensor configuration and Onshape export
+  metadata. scene_walk.xml loaded successfully with MuJoCo: 14 actuators and
+  15 joints including the free root. This is the walking simplification; not
+  proof of a complete 15-servo production mechanism.
+
+simulation/isaaclab/
+  Four official NVIDIA MicroDuck USD variants: walk, all-collisions, and each
+  backlash version. All opened and had zero unresolved external dependencies.
+  Backlash versions have additional passive joints; do not confuse those with
+  commanded actions. Existing tested Isaac Lab installation was not replaced.
+
+WHAT IS STILL MISSING OR UNVERIFIED
+1. Original parametric mechanical CAD / neutral solid CAD for the robot body.
+   .part files here are JSON Onshape identifiers, NOT CAD solids. The source URL
+   embedded in config_mjcf_walk.json redirects to Onshape sign-in. CAD access
+   and export require an accessible source document; no account was created.
+2. Exact electronics matching the selected MicroDuck hardware revision.
+   Pollen's current runtime describes an alpha variant with an imu_to_dxl v2
+   board. Its native PCB/schematic was not located in the official public repos
+   audited. The downloaded RPI Robot HAT is an editable official reference, not
+   proof of the full production robot electronics or a drop-in replacement.
+3. The exact oscillator 3D model referenced by the HAT:
+   Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm.step.
+   No different component model was silently substituted.
+4. Complete robot manufacturing BOM, tolerances, fastener/fit specifications,
+   wiring harness, and measured physical component properties are not
+   established by this mesh/simulation package. Simulation mass/inertia and
+   actuator parameters are included but do not replace physical measurements.
+
+ELECTRICAL VALIDATION
+KiCad 10.0.7 successfully exported the schematic hierarchy to SVG and a netlist.
+DRC: 40 hole-clearance errors, 6 footprint-library mismatch warnings,
+     0 unconnected items.
+ERC: 1 PWR_FLAG library-symbol mismatch warning.
+These are the audited source design's results under the installed toolchain,
+not a manufacturing pass. No routing repair was made. See audit/*drc.json and
+audit/*erc.json. Cached PWR_FLAG variants differ between source sheets; the
+warning is retained rather than silently replacing circuit symbols.
+
+PROVENANCE / LICENSING
+Four official repositories are preserved with git revision information in
+asset-manifest.json. No unresolved Git LFS pointers were found in collected files.
+The robot STL meshes and their Blender/scaled-mesh derivatives carry Pollen's
+CC BY-NC-SA 4.0 terms; retain attribution and see LICENSE-MODELS.md. The upstream
+MJCF/code and HAT have their own licenses. lib_KiCAD has no top-level license
+identified in this audit; do not assume the HAT license covers the library.
+NVIDIA USD asset terms are separate. No commercial-rights clearance is claimed.
+
+Audit tools and reproduction scripts are under tools/. The manifest records
+file hashes, source revisions, dependency gaps and cross-format dimension checks.
+Generated edit files are starting points for the design/retraining workflow;
+mechanical/electrical fit and revised policy performance require variant tests.
+
+OFFICIAL SOURCES
+https://github.com/pollen-robotics/microduck_rl
+https://github.com/pollen-robotics/microduck
+https://github.com/pollen-robotics/elec_RPI_Robot_HAT
+https://github.com/pollen-robotics/lib_KiCAD
+https://github.com/pollen-robotics/microduck/issues/175

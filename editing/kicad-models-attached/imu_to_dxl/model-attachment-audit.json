@@ -1,0 +1,943 @@
+{
+  "schema": "microduck-kicad-author-models/v1",
+  "candidate": "imu_to_dxl",
+  "base_candidate": "imu_to_dxl",
+  "parent_board": "editing\\kicad-integrated\\imu_to_dxl\\imu_to_dxl.kicad_pcb",
+  "parent_board_sha256": "7fa9290cbf13d80b55aea91dd5762babb9ea8323f752ce6b794a2177438db95a",
+  "pose_review_sha256": "767054224fc150c73be980c4ba2e26c13ab08e8912d9922ae192aa72538d4ffa",
+  "component_manifest_sha256": "7066b6a8cb8a433eba343c536025cac7e5b14f5996cfb46ee8dc52fd38f39a38",
+  "unchanged_project_files": {
+    "imu_to_dxl.kicad_pro": "77ebf037a4786889b5eccc12e0bc2e7696f0e492ad81f2a9e359d6e356178c27",
+    "imu_to_dxl.kicad_sch": "a7c5864b0c5578b202bef49f781c2a1a8eb08ac32c57a9cb08e3d13383cfd716",
+    "imu_to_dxl.kicad_dru": "b503057c26fb5480dc57f9428a4dc5b49d9848fb790c4945559029c5cf45635b",
+    "fp-lib-table": "9574e9b3397832b432ea9c4b5805ae68cc04f2441b25acbd9f0facfbf1dc3ac0",
+    "sym-lib-table": "0e0ba8edc148421cc63d275baa90d273b3c07a7d1708f072aba60633897fc0c2"
+  },
+  "native_version": "10.0.7",
+  "nominal_native_board_thickness_mm": 1.600048,
+  "coordinate_policy": "Per-instance author geometry translated by negative author footprint surface origin; bottom inverse Rx180; native footprints currently have zero angle with source rotation baked in geometry. No scaling of local model dimensions. KiCad places local models at its native top/bottom model datum. XY origins use current exact-mil positions rather than globally scaling the author assembly.",
+  "author_source_surface_mm": {
+    "bottom": 0,
+    "top": 1.6000508001016003
+  },
+  "source_outline_fit_qualified": false,
+  "vendor_dimensions_qualified": false,
+  "manufacturing_ready": false,
+  "missing_models": [],
+  "missing_model_reason": null,
+  "models": [
+    {
+      "reference": "C1",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\C1.step",
+      "source_placed_sha256": "9e88f3a51682f689e93abdfe3fa6ffc9f1080d8d6f4992caf8ec00e2ca1acfc1",
+      "source_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "C0603_L1.6-W0.8-H0.8",
+      "author_footprint_origin_mm": [
+        24.25704851409703,
+        17.90703581407163,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        24.257,
+        17.907
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/C1.step",
+      "model_path": "${KIPRJMOD}/models/C1.step",
+      "local_model_sha256": "e8479cf8770c9581e200f4184e3900bda77da40a906dff41165295a812075a9b",
+      "local_model_bounds_mm": [
+        -0.4000001,
+        -0.8,
+        -9.999899995260947e-08,
+        0.4000001,
+        0.8,
+        0.8000001
+      ],
+      "solids": 1,
+      "volume_mm3": 0.9906815108514716
+    },
+    {
+      "reference": "C2",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\C2.step",
+      "source_placed_sha256": "38b10f6312fa7e29b0f55edc7abd30a19757318319c64136ee813c9c33926d37",
+      "source_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "C0603_L1.6-W0.8-H0.8",
+      "author_footprint_origin_mm": [
+        27.43205486410973,
+        19.431038862077724,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        27.432,
+        19.431
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/C2.step",
+      "model_path": "${KIPRJMOD}/models/C2.step",
+      "local_model_sha256": "a7981e043a67ad05d60da8a7509722060f6bb98326d208ccd7fe557349d13472",
+      "local_model_bounds_mm": [
+        -0.8,
+        -0.4000001,
+        -9.999899995260947e-08,
+        0.8,
+        0.4000001,
+        0.8000001
+      ],
+      "solids": 1,
+      "volume_mm3": 0.9906815108514551
+    },
+    {
+      "reference": "C3",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\C3.step",
+      "source_placed_sha256": "fa5893add29969030b0f96406a0d5d93f170182f55f29d3f953e82abf5ea15d4",
+      "source_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "C0603_L1.6-W0.8-H0.8",
+      "author_footprint_origin_mm": [
+        26.416052832105667,
+        11.303022606045213,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        26.416,
+        11.303
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/C3.step",
+      "model_path": "${KIPRJMOD}/models/C3.step",
+      "local_model_sha256": "8f2eae16be91722eeb7f0941eeebfe6f5bbf0e92b71c1ade69db6ace0bdb1f2d",
+      "local_model_bounds_mm": [
+        -0.8,
+        -0.4000001,
+        -9.999899995260947e-08,
+        0.8,
+        0.4000001,
+        0.8000001
+      ],
+      "solids": 1,
+      "volume_mm3": 0.9906815108514798
+    },
+    {
+      "reference": "C4",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\C4.step",
+      "source_placed_sha256": "1ee0d9b03ff62482abd62cf7a99f42c8c830542f7dcfc64c52ab05f41b1a6656",
+      "source_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "C0603_L1.6-W0.8-H0.8",
+      "author_footprint_origin_mm": [
+        14.60502921005842,
+        8.763017526035053,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        14.605,
+        8.763
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/C4.step",
+      "model_path": "${KIPRJMOD}/models/C4.step",
+      "local_model_sha256": "f9640e9e7caaaa31d1379cd16e314929e56bdda87d06db7e078809889bc0cd6d",
+      "local_model_bounds_mm": [
+        -0.8,
+        -0.4000001,
+        -9.999899995260947e-08,
+        0.8,
+        0.4000001,
+        0.8000001
+      ],
+      "solids": 1,
+      "volume_mm3": 0.9906815108514658
+    },
+    {
+      "reference": "C5",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\C5.step",
+      "source_placed_sha256": "f6ce5ced7e1d509d5c6209e5bb9c317efc0bcd41872c883e5befa00d2e64b6b5",
+      "source_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "C0603_L1.6-W0.8-H0.8",
+      "author_footprint_origin_mm": [
+        14.60502921005842,
+        6.858013716027433,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        14.605,
+        6.858
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/C5.step",
+      "model_path": "${KIPRJMOD}/models/C5.step",
+      "local_model_sha256": "2b36e2c491797c64a8e7943791b370e8501a538639aaa66d0de25998126f0b7e",
+      "local_model_bounds_mm": [
+        -0.8,
+        -0.4000001,
+        -9.999899995260947e-08,
+        0.8,
+        0.4000001,
+        0.8000001
+      ],
+      "solids": 1,
+      "volume_mm3": 0.9906815108514466
+    },
+    {
+      "reference": "C6",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\C6.step",
+      "source_placed_sha256": "10740439fd3e323ab43a3c781c40f09113b050316b2f8f4431eaa45720728206",
+      "source_model_id": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "C0805_L2.0-W1.3-H1.3",
+      "author_footprint_origin_mm": [
+        35.687071374142754,
+        14.224028448056897,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        35.687,
+        14.224
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/C6.step",
+      "model_path": "${KIPRJMOD}/models/C6.step",
+      "local_model_sha256": "989169a57c0fa1e289444726b1a7b1fbf797f5d47b357901bacc3ba013d65c2b",
+      "local_model_bounds_mm": [
+        -1.0,
+        -0.6500128000260061,
+        -1.238420000062134e-07,
+        1.0,
+        0.6499873999740019,
+        1.300000076158
+      ],
+      "solids": 1,
+      "volume_mm3": 3.2617823895485003
+    },
+    {
+      "reference": "C7",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\C7.step",
+      "source_placed_sha256": "bb5dd446f7e63340d0059a1ce19a064a66a7cceb1f086eb65b843456c5d49527",
+      "source_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "C0603_L1.6-W0.8-H0.8",
+      "author_footprint_origin_mm": [
+        32.385064770129546,
+        17.526035052070107,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        32.385,
+        17.526
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/C7.step",
+      "model_path": "${KIPRJMOD}/models/C7.step",
+      "local_model_sha256": "2cb60cf28826f493d1ae50846af971608e68b814890d8f71b19d3d50bdcc84cd",
+      "local_model_bounds_mm": [
+        -0.4000001,
+        -0.8,
+        -9.999899995260947e-08,
+        0.4000001,
+        0.8,
+        0.8000001
+      ],
+      "solids": 1,
+      "volume_mm3": 0.9906815108514933
+    },
+    {
+      "reference": "C8",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\C8.step",
+      "source_placed_sha256": "bb505b2109905d8ababa0d9f53f6d8e183d2207d52a88846995b10a1310c9b49",
+      "source_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "C0603_L1.6-W0.8-H0.8",
+      "author_footprint_origin_mm": [
+        35.94107188214377,
+        11.811023622047244,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        35.941,
+        11.811
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/C8.step",
+      "model_path": "${KIPRJMOD}/models/C8.step",
+      "local_model_sha256": "4c46057fc9606add367efda8aa30defcbc99481df9320dba2ce6b85f7bbb69d2",
+      "local_model_bounds_mm": [
+        -0.8,
+        -0.4000001,
+        -9.999899995260947e-08,
+        0.8,
+        0.4000001,
+        0.8000001
+      ],
+      "solids": 1,
+      "volume_mm3": 0.9906815108514814
+    },
+    {
+      "reference": "C9",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\C9.step",
+      "source_placed_sha256": "43bf215c632590b15480f02c63c53391a132299b8e37e76821b901d40e0d4c11",
+      "source_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "C0603_L1.6-W0.8-H0.8",
+      "author_footprint_origin_mm": [
+        6.223012446024892,
+        8.25501651003302,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        6.223,
+        8.255
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/C9.step",
+      "model_path": "${KIPRJMOD}/models/C9.step",
+      "local_model_sha256": "72c9b7c0ec572e2a161c57392100ceb15670b9056c1c61e952bc40aad24b34cf",
+      "local_model_bounds_mm": [
+        -0.8,
+        -0.4000001,
+        -9.999899995260947e-08,
+        0.8,
+        0.4000001,
+        0.8000001
+      ],
+      "solids": 1,
+      "volume_mm3": 0.9906815108514708
+    },
+    {
+      "reference": "D1",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\D1.step",
+      "source_placed_sha256": "2b453902c4d32898e53020f1293eb33aad80e438b8b34c847b7ca921d11b89c6",
+      "source_model_id": "86f9151e155e4fe2af0c4f2e0a80302e|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "SOD-123FL_L2.8-W1.8-H1.1-LS3.6",
+      "author_footprint_origin_mm": [
+        34.9250698501397,
+        9.652019304038609,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        34.925,
+        9.652
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/D1.step",
+      "model_path": "${KIPRJMOD}/models/D1.step",
+      "local_model_sha256": "357dca6eb9e6c9ca3a52d11a6fb200af5f77955cbc7d2b59fbfbfb27bb9d3d24",
+      "local_model_bounds_mm": [
+        -1.85,
+        -0.9000001,
+        -0.26000000596,
+        1.85,
+        0.9000001,
+        0.879999994038
+      ],
+      "solids": 1,
+      "volume_mm3": 5.2412835040828885
+    },
+    {
+      "reference": "D2",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\D2.step",
+      "source_placed_sha256": "8df5f4c0b2f0fb43b5530c06cde7826e3715a66331048b28fa46b393e0c79948",
+      "source_model_id": "ad7e39f9e5534b3c96ffdc5532ebb493|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "SOD-123_L2.7-W1.6-H1.4-LS3.7",
+      "author_footprint_origin_mm": [
+        24.130048260096522,
+        6.858013716027433,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        24.13,
+        6.858
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/D2.step",
+      "model_path": "${KIPRJMOD}/models/D2.step",
+      "local_model_sha256": "702c1821094a1ec5f8262758ca4588bfba2bb31891668f387aabc327dec210be",
+      "local_model_bounds_mm": [
+        -1.850012700026,
+        -0.8000000999998265,
+        -0.7258559977540001,
+        1.849987299974,
+        0.8000001,
+        0.574144002244
+      ],
+      "solids": 1,
+      "volume_mm3": 5.093467032877208
+    },
+    {
+      "reference": "F1",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\F1.step",
+      "source_placed_sha256": "3731ca87699f118c2ffd2172523bd694d61d6acb7e1c04d56dfba0815a54c3a7",
+      "source_model_id": "f1628daad26847a79b887277a2bc8541|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "F1206_L3.2-W1.7-H0.6",
+      "author_footprint_origin_mm": [
+        35.05207010414021,
+        7.1120142240284485,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        35.052,
+        7.112
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/F1.step",
+      "model_path": "${KIPRJMOD}/models/F1.step",
+      "local_model_sha256": "99b8f9c74ea4b734b5c08d67021e541bb9667d2b98bbb6bc8111e1c168299e40",
+      "local_model_bounds_mm": [
+        -1.6000001000000001,
+        -0.850000099999,
+        0.0,
+        1.6000001000000004,
+        0.850000099999,
+        0.599999999999
+      ],
+      "solids": 1,
+      "volume_mm3": 2.9954074077057364
+    },
+    {
+      "reference": "J1",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\J1.step",
+      "source_placed_sha256": "e3b0b21154118e8b259a7c83e303b07ad71c86386b587ba51466596c4f4df2f9",
+      "source_model_id": "eb4de652aa64480a9db1bf18ae610871|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "CONN-TH_B3B-EH-A-LF-SN",
+      "author_footprint_origin_mm": [
+        13.9750317500635,
+        3.2,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        13.975004,
+        3.199994
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/J1.step",
+      "model_path": "${KIPRJMOD}/models/J1.step",
+      "local_model_sha256": "c61b5e65a1fd912b4bf1f01c7f3a625156cc78c917fd9ee00f8f3753f7b13a30",
+      "local_model_bounds_mm": [
+        -5.001000099995999,
+        -2.1999999999990005,
+        -3.199999952317416,
+        5.000000000001,
+        1.599999999999,
+        6.000000047683333
+      ],
+      "solids": 14,
+      "volume_mm3": 111.4476906334566
+    },
+    {
+      "reference": "J2",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\J2.step",
+      "source_placed_sha256": "3efc5d76201a7599c004d9eea0ebcd1ccd266a863a5ac5c2035f6449af038e77",
+      "source_model_id": "eb4de652aa64480a9db1bf18ae610871|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "CONN-TH_B3B-EH-A-LF-SN",
+      "author_footprint_origin_mm": [
+        25.9750825501651,
+        3.2,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        25.975031,
+        3.199994
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/J2.step",
+      "model_path": "${KIPRJMOD}/models/J2.step",
+      "local_model_sha256": "f74e72fea2ed47eb2ff2857ef059e070b5b17d0f012b825907adf72904f4a145",
+      "local_model_bounds_mm": [
+        -5.001000099995003,
+        -2.1999999999990005,
+        -3.199999952317416,
+        5.000000000004999,
+        1.599999999999,
+        6.000000047683333
+      ],
+      "solids": 14,
+      "volume_mm3": 111.44769063348896
+    },
+    {
+      "reference": "J3",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\J3.step",
+      "source_placed_sha256": "515db6eac8e17d8cfbb960f2232d76df2feb92b6a100bb9cdf46a8bf818f0521",
+      "source_model_id": "66a147c6933d4029b68665bbcd1e2924|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "HDR-TH_6P-P2.54-M-LI-1X6P",
+      "author_footprint_origin_mm": [
+        11.9750317500635,
+        20.02705105410211,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        11.975008,
+        20.027011
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/J3.step",
+      "model_path": "${KIPRJMOD}/models/J3.step",
+      "local_model_sha256": "bd74dd0abf3e3a6dcd4c4709889fc673911de8a32236b204a5fc278df839761c",
+      "local_model_bounds_mm": [
+        -7.505000099999,
+        -1.25000000000048,
+        -3.0,
+        7.495000100001756,
+        1.25000000000048,
+        8.5999999999995
+      ],
+      "solids": 1,
+      "volume_mm3": 93.9706758234578
+    },
+    {
+      "reference": "J4",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\J4.step",
+      "source_placed_sha256": "6235453c42ddf7e28d9c0c7d8b4565892b28173f2bbc8f6b2481adf4cc5f8883",
+      "source_model_id": "ced3ec0dc43640d397bfdc45d14bee2a|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "CONN-TH_B3B-PH-K-S",
+      "author_footprint_origin_mm": [
+        42.03708407416815,
+        10.287020574041149,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        42.037,
+        10.287
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/J4.step",
+      "model_path": "${KIPRJMOD}/models/J4.step",
+      "local_model_sha256": "29c55d674e95d31834c1b1a19755b7092f45bfd5b1665e54c4e346135f50ef5d",
+      "local_model_bounds_mm": [
+        -2.815498867272,
+        -3.9500001,
+        -3.400006949031,
+        1.685501232727,
+        3.9500001,
+        5.999993150969
+      ],
+      "solids": 1,
+      "volume_mm3": 96.79640814030482
+    },
+    {
+      "reference": "J5",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\J5.step",
+      "source_placed_sha256": "80264b1d276addd883968968d6fa9ece6413a4a50c483bfc15de21f0ffe92477",
+      "source_model_id": "ced3ec0dc43640d397bfdc45d14bee2a|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "CONN-TH_B3B-PH-K-S",
+      "author_footprint_origin_mm": [
+        36.322072644145294,
+        3.5560071120142243,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        36.322,
+        3.556
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/J5.step",
+      "model_path": "${KIPRJMOD}/models/J5.step",
+      "local_model_sha256": "a237eb0a4ce723e70f7705734c622ae47d8973100dabcbcded1a94969ab5ec6c",
+      "local_model_bounds_mm": [
+        -3.9500001,
+        -2.815498867272,
+        -3.400006949031,
+        3.9500001,
+        1.685501232727,
+        5.999993150969
+      ],
+      "solids": 1,
+      "volume_mm3": 96.7964081403045
+    },
+    {
+      "reference": "R1",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\R1.step",
+      "source_placed_sha256": "aaa4591c8d318d7b306180f46ab7e274f1acd676bdb2cd99d9f43161ab990efe",
+      "source_model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "R0603",
+      "author_footprint_origin_mm": [
+        21.209042418084838,
+        16.51003302006604,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        21.209,
+        16.51
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/R1.step",
+      "model_path": "${KIPRJMOD}/models/R1.step",
+      "local_model_sha256": "70179ec5407cbc8bbbc0ed3fb4a12858ec1e86e9f0de4965efacc33655ee99ed",
+      "local_model_bounds_mm": [
+        -0.40499999521600233,
+        -0.8099999999999988,
+        -2.5200019848625743e-10,
+        0.4050001047829983,
+        0.8100000000000006,
+        0.4499999997469999
+      ],
+      "solids": 4,
+      "volume_mm3": 0.5732351423923472
+    },
+    {
+      "reference": "R2",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\R2.step",
+      "source_placed_sha256": "77a7b3afd8d7a59fd2cb23824f6e07f549a73a2548027c37fe1b8dcad4183748",
+      "source_model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "R0603",
+      "author_footprint_origin_mm": [
+        17.526035052070107,
+        7.747015494030989,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        17.526,
+        7.747
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/R2.step",
+      "model_path": "${KIPRJMOD}/models/R2.step",
+      "local_model_sha256": "5a60506daf64ec37d7ebd730630e5b05cb30236da523f59c095e2415f4b4bddf",
+      "local_model_bounds_mm": [
+        -0.40499999521600233,
+        -0.8100000000000006,
+        -2.5200019848625743e-10,
+        0.4050001047829983,
+        0.8100000000000006,
+        0.4499999997469999
+      ],
+      "solids": 4,
+      "volume_mm3": 0.5732351423923461
+    },
+    {
+      "reference": "R3",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\R3.step",
+      "source_placed_sha256": "23a534e71034866a6518a18558c8318967542889476fa8ed5c2c61071f381f7c",
+      "source_model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "R0603",
+      "author_footprint_origin_mm": [
+        9.906019812039625,
+        11.811023622047244,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        9.906,
+        11.811
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/R3.step",
+      "model_path": "${KIPRJMOD}/models/R3.step",
+      "local_model_sha256": "b4a4035decb79ce3acc14dc7c119cf1d092dc3589608a41169e25a8e08f9cfae",
+      "local_model_bounds_mm": [
+        -0.4050001047830001,
+        -0.809999999993,
+        -2.5200019848625743e-10,
+        0.40499999521600055,
+        0.8100000000069995,
+        0.4499999997469999
+      ],
+      "solids": 4,
+      "volume_mm3": 0.5732351423929724
+    },
+    {
+      "reference": "R4",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\R4.step",
+      "source_placed_sha256": "8d6de7048dfacfd7db29c4cfa5953ed0a7b2d5e0be3a79ee1db29afeb5971e0f",
+      "source_model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "R0603",
+      "author_footprint_origin_mm": [
+        21.717043434086868,
+        12.954025908051817,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        21.717,
+        12.954
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/R4.step",
+      "model_path": "${KIPRJMOD}/models/R4.step",
+      "local_model_sha256": "f4ce54ce5baa79d7436f6fb26e6dcd0352e77dc8d0cda20cd9597112d6bfa996",
+      "local_model_bounds_mm": [
+        -0.809999999993,
+        -0.40499999521600055,
+        -2.5200019848625743e-10,
+        0.8100000000070012,
+        0.4050001047830001,
+        0.4499999997469999
+      ],
+      "solids": 4,
+      "volume_mm3": 0.5732351423929729
+    },
+    {
+      "reference": "R5",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\R5.step",
+      "source_placed_sha256": "a97073caa4574d7063fd375ba885bfcf54f9a09f1a35d395165dc079f003b5a5",
+      "source_model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "R0603",
+      "author_footprint_origin_mm": [
+        28.829057658115318,
+        8.763017526035053,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        28.829,
+        8.763
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/R5.step",
+      "model_path": "${KIPRJMOD}/models/R5.step",
+      "local_model_sha256": "ead918f54aac122256f917b772f5f59d1d17b1f7c761e457423795f23420726d",
+      "local_model_bounds_mm": [
+        -0.8099999999950002,
+        -0.40499999521600055,
+        -2.5200019848625743e-10,
+        0.810000000005001,
+        0.4050001047830001,
+        0.4499999997469999
+      ],
+      "solids": 4,
+      "volume_mm3": 0.5732351423928832
+    },
+    {
+      "reference": "R6",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\R6.step",
+      "source_placed_sha256": "6bf74cdb03b84af4b5f4976c5ba45b2e1744cb9c6ae9b595ea1c01d2e96d38a9",
+      "source_model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "R0603",
+      "author_footprint_origin_mm": [
+        28.873075946151893,
+        6.838023876047753,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        28.873018,
+        6.83801
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/R6.step",
+      "model_path": "${KIPRJMOD}/models/R6.step",
+      "local_model_sha256": "7fff7edf2a8f2bc8d6806565ccdff448a853b52adaa1343b32c740bd0519fd19",
+      "local_model_bounds_mm": [
+        -0.8100000000000024,
+        -0.4050001047830001,
+        -2.5200019848625743e-10,
+        0.8099999999999988,
+        0.40499999521600055,
+        0.4499999997469999
+      ],
+      "solids": 4,
+      "volume_mm3": 0.5732351423923456
+    },
+    {
+      "reference": "R7",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\R7.step",
+      "source_placed_sha256": "5ffdffa2237a7e2d7a73b8232eaeb576b4326d560e14c5d6742324ac74b6fcf7",
+      "source_model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "R0603",
+      "author_footprint_origin_mm": [
+        10.541021082042164,
+        7.493014986029973,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        10.541,
+        7.493
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/R7.step",
+      "model_path": "${KIPRJMOD}/models/R7.step",
+      "local_model_sha256": "302ff6faa391ec00c2545f8fb0d28be4c1ef56d145f3dd56fffa38e7b60f289b",
+      "local_model_bounds_mm": [
+        -0.4050001047809999,
+        -0.8099999999999997,
+        -2.5200019848625743e-10,
+        0.4049999952190008,
+        0.8100000000000006,
+        0.4499999997469999
+      ],
+      "solids": 4,
+      "volume_mm3": 0.5732351423930644
+    },
+    {
+      "reference": "U1",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\U1.step",
+      "source_placed_sha256": "55cde2a7018a2502637a88f5f5db5bcc887d114032298203d041bcce11c7cedc",
+      "source_model_id": "c491f68934b34c649df5890a1d97cd0f|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65",
+      "author_footprint_origin_mm": [
+        15.228549657099315,
+        13.879070358140718,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        15.228519,
+        13.879043
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/U1.step",
+      "model_path": "${KIPRJMOD}/models/U1.step",
+      "local_model_sha256": "21ab4e9c6051e416049e2ed9fd42f3cfa2b784365e8825009152c683017fdb1b",
+      "local_model_bounds_mm": [
+        -3.2471598999739997,
+        -3.200028169728999,
+        5.757600000412533e-08,
+        3.247185300024999,
+        3.200028169730999,
+        1.049291476499
+      ],
+      "solids": 34,
+      "volume_mm3": 27.55625033356355
+    },
+    {
+      "reference": "U2",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\U2.step",
+      "source_placed_sha256": "7ec20c417caf53dd05f8852499611b27fc8a5f2f0aa941c1f202b086e77d743b",
+      "source_model_id": "64f32784a16f466f897e9e56b6bbdf45|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "LGA-14_L3.0-W2.5-P0.50-BR",
+      "author_footprint_origin_mm": [
+        27.43205486410973,
+        16.51003302006604,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        27.432,
+        16.51
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/U2.step",
+      "model_path": "${KIPRJMOD}/models/U2.step",
+      "local_model_sha256": "47b9368e9660bf280e869fb728bbc3a457116f6909d520b2e7030d14540a939a",
+      "local_model_bounds_mm": [
+        -1.5000255000510012,
+        -1.2498984997970009,
+        -6.556999831985877e-09,
+        1.499974699948999,
+        1.2501017002019992,
+        0.871000093443
+      ],
+      "solids": 2,
+      "volume_mm3": 6.466518731754213
+    },
+    {
+      "reference": "U3",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\U3.step",
+      "source_placed_sha256": "0ab39aa60ce4e379f9b627e26ec053decac09d4efc208db3bb78656f6c82d8bf",
+      "source_model_id": "c85411b4a3544d83a02d075c4dadd21f|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL",
+      "author_footprint_origin_mm": [
+        22.35204470408941,
+        10.541021082042164,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        22.352,
+        10.541
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/U3.step",
+      "model_path": "${KIPRJMOD}/models/U3.step",
+      "local_model_sha256": "e145789ba2d3bca0cf0600362a897281fd3ce9be7b849fbe8ccab31a16ba6c20",
+      "local_model_bounds_mm": [
+        -1.5499999999910017,
+        -1.0,
+        2.6226000038320763e-08,
+        1.5500000000089997,
+        0.9999999999996014,
+        0.851000126226
+      ],
+      "solids": 14,
+      "volume_mm3": 3.6694049111210467
+    },
+    {
+      "reference": "U4",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\U4.step",
+      "source_placed_sha256": "7e4cc2f1e8020f3366ddfc25c89174585859aafae19983173c048d576431f1ac",
+      "source_model_id": "6db690b7897d4d18a30d90c1b89525ee|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50",
+      "author_footprint_origin_mm": [
+        36.67749555499111,
+        18.301498602997206,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        36.677422,
+        18.301462
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/U4.step",
+      "model_path": "${KIPRJMOD}/models/U4.step",
+      "local_model_sha256": "d1ef832ef9b93410a5cf5270b8a7593f0dd4ca10f3d2eab4f0460031c4400779",
+      "local_model_bounds_mm": [
+        -1.576009697484,
+        -2.1500000999999997,
+        0.0,
+        2.523990302515,
+        2.150000099999,
+        1.51
+      ],
+      "solids": 1,
+      "volume_mm3": 15.855070766407136
+    },
+    {
+      "reference": "X1",
+      "source_placed_step": "recovered\\author-step-components\\imu_to_dxl\\X1.step",
+      "source_placed_sha256": "c18366c84158d0136f9e3d8fb043609ce75cfa09427df6ab5b8fffbe9bc61785",
+      "source_model_id": "ae22b8d143894765bc8100c37cb6356f|0819f05c4eef4c71ace90d822a990e87",
+      "source_model_title": "OSC-SMD_4P-L3.2-W2.5-H1.0",
+      "author_footprint_origin_mm": [
+        6.223012446024892,
+        11.55702311404623,
+        1.600050800102
+      ],
+      "native_xy_export_mm": [
+        6.223,
+        11.557
+      ],
+      "native_angle_degrees": 0.0,
+      "bottom": false,
+      "local_model_file": "models/X1.step",
+      "model_path": "${KIPRJMOD}/models/X1.step",
+      "local_model_sha256": "f16019ca0b821c847d1a587f9a8092d88e42dbb0041a8bfc47922119a3bb364d",
+      "local_model_bounds_mm": [
+        -1.6000001000000001,
+        -1.250000099999,
+        -3.729998532265e-10,
+        1.6000001000000001,
+        1.2500001,
+        0.8110000996269999
+      ],
+      "solids": 1,
+      "volume_mm3": 6.0071291101827
+    }
+  ],
+  "attached": true,
+  "local_geometry_generated": true,
+  "attached_models": 29,
+  "non_model_board_data_unchanged": true,
+  "library_model_reload_verified": true,
+  "board_sha256": "70cfd4e5785d5b3f8bfcae193c3eeb56a7f5d55732c18937b8e83a59e37b51d2",
+  "step_export": {
+    "file": "assembly-review.step",
+    "sha256": "f6ba03dadca5e72710b85b4ef55fbec09d860643d711502537e7b02511fcb52b"
+  },
+  "glb_export": {
+    "file": "assembly-review.glb",
+    "sha256": "0be01a4845443b41c5d85376db86dfad5c093bdbe2dfca633cc3e96ad5895a67"
+  }
+}

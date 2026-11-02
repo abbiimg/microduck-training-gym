@@ -1,0 +1,798 @@
+{
+  "candidate": "wire_hub_1V0A",
+  "parent_board": "editing/kicad-source-rules-projected/wire_hub_1V0A/wire_hub_1V0A.kicad_pcb",
+  "board_sha256": "a1260df14fdc113a1ad96d3c988545f2aefdfb3722d3cf0e8e7533c9d6cce1a3",
+  "source_replay_sha256": "63f16a87e4815eb35378cb619acc4b289bd5ac10e9bdd9f82685fbb9e80431cb",
+  "rules_sha256": "4424baabfc88642e128e3185566bbc9b1c55d8d16cec697c62bbff50322f7676",
+  "board_bytes_unchanged": true,
+  "global_clearance_defaults_unchanged": true,
+  "source_safe_rule": "copperThickness1oz",
+  "zone_class_ownership": [
+    {
+      "native_zone_uuid": "38525400-c22f-4f61-b51e-2ceb3257b55b",
+      "native_zone_name": "Static union /GND F.Cu 0",
+      "source_classes": [
+        7
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "9ea8d115-f300-40b1-a3d6-e439feb57564",
+          "source_name": "Recovered 7e8293db382f614b",
+          "source_classes": [
+            7
+          ],
+          "overlap_mm2": 179.898276425199
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "793e6939-dd41-4334-8386-5fb4d3fb6c86",
+      "native_zone_name": "Static union /GND F.Cu 1",
+      "source_classes": [
+        7
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "60654b2f-01fe-49a3-a80b-348e38641908",
+          "source_name": "Recovered 7e8293db382f614b",
+          "source_classes": [
+            7
+          ],
+          "overlap_mm2": 29.525766530169
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "7f0049ba-4a7c-4818-b957-8492d6c8b18e",
+      "native_zone_name": "Static union /GND F.Cu 3",
+      "source_classes": [
+        7
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "fba32959-5b47-494f-b6bb-88ee7980c1a6",
+          "source_name": "Recovered 7e8293db382f614b",
+          "source_classes": [
+            7
+          ],
+          "overlap_mm2": 2.4096392912235
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "9ce77bbc-cead-465a-8e13-336048d12640",
+      "native_zone_name": "Static union /GND F.Cu 5",
+      "source_classes": [
+        7
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "8ad4fb31-b124-4d17-9666-a50766af3bad",
+          "source_name": "Recovered 7e8293db382f614b",
+          "source_classes": [
+            7
+          ],
+          "overlap_mm2": 77.5707083085915
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "c1995f4d-e0d6-4a81-b29a-24fcfeb8ff4f",
+      "native_zone_name": "Static union /GND F.Cu 4",
+      "source_classes": [
+        7
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "2f634803-975e-4d23-b271-d0cf5564a043",
+          "source_name": "Recovered 7e8293db382f614b",
+          "source_classes": [
+            7
+          ],
+          "overlap_mm2": 3.211104820466
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "e5812dba-0a70-4ee2-af65-8ae2b62e103d",
+      "native_zone_name": "Static union /Battery F.Cu 0",
+      "source_classes": [
+        6
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "87d8a1f2-e0c8-4fba-97be-62496806f0d9",
+          "source_name": "Recovered a33f62a491f76b4a",
+          "source_classes": [
+            6
+          ],
+          "overlap_mm2": 164.442500558279
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "fbe1661f-d6ec-49de-80da-2a8f4796f326",
+      "native_zone_name": "Static union /GND F.Cu 2",
+      "source_classes": [
+        7
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "79dbebf5-3969-4b2a-83d1-31364a7e908b",
+          "source_name": "Recovered 7e8293db382f614b",
+          "source_classes": [
+            7
+          ],
+          "overlap_mm2": 8.351810839235
+        }
+      ],
+      "conservative_class_collapse": false
+    },
+    {
+      "native_zone_uuid": "5db085cf-4ed6-451b-bcde-86e00f427419",
+      "native_zone_name": "Static union /GND B.Cu 0",
+      "source_classes": [
+        7
+      ],
+      "contributors": [
+        {
+          "source_zone_uuid": "4e3fc0a4-f6df-4179-88b9-a7ed24bc17a7",
+          "source_name": "Recovered 6433fd3c96979807",
+          "source_classes": [
+            7
+          ],
+          "overlap_mm2": 505.084542942199
+        }
+      ],
+      "conservative_class_collapse": false
+    }
+  ],
+  "native_rules": [
+    {
+      "name": "Source SAFE F.Cu track to track",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Track')",
+      "constraint": "clearance",
+      "minimum_mm": 0.101999,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu track to smd",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu track to pth",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu track to via",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu track to graphic",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu track to zone_6",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Zone' && (B.Name == 'Static union /Battery F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu track to zone_7",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0' || B.Name == 'Static union /GND F.Cu 1' || B.Name == 'Static union /GND F.Cu 3' || B.Name == 'Static union /GND F.Cu 5' || B.Name == 'Static union /GND F.Cu 4' || B.Name == 'Static union /GND F.Cu 2' || B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to smd",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to pth",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to via",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to graphic",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to zone_6",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Zone' && (B.Name == 'Static union /Battery F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to zone_7",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0' || B.Name == 'Static union /GND F.Cu 1' || B.Name == 'Static union /GND F.Cu 3' || B.Name == 'Static union /GND F.Cu 5' || B.Name == 'Static union /GND F.Cu 4' || B.Name == 'Static union /GND F.Cu 2' || B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu pth to pth",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu pth to via",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu pth to graphic",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu pth to zone_6",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /Battery F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu pth to zone_7",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0' || B.Name == 'Static union /GND F.Cu 1' || B.Name == 'Static union /GND F.Cu 3' || B.Name == 'Static union /GND F.Cu 5' || B.Name == 'Static union /GND F.Cu 4' || B.Name == 'Static union /GND F.Cu 2' || B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu via to via",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu via to graphic",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu via to zone_6",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /Battery F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu via to zone_7",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0' || B.Name == 'Static union /GND F.Cu 1' || B.Name == 'Static union /GND F.Cu 3' || B.Name == 'Static union /GND F.Cu 5' || B.Name == 'Static union /GND F.Cu 4' || B.Name == 'Static union /GND F.Cu 2' || B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu graphic to graphic",
+      "condition": "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu graphic to zone_6",
+      "condition": "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Zone' && (B.Name == 'Static union /Battery F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu graphic to zone_7",
+      "condition": "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0' || B.Name == 'Static union /GND F.Cu 1' || B.Name == 'Static union /GND F.Cu 3' || B.Name == 'Static union /GND F.Cu 5' || B.Name == 'Static union /GND F.Cu 4' || B.Name == 'Static union /GND F.Cu 2' || B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu zone_6 to zone_6",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /Battery F.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /Battery F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu zone_6 to zone_7",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /Battery F.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0' || B.Name == 'Static union /GND F.Cu 1' || B.Name == 'Static union /GND F.Cu 3' || B.Name == 'Static union /GND F.Cu 5' || B.Name == 'Static union /GND F.Cu 4' || B.Name == 'Static union /GND F.Cu 2' || B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu zone_7 to zone_7",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /GND F.Cu 0' || A.Name == 'Static union /GND F.Cu 1' || A.Name == 'Static union /GND F.Cu 3' || A.Name == 'Static union /GND F.Cu 5' || A.Name == 'Static union /GND F.Cu 4' || A.Name == 'Static union /GND F.Cu 2' || A.Name == 'Static union /GND B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0' || B.Name == 'Static union /GND F.Cu 1' || B.Name == 'Static union /GND F.Cu 3' || B.Name == 'Static union /GND F.Cu 5' || B.Name == 'Static union /GND F.Cu 4' || B.Name == 'Static union /GND F.Cu 2' || B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to track",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Track')",
+      "constraint": "clearance",
+      "minimum_mm": 0.101999,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to smd",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to pth",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to via",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to graphic",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to zone_6",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Zone' && (B.Name == 'Static union /Battery F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to zone_7",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0' || B.Name == 'Static union /GND F.Cu 1' || B.Name == 'Static union /GND F.Cu 3' || B.Name == 'Static union /GND F.Cu 5' || B.Name == 'Static union /GND F.Cu 4' || B.Name == 'Static union /GND F.Cu 2' || B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to smd",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to pth",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to via",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to graphic",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to zone_6",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Zone' && (B.Name == 'Static union /Battery F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to zone_7",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0' || B.Name == 'Static union /GND F.Cu 1' || B.Name == 'Static union /GND F.Cu 3' || B.Name == 'Static union /GND F.Cu 5' || B.Name == 'Static union /GND F.Cu 4' || B.Name == 'Static union /GND F.Cu 2' || B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu pth to pth",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu pth to via",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu pth to graphic",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu pth to zone_6",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /Battery F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu pth to zone_7",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0' || B.Name == 'Static union /GND F.Cu 1' || B.Name == 'Static union /GND F.Cu 3' || B.Name == 'Static union /GND F.Cu 5' || B.Name == 'Static union /GND F.Cu 4' || B.Name == 'Static union /GND F.Cu 2' || B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu via to via",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu via to graphic",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu via to zone_6",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /Battery F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu via to zone_7",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0' || B.Name == 'Static union /GND F.Cu 1' || B.Name == 'Static union /GND F.Cu 3' || B.Name == 'Static union /GND F.Cu 5' || B.Name == 'Static union /GND F.Cu 4' || B.Name == 'Static union /GND F.Cu 2' || B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu graphic to graphic",
+      "condition": "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu graphic to zone_6",
+      "condition": "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Zone' && (B.Name == 'Static union /Battery F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu graphic to zone_7",
+      "condition": "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0' || B.Name == 'Static union /GND F.Cu 1' || B.Name == 'Static union /GND F.Cu 3' || B.Name == 'Static union /GND F.Cu 5' || B.Name == 'Static union /GND F.Cu 4' || B.Name == 'Static union /GND F.Cu 2' || B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu zone_6 to zone_6",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /Battery F.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /Battery F.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu zone_6 to zone_7",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /Battery F.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0' || B.Name == 'Static union /GND F.Cu 1' || B.Name == 'Static union /GND F.Cu 3' || B.Name == 'Static union /GND F.Cu 5' || B.Name == 'Static union /GND F.Cu 4' || B.Name == 'Static union /GND F.Cu 2' || B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu zone_7 to zone_7",
+      "condition": "(A.Type == 'Zone' && (A.Name == 'Static union /GND F.Cu 0' || A.Name == 'Static union /GND F.Cu 1' || A.Name == 'Static union /GND F.Cu 3' || A.Name == 'Static union /GND F.Cu 5' || A.Name == 'Static union /GND F.Cu 4' || A.Name == 'Static union /GND F.Cu 2' || A.Name == 'Static union /GND B.Cu 0')) && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0' || B.Name == 'Static union /GND F.Cu 1' || B.Name == 'Static union /GND F.Cu 3' || B.Name == 'Static union /GND F.Cu 5' || B.Name == 'Static union /GND F.Cu 4' || B.Name == 'Static union /GND F.Cu 2' || B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "clearance",
+      "minimum_mm": 0.254,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source edge envelope track",
+      "condition": "A.Type == 'Track'",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.299999,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope smd",
+      "condition": "A.Type == 'Pad' && A.Pad_Type == 'SMD'",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.29972,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope pth",
+      "condition": "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.29972,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope via",
+      "condition": "A.Type == 'Via'",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.29972,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope graphic",
+      "condition": "A.Type == 'Graphic' && A.Layer != 'Edge.Cuts'",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.299999,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope zone_6",
+      "condition": "A.Type == 'Zone' && (A.Name == 'Static union /Battery F.Cu 0')",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.29972,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope zone_7",
+      "condition": "A.Type == 'Zone' && (A.Name == 'Static union /GND F.Cu 0' || A.Name == 'Static union /GND F.Cu 1' || A.Name == 'Static union /GND F.Cu 3' || A.Name == 'Static union /GND F.Cu 5' || A.Name == 'Static union /GND F.Cu 4' || A.Name == 'Static union /GND F.Cu 2' || A.Name == 'Static union /GND B.Cu 0')",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.254,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source drill envelope pth to track",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Track')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to smd",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to pth",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to via",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Via')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to graphic",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to zone_6",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /Battery F.Cu 0'))",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to zone_7",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0' || B.Name == 'Static union /GND F.Cu 1' || B.Name == 'Static union /GND F.Cu 3' || B.Name == 'Static union /GND F.Cu 5' || B.Name == 'Static union /GND F.Cu 4' || B.Name == 'Static union /GND F.Cu 2' || B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.254,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to track",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Track')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to smd",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to pth",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to via",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Via')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to graphic",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to zone_6",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /Battery F.Cu 0'))",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to zone_7",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Zone' && (B.Name == 'Static union /GND F.Cu 0' || B.Name == 'Static union /GND F.Cu 1' || B.Name == 'Static union /GND F.Cu 3' || B.Name == 'Static union /GND F.Cu 5' || B.Name == 'Static union /GND F.Cu 4' || B.Name == 'Static union /GND F.Cu 2' || B.Name == 'Static union /GND B.Cu 0'))",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.254,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill to drill minimum",
+      "condition": null,
+      "constraint": "hole_to_hole",
+      "minimum_mm": 0.299999,
+      "layer": null,
+      "scope": "source OTHER global drill-to-drill minimum; native provider selects drilled objects including vias"
+    }
+  ],
+  "full_rule_fidelity": false,
+  "unmapped_scope": [
+    "NPTH mechanical object class",
+    "source test-pad classes3/4 without per-pad mapping",
+    "fallback source class10",
+    "mask/paste",
+    "regenerative copper rules",
+    "exact per-edge cutout/outline direction"
+  ],
+  "schematic_parity": [],
+  "drc_counts": {
+    "copper_edge_clearance": 17,
+    "clearance": 1
+  },
+  "unconnected": 0,
+  "manufacturing_ready": false
+}

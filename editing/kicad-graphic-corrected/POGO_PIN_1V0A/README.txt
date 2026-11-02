@@ -1,0 +1,1 @@
+Engineering source-graphic correction: two source copper POLY circles are four native net-assigned gr_arc items, preserving geometry/contacts. Read ../../../COPPER-CONSOLIDATION.txt and graphic-restoration-audit.json. Zero DRC does not qualify dimensions, mask, manufacturing or hardware.

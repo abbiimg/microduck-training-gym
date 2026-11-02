@@ -1,0 +1,20 @@
+{
+  "reader_commit": "da5b4d46565ced7ef63fd710229959d853fc70ab",
+  "archive_sha256": "b23ac2a77307a46637508564b08edc55499538c1feade020a3dec320601c33fd",
+  "removed_edit_head_envelopes": 324,
+  "retained_lines": 30472,
+  "deleted_documents_excluded": 0,
+  "strict_replay_source": {
+    "sha256": "b0accfa08461366d8ad008afdf075e182556fd637a66ae2c85c0a79a2e989c9d",
+    "bytes": 6716137,
+    "format": "epru-export",
+    "archive_member": null,
+    "line_count": 30472,
+    "superseded_records": 14645,
+    "replay_policy": "auto",
+    "replay_policy_agreement": true,
+    "replay_disagreements": [],
+    "native_eprj3_supported": false
+  },
+  "activation_used": false
+}

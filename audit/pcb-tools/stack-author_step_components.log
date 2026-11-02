@@ -1,0 +1,45 @@
+{
+  "source_assemblies": 4,
+  "recovered_component_instances": 61,
+  "step_files": 61,
+  "stl_files": 61,
+  "distinct_source_metadata_model_ids": 22,
+  "coordinate_frame": "whole author PCB STEP world frame in mm, not footprint local",
+  "per_board": [
+    {
+      "candidate": "imu_to_dxl",
+      "component_instances": 29,
+      "step_and_stl_hashes_verified": true,
+      "source_step_unchanged": true,
+      "missing_references": [],
+      "kicad_placement_qualified": false
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A",
+      "component_instances": 23,
+      "step_and_stl_hashes_verified": true,
+      "source_step_unchanged": true,
+      "missing_references": [
+        "J3"
+      ],
+      "kicad_placement_qualified": false
+    },
+    {
+      "candidate": "wire_hub_1V0A",
+      "component_instances": 7,
+      "step_and_stl_hashes_verified": true,
+      "source_step_unchanged": true,
+      "missing_references": [],
+      "kicad_placement_qualified": false
+    },
+    {
+      "candidate": "POGO_PIN_1V0A",
+      "component_instances": 2,
+      "step_and_stl_hashes_verified": true,
+      "source_step_unchanged": true,
+      "missing_references": [],
+      "kicad_placement_qualified": false
+    }
+  ],
+  "manufacturing_ready": false
+}

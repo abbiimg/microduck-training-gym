@@ -1,0 +1,3576 @@
+{
+  "candidate": "wire_hub_1V0A",
+  "parent_board": "editing/kicad-source-rules-projected/wire_hub_1V0A/wire_hub_1V0A.kicad_pcb",
+  "parent_sha256": "a1260df14fdc113a1ad96d3c988545f2aefdfb3722d3cf0e8e7533c9d6cce1a3",
+  "replay_sha256": "63f16a87e4815eb35378cb619acc4b289bd5ac10e9bdd9f82685fbb9e80431cb",
+  "recovered_source_objects": [
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e6",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e7",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e8",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e9",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e10",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e11",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e12",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e13",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e14",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e15",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e16",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e17",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e18",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e19",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e20",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e21",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e22",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e23",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e24",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e25",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e26",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e27",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e28",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e29",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e30",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e31",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e32",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e33",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J3",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e34",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e6",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e7",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e8",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e9",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e10",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e11",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e12",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e13",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e14",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e15",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e16",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e17",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e18",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e19",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e20",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e21",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e22",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e23",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e24",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e25",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e26",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e27",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e28",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e29",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e30",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e31",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e32",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e33",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J4",
+      "footprint": "205450207430dae5",
+      "type": "POLY",
+      "source_id": "e34",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J6",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e1",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J6",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e2",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J6",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e3",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J6",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e4",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J6",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e5",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J6",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e6",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J6",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e7",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J6",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e8",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J6",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e9",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J6",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e10",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J6",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e11",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J6",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e12",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J6",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e16",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J2",
+      "footprint": "a7ac649632376745",
+      "type": "FILL",
+      "source_id": "e21",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J2",
+      "footprint": "a7ac649632376745",
+      "type": "POLY",
+      "source_id": "e14",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J2",
+      "footprint": "a7ac649632376745",
+      "type": "POLY",
+      "source_id": "e15",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J2",
+      "footprint": "a7ac649632376745",
+      "type": "POLY",
+      "source_id": "e16",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J2",
+      "footprint": "a7ac649632376745",
+      "type": "POLY",
+      "source_id": "e17",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J2",
+      "footprint": "a7ac649632376745",
+      "type": "POLY",
+      "source_id": "e18",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J2",
+      "footprint": "a7ac649632376745",
+      "type": "POLY",
+      "source_id": "e19",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J2",
+      "footprint": "a7ac649632376745",
+      "type": "POLY",
+      "source_id": "e20",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J5",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e1",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J5",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e2",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J5",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e3",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J5",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e4",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J5",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e5",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J5",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e6",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J5",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e7",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J5",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e8",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J5",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e9",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J5",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e10",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J5",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e11",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J5",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e12",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J5",
+      "footprint": "0a9862a97eded37d",
+      "type": "POLY",
+      "source_id": "e16",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J1",
+      "footprint": "243bd0d7bad295fa",
+      "type": "POLY",
+      "source_id": "e16",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J1",
+      "footprint": "243bd0d7bad295fa",
+      "type": "POLY",
+      "source_id": "e17",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J1",
+      "footprint": "243bd0d7bad295fa",
+      "type": "POLY",
+      "source_id": "e18",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J1",
+      "footprint": "243bd0d7bad295fa",
+      "type": "POLY",
+      "source_id": "e19",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J1",
+      "footprint": "243bd0d7bad295fa",
+      "type": "POLY",
+      "source_id": "e20",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J1",
+      "footprint": "243bd0d7bad295fa",
+      "type": "POLY",
+      "source_id": "e21",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J1",
+      "footprint": "243bd0d7bad295fa",
+      "type": "POLY",
+      "source_id": "e22",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J1",
+      "footprint": "243bd0d7bad295fa",
+      "type": "POLY",
+      "source_id": "e23",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J1",
+      "footprint": "243bd0d7bad295fa",
+      "type": "POLY",
+      "source_id": "e24",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J1",
+      "footprint": "243bd0d7bad295fa",
+      "type": "POLY",
+      "source_id": "e25",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J1",
+      "footprint": "243bd0d7bad295fa",
+      "type": "POLY",
+      "source_id": "e26",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "J1",
+      "footprint": "243bd0d7bad295fa",
+      "type": "POLY",
+      "source_id": "e27",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "CN1",
+      "footprint": "65ed241ad05f87ec",
+      "type": "FILL",
+      "source_id": "e14",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "CN1",
+      "footprint": "65ed241ad05f87ec",
+      "type": "FILL",
+      "source_id": "e15",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "CN1",
+      "footprint": "65ed241ad05f87ec",
+      "type": "FILL",
+      "source_id": "e16",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "CN1",
+      "footprint": "65ed241ad05f87ec",
+      "type": "FILL",
+      "source_id": "e17",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "CN1",
+      "footprint": "65ed241ad05f87ec",
+      "type": "POLY",
+      "source_id": "e9",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "CN1",
+      "footprint": "65ed241ad05f87ec",
+      "type": "POLY",
+      "source_id": "e10",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "CN1",
+      "footprint": "65ed241ad05f87ec",
+      "type": "POLY",
+      "source_id": "e11",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "CN1",
+      "footprint": "65ed241ad05f87ec",
+      "type": "POLY",
+      "source_id": "e12",
+      "layer_type": "TOP_SILK"
+    },
+    {
+      "reference": "CN1",
+      "footprint": "65ed241ad05f87ec",
+      "type": "POLY",
+      "source_id": "e13",
+      "layer_type": "TOP_SILK"
+    }
+  ],
+  "native_graphic_objects": [
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e6",
+      "native_uuid": "99617b4d-e5e9-4240-a871-f37547a14837",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          61037978,
+          -11308004
+        ],
+        "end": [
+          61037978,
+          -4348023
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e7",
+      "native_uuid": "1b1547e5-a5b4-4bb0-be19-65e63db633bf",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          63037974,
+          -4348023
+        ],
+        "end": [
+          61037978,
+          -4348023
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e8",
+      "native_uuid": "547b8ea8-63af-4453-9c87-40e218e3c445",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          63037974,
+          -11308004
+        ],
+        "end": [
+          61037978,
+          -11308004
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e9",
+      "native_uuid": "c975a6e9-3e70-4692-b754-54dee1f0ce37",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          63037974,
+          -11808003
+        ],
+        "end": [
+          63037974,
+          -11308004
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e10",
+      "native_uuid": "dc27b2a8-751e-4fd4-8184-71737c817664",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          63037974,
+          -3848024
+        ],
+        "end": [
+          63037974,
+          -4348023
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e11",
+      "native_uuid": "c554df24-d57e-482e-a00b-73e1793fd5b7",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69837935,
+          -3848024
+        ],
+        "end": [
+          63037974,
+          -3848024
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e12",
+      "native_uuid": "77d6eb64-484e-4bf4-b528-58ffaec0ad4d",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69837935,
+          -11808003
+        ],
+        "end": [
+          63037974,
+          -11808003
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e13",
+      "native_uuid": "4ff443a2-37ed-478c-a7ee-719017e0c0a1",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69837935,
+          -11808003
+        ],
+        "end": [
+          69837935,
+          -3848024
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e14",
+      "native_uuid": "9025b36d-6b7f-492b-9ff1-d0f28fac17b6",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69603036,
+          -4272839
+        ],
+        "end": [
+          69003012,
+          -4272839
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e15",
+      "native_uuid": "4ff785f6-c75d-4cfe-b901-18d73fb53edb",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69003012,
+          -4272839
+        ],
+        "end": [
+          69003012,
+          -4772838
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e16",
+      "native_uuid": "194028b7-b532-4556-b188-e17398d26d8c",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69003012,
+          -4772838
+        ],
+        "end": [
+          63903047,
+          -4772838
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e17",
+      "native_uuid": "962f66c1-c07c-49b3-bdb9-9973957d5fbb",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69601105,
+          -11371758
+        ],
+        "end": [
+          69001640,
+          -11371758
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e18",
+      "native_uuid": "cae470f9-e2fd-4ae1-a956-88514a22221e",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69001640,
+          -11371758
+        ],
+        "end": [
+          69001640,
+          -10871378
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e19",
+      "native_uuid": "7b213b2e-07f1-4ab5-b105-a57d4c3df263",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69001640,
+          -10871378
+        ],
+        "end": [
+          63901371,
+          -10871378
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e20",
+      "native_uuid": "e34f656e-c41e-459b-aba7-4cd175dd5890",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          64002387,
+          -6473266
+        ],
+        "end": [
+          68502327,
+          -6473266
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e21",
+      "native_uuid": "90162833-05be-4174-8fb9-b58668e76abc",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          68502327,
+          -6473266
+        ],
+        "end": [
+          69102351,
+          -6173318
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e22",
+      "native_uuid": "1483b449-e410-43f9-ba12-9be70d93dda5",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69102351,
+          -6173318
+        ],
+        "end": [
+          69102351,
+          -5573293
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e23",
+      "native_uuid": "3d0451d2-e0ac-4035-a6aa-fcc4ba381568",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69102351,
+          -5573293
+        ],
+        "end": [
+          68502327,
+          -5273269
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e24",
+      "native_uuid": "2c302d87-a324-4d15-9f75-783e0dac680b",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          68502327,
+          -5273269
+        ],
+        "end": [
+          63902361,
+          -5273269
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e25",
+      "native_uuid": "b8ffece7-ad09-4265-9413-073e5e05a34c",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          63976656,
+          -8343036
+        ],
+        "end": [
+          68476647,
+          -8343036
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e26",
+      "native_uuid": "5e122486-2a09-4f94-8ac2-bc39d1a3b119",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          68476647,
+          -8343036
+        ],
+        "end": [
+          69076672,
+          -8043037
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e27",
+      "native_uuid": "ef0065e1-392b-41a7-897e-2167c1887941",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69076672,
+          -8043037
+        ],
+        "end": [
+          69076672,
+          -7443013
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e28",
+      "native_uuid": "edab8ec5-2fef-4a3c-a698-2dbebd1b63f3",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69076672,
+          -7443013
+        ],
+        "end": [
+          68476647,
+          -7142988
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e29",
+      "native_uuid": "bf6114ee-1ed6-4995-a27c-70719055ae57",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          68476647,
+          -7142988
+        ],
+        "end": [
+          63876682,
+          -7142988
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e30",
+      "native_uuid": "92bc94af-4345-4f5c-b23f-c7091c4d812e",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          63978028,
+          -10342296
+        ],
+        "end": [
+          68478019,
+          -10342296
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e31",
+      "native_uuid": "d6e31f15-0ac5-480c-9275-cc88cba153c9",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          68478019,
+          -10342296
+        ],
+        "end": [
+          69077992,
+          -10042296
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e32",
+      "native_uuid": "924e90fa-07fa-4dae-9b3e-89bf55d485b2",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69077992,
+          -10042296
+        ],
+        "end": [
+          69077992,
+          -9442272
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e33",
+      "native_uuid": "ad030592-1c64-4381-8466-ac1320b57ae1",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69077992,
+          -9442272
+        ],
+        "end": [
+          68478019,
+          -9142247
+        ]
+      }
+    },
+    {
+      "reference": "J3",
+      "source_type": "POLY",
+      "source_id": "e34",
+      "native_uuid": "867ae5f3-243d-4822-bf94-c85f8ea76857",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          68478019,
+          -9142247
+        ],
+        "end": [
+          63878003,
+          -9142247
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e6",
+      "native_uuid": "76b24f11-dfa5-4633-a962-d60aa1598d2c",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          56818022,
+          -4185996
+        ],
+        "end": [
+          56818022,
+          -11145977
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e7",
+      "native_uuid": "061ceece-e428-43b1-aab7-b75bd2b2e41d",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          54818026,
+          -11145977
+        ],
+        "end": [
+          56818022,
+          -11145977
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e8",
+      "native_uuid": "8e196366-b93c-4100-bfe1-5e142a0617bb",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          54818026,
+          -4185996
+        ],
+        "end": [
+          56818022,
+          -4185996
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e9",
+      "native_uuid": "9baf623e-db21-49a2-8488-d0a07aded4ca",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          54818026,
+          -3685997
+        ],
+        "end": [
+          54818026,
+          -4185996
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e10",
+      "native_uuid": "2082bd70-4aa1-4f4a-9a0d-3dfc8797eb34",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          54818026,
+          -11645976
+        ],
+        "end": [
+          54818026,
+          -11145977
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e11",
+      "native_uuid": "31f6a3c9-0c5e-4ccf-974d-77eff355d4e3",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          48018065,
+          -11645976
+        ],
+        "end": [
+          54818026,
+          -11645976
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e12",
+      "native_uuid": "78a0b486-74b4-46b3-bf88-bc8510d690a0",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          48018065,
+          -3685997
+        ],
+        "end": [
+          54818026,
+          -3685997
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e13",
+      "native_uuid": "e242c20b-d3de-471e-b799-46f082dfe526",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          48018065,
+          -3685997
+        ],
+        "end": [
+          48018065,
+          -11645976
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e14",
+      "native_uuid": "d1fad263-4376-406e-85a0-c2a87da24e6e",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          48252964,
+          -11221161
+        ],
+        "end": [
+          48852988,
+          -11221161
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e15",
+      "native_uuid": "dbf14da7-858d-4906-ba7a-ff68eeb60ced",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          48852988,
+          -11221161
+        ],
+        "end": [
+          48852988,
+          -10721162
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e16",
+      "native_uuid": "657e5492-582f-47b6-916a-45682f4e3c0f",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          48852988,
+          -10721162
+        ],
+        "end": [
+          53952953,
+          -10721162
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e17",
+      "native_uuid": "60b53b44-e281-407d-ad46-2ccbf7038ec9",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          48254895,
+          -4122242
+        ],
+        "end": [
+          48854360,
+          -4122242
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e18",
+      "native_uuid": "c6cf301b-eee7-47cd-a0a8-c233ee4fd122",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          48854360,
+          -4122242
+        ],
+        "end": [
+          48854360,
+          -4622622
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e19",
+      "native_uuid": "c0d4297b-b3a4-4b82-a743-ce498b6d1caa",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          48854360,
+          -4622622
+        ],
+        "end": [
+          53954629,
+          -4622622
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e20",
+      "native_uuid": "ab667055-323f-49d3-93a4-445d9faacfcc",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          53853613,
+          -9020734
+        ],
+        "end": [
+          49353673,
+          -9020734
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e21",
+      "native_uuid": "04f9d5f9-e761-4fa0-89d4-27f4a7d87edb",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          49353673,
+          -9020734
+        ],
+        "end": [
+          48753649,
+          -9320682
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e22",
+      "native_uuid": "e117f132-5d34-423d-816d-6c12bef13b44",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          48753649,
+          -9320682
+        ],
+        "end": [
+          48753649,
+          -9920707
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e23",
+      "native_uuid": "83c20e4e-b9fb-4b60-abec-47e9f3b3fd26",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          48753649,
+          -9920707
+        ],
+        "end": [
+          49353673,
+          -10220731
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e24",
+      "native_uuid": "c756e496-4060-4073-a49e-4e05aec91987",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          49353673,
+          -10220731
+        ],
+        "end": [
+          53953639,
+          -10220731
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e25",
+      "native_uuid": "74a0c982-beb1-466a-a1b3-af5f647e7280",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          53879344,
+          -7150964
+        ],
+        "end": [
+          49379353,
+          -7150964
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e26",
+      "native_uuid": "885e6d57-e6ec-4774-beac-5cc496f868b7",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          49379353,
+          -7150964
+        ],
+        "end": [
+          48779328,
+          -7450963
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e27",
+      "native_uuid": "8c61958d-93f4-464e-a5eb-f4be22e3f55b",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          48779328,
+          -7450963
+        ],
+        "end": [
+          48779328,
+          -8050987
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e28",
+      "native_uuid": "7aa8d99e-a6c4-4e50-9e80-209d14531ee7",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          48779328,
+          -8050987
+        ],
+        "end": [
+          49379353,
+          -8351012
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e29",
+      "native_uuid": "26d33bba-1024-4272-a30c-fa11754fbe9c",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          49379353,
+          -8351012
+        ],
+        "end": [
+          53979318,
+          -8351012
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e30",
+      "native_uuid": "885f316a-e0bf-438b-a2fd-663219f52674",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          53877972,
+          -5151704
+        ],
+        "end": [
+          49377981,
+          -5151704
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e31",
+      "native_uuid": "32e3c1c1-4f47-4e3c-908b-6cd60fcd57bb",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          49377981,
+          -5151704
+        ],
+        "end": [
+          48778008,
+          -5451704
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e32",
+      "native_uuid": "9289ccb9-0f8a-4c1a-946e-aa4846671a59",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          48778008,
+          -5451704
+        ],
+        "end": [
+          48778008,
+          -6051728
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e33",
+      "native_uuid": "b4ddb1f7-6221-480c-a3d8-5c477f08c6bc",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          48778008,
+          -6051728
+        ],
+        "end": [
+          49377981,
+          -6351753
+        ]
+      }
+    },
+    {
+      "reference": "J4",
+      "source_type": "POLY",
+      "source_id": "e34",
+      "native_uuid": "7c050dfe-e61b-4605-b42b-1e7e896e7d30",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          49377981,
+          -6351753
+        ],
+        "end": [
+          53977997,
+          -6351753
+        ]
+      }
+    },
+    {
+      "reference": "J6",
+      "source_type": "POLY",
+      "source_id": "e1",
+      "native_uuid": "37b949cb-820b-46b0-adb1-a7189256667c",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          62611000,
+          -12350013
+        ],
+        "end": [
+          62611000,
+          -20416012
+        ]
+      }
+    },
+    {
+      "reference": "J6",
+      "source_type": "POLY",
+      "source_id": "e2",
+      "native_uuid": "6909db72-6977-4f8c-92d5-67a7714156d9",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          66294000,
+          -12350013
+        ],
+        "end": [
+          66294000,
+          -20416012
+        ]
+      }
+    },
+    {
+      "reference": "J6",
+      "source_type": "POLY",
+      "source_id": "e3",
+      "native_uuid": "a6d45747-a12c-4f7f-97e6-27e1cb65c5d3",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          62611000,
+          -12349988
+        ],
+        "end": [
+          66294000,
+          -12349988
+        ]
+      }
+    },
+    {
+      "reference": "J6",
+      "source_type": "POLY",
+      "source_id": "e4",
+      "native_uuid": "7c983f89-ad33-48a4-8750-b5fd0cdfd503",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          63627000,
+          -12429998
+        ],
+        "end": [
+          63627000,
+          -12900000
+        ]
+      }
+    },
+    {
+      "reference": "J6",
+      "source_type": "POLY",
+      "source_id": "e5",
+      "native_uuid": "73327fec-7330-472e-bbe6-775631c2d1e9",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          63627000,
+          -12900000
+        ],
+        "end": [
+          65626996,
+          -12900000
+        ]
+      }
+    },
+    {
+      "reference": "J6",
+      "source_type": "POLY",
+      "source_id": "e6",
+      "native_uuid": "65d5616b-d7dc-4827-b8f4-817cfe2a2eea",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          65626996,
+          -12900000
+        ],
+        "end": [
+          65641855,
+          -13970991
+        ]
+      }
+    },
+    {
+      "reference": "J6",
+      "source_type": "POLY",
+      "source_id": "e7",
+      "native_uuid": "997516ce-2e78-44a4-ab19-87a5647f649c",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          65641855,
+          -13970991
+        ],
+        "end": [
+          66276855,
+          -13969594
+        ]
+      }
+    },
+    {
+      "reference": "J6",
+      "source_type": "POLY",
+      "source_id": "e8",
+      "native_uuid": "0df075f4-956a-4ce8-8c79-ff5c0d467bc7",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          62611000,
+          -20416012
+        ],
+        "end": [
+          66294000,
+          -20416012
+        ]
+      }
+    },
+    {
+      "reference": "J6",
+      "source_type": "POLY",
+      "source_id": "e9",
+      "native_uuid": "7c682640-b85d-4fe7-903e-a108aca09b83",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          63627000,
+          -20320000
+        ],
+        "end": [
+          63627000,
+          -19849998
+        ]
+      }
+    },
+    {
+      "reference": "J6",
+      "source_type": "POLY",
+      "source_id": "e10",
+      "native_uuid": "740443d3-b0eb-43a3-9c15-c1c7862784dd",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          63627000,
+          -19849998
+        ],
+        "end": [
+          65626996,
+          -19849998
+        ]
+      }
+    },
+    {
+      "reference": "J6",
+      "source_type": "POLY",
+      "source_id": "e11",
+      "native_uuid": "2b8b2b07-8c95-4e42-acbf-10f0b80389fc",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          65626996,
+          -19849998
+        ],
+        "end": [
+          65641855,
+          -18779007
+        ]
+      }
+    },
+    {
+      "reference": "J6",
+      "source_type": "POLY",
+      "source_id": "e12",
+      "native_uuid": "897f9536-eb84-4f22-b985-d16248775ef3",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          65641855,
+          -18779007
+        ],
+        "end": [
+          66276855,
+          -18780404
+        ]
+      }
+    },
+    {
+      "reference": "J6",
+      "source_type": "POLY",
+      "source_id": "e16",
+      "native_uuid": "d65686bd-b522-4906-b503-2934f7bae655",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          65786000,
+          -14969998
+        ],
+        "end": [
+          65786000,
+          -17890998
+        ]
+      }
+    },
+    {
+      "reference": "J6",
+      "source_type": "POLY",
+      "source_id": "e16",
+      "native_uuid": "e7195e0d-6746-442c-ac0e-1025cea8d4b2",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          65786000,
+          -17890998
+        ],
+        "end": [
+          66167000,
+          -17890998
+        ]
+      }
+    },
+    {
+      "reference": "J6",
+      "source_type": "POLY",
+      "source_id": "e16",
+      "native_uuid": "2dfb3b5d-2350-4a7e-ba1e-fa4b6082f8a8",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          66167000,
+          -17890998
+        ],
+        "end": [
+          66167000,
+          -14969998
+        ]
+      }
+    },
+    {
+      "reference": "J6",
+      "source_type": "POLY",
+      "source_id": "e16",
+      "native_uuid": "be85cb5c-c531-422f-bcc9-24bbd3131376",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          66167000,
+          -14969998
+        ],
+        "end": [
+          65786000,
+          -14969998
+        ]
+      }
+    },
+    {
+      "reference": "J2",
+      "source_type": "FILL",
+      "source_id": "e21",
+      "native_uuid": "02e1a448-434f-4f39-ab84-56205ec6985b",
+      "expected": {
+        "shape": 4,
+        "layer": 5,
+        "width": 5080,
+        "fill_mode": 2,
+        "polygon": [
+          [
+            [
+              [
+                53380970,
+                -21852966
+              ],
+              [
+                52980971,
+                -21852966
+              ],
+              [
+                53180971,
+                -21352967
+              ]
+            ],
+            []
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "J2",
+      "source_type": "POLY",
+      "source_id": "e14",
+      "native_uuid": "36471ea4-819a-4ea2-8fb9-35663dfc35ec",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          50649835,
+          -22013494
+        ],
+        "end": [
+          50512218,
+          -22013494
+        ]
+      }
+    },
+    {
+      "reference": "J2",
+      "source_type": "POLY",
+      "source_id": "e15",
+      "native_uuid": "5d044dc3-103a-42be-8b21-7d077106e69a",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          52949805,
+          -26415949
+        ],
+        "end": [
+          49412246,
+          -26415949
+        ]
+      }
+    },
+    {
+      "reference": "J2",
+      "source_type": "POLY",
+      "source_id": "e16",
+      "native_uuid": "f62fb0a9-a30a-41b3-915a-fd586d70b032",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          48381082,
+          -22013520
+        ],
+        "end": [
+          48381082,
+          -25107341
+        ]
+      }
+    },
+    {
+      "reference": "J2",
+      "source_type": "POLY",
+      "source_id": "e17",
+      "native_uuid": "5447318d-ea8f-427a-b341-839340b13197",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          49449939,
+          -22013494
+        ],
+        "end": [
+          48381082,
+          -22013494
+        ]
+      }
+    },
+    {
+      "reference": "J2",
+      "source_type": "POLY",
+      "source_id": "e18",
+      "native_uuid": "58e45413-6c50-456b-87cc-50312115d152",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          53980969,
+          -22013494
+        ],
+        "end": [
+          53980969,
+          -25107316
+        ]
+      }
+    },
+    {
+      "reference": "J2",
+      "source_type": "POLY",
+      "source_id": "e19",
+      "native_uuid": "e9a24f0b-017d-4e5e-bfb3-308e6c9e737e",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          51849833,
+          -22013494
+        ],
+        "end": [
+          51712114,
+          -22013494
+        ]
+      }
+    },
+    {
+      "reference": "J2",
+      "source_type": "POLY",
+      "source_id": "e20",
+      "native_uuid": "8e02bc95-d9fa-4d28-8e0e-2606976277cb",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          53980969,
+          -22013494
+        ],
+        "end": [
+          52912112,
+          -22013494
+        ]
+      }
+    },
+    {
+      "reference": "J5",
+      "source_type": "POLY",
+      "source_id": "e1",
+      "native_uuid": "edf2ac77-8eb0-4469-abd9-94e83daf4bd4",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          51308000,
+          -12223013
+        ],
+        "end": [
+          51308000,
+          -20289012
+        ]
+      }
+    },
+    {
+      "reference": "J5",
+      "source_type": "POLY",
+      "source_id": "e2",
+      "native_uuid": "8e6b36b4-f0ea-4ad6-9303-900618c97fc1",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          54991000,
+          -12223013
+        ],
+        "end": [
+          54991000,
+          -20289012
+        ]
+      }
+    },
+    {
+      "reference": "J5",
+      "source_type": "POLY",
+      "source_id": "e3",
+      "native_uuid": "82274058-3ba4-4330-aea8-300abe6ba38c",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          51308000,
+          -12222988
+        ],
+        "end": [
+          54991000,
+          -12222988
+        ]
+      }
+    },
+    {
+      "reference": "J5",
+      "source_type": "POLY",
+      "source_id": "e4",
+      "native_uuid": "9756c497-d9a9-457d-bd97-e09edc82f070",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          52324000,
+          -12302998
+        ],
+        "end": [
+          52324000,
+          -12773000
+        ]
+      }
+    },
+    {
+      "reference": "J5",
+      "source_type": "POLY",
+      "source_id": "e5",
+      "native_uuid": "cbcbc733-f18e-47ed-a27f-ebedc2d564b0",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          52324000,
+          -12773000
+        ],
+        "end": [
+          54323996,
+          -12773000
+        ]
+      }
+    },
+    {
+      "reference": "J5",
+      "source_type": "POLY",
+      "source_id": "e6",
+      "native_uuid": "01ef7c01-383f-44ff-a453-884330ed78cf",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          54323996,
+          -12773000
+        ],
+        "end": [
+          54338855,
+          -13843991
+        ]
+      }
+    },
+    {
+      "reference": "J5",
+      "source_type": "POLY",
+      "source_id": "e7",
+      "native_uuid": "63f75bf9-e6cd-453a-8b14-662c919f8569",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          54338855,
+          -13843991
+        ],
+        "end": [
+          54973855,
+          -13842594
+        ]
+      }
+    },
+    {
+      "reference": "J5",
+      "source_type": "POLY",
+      "source_id": "e8",
+      "native_uuid": "b74d8c1b-3d6d-4f64-927d-fdc04ba475f1",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          51308000,
+          -20289012
+        ],
+        "end": [
+          54991000,
+          -20289012
+        ]
+      }
+    },
+    {
+      "reference": "J5",
+      "source_type": "POLY",
+      "source_id": "e9",
+      "native_uuid": "5054140f-4f2f-4e5d-a8ee-42f95095edda",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          52324000,
+          -20193000
+        ],
+        "end": [
+          52324000,
+          -19722998
+        ]
+      }
+    },
+    {
+      "reference": "J5",
+      "source_type": "POLY",
+      "source_id": "e10",
+      "native_uuid": "5bb103ea-fbf3-43c7-bae9-fc2191e34920",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          52324000,
+          -19722998
+        ],
+        "end": [
+          54323996,
+          -19722998
+        ]
+      }
+    },
+    {
+      "reference": "J5",
+      "source_type": "POLY",
+      "source_id": "e11",
+      "native_uuid": "6f13db40-656b-4050-9c94-f9f516493e38",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          54323996,
+          -19722998
+        ],
+        "end": [
+          54338855,
+          -18652007
+        ]
+      }
+    },
+    {
+      "reference": "J5",
+      "source_type": "POLY",
+      "source_id": "e12",
+      "native_uuid": "dc77fad2-33a6-4fe6-8f7f-5c78b50575b5",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          54338855,
+          -18652007
+        ],
+        "end": [
+          54973855,
+          -18653404
+        ]
+      }
+    },
+    {
+      "reference": "J5",
+      "source_type": "POLY",
+      "source_id": "e16",
+      "native_uuid": "0e42e789-ff70-4ced-82a4-720b46c03795",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          54483000,
+          -14842998
+        ],
+        "end": [
+          54483000,
+          -17763998
+        ]
+      }
+    },
+    {
+      "reference": "J5",
+      "source_type": "POLY",
+      "source_id": "e16",
+      "native_uuid": "a41bee05-fb58-4d36-8e99-ba08db794f22",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          54483000,
+          -17763998
+        ],
+        "end": [
+          54864000,
+          -17763998
+        ]
+      }
+    },
+    {
+      "reference": "J5",
+      "source_type": "POLY",
+      "source_id": "e16",
+      "native_uuid": "20577838-c0fd-42f2-aa0b-b0a01bc381b9",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          54864000,
+          -17763998
+        ],
+        "end": [
+          54864000,
+          -14842998
+        ]
+      }
+    },
+    {
+      "reference": "J5",
+      "source_type": "POLY",
+      "source_id": "e16",
+      "native_uuid": "a02a93d3-82de-42b6-a546-823e3dd32a1e",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          54864000,
+          -14842998
+        ],
+        "end": [
+          54483000,
+          -14842998
+        ]
+      }
+    },
+    {
+      "reference": "J1",
+      "source_type": "POLY",
+      "source_id": "e16",
+      "native_uuid": "dd67f4a3-c947-4848-93b2-37be40932686",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69320105,
+          -26498169
+        ],
+        "end": [
+          69320105,
+          -26503249
+        ]
+      }
+    },
+    {
+      "reference": "J1",
+      "source_type": "POLY",
+      "source_id": "e17",
+      "native_uuid": "fb850ac1-fc73-4366-b823-9ea6701f65d4",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69320105,
+          -26503249
+        ],
+        "end": [
+          67448125,
+          -26503249
+        ]
+      }
+    },
+    {
+      "reference": "J1",
+      "source_type": "POLY",
+      "source_id": "e18",
+      "native_uuid": "4b8d1a0c-2f72-4668-9177-94c0804db4ba",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          67448125,
+          -26503249
+        ],
+        "end": [
+          66998545,
+          -25703149
+        ]
+      }
+    },
+    {
+      "reference": "J1",
+      "source_type": "POLY",
+      "source_id": "e19",
+      "native_uuid": "14b6d637-e68a-456c-b27c-4c2633481852",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          66998545,
+          -25703149
+        ],
+        "end": [
+          66096845,
+          -25703149
+        ]
+      }
+    },
+    {
+      "reference": "J1",
+      "source_type": "POLY",
+      "source_id": "e20",
+      "native_uuid": "88abd8aa-a51f-49f1-a159-1d1547350cda",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          66096845,
+          -25703149
+        ],
+        "end": [
+          65647265,
+          -26503249
+        ]
+      }
+    },
+    {
+      "reference": "J1",
+      "source_type": "POLY",
+      "source_id": "e21",
+      "native_uuid": "47c65554-d006-4fa9-a2cc-423270dcd91d",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          65647265,
+          -26503249
+        ],
+        "end": [
+          63798145,
+          -26503249
+        ]
+      }
+    },
+    {
+      "reference": "J1",
+      "source_type": "POLY",
+      "source_id": "e22",
+      "native_uuid": "cd4faa30-4fc1-4a7e-bdab-46a2d97def8f",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          64816711,
+          -21998000
+        ],
+        "end": [
+          63797840,
+          -21998000
+        ]
+      }
+    },
+    {
+      "reference": "J1",
+      "source_type": "POLY",
+      "source_id": "e23",
+      "native_uuid": "dd90667d-1cc4-48a2-9053-fc298ebdff42",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          63797840,
+          -21998000
+        ],
+        "end": [
+          63797840,
+          -25094971
+        ]
+      }
+    },
+    {
+      "reference": "J1",
+      "source_type": "POLY",
+      "source_id": "e24",
+      "native_uuid": "4b1e4c19-b5f4-45bc-9e61-77b49f6d5c29",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          66016708,
+          -21998000
+        ],
+        "end": [
+          65878989,
+          -21998000
+        ]
+      }
+    },
+    {
+      "reference": "J1",
+      "source_type": "POLY",
+      "source_id": "e25",
+      "native_uuid": "4a6e53ac-27a0-4575-8b47-a23d0e4196ac",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          67216706,
+          -21998000
+        ],
+        "end": [
+          67078987,
+          -21998000
+        ]
+      }
+    },
+    {
+      "reference": "J1",
+      "source_type": "POLY",
+      "source_id": "e26",
+      "native_uuid": "707a7a97-8a16-4e8e-bf71-e0fbc7c71df3",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69319724,
+          -21998000
+        ],
+        "end": [
+          68278985,
+          -21998000
+        ]
+      }
+    },
+    {
+      "reference": "J1",
+      "source_type": "POLY",
+      "source_id": "e27",
+      "native_uuid": "5c01899e-3109-425c-99ec-a5bf12c26e9d",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          69319724,
+          -25107113
+        ],
+        "end": [
+          69319724,
+          -21998000
+        ]
+      }
+    },
+    {
+      "reference": "CN1",
+      "source_type": "FILL",
+      "source_id": "e14",
+      "native_uuid": "d3f0e241-dbc8-4d15-86c2-e6154a937f77",
+      "expected": {
+        "shape": 4,
+        "layer": 5,
+        "width": 5080,
+        "fill_mode": 2,
+        "polygon": [
+          [
+            [
+              [
+                57256756,
+                -24741048
+              ],
+              [
+                57756755,
+                -25241174
+              ],
+              [
+                56756808,
+                -25241174
+              ]
+            ],
+            []
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "CN1",
+      "source_type": "FILL",
+      "source_id": "e15",
+      "native_uuid": "a3d990ca-0d95-4d2e-bd5a-692227ea60a8",
+      "expected": {
+        "shape": 4,
+        "layer": 5,
+        "width": 5080,
+        "fill_mode": 2,
+        "polygon": [
+          [
+            [
+              [
+                57506692,
+                -25241174
+              ],
+              [
+                57006744,
+                -25241174
+              ],
+              [
+                57006744,
+                -25991185
+              ],
+              [
+                57506692,
+                -25991185
+              ]
+            ],
+            []
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "CN1",
+      "source_type": "FILL",
+      "source_id": "e16",
+      "native_uuid": "9dc47db7-23ab-4451-a0a9-8233c8006557",
+      "expected": {
+        "shape": 4,
+        "layer": 5,
+        "width": 5080,
+        "fill_mode": 2,
+        "polygon": [
+          [
+            [
+              [
+                59796985,
+                -24741022
+              ],
+              [
+                60296984,
+                -25241021
+              ],
+              [
+                59296986,
+                -25241021
+              ]
+            ],
+            []
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "CN1",
+      "source_type": "FILL",
+      "source_id": "e17",
+      "native_uuid": "6400ed4f-9873-418a-ab55-1023178a8904",
+      "expected": {
+        "shape": 4,
+        "layer": 5,
+        "width": 5080,
+        "fill_mode": 2,
+        "polygon": [
+          [
+            [
+              [
+                60046997,
+                -25241047
+              ],
+              [
+                59546998,
+                -25241047
+              ],
+              [
+                59546998,
+                -25991033
+              ],
+              [
+                60046997,
+                -25991033
+              ]
+            ],
+            []
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "CN1",
+      "source_type": "POLY",
+      "source_id": "e9",
+      "native_uuid": "ad3bc0f8-0e8c-4ff5-a339-7ba19ac6ef15",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          55766995,
+          -20101560
+        ],
+        "end": [
+          55766995,
+          -26380999
+        ]
+      }
+    },
+    {
+      "reference": "CN1",
+      "source_type": "POLY",
+      "source_id": "e10",
+      "native_uuid": "19de567c-c8bd-48d7-9fad-9fe41d59c889",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          55766995,
+          -26380999
+        ],
+        "end": [
+          61327005,
+          -26380999
+        ]
+      }
+    },
+    {
+      "reference": "CN1",
+      "source_type": "POLY",
+      "source_id": "e11",
+      "native_uuid": "c6dd9057-9286-4821-b11e-035f7056a157",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          61327005,
+          -20101560
+        ],
+        "end": [
+          61327005,
+          -26380999
+        ]
+      }
+    },
+    {
+      "reference": "CN1",
+      "source_type": "POLY",
+      "source_id": "e12",
+      "native_uuid": "3ea2d3af-1baa-450d-9232-b80cc5ea65af",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          55766995,
+          -20101560
+        ],
+        "end": [
+          61327005,
+          -20101560
+        ]
+      }
+    },
+    {
+      "reference": "CN1",
+      "source_type": "POLY",
+      "source_id": "e13",
+      "native_uuid": "93c0c166-5223-4489-9ab8-12390348812d",
+      "expected": {
+        "shape": 0,
+        "layer": 5,
+        "width": 254000,
+        "fill_mode": 1,
+        "start": [
+          55766995,
+          -21845880
+        ],
+        "end": [
+          61327005,
+          -21845880
+        ]
+      }
+    }
+  ],
+  "references": [
+    {
+      "reference": "J3",
+      "source_record": {
+        "header": {
+          "type": "ATTR",
+          "ticket": 46555,
+          "id": "eb95f8d80f5376f1e39"
+        },
+        "data": {
+          "partitionId": "",
+          "groupID": 0,
+          "parentId": "eb95f8d80f5376f1",
+          "layerId": 3,
+          "x": 2690,
+          "y": 90,
+          "key": "Designator",
+          "value": "J3",
+          "keyVisible": false,
+          "valueVisible": true,
+          "fontFamily": "default",
+          "fontSize": 45,
+          "strokeWidth": 6,
+          "bold": 0,
+          "italic": 0,
+          "origin": "LEFT_BOTTOM",
+          "angle": 360,
+          "reverse": false,
+          "expansion": 0,
+          "mirror": false,
+          "locked": false,
+          "zIndex": 39,
+          "specialColor": null
+        },
+        "line": 28446,
+        "segment": 163,
+        "client": "a0c6ebed8c5086e3"
+      },
+      "native_position_nm": [
+        68326000,
+        -2286000
+      ],
+      "native_layer": 5,
+      "native_angle_degrees": 0.0,
+      "typography_qualified": false
+    },
+    {
+      "reference": "J4",
+      "source_record": {
+        "header": {
+          "type": "ATTR",
+          "ticket": 46564,
+          "id": "0d495293505bde39e39"
+        },
+        "data": {
+          "partitionId": "",
+          "groupID": 0,
+          "parentId": "0d495293505bde39",
+          "layerId": 3,
+          "x": 1895,
+          "y": 90,
+          "key": "Designator",
+          "value": "J4",
+          "keyVisible": false,
+          "valueVisible": true,
+          "fontFamily": "default",
+          "fontSize": 45,
+          "strokeWidth": 6,
+          "bold": 0,
+          "italic": 0,
+          "origin": "LEFT_BOTTOM",
+          "angle": 360,
+          "reverse": false,
+          "expansion": 0,
+          "mirror": false,
+          "locked": false,
+          "zIndex": 39,
+          "specialColor": null
+        },
+        "line": 28451,
+        "segment": 163,
+        "client": "a0c6ebed8c5086e3"
+      },
+      "native_position_nm": [
+        48133000,
+        -2286000
+      ],
+      "native_layer": 5,
+      "native_angle_degrees": 0.0,
+      "typography_qualified": false
+    },
+    {
+      "reference": "J6",
+      "source_record": {
+        "header": {
+          "type": "ATTR",
+          "ticket": 47957,
+          "id": "f2b10e0bc93e4f38e23"
+        },
+        "data": {
+          "partitionId": "",
+          "groupID": 0,
+          "parentId": "f2b10e0bc93e4f38",
+          "layerId": 3,
+          "x": 2400,
+          "y": 485,
+          "key": "Designator",
+          "value": "J6",
+          "keyVisible": false,
+          "valueVisible": true,
+          "fontFamily": "default",
+          "fontSize": 45,
+          "strokeWidth": 6,
+          "bold": 0,
+          "italic": 0,
+          "origin": "LEFT_BOTTOM",
+          "angle": 360,
+          "reverse": false,
+          "expansion": 0,
+          "mirror": false,
+          "locked": false,
+          "zIndex": 23,
+          "specialColor": null
+        },
+        "line": 29225,
+        "segment": 169,
+        "client": "eb5ff09f7ae717ac"
+      },
+      "native_position_nm": [
+        60960000,
+        -12319000
+      ],
+      "native_layer": 5,
+      "native_angle_degrees": 0.0,
+      "typography_qualified": false
+    },
+    {
+      "reference": "J2",
+      "source_record": {
+        "header": {
+          "type": "ATTR",
+          "ticket": 47962,
+          "id": "55b6edb0b2f02527e23"
+        },
+        "data": {
+          "partitionId": "",
+          "groupID": 0,
+          "parentId": "55b6edb0b2f02527",
+          "layerId": 3,
+          "x": 2135,
+          "y": 925,
+          "key": "Designator",
+          "value": "J2",
+          "keyVisible": false,
+          "valueVisible": true,
+          "fontFamily": "default",
+          "fontSize": 45,
+          "strokeWidth": 6,
+          "bold": 0,
+          "italic": 0,
+          "origin": "LEFT_BOTTOM",
+          "angle": 1440,
+          "reverse": false,
+          "expansion": 0,
+          "mirror": false,
+          "locked": false,
+          "zIndex": 23,
+          "specialColor": null
+        },
+        "line": 29227,
+        "segment": 169,
+        "client": "eb5ff09f7ae717ac"
+      },
+      "native_position_nm": [
+        54229000,
+        -23495000
+      ],
+      "native_layer": 5,
+      "native_angle_degrees": 0.0,
+      "typography_qualified": false
+    },
+    {
+      "reference": "J5",
+      "source_record": {
+        "header": {
+          "type": "ATTR",
+          "ticket": 47956,
+          "id": "255600c2694ebdb3e23"
+        },
+        "data": {
+          "partitionId": "",
+          "groupID": 0,
+          "parentId": "255600c2694ebdb3",
+          "layerId": 3,
+          "x": 2190,
+          "y": 490,
+          "key": "Designator",
+          "value": "J5",
+          "keyVisible": false,
+          "valueVisible": true,
+          "fontFamily": "default",
+          "fontSize": 45,
+          "strokeWidth": 6,
+          "bold": 0,
+          "italic": 0,
+          "origin": "LEFT_BOTTOM",
+          "angle": 360,
+          "reverse": false,
+          "expansion": 0,
+          "mirror": false,
+          "locked": false,
+          "zIndex": 23,
+          "specialColor": null
+        },
+        "line": 29224,
+        "segment": 169,
+        "client": "eb5ff09f7ae717ac"
+      },
+      "native_position_nm": [
+        55626000,
+        -12446000
+      ],
+      "native_layer": 5,
+      "native_angle_degrees": 0.0,
+      "typography_qualified": false
+    },
+    {
+      "reference": "J1",
+      "source_record": {
+        "header": {
+          "type": "ATTR",
+          "ticket": 47961,
+          "id": "dd0bccd2dc7abc0be29"
+        },
+        "data": {
+          "partitionId": "",
+          "groupID": 0,
+          "parentId": "dd0bccd2dc7abc0b",
+          "layerId": 3,
+          "x": 2465,
+          "y": 930,
+          "key": "Designator",
+          "value": "J1",
+          "keyVisible": false,
+          "valueVisible": true,
+          "fontFamily": "default",
+          "fontSize": 45,
+          "strokeWidth": 6,
+          "bold": 0,
+          "italic": 0,
+          "origin": "LEFT_BOTTOM",
+          "angle": 1800,
+          "reverse": false,
+          "expansion": 0,
+          "mirror": false,
+          "locked": false,
+          "zIndex": 29,
+          "specialColor": null
+        },
+        "line": 29226,
+        "segment": 169,
+        "client": "eb5ff09f7ae717ac"
+      },
+      "native_position_nm": [
+        62611000,
+        -23622000
+      ],
+      "native_layer": 5,
+      "native_angle_degrees": 0.0,
+      "typography_qualified": false
+    },
+    {
+      "reference": "CN1",
+      "source_record": {
+        "header": {
+          "type": "ATTR",
+          "ticket": 47958,
+          "id": "a7ac844818530c4ee21"
+        },
+        "data": {
+          "partitionId": "",
+          "groupID": 0,
+          "parentId": "a7ac844818530c4e",
+          "layerId": 3,
+          "x": 2348.9,
+          "y": 730,
+          "key": "Designator",
+          "value": "CN1",
+          "keyVisible": false,
+          "valueVisible": true,
+          "fontFamily": "default",
+          "fontSize": 45,
+          "strokeWidth": 6,
+          "bold": 0,
+          "italic": 0,
+          "origin": "LEFT_BOTTOM",
+          "angle": 360,
+          "reverse": false,
+          "expansion": 0,
+          "mirror": false,
+          "locked": false,
+          "zIndex": 21,
+          "specialColor": null
+        },
+        "line": 29212,
+        "segment": 169,
+        "client": "eb5ff09f7ae717ac"
+      },
+      "native_position_nm": [
+        59662060,
+        -18542000
+      ],
+      "native_layer": 5,
+      "native_angle_degrees": 0.0,
+      "typography_qualified": false
+    }
+  ],
+  "skipped": [],
+  "copper_mask_paste_changed": false,
+  "manufacturing_ready": false,
+  "typography": "KiCad stroke-font substitution; source content/position/style/anchor/angle/mirror retained; glyph metrics/font parity unqualified",
+  "saved_copper_and_pad_geometry_verified": true,
+  "library_graphics_reload_verified": true,
+  "engineering_board_sha256": "b0787e23ba88de844a54dfb791fac1cbb2101c129e3884e7c04cf7414988ddd0",
+  "drc_counts": {
+    "copper_edge_clearance": 30,
+    "clearance": 6,
+    "silk_overlap": 6,
+    "silk_edge_clearance": 1
+  },
+  "unconnected": 0,
+  "schematic_parity": []
+}

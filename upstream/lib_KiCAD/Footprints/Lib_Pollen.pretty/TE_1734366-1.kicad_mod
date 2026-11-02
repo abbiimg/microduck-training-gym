@@ -1,0 +1,282 @@
+(footprint "TE_1734366-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "USB Type-A right angle connector")
+	(property "Reference" "REF**"
+		(at -0.63622 -4.45354 0)
+		(layer "F.SilkS")
+		(uuid "c0618e7f-5e7c-454c-864c-fc7d7dccff4c")
+		(effects
+			(font
+				(size 1.001921 1.001921)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TE_1734366-1"
+		(at 3.81319 6.99082 0)
+		(layer "F.Fab")
+		(uuid "3ca3d14d-196f-4680-a543-e23ef9a2be81")
+		(effects
+			(font
+				(size 1.000835 1.000835)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32c0b3fa-a47c-4ad8-8014-82dac7f4a8f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "USB Type-A right angle connector"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1162bdfb-8a76-4e9e-95d4-24871d2aeffe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4 -2.51)
+		(end -4 0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92783c3a-2489-4ebe-b16d-ebfcb93811eb")
+	)
+	(fp_line
+		(start -4 -2.51)
+		(end 11 -2.51)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9a0f88f-e8ac-42de-8fff-498c96cb613e")
+	)
+	(fp_line
+		(start -4 4.5)
+		(end -4 5.11)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c376787-465f-4d64-b92a-bd2d286c1d03")
+	)
+	(fp_line
+		(start -4 5.11)
+		(end 11 5.11)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b0bce73-4c47-4ecf-b604-a74d1e15ba8f")
+	)
+	(fp_line
+		(start 11 -2.51)
+		(end 11 0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a7e9d17-759f-4681-8fe8-7cae0be16613")
+	)
+	(fp_line
+		(start 11 5.11)
+		(end 11 4.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7eed259-0cb0-419d-be86-e163e5ef7eff")
+	)
+	(fp_circle
+		(center 0 -3.175)
+		(end 0.2 -3.175)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "504e2456-3ca2-4c42-98f8-fb57a33b2d0e")
+	)
+	(fp_line
+		(start -4.95 -2.76)
+		(end 11.95 -2.76)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15ab3e76-ef62-4a43-98de-69f7903e9697")
+	)
+	(fp_line
+		(start -4.95 5.36)
+		(end -4.95 -2.76)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ac21a80-ddaa-42bf-9ef8-16df6b495417")
+	)
+	(fp_line
+		(start 11.95 -2.76)
+		(end 11.95 5.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0631b5e-647a-46ac-a0f4-1463d5fc3626")
+	)
+	(fp_line
+		(start 11.95 5.36)
+		(end -4.95 5.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be05614f-aa45-4d97-ba7d-da646df320f5")
+	)
+	(fp_line
+		(start -4 -2.51)
+		(end 11 -2.51)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6fab4ac8-7552-4b2c-a864-a4de32ab2508")
+	)
+	(fp_line
+		(start -4 5.11)
+		(end -4 -2.51)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "841461bd-1440-46b6-8c0f-7f4b8d31b039")
+	)
+	(fp_line
+		(start 11 -2.51)
+		(end 11 5.11)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa35ee21-8327-44d6-adf6-d5aed71b4aa4")
+	)
+	(fp_line
+		(start 11 5.11)
+		(end -4 5.11)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e860e2b-df8d-4b74-b385-b7dad4144592")
+	)
+	(fp_circle
+		(center 0 -1.27)
+		(end 0.2 -1.27)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c6cb9e08-f1bf-43e9-b48e-752fcba20408")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.428 1.428)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "245fe356-331e-4d35-9483-66d0432a735a")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.428 1.428)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1488c2ca-3a0f-45c5-bd0d-5b051d3d85dc")
+	)
+	(pad "3" thru_hole circle
+		(at 4.5 0)
+		(size 1.428 1.428)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "146bf6ad-028d-412c-a178-b50752661069")
+	)
+	(pad "4" thru_hole circle
+		(at 7 0)
+		(size 1.428 1.428)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "20335d00-f771-4d70-8521-98414625b0b3")
+	)
+	(pad "5" thru_hole circle
+		(at -3.07 2.71)
+		(size 3.316 3.316)
+		(drill 2.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "888ac531-8bc6-479c-8ee8-e37b291eaee4")
+	)
+	(pad "5" thru_hole circle
+		(at 10.07 2.71)
+		(size 3.316 3.316)
+		(drill 2.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "4f874550-4634-4497-b7bb-6f559edacf18")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMOD}/TE_1734366-1.stp"
+		(offset
+			(xyz 3.5 -1.3 15.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

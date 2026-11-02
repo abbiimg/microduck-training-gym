@@ -1,0 +1,1553 @@
+{
+  "candidate": "imu_to_dxl",
+  "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+  "source_step_sha256": "752a67bd59c543903ffcac74d44470b473f4c99899cd5449d0392a443cd8c9ff",
+  "source_step_unchanged": true,
+  "metadata_source": "audit/placed-device-model-metadata.json",
+  "expected_references": 29,
+  "recovered_references": 29,
+  "missing_references": [],
+  "components": [
+    {
+      "reference": "C1",
+      "source_instance_label": "C1",
+      "source_definition_label": "C1~C0603~C0603_L1.6-W0.8-H0.8~tojG",
+      "metadata_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "C0603_L1.6-W0.8-H0.8",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          24.257048514097
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          17.907035814072
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.000050800102
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          23.857048414097,
+          17.107035814072,
+          1.600050700103
+        ],
+        [
+          24.657048614097,
+          18.707035814072,
+          2.400050900102
+        ]
+      ],
+      "volume_mm3": 0.990681499729541,
+      "step_file": "C1.step",
+      "step_sha256": "9e88f3a51682f689e93abdfe3fa6ffc9f1080d8d6f4992caf8ec00e2ca1acfc1",
+      "roundtrip_max_bbox_error_mm": 3.552713678800501e-15,
+      "stl_file": "C1.stl",
+      "stl_sha256": "cf55fd15d8309232df483f56e43d05a74771f28ef0f23b309d5c1c02c40c7825",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "C2",
+      "source_instance_label": "C2",
+      "source_definition_label": "C2~C0603~C0603_L1.6-W0.8-H0.8~ku6t",
+      "metadata_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "C0603_L1.6-W0.8-H0.8",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          27.43205486411
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          19.431038862078
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.000050800102
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          26.63205486411,
+          19.031038762078,
+          1.600050700103
+        ],
+        [
+          28.23205486411,
+          19.831038962078,
+          2.400050900102
+        ]
+      ],
+      "volume_mm3": 0.9906814997295408,
+      "step_file": "C2.step",
+      "step_sha256": "38b10f6312fa7e29b0f55edc7abd30a19757318319c64136ee813c9c33926d37",
+      "roundtrip_max_bbox_error_mm": 3.552713678800501e-15,
+      "stl_file": "C2.stl",
+      "stl_sha256": "5337f6b2e34c7e1c970385de5efc9f221ee1f29787639cfd8a1b878c2bb664bd",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "C3",
+      "source_instance_label": "C3",
+      "source_definition_label": "C3~C0603~C0603_L1.6-W0.8-H0.8~3BiY",
+      "metadata_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "C0603_L1.6-W0.8-H0.8",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          26.416052832106
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          11.303022606045
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.000050800102
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          25.616052832106,
+          10.903022506045,
+          1.600050700103
+        ],
+        [
+          27.216052832106,
+          11.703022706045,
+          2.400050900102
+        ]
+      ],
+      "volume_mm3": 0.9906814997295412,
+      "step_file": "C3.step",
+      "step_sha256": "fa5893add29969030b0f96406a0d5d93f170182f55f29d3f953e82abf5ea15d4",
+      "roundtrip_max_bbox_error_mm": 1.7763568394002505e-15,
+      "stl_file": "C3.stl",
+      "stl_sha256": "a2b8ce1ca2565815c3bd07fadaba8d5e82e202735a6b6a454176b622a84f9ef0",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "C4",
+      "source_instance_label": "C4",
+      "source_definition_label": "C4~C0603~C0603_L1.6-W0.8-H0.8~QSPu",
+      "metadata_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "C0603_L1.6-W0.8-H0.8",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          14.605029210058
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          8.763017526035
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.000050800102
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          13.805029210057999,
+          8.363017426035,
+          1.600050700103
+        ],
+        [
+          15.405029210058,
+          9.163017626035,
+          2.400050900102
+        ]
+      ],
+      "volume_mm3": 0.9906814997295413,
+      "step_file": "C4.step",
+      "step_sha256": "1ee0d9b03ff62482abd62cf7a99f42c8c830542f7dcfc64c52ab05f41b1a6656",
+      "roundtrip_max_bbox_error_mm": 1.7763568394002505e-15,
+      "stl_file": "C4.stl",
+      "stl_sha256": "14339f0eb501114ac5fa86374edbea0e0552365703613d9f1f7c001a7c708885",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "C5",
+      "source_instance_label": "C5",
+      "source_definition_label": "C5~C0603~C0603_L1.6-W0.8-H0.8~HzPf",
+      "metadata_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "C0603_L1.6-W0.8-H0.8",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          14.605029210058
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          6.858013716027
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.000050800102
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          13.805029210057999,
+          6.458013616026999,
+          1.600050700103
+        ],
+        [
+          15.405029210058,
+          7.258013816027001,
+          2.400050900102
+        ]
+      ],
+      "volume_mm3": 0.9906814997295411,
+      "step_file": "C5.step",
+      "step_sha256": "f6ce5ced7e1d509d5c6209e5bb9c317efc0bcd41872c883e5befa00d2e64b6b5",
+      "roundtrip_max_bbox_error_mm": 1.7763568394002505e-15,
+      "stl_file": "C5.stl",
+      "stl_sha256": "b058a080e14815d806b6963b35bbbb83d3e8f8ee2e316210ebcce992f70e2cb4",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "C6",
+      "source_instance_label": "C6",
+      "source_definition_label": "C6~C0805~C0805_L2.0-W1.3-H1.3~R4Rq",
+      "metadata_model_id": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "C0805_L2.0-W1.3-H1.3",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          35.687071374143
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          14.224015748031
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.25005077626
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          34.687071374143,
+          13.574015648030993,
+          1.60005067626
+        ],
+        [
+          36.687071374143,
+          14.874015848031002,
+          2.90005087626
+        ]
+      ],
+      "volume_mm3": 3.2617823127409076,
+      "step_file": "C6.step",
+      "step_sha256": "10740439fd3e323ab43a3c781c40f09113b050316b2f8f4431eaa45720728206",
+      "roundtrip_max_bbox_error_mm": 0.0,
+      "stl_file": "C6.stl",
+      "stl_sha256": "13e7ff8c85d3144a98e1fa7e9403570364caaf5f542c424c642d18f9aac59038",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "C7",
+      "source_instance_label": "C7",
+      "source_definition_label": "C7~C0603~C0603_L1.6-W0.8-H0.8~q93I",
+      "metadata_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "C0603_L1.6-W0.8-H0.8",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          32.38506477013
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          17.52603505207
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.000050800102
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          31.98506467013,
+          16.72603505207,
+          1.600050700103
+        ],
+        [
+          32.78506487013,
+          18.32603505207,
+          2.400050900102
+        ]
+      ],
+      "volume_mm3": 0.9906814997295399,
+      "step_file": "C7.step",
+      "step_sha256": "bb5dd446f7e63340d0059a1ce19a064a66a7cceb1f086eb65b843456c5d49527",
+      "roundtrip_max_bbox_error_mm": 3.552713678800501e-15,
+      "stl_file": "C7.stl",
+      "stl_sha256": "eafb2affce50f274ee884d10d49df6af689e7a695203a07024d11f60e4ae1590",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "C8",
+      "source_instance_label": "C8",
+      "source_definition_label": "C8~C0603~C0603_L1.6-W0.8-H0.8~zumw",
+      "metadata_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "C0603_L1.6-W0.8-H0.8",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          35.941071882144
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          11.811023622047
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.000050800102
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          35.141071882144,
+          11.411023522047,
+          1.600050700103
+        ],
+        [
+          36.741071882144006,
+          12.211023722046999,
+          2.400050900102
+        ]
+      ],
+      "volume_mm3": 0.9906814997295398,
+      "step_file": "C8.step",
+      "step_sha256": "bb505b2109905d8ababa0d9f53f6d8e183d2207d52a88846995b10a1310c9b49",
+      "roundtrip_max_bbox_error_mm": 1.7763568394002505e-15,
+      "stl_file": "C8.stl",
+      "stl_sha256": "62d2a414cf07184c465a30069e29075e0284d97944e463b67f7856758f9cd1f3",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "C9",
+      "source_instance_label": "C9",
+      "source_definition_label": "C9~C0603~C0603_L1.6-W0.8-H0.8~0wl7",
+      "metadata_model_id": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "C0603_L1.6-W0.8-H0.8",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.223012446025
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          8.255016510033
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.000050800102
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          5.423012446025,
+          7.8550164100329996,
+          1.600050700103
+        ],
+        [
+          7.023012446025,
+          8.655016610033,
+          2.400050900102
+        ]
+      ],
+      "volume_mm3": 0.9906814997295406,
+      "step_file": "C9.step",
+      "step_sha256": "43bf215c632590b15480f02c63c53391a132299b8e37e76821b901d40e0d4c11",
+      "roundtrip_max_bbox_error_mm": 0.0,
+      "stl_file": "C9.stl",
+      "stl_sha256": "acc8bc7c0729d8e93f71ed3eca5f3ae91cffb3a6598c8da9ef6e0da838b9d1cf",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "D1",
+      "source_instance_label": "D1",
+      "source_definition_label": "D1~SOD-123FL_L2.7-W1.8-LS3.7-RD~SOD-123FL_L2.8-W1.8-H1.1-LS3.6~yEpV",
+      "metadata_model_id": "86f9151e155e4fe2af0c4f2e0a80302e|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "SOD-123FL_L2.8-W1.8-H1.1-LS3.6",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          34.92506985014
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          9.652019304039
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.510050794141
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          33.07506985014,
+          8.752019204039,
+          1.340050794142
+        ],
+        [
+          36.77506985014,
+          10.552019404039,
+          2.48005079414
+        ]
+      ],
+      "volume_mm3": 5.241283504082825,
+      "step_file": "D1.step",
+      "step_sha256": "2b453902c4d32898e53020f1293eb33aad80e438b8b34c847b7ca921d11b89c6",
+      "roundtrip_max_bbox_error_mm": 1.7763568394002505e-15,
+      "stl_file": "D1.stl",
+      "stl_sha256": "68f49e4c67a66dad9608e6519d96c939ca0a56016360313423ad1dbe21f33400",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "D2",
+      "source_instance_label": "D2",
+      "source_definition_label": "D2~SOD-123_L2.7-W1.6-LS3.7-RD~SOD-123_L2.7-W1.6-H1.4-LS3.7~kK6g",
+      "metadata_model_id": "ad7e39f9e5534b3c96ffdc5532ebb493|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "SOD-123_L2.7-W1.6-H1.4-LS3.7",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          24.130035560071
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          6.858013716027
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.574194802347
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          22.280035560071,
+          6.058013616027173,
+          0.874194802348
+        ],
+        [
+          25.980035560071002,
+          7.658013816027,
+          2.1741948023460003
+        ]
+      ],
+      "volume_mm3": 5.093467032877179,
+      "step_file": "D2.step",
+      "step_sha256": "8df5f4c0b2f0fb43b5530c06cde7826e3715a66331048b28fa46b393e0c79948",
+      "roundtrip_max_bbox_error_mm": 3.552713678800501e-15,
+      "stl_file": "D2.stl",
+      "stl_sha256": "220648695c73136913aea4bd2e9dac48a077cac7998c9542822d5c68b5e3079d",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "F1",
+      "source_instance_label": "F1",
+      "source_definition_label": "F1~F1206~F1206_L3.2-W1.7-H0.6~NTFH",
+      "metadata_model_id": "f1628daad26847a79b887277a2bc8541|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "F1206_L3.2-W1.7-H0.6",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          35.05207010414
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          7.112014224028
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.600050800102
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          33.45207000414,
+          6.262014124029,
+          1.6000508001019997
+        ],
+        [
+          36.65207020414,
+          7.962014324027001,
+          2.2000508001009997
+        ]
+      ],
+      "volume_mm3": 2.9954074077056916,
+      "step_file": "F1.step",
+      "step_sha256": "3731ca87699f118c2ffd2172523bd694d61d6acb7e1c04d56dfba0815a54c3a7",
+      "roundtrip_max_bbox_error_mm": 4.440892098500626e-16,
+      "stl_file": "F1.stl",
+      "stl_sha256": "2db4356e4e3e40c1c5bf28903a00f130cdc6409be927d15caea1b9fab8cf49a3",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "J1",
+      "source_instance_label": "J1",
+      "source_definition_label": "J1~CONN-TH_B3B-EH-A-LF-SN~CONN-TH_B3B-EH-A-LF-SN~wdo6",
+      "metadata_model_id": "eb4de652aa64480a9db1bf18ae610871|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "CONN-TH_B3B-EH-A-LF-SN",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          13.975031750064
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          2.9
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.600050847785
+        ]
+      ],
+      "solids": 14,
+      "valid": true,
+      "bounds_mm": [
+        [
+          8.974031650064001,
+          1.0000000000009999,
+          -1.5999491522150002
+        ],
+        [
+          18.975031750063998,
+          4.799999999999,
+          7.600050847785333
+        ]
+      ],
+      "volume_mm3": 111.44769063347897,
+      "step_file": "J1.step",
+      "step_sha256": "e3b0b21154118e8b259a7c83e303b07ad71c86386b587ba51466596c4f4df2f9",
+      "roundtrip_max_bbox_error_mm": 0.0,
+      "stl_file": "J1.stl",
+      "stl_sha256": "5d0e51b452499ce14fa67c76629b3437386be72b234d1f74a10a6c08fdbacac6",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "J2",
+      "source_instance_label": "J2",
+      "source_definition_label": "J2~CONN-TH_B3B-EH-A-LF-SN~CONN-TH_B3B-EH-A-LF-SN~KqwZ",
+      "metadata_model_id": "eb4de652aa64480a9db1bf18ae610871|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "CONN-TH_B3B-EH-A-LF-SN",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          25.975082550165
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          2.9
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.600050847785
+        ]
+      ],
+      "solids": 14,
+      "valid": true,
+      "bounds_mm": [
+        [
+          20.974082450164996,
+          1.0000000000009999,
+          -1.5999491522150002
+        ],
+        [
+          30.975082550165,
+          4.799999999999,
+          7.600050847785333
+        ]
+      ],
+      "volume_mm3": 111.44769063347897,
+      "step_file": "J2.step",
+      "step_sha256": "3efc5d76201a7599c004d9eea0ebcd1ccd266a863a5ac5c2035f6449af038e77",
+      "roundtrip_max_bbox_error_mm": 0.0,
+      "stl_file": "J2.stl",
+      "stl_sha256": "0d859bf85cb7e0cb5d9c342ffe71c7ce1bf4fc2f4b6296aef3fc57b04fb932fb",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "J3",
+      "source_instance_label": "J3",
+      "source_definition_label": "J3~HDR-TH_6P-P2.54-V-M~HDR-TH_6P-P2.54-M-LI-1X6P~HPuw",
+      "metadata_model_id": "66a147c6933d4029b68665bbcd1e2924|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "HDR-TH_6P-P2.54-M-LI-1X6P",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          11.975031750064
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          20.027051054102
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.600050800102
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          4.470031650065,
+          18.77705105410164,
+          -1.399949199898
+        ],
+        [
+          19.470031850065755,
+          21.277051054102,
+          10.2000508001015
+        ]
+      ],
+      "volume_mm3": 93.97067582346132,
+      "step_file": "J3.step",
+      "step_sha256": "515db6eac8e17d8cfbb960f2232d76df2feb92b6a100bb9cdf46a8bf818f0521",
+      "roundtrip_max_bbox_error_mm": 1.7763568394002505e-15,
+      "stl_file": "J3.stl",
+      "stl_sha256": "a0f0f499c1b5750b5ef52b4f04648c2c1744546a4476b87d48b9f4cd31c50a28",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "J4",
+      "source_instance_label": "J4",
+      "source_definition_label": "J4~CONN-TH_B3B-PH-K-S~CONN-TH_B3B-PH-K-S~wpbf",
+      "metadata_model_id": "ced3ec0dc43640d397bfdc45d14bee2a|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "CONN-TH_B3B-PH-K-S",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          41.472585306895
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          10.287020574041
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.600043851071
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          39.221585206895995,
+          6.337020474040999,
+          -1.7999561489290001
+        ],
+        [
+          43.722585306895,
+          14.237020674041,
+          7.600043951071
+        ]
+      ],
+      "volume_mm3": 96.79640815661446,
+      "step_file": "J4.step",
+      "step_sha256": "6235453c42ddf7e28d9c0c7d8b4565892b28173f2bbc8f6b2481adf4cc5f8883",
+      "roundtrip_max_bbox_error_mm": 7.105427357601002e-15,
+      "stl_file": "J4.stl",
+      "stl_sha256": "c1c444e769c6ddb72b06860e5cca26ebbd317f7f5e6218ddebbef810eccc145d",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "J5",
+      "source_instance_label": "J5",
+      "source_definition_label": "J5~CONN-TH_B3B-PH-K-S~CONN-TH_B3B-PH-K-S~Gdo3",
+      "metadata_model_id": "ced3ec0dc43640d397bfdc45d14bee2a|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "CONN-TH_B3B-PH-K-S",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          36.322072644145
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          2.991508344741
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.600043851071
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          32.372072544145,
+          0.740508244742,
+          -1.7999561489290001
+        ],
+        [
+          40.27207274414501,
+          5.241508344741,
+          7.600043951071
+        ]
+      ],
+      "volume_mm3": 96.79640815661462,
+      "step_file": "J5.step",
+      "step_sha256": "80264b1d276addd883968968d6fa9ece6413a4a50c483bfc15de21f0ffe92477",
+      "roundtrip_max_bbox_error_mm": 7.105427357601002e-15,
+      "stl_file": "J5.stl",
+      "stl_sha256": "93770ab337b245203123b50ec22d6d94eb48a0ee2a4724eadb5b3f0cbfa4bc7b",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "R1",
+      "source_instance_label": "R1",
+      "source_definition_label": "R1~R0603~R0603~es4d",
+      "metadata_model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "R0603",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          21.204042422868
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          16.510033020066
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.610050799849
+        ]
+      ],
+      "solids": 4,
+      "valid": true,
+      "bounds_mm": [
+        [
+          20.804042422869,
+          15.700033020066,
+          1.6000507998499998
+        ],
+        [
+          21.614042522868,
+          17.320033020066003,
+          2.050050799849
+        ]
+      ],
+      "volume_mm3": 0.5732351423923472,
+      "step_file": "R1.step",
+      "step_sha256": "aaa4591c8d318d7b306180f46ab7e274f1acd676bdb2cd99d9f43161ab990efe",
+      "roundtrip_max_bbox_error_mm": 0.0,
+      "stl_file": "R1.stl",
+      "stl_sha256": "90c6e85ce7a0e1e4fb4bfb5d0d915c9c25ff0a0704ae69819e7aa46f9168437b",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "R2",
+      "source_instance_label": "R2",
+      "source_definition_label": "R2~R0603~R0603~dyic",
+      "metadata_model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "R0603",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          17.521035056853
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          7.747015494031
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.610050799849
+        ]
+      ],
+      "solids": 4,
+      "valid": true,
+      "bounds_mm": [
+        [
+          17.121035056853998,
+          6.937015494031,
+          1.6000507998499998
+        ],
+        [
+          17.931035156853,
+          8.557015494031,
+          2.050050799849
+        ]
+      ],
+      "volume_mm3": 0.5732351423923463,
+      "step_file": "R2.step",
+      "step_sha256": "77a7b3afd8d7a59fd2cb23824f6e07f549a73a2548027c37fe1b8dcad4183748",
+      "roundtrip_max_bbox_error_mm": 0.0,
+      "stl_file": "R2.stl",
+      "stl_sha256": "341b2e15e98ef839526af99662ffd496a953e164e2a1e314abf67f62fca8bd30",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "R3",
+      "source_instance_label": "R3",
+      "source_definition_label": "R3~R0603~R0603~xe3C",
+      "metadata_model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "R0603",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          9.911019807257
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          11.811023622047
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.610050799849
+        ]
+      ],
+      "solids": 4,
+      "valid": true,
+      "bounds_mm": [
+        [
+          9.501019707257,
+          11.001023622046999,
+          1.6000507998499998
+        ],
+        [
+          10.311019807256,
+          12.621023622047,
+          2.050050799849
+        ]
+      ],
+      "volume_mm3": 0.573235142392347,
+      "step_file": "R3.step",
+      "step_sha256": "23a534e71034866a6518a18558c8318967542889476fa8ed5c2c61071f381f7c",
+      "roundtrip_max_bbox_error_mm": 0.0,
+      "stl_file": "R3.stl",
+      "stl_sha256": "4fed1bbaad1a29f9e0bc2eef37032b4ebf7c5d4e7ac1dae9dbe5b0cc6c8f4ba2",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "R4",
+      "source_instance_label": "R4",
+      "source_definition_label": "R4~R0603~R0603~Sdwo",
+      "metadata_model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "R0603",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          21.717043434087
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          12.949025912835
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.610050799849
+        ]
+      ],
+      "solids": 4,
+      "valid": true,
+      "bounds_mm": [
+        [
+          20.907043434086997,
+          12.549025912835999,
+          1.6000507998499998
+        ],
+        [
+          22.527043434087002,
+          13.359026012834999,
+          2.050050799849
+        ]
+      ],
+      "volume_mm3": 0.5732351423923472,
+      "step_file": "R4.step",
+      "step_sha256": "8d6de7048dfacfd7db29c4cfa5953ed0a7b2d5e0be3a79ee1db29afeb5971e0f",
+      "roundtrip_max_bbox_error_mm": 0.0,
+      "stl_file": "R4.stl",
+      "stl_sha256": "ac3c34261473ffa680ac4ca0101e419d6d3775fbf4f882ccc7104418aaadd5ac",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "R5",
+      "source_instance_label": "R5",
+      "source_definition_label": "R5~R0603~R0603~egl2",
+      "metadata_model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "R0603",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          28.829057658115
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          8.758017530818
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.610050799849
+        ]
+      ],
+      "solids": 4,
+      "valid": true,
+      "bounds_mm": [
+        [
+          28.019057658115,
+          8.358017530819,
+          1.6000507998499998
+        ],
+        [
+          29.639057658115004,
+          9.168017630818,
+          2.050050799849
+        ]
+      ],
+      "volume_mm3": 0.573235142392347,
+      "step_file": "R5.step",
+      "step_sha256": "a97073caa4574d7063fd375ba885bfcf54f9a09f1a35d395165dc079f003b5a5",
+      "roundtrip_max_bbox_error_mm": 0.0,
+      "stl_file": "R5.stl",
+      "stl_sha256": "8dee18488c4c8f5bfc1aebd4d2950ce5b98db2d4497c372dec78bdc1ecec9562",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "R6",
+      "source_instance_label": "R6",
+      "source_definition_label": "R6~R0603~R0603~5EQo",
+      "metadata_model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "R0603",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          28.873075946152
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.843023871265
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.610050799849
+        ]
+      ],
+      "solids": 4,
+      "valid": true,
+      "bounds_mm": [
+        [
+          28.063075946151997,
+          6.433023771265,
+          1.6000507998499998
+        ],
+        [
+          29.683075946152,
+          7.2430238712640005,
+          2.050050799849
+        ]
+      ],
+      "volume_mm3": 0.5732351423923461,
+      "step_file": "R6.step",
+      "step_sha256": "6bf74cdb03b84af4b5f4976c5ba45b2e1744cb9c6ae9b595ea1c01d2e96d38a9",
+      "roundtrip_max_bbox_error_mm": 0.0,
+      "stl_file": "R6.stl",
+      "stl_sha256": "2de28b2a329dda0d7af876900d90a7853087d67e365b90e0b46486907d5190a9",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "R7",
+      "source_instance_label": "R7",
+      "source_definition_label": "R7~R0603~R0603~Eand",
+      "metadata_model_id": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "R0603",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          10.546021077259
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          7.49301498603
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.610050799849
+        ]
+      ],
+      "solids": 4,
+      "valid": true,
+      "bounds_mm": [
+        [
+          10.136020977259001,
+          6.683014986030001,
+          1.6000507998499998
+        ],
+        [
+          10.946021077258,
+          8.30301498603,
+          2.050050799849
+        ]
+      ],
+      "volume_mm3": 0.5732351423923467,
+      "step_file": "R7.step",
+      "step_sha256": "5ffdffa2237a7e2d7a73b8232eaeb576b4326d560e14c5d6742324ac74b6fcf7",
+      "roundtrip_max_bbox_error_mm": 0.0,
+      "stl_file": "R7.stl",
+      "stl_sha256": "4ca515bc042814c3e729505b637294c1bf361d57cd0beeb7299ba3ad94a99ff2",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "U1",
+      "source_instance_label": "U1",
+      "source_definition_label": "U1~TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL~TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65~Ur8N",
+      "metadata_model_id": "c491f68934b34c649df5890a1d97cd0f|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          15.228562357125
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          13.879070358141
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.619239146602
+        ]
+      ],
+      "solids": 34,
+      "valid": true,
+      "bounds_mm": [
+        [
+          11.981389757125001,
+          10.679042188412001,
+          1.600050857678
+        ],
+        [
+          18.475734957124,
+          17.07909852787,
+          2.6493422766009997
+        ]
+      ],
+      "volume_mm3": 27.556250333547823,
+      "step_file": "U1.step",
+      "step_sha256": "55cde2a7018a2502637a88f5f5db5bcc887d114032298203d041bcce11c7cedc",
+      "roundtrip_max_bbox_error_mm": 0.0,
+      "stl_file": "U1.stl",
+      "stl_sha256": "bb8a4eef9f00e163fd4b8964c5d75a82b03a8c487d464b3eafb3a6be442d3759",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "U2",
+      "source_instance_label": "U2",
+      "source_definition_label": "U2~LGA-14_L3.0-W2.5-P0.50-BR~LGA-14_L3.0-W2.5-P0.50-BR~BUMi",
+      "metadata_model_id": "64f32784a16f466f897e9e56b6bbdf45|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "LGA-14_L3.0-W2.5-P0.50-BR",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          27.432029464059
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          16.510134620269
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.810050793545
+        ]
+      ],
+      "solids": 2,
+      "valid": true,
+      "bounds_mm": [
+        [
+          25.932029364058998,
+          15.260134520268998,
+          1.6000507935450001
+        ],
+        [
+          28.932029564059,
+          17.760134720268,
+          2.471050893545
+        ]
+      ],
+      "volume_mm3": 6.466518731754195,
+      "step_file": "U2.step",
+      "step_sha256": "7ec20c417caf53dd05f8852499611b27fc8a5f2f0aa941c1f202b086e77d743b",
+      "roundtrip_max_bbox_error_mm": 0.0,
+      "stl_file": "U2.stl",
+      "stl_sha256": "a5844a0c8856d3dbc3321296d35d951c6b1c6ded9236d82d6b405de8dde0cb8e",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "U3",
+      "source_instance_label": "U3",
+      "source_definition_label": "U3~VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BR~VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL~7tsc",
+      "metadata_model_id": "c85411b4a3544d83a02d075c4dadd21f|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          22.352044704089
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          10.541021082042
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.135050826328
+        ]
+      ],
+      "solids": 14,
+      "valid": true,
+      "bounds_mm": [
+        [
+          20.802044704089,
+          9.541021082042,
+          1.6000508263279998
+        ],
+        [
+          23.902044704089,
+          11.541021082041372,
+          2.4510509263279996
+        ]
+      ],
+      "volume_mm3": 3.669404911118505,
+      "step_file": "U3.step",
+      "step_sha256": "0ab39aa60ce4e379f9b627e26ec053decac09d4efc208db3bb78656f6c82d8bf",
+      "roundtrip_max_bbox_error_mm": 3.375077994860476e-14,
+      "stl_file": "U3.stl",
+      "stl_sha256": "3138f52b2322294180d32401a85d0f381af07db8214bb2a9ef8f12961b32fdb9",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "U4",
+      "source_instance_label": "U4",
+      "source_definition_label": "U4~SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR~SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50~ptpz",
+      "metadata_model_id": "6db690b7897d4d18a30d90c1b89525ee|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          37.316485857506
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          18.301498602997
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.600050800102
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          35.101485857507,
+          16.151498502996997,
+          1.600050800102
+        ],
+        [
+          39.201485857506,
+          20.451498702996002,
+          3.110050800102
+        ]
+      ],
+      "volume_mm3": 15.855070790939427,
+      "step_file": "U4.step",
+      "step_sha256": "7e4cc2f1e8020f3366ddfc25c89174585859aafae19983173c048d576431f1ac",
+      "roundtrip_max_bbox_error_mm": 0.0,
+      "stl_file": "U4.stl",
+      "stl_sha256": "25f32ae79683645daee0b6035e8f8076c1955184ba55da9ed5474269f7627bce",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    },
+    {
+      "reference": "X1",
+      "source_instance_label": "X1",
+      "source_definition_label": "X1~OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI~OSC-SMD_4P-L3.2-W2.5-H1.0~gTE2",
+      "metadata_model_id": "ae22b8d143894765bc8100c37cb6356f|0819f05c4eef4c71ace90d822a990e87",
+      "metadata_model_title": "OSC-SMD_4P-L3.2-W2.5-H1.0",
+      "identity_basis": "exact reference-name product/usage instance plus matching metadata model title; no geometry matching",
+      "model_uuid_embedded_in_step": false,
+      "coordinate_frame": "whole author PCB STEP world frame in millimetres; source instance and nested assembly transforms already applied by XCAF GetShape",
+      "instance_location_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.223012446025
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          11.557023114046
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.610050799729
+        ]
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds_mm": [
+        [
+          4.623012346024999,
+          10.307023014047001,
+          1.6000507997289999
+        ],
+        [
+          7.823012546025001,
+          12.807023214046,
+          2.4110508997289997
+        ]
+      ],
+      "volume_mm3": 6.007129110182675,
+      "step_file": "X1.step",
+      "step_sha256": "c18366c84158d0136f9e3d8fb043609ce75cfa09427df6ab5b8fffbe9bc61785",
+      "roundtrip_max_bbox_error_mm": 8.881784197001252e-16,
+      "stl_file": "X1.stl",
+      "stl_sha256": "04c181243dcd2f2bedd272d86efd1127e077e85464e7610766738e7a8eb5a150",
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; stored numeric coordinates are millimetres"
+    }
+  ],
+  "coordinates": "millimetres in whole author PCB STEP world frame; these are placed component snapshots, not unplaced package models",
+  "new_parametric_history_recovered": false,
+  "kicad_placement_qualified": false,
+  "manufacturing_ready": false
+}

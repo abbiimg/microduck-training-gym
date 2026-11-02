@@ -1,0 +1,233 @@
+(footprint "KEY-TH_CPG135001D0X"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.05 0)
+		(layer "F.SilkS")
+		(uuid "b3854e59-bc7f-474c-9902-40e5e8611c4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KEY-TH_CPG135001D0X"
+		(at 0 5.05 0)
+		(layer "F.Fab")
+		(uuid "d1666a07-5d6d-49c8-9e88-95403c2e8a27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3e7d233-09e0-4ce2-892b-3fe10a1cfadc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fccd2e8c-8f5f-4ddc-a3b3-3bf6d48973ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10 -2.65)
+		(end 5 -2.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "891e18b2-91fa-4197-b542-d6dd0e7b471d")
+	)
+	(fp_line
+		(start -10 12.35)
+		(end -10 -2.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6290ba93-fbb1-4c60-8ff5-e62c56cac4c5")
+	)
+	(fp_line
+		(start -10 12.35)
+		(end 5 12.35)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b5a5fd6-4765-4cab-93dd-ce3bd27ff7ed")
+	)
+	(fp_line
+		(start 5 12.35)
+		(end 5 -2.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a94b7547-7cd8-4e9e-8394-5a4dca2b5d82")
+	)
+	(fp_circle
+		(center -8 4.85)
+		(end -7.55 4.85)
+		(stroke
+			(width 0.9)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "ca0e5ada-e1ec-4d13-94df-99a8e0f10c84")
+	)
+	(fp_circle
+		(center -2.5 4.85)
+		(end -1.7 4.85)
+		(stroke
+			(width 1.6)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "5c8b8b55-5bdd-44d8-8c11-f1d4fe973a8a")
+	)
+	(fp_circle
+		(center 3 4.85)
+		(end 3.45 4.85)
+		(stroke
+			(width 0.9)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "5a68a09a-69bb-4bc9-a29b-89721a9d17b8")
+	)
+	(fp_rect
+		(start -9.5 -2.1)
+		(end 4.5 11.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "58447a60-efe0-4dd6-97e4-d31f32427646")
+	)
+	(fp_circle
+		(center -10 -2.65)
+		(end -9.97 -2.65)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2d6bb9b4-c328-4f07-9e52-49fae4a562f3")
+	)
+	(fp_circle
+		(center -2.5 -1.05)
+		(end -2.3 -1.05)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b202fe3a-4363-4080-8007-7cf2324b8760")
+	)
+	(fp_circle
+		(center 2.5 1.05)
+		(end 2.7 1.05)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "01f0defe-c6bb-4204-8848-a2a7a6080c52")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fca8e0a4-daab-45c1-8f03-d1f1f5c70691")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -8 4.85)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f70c2d53-6ef2-4569-86a4-e839402c5bcd")
+	)
+	(pad "" thru_hole circle
+		(at -2.5 4.85)
+		(size 3.5 3.5)
+		(drill 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d298ea8-92f4-41c8-9cac-6723f4b25dec")
+	)
+	(pad "" thru_hole circle
+		(at 3 4.85)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b21dedb-bc3f-4a3d-ad86-c2745f8ac3b7")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 -1.05 90)
+		(size 1.8 1.8)
+		(drill 1.199998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d60ff070-d1d0-4280-9b83-457185855913")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 1.05 90)
+		(size 1.8 1.8)
+		(drill 1.199998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e4bec679-a472-4320-83f3-22509c0d17c4")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_LIB}/LCSC_parts/easyeda2kicad.3dshapes/KEY-TH_CPG135001D0X.step"
+		(offset
+			(xyz -2.5 -4.85 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

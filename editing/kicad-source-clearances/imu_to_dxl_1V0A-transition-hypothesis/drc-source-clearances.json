@@ -1,0 +1,451 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-26T22:17:29",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "imu_to_dxl_1V0A.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Board edge clearance violation (rule 'Source edge envelope zone_6_7' clearance 0.2997 mm; actual 0.2937 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 12.575,
+                        "y": -0.598
+                    },
+                    "uuid": "5c04423d-f05b-4805-b232-85c2e314d443"
+                },
+                {
+                    "description": "Zone 'Static union /GND F.Cu 3' [/GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 37.514687,
+                        "y": -29.528252
+                    },
+                    "uuid": "4da7d5ec-59b5-4026-920b-07dd9b801f18"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Source SAFE F.Cu track to zone_6_7' clearance 0.2540 mm; actual 0.2381 mm)",
+            "items": [
+                {
+                    "description": "Track [/IMU_INT1] on F.Cu, length 1.0908 mm",
+                    "pos": {
+                        "x": 22.802959,
+                        "y": -14.471137
+                    },
+                    "uuid": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31"
+                },
+                {
+                    "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.245576,
+                        "y": -16.046637
+                    },
+                    "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Source SAFE F.Cu track to zone_6_7' clearance 0.2540 mm; actual 0.2283 mm)",
+            "items": [
+                {
+                    "description": "Track [/IMU_INT1] on F.Cu, length 0.7452 mm",
+                    "pos": {
+                        "x": 22.275998,
+                        "y": -14.998098
+                    },
+                    "uuid": "6788717c-8f61-43c3-8126-d2056f6f6e4a"
+                },
+                {
+                    "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.245576,
+                        "y": -16.046637
+                    },
+                    "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Source SAFE F.Cu track to zone_6_7' clearance 0.2540 mm; actual 0.2379 mm)",
+            "items": [
+                {
+                    "description": "Track [/3.3V] on F.Cu, length 0.6594 mm",
+                    "pos": {
+                        "x": 24.563962,
+                        "y": -14.301313
+                    },
+                    "uuid": "cc942bdd-2ce3-4c25-860c-24a0f7568869"
+                },
+                {
+                    "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.245576,
+                        "y": -16.046637
+                    },
+                    "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Source SAFE F.Cu track to zone_6_7' clearance 0.2540 mm; actual 0.2532 mm)",
+            "items": [
+                {
+                    "description": "Track [/3.3V] on F.Cu, length 0.8486 mm",
+                    "pos": {
+                        "x": 24.563962,
+                        "y": -13.641962
+                    },
+                    "uuid": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017"
+                },
+                {
+                    "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.245576,
+                        "y": -16.046637
+                    },
+                    "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Source SAFE F.Cu smd to zone_6_7' clearance 0.2540 mm; actual 0.2301 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [/SPI_MISO] of U2 on F.Cu",
+                    "pos": {
+                        "x": 23.893757,
+                        "y": -15.971261
+                    },
+                    "uuid": "acbe5f2e-24e4-4eee-b902-6a4f748b906f"
+                },
+                {
+                    "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.245576,
+                        "y": -16.046637
+                    },
+                    "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Source SAFE F.Cu smd to zone_6_7' clearance 0.2540 mm; actual 0.2301 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [/IMU_INT1] of U2 on F.Cu",
+                    "pos": {
+                        "x": 23.893757,
+                        "y": -14.471137
+                    },
+                    "uuid": "818a3597-99aa-493d-bb12-495e287c3626"
+                },
+                {
+                    "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.245576,
+                        "y": -16.046637
+                    },
+                    "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Source SAFE F.Cu smd to zone_6_7' clearance 0.2540 mm; actual 0.2299 mm)",
+            "items": [
+                {
+                    "description": "Pad 5 [/3.3V] of U2 on F.Cu",
+                    "pos": {
+                        "x": 24.563962,
+                        "y": -14.301313
+                    },
+                    "uuid": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591"
+                },
+                {
+                    "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.245576,
+                        "y": -16.046637
+                    },
+                    "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Source SAFE F.Cu smd to zone_6_7' clearance 0.2540 mm; actual 0.2201 mm)",
+            "items": [
+                {
+                    "description": "Pad 3 [/MCU_RX] of U3 on F.Cu",
+                    "pos": {
+                        "x": 15.996412,
+                        "y": -16.006064
+                    },
+                    "uuid": "ecac1539-f6a7-4d28-a9d2-62928a41b2ad"
+                },
+                {
+                    "description": "Zone 'Static union /GND F.Cu 3' [/GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 37.514687,
+                        "y": -29.528252
+                    },
+                    "uuid": "4da7d5ec-59b5-4026-920b-07dd9b801f18"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Static union /3.3V F.Cu 10' [/3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 20.030884,
+                        "y": -16.874998
+                    },
+                    "uuid": "0cfe0194-69d9-43c3-b9e0-a53784700cab"
+                },
+                {
+                    "description": "Zone 'Static union /3.3V F.Cu 8' [/3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 20.531607,
+                        "y": -17.366147
+                    },
+                    "uuid": "f34427db-35a5-4cdf-9a20-e7d11fffaffe"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Static union /3.3V F.Cu 1' [/3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 24.091636,
+                        "y": -12.811711
+                    },
+                    "uuid": "1b3c8ba8-d2aa-4650-9353-8f808b3ac854"
+                },
+                {
+                    "description": "Zone 'Static union /3.3V F.Cu 0' [/3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.713884,
+                        "y": -11.921998
+                    },
+                    "uuid": "22f48912-1140-4b48-b945-074fb953e992"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Static union /DE F.Cu 1' [/DE] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 16.800581,
+                        "y": -20.150819
+                    },
+                    "uuid": "a466668e-70aa-4aec-adaf-dc4f803ab2a8"
+                },
+                {
+                    "description": "Zone 'Static union /DE F.Cu 0' [/DE] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 16.75982,
+                        "y": -19.584303
+                    },
+                    "uuid": "d6a20e3c-6bbc-416c-95c4-38ea8603c536"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Static union /DXL_DATA F.Cu 1' [/DXL_DATA] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 20.488911,
+                        "y": -14.444807
+                    },
+                    "uuid": "7496d755-f8d8-4264-9dc4-db97e18030f6"
+                },
+                {
+                    "description": "Zone 'Static union /DXL_DATA F.Cu 2' [/DXL_DATA] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 19.985355,
+                        "y": -14.461998
+                    },
+                    "uuid": "76952397-ad16-4a7e-bb5a-97e365e16f97"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Clearance violation (rule 'Source SAFE F.Cu zone_6 to zone_6_7' clearance 0.2540 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Zone 'Static union /GND F.Cu 3' [/GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 37.514687,
+                        "y": -29.528252
+                    },
+                    "uuid": "4da7d5ec-59b5-4026-920b-07dd9b801f18"
+                },
+                {
+                    "description": "Zone 'Static union /VDD_BUS F.Cu 0' [/VDD_BUS] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 35.001606,
+                        "y": -7.162394
+                    },
+                    "uuid": "f25433ce-79fc-47e8-bc62-1296099a0093"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Source SAFE F.Cu zone_6 to zone_6_7' clearance 0.2540 mm; actual 0.0026 mm)",
+            "items": [
+                {
+                    "description": "Zone 'Static union /GND F.Cu 0' [/GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 28.765007,
+                        "y": -8.632971
+                    },
+                    "uuid": "2d4fee55-91cc-4866-b8af-a7b7801110ed"
+                },
+                {
+                    "description": "Zone 'Static union /VDD_BUS F.Cu 0' [/VDD_BUS] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 35.001606,
+                        "y": -7.162394
+                    },
+                    "uuid": "f25433ce-79fc-47e8-bc62-1296099a0093"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+            "items": [
+                {
+                    "description": "Zone 'Static union /3.3V F.Cu 19' [/3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 32.024925,
+                        "y": -22.617841
+                    },
+                    "uuid": "138270fd-f9ea-4da4-9f47-db8341d16cda"
+                },
+                {
+                    "description": "Zone 'Static union /3.3V F.Cu 14' [/3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 32.804662,
+                        "y": -22.595337
+                    },
+                    "uuid": "b41c17fd-0ba5-4cb7-8650-3e35141cadb2"
+                }
+            ],
+            "severity": "error",
+            "type": "zones_intersect"
+        },
+        {
+            "description": "Clearance violation (rule 'Source SAFE F.Cu zone_6 to zone_6_7' clearance 0.2540 mm; actual 0.2461 mm)",
+            "items": [
+                {
+                    "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.245576,
+                        "y": -16.046637
+                    },
+                    "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+                },
+                {
+                    "description": "Zone 'Static union /IMU_INT1 F.Cu 0' [/IMU_INT1] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.593758,
+                        "y": -14.336136
+                    },
+                    "uuid": "f7f920e5-466d-48f1-abcf-d1e0434600c1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Source SAFE F.Cu zone_6 to zone_6_7' clearance 0.2540 mm; actual 0.2299 mm)",
+            "items": [
+                {
+                    "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 23.245576,
+                        "y": -16.046637
+                    },
+                    "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+                },
+                {
+                    "description": "Zone 'Static union /3.3V F.Cu 3' [/3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 24.695462,
+                        "y": -13.911514
+                    },
+                    "uuid": "8c78fc83-b2ae-4875-9d7b-937fa7a8242e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        }
+    ]
+}

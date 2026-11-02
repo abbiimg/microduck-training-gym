@@ -1,0 +1,292 @@
+[
+  {
+    "reference": "C1",
+    "value": "100nF",
+    "manufacturer_part": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "device_library_part": "CC0603KRX7R9BB104",
+    "device_library_description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "C2",
+    "value": "100nF",
+    "manufacturer_part": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "device_library_part": "CC0603KRX7R9BB104",
+    "device_library_description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "C3",
+    "value": "100nF",
+    "manufacturer_part": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "device_library_part": "CC0603KRX7R9BB104",
+    "device_library_description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "C4",
+    "value": "100nF",
+    "manufacturer_part": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "device_library_part": "CC0603KRX7R9BB104",
+    "device_library_description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "C5",
+    "value": "4.7uF/16V",
+    "manufacturer_part": "CL10A475KO8NNNC",
+    "supplier_part": "C19666",
+    "device_library_part": "CL10A475KO8NNNC",
+    "device_library_description": "容值:4.7uF;精度:±10%;额定电压:16V;温度系数:X5R;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "C6",
+    "value": "10uF/25V",
+    "manufacturer_part": "CL21A106KAYNNNE",
+    "supplier_part": "C15850",
+    "device_library_part": "CL21A106KAYNNNE",
+    "device_library_description": "容值:10uF;精度:±10%;额定电压:25V;温度系数:X5R;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "C7",
+    "value": "10uF/10V",
+    "manufacturer_part": "CL10A106KP8NNNC",
+    "supplier_part": "C19702",
+    "device_library_part": "CL10A106KP8NNNC",
+    "device_library_description": "容值:10uF;精度:±10%;额定电压:10V;温度系数:X5R;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "C8",
+    "value": "100nF",
+    "manufacturer_part": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "device_library_part": "CC0603KRX7R9BB104",
+    "device_library_description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "C9",
+    "value": "100nF",
+    "manufacturer_part": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "device_library_part": "CC0603KRX7R9BB104",
+    "device_library_description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "D1",
+    "value": null,
+    "manufacturer_part": "SMF12A",
+    "supplier_part": "C2943870",
+    "device_library_part": "SMF12A",
+    "device_library_description": "极性:单向;反向截止电压(Vrwm):12V;钳位电压:19.9V;峰值脉冲电流(Ipp):10.1A;峰值脉冲功率(Ppp):200W;击穿电压(VBR):13.3V;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "D2",
+    "value": "5V1",
+    "manufacturer_part": "BZT52C5V1-7-F",
+    "supplier_part": "C151588",
+    "device_library_part": "BZT52C5V1-7-F",
+    "device_library_description": "二极管配置:1个独立式;稳压值(标称值):5.1V;稳压值(范围值):4.8V~5.4V;耗散功率(Pd):370mW;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "F1",
+    "value": null,
+    "manufacturer_part": "MF-NSMF020X-2",
+    "supplier_part": "C210358",
+    "device_library_part": "MF-NSMF020X-2",
+    "device_library_description": "耐压(Vmax):30V;最大电流(Imax):60A;保持电流(Ihold):200mA;跳闸电流(Itrip):400mA;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "J1",
+    "value": null,
+    "manufacturer_part": "B3B-EH-A(LF)(SN)",
+    "supplier_part": "C160259",
+    "device_library_part": "B3B-EH-A(LF)(SN)",
+    "device_library_description": "插针结构:1x3P;间距:2.5mm;安装方式:直插;参考系列:EH;总PIN数:3P;排数:1;每排PIN数:3;行距:-;额定电流:3A;触头材质:黄铜;触头镀层:锡;工作温度:-25℃~+85℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "J2",
+    "value": null,
+    "manufacturer_part": "B3B-EH-A(LF)(SN)",
+    "supplier_part": "C160259",
+    "device_library_part": "B3B-EH-A(LF)(SN)",
+    "device_library_description": "插针结构:1x3P;间距:2.5mm;安装方式:直插;参考系列:EH;总PIN数:3P;排数:1;每排PIN数:3;行距:-;额定电流:3A;触头材质:黄铜;触头镀层:锡;工作温度:-25℃~+85℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "J3",
+    "value": null,
+    "manufacturer_part": "PZ254V-11-06P",
+    "supplier_part": "C492405",
+    "device_library_part": "PZ254V-11-06P",
+    "device_library_description": "插针结构:1x6P;间距:2.54mm;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:6P;额定电流:3A;额定电压:250V;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:-;工作温度:-40℃~+105℃;颜色:黑色;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "J4",
+    "value": null,
+    "manufacturer_part": "B3B-PH-K-S(LF)(SN)",
+    "supplier_part": "C131339",
+    "device_library_part": "B3B-PH-K-S(LF)(SN)",
+    "device_library_description": "插针结构:1x3P;间距:2mm;安装方式:直插;参考系列:PH;总PIN数:3P;排数:1;每排PIN数:3;行距:-;额定电流:2A;触头材质:黄铜;触头镀层:锡;工作温度:-25℃~+85℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "J5",
+    "value": null,
+    "manufacturer_part": "B3B-PH-K-S(LF)(SN)",
+    "supplier_part": "C131339",
+    "device_library_part": "B3B-PH-K-S(LF)(SN)",
+    "device_library_description": "插针结构:1x3P;间距:2mm;安装方式:直插;参考系列:PH;总PIN数:3P;排数:1;每排PIN数:3;行距:-;额定电流:2A;触头材质:黄铜;触头镀层:锡;工作温度:-25℃~+85℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "R1",
+    "value": "10k",
+    "manufacturer_part": "0603WAF1002T5E",
+    "supplier_part": "C25804",
+    "device_library_part": "0603WAF1002T5E",
+    "device_library_description": "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "R2",
+    "value": "10k",
+    "manufacturer_part": "0603WAF1002T5E",
+    "supplier_part": "C25804",
+    "device_library_part": "0603WAF1002T5E",
+    "device_library_description": "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "R3",
+    "value": "33R",
+    "manufacturer_part": "0603WAF330JT5E",
+    "supplier_part": "C23140",
+    "device_library_part": "0603WAF330JT5E",
+    "device_library_description": "电阻类型:厚膜电阻;阻值:33Ω;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "R4",
+    "value": "10k",
+    "manufacturer_part": "0603WAF1002T5E",
+    "supplier_part": "C25804",
+    "device_library_part": "0603WAF1002T5E",
+    "device_library_description": "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "R5",
+    "value": "10k",
+    "manufacturer_part": "0603WAF1002T5E",
+    "supplier_part": "C25804",
+    "device_library_part": "0603WAF1002T5E",
+    "device_library_description": "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "R6",
+    "value": "150R",
+    "manufacturer_part": "0603WAF1500T5E",
+    "supplier_part": "C22808",
+    "device_library_part": "0603WAF1500T5E",
+    "device_library_description": "电阻类型:厚膜电阻;阻值:150Ω;精度:±1%;功率:100mW;最大工作电压:75V;温度系数:±100ppm/℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "R7",
+    "value": "10k",
+    "manufacturer_part": "0603WAF1002T5E",
+    "supplier_part": "C25804",
+    "device_library_part": "0603WAF1002T5E",
+    "device_library_description": "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "U1",
+    "value": null,
+    "manufacturer_part": "STM32G031F8P6",
+    "supplier_part": "C529334",
+    "device_library_part": "STM32G031F8P6",
+    "device_library_description": "CPU内核:ARM Cortex-M0+;CPU最大主频:64MHz;CPU位数:32 Bit;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "U2",
+    "value": null,
+    "manufacturer_part": "LSM6DSV16XTR",
+    "supplier_part": "C5267406",
+    "device_library_part": "LSM6DSV16XTR",
+    "device_library_description": "传感器类型:IMU(加速度计+陀螺仪);接口类型:I2C；SPI;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "U3",
+    "value": null,
+    "manufacturer_part": "SN74LVC2G241DCUR",
+    "supplier_part": "C10430",
+    "device_library_part": "SN74LVC2G241DCUR",
+    "device_library_description": "输入类型:-;工作电压:1.65V~5.5V;元件数:2;每个元件位数:1;灌电流(IOL):32mA;拉电流(IOH):32mA;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "U4",
+    "value": null,
+    "manufacturer_part": "HT7533-1",
+    "supplier_part": "C14289",
+    "device_library_part": "HT7533-1",
+    "device_library_description": "输出类型:固定;工作电压:30V;输出电压:3.3V;输出电流:100mA;电源纹波抑制比(PSRR):-;输出极性:正极;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "X1",
+    "value": "16MHz",
+    "manufacturer_part": "S3D16.000000B20F30T",
+    "supplier_part": "C387369",
+    "device_library_part": "S3D16.000000B20F30T",
+    "device_library_description": "频率:16MHz;常温频差:±20ppm;输出模式:CMOS;工作电压:3.3V;供电电流:10mA;频率稳定度:±30ppm;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  }
+]

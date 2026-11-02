@@ -1,0 +1,1 @@
+Partial source-rule projection engineering copy. Read ../../../COPPER-CONSOLIDATION.txt and source-minima-audit.json. Copper is unchanged from consolidated parent. Only track/via/through-hole minima are projected from installed-decoder evidence. All other source-rule semantics and manufacturing qualification remain open. Never refill static copper.

@@ -1,0 +1,30 @@
+[
+  {
+    "reference": "F0",
+    "x": 20,
+    "y": 20,
+    "angle": 0,
+    "bottom": false
+  },
+  {
+    "reference": "F37",
+    "x": 50,
+    "y": 20,
+    "angle": 37,
+    "bottom": false
+  },
+  {
+    "reference": "B0",
+    "x": 20,
+    "y": 60,
+    "angle": 0,
+    "bottom": true
+  },
+  {
+    "reference": "B53",
+    "x": 70,
+    "y": 60,
+    "angle": 53,
+    "bottom": true
+  }
+]

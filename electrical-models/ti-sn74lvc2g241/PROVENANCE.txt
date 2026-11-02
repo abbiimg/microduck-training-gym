@@ -1,0 +1,41 @@
+TI SN74LVC2G241 model, downloaded 2026-10-26
+
+Subsequent bounded review: audit/buffer-package-review.txt and
+audit/pcb-tools/ti-buffer-package/results.json qualify the logical/physical port
+mapping against source/native U3 nets. An authored SN74LVC2G241_DCU_review.lib
+uses two unchanged stages and explicitly ideal TX-enable inversion. Twelve DC
+cases/22 voltage checks pass with CPU/bus voltage mocks at fixed 3.3V, enables
+within 0..VCC. This supersedes the unreviewed-mapping status below only for that
+functional slice. Physical enable timing/capacitance/package power, power-off,
+back-drive and whole-board qualification remain false. Earlier transient checks
+also pass; neither addition changes TI's original file/notices or its license.
+Source: https://www.ti.com/lit/zip/scem614
+Product: https://www.ti.com/product/SN74LVC2G241
+Datasheet: https://www.ti.com/lit/ds/symlink/sn74lvc2g241.pdf
+Original archive and extracted .cir preserved. TI notices remain in the model;
+these files do not inherit the robot repositories' open-source licenses.
+Extracted model SHA256:
+a6e6bd3e0b2656e797fe4a7bfd5b58cbb474d71f065b94698d4d02de91fb3d63
+
+Model header: Rev 2.0, generated from datasheet values; typical behavior at 25C,
+tested by TI with TINA-TI 9.3.100.244. Not manufacturer-tested for ngspice.
+We ran ngspice 42 with PSpice compatibility (-D ngbehavior=ps).
+
+IMPORTANT: .SUBCKT has five logical terminals: Y A OEZ VCC AGND.
+It is ONE active-high-enable channel, despite the ambiguous OEZ terminal label.
+Physical SN74LVC2G241 has EIGHT pins and TWO channels:
+1=1OE active low, 2=1A, 3=2Y, 4=GND, 5=2A, 6=1Y, 7=2OE active high, 8=VCC.
+The provided model is not an eight-pin drop-in package model. A second-channel
+wrapper would need reviewed enable inversion and timing behavior. Neither the
+full-package mapping nor the actual PCB mapping has been qualified.
+
+Checks: four DC cases at 3.3V with 10kohm loads and ngspice default 27C passed:
+driving low, driving high, disabled with pullup, disabled with pulldown.
+An initial active-low-enable assumption failed all four cases; those results
+are preserved in audit/pcb-tools/ti-buffer-initial-polarity-assumption/.
+Corrected scope and results: audit/pcb-tools/ti-buffer/results.json.
+Runner: tools/test_ti_bus_buffer.py
+
+No claim of complete device coverage: no transient propagation, contention,
+power-off, load extremes, tolerance/temperature corners, ESD or physical board
+validation. This model is not yet connected to the MicroDuck PCB netlist.

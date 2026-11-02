@@ -1,0 +1,134 @@
+SN74LVC2G241 package/model-to-board review — 2026-10-26
+
+Result
+The DCU eight-pin assignment and recovered revised-IMU U3 net mapping are
+evidence-backed. The supplied TI model remains a five-port, one-channel model.
+This review closes uncertainty about the port-assignment contract; it does not
+qualify an eight-pin analog package model or whole-board simulation. No source
+files, board files, firmware, models or shared tests were changed by this audit.
+
+Primary reference
+TI SN74LVC2G241 datasheet SCES210P, January 2019, page 3 Pin Functions and page 8
+functional tables:
+https://www.ti.com/lit/ds/symlink/sn74lvc2g241.pdf
+The DCU package is the eight-pin VSSOP. Channel 1 enables low; channel 2 enables
+high. Each enabled output follows its data input, and disabled outputs float.
+
+Physical U3 contract for imu_to_dxl_1V0A
+Pin   Function       Source PCB/schematic net   Role
+1     1OE active-low DE                        transmit enable, active LOW
+2     1A             MCU_TX                    transmit data from MCU
+3     2Y             MCU_RX                    receive data to MCU
+4     GND            GND                       common return
+5     2A             DXL_DATA                  receive input from local bus node
+6     1Y             DXL_DATA                  transmit output onto same bus node
+7     2OE active-high RX_EN                    receive enable, active HIGH
+8     VCC            3.3V                      logic supply
+
+Local evidence:
+editing/recovered-community/imu_to_dxl_1V0A/pinmap-0.json: U3 direct pin nets.
+effective-bom.json: U3 manufacturer part SN74LVC2G241DCUR, supplier C10430.
+Do not use resolved_nets to collapse DXL_DATA with DXL_BUS: placed R6 is 0R but
+is still an explicit physical boundary/component.
+
+Vendor model interpretation
+electrical-models/ti-sn74lvc2g241/SN74LVC2G241.cir
+SHA256 a6e6bd3e0b2656e797fe4a7bfd5b58cbb474d71f065b94698d4d02de91fb3d63
+Source archive: https://www.ti.com/lit/zip/scem614
+.SUBCKT SN74LVC2G241 has terminals Y A OEZ VCC AGND.
+Top-level XU1 ties the second AND data input to VCC. LOGIC_INPUT processes OEZ
+to a normalized enable; LOGIC_TRI_STATE_OUTPUT gates output conductance with
+that enable. OEZ HIGH therefore enables the model despite its ambiguous label.
+Existing four DC cases and two transient cases/five samples establish this in
+ngspice at the tested supply/load. TI's original notices and model stay intact.
+
+Exact direct mapping that is justified
+The existing five-terminal model directly matches PHYSICAL CHANNEL 2:
+  Y=pin3/MCU_RX, A=pin5/DXL_DATA, OEZ=pin7/RX_EN,
+  VCC=pin8/3.3V, AGND=pin4/GND.
+It does not directly model pin1 or channel 1. Calling the five-terminal model
+an eight-pin drop-in would reverse/miss transmit enable behavior.
+
+Potential dual-channel wrapper
+A logical wrapper can instantiate channel 2 directly and adapt channel 1 with
+an inverted enable, assigning Y=pin6, A=pin2, and enable=NOT(pin1). Its external
+terminals should be numbered 1..8 in the physical contract above. This is a
+justified FUNCTIONAL construction, not an already-qualified analog model.
+An ideal voltage inversion VCC-DE would not preserve pin1 input impedance,
+threshold/overvoltage behavior, or timing. A digital threshold inverter also
+introduces an assumed threshold. Neither should be silently represented as TI's
+validated dual-channel model. Using named internal vendor blocks requires a
+version/hash-locked adapter and its own validation rather than editing the
+original file. Two instances also require explicit review of shared-supply
+current: duplicating a one-channel power model does not establish package ICC.
+
+Important timing limitation in the model itself
+The data path passes through TPD_*; OEZ goes from LOGIC_INPUT to the output
+enable without a separate documented enable/disable delay block. Existing
+steady-time voltage samples prove functional response, not datasheet ten/tdis
+qualification. The current 10kohm/30pF deck also differs from the datasheet's
+3.3V timing test fixture (page 7). Do not derive hardware timing guarantees from
+the passing samples or from an ideal inverted-enable adapter.
+
+Board biasing and firmware agreement
+Revised source R4=10k from DE to 3.3V, so TX defaults OFF. R5=10k from DXL_DATA
+to 3.3V biases the bus high. R7=10k from RX_EN to 3.3V defaults RX ON. The RX
+pull-up is an intentional recovered source choice, not a ground pull-down.
+The MCU firmware board.c preloads PA1 high (TX off) and PB7 high (RX on), and
+leaves tied PB8 in analog mode. During board_bus_send it lowers RX_EN, then DE,
+sends bytes, waits for final transmission complete or a timeout, raises DE and
+reenables RX_EN. This agrees with the physical channel polarities. It has not
+been executed on the exact CPU/board by this audit.
+
+Bounded test plan (implementation status follows below)
+1. Machine-check all eight U3 physical pad nets against the source contract and
+   any generated native/SPICE netlist; retain R6 separately.
+2. Both data levels for all four combinations of DE and RX_EN, with independent
+   output pull-ups and pull-downs to distinguish driven states from high-Z.
+3. Integrate R4/R5/R7 and the explicit R6 boundary. Check reset/MCU-high-Z bias,
+   receive-only, transmit-only, echo-enabled, and both-disabled modes.
+4. Transmit-to-receive turnaround, final stop-bit release and timeout release,
+   using actual compiled control logic if possible. Measure output current as
+   well as voltage under bounded opposing external bus drive; use this to detect
+   contention, not to establish a safe continuous short-circuit operating mode.
+5. Supply-off/back-drive and supply ramps, realistic harness/load sweeps, and
+   explicit delay/threshold/ICC qualification. The typical behavioral model
+   cannot alone prove temperature/process corners, signal integrity, protection
+   ratings, or hardware safety.
+
+Suggested status distinction
+package_pin_assignment_reviewed=true
+revised_imu_source_port_contract_reviewed=true
+vendor_single_channel_polarity_tested=true
+dual_channel_wrapper_tested=true (bounded logical/DC scope only; see below)
+full_package_analog_qualified=false
+whole_pcb_simulation=false
+physical_hardware_tested=false
+
+Authored wrapper and functional tests completed in this task
+New electrical-models/ti-sn74lvc2g241/SN74LVC2G241_DCU_review.lib preserves the
+vendor .cir unchanged and instantiates two of its active-high stages. An ideal
+algebraic VCC-DE enable source adapts TX only. Tests explicitly restrict VCC to
+3.3V and control enables to 0..VCC. All analog-package limitations above remain.
+
+New tools/test_ti_buffer_package.py checks the exact recovered U3 pinmap, all
+eight physical native U3 pad nets, source R4/R5/R7 pinmaps and 10k values, and
+the placed R6=0R override. It retains the R6 boundary as a zero-volt link/current
+probe; package/harness/zero-ohm-link parasitics are not modeled.
+
+12 cases and 22 voltage checks passed using ngspice 42/PSpice compatibility:
+TX low/high; TX disabled with pull-up/down fixtures; RX low/high; RX disabled
+with pull-up/down fixtures; both disabled; reset bias (TX off/RX on); TX-to-RX
+bus loop at both logic levels. MCU and external bus drivers are fixed-voltage
+mocks. All tests are DC operating points; this does not execute the CPU or
+establish transient turn-around timing, firmware stop-bit behavior or contention
+current limits. Power-off/back-drive tests deliberately remain outside scope.
+
+JSON and individual SPICE decks/logs:
+audit/pcb-tools/ti-buffer-package/results.json
+
+Exact command from Windows:
+wsl -d NVIDIA-Workbench -- /home/workbench/robotics/pcb-tools/venv/bin/python /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/tools/test_ti_buffer_package.py
+
+No existing vendor model, upstream source, main suite runner or asset manifest
+was edited by this work. No hardware was connected or operated.

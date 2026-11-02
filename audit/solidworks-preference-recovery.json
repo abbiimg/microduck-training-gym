@@ -1,0 +1,28 @@
+{
+  "option": "swSTLDeviation",
+  "before_m": 0.00024106896961078702,
+  "original_m": 0.00022935779816513763,
+  "set_accepted": true,
+  "restored_exactly": false,
+  "after_m": 0.00024106896961078702,
+  "bounded_adjustments": [
+    {
+      "requested_m": 0.0002182155574153419,
+      "accepted": true,
+      "readback_m": 0.0002249977049700679
+    },
+    {
+      "requested_m": 0.00022244422351249855,
+      "accepted": true,
+      "readback_m": 0.0002249977049700679
+    },
+    {
+      "requested_m": 0.00022675483434894436,
+      "accepted": true,
+      "readback_m": 0.00024106896961078702
+    }
+  ],
+  "final_nearest_readback_m": 0.0002249977049700679,
+  "final_set_accepted": true,
+  "original_value_unattainable_due_to_observed_quantization": true
+}

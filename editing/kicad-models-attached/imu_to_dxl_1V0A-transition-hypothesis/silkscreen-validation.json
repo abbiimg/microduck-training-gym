@@ -1,0 +1,11 @@
+{
+  "candidate": "imu_to_dxl_1V0A-transition-hypothesis",
+  "copper_and_masks_unchanged": true,
+  "source_project_rule_schematic_hashes_match": true,
+  "native_graphics_checked": 204,
+  "reference_styles_checked": 24,
+  "library_graphics_verified": true,
+  "schematic_parity_findings": 0,
+  "airwires": 0,
+  "manufacturing_ready": false
+}

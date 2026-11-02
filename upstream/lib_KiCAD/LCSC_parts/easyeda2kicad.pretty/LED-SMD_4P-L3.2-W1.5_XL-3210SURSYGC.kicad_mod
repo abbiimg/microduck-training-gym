@@ -1,0 +1,225 @@
+(footprint "LED-SMD_4P-L3.2-W1.5_XL-3210SURSYGC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.113 0)
+		(layer "F.SilkS")
+		(uuid "c875cf64-e2c5-4ca1-bd7e-6ea335072aa5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-SMD_4P-L3.2-W1.5_XL-3210SURSYGC"
+		(at 0 4.113 0)
+		(layer "F.Fab")
+		(uuid "ea271c75-3394-4cab-b6ee-6fd9875b4ae7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cfa9840-0d1f-4fe6-8e89-8ff3019ac95a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05336fec-65a1-461f-8a68-7c489fff71fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C965882"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1298ea05-92db-4795-8778-e44ae66c229e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.8 -0.38)
+		(end -0.8 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f4e264f-d344-4f94-95d0-8dad70bb2674")
+	)
+	(fp_line
+		(start -0.27 -1.44)
+		(end -0.03 -1.44)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa1cdfd6-6058-4651-a835-3db4e07b85e1")
+	)
+	(fp_line
+		(start -0.03 -1.44)
+		(end 0.18 -1.44)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13e85574-a7de-40cf-872c-ef9186149268")
+	)
+	(fp_arc
+		(start -0.97 -0.74)
+		(mid -0.764975 -1.234975)
+		(end -0.27 -1.44)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "801d16e0-8428-4021-ad70-c5668ff722c2")
+	)
+	(fp_arc
+		(start 0.18 -1.44)
+		(mid 0.682046 -1.232046)
+		(end 0.89 -0.73)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69f131ec-05ed-46e2-9811-55550adff78d")
+	)
+	(fp_line
+		(start -2 -0.75)
+		(end -1 -0.749997)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8eef6dd-72c6-4880-87a4-d870768c6ebc")
+	)
+	(fp_line
+		(start -2 0.4)
+		(end -2 -0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ee1abe5-decc-49f8-9807-a301b18f192d")
+	)
+	(fp_line
+		(start 1.009442 -0.659379)
+		(end 2 -0.659379)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fecaafb2-c51e-462b-bd2a-8552372c48e0")
+	)
+	(fp_line
+		(start 2 -0.659379)
+		(end 2 0.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf1a5111-2cc0-4de5-86a0-68bbdac2cf96")
+	)
+	(fp_line
+		(start 2 0.4)
+		(end -2 0.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7393c4c5-8f2d-4972-b399-0e79a241cd3c")
+	)
+	(fp_arc
+		(start -1 -0.75)
+		(mid 0.045556 -1.610161)
+		(end 1.009442 -0.659379)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e441c777-1d7a-4efe-933b-52831b5c46dc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2f9cd161-ec83-4287-989a-ad128266f665")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.4 0.11)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "acce6ce2-bfd0-47df-b38b-6782c8443c68")
+	)
+	(pad "2" smd rect
+		(at -0.4 0.11)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4f57d434-a7e7-4426-92d4-9139368e8620")
+	)
+	(pad "3" smd rect
+		(at 1.47 -0.11)
+		(size 0.95 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0d947c78-a563-4ffe-aa91-4d081947665c")
+	)
+	(pad "4" smd rect
+		(at -1.47 -0.11)
+		(size 0.95 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "75c521dd-7966-48ff-8914-ad714319f8ae")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_LIB}/LCSC_parts/easyeda2kicad.3dshapes/LED-SMD_4P-L3.2-W1.5_XL-3210SURSYGC.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

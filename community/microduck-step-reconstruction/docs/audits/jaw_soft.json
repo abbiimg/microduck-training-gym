@@ -1,0 +1,123 @@
+{
+  "name": "jaw_soft",
+  "label_zh": "下颚柔性候选件",
+  "quantity": 1,
+  "units": "mm",
+  "stl": "01_STL_original/jaw_soft__下颚柔性候选件__x1.stl",
+  "step": "02_STEP_final/jaw_soft__下颚柔性候选件__x1.step",
+  "stl_sha256": "2f4670457412c35e770c638c4a87d5cd1bc705eb5d1aa3851f60bd86b030d905",
+  "step_sha256": "b845afc3b1b0c34b1b4b1090add2ccd444a1399c30289f1744485fb73f089635",
+  "stl_bytes": 336384,
+  "step_bytes": 1588008,
+  "stl_triangles": 6726,
+  "cad_faces": 46,
+  "valid_solid": true,
+  "deviation": {
+    "source_to_rebuilt": {
+      "samples": 10091,
+      "max_mm": 0.01310686139494627,
+      "rms_mm": 0.0024637531126569523,
+      "worst_point_mm": [
+        25.3809076944987,
+        -28.918174743652344,
+        -8.075240135192871
+      ]
+    },
+    "rebuilt_to_source": {
+      "samples": 311958,
+      "max_mm": 0.020310930991655082,
+      "rms_mm": 0.0026550207894723834,
+      "worst_point_mm": [
+        -43.25602781098829,
+        -55.35247237853021,
+        -8.83099097800612
+      ]
+    }
+  },
+  "additional_audit": {
+    "random_bidirectional_samples": {
+      "source_to_step": {
+        "samples": 20000,
+        "max_mm": 0.019256462197322327,
+        "rms_mm": 0.0018801199111761477
+      },
+      "step_to_source": {
+        "samples": 20000,
+        "max_mm": 0.016044477696952823,
+        "rms_mm": 0.001859702887115418
+      }
+    },
+    "bounding_box_max_delta_mm": 0.001003728943107518,
+    "volume_error_percent": 0.004429282356532838,
+    "edit_test": {
+      "operation": "subtract 0.4 mm box from material",
+      "center_mm": [
+        2.9730246861775718,
+        -47.7194801553853,
+        -2.9953217735417477
+      ],
+      "valid_after_cut": true,
+      "removed_volume_mm3": 0.054494048290507635
+    },
+    "sha256": "b845afc3b1b0c34b1b4b1090add2ccd444a1399c30289f1744485fb73f089635",
+    "volume_integration_relative_tolerance": 1e-09,
+    "bounding_box_basis": "complete CAD surface tessellation, 0.0005 mm mesh deflection",
+    "native_conservative_bbox_mm": [
+      -43.83744564563695,
+      -57.735282997940004,
+      -11.495161783332588,
+      43.83744564564594,
+      -25.501333136689993,
+      -2.7085390123648616
+    ],
+    "measured_surface_bbox_mm": [
+      -43.83742939338832,
+      -57.73528289794,
+      -11.147726744828708,
+      43.83742939339726,
+      -25.50133323669,
+      -2.709145797652962
+    ]
+  },
+  "improved_in_latest_round": true,
+  "repair_comparison": {
+    "baseline_bytes": 8580514,
+    "new_bytes": 1588008,
+    "baseline": {
+      "faces": {
+        "GeomAbs_Plane": 28,
+        "GeomAbs_BSplineSurface": 14
+      },
+      "edge_curve_types": {
+        "GeomAbs_BSplineCurve degree 1": 214,
+        "GeomAbs_Line": 18
+      },
+      "spline_control_points": 57530,
+      "analytic_surface_area_fraction": 0.4602489121898425
+    },
+    "new": {
+      "faces": {
+        "GeomAbs_Plane": 28,
+        "GeomAbs_BSplineSurface": 18
+      },
+      "edge_curve_types": {
+        "GeomAbs_BSplineCurve degree 1": 96,
+        "GeomAbs_Line": 138,
+        "GeomAbs_BSplineCurve degree 3": 3,
+        "GeomAbs_Circle": 21
+      },
+      "spline_control_points": 13800,
+      "analytic_surface_area_fraction": 0.46034514810166927
+    }
+  },
+  "max_sampled_deviation_mm": 0.020310930991655082,
+  "max_extra_sampled_deviation_mm": 0.019256462197322327,
+  "measured_bbox_mm": [
+    -43.83742939338832,
+    -57.73528289794,
+    -11.147726744828708,
+    43.83742939339726,
+    -25.50133323669,
+    -2.709145797652962
+  ]
+}

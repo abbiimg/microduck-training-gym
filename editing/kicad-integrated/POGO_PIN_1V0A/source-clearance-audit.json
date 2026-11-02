@@ -1,0 +1,394 @@
+{
+  "candidate": "POGO_PIN_1V0A",
+  "parent_board": "editing/kicad-graphic-corrected/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_pcb",
+  "board_sha256": "a5e09109ac9c26e054e94f99b6b57f789221cbe885ef27ace507b30b678f1036",
+  "source_replay_sha256": "566cd286a46b198145f81a4e32ed03b8c18e32c0b4a32c6a13409b71991676e0",
+  "rules_sha256": "5633bd833bf2e40076dbc3514719bc049b5fc4d3db6c569a05b57c099509dea4",
+  "board_bytes_unchanged": true,
+  "global_clearance_defaults_unchanged": true,
+  "source_safe_rule": "copperThickness1oz",
+  "zone_class_ownership": [],
+  "native_rules": [
+    {
+      "name": "Source SAFE F.Cu track to track",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Track')",
+      "constraint": "clearance",
+      "minimum_mm": 0.101999,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu track to smd",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu track to pth",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu track to via",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu track to graphic",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to smd",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to pth",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to via",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu smd to graphic",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu pth to pth",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu pth to via",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu pth to graphic",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu via to via",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu via to graphic",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE F.Cu graphic to graphic",
+      "condition": "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "F.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to track",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Track')",
+      "constraint": "clearance",
+      "minimum_mm": 0.101999,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to smd",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to pth",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to via",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu track to graphic",
+      "condition": "(A.Type == 'Track') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to smd",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to pth",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to via",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu smd to graphic",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu pth to pth",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu pth to via",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu pth to graphic",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu via to via",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Via')",
+      "constraint": "clearance",
+      "minimum_mm": 0.152001,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu via to graphic",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source SAFE B.Cu graphic to graphic",
+      "condition": "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "clearance",
+      "minimum_mm": 0.1524,
+      "layer": "B.Cu",
+      "scope": "source pair minimum"
+    },
+    {
+      "name": "Source edge envelope track",
+      "condition": "A.Type == 'Track'",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.299999,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope smd",
+      "condition": "A.Type == 'Pad' && A.Pad_Type == 'SMD'",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.29972,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope pth",
+      "condition": "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.29972,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope via",
+      "condition": "A.Type == 'Via'",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.29972,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source edge envelope graphic",
+      "condition": "A.Type == 'Graphic' && A.Layer != 'Edge.Cuts'",
+      "constraint": "edge_clearance",
+      "minimum_mm": 0.299999,
+      "layer": null,
+      "scope": "conservative maximum of source outline11/cutout8 across stored layers"
+    },
+    {
+      "name": "Source drill envelope pth to track",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Track')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to smd",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to pth",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to via",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Via')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope pth to graphic",
+      "condition": "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to track",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Track')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to smd",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to pth",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to via",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Via')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill envelope via to graphic",
+      "condition": "(A.Type == 'Via') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')",
+      "constraint": "hole_clearance",
+      "minimum_mm": 0.175997,
+      "layer": null,
+      "scope": "conservative symmetric drill-to-copper envelope, layers maximized"
+    },
+    {
+      "name": "Source drill to drill minimum",
+      "condition": null,
+      "constraint": "hole_to_hole",
+      "minimum_mm": 0.299999,
+      "layer": null,
+      "scope": "source OTHER global drill-to-drill minimum; native provider selects drilled objects including vias"
+    }
+  ],
+  "full_rule_fidelity": false,
+  "unmapped_scope": [
+    "NPTH mechanical object class",
+    "source test-pad classes3/4 without per-pad mapping",
+    "fallback source class10",
+    "mask/paste",
+    "regenerative copper rules",
+    "exact per-edge cutout/outline direction"
+  ],
+  "schematic_parity": [],
+  "drc_counts": {},
+  "unconnected": 0,
+  "manufacturing_ready": false
+}

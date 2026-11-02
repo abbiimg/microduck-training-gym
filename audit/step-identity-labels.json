@@ -1,0 +1,1328 @@
+[
+  {
+    "candidate": "imu_to_dxl",
+    "step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+    "products": 51,
+    "usages": 65,
+    "references_checked": 29,
+    "reference_matches": [
+      {
+        "reference": "R6",
+        "metadata_title": "R0603",
+        "metadata_model_id": "fc143cca1e79419f9cd78b61e9279f08",
+        "exact_product_instances": [
+          {
+            "entity": 78982,
+            "id": "R6~R0603~R0603~5EQo"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 78994,
+            "name": "R6",
+            "parent_definition": 5,
+            "child_definition": 78980
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "U2",
+        "metadata_title": "LGA-14_L3.0-W2.5-P0.50-BR",
+        "metadata_model_id": "64f32784a16f466f897e9e56b6bbdf45",
+        "exact_product_instances": [
+          {
+            "entity": 50361,
+            "id": "U2~LGA-14_L3.0-W2.5-P0.50-BR~LGA-14_L3.0-W2.5-P0.50-BR~BUMi"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 50373,
+            "name": "U2",
+            "parent_definition": 5,
+            "child_definition": 50359
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C1",
+        "metadata_title": "C0603_L1.6-W0.8-H0.8",
+        "metadata_model_id": "ac125912035d415993ca9572d50418b1",
+        "exact_product_instances": [
+          {
+            "entity": 216139,
+            "id": "C1~C0603~C0603_L1.6-W0.8-H0.8~tojG"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 216151,
+            "name": "C1",
+            "parent_definition": 5,
+            "child_definition": 216137
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "J3",
+        "metadata_title": "HDR-TH_6P-P2.54-M-LI-1X6P",
+        "metadata_model_id": "66a147c6933d4029b68665bbcd1e2924",
+        "exact_product_instances": [
+          {
+            "entity": 99204,
+            "id": "J3~HDR-TH_6P-P2.54-V-M~HDR-TH_6P-P2.54-M-LI-1X6P~HPuw"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 99216,
+            "name": "J3",
+            "parent_definition": 5,
+            "child_definition": 99202
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "R4",
+        "metadata_title": "R0603",
+        "metadata_model_id": "fc143cca1e79419f9cd78b61e9279f08",
+        "exact_product_instances": [
+          {
+            "entity": 78928,
+            "id": "R4~R0603~R0603~Sdwo"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 78940,
+            "name": "R4",
+            "parent_definition": 5,
+            "child_definition": 78926
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "D2",
+        "metadata_title": "SOD-123_L2.7-W1.6-H1.4-LS3.7",
+        "metadata_model_id": "ad7e39f9e5534b3c96ffdc5532ebb493",
+        "exact_product_instances": [
+          {
+            "entity": 132677,
+            "id": "D2~SOD-123_L2.7-W1.6-LS3.7-RD~SOD-123_L2.7-W1.6-H1.4-LS3.7~kK6g"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 132689,
+            "name": "D2",
+            "parent_definition": 5,
+            "child_definition": 132675
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "R5",
+        "metadata_title": "R0603",
+        "metadata_model_id": "fc143cca1e79419f9cd78b61e9279f08",
+        "exact_product_instances": [
+          {
+            "entity": 78955,
+            "id": "R5~R0603~R0603~egl2"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 78967,
+            "name": "R5",
+            "parent_definition": 5,
+            "child_definition": 78953
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "R1",
+        "metadata_title": "R0603",
+        "metadata_model_id": "fc143cca1e79419f9cd78b61e9279f08",
+        "exact_product_instances": [
+          {
+            "entity": 78847,
+            "id": "R1~R0603~R0603~es4d"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 78859,
+            "name": "R1",
+            "parent_definition": 5,
+            "child_definition": 78845
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C4",
+        "metadata_title": "C0603_L1.6-W0.8-H0.8",
+        "metadata_model_id": "ac125912035d415993ca9572d50418b1",
+        "exact_product_instances": [
+          {
+            "entity": 216220,
+            "id": "C4~C0603~C0603_L1.6-W0.8-H0.8~QSPu"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 216232,
+            "name": "C4",
+            "parent_definition": 5,
+            "child_definition": 216218
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C3",
+        "metadata_title": "C0603_L1.6-W0.8-H0.8",
+        "metadata_model_id": "ac125912035d415993ca9572d50418b1",
+        "exact_product_instances": [
+          {
+            "entity": 216193,
+            "id": "C3~C0603~C0603_L1.6-W0.8-H0.8~3BiY"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 216205,
+            "name": "C3",
+            "parent_definition": 5,
+            "child_definition": 216191
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C5",
+        "metadata_title": "C0603_L1.6-W0.8-H0.8",
+        "metadata_model_id": "ac125912035d415993ca9572d50418b1",
+        "exact_product_instances": [
+          {
+            "entity": 216247,
+            "id": "C5~C0603~C0603_L1.6-W0.8-H0.8~HzPf"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 216259,
+            "name": "C5",
+            "parent_definition": 5,
+            "child_definition": 216245
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "R2",
+        "metadata_title": "R0603",
+        "metadata_model_id": "fc143cca1e79419f9cd78b61e9279f08",
+        "exact_product_instances": [
+          {
+            "entity": 78874,
+            "id": "R2~R0603~R0603~dyic"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 78886,
+            "name": "R2",
+            "parent_definition": 5,
+            "child_definition": 78872
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C2",
+        "metadata_title": "C0603_L1.6-W0.8-H0.8",
+        "metadata_model_id": "ac125912035d415993ca9572d50418b1",
+        "exact_product_instances": [
+          {
+            "entity": 216166,
+            "id": "C2~C0603~C0603_L1.6-W0.8-H0.8~ku6t"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 216178,
+            "name": "C2",
+            "parent_definition": 5,
+            "child_definition": 216164
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "U1",
+        "metadata_title": "TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65",
+        "metadata_model_id": "c491f68934b34c649df5890a1d97cd0f",
+        "exact_product_instances": [
+          {
+            "entity": 199017,
+            "id": "U1~TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL~TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65~Ur8N"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 199029,
+            "name": "U1",
+            "parent_definition": 5,
+            "child_definition": 199015
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "U3",
+        "metadata_title": "VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL",
+        "metadata_model_id": "c85411b4a3544d83a02d075c4dadd21f",
+        "exact_product_instances": [
+          {
+            "entity": 118923,
+            "id": "U3~VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BR~VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL~7tsc"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 118935,
+            "name": "U3",
+            "parent_definition": 5,
+            "child_definition": 118921
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "R7",
+        "metadata_title": "R0603",
+        "metadata_model_id": "fc143cca1e79419f9cd78b61e9279f08",
+        "exact_product_instances": [
+          {
+            "entity": 79009,
+            "id": "R7~R0603~R0603~Eand"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 79021,
+            "name": "R7",
+            "parent_definition": 5,
+            "child_definition": 79007
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C9",
+        "metadata_title": "C0603_L1.6-W0.8-H0.8",
+        "metadata_model_id": "ac125912035d415993ca9572d50418b1",
+        "exact_product_instances": [
+          {
+            "entity": 216328,
+            "id": "C9~C0603~C0603_L1.6-W0.8-H0.8~0wl7"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 216340,
+            "name": "C9",
+            "parent_definition": 5,
+            "child_definition": 216326
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "R3",
+        "metadata_title": "R0603",
+        "metadata_model_id": "fc143cca1e79419f9cd78b61e9279f08",
+        "exact_product_instances": [
+          {
+            "entity": 78901,
+            "id": "R3~R0603~R0603~xe3C"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 78913,
+            "name": "R3",
+            "parent_definition": 5,
+            "child_definition": 78899
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "X1",
+        "metadata_title": "OSC-SMD_4P-L3.2-W2.5-H1.0",
+        "metadata_model_id": "ae22b8d143894765bc8100c37cb6356f",
+        "exact_product_instances": [
+          {
+            "entity": 265641,
+            "id": "X1~OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI~OSC-SMD_4P-L3.2-W2.5-H1.0~gTE2"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 265653,
+            "name": "X1",
+            "parent_definition": 5,
+            "child_definition": 265639
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "J5",
+        "metadata_title": "CONN-TH_B3B-PH-K-S",
+        "metadata_model_id": "ced3ec0dc43640d397bfdc45d14bee2a",
+        "exact_product_instances": [
+          {
+            "entity": 236465,
+            "id": "J5~CONN-TH_B3B-PH-K-S~CONN-TH_B3B-PH-K-S~Gdo3"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 236477,
+            "name": "J5",
+            "parent_definition": 5,
+            "child_definition": 236463
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "F1",
+        "metadata_title": "F1206_L3.2-W1.7-H0.6",
+        "metadata_model_id": "f1628daad26847a79b887277a2bc8541",
+        "exact_product_instances": [
+          {
+            "entity": 280749,
+            "id": "F1~F1206~F1206_L3.2-W1.7-H0.6~NTFH"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 280761,
+            "name": "F1",
+            "parent_definition": 5,
+            "child_definition": 280747
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "D1",
+        "metadata_title": "SOD-123FL_L2.8-W1.8-H1.1-LS3.6",
+        "metadata_model_id": "86f9151e155e4fe2af0c4f2e0a80302e",
+        "exact_product_instances": [
+          {
+            "entity": 32278,
+            "id": "D1~SOD-123FL_L2.7-W1.8-LS3.7-RD~SOD-123FL_L2.8-W1.8-H1.1-LS3.6~yEpV"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 32290,
+            "name": "D1",
+            "parent_definition": 5,
+            "child_definition": 32276
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C6",
+        "metadata_title": "C0805_L2.0-W1.3-H1.3",
+        "metadata_model_id": "1ba041120af144c991958decab20d241",
+        "exact_product_instances": [
+          {
+            "entity": 19400,
+            "id": "C6~C0805~C0805_L2.0-W1.3-H1.3~R4Rq"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 19412,
+            "name": "C6",
+            "parent_definition": 5,
+            "child_definition": 19398
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C8",
+        "metadata_title": "C0603_L1.6-W0.8-H0.8",
+        "metadata_model_id": "ac125912035d415993ca9572d50418b1",
+        "exact_product_instances": [
+          {
+            "entity": 216301,
+            "id": "C8~C0603~C0603_L1.6-W0.8-H0.8~zumw"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 216313,
+            "name": "C8",
+            "parent_definition": 5,
+            "child_definition": 216299
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "J1",
+        "metadata_title": "CONN-TH_B3B-EH-A-LF-SN",
+        "metadata_model_id": "eb4de652aa64480a9db1bf18ae610871",
+        "exact_product_instances": [
+          {
+            "entity": 66041,
+            "id": "J1~CONN-TH_B3B-EH-A-LF-SN~CONN-TH_B3B-EH-A-LF-SN~wdo6"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 66053,
+            "name": "J1",
+            "parent_definition": 5,
+            "child_definition": 66039
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "J4",
+        "metadata_title": "CONN-TH_B3B-PH-K-S",
+        "metadata_model_id": "ced3ec0dc43640d397bfdc45d14bee2a",
+        "exact_product_instances": [
+          {
+            "entity": 236438,
+            "id": "J4~CONN-TH_B3B-PH-K-S~CONN-TH_B3B-PH-K-S~wpbf"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 236450,
+            "name": "J4",
+            "parent_definition": 5,
+            "child_definition": 236436
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C7",
+        "metadata_title": "C0603_L1.6-W0.8-H0.8",
+        "metadata_model_id": "ac125912035d415993ca9572d50418b1",
+        "exact_product_instances": [
+          {
+            "entity": 216274,
+            "id": "C7~C0603~C0603_L1.6-W0.8-H0.8~q93I"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 216286,
+            "name": "C7",
+            "parent_definition": 5,
+            "child_definition": 216272
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "U4",
+        "metadata_title": "SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50",
+        "metadata_model_id": "6db690b7897d4d18a30d90c1b89525ee",
+        "exact_product_instances": [
+          {
+            "entity": 247053,
+            "id": "U4~SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR~SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50~ptpz"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 247065,
+            "name": "U4",
+            "parent_definition": 5,
+            "child_definition": 247051
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "J2",
+        "metadata_title": "CONN-TH_B3B-EH-A-LF-SN",
+        "metadata_model_id": "eb4de652aa64480a9db1bf18ae610871",
+        "exact_product_instances": [
+          {
+            "entity": 66068,
+            "id": "J2~CONN-TH_B3B-EH-A-LF-SN~CONN-TH_B3B-EH-A-LF-SN~KqwZ"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 66080,
+            "name": "J2",
+            "parent_definition": 5,
+            "child_definition": 66066
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      }
+    ]
+  },
+  {
+    "candidate": "imu_to_dxl_1V0A",
+    "step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A-PCB.step",
+    "products": 45,
+    "usages": 53,
+    "references_checked": 24,
+    "reference_matches": [
+      {
+        "reference": "J2",
+        "metadata_title": "CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF",
+        "metadata_model_id": "821f361f67d84e41a483b3c32f441adb",
+        "exact_product_instances": [
+          {
+            "entity": 270819,
+            "id": "J2~CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF~CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF~nEv8"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 270831,
+            "name": "J2",
+            "parent_definition": 5,
+            "child_definition": 270817
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C7",
+        "metadata_title": "C0603_L1.6-W0.8-H0.8",
+        "metadata_model_id": "ac125912035d415993ca9572d50418b1",
+        "exact_product_instances": [
+          {
+            "entity": 66708,
+            "id": "C7~C0603~C0603_L1.6-W0.8-H0.8~MSOm"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 66720,
+            "name": "C7",
+            "parent_definition": 5,
+            "child_definition": 66706
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "U1",
+        "metadata_title": "TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65",
+        "metadata_model_id": "c491f68934b34c649df5890a1d97cd0f",
+        "exact_product_instances": [
+          {
+            "entity": 196686,
+            "id": "U1~TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL~TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65~VOGl"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 196698,
+            "name": "U1",
+            "parent_definition": 5,
+            "child_definition": 196684
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C4",
+        "metadata_title": "C0402_L1.0-W0.5-H0.5",
+        "metadata_model_id": "36a51122f27c49738f86b3bfa98863e0",
+        "exact_product_instances": [
+          {
+            "entity": 237817,
+            "id": "C4~C0402~C0402_L1.0-W0.5-H0.5~Q6pj"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 237829,
+            "name": "C4",
+            "parent_definition": 5,
+            "child_definition": 237815
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "U2",
+        "metadata_title": "LGA-14_L3.0-W2.5-P0.50-BR",
+        "metadata_model_id": "64f32784a16f466f897e9e56b6bbdf45",
+        "exact_product_instances": [
+          {
+            "entity": 49559,
+            "id": "U2~LGA-14_L3.0-W2.5-P0.50-BR~LGA-14_L3.0-W2.5-P0.50-BR~e8DW"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 49571,
+            "name": "U2",
+            "parent_definition": 5,
+            "child_definition": 49557
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "R2",
+        "metadata_title": "R0402_L1.0-W0.5-H0.4",
+        "metadata_model_id": "98c88bc2b9094f218f3a3e30a7012738",
+        "exact_product_instances": [
+          {
+            "entity": 209777,
+            "id": "R2~R0402~R0402_L1.0-W0.5-H0.4~rtfb"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 209789,
+            "name": "R2",
+            "parent_definition": 5,
+            "child_definition": 209775
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "R1",
+        "metadata_title": "R0402_L1.0-W0.5-H0.4",
+        "metadata_model_id": "98c88bc2b9094f218f3a3e30a7012738",
+        "exact_product_instances": [
+          {
+            "entity": 209750,
+            "id": "R1~R0402~R0402_L1.0-W0.5-H0.4~KnlE"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 209762,
+            "name": "R1",
+            "parent_definition": 5,
+            "child_definition": 209748
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "R7",
+        "metadata_title": "R0402_L1.0-W0.5-H0.4",
+        "metadata_model_id": "98c88bc2b9094f218f3a3e30a7012738",
+        "exact_product_instances": [
+          {
+            "entity": 209858,
+            "id": "R7~R0402~R0402_L1.0-W0.5-H0.4~A4IS"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 209870,
+            "name": "R7",
+            "parent_definition": 5,
+            "child_definition": 209856
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "U3",
+        "metadata_title": "VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL",
+        "metadata_model_id": "c85411b4a3544d83a02d075c4dadd21f",
+        "exact_product_instances": [
+          {
+            "entity": 130346,
+            "id": "U3~VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BR~VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL~jF3o"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 130358,
+            "name": "U3",
+            "parent_definition": 5,
+            "child_definition": 130344
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "R5",
+        "metadata_title": "R0402_L1.0-W0.5-H0.4",
+        "metadata_model_id": "98c88bc2b9094f218f3a3e30a7012738",
+        "exact_product_instances": [
+          {
+            "entity": 209831,
+            "id": "R5~R0402~R0402_L1.0-W0.5-H0.4~J9cj"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 209843,
+            "name": "R5",
+            "parent_definition": 5,
+            "child_definition": 209829
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C2",
+        "metadata_title": "C0402_L1.0-W0.5-H0.5",
+        "metadata_model_id": "36a51122f27c49738f86b3bfa98863e0",
+        "exact_product_instances": [
+          {
+            "entity": 237763,
+            "id": "C2~C0402~C0402_L1.0-W0.5-H0.5~bt0V"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 237775,
+            "name": "C2",
+            "parent_definition": 5,
+            "child_definition": 237761
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "U4",
+        "metadata_title": "SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50",
+        "metadata_model_id": "6db690b7897d4d18a30d90c1b89525ee",
+        "exact_product_instances": [
+          {
+            "entity": 220446,
+            "id": "U4~SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR~SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50~6607"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 220458,
+            "name": "U4",
+            "parent_definition": 5,
+            "child_definition": 220444
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C3",
+        "metadata_title": "C0402_L1.0-W0.5-H0.5",
+        "metadata_model_id": "36a51122f27c49738f86b3bfa98863e0",
+        "exact_product_instances": [
+          {
+            "entity": 237790,
+            "id": "C3~C0402~C0402_L1.0-W0.5-H0.5~RPvC"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 237802,
+            "name": "C3",
+            "parent_definition": 5,
+            "child_definition": 237788
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C5",
+        "metadata_title": "C0603_L1.6-W0.8-H0.8",
+        "metadata_model_id": "ac125912035d415993ca9572d50418b1",
+        "exact_product_instances": [
+          {
+            "entity": 66681,
+            "id": "C5~C0603~C0603_L1.6-W0.8-H0.8~wqis"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 66693,
+            "name": "C5",
+            "parent_definition": 5,
+            "child_definition": 66679
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "R4",
+        "metadata_title": "R0402_L1.0-W0.5-H0.4",
+        "metadata_model_id": "98c88bc2b9094f218f3a3e30a7012738",
+        "exact_product_instances": [
+          {
+            "entity": 209804,
+            "id": "R4~R0402~R0402_L1.0-W0.5-H0.4~3M5a"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 209816,
+            "name": "R4",
+            "parent_definition": 5,
+            "child_definition": 209802
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "D2",
+        "metadata_title": "SOD-123_L2.7-W1.6-H1.4-LS3.7",
+        "metadata_model_id": "ad7e39f9e5534b3c96ffdc5532ebb493",
+        "exact_product_instances": [
+          {
+            "entity": 110627,
+            "id": "D2~SOD-123_L2.7-W1.6-LS3.7-RD~SOD-123_L2.7-W1.6-H1.4-LS3.7~HO4c"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 110639,
+            "name": "D2",
+            "parent_definition": 5,
+            "child_definition": 110625
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "J1",
+        "metadata_title": "CONN-TH_A2007WR-3P",
+        "metadata_model_id": "7576b685b3b842e1920e0f50f5ef1550",
+        "exact_product_instances": [
+          {
+            "entity": 253888,
+            "id": "J1~CONN-TH_A2007WR-3P~CONN-TH_A2007WR-3P~6Mxn"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 253900,
+            "name": "J1",
+            "parent_definition": 5,
+            "child_definition": 253886
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "D1",
+        "metadata_title": "SOD-123FL_L2.8-W1.8-H1.1-LS3.6",
+        "metadata_model_id": "86f9151e155e4fe2af0c4f2e0a80302e",
+        "exact_product_instances": [
+          {
+            "entity": 79586,
+            "id": "D1~SOD-123FL_L2.7-W1.8-LS3.7-RD~SOD-123FL_L2.8-W1.8-H1.1-LS3.6~O2PW"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 79598,
+            "name": "D1",
+            "parent_definition": 5,
+            "child_definition": 79584
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "F1",
+        "metadata_title": "F1206_L3.2-W1.7-H0.6",
+        "metadata_model_id": "f1628daad26847a79b887277a2bc8541",
+        "exact_product_instances": [
+          {
+            "entity": 31476,
+            "id": "F1~F1206~F1206_L3.2-W1.7-H0.6~6Xx9"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 31488,
+            "name": "F1",
+            "parent_definition": 5,
+            "child_definition": 31474
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C6",
+        "metadata_title": "C0805_L2.0-W1.3-H1.3",
+        "metadata_model_id": "1ba041120af144c991958decab20d241",
+        "exact_product_instances": [
+          {
+            "entity": 96873,
+            "id": "C6~C0805~C0805_L2.0-W1.3-H1.3~UIJz"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 96885,
+            "name": "C6",
+            "parent_definition": 5,
+            "child_definition": 96871
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C8",
+        "metadata_title": "C0402_L1.0-W0.5-H0.5",
+        "metadata_model_id": "36a51122f27c49738f86b3bfa98863e0",
+        "exact_product_instances": [
+          {
+            "entity": 237844,
+            "id": "C8~C0402~C0402_L1.0-W0.5-H0.5~GJPs"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 237856,
+            "name": "C8",
+            "parent_definition": 5,
+            "child_definition": 237842
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "R6",
+        "metadata_title": "R0603",
+        "metadata_model_id": "fc143cca1e79419f9cd78b61e9279f08",
+        "exact_product_instances": [
+          {
+            "entity": 16368,
+            "id": "R6~R0603~R0603~muQk"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 16380,
+            "name": "R6",
+            "parent_definition": 5,
+            "child_definition": 16366
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "C1",
+        "metadata_title": "C0402_L1.0-W0.5-H0.5",
+        "metadata_model_id": "36a51122f27c49738f86b3bfa98863e0",
+        "exact_product_instances": [
+          {
+            "entity": 237736,
+            "id": "C1~C0402~C0402_L1.0-W0.5-H0.5~h2om"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 237748,
+            "name": "C1",
+            "parent_definition": 5,
+            "child_definition": 237734
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "J3",
+        "metadata_title": "HDR-TH_6P-P2.54-M-LI-1X6P",
+        "metadata_model_id": "66a147c6933d4029b68665bbcd1e2924",
+        "exact_product_instances": [],
+        "exact_usage_instances": [],
+        "title_in_product": false,
+        "model_uuid_in_step": false
+      }
+    ]
+  },
+  {
+    "candidate": "POGO_PIN_1V0A",
+    "step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\POGO_PIN_1V0A\\POGO_PIN_1V0A-PCB.step",
+    "products": 11,
+    "usages": 11,
+    "references_checked": 2,
+    "reference_matches": [
+      {
+        "reference": "U1",
+        "metadata_title": "SMD_BD3.0-D1.2-H9.5",
+        "metadata_model_id": "42f3a8a1e6a24de3b83c02c04481ebfb",
+        "exact_product_instances": [
+          {
+            "entity": 12270,
+            "id": "U1~SMD_BD3.0-D1.2-H9.5~SMD_BD3.0-D1.2-H9.5~6vWn"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 12282,
+            "name": "U1",
+            "parent_definition": 5,
+            "child_definition": 12268
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "U2",
+        "metadata_title": "SMD_BD3.0-D1.2-H9.5",
+        "metadata_model_id": "42f3a8a1e6a24de3b83c02c04481ebfb",
+        "exact_product_instances": [
+          {
+            "entity": 12297,
+            "id": "U2~SMD_BD3.0-D1.2-H9.5~SMD_BD3.0-D1.2-H9.5~65nH"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 12309,
+            "name": "U2",
+            "parent_definition": 5,
+            "child_definition": 12295
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      }
+    ]
+  },
+  {
+    "candidate": "wire_hub_1V0A",
+    "step": "community\\microduck-replica\\hardware\\\u65b0\u7248\\wire_hub_1V0A\\wire_hub_1V0A-PCB.step",
+    "products": 20,
+    "usages": 21,
+    "references_checked": 7,
+    "reference_matches": [
+      {
+        "reference": "J3",
+        "metadata_title": "CONN-TH_A2007WR-3P",
+        "metadata_model_id": "7576b685b3b842e1920e0f50f5ef1550",
+        "exact_product_instances": [
+          {
+            "entity": 35508,
+            "id": "J3~CONN-TH_A2007WR-3P~CONN-TH_A2007WR-3P~CLgU"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 35520,
+            "name": "J3",
+            "parent_definition": 5,
+            "child_definition": 35506
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "J4",
+        "metadata_title": "CONN-TH_A2007WR-3P",
+        "metadata_model_id": "7576b685b3b842e1920e0f50f5ef1550",
+        "exact_product_instances": [
+          {
+            "entity": 35535,
+            "id": "J4~CONN-TH_A2007WR-3P~CONN-TH_A2007WR-3P~ugY2"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 35547,
+            "name": "J4",
+            "parent_definition": 5,
+            "child_definition": 35533
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "J6",
+        "metadata_title": "CONN-TH_A2007WV-3P",
+        "metadata_model_id": "deb6dd8d6be645a6b0b15d641ed56279",
+        "exact_product_instances": [
+          {
+            "entity": 75525,
+            "id": "J6~CONN-TH_A2007WV-3P~CONN-TH_A2007WV-3P~qsdQ"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 75537,
+            "name": "J6",
+            "parent_definition": 5,
+            "child_definition": 75523
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "J2",
+        "metadata_title": "CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF",
+        "metadata_model_id": "821f361f67d84e41a483b3c32f441adb",
+        "exact_product_instances": [
+          {
+            "entity": 19464,
+            "id": "J2~CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF~CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF~JXS8"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 19476,
+            "name": "J2",
+            "parent_definition": 5,
+            "child_definition": 19462
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "J5",
+        "metadata_title": "CONN-TH_A2007WV-3P",
+        "metadata_model_id": "deb6dd8d6be645a6b0b15d641ed56279",
+        "exact_product_instances": [
+          {
+            "entity": 75498,
+            "id": "J5~CONN-TH_A2007WV-3P~CONN-TH_A2007WV-3P~ME6M"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 75510,
+            "name": "J5",
+            "parent_definition": 5,
+            "child_definition": 75496
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "J1",
+        "metadata_title": "CONN-SMD_3P-P1.20_HCTL_HC-1.2-3PWT",
+        "metadata_model_id": "503e76cdc9f844a6b2306dd53d5ecc2a",
+        "exact_product_instances": [
+          {
+            "entity": 57042,
+            "id": "J1~CONN-SMD_3P-P1.20_HCTL_HC-1.2-3PWT~CONN-SMD_3P-P1.20_HCTL_HC-1.2-3PWT~tsxM"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 57054,
+            "name": "J1",
+            "parent_definition": 5,
+            "child_definition": 57040
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      },
+      {
+        "reference": "CN1",
+        "metadata_title": "CONN-TH_DB125-2.54-2P-GN",
+        "metadata_model_id": "e364713d301b433da8ecef6fca46e972",
+        "exact_product_instances": [
+          {
+            "entity": 98289,
+            "id": "CN1~CONN-TH_DB125-2.54-2P-GN~CONN-TH_DB125-2.54-2P-GN~ovzE"
+          }
+        ],
+        "exact_usage_instances": [
+          {
+            "entity": 98301,
+            "name": "CN1",
+            "parent_definition": 5,
+            "child_definition": 98287
+          }
+        ],
+        "title_in_product": true,
+        "model_uuid_in_step": false
+      }
+    ]
+  }
+]

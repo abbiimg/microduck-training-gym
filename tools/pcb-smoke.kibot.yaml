@@ -1,0 +1,10 @@
+kibot:
+  version: 1
+outputs:
+  - name: copper_smoke
+    type: gerber
+    dir: gerbers
+    layers:
+      - F.Cu
+      - B.Cu
+      - Edge.Cuts

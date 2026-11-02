@@ -1,0 +1,4689 @@
+{
+  "geometry_engine": "KiCad polygon export / Shapely GEOS distances; pads/tracks approximate inward at 1 nm",
+  "results": [
+    {
+      "candidate": "wire_hub_1V0A",
+      "board": "editing/kicad-integrated/wire_hub_1V0A/wire_hub_1V0A.kicad_pcb",
+      "board_sha256": "4cfa1b835e92eeb719fdf5658c41dbf6b8304028bbf2a17ea36d8b0af9a9bc64",
+      "drc_report_sha256": "4fef454b04c27792b700732fc5a4d5f300ac9bd749031ff9975464e9de0f5c66",
+      "kicad_version": "10.0.7",
+      "counts": {
+        "copper_edge_clearance": 17,
+        "clearance": 1,
+        "silk_overlap": 6,
+        "silk_edge_clearance": 1
+      },
+      "findings": [
+        {
+          "index": 0,
+          "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2963 mm)",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 70.070302,
+                "y": -12.057299
+              },
+              "uuid": "a8864ec8-1108-4911-b92c-799a2dba028b"
+            },
+            {
+              "description": "Via [/GND] on F.Cu - B.Cu",
+              "pos": {
+                "x": 69.469,
+                "y": -2.032
+              },
+              "uuid": "0aaf0d73-f4cb-44cb-a979-fd6b7ee75b3d"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 1,
+          "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2870 mm)",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 66.9803,
+                "y": -21.039999
+              },
+              "uuid": "a6209036-0e82-4d1b-9782-61430f10ea55"
+            },
+            {
+              "description": "Via [/GND] on F.Cu - B.Cu",
+              "pos": {
+                "x": 66.38828,
+                "y": -19.177
+              },
+              "uuid": "1c69a7d9-c739-4f6d-965c-5f7316317cf0"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 2,
+          "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2973 mm)",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 50.7057,
+                "y": -11.929999
+              },
+              "uuid": "78e159f8-6a42-4b2a-8331-4a7d49458b5d"
+            },
+            {
+              "description": "Via [/GND] on F.Cu - B.Cu",
+              "pos": {
+                "x": 51.308,
+                "y": -13.462
+              },
+              "uuid": "256e7bd8-05b2-4a35-8d8d-e7e6e393eb25"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 3,
+          "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2973 mm)",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 50.7057,
+                "y": -11.929999
+              },
+              "uuid": "78e159f8-6a42-4b2a-8331-4a7d49458b5d"
+            },
+            {
+              "description": "Via [/GND] on F.Cu - B.Cu",
+              "pos": {
+                "x": 51.308,
+                "y": -20.193
+              },
+              "uuid": "30fd80ec-4cd3-44ff-95dd-bd6e5a1fe967"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 4,
+          "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2963 mm)",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 70.070302,
+                "y": -12.057299
+              },
+              "uuid": "a8864ec8-1108-4911-b92c-799a2dba028b"
+            },
+            {
+              "description": "Via [/GND] on F.Cu - B.Cu",
+              "pos": {
+                "x": 69.469,
+                "y": -5.715
+              },
+              "uuid": "5041927d-ce09-406a-b0df-230c3ec0f99a"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 5,
+          "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2963 mm)",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 70.070302,
+                "y": -12.057299
+              },
+              "uuid": "a8864ec8-1108-4911-b92c-799a2dba028b"
+            },
+            {
+              "description": "Via [/GND] on F.Cu - B.Cu",
+              "pos": {
+                "x": 69.469,
+                "y": -8.382
+              },
+              "uuid": "582766b1-a2dc-4557-8413-40f7a755ef80"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 6,
+          "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2870 mm)",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 66.9803,
+                "y": -21.039999
+              },
+              "uuid": "a6209036-0e82-4d1b-9782-61430f10ea55"
+            },
+            {
+              "description": "Via [/GND] on F.Cu - B.Cu",
+              "pos": {
+                "x": 66.38828,
+                "y": -15.748
+              },
+              "uuid": "8ad92495-d45e-4c8a-9d41-98edd85c5178"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 7,
+          "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2870 mm)",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 66.9803,
+                "y": -21.039999
+              },
+              "uuid": "a6209036-0e82-4d1b-9782-61430f10ea55"
+            },
+            {
+              "description": "Via [/GND] on F.Cu - B.Cu",
+              "pos": {
+                "x": 66.38828,
+                "y": -17.653
+              },
+              "uuid": "8fad52f0-f9e8-4d70-85b9-761bc29d1e9e"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 8,
+          "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2870 mm)",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 66.9803,
+                "y": -21.039999
+              },
+              "uuid": "a6209036-0e82-4d1b-9782-61430f10ea55"
+            },
+            {
+              "description": "Via [/GND] on F.Cu - B.Cu",
+              "pos": {
+                "x": 66.38828,
+                "y": -12.192
+              },
+              "uuid": "90a4b67c-18bc-4d55-aee9-6ca790f02ecf"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 9,
+          "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2973 mm)",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 50.7057,
+                "y": -11.929999
+              },
+              "uuid": "78e159f8-6a42-4b2a-8331-4a7d49458b5d"
+            },
+            {
+              "description": "Via [/GND] on F.Cu - B.Cu",
+              "pos": {
+                "x": 51.308,
+                "y": -17.907
+              },
+              "uuid": "e9d36330-7c7f-48d8-841c-cc8332e09a4a"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 10,
+          "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2870 mm)",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 66.9803,
+                "y": -21.039999
+              },
+              "uuid": "a6209036-0e82-4d1b-9782-61430f10ea55"
+            },
+            {
+              "description": "Via [/GND] on F.Cu - B.Cu",
+              "pos": {
+                "x": 66.38828,
+                "y": -14.224
+              },
+              "uuid": "f47f0a49-b5e8-41e1-91ee-d24141cae202"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 11,
+          "description": "Board edge clearance violation (rule 'Source edge envelope via' clearance 0.2997 mm; actual 0.2973 mm)",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 50.7057,
+                "y": -11.929999
+              },
+              "uuid": "78e159f8-6a42-4b2a-8331-4a7d49458b5d"
+            },
+            {
+              "description": "Via [/GND] on F.Cu - B.Cu",
+              "pos": {
+                "x": 51.308,
+                "y": -15.875
+              },
+              "uuid": "f6947b32-6f87-4c06-af1d-34a8402ae379"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 12,
+          "description": "Board edge clearance violation (rule 'Source edge envelope track' clearance 0.3000 mm; actual 0.2863 mm)",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 50.693,
+                "y": -20.922699
+              },
+              "uuid": "83d5eab3-eda9-474e-b48e-fbab65e16e1c"
+            },
+            {
+              "description": "Track [/DXL_BUS] on F.Cu, length 0.2602 mm",
+              "pos": {
+                "x": 49.980977,
+                "y": -21.520023
+              },
+              "uuid": "35fa9cf6-891e-4762-a5fc-8e78843bc141"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 13,
+          "description": "Board edge clearance violation (rule 'Source edge envelope track' clearance 0.3000 mm; actual 0.2863 mm)",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 50.693,
+                "y": -20.922699
+              },
+              "uuid": "83d5eab3-eda9-474e-b48e-fbab65e16e1c"
+            },
+            {
+              "description": "Track [/DXL_BUS] on F.Cu, length 0.8890 mm",
+              "pos": {
+                "x": 50.165,
+                "y": -21.336
+              },
+              "uuid": "cf5630cf-6425-41b3-ba04-32ff7e1b02c9"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 14,
+          "description": "Board edge clearance violation (rule 'Source edge envelope zone_7' clearance 0.2540 mm; actual 0.2438 mm)",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 47.785698,
+                "y": 0.409999
+              },
+              "uuid": "48a036a7-4904-4e91-8a66-87a6a77830aa"
+            },
+            {
+              "description": "Zone 'Static union /GND F.Cu 0' [/GND] on F.Cu, priority 0",
+              "pos": {
+                "x": 65.842632,
+                "y": -21.525921
+              },
+              "uuid": "38525400-c22f-4f61-b51e-2ceb3257b55b"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 15,
+          "description": "Board edge clearance violation (rule 'Source edge envelope zone_7' clearance 0.2540 mm; actual 0.2438 mm)",
+          "items": [
+            {
+              "description": "Arc on Edge.Cuts",
+              "pos": {
+                "x": 48.773,
+                "y": -25.81
+              },
+              "uuid": "783caab9-c054-4e27-8098-7bb2e3804c2f"
+            },
+            {
+              "description": "Zone 'Static union /GND F.Cu 5' [/GND] on F.Cu, priority 0",
+              "pos": {
+                "x": 69.085495,
+                "y": -26.553429
+              },
+              "uuid": "9ce77bbc-cead-465a-8e13-336048d12640"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 16,
+          "description": "Board edge clearance violation (rule 'Source edge envelope zone_7' clearance 0.2540 mm; actual 0.2438 mm)",
+          "items": [
+            {
+              "description": "Arc on Edge.Cuts",
+              "pos": {
+                "x": 48.773,
+                "y": -25.81
+              },
+              "uuid": "783caab9-c054-4e27-8098-7bb2e3804c2f"
+            },
+            {
+              "description": "Zone 'Static union /GND B.Cu 0' [/GND] on B.Cu, priority 0",
+              "pos": {
+                "x": 69.085495,
+                "y": -26.553429
+              },
+              "uuid": "5db085cf-4ed6-451b-bcde-86e00f427419"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 17,
+          "description": "Clearance violation (rule 'Source SAFE B.Cu pth to zone_7' clearance 0.2540 mm; actual 0.0000 mm)",
+          "items": [
+            {
+              "description": "PTH pad 1 [/Battery] of CN1",
+              "pos": {
+                "x": 59.817,
+                "y": -23.241
+              },
+              "uuid": "b7dfd672-be4a-4303-956c-920e950739d0"
+            },
+            {
+              "description": "Zone 'Static union /GND B.Cu 0' [/GND] on B.Cu, priority 0",
+              "pos": {
+                "x": 69.085495,
+                "y": -26.553429
+              },
+              "uuid": "5db085cf-4ed6-451b-bcde-86e00f427419"
+            }
+          ],
+          "severity": "error",
+          "type": "clearance",
+          "independent_filled_geometry": {
+            "distance_mm": 0.0,
+            "intersection_area_mm2": 0.2016727600626668,
+            "layer": "B.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.201672759807
+          },
+          "localized_source_pairs": [
+            {
+              "source_a": "b7dfd672-be4a-4303-956c-920e950739d0",
+              "class_a": 2,
+              "source_b": "Recovered 6433fd3c96979807",
+              "class_b": 7,
+              "distance_mm": 0.0,
+              "required_mm": 0.254,
+              "margin_mm": -0.254
+            }
+          ],
+          "all_local_source_pairs_meet_limit": false
+        },
+        {
+          "index": 18,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of J1 on F.Silkscreen",
+              "pos": {
+                "x": 63.79784,
+                "y": -21.998
+              },
+              "uuid": "afb1cfba-b212-44cd-8b3e-64d6a6e42fc5"
+            },
+            {
+              "description": "Reference field of J1",
+              "pos": {
+                "x": 62.611,
+                "y": -23.622
+              },
+              "uuid": "dbd76566-ab50-4144-9f13-f0b0607e4b3f"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 19,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of J6 on F.Silkscreen",
+              "pos": {
+                "x": 62.611,
+                "y": -12.350013
+              },
+              "uuid": "6c36b007-35c3-43f4-a644-039d59162ee4"
+            },
+            {
+              "description": "Reference field of J6",
+              "pos": {
+                "x": 60.96,
+                "y": -12.319
+              },
+              "uuid": "bb499493-a42c-4b59-94a3-a36bc7c1f3cc"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 20,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Reference field of CN1",
+              "pos": {
+                "x": 59.66206,
+                "y": -18.542
+              },
+              "uuid": "5cd80f04-7571-4f1f-a339-01738e39025a"
+            },
+            {
+              "description": "Segment of J6 on F.Silkscreen",
+              "pos": {
+                "x": 62.611,
+                "y": -12.350013
+              },
+              "uuid": "6c36b007-35c3-43f4-a644-039d59162ee4"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 21,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of CN1 on F.Silkscreen",
+              "pos": {
+                "x": 55.766995,
+                "y": -20.10156
+              },
+              "uuid": "7b421a0b-c29d-4da8-baf5-94e0750c56f7"
+            },
+            {
+              "description": "Reference field of J2",
+              "pos": {
+                "x": 54.229,
+                "y": -23.495
+              },
+              "uuid": "f0dc7923-b215-47a7-a5b3-1ac84c293a49"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 22,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of J6 on F.Silkscreen",
+              "pos": {
+                "x": 62.611,
+                "y": -12.349988
+              },
+              "uuid": "67ccf9ae-031b-4e07-8a20-fad6852ce105"
+            },
+            {
+              "description": "Reference field of J6",
+              "pos": {
+                "x": 60.96,
+                "y": -12.319
+              },
+              "uuid": "bb499493-a42c-4b59-94a3-a36bc7c1f3cc"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 23,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of J4 on F.Silkscreen",
+              "pos": {
+                "x": 48.018065,
+                "y": -3.685997
+              },
+              "uuid": "6e4b3202-2200-4cdc-ac3f-0775f930a35b"
+            },
+            {
+              "description": "Reference field of J4",
+              "pos": {
+                "x": 48.133,
+                "y": -2.286
+              },
+              "uuid": "725f2a51-ce0f-411f-ad1d-6602d8111a15"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 24,
+          "description": "Silkscreen clipped by board edge",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 70.070302,
+                "y": -12.057299
+              },
+              "uuid": "a8864ec8-1108-4911-b92c-799a2dba028b"
+            },
+            {
+              "description": "Reference field of J3",
+              "pos": {
+                "x": 68.326,
+                "y": -2.286
+              },
+              "uuid": "e3e77527-deef-4588-8602-f1b07a326ce9"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_edge_clearance"
+        }
+      ]
+    },
+    {
+      "candidate": "POGO_PIN_1V0A",
+      "board": "editing/kicad-integrated/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_pcb",
+      "board_sha256": "a3da5545a0251f4b08176befa0932d6f028e3c57425e34eb494d5b5f91ac91cf",
+      "drc_report_sha256": "9a4b8c3af4b941c454ea7cab6d4804ece097fef61684f23a5d5464ea22469bb2",
+      "kicad_version": "10.0.7",
+      "counts": {
+        "nonmirrored_text_on_back_layer": 2
+      },
+      "findings": [
+        {
+          "index": 0,
+          "description": "Non-Mirrored text on back layer",
+          "items": [
+            {
+              "description": "Reference field of U1",
+              "pos": {
+                "x": 108.675002,
+                "y": -6.384
+              },
+              "uuid": "24ce1c22-d627-4eb6-baa2-9bc7cad2ca6b"
+            }
+          ],
+          "severity": "warning",
+          "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+          "index": 1,
+          "description": "Non-Mirrored text on back layer",
+          "items": [
+            {
+              "description": "Reference field of U2",
+              "pos": {
+                "x": 78.957002,
+                "y": -6.511
+              },
+              "uuid": "d455e17f-f9a7-4b74-b0f2-28486af51ceb"
+            }
+          ],
+          "severity": "warning",
+          "type": "nonmirrored_text_on_back_layer"
+        }
+      ]
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A-transition-hypothesis",
+      "board": "editing/kicad-integrated/imu_to_dxl_1V0A-transition-hypothesis/imu_to_dxl_1V0A.kicad_pcb",
+      "board_sha256": "30df0eb61b6f821cb44483e8ebf3e9c56ed89fe27871eceef16b36420c04afb2",
+      "drc_report_sha256": "93a8250ee02d46c351a09db52e8f8c087215f0791f90fd0b0c4229b2517b38ee",
+      "kicad_version": "10.0.7",
+      "counts": {
+        "copper_edge_clearance": 1,
+        "clearance": 12,
+        "zones_intersect": 5,
+        "silk_overlap": 37,
+        "silk_over_copper": 11
+      },
+      "findings": [
+        {
+          "index": 0,
+          "description": "Board edge clearance violation (rule 'Source edge envelope zone_6_7' clearance 0.2997 mm; actual 0.2937 mm)",
+          "items": [
+            {
+              "description": "Arc on Edge.Cuts",
+              "pos": {
+                "x": 12.575,
+                "y": -0.598
+              },
+              "uuid": "5c04423d-f05b-4805-b232-85c2e314d443"
+            },
+            {
+              "description": "Zone 'Static union /GND F.Cu 3' [/GND] on F.Cu, priority 0",
+              "pos": {
+                "x": 37.514687,
+                "y": -29.528252
+              },
+              "uuid": "4da7d5ec-59b5-4026-920b-07dd9b801f18"
+            }
+          ],
+          "severity": "error",
+          "type": "copper_edge_clearance"
+        },
+        {
+          "index": 1,
+          "description": "Clearance violation (rule 'Source SAFE F.Cu track to zone_6_7' clearance 0.2540 mm; actual 0.2381 mm)",
+          "items": [
+            {
+              "description": "Track [/IMU_INT1] on F.Cu, length 1.0908 mm",
+              "pos": {
+                "x": 22.802959,
+                "y": -14.471137
+              },
+              "uuid": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31"
+            },
+            {
+              "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+              "pos": {
+                "x": 23.245576,
+                "y": -16.046637
+              },
+              "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+            }
+          ],
+          "severity": "error",
+          "type": "clearance",
+          "independent_filled_geometry": {
+            "distance_mm": 0.23812500000000017,
+            "intersection_area_mm2": 0.0,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.0
+          },
+          "localized_source_pairs": [
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered 9e6ef9e9729c8ee7",
+              "class_b": 7,
+              "distance_mm": 0.2565400000000011,
+              "required_mm": 0.254,
+              "margin_mm": 0.002540000000001097
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered 84a63625734e769f",
+              "class_b": 7,
+              "distance_mm": 0.2565400000000011,
+              "required_mm": 0.254,
+              "margin_mm": 0.002540000000001097
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered acbd68bc789f3324",
+              "class_b": 6,
+              "distance_mm": 0.23812500000000017,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.08612378000000018
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered 84a63625734e769f",
+              "class_b": 6,
+              "distance_mm": 0.2565400000000011,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.10453878000000111
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered 2c53b68d79930354",
+              "class_b": 6,
+              "distance_mm": 0.28332400000000035,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.13132278000000036
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered 43e4f079cf689ec8",
+              "class_b": 6,
+              "distance_mm": 0.6227619999999998,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.4707607799999998
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered 13fc66dcf638c6cf",
+              "class_b": 6,
+              "distance_mm": 0.7379970000000001,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.5859957800000002
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered 88489c7ee9e959aa",
+              "class_b": 6,
+              "distance_mm": 1.0097130859610586,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.8577118659610585
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered a3bc5a25a3a9be11",
+              "class_b": 6,
+              "distance_mm": 1.2444650632850254,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.0924638432850253
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered 7be69d2bf5487e7d",
+              "class_b": 6,
+              "distance_mm": 1.3676045120227553,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.2156032920227553
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered bd6779a9c26b52f4",
+              "class_b": 6,
+              "distance_mm": 1.3802288858189422,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.2282276658189422
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered 8a2bfb0d42c24841",
+              "class_b": 6,
+              "distance_mm": 1.4448174146244204,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.2928161946244203
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered 7c741037ec45bc51",
+              "class_b": 6,
+              "distance_mm": 1.4784843641976742,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.326483144197674
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered 12706661c84c798e",
+              "class_b": 6,
+              "distance_mm": 1.679786191395203,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.527784971395203
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered 552d312dece731aa",
+              "class_b": 6,
+              "distance_mm": 1.7220887771308415,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.5700875571308415
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered 12c102a31a9a8ea0",
+              "class_b": 6,
+              "distance_mm": 1.8176144809878045,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.6656132609878045
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered 35892a42ec87e36c",
+              "class_b": 6,
+              "distance_mm": 1.903794970904692,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.751793750904692
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered f89ca9fc97dd4c4d",
+              "class_b": 6,
+              "distance_mm": 2.2871012359003693,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.1351000159003695
+            },
+            {
+              "source_a": "7f9f78ba-cac8-49c1-b665-a3fe3299fb31",
+              "class_a": 0,
+              "source_b": "Recovered 7b68ac88c9f6397e",
+              "class_b": 6,
+              "distance_mm": 2.336006107656825,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.184004887656825
+            }
+          ],
+          "all_local_source_pairs_meet_limit": true
+        },
+        {
+          "index": 2,
+          "description": "Clearance violation (rule 'Source SAFE F.Cu track to zone_6_7' clearance 0.2540 mm; actual 0.2283 mm)",
+          "items": [
+            {
+              "description": "Track [/IMU_INT1] on F.Cu, length 0.7452 mm",
+              "pos": {
+                "x": 22.275998,
+                "y": -14.998098
+              },
+              "uuid": "6788717c-8f61-43c3-8126-d2056f6f6e4a"
+            },
+            {
+              "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+              "pos": {
+                "x": 23.245576,
+                "y": -16.046637
+              },
+              "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+            }
+          ],
+          "severity": "error",
+          "type": "clearance",
+          "independent_filled_geometry": {
+            "distance_mm": 0.2282520818527615,
+            "intersection_area_mm2": 0.0,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.0
+          },
+          "localized_source_pairs": [
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered 9e6ef9e9729c8ee7",
+              "class_b": 7,
+              "distance_mm": 0.2565401355100431,
+              "required_mm": 0.254,
+              "margin_mm": 0.0025401355100431178
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered 84a63625734e769f",
+              "class_b": 7,
+              "distance_mm": 0.2565401355100431,
+              "required_mm": 0.254,
+              "margin_mm": 0.0025401355100431178
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered 2c53b68d79930354",
+              "class_b": 6,
+              "distance_mm": 0.2282520818527615,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.0762508618527615
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered 84a63625734e769f",
+              "class_b": 6,
+              "distance_mm": 0.2565401355100431,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.10453891551004313
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered acbd68bc789f3324",
+              "class_b": 6,
+              "distance_mm": 0.42721943731421486,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.27521821731421486
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered 43e4f079cf689ec8",
+              "class_b": 6,
+              "distance_mm": 0.6587392880776654,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.5067380680776654
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered 13fc66dcf638c6cf",
+              "class_b": 6,
+              "distance_mm": 0.780074629173749,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.628073409173749
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered 88489c7ee9e959aa",
+              "class_b": 6,
+              "distance_mm": 2.0501718684346946,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.8981706484346945
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered bd6779a9c26b52f4",
+              "class_b": 6,
+              "distance_mm": 2.1999629995947667,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.047961779594767
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered a3bc5a25a3a9be11",
+              "class_b": 6,
+              "distance_mm": 2.202695548963816,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.050694328963816
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered 7be69d2bf5487e7d",
+              "class_b": 6,
+              "distance_mm": 2.29505785074146,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.14305663074146
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered 552d312dece731aa",
+              "class_b": 6,
+              "distance_mm": 2.3420025273407945,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.1900013073407947
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered 12706661c84c798e",
+              "class_b": 6,
+              "distance_mm": 2.355598182162655,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.203596962162655
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered 8a2bfb0d42c24841",
+              "class_b": 6,
+              "distance_mm": 2.4663647792413,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.3143635592413
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered 7c741037ec45bc51",
+              "class_b": 6,
+              "distance_mm": 2.5406979281191604,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.3886967081191606
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered 12c102a31a9a8ea0",
+              "class_b": 6,
+              "distance_mm": 2.751863653387281,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.599862433387281
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered 35892a42ec87e36c",
+              "class_b": 6,
+              "distance_mm": 2.8371919470945195,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.6851907270945197
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered f89ca9fc97dd4c4d",
+              "class_b": 6,
+              "distance_mm": 3.1635346633827246,
+              "required_mm": 0.15200122,
+              "margin_mm": 3.0115334433827248
+            },
+            {
+              "source_a": "6788717c-8f61-43c3-8126-d2056f6f6e4a",
+              "class_a": 0,
+              "source_b": "Recovered 7b68ac88c9f6397e",
+              "class_b": 6,
+              "distance_mm": 3.232777224367307,
+              "required_mm": 0.15200122,
+              "margin_mm": 3.080776004367307
+            }
+          ],
+          "all_local_source_pairs_meet_limit": true
+        },
+        {
+          "index": 3,
+          "description": "Clearance violation (rule 'Source SAFE F.Cu track to zone_6_7' clearance 0.2540 mm; actual 0.2379 mm)",
+          "items": [
+            {
+              "description": "Track [/3.3V] on F.Cu, length 0.6594 mm",
+              "pos": {
+                "x": 24.563962,
+                "y": -14.301313
+              },
+              "uuid": "cc942bdd-2ce3-4c25-860c-24a0f7568869"
+            },
+            {
+              "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+              "pos": {
+                "x": 23.245576,
+                "y": -16.046637
+              },
+              "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+            }
+          ],
+          "severity": "error",
+          "type": "clearance",
+          "independent_filled_geometry": {
+            "distance_mm": 0.23787100000000194,
+            "intersection_area_mm2": 0.0,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.0
+          },
+          "localized_source_pairs": [
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered 9e6ef9e9729c8ee7",
+              "class_b": 7,
+              "distance_mm": 0.2563481819028461,
+              "required_mm": 0.254,
+              "margin_mm": 0.0023481819028460804
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered 84a63625734e769f",
+              "class_b": 7,
+              "distance_mm": 0.2563481819028461,
+              "required_mm": 0.254,
+              "margin_mm": 0.0023481819028460804
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered 88489c7ee9e959aa",
+              "class_b": 6,
+              "distance_mm": 0.23787100000000194,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.08586978000000195
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered 84a63625734e769f",
+              "class_b": 6,
+              "distance_mm": 0.2563481819028461,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.10434696190284609
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered a3bc5a25a3a9be11",
+              "class_b": 6,
+              "distance_mm": 0.28337364761388817,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.13137242761388818
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered bd6779a9c26b52f4",
+              "class_b": 6,
+              "distance_mm": 0.31753698982908846,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.16553576982908846
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered 7be69d2bf5487e7d",
+              "class_b": 6,
+              "distance_mm": 0.35038867014788094,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.19838745014788095
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered 8a2bfb0d42c24841",
+              "class_b": 6,
+              "distance_mm": 0.6077709999999996,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.4557697799999996
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered 12706661c84c798e",
+              "class_b": 6,
+              "distance_mm": 0.6799333425895518,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.5279321225895519
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered 7c741037ec45bc51",
+              "class_b": 6,
+              "distance_mm": 0.7379970000000001,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.5859957800000002
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered 552d312dece731aa",
+              "class_b": 6,
+              "distance_mm": 0.7627751575464419,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.6107739375464418
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered 12c102a31a9a8ea0",
+              "class_b": 6,
+              "distance_mm": 0.8085742868329099,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.65657306683291
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered 35892a42ec87e36c",
+              "class_b": 6,
+              "distance_mm": 0.890743919297235,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.738742699297235
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered acbd68bc789f3324",
+              "class_b": 6,
+              "distance_mm": 0.9809108266351224,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.8289096066351225
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered f89ca9fc97dd4c4d",
+              "class_b": 6,
+              "distance_mm": 1.2366990197529883,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.0846977997529883
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered 13fc66dcf638c6cf",
+              "class_b": 6,
+              "distance_mm": 1.2915034501680585,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.1395022301680584
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered 7b68ac88c9f6397e",
+              "class_b": 6,
+              "distance_mm": 1.2963195963114182,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.1443183763114182
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered 2c53b68d79930354",
+              "class_b": 6,
+              "distance_mm": 1.4181171761617584,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.2661159561617583
+            },
+            {
+              "source_a": "cc942bdd-2ce3-4c25-860c-24a0f7568869",
+              "class_a": 0,
+              "source_b": "Recovered 43e4f079cf689ec8",
+              "class_b": 6,
+              "distance_mm": 1.5476368989785678,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.3956356789785678
+            }
+          ],
+          "all_local_source_pairs_meet_limit": true
+        },
+        {
+          "index": 4,
+          "description": "Clearance violation (rule 'Source SAFE F.Cu track to zone_6_7' clearance 0.2540 mm; actual 0.2532 mm)",
+          "items": [
+            {
+              "description": "Track [/3.3V] on F.Cu, length 0.8486 mm",
+              "pos": {
+                "x": 24.563962,
+                "y": -13.641962
+              },
+              "uuid": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017"
+            },
+            {
+              "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+              "pos": {
+                "x": 23.245576,
+                "y": -16.046637
+              },
+              "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+            }
+          ],
+          "severity": "error",
+          "type": "clearance",
+          "independent_filled_geometry": {
+            "distance_mm": 0.2531524338753256,
+            "intersection_area_mm2": 0.0,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.0
+          },
+          "localized_source_pairs": [
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered 9e6ef9e9729c8ee7",
+              "class_b": 7,
+              "distance_mm": 0.2563484080678895,
+              "required_mm": 0.254,
+              "margin_mm": 0.002348408067889496
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered 84a63625734e769f",
+              "class_b": 7,
+              "distance_mm": 0.2563484080678895,
+              "required_mm": 0.254,
+              "margin_mm": 0.002348408067889496
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered 88489c7ee9e959aa",
+              "class_b": 6,
+              "distance_mm": 0.2531524338753256,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.10115121387532561
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered 84a63625734e769f",
+              "class_b": 6,
+              "distance_mm": 0.2563484080678895,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.10434718806788951
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered a3bc5a25a3a9be11",
+              "class_b": 6,
+              "distance_mm": 0.2833736079824656,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.1313723879824656
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered bd6779a9c26b52f4",
+              "class_b": 6,
+              "distance_mm": 0.30322346403347933,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.15122224403347934
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered 7be69d2bf5487e7d",
+              "class_b": 6,
+              "distance_mm": 0.35038867014788094,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.19838745014788095
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered 552d312dece731aa",
+              "class_b": 6,
+              "distance_mm": 0.510177921664505,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.35817670166450505
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered 12706661c84c798e",
+              "class_b": 6,
+              "distance_mm": 0.5179619798018227,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.3659607598018227
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered 8a2bfb0d42c24841",
+              "class_b": 6,
+              "distance_mm": 0.6182345306758562,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.4662333106758562
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered 7c741037ec45bc51",
+              "class_b": 6,
+              "distance_mm": 0.748502199919945,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.596500979919945
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered 12c102a31a9a8ea0",
+              "class_b": 6,
+              "distance_mm": 0.8085741750150506,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.6565729550150505
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered 35892a42ec87e36c",
+              "class_b": 6,
+              "distance_mm": 0.890743919297235,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.738742699297235
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered f89ca9fc97dd4c4d",
+              "class_b": 6,
+              "distance_mm": 1.2366990197529883,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.0846977997529883
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered 7b68ac88c9f6397e",
+              "class_b": 6,
+              "distance_mm": 1.2963203712452316,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.1443191512452315
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered acbd68bc789f3324",
+              "class_b": 6,
+              "distance_mm": 1.4117180178828577,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.2597167978828576
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered 13fc66dcf638c6cf",
+              "class_b": 6,
+              "distance_mm": 1.8253099001802393,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.6733086801802393
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered 2c53b68d79930354",
+              "class_b": 6,
+              "distance_mm": 1.827815537942515,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.675814317942515
+            },
+            {
+              "source_a": "3c46d29f-0f5a-4e3f-bfe0-8aed97b19017",
+              "class_a": 0,
+              "source_b": "Recovered 43e4f079cf689ec8",
+              "class_b": 6,
+              "distance_mm": 1.982932285824454,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.830931065824454
+            }
+          ],
+          "all_local_source_pairs_meet_limit": true
+        },
+        {
+          "index": 5,
+          "description": "Clearance violation (rule 'Source SAFE F.Cu smd to zone_6_7' clearance 0.2540 mm; actual 0.2301 mm)",
+          "items": [
+            {
+              "description": "Pad 1 [/SPI_MISO] of U2 on F.Cu",
+              "pos": {
+                "x": 23.893757,
+                "y": -15.971261
+              },
+              "uuid": "acbe5f2e-24e4-4eee-b902-6a4f748b906f"
+            },
+            {
+              "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+              "pos": {
+                "x": 23.245576,
+                "y": -16.046637
+              },
+              "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+            }
+          ],
+          "severity": "error",
+          "type": "clearance",
+          "independent_filled_geometry": {
+            "distance_mm": 0.230124,
+            "intersection_area_mm2": 0.0,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.0
+          },
+          "localized_source_pairs": [
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered 9e6ef9e9729c8ee7",
+              "class_b": 7,
+              "distance_mm": 0.2563478864396172,
+              "required_mm": 0.254,
+              "margin_mm": 0.0023478864396171972
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered 84a63625734e769f",
+              "class_b": 7,
+              "distance_mm": 0.2563478864396172,
+              "required_mm": 0.254,
+              "margin_mm": 0.0023478864396171972
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered 13fc66dcf638c6cf",
+              "class_b": 6,
+              "distance_mm": 0.230124,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.07812278
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered 84a63625734e769f",
+              "class_b": 6,
+              "distance_mm": 0.2563478864396172,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.10434666643961721
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered 43e4f079cf689ec8",
+              "class_b": 6,
+              "distance_mm": 0.6135904951610649,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.4615892751610649
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered 2c53b68d79930354",
+              "class_b": 6,
+              "distance_mm": 0.7193468876209862,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.5673456676209863
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered acbd68bc789f3324",
+              "class_b": 6,
+              "distance_mm": 0.7299959999999999,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.5779947799999998
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered 88489c7ee9e959aa",
+              "class_b": 6,
+              "distance_mm": 1.9767065256982381,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.824705305698238
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered 7c741037ec45bc51",
+              "class_b": 6,
+              "distance_mm": 2.2119577175023024,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.0599564975023026
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered a3bc5a25a3a9be11",
+              "class_b": 6,
+              "distance_mm": 2.2459134855120753,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.0939122655120754
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered 8a2bfb0d42c24841",
+              "class_b": 6,
+              "distance_mm": 2.34633553662088,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.19433431662088
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered 7be69d2bf5487e7d",
+              "class_b": 6,
+              "distance_mm": 2.4937206459940526,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.341719425994053
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered bd6779a9c26b52f4",
+              "class_b": 6,
+              "distance_mm": 2.6303731909962886,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.478371970996289
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered 12c102a31a9a8ea0",
+              "class_b": 6,
+              "distance_mm": 2.691517845596606,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.539516625596606
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered 35892a42ec87e36c",
+              "class_b": 6,
+              "distance_mm": 2.8550220272778972,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.7030208072778974
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered 12706661c84c798e",
+              "class_b": 6,
+              "distance_mm": 3.0320340275405875,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.8800328075405877
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered 552d312dece731aa",
+              "class_b": 6,
+              "distance_mm": 3.107520264149535,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.9555190441495354
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered f89ca9fc97dd4c4d",
+              "class_b": 6,
+              "distance_mm": 3.359203935387816,
+              "required_mm": 0.15200122,
+              "margin_mm": 3.207202715387816
+            },
+            {
+              "source_a": "acbe5f2e-24e4-4eee-b902-6a4f748b906f",
+              "class_a": 1,
+              "source_b": "Recovered 7b68ac88c9f6397e",
+              "class_b": 6,
+              "distance_mm": 3.369910052055988,
+              "required_mm": 0.15200122,
+              "margin_mm": 3.217908832055988
+            }
+          ],
+          "all_local_source_pairs_meet_limit": true
+        },
+        {
+          "index": 6,
+          "description": "Clearance violation (rule 'Source SAFE F.Cu smd to zone_6_7' clearance 0.2540 mm; actual 0.2301 mm)",
+          "items": [
+            {
+              "description": "Pad 4 [/IMU_INT1] of U2 on F.Cu",
+              "pos": {
+                "x": 23.893757,
+                "y": -14.471137
+              },
+              "uuid": "818a3597-99aa-493d-bb12-495e287c3626"
+            },
+            {
+              "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+              "pos": {
+                "x": 23.245576,
+                "y": -16.046637
+              },
+              "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+            }
+          ],
+          "severity": "error",
+          "type": "clearance",
+          "independent_filled_geometry": {
+            "distance_mm": 0.230124,
+            "intersection_area_mm2": 0.0,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.0
+          },
+          "localized_source_pairs": [
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered 9e6ef9e9729c8ee7",
+              "class_b": 7,
+              "distance_mm": 0.25638303897254855,
+              "required_mm": 0.254,
+              "margin_mm": 0.0023830389725485457
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered 84a63625734e769f",
+              "class_b": 7,
+              "distance_mm": 0.25638303897254855,
+              "required_mm": 0.254,
+              "margin_mm": 0.0023830389725485457
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered acbd68bc789f3324",
+              "class_b": 6,
+              "distance_mm": 0.230124,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.07812278
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered 84a63625734e769f",
+              "class_b": 6,
+              "distance_mm": 0.25638303897254855,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.10438181897254856
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered 2c53b68d79930354",
+              "class_b": 6,
+              "distance_mm": 0.5870018659748887,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.4350006459748887
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered 13fc66dcf638c6cf",
+              "class_b": 6,
+              "distance_mm": 0.7299959999999999,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.5779947799999998
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered 43e4f079cf689ec8",
+              "class_b": 6,
+              "distance_mm": 0.749852332509541,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.5978511125095409
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered 88489c7ee9e959aa",
+              "class_b": 6,
+              "distance_mm": 0.807740451666252,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.655739231666252
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered a3bc5a25a3a9be11",
+              "class_b": 6,
+              "distance_mm": 1.054913550969936,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.9029123309699361
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered 7be69d2bf5487e7d",
+              "class_b": 6,
+              "distance_mm": 1.1844634212169662,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.0324622012169662
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered bd6779a9c26b52f4",
+              "class_b": 6,
+              "distance_mm": 1.2310180152560715,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.0790167952560714
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered 8a2bfb0d42c24841",
+              "class_b": 6,
+              "distance_mm": 1.243210416926272,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.091209196926272
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered 7c741037ec45bc51",
+              "class_b": 6,
+              "distance_mm": 1.2797784544748345,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.1277772344748345
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered 12706661c84c798e",
+              "class_b": 6,
+              "distance_mm": 1.5694221967195443,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.4174209767195443
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered 12c102a31a9a8ea0",
+              "class_b": 6,
+              "distance_mm": 1.6188596266452793,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.4668584066452792
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered 552d312dece731aa",
+              "class_b": 6,
+              "distance_mm": 1.6291989981202417,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.4771977781202417
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered 35892a42ec87e36c",
+              "class_b": 6,
+              "distance_mm": 1.713712604245238,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.561711384245238
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered f89ca9fc97dd4c4d",
+              "class_b": 6,
+              "distance_mm": 2.106717397016742,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.9547161770167418
+            },
+            {
+              "source_a": "818a3597-99aa-493d-bb12-495e287c3626",
+              "class_a": 1,
+              "source_b": "Recovered 7b68ac88c9f6397e",
+              "class_b": 6,
+              "distance_mm": 2.150848541004223,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.998847321004223
+            }
+          ],
+          "all_local_source_pairs_meet_limit": true
+        },
+        {
+          "index": 7,
+          "description": "Clearance violation (rule 'Source SAFE F.Cu smd to zone_6_7' clearance 0.2540 mm; actual 0.2299 mm)",
+          "items": [
+            {
+              "description": "Pad 5 [/3.3V] of U2 on F.Cu",
+              "pos": {
+                "x": 24.563962,
+                "y": -14.301313
+              },
+              "uuid": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591"
+            },
+            {
+              "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+              "pos": {
+                "x": 23.245576,
+                "y": -16.046637
+              },
+              "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+            }
+          ],
+          "severity": "error",
+          "type": "clearance",
+          "independent_filled_geometry": {
+            "distance_mm": 0.22987000000217694,
+            "intersection_area_mm2": 0.0,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.0
+          },
+          "localized_source_pairs": [
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered 9e6ef9e9729c8ee7",
+              "class_b": 7,
+              "distance_mm": 0.25634749875951446,
+              "required_mm": 0.254,
+              "margin_mm": 0.0023474987595144547
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered 84a63625734e769f",
+              "class_b": 7,
+              "distance_mm": 0.25634749875951446,
+              "required_mm": 0.254,
+              "margin_mm": 0.0023474987595144547
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered 88489c7ee9e959aa",
+              "class_b": 6,
+              "distance_mm": 0.22987000000217694,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.07786878000217695
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered 84a63625734e769f",
+              "class_b": 6,
+              "distance_mm": 0.25634749875951446,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.10434627875951447
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered a3bc5a25a3a9be11",
+              "class_b": 6,
+              "distance_mm": 0.4597500255793031,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.3077488055793031
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered 7be69d2bf5487e7d",
+              "class_b": 6,
+              "distance_mm": 0.6078752481636357,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.4558740281636357
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered 8a2bfb0d42c24841",
+              "class_b": 6,
+              "distance_mm": 0.6441336588542782,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.4921324388542782
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered 7c741037ec45bc51",
+              "class_b": 6,
+              "distance_mm": 0.7299960000006848,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.5779947800006848
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered bd6779a9c26b52f4",
+              "class_b": 6,
+              "distance_mm": 0.7350442150517217,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.5830429950517217
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered acbd68bc789f3324",
+              "class_b": 6,
+              "distance_mm": 0.8676206277567401,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.7156194077567402
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered 12c102a31a9a8ea0",
+              "class_b": 6,
+              "distance_mm": 1.0129256028181317,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.8609243828181317
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered 13fc66dcf638c6cf",
+              "class_b": 6,
+              "distance_mm": 1.1124420986698584,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.9604408786698584
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered 35892a42ec87e36c",
+              "class_b": 6,
+              "distance_mm": 1.115721172195696,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.9637199521956961
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered 12706661c84c798e",
+              "class_b": 6,
+              "distance_mm": 1.1583120000000002,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.0063107800000002
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered 552d312dece731aa",
+              "class_b": 6,
+              "distance_mm": 1.249054000000001,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.097052780000001
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered 2c53b68d79930354",
+              "class_b": 6,
+              "distance_mm": 1.2947950567920015,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.1427938367920014
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered 43e4f079cf689ec8",
+              "class_b": 6,
+              "distance_mm": 1.4081903437280763,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.2561891237280762
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered f89ca9fc97dd4c4d",
+              "class_b": 6,
+              "distance_mm": 1.5226399137241877,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.3706386937241877
+            },
+            {
+              "source_a": "1123eb6d-5e38-4fcb-ac53-3924ca5e9591",
+              "class_a": 1,
+              "source_b": "Recovered 7b68ac88c9f6397e",
+              "class_b": 6,
+              "distance_mm": 1.5586439303397683,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.4066427103397683
+            }
+          ],
+          "all_local_source_pairs_meet_limit": true
+        },
+        {
+          "index": 8,
+          "description": "Clearance violation (rule 'Source SAFE F.Cu smd to zone_6_7' clearance 0.2540 mm; actual 0.2201 mm)",
+          "items": [
+            {
+              "description": "Pad 3 [/MCU_RX] of U3 on F.Cu",
+              "pos": {
+                "x": 15.996412,
+                "y": -16.006064
+              },
+              "uuid": "ecac1539-f6a7-4d28-a9d2-62928a41b2ad"
+            },
+            {
+              "description": "Zone 'Static union /GND F.Cu 3' [/GND] on F.Cu, priority 0",
+              "pos": {
+                "x": 37.514687,
+                "y": -29.528252
+              },
+              "uuid": "4da7d5ec-59b5-4026-920b-07dd9b801f18"
+            }
+          ],
+          "severity": "error",
+          "type": "clearance",
+          "independent_filled_geometry": {
+            "distance_mm": 0.2201159999999991,
+            "intersection_area_mm2": 0.0,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.0
+          },
+          "localized_source_pairs": [
+            {
+              "source_a": "ecac1539-f6a7-4d28-a9d2-62928a41b2ad",
+              "class_a": 1,
+              "source_b": "Recovered 9e6ef9e9729c8ee7",
+              "class_b": 7,
+              "distance_mm": 0.25634003391940147,
+              "required_mm": 0.254,
+              "margin_mm": 0.002340033919401463
+            },
+            {
+              "source_a": "ecac1539-f6a7-4d28-a9d2-62928a41b2ad",
+              "class_a": 1,
+              "source_b": "Recovered 84a63625734e769f",
+              "class_b": 7,
+              "distance_mm": 0.25634003391940147,
+              "required_mm": 0.254,
+              "margin_mm": 0.002340033919401463
+            },
+            {
+              "source_a": "ecac1539-f6a7-4d28-a9d2-62928a41b2ad",
+              "class_a": 1,
+              "source_b": "Recovered ffddb1f93d28660f",
+              "class_b": 6,
+              "distance_mm": 0.2201159999999991,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.0681147799999991
+            },
+            {
+              "source_a": "ecac1539-f6a7-4d28-a9d2-62928a41b2ad",
+              "class_a": 1,
+              "source_b": "Recovered 84a63625734e769f",
+              "class_b": 6,
+              "distance_mm": 0.25634003391940147,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.10433881391940147
+            },
+            {
+              "source_a": "ecac1539-f6a7-4d28-a9d2-62928a41b2ad",
+              "class_a": 1,
+              "source_b": "Recovered 9faf70d88af5baa2",
+              "class_b": 6,
+              "distance_mm": 0.3281477823420427,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.17614656234204273
+            },
+            {
+              "source_a": "ecac1539-f6a7-4d28-a9d2-62928a41b2ad",
+              "class_a": 1,
+              "source_b": "Recovered d0586fb60e7fb6b7",
+              "class_b": 6,
+              "distance_mm": 5.905331066357331,
+              "required_mm": 0.15200122,
+              "margin_mm": 5.753329846357331
+            },
+            {
+              "source_a": "ecac1539-f6a7-4d28-a9d2-62928a41b2ad",
+              "class_a": 1,
+              "source_b": "Recovered a8e86dc6a530abc9",
+              "class_b": 6,
+              "distance_mm": 6.125400902849788,
+              "required_mm": 0.15200122,
+              "margin_mm": 5.973399682849788
+            },
+            {
+              "source_a": "ecac1539-f6a7-4d28-a9d2-62928a41b2ad",
+              "class_a": 1,
+              "source_b": "Recovered 7910f8c42746b519",
+              "class_b": 6,
+              "distance_mm": 6.298243202355131,
+              "required_mm": 0.15200122,
+              "margin_mm": 6.146241982355131
+            },
+            {
+              "source_a": "ecac1539-f6a7-4d28-a9d2-62928a41b2ad",
+              "class_a": 1,
+              "source_b": "Recovered f693a2a342b07c17",
+              "class_b": 6,
+              "distance_mm": 6.405341097002877,
+              "required_mm": 0.15200122,
+              "margin_mm": 6.253339877002877
+            },
+            {
+              "source_a": "ecac1539-f6a7-4d28-a9d2-62928a41b2ad",
+              "class_a": 1,
+              "source_b": "Recovered dca4e8522837e94e",
+              "class_b": 6,
+              "distance_mm": 6.82820708726244,
+              "required_mm": 0.15200122,
+              "margin_mm": 6.67620586726244
+            },
+            {
+              "source_a": "ecac1539-f6a7-4d28-a9d2-62928a41b2ad",
+              "class_a": 1,
+              "source_b": "Recovered c38aba8838282a26",
+              "class_b": 6,
+              "distance_mm": 7.517417014074782,
+              "required_mm": 0.15200122,
+              "margin_mm": 7.365415794074782
+            },
+            {
+              "source_a": "ecac1539-f6a7-4d28-a9d2-62928a41b2ad",
+              "class_a": 1,
+              "source_b": "Recovered d2e80a024d69225e",
+              "class_b": 6,
+              "distance_mm": 18.957247983271962,
+              "required_mm": 0.15200122,
+              "margin_mm": 18.805246763271963
+            },
+            {
+              "source_a": "ecac1539-f6a7-4d28-a9d2-62928a41b2ad",
+              "class_a": 1,
+              "source_b": "Recovered bb89f83d3021b6f8",
+              "class_b": 6,
+              "distance_mm": 19.776560003625963,
+              "required_mm": 0.15200122,
+              "margin_mm": 19.624558783625965
+            }
+          ],
+          "all_local_source_pairs_meet_limit": true
+        },
+        {
+          "index": 9,
+          "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+          "items": [
+            {
+              "description": "Zone 'Static union /3.3V F.Cu 19' [/3.3V] on F.Cu, priority 0",
+              "pos": {
+                "x": 32.024925,
+                "y": -22.617841
+              },
+              "uuid": "138270fd-f9ea-4da4-9f47-db8341d16cda"
+            },
+            {
+              "description": "Zone 'Static union /3.3V F.Cu 14' [/3.3V] on F.Cu, priority 0",
+              "pos": {
+                "x": 32.804662,
+                "y": -22.595337
+              },
+              "uuid": "b41c17fd-0ba5-4cb7-8650-3e35141cadb2"
+            }
+          ],
+          "severity": "error",
+          "type": "zones_intersect",
+          "independent_filled_geometry": {
+            "distance_mm": 0.0,
+            "intersection_area_mm2": 0.0,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.0
+          }
+        },
+        {
+          "index": 10,
+          "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+          "items": [
+            {
+              "description": "Zone 'Static union /DE F.Cu 1' [/DE] on F.Cu, priority 0",
+              "pos": {
+                "x": 16.800581,
+                "y": -20.150819
+              },
+              "uuid": "a466668e-70aa-4aec-adaf-dc4f803ab2a8"
+            },
+            {
+              "description": "Zone 'Static union /DE F.Cu 0' [/DE] on F.Cu, priority 0",
+              "pos": {
+                "x": 16.75982,
+                "y": -19.584303
+              },
+              "uuid": "d6a20e3c-6bbc-416c-95c4-38ea8603c536"
+            }
+          ],
+          "severity": "error",
+          "type": "zones_intersect",
+          "independent_filled_geometry": {
+            "distance_mm": 0.0,
+            "intersection_area_mm2": 0.0,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.0
+          }
+        },
+        {
+          "index": 11,
+          "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+          "items": [
+            {
+              "description": "Zone 'Static union /DXL_DATA F.Cu 1' [/DXL_DATA] on F.Cu, priority 0",
+              "pos": {
+                "x": 20.488911,
+                "y": -14.444807
+              },
+              "uuid": "7496d755-f8d8-4264-9dc4-db97e18030f6"
+            },
+            {
+              "description": "Zone 'Static union /DXL_DATA F.Cu 2' [/DXL_DATA] on F.Cu, priority 0",
+              "pos": {
+                "x": 19.985355,
+                "y": -14.461998
+              },
+              "uuid": "76952397-ad16-4a7e-bb5a-97e365e16f97"
+            }
+          ],
+          "severity": "error",
+          "type": "zones_intersect",
+          "independent_filled_geometry": {
+            "distance_mm": 0.0,
+            "intersection_area_mm2": 0.0,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.0
+          }
+        },
+        {
+          "index": 12,
+          "description": "Clearance violation (rule 'Source SAFE F.Cu zone_6 to zone_6_7' clearance 0.2540 mm; actual 0.0000 mm)",
+          "items": [
+            {
+              "description": "Zone 'Static union /GND F.Cu 3' [/GND] on F.Cu, priority 0",
+              "pos": {
+                "x": 37.514687,
+                "y": -29.528252
+              },
+              "uuid": "4da7d5ec-59b5-4026-920b-07dd9b801f18"
+            },
+            {
+              "description": "Zone 'Static union /VDD_BUS F.Cu 0' [/VDD_BUS] on F.Cu, priority 0",
+              "pos": {
+                "x": 35.001606,
+                "y": -7.162394
+              },
+              "uuid": "f25433ce-79fc-47e8-bc62-1296099a0093"
+            }
+          ],
+          "severity": "error",
+          "type": "clearance",
+          "independent_filled_geometry": {
+            "distance_mm": 0.0,
+            "intersection_area_mm2": 3.3448464963486524,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 3.344846365882
+          },
+          "localized_source_pairs": [
+            {
+              "source_a": "Recovered 9e6ef9e9729c8ee7",
+              "class_a": 7,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 0.0,
+              "required_mm": 0.254,
+              "margin_mm": -0.254
+            },
+            {
+              "source_a": "Recovered 84a63625734e769f",
+              "class_a": 7,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 0.0,
+              "required_mm": 0.254,
+              "margin_mm": -0.254
+            },
+            {
+              "source_a": "Recovered 84a63625734e769f",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 0.0,
+              "required_mm": 0.15200122,
+              "margin_mm": -0.15200122
+            },
+            {
+              "source_a": "Recovered 9e6ef9e9729c8ee7",
+              "class_a": 7,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 0.5105399999999998,
+              "required_mm": 0.254,
+              "margin_mm": 0.25653999999999977
+            },
+            {
+              "source_a": "Recovered 84a63625734e769f",
+              "class_a": 7,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 0.5105399999999998,
+              "required_mm": 0.254,
+              "margin_mm": 0.25653999999999977
+            },
+            {
+              "source_a": "Recovered 9e6ef9e9729c8ee7",
+              "class_a": 7,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 0.5577329999999998,
+              "required_mm": 0.254,
+              "margin_mm": 0.3037329999999998
+            },
+            {
+              "source_a": "Recovered 84a63625734e769f",
+              "class_a": 7,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 0.5577329999999998,
+              "required_mm": 0.254,
+              "margin_mm": 0.3037329999999998
+            },
+            {
+              "source_a": "Recovered 84a63625734e769f",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 0.5105399999999998,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.3585387799999998
+            },
+            {
+              "source_a": "Recovered 84a63625734e769f",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 0.5577329999999998,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.4057317799999998
+            },
+            {
+              "source_a": "Recovered ffddb1f93d28660f",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 11.839218932832733,
+              "required_mm": 0.15200122,
+              "margin_mm": 11.687217712832732
+            },
+            {
+              "source_a": "Recovered 9faf70d88af5baa2",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 12.002605509678514,
+              "required_mm": 0.15200122,
+              "margin_mm": 11.850604289678513
+            },
+            {
+              "source_a": "Recovered d2e80a024d69225e",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 15.251840999999999,
+              "required_mm": 0.15200122,
+              "margin_mm": 15.099839779999998
+            },
+            {
+              "source_a": "Recovered bb89f83d3021b6f8",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 15.482392045975583,
+              "required_mm": 0.15200122,
+              "margin_mm": 15.330390825975583
+            },
+            {
+              "source_a": "Recovered dca4e8522837e94e",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 16.55857119244544,
+              "required_mm": 0.15200122,
+              "margin_mm": 16.406569972445443
+            },
+            {
+              "source_a": "Recovered f693a2a342b07c17",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 16.57202918506747,
+              "required_mm": 0.15200122,
+              "margin_mm": 16.420027965067472
+            },
+            {
+              "source_a": "Recovered c38aba8838282a26",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 16.605058445640474,
+              "required_mm": 0.15200122,
+              "margin_mm": 16.453057225640475
+            },
+            {
+              "source_a": "Recovered 7910f8c42746b519",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 16.637562484207983,
+              "required_mm": 0.15200122,
+              "margin_mm": 16.485561264207984
+            },
+            {
+              "source_a": "Recovered d0586fb60e7fb6b7",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 16.694439525642213,
+              "required_mm": 0.15200122,
+              "margin_mm": 16.542438305642214
+            },
+            {
+              "source_a": "Recovered a8e86dc6a530abc9",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 16.70880808583799,
+              "required_mm": 0.15200122,
+              "margin_mm": 16.55680686583799
+            },
+            {
+              "source_a": "Recovered ffddb1f93d28660f",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 16.809593709472843,
+              "required_mm": 0.15200122,
+              "margin_mm": 16.657592489472844
+            },
+            {
+              "source_a": "Recovered 9faf70d88af5baa2",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 17.03640917203778,
+              "required_mm": 0.15200122,
+              "margin_mm": 16.88440795203778
+            },
+            {
+              "source_a": "Recovered ffddb1f93d28660f",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 17.05136638778256,
+              "required_mm": 0.15200122,
+              "margin_mm": 16.899365167782562
+            },
+            {
+              "source_a": "Recovered 9faf70d88af5baa2",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 17.2749208952082,
+              "required_mm": 0.15200122,
+              "margin_mm": 17.122919675208202
+            },
+            {
+              "source_a": "Recovered d2e80a024d69225e",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 18.683335095662816,
+              "required_mm": 0.15200122,
+              "margin_mm": 18.531333875662817
+            },
+            {
+              "source_a": "Recovered c38aba8838282a26",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 18.712724865841746,
+              "required_mm": 0.15200122,
+              "margin_mm": 18.560723645841747
+            },
+            {
+              "source_a": "Recovered d2e80a024d69225e",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 19.05318819360038,
+              "required_mm": 0.15200122,
+              "margin_mm": 18.90118697360038
+            },
+            {
+              "source_a": "Recovered c38aba8838282a26",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 19.07665045619891,
+              "required_mm": 0.15200122,
+              "margin_mm": 18.92464923619891
+            },
+            {
+              "source_a": "Recovered dca4e8522837e94e",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 19.119582325538808,
+              "required_mm": 0.15200122,
+              "margin_mm": 18.96758110553881
+            },
+            {
+              "source_a": "Recovered bb89f83d3021b6f8",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 19.156808987363867,
+              "required_mm": 0.15200122,
+              "margin_mm": 19.004807767363868
+            },
+            {
+              "source_a": "Recovered f693a2a342b07c17",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 19.316280708156732,
+              "required_mm": 0.15200122,
+              "margin_mm": 19.164279488156733
+            },
+            {
+              "source_a": "Recovered dca4e8522837e94e",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 19.4715294196665,
+              "required_mm": 0.15200122,
+              "margin_mm": 19.3195281996665
+            },
+            {
+              "source_a": "Recovered 7910f8c42746b519",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 19.503200560681446,
+              "required_mm": 0.15200122,
+              "margin_mm": 19.351199340681447
+            },
+            {
+              "source_a": "Recovered bb89f83d3021b6f8",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 19.52033263339588,
+              "required_mm": 0.15200122,
+              "margin_mm": 19.368331413395882
+            },
+            {
+              "source_a": "Recovered f693a2a342b07c17",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 19.662947508037394,
+              "required_mm": 0.15200122,
+              "margin_mm": 19.510946288037395
+            },
+            {
+              "source_a": "Recovered a8e86dc6a530abc9",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 19.712920214209994,
+              "required_mm": 0.15200122,
+              "margin_mm": 19.560918994209995
+            },
+            {
+              "source_a": "Recovered d0586fb60e7fb6b7",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 19.793013871519744,
+              "required_mm": 0.15200122,
+              "margin_mm": 19.641012651519745
+            },
+            {
+              "source_a": "Recovered 7910f8c42746b519",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 19.848461635023533,
+              "required_mm": 0.15200122,
+              "margin_mm": 19.696460415023534
+            },
+            {
+              "source_a": "Recovered a8e86dc6a530abc9",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 20.051793515472898,
+              "required_mm": 0.15200122,
+              "margin_mm": 19.8997922954729
+            },
+            {
+              "source_a": "Recovered d0586fb60e7fb6b7",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 20.132594753143895,
+              "required_mm": 0.15200122,
+              "margin_mm": 19.980593533143896
+            }
+          ],
+          "all_local_source_pairs_meet_limit": false
+        },
+        {
+          "index": 13,
+          "description": "Clearance violation (rule 'Source SAFE F.Cu zone_6 to zone_6_7' clearance 0.2540 mm; actual 0.0026 mm)",
+          "items": [
+            {
+              "description": "Zone 'Static union /GND F.Cu 0' [/GND] on F.Cu, priority 0",
+              "pos": {
+                "x": 28.765007,
+                "y": -8.632971
+              },
+              "uuid": "2d4fee55-91cc-4866-b8af-a7b7801110ed"
+            },
+            {
+              "description": "Zone 'Static union /VDD_BUS F.Cu 0' [/VDD_BUS] on F.Cu, priority 0",
+              "pos": {
+                "x": 35.001606,
+                "y": -7.162394
+              },
+              "uuid": "f25433ce-79fc-47e8-bc62-1296099a0093"
+            }
+          ],
+          "severity": "error",
+          "type": "clearance",
+          "independent_filled_geometry": {
+            "distance_mm": 0.0,
+            "intersection_area_mm2": 0.4735367372000927,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.473536936499
+          },
+          "localized_source_pairs": [
+            {
+              "source_a": "Recovered 84a63625734e769f",
+              "class_a": 7,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 0.0,
+              "required_mm": 0.254,
+              "margin_mm": -0.254
+            },
+            {
+              "source_a": "Recovered 9e6ef9e9729c8ee7",
+              "class_a": 7,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 0.0,
+              "required_mm": 0.254,
+              "margin_mm": -0.254
+            },
+            {
+              "source_a": "Recovered 84a63625734e769f",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 0.0,
+              "required_mm": 0.15200122,
+              "margin_mm": -0.15200122
+            },
+            {
+              "source_a": "Recovered 84a63625734e769f",
+              "class_a": 7,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 0.2563716436937753,
+              "required_mm": 0.254,
+              "margin_mm": 0.002371643693775294
+            },
+            {
+              "source_a": "Recovered 9e6ef9e9729c8ee7",
+              "class_a": 7,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 0.2563716436937753,
+              "required_mm": 0.254,
+              "margin_mm": 0.002371643693775294
+            },
+            {
+              "source_a": "Recovered 84a63625734e769f",
+              "class_a": 7,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 0.3022641196420358,
+              "required_mm": 0.254,
+              "margin_mm": 0.04826411964203581
+            },
+            {
+              "source_a": "Recovered 9e6ef9e9729c8ee7",
+              "class_a": 7,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 0.3022641196420358,
+              "required_mm": 0.254,
+              "margin_mm": 0.04826411964203581
+            },
+            {
+              "source_a": "Recovered 84a63625734e769f",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 0.2563716436937753,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.1043704236937753
+            },
+            {
+              "source_a": "Recovered 84a63625734e769f",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 0.3022641196420358,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.15026289964203582
+            },
+            {
+              "source_a": "Recovered 89c5a8c3306e26a7",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 0.555193,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.40319178000000006
+            },
+            {
+              "source_a": "Recovered f8665bfbd9d0f6f0",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 0.6244490000000003,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.47244778000000026
+            },
+            {
+              "source_a": "Recovered d7a4d49ab4597aa2",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 0.6244490000000003,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.47244778000000026
+            },
+            {
+              "source_a": "Recovered b9667c897f488963",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 0.6244490000000003,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.47244778000000026
+            },
+            {
+              "source_a": "Recovered cfa0bacb1248d4b0",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 0.6244490000000003,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.47244778000000026
+            },
+            {
+              "source_a": "Recovered cc1892c94b3be99b",
+              "class_a": 6,
+              "source_b": "Recovered 746a86ec39ac9e6d",
+              "class_b": 6,
+              "distance_mm": 0.6244490000000003,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.47244778000000026
+            },
+            {
+              "source_a": "Recovered 89c5a8c3306e26a7",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 0.9060255952951901,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.7540243752951901
+            },
+            {
+              "source_a": "Recovered 89c5a8c3306e26a7",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 1.2001500000000007,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.0481487800000007
+            },
+            {
+              "source_a": "Recovered f8665bfbd9d0f6f0",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 1.2808685373300417,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.1288673173300416
+            },
+            {
+              "source_a": "Recovered f8665bfbd9d0f6f0",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 1.5487398700027049,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.3967386500027048
+            },
+            {
+              "source_a": "Recovered d7a4d49ab4597aa2",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 1.7848869772904397,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.6328857572904396
+            },
+            {
+              "source_a": "Recovered d7a4d49ab4597aa2",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 2.157360921018316,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.005359701018316
+            },
+            {
+              "source_a": "Recovered cc1892c94b3be99b",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 2.19159848726837,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.03959726726837
+            },
+            {
+              "source_a": "Recovered cc1892c94b3be99b",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 2.5576681440446882,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.4056669240446884
+            },
+            {
+              "source_a": "Recovered b9667c897f488963",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 2.756428787185697,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.6044275671856973
+            },
+            {
+              "source_a": "Recovered cfa0bacb1248d4b0",
+              "class_a": 6,
+              "source_b": "Recovered 9e612d8edf537785",
+              "class_b": 6,
+              "distance_mm": 3.1511857397319503,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.9991845197319504
+            },
+            {
+              "source_a": "Recovered b9667c897f488963",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 3.169680695482118,
+              "required_mm": 0.15200122,
+              "margin_mm": 3.0176794754821183
+            },
+            {
+              "source_a": "Recovered cfa0bacb1248d4b0",
+              "class_a": 6,
+              "source_b": "Recovered 1120b51f5a765329",
+              "class_b": 6,
+              "distance_mm": 3.554641744073794,
+              "required_mm": 0.15200122,
+              "margin_mm": 3.402640524073794
+            }
+          ],
+          "all_local_source_pairs_meet_limit": false
+        },
+        {
+          "index": 14,
+          "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+          "items": [
+            {
+              "description": "Zone 'Static union /3.3V F.Cu 1' [/3.3V] on F.Cu, priority 0",
+              "pos": {
+                "x": 24.091636,
+                "y": -12.811711
+              },
+              "uuid": "1b3c8ba8-d2aa-4650-9353-8f808b3ac854"
+            },
+            {
+              "description": "Zone 'Static union /3.3V F.Cu 0' [/3.3V] on F.Cu, priority 0",
+              "pos": {
+                "x": 23.713884,
+                "y": -11.921998
+              },
+              "uuid": "22f48912-1140-4b48-b945-074fb953e992"
+            }
+          ],
+          "severity": "error",
+          "type": "zones_intersect",
+          "independent_filled_geometry": {
+            "distance_mm": 0.0,
+            "intersection_area_mm2": 0.0,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.0
+          }
+        },
+        {
+          "index": 15,
+          "description": "Copper zones intersect (intersecting zones must have distinct priorities)",
+          "items": [
+            {
+              "description": "Zone 'Static union /3.3V F.Cu 10' [/3.3V] on F.Cu, priority 0",
+              "pos": {
+                "x": 20.030884,
+                "y": -16.874998
+              },
+              "uuid": "0cfe0194-69d9-43c3-b9e0-a53784700cab"
+            },
+            {
+              "description": "Zone 'Static union /3.3V F.Cu 8' [/3.3V] on F.Cu, priority 0",
+              "pos": {
+                "x": 20.531607,
+                "y": -17.366147
+              },
+              "uuid": "f34427db-35a5-4cdf-9a20-e7d11fffaffe"
+            }
+          ],
+          "severity": "error",
+          "type": "zones_intersect",
+          "independent_filled_geometry": {
+            "distance_mm": 0.0,
+            "intersection_area_mm2": 0.0,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.0
+          }
+        },
+        {
+          "index": 16,
+          "description": "Clearance violation (rule 'Source SAFE F.Cu zone_6 to zone_6_7' clearance 0.2540 mm; actual 0.2461 mm)",
+          "items": [
+            {
+              "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+              "pos": {
+                "x": 23.245576,
+                "y": -16.046637
+              },
+              "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+            },
+            {
+              "description": "Zone 'Static union /IMU_INT1 F.Cu 0' [/IMU_INT1] on F.Cu, priority 0",
+              "pos": {
+                "x": 23.593758,
+                "y": -14.336136
+              },
+              "uuid": "f7f920e5-466d-48f1-abcf-d1e0434600c1"
+            }
+          ],
+          "severity": "error",
+          "type": "clearance",
+          "independent_filled_geometry": {
+            "distance_mm": 0.230124,
+            "intersection_area_mm2": 0.0,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.0
+          },
+          "localized_source_pairs": [
+            {
+              "source_a": "Recovered 9e6ef9e9729c8ee7",
+              "class_a": 7,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 0.2565203355121114,
+              "required_mm": 0.254,
+              "margin_mm": 0.0025203355121113935
+            },
+            {
+              "source_a": "Recovered 84a63625734e769f",
+              "class_a": 7,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 0.2565203355121114,
+              "required_mm": 0.254,
+              "margin_mm": 0.0025203355121113935
+            },
+            {
+              "source_a": "Recovered acbd68bc789f3324",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 0.230124,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.07812278
+            },
+            {
+              "source_a": "Recovered 84a63625734e769f",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 0.2565203355121114,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.1045191155121114
+            },
+            {
+              "source_a": "Recovered 2c53b68d79930354",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 0.33239573448677256,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.18039451448677257
+            },
+            {
+              "source_a": "Recovered 43e4f079cf689ec8",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 0.624636620838868,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.47263540083886796
+            },
+            {
+              "source_a": "Recovered 13fc66dcf638c6cf",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 0.7299959999999999,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.5779947799999998
+            },
+            {
+              "source_a": "Recovered 88489c7ee9e959aa",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 1.3764198839576531,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.224418663957653
+            },
+            {
+              "source_a": "Recovered a3bc5a25a3a9be11",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 1.552149567187389,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.400148347187389
+            },
+            {
+              "source_a": "Recovered bd6779a9c26b52f4",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 1.6092725601019227,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.4572713401019226
+            },
+            {
+              "source_a": "Recovered 7be69d2bf5487e7d",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 1.6572746053388376,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.5052733853388376
+            },
+            {
+              "source_a": "Recovered 8a2bfb0d42c24841",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 1.797647830040687,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.645646610040687
+            },
+            {
+              "source_a": "Recovered 12706661c84c798e",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 1.8447530181896978,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.6927517981896978
+            },
+            {
+              "source_a": "Recovered 552d312dece731aa",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 1.8633887004701934,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.7113874804701934
+            },
+            {
+              "source_a": "Recovered 7c741037ec45bc51",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 1.8654943451348205,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.7134931251348204
+            },
+            {
+              "source_a": "Recovered 12c102a31a9a8ea0",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 2.1262821530179457,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.9742809330179456
+            },
+            {
+              "source_a": "Recovered 35892a42ec87e36c",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 2.201556659076707,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.0495554390767072
+            },
+            {
+              "source_a": "Recovered f89ca9fc97dd4c4d",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 2.556150153137525,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.404148933137525
+            },
+            {
+              "source_a": "Recovered 7b68ac88c9f6397e",
+              "class_a": 6,
+              "source_b": "Recovered 385dce25ad1a68bd",
+              "class_b": 6,
+              "distance_mm": 2.616083800995677,
+              "required_mm": 0.15200122,
+              "margin_mm": 2.4640825809956772
+            }
+          ],
+          "all_local_source_pairs_meet_limit": true
+        },
+        {
+          "index": 17,
+          "description": "Clearance violation (rule 'Source SAFE F.Cu zone_6 to zone_6_7' clearance 0.2540 mm; actual 0.2299 mm)",
+          "items": [
+            {
+              "description": "Zone 'Static union /GND F.Cu 1' [/GND] on F.Cu, priority 0",
+              "pos": {
+                "x": 23.245576,
+                "y": -16.046637
+              },
+              "uuid": "0c0f54d5-e61b-4d10-a3e8-96b053ba9f66"
+            },
+            {
+              "description": "Zone 'Static union /3.3V F.Cu 3' [/3.3V] on F.Cu, priority 0",
+              "pos": {
+                "x": 24.695462,
+                "y": -13.911514
+              },
+              "uuid": "8c78fc83-b2ae-4875-9d7b-937fa7a8242e"
+            }
+          ],
+          "severity": "error",
+          "type": "clearance",
+          "independent_filled_geometry": {
+            "distance_mm": 0.2298700000000018,
+            "intersection_area_mm2": 0.0,
+            "layer": "F.Cu",
+            "approximation_mm": 1e-06,
+            "native_boolean_intersection_area_mm2": 0.0
+          },
+          "localized_source_pairs": [
+            {
+              "source_a": "Recovered 9e6ef9e9729c8ee7",
+              "class_a": 7,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 0.2563982865992612,
+              "required_mm": 0.254,
+              "margin_mm": 0.0023982865992612235
+            },
+            {
+              "source_a": "Recovered 84a63625734e769f",
+              "class_a": 7,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 0.2563982865992612,
+              "required_mm": 0.254,
+              "margin_mm": 0.0023982865992612235
+            },
+            {
+              "source_a": "Recovered 88489c7ee9e959aa",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 0.2298700000000018,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.0778687800000018
+            },
+            {
+              "source_a": "Recovered 84a63625734e769f",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 0.2563982865992612,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.10439706659926123
+            },
+            {
+              "source_a": "Recovered a3bc5a25a3a9be11",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 0.28350860409518647,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.13150738409518647
+            },
+            {
+              "source_a": "Recovered 7be69d2bf5487e7d",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 0.36036531772772107,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.20836409772772108
+            },
+            {
+              "source_a": "Recovered bd6779a9c26b52f4",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 0.3956864449144036,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.2436852249144036
+            },
+            {
+              "source_a": "Recovered 8a2bfb0d42c24841",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 0.6066093192522153,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.4546080992522153
+            },
+            {
+              "source_a": "Recovered 7c741037ec45bc51",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 0.7299959999999999,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.5779947799999998
+            },
+            {
+              "source_a": "Recovered 12706661c84c798e",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 0.7989599999999992,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.6469587799999992
+            },
+            {
+              "source_a": "Recovered 12c102a31a9a8ea0",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 0.8279248198728965,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.6759235998728965
+            },
+            {
+              "source_a": "Recovered 552d312dece731aa",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 0.8897019999999998,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.7377007799999997
+            },
+            {
+              "source_a": "Recovered 35892a42ec87e36c",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 0.9043614671451895,
+              "required_mm": 0.15200122,
+              "margin_mm": 0.7523602471451896
+            },
+            {
+              "source_a": "Recovered acbd68bc789f3324",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 1.1809758184696246,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.0289745984696246
+            },
+            {
+              "source_a": "Recovered f89ca9fc97dd4c4d",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 1.2658815173281424,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.1138802973281423
+            },
+            {
+              "source_a": "Recovered 7b68ac88c9f6397e",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 1.3201417089403693,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.1681404889403693
+            },
+            {
+              "source_a": "Recovered 13fc66dcf638c6cf",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 1.574582850551218,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.422581630551218
+            },
+            {
+              "source_a": "Recovered 2c53b68d79930354",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 1.6087870336337255,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.4567858136337255
+            },
+            {
+              "source_a": "Recovered 43e4f079cf689ec8",
+              "class_a": 6,
+              "source_b": "Recovered 10a7365f3f244bfc",
+              "class_b": 6,
+              "distance_mm": 1.756844331463661,
+              "required_mm": 0.15200122,
+              "margin_mm": 1.604843111463661
+            }
+          ],
+          "all_local_source_pairs_meet_limit": true
+        },
+        {
+          "index": 18,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Reference field of R7",
+              "pos": {
+                "x": 20.066,
+                "y": -13.081
+              },
+              "uuid": "7f17cca4-ea5d-4144-82ab-0a402c0f7576"
+            },
+            {
+              "description": "Reference field of R5",
+              "pos": {
+                "x": 20.066,
+                "y": -12.065
+              },
+              "uuid": "f0065155-9b61-4403-9c95-c59693fd026a"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 19,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of R5 on F.Silkscreen",
+              "pos": {
+                "x": 20.927212,
+                "y": -15.230602
+              },
+              "uuid": "19cdde3f-5cc6-4389-bfe8-9baae247b5a8"
+            },
+            {
+              "description": "Segment of R7 on F.Silkscreen",
+              "pos": {
+                "x": 20.927212,
+                "y": -15.376398
+              },
+              "uuid": "5cb5aa04-df93-413a-a03a-d969370b71e4"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 20,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of R5 on F.Silkscreen",
+              "pos": {
+                "x": 20.927212,
+                "y": -15.230602
+              },
+              "uuid": "19cdde3f-5cc6-4389-bfe8-9baae247b5a8"
+            },
+            {
+              "description": "Segment of R7 on F.Silkscreen",
+              "pos": {
+                "x": 21.645245,
+                "y": -15.376398
+              },
+              "uuid": "42083e18-9ab6-4837-8a41-d93c14f3cc2a"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 21,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Reference field of R7",
+              "pos": {
+                "x": 20.066,
+                "y": -13.081
+              },
+              "uuid": "7f17cca4-ea5d-4144-82ab-0a402c0f7576"
+            },
+            {
+              "description": "Segment of R5 on F.Silkscreen",
+              "pos": {
+                "x": 21.645245,
+                "y": -15.230602
+              },
+              "uuid": "f60cb149-e433-4260-a3ce-82d954d77258"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 22,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of R7 on F.Silkscreen",
+              "pos": {
+                "x": 20.927212,
+                "y": -15.376398
+              },
+              "uuid": "5cb5aa04-df93-413a-a03a-d969370b71e4"
+            },
+            {
+              "description": "Segment of R5 on F.Silkscreen",
+              "pos": {
+                "x": 21.645245,
+                "y": -15.230602
+              },
+              "uuid": "f60cb149-e433-4260-a3ce-82d954d77258"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 23,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of R7 on F.Silkscreen",
+              "pos": {
+                "x": 21.645245,
+                "y": -15.376398
+              },
+              "uuid": "42083e18-9ab6-4837-8a41-d93c14f3cc2a"
+            },
+            {
+              "description": "Segment of R5 on F.Silkscreen",
+              "pos": {
+                "x": 21.645245,
+                "y": -15.230602
+              },
+              "uuid": "f60cb149-e433-4260-a3ce-82d954d77258"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 24,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Reference field of R7",
+              "pos": {
+                "x": 20.066,
+                "y": -13.081
+              },
+              "uuid": "7f17cca4-ea5d-4144-82ab-0a402c0f7576"
+            },
+            {
+              "description": "Segment of R5 on F.Silkscreen",
+              "pos": {
+                "x": 21.645245,
+                "y": -14.233398
+              },
+              "uuid": "9dedcc2e-3d4c-44d8-a148-01806303d7bc"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 25,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Reference field of R7",
+              "pos": {
+                "x": 20.066,
+                "y": -13.081
+              },
+              "uuid": "7f17cca4-ea5d-4144-82ab-0a402c0f7576"
+            },
+            {
+              "description": "Segment of R5 on F.Silkscreen",
+              "pos": {
+                "x": 19.756755,
+                "y": -14.233398
+              },
+              "uuid": "7fa6a158-27ec-434f-a971-5635a95bdf66"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 26,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of R4 on F.Silkscreen",
+              "pos": {
+                "x": 16.011398,
+                "y": -21.264245
+              },
+              "uuid": "9345f995-afe8-4cda-8c0e-760856e0c4ec"
+            },
+            {
+              "description": "Segment of R2 on F.Silkscreen",
+              "pos": {
+                "x": 17.008602,
+                "y": -21.407755
+              },
+              "uuid": "9574ac6f-0d61-481f-9757-8f73d8a7e29b"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 27,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of R2 on F.Silkscreen",
+              "pos": {
+                "x": 17.008602,
+                "y": -21.407755
+              },
+              "uuid": "9574ac6f-0d61-481f-9757-8f73d8a7e29b"
+            },
+            {
+              "description": "Segment of R4 on F.Silkscreen",
+              "pos": {
+                "x": 17.008602,
+                "y": -21.264245
+              },
+              "uuid": "adab279c-7f7c-419f-8b8f-12df043983d1"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 28,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of R2 on F.Silkscreen",
+              "pos": {
+                "x": 16.011398,
+                "y": -21.407755
+              },
+              "uuid": "3a18347d-a70a-418d-a0ed-4b712264f3dc"
+            },
+            {
+              "description": "Segment of R4 on F.Silkscreen",
+              "pos": {
+                "x": 16.011398,
+                "y": -21.264245
+              },
+              "uuid": "9345f995-afe8-4cda-8c0e-760856e0c4ec"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 29,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of R2 on F.Silkscreen",
+              "pos": {
+                "x": 16.011398,
+                "y": -22.125788
+              },
+              "uuid": "12176176-9161-46b9-9b78-739caac6c126"
+            },
+            {
+              "description": "Segment of R4 on F.Silkscreen",
+              "pos": {
+                "x": 16.011398,
+                "y": -21.264245
+              },
+              "uuid": "9345f995-afe8-4cda-8c0e-760856e0c4ec"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 30,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of R4 on F.Silkscreen",
+              "pos": {
+                "x": 16.011398,
+                "y": -20.546212
+              },
+              "uuid": "2b5a8545-17d5-420a-8c00-1d488aa61903"
+            },
+            {
+              "description": "Segment of R2 on F.Silkscreen",
+              "pos": {
+                "x": 16.011398,
+                "y": -21.407755
+              },
+              "uuid": "3a18347d-a70a-418d-a0ed-4b712264f3dc"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 31,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of R2 on F.Silkscreen",
+              "pos": {
+                "x": 16.011398,
+                "y": -22.125788
+              },
+              "uuid": "12176176-9161-46b9-9b78-739caac6c126"
+            },
+            {
+              "description": "Segment of R4 on F.Silkscreen",
+              "pos": {
+                "x": 16.011398,
+                "y": -20.546212
+              },
+              "uuid": "2b5a8545-17d5-420a-8c00-1d488aa61903"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 32,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of R2 on F.Silkscreen",
+              "pos": {
+                "x": 16.011398,
+                "y": -21.407755
+              },
+              "uuid": "3a18347d-a70a-418d-a0ed-4b712264f3dc"
+            },
+            {
+              "description": "Segment of R4 on F.Silkscreen",
+              "pos": {
+                "x": 17.008602,
+                "y": -21.264245
+              },
+              "uuid": "adab279c-7f7c-419f-8b8f-12df043983d1"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 33,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of R5 on F.Silkscreen",
+              "pos": {
+                "x": 19.756755,
+                "y": -15.230602
+              },
+              "uuid": "c6dd8fc2-d225-4657-b497-8b67d1e407fb"
+            },
+            {
+              "description": "Segment of R7 on F.Silkscreen",
+              "pos": {
+                "x": 19.756755,
+                "y": -15.376398
+              },
+              "uuid": "d82a96b5-fbf6-46d3-a8cc-e6ff9097e8ff"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 34,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of R5 on F.Silkscreen",
+              "pos": {
+                "x": 19.756755,
+                "y": -15.230602
+              },
+              "uuid": "c6dd8fc2-d225-4657-b497-8b67d1e407fb"
+            },
+            {
+              "description": "Segment of R7 on F.Silkscreen",
+              "pos": {
+                "x": 20.474788,
+                "y": -15.376398
+              },
+              "uuid": "ecaddb83-60ab-4ed6-984d-aaba175f5023"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 35,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of R7 on F.Silkscreen",
+              "pos": {
+                "x": 19.756755,
+                "y": -15.376398
+              },
+              "uuid": "d82a96b5-fbf6-46d3-a8cc-e6ff9097e8ff"
+            },
+            {
+              "description": "Segment of R5 on F.Silkscreen",
+              "pos": {
+                "x": 20.474788,
+                "y": -15.230602
+              },
+              "uuid": "f01683d9-580b-4091-a108-a6e7e7c4c2f8"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 36,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of R7 on F.Silkscreen",
+              "pos": {
+                "x": 20.474788,
+                "y": -15.376398
+              },
+              "uuid": "ecaddb83-60ab-4ed6-984d-aaba175f5023"
+            },
+            {
+              "description": "Segment of R5 on F.Silkscreen",
+              "pos": {
+                "x": 20.474788,
+                "y": -15.230602
+              },
+              "uuid": "f01683d9-580b-4091-a108-a6e7e7c4c2f8"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 37,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Reference field of C6",
+              "pos": {
+                "x": 31.242,
+                "y": -12.7
+              },
+              "uuid": "35d62ad2-13d7-4331-a447-755baa9dc90b"
+            },
+            {
+              "description": "Segment of C6 on F.Silkscreen",
+              "pos": {
+                "x": 32.707402,
+                "y": -12.583795
+              },
+              "uuid": "733bda20-a8e1-4cf5-9e9e-6b517c4e021c"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 38,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Arc of F1 on F.Silkscreen",
+              "pos": {
+                "x": 32.978525,
+                "y": -8.09775
+              },
+              "uuid": "1506e66d-eea1-4412-b1b5-7c1b6641746a"
+            },
+            {
+              "description": "Reference field of F1",
+              "pos": {
+                "x": 30.861,
+                "y": -6.858
+              },
+              "uuid": "b7ea963a-5b8c-444f-9e34-9665cb72698b"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 39,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of J3 on F.Silkscreen",
+              "pos": {
+                "x": 32.999985,
+                "y": -26.894003
+              },
+              "uuid": "4dd8f27e-60fc-452c-b407-c95d9823b491"
+            },
+            {
+              "description": "Reference field of C4",
+              "pos": {
+                "x": 19.304,
+                "y": -24.892
+              },
+              "uuid": "9e233e64-963e-4b09-962c-31e0345b7247"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 40,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Reference field of J3",
+              "pos": {
+                "x": 16.256,
+                "y": -27.94
+              },
+              "uuid": "5f974a2f-cfb2-4b18-bbf7-47c57c3b5534"
+            },
+            {
+              "description": "Segment of J3 on F.Silkscreen",
+              "pos": {
+                "x": 17.750003,
+                "y": -26.894003
+              },
+              "uuid": "a07db74a-ecb9-4937-bee1-424b44ebc908"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 41,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Reference field of C2",
+              "pos": {
+                "x": 21.926268,
+                "y": -12.337674
+              },
+              "uuid": "9a2107a2-dc85-4822-976a-858bae8e13a1"
+            },
+            {
+              "description": "Reference field of R5",
+              "pos": {
+                "x": 20.066,
+                "y": -12.065
+              },
+              "uuid": "f0065155-9b61-4403-9c95-c59693fd026a"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 42,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Reference field of C2",
+              "pos": {
+                "x": 21.926268,
+                "y": -12.337674
+              },
+              "uuid": "9a2107a2-dc85-4822-976a-858bae8e13a1"
+            },
+            {
+              "description": "Reference field of C1",
+              "pos": {
+                "x": 24.892,
+                "y": -11.557
+              },
+              "uuid": "f67a3288-2490-49f6-a05a-71065f528b89"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 43,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Reference field of C2",
+              "pos": {
+                "x": 21.926268,
+                "y": -12.337674
+              },
+              "uuid": "9a2107a2-dc85-4822-976a-858bae8e13a1"
+            },
+            {
+              "description": "Arc of C2 on F.Silkscreen",
+              "pos": {
+                "x": 23.662615,
+                "y": -12.537161
+              },
+              "uuid": "a7c919ea-b957-434a-96fc-9f16890ee8c0"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 44,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of C2 on F.Silkscreen",
+              "pos": {
+                "x": 23.662615,
+                "y": -12.68951
+              },
+              "uuid": "874e7f24-fd1e-46be-95b4-6489c708f64b"
+            },
+            {
+              "description": "Reference field of C2",
+              "pos": {
+                "x": 21.926268,
+                "y": -12.337674
+              },
+              "uuid": "9a2107a2-dc85-4822-976a-858bae8e13a1"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 45,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of C2 on F.Silkscreen",
+              "pos": {
+                "x": 23.510189,
+                "y": -11.844731
+              },
+              "uuid": "458c8079-6dcc-4095-89f0-b5a1350f04f6"
+            },
+            {
+              "description": "Reference field of C2",
+              "pos": {
+                "x": 21.926268,
+                "y": -12.337674
+              },
+              "uuid": "9a2107a2-dc85-4822-976a-858bae8e13a1"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 46,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Arc of C2 on F.Silkscreen",
+              "pos": {
+                "x": 23.662615,
+                "y": -12.537161
+              },
+              "uuid": "a7c919ea-b957-434a-96fc-9f16890ee8c0"
+            },
+            {
+              "description": "Reference field of C1",
+              "pos": {
+                "x": 24.892,
+                "y": -11.557
+              },
+              "uuid": "f67a3288-2490-49f6-a05a-71065f528b89"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 47,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of C2 on F.Silkscreen",
+              "pos": {
+                "x": 23.662615,
+                "y": -12.68951
+              },
+              "uuid": "874e7f24-fd1e-46be-95b4-6489c708f64b"
+            },
+            {
+              "description": "Reference field of C1",
+              "pos": {
+                "x": 24.892,
+                "y": -11.557
+              },
+              "uuid": "f67a3288-2490-49f6-a05a-71065f528b89"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 48,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of C2 on F.Silkscreen",
+              "pos": {
+                "x": 23.510189,
+                "y": -11.844731
+              },
+              "uuid": "458c8079-6dcc-4095-89f0-b5a1350f04f6"
+            },
+            {
+              "description": "Reference field of C1",
+              "pos": {
+                "x": 24.892,
+                "y": -11.557
+              },
+              "uuid": "f67a3288-2490-49f6-a05a-71065f528b89"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 49,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of C2 on F.Silkscreen",
+              "pos": {
+                "x": 24.605386,
+                "y": -12.691643
+              },
+              "uuid": "734e844f-e269-4b98-a87d-71d74f74d4e8"
+            },
+            {
+              "description": "Reference field of C1",
+              "pos": {
+                "x": 24.892,
+                "y": -11.557
+              },
+              "uuid": "f67a3288-2490-49f6-a05a-71065f528b89"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 50,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Arc of C8 on F.Silkscreen",
+              "pos": {
+                "x": 33.314615,
+                "y": -15.712161
+              },
+              "uuid": "af84816f-84dd-4ba9-b063-0bce4a218b62"
+            },
+            {
+              "description": "Reference field of C8",
+              "pos": {
+                "x": 31.518052,
+                "y": -14.778159
+              },
+              "uuid": "e2d2d90b-c5c5-4510-bc87-15f48447321b"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 51,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of C8 on F.Silkscreen",
+              "pos": {
+                "x": 33.162189,
+                "y": -15.019731
+              },
+              "uuid": "23a47377-3143-4c1e-b31d-e18afeab95d8"
+            },
+            {
+              "description": "Reference field of C8",
+              "pos": {
+                "x": 31.518052,
+                "y": -14.778159
+              },
+              "uuid": "e2d2d90b-c5c5-4510-bc87-15f48447321b"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 52,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of C8 on F.Silkscreen",
+              "pos": {
+                "x": 33.314615,
+                "y": -15.86451
+              },
+              "uuid": "5425a00f-a0d8-4e51-94bd-34bd47e25a25"
+            },
+            {
+              "description": "Reference field of C8",
+              "pos": {
+                "x": 31.518052,
+                "y": -14.778159
+              },
+              "uuid": "e2d2d90b-c5c5-4510-bc87-15f48447321b"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 53,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Arc of C8 on F.Silkscreen",
+              "pos": {
+                "x": 33.314615,
+                "y": -15.019757
+              },
+              "uuid": "83436516-ea92-4a77-9068-695fc85fd86c"
+            },
+            {
+              "description": "Reference field of C8",
+              "pos": {
+                "x": 31.518052,
+                "y": -14.778159
+              },
+              "uuid": "e2d2d90b-c5c5-4510-bc87-15f48447321b"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 54,
+          "description": "Silkscreen clearance",
+          "items": [
+            {
+              "description": "Segment of C8 on F.Silkscreen",
+              "pos": {
+                "x": 33.814614,
+                "y": -14.867382
+              },
+              "uuid": "1c8e6666-2799-406d-a557-ad4447f7799c"
+            },
+            {
+              "description": "Reference field of C8",
+              "pos": {
+                "x": 31.518052,
+                "y": -14.778159
+              },
+              "uuid": "e2d2d90b-c5c5-4510-bc87-15f48447321b"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "index": 55,
+          "description": "Silkscreen clipped by solder mask",
+          "items": [
+            {
+              "description": "Reference field of C6",
+              "pos": {
+                "x": 31.242,
+                "y": -12.7
+              },
+              "uuid": "35d62ad2-13d7-4331-a447-755baa9dc90b"
+            },
+            {
+              "description": "Pad 1 [/VDD_F] of C6 on F.Cu",
+              "pos": {
+                "x": 33.671002,
+                "y": -13.335
+              },
+              "uuid": "2c865d6a-6ee5-4a3f-a3fb-6a113ceb59ab"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_over_copper"
+        },
+        {
+          "index": 56,
+          "description": "Silkscreen clipped by solder mask",
+          "items": [
+            {
+              "description": "Reference field of D1",
+              "pos": {
+                "x": 31.623,
+                "y": -10.541
+              },
+              "uuid": "f79c0c43-d776-4012-bb8b-32cff67f0a8d"
+            },
+            {
+              "description": "Pad 1 [/VDD_F] of D1 on F.Cu",
+              "pos": {
+                "x": 33.444028,
+                "y": -11.049
+              },
+              "uuid": "ad45cac1-02df-438c-8263-2c9c80f0ad0c"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_over_copper"
+        },
+        {
+          "index": 57,
+          "description": "Silkscreen clipped by solder mask",
+          "items": [
+            {
+              "description": "Reference field of R1",
+              "pos": {
+                "x": 29.845,
+                "y": -18.034
+              },
+              "uuid": "eb8621d2-c2b4-4055-8823-7d7f0eff66f7"
+            },
+            {
+              "description": "Pad 11 [/SPI_CS] of U1 on F.Cu",
+              "pos": {
+                "x": 27.902825,
+                "y": -18.86363
+              },
+              "uuid": "754bedc6-5e66-4df8-9fa9-eb62630ae7c2"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_over_copper"
+        },
+        {
+          "index": 58,
+          "description": "Silkscreen clipped by solder mask",
+          "items": [
+            {
+              "description": "Reference field of R1",
+              "pos": {
+                "x": 29.845,
+                "y": -18.034
+              },
+              "uuid": "eb8621d2-c2b4-4055-8823-7d7f0eff66f7"
+            },
+            {
+              "description": "Pad 12 [/SPI_SCK] of U1 on F.Cu",
+              "pos": {
+                "x": 27.902825,
+                "y": -19.513616
+              },
+              "uuid": "861c2059-07e6-436e-85d5-06ff7cdff5b8"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_over_copper"
+        },
+        {
+          "index": 59,
+          "description": "Silkscreen clipped by solder mask",
+          "items": [
+            {
+              "description": "Reference field of C2",
+              "pos": {
+                "x": 21.926268,
+                "y": -12.337674
+              },
+              "uuid": "9a2107a2-dc85-4822-976a-858bae8e13a1"
+            },
+            {
+              "description": "Pad 2 [/3.3V] of C2 on F.Cu",
+              "pos": {
+                "x": 23.963884,
+                "y": -12.192
+              },
+              "uuid": "392a8e40-3e21-4ba1-a564-9911033682bf"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_over_copper"
+        },
+        {
+          "index": 60,
+          "description": "Silkscreen clipped by solder mask",
+          "items": [
+            {
+              "description": "Reference field of C1",
+              "pos": {
+                "x": 24.892,
+                "y": -11.557
+              },
+              "uuid": "f67a3288-2490-49f6-a05a-71065f528b89"
+            },
+            {
+              "description": "Pad 1 [/GND] of C2 on F.Cu",
+              "pos": {
+                "x": 24.804116,
+                "y": -12.192
+              },
+              "uuid": "8bfbe6bd-d25a-4b23-b3be-2a8a90212e7b"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_over_copper"
+        },
+        {
+          "index": 61,
+          "description": "Silkscreen clipped by solder mask",
+          "items": [
+            {
+              "description": "Reference field of C1",
+              "pos": {
+                "x": 24.892,
+                "y": -11.557
+              },
+              "uuid": "f67a3288-2490-49f6-a05a-71065f528b89"
+            },
+            {
+              "description": "Pad 2 [/3.3V] of C2 on F.Cu",
+              "pos": {
+                "x": 23.963884,
+                "y": -12.192
+              },
+              "uuid": "392a8e40-3e21-4ba1-a564-9911033682bf"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_over_copper"
+        },
+        {
+          "index": 62,
+          "description": "Silkscreen clipped by solder mask",
+          "items": [
+            {
+              "description": "Segment of D2 on F.Silkscreen",
+              "pos": {
+                "x": 14.440789,
+                "y": -8.275803
+              },
+              "uuid": "85f87619-093e-4cd1-97dc-ae350c1f252b"
+            },
+            {
+              "description": "Pad 2 [/GND] of D2 on F.Cu",
+              "pos": {
+                "x": 15.367,
+                "y": -8.0169
+              },
+              "uuid": "8d57bf10-6a25-47fc-8559-654999b05781"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_over_copper"
+        },
+        {
+          "index": 63,
+          "description": "Silkscreen clipped by solder mask",
+          "items": [
+            {
+              "description": "Segment of D2 on F.Silkscreen",
+              "pos": {
+                "x": 16.293211,
+                "y": -8.275803
+              },
+              "uuid": "0fa45091-04a1-49ec-b37a-b801c1f5c546"
+            },
+            {
+              "description": "Pad 2 [/GND] of D2 on F.Cu",
+              "pos": {
+                "x": 15.367,
+                "y": -8.0169
+              },
+              "uuid": "8d57bf10-6a25-47fc-8559-654999b05781"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_over_copper"
+        },
+        {
+          "index": 64,
+          "description": "Silkscreen clipped by solder mask",
+          "items": [
+            {
+              "description": "Reference field of C3",
+              "pos": {
+                "x": 20.017232,
+                "y": -17.653
+              },
+              "uuid": "8fb0bda9-3467-4d4e-a0d8-454ad4f2d74c"
+            },
+            {
+              "description": "Pad 10 [/MCU_RX] of U1 on F.Cu",
+              "pos": {
+                "x": 22.160901,
+                "y": -18.86363
+              },
+              "uuid": "526e8c0e-ed67-43b9-a19a-3403a2a39d34"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_over_copper"
+        },
+        {
+          "index": 65,
+          "description": "Silkscreen clipped by solder mask",
+          "items": [
+            {
+              "description": "Reference field of C8",
+              "pos": {
+                "x": 31.518052,
+                "y": -14.778159
+              },
+              "uuid": "e2d2d90b-c5c5-4510-bc87-15f48447321b"
+            },
+            {
+              "description": "Pad 2 [/VDD_F] of C8 on F.Cu",
+              "pos": {
+                "x": 33.615884,
+                "y": -15.367
+              },
+              "uuid": "b8066dbe-f409-48cb-a830-cae5b0fa5049"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_over_copper"
+        }
+      ]
+    }
+  ],
+  "boards_edited": false
+}

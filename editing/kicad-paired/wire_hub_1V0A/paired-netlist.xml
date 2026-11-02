@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-paired/wire_hub_1V0A/wire_hub_1V0A.kicad_sch</source>
+    <date>2026-10-26T19:56:57</date>
+    <tool>Eeschema 10.0.7-10.0.7~ubuntu24.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>wire_hub_1V0A.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="CN1">
+      <value>DB125-2.54-2P-GN-S</value>
+      <footprint>RecoveredLayout:CN1</footprint>
+      <fields>
+        <field name="Footprint">RecoveredLayout:CN1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="CN1" description=""/>
+      <property name="Sheetname" value="wire_hub_1V0A"/>
+      <property name="Sheetfile" value="wire_hub_1V0A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ffecaed-208f-4864-8611-3184751d18b7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>HC-1.2-3PWT</value>
+      <footprint>RecoveredLayout:J1</footprint>
+      <fields>
+        <field name="LCSC">C2997426</field>
+        <field name="Manufacturer Part">HC-1.2-3PWT</field>
+        <field name="Footprint">RecoveredLayout:J1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="J1" description=""/>
+      <property name="LCSC" value="C2997426"/>
+      <property name="Manufacturer Part" value="HC-1.2-3PWT"/>
+      <property name="Sheetname" value="wire_hub_1V0A"/>
+      <property name="Sheetfile" value="wire_hub_1V0A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c08e1123-e1fc-46eb-b7f0-3b00f2834cb5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>BM03B-ACHSS-GAN-ETF(LF)(SN)</value>
+      <footprint>RecoveredLayout:J2</footprint>
+      <fields>
+        <field name="LCSC">C5118705</field>
+        <field name="Manufacturer Part">BM03B-ACHSS-GAN-ETF(LF)(SN)</field>
+        <field name="Footprint">RecoveredLayout:J2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="J2" description=""/>
+      <property name="LCSC" value="C5118705"/>
+      <property name="Manufacturer Part" value="BM03B-ACHSS-GAN-ETF(LF)(SN)"/>
+      <property name="Sheetname" value="wire_hub_1V0A"/>
+      <property name="Sheetfile" value="wire_hub_1V0A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf3821f6-fc41-4f52-a4e8-28f122790606</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>A2007WR-3P</value>
+      <footprint>RecoveredLayout:J3</footprint>
+      <fields>
+        <field name="LCSC">C225350</field>
+        <field name="Manufacturer Part">A2007WR-3P</field>
+        <field name="Footprint">RecoveredLayout:J3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="J3" description=""/>
+      <property name="LCSC" value="C225350"/>
+      <property name="Manufacturer Part" value="A2007WR-3P"/>
+      <property name="Sheetname" value="wire_hub_1V0A"/>
+      <property name="Sheetfile" value="wire_hub_1V0A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e46bbb21-9111-4ce7-bc0c-08eada0a9cfb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>A2007WR-3P</value>
+      <footprint>RecoveredLayout:J4</footprint>
+      <fields>
+        <field name="LCSC">C225350</field>
+        <field name="Manufacturer Part">A2007WR-3P</field>
+        <field name="Footprint">RecoveredLayout:J4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="J4" description=""/>
+      <property name="LCSC" value="C225350"/>
+      <property name="Manufacturer Part" value="A2007WR-3P"/>
+      <property name="Sheetname" value="wire_hub_1V0A"/>
+      <property name="Sheetfile" value="wire_hub_1V0A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5b762b4-2c89-421e-805c-fde67299e0d5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>A2007WV-3P</value>
+      <footprint>RecoveredLayout:J5</footprint>
+      <fields>
+        <field name="LCSC">C225336</field>
+        <field name="Manufacturer Part">A2007WV-3P</field>
+        <field name="Footprint">RecoveredLayout:J5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="J5" description=""/>
+      <property name="LCSC" value="C225336"/>
+      <property name="Manufacturer Part" value="A2007WV-3P"/>
+      <property name="Sheetname" value="wire_hub_1V0A"/>
+      <property name="Sheetfile" value="wire_hub_1V0A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cefab0c5-3e26-4a20-aa9c-647109bfb77d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>A2007WV-3P</value>
+      <footprint>RecoveredLayout:J6</footprint>
+      <fields>
+        <field name="LCSC">C225336</field>
+        <field name="Manufacturer Part">A2007WV-3P</field>
+        <field name="Footprint">RecoveredLayout:J6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="J6" description=""/>
+      <property name="LCSC" value="C225336"/>
+      <property name="Manufacturer Part" value="A2007WV-3P"/>
+      <property name="Sheetname" value="wire_hub_1V0A"/>
+      <property name="Sheetfile" value="wire_hub_1V0A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95493539-d22c-4bf9-a13a-8907ec02ffee</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Recovered" part="CN1">
+      <fields>
+        <field name="Reference">CN1</field>
+        <field name="Value">DB125-2.54-2P-GN-S</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">HC-1.2-3PWT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="J2">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">BM03B-ACHSS-GAN-ETF(LF)(SN)</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="J3">
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">A2007WR-3P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="J4">
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">A2007WR-3P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="J5">
+      <fields>
+        <field name="Reference">J5</field>
+        <field name="Value">A2007WV-3P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="J6">
+      <fields>
+        <field name="Reference">J6</field>
+        <field name="Value">A2007WV-3P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Recovered">
+      <uri>${KIPRJMOD}/Recovered.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Battery" class="Default">
+      <node ref="CN1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/DXL_BUS" class="Default">
+      <node ref="J1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="3" name="/GND" class="Default">
+      <node ref="CN1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+  </nets>
+</export>

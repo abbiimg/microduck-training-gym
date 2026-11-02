@@ -1,0 +1,214 @@
+(version 1)
+
+(rule "Source SAFE F.Cu track to track"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Track')")
+  (constraint clearance (min 0.101999mm)))
+
+(rule "Source SAFE F.Cu track to smd"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu track to pth"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu track to via"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Via')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu track to graphic"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE F.Cu smd to smd"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu smd to pth"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu smd to via"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Via')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu smd to graphic"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE F.Cu pth to pth"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu pth to via"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Via')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu pth to graphic"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE F.Cu via to via"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Via') && (B.Type == 'Via')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE F.Cu via to graphic"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Via') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE F.Cu graphic to graphic"
+  (layer "F.Cu")
+  (condition "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE B.Cu track to track"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Track')")
+  (constraint clearance (min 0.101999mm)))
+
+(rule "Source SAFE B.Cu track to smd"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu track to pth"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu track to via"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Via')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu track to graphic"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Track') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE B.Cu smd to smd"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu smd to pth"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu smd to via"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Via')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu smd to graphic"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'SMD') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE B.Cu pth to pth"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu pth to via"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Via')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu pth to graphic"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE B.Cu via to via"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Via') && (B.Type == 'Via')")
+  (constraint clearance (min 0.152001mm)))
+
+(rule "Source SAFE B.Cu via to graphic"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Via') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source SAFE B.Cu graphic to graphic"
+  (layer "B.Cu")
+  (condition "(A.Type == 'Graphic' && A.Layer != 'Edge.Cuts') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint clearance (min 0.152400mm)))
+
+(rule "Source edge envelope track"
+  (condition "A.Type == 'Track'")
+  (constraint edge_clearance (min 0.299999mm)))
+
+(rule "Source edge envelope smd"
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'SMD'")
+  (constraint edge_clearance (min 0.299720mm)))
+
+(rule "Source edge envelope pth"
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'")
+  (constraint edge_clearance (min 0.299720mm)))
+
+(rule "Source edge envelope via"
+  (condition "A.Type == 'Via'")
+  (constraint edge_clearance (min 0.299720mm)))
+
+(rule "Source edge envelope graphic"
+  (condition "A.Type == 'Graphic' && A.Layer != 'Edge.Cuts'")
+  (constraint edge_clearance (min 0.299999mm)))
+
+(rule "Source drill envelope pth to track"
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Track')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope pth to smd"
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope pth to pth"
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope pth to via"
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Via')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope pth to graphic"
+  (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope via to track"
+  (condition "(A.Type == 'Via') && (B.Type == 'Track')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope via to smd"
+  (condition "(A.Type == 'Via') && (B.Type == 'Pad' && B.Pad_Type == 'SMD')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope via to pth"
+  (condition "(A.Type == 'Via') && (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope via to via"
+  (condition "(A.Type == 'Via') && (B.Type == 'Via')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill envelope via to graphic"
+  (condition "(A.Type == 'Via') && (B.Type == 'Graphic' && B.Layer != 'Edge.Cuts')")
+  (constraint hole_clearance (min 0.175997mm)))
+
+(rule "Source drill to drill minimum"
+  (constraint hole_to_hole (min 0.299999mm)))

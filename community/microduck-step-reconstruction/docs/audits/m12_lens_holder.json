@@ -1,0 +1,168 @@
+{
+  "name": "m12_lens_holder",
+  "label_zh": "M12镜头座",
+  "quantity": 1,
+  "units": "mm",
+  "stl": "01_STL_original/m12_lens_holder__M12镜头座__x1.stl",
+  "step": "02_STEP_final/m12_lens_holder__M12镜头座__x1.step",
+  "stl_sha256": "c1287423bfdcb064b223d7a433dc106f0a1baa7267b60bec7a8a81cd0ace0f35",
+  "step_sha256": "6eadfb09341435525c6c9273962fc34aa4de5eface473cb803f376633813b236",
+  "stl_bytes": 549684,
+  "step_bytes": 205219,
+  "stl_triangles": 10992,
+  "cad_faces": 53,
+  "valid_solid": true,
+  "deviation": {
+    "source_to_rebuilt": {
+      "samples": 16482,
+      "max_mm": 0.006580991194751961,
+      "rms_mm": 0.002035638087408736,
+      "worst_point_mm": [
+        6.090808550516765,
+        14.605810483296713,
+        -4.534370422363281
+      ]
+    },
+    "rebuilt_to_source": {
+      "samples": 237174,
+      "max_mm": 0.007412530118005847,
+      "rms_mm": 0.002677701674801906,
+      "worst_point_mm": [
+        -3.5084066651374295,
+        14.60996917713214,
+        -6.741461545861889
+      ]
+    }
+  },
+  "additional_audit": {
+    "random_bidirectional_samples": {
+      "source_to_step": {
+        "samples": 20000,
+        "max_mm": 0.007216593342411676,
+        "rms_mm": 0.0025462471163199265
+      },
+      "step_to_source": {
+        "samples": 20000,
+        "max_mm": 0.007367668510810667,
+        "rms_mm": 0.0025691909805631527
+      }
+    },
+    "bounding_box_max_delta_mm": 9.265136213798542e-09,
+    "volume_error_percent": 0.048389530050219065,
+    "edit_test": {
+      "operation": "subtract 0.4 mm box from material",
+      "center_mm": [
+        -2.5999999046325684,
+        5.066666603088379,
+        -7.9
+      ],
+      "valid_after_cut": true,
+      "removed_volume_mm3": 0.04799999879128336
+    },
+    "sha256": "6eadfb09341435525c6c9273962fc34aa4de5eface473cb803f376633813b236",
+    "volume_integration_relative_tolerance": 1e-09,
+    "bounding_box_basis": "complete CAD surface tessellation, 0.0005 mm mesh deflection",
+    "native_conservative_bbox_mm": [
+      -12.0000001,
+      -1e-07,
+      -8.0,
+      12.0000001,
+      14.80000020000018,
+      8.0
+    ],
+    "measured_surface_bbox_mm": [
+      -12.0,
+      0.0,
+      -8.0,
+      12.0,
+      14.8000002,
+      8.0
+    ]
+  },
+  "improved_in_latest_round": true,
+  "repair_comparison": {
+    "baseline_bytes": 7734835,
+    "new_bytes": 205219,
+    "baseline": {
+      "faces": {
+        "GeomAbs_Plane": 183,
+        "GeomAbs_BSplineSurface": 300,
+        "GeomAbs_Cylinder": 8
+      },
+      "edge_curve_types": {
+        "GeomAbs_BSplineCurve degree 1": 1577,
+        "GeomAbs_Line": 205,
+        "GeomAbs_Circle": 10,
+        "GeomAbs_BSplineCurve degree 7": 2
+      },
+      "spline_control_points": 70367,
+      "analytic_surface_area_fraction": 0.6527977568021197
+    },
+    "new": {
+      "faces": {
+        "GeomAbs_Plane": 17,
+        "GeomAbs_Cylinder": 20,
+        "GeomAbs_Sphere": 4,
+        "GeomAbs_Cone": 4,
+        "GeomAbs_Torus": 4,
+        "GeomAbs_BSplineSurface": 4
+      },
+      "edge_curve_types": {
+        "GeomAbs_Line": 60,
+        "GeomAbs_BSplineCurve degree 1": 14,
+        "GeomAbs_BSplineCurve degree 6": 4,
+        "GeomAbs_Circle": 43,
+        "GeomAbs_OtherCurve": 4,
+        "GeomAbs_BSplineCurve degree 2": 4,
+        "GeomAbs_BSplineCurve degree 8": 1,
+        "GeomAbs_BSplineCurve degree 7": 1
+      },
+      "spline_control_points": 24,
+      "analytic_surface_area_fraction": 0.9995370000887305
+    }
+  },
+  "measured_rebuild_parameters": {
+    "construction": "parametric frame, drafted screw lugs, revolved sleeve, side set-screw hole",
+    "outer_frame_mm": [
+      16,
+      7.8,
+      16
+    ],
+    "inner_opening_mm": [
+      14.2,
+      6.8,
+      14.2
+    ],
+    "lug_centers_x_mm": [
+      -10,
+      10
+    ],
+    "lug_hole_radius_mm": 1,
+    "lug_height_mm": 3.6,
+    "lug_outer_radii_mm": [
+      2,
+      1.65
+    ],
+    "edge_radius_mm": 0.2,
+    "sleeve_outer_radius_mm": 7.6,
+    "bore_radius_mm": 5.8,
+    "sleeve_end_y_mm": 14.8,
+    "countersink_start_y_mm": 14.297971725463867,
+    "set_screw_center_mm": [
+      0,
+      12,
+      0
+    ],
+    "set_screw_radius_mm": 1
+  },
+  "max_sampled_deviation_mm": 0.007412530118005847,
+  "max_extra_sampled_deviation_mm": 0.007367668510810667,
+  "measured_bbox_mm": [
+    -12.0,
+    0.0,
+    -8.0,
+    12.0,
+    14.8000002,
+    8.0
+  ]
+}

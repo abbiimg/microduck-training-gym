@@ -1,0 +1,272 @@
+{
+  "vendor_model_sha256": "a6e6bd3e0b2656e797fe4a7bfd5b58cbb474d71f065b94698d4d02de91fb3d63",
+  "wrapper_sha256": "c0e2a307fbdbcd48958065620378cb2c1c6e95235fba473f97387aa22dea7f7e",
+  "datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc2g241.pdf",
+  "scope": "authored eight-port logical review wrapper using two unchanged vendor active-high stages and ideal algebraic TX-enable inversion; fixed 3.3 V, enables within 0..VCC; DC logic/high-Z functional tests with fixed-voltage CPU/bus mocks",
+  "source_u3_pinmap_checked": {
+    "1": "DE",
+    "2": "MCU_TX",
+    "3": "MCU_RX",
+    "4": "GND",
+    "5": "DXL_DATA",
+    "6": "DXL_DATA",
+    "7": "RX_EN",
+    "8": "3.3V"
+  },
+  "native_u3_pad_nets_checked": {
+    "1": "DE",
+    "2": "MCU_TX",
+    "3": "MCU_RX",
+    "4": "GND",
+    "5": "DXL_DATA",
+    "6": "DXL_DATA",
+    "7": "RX_EN",
+    "8": "3.3V"
+  },
+  "resistor_pinmaps_checked": {
+    "R4": {
+      "1": "3.3V",
+      "2": "DE"
+    },
+    "R5": {
+      "1": "3.3V",
+      "2": "DXL_DATA"
+    },
+    "R7": {
+      "1": "RX_EN",
+      "2": "3.3V"
+    },
+    "R6": {
+      "1": "DXL_DATA",
+      "2": "DXL_BUS"
+    }
+  },
+  "placed_r6_value": "0R; ideal zero-volt link keeps DXL_DATA/DXL_BUS boundary",
+  "physical_pin_assignment_reviewed": true,
+  "source_to_wrapper_port_mapping_tested": true,
+  "ideal_tx_enable_inversion": true,
+  "chip_enable_timing_verified": false,
+  "physical_input_capacitance_verified": false,
+  "package_supply_current_verified": false,
+  "power_off_verified": false,
+  "backdrive_verified": false,
+  "whole_pcb_simulation": false,
+  "physical_hardware_tested": false,
+  "manufacturing_ready": false,
+  "limitations": [
+    "No eight-pin TI-qualified analog model is claimed.",
+    "Ideal inverter isolates physical DE input from vendor enable capacitance/impedance; no physical inversion delay.",
+    "VCC-DE becomes negative for DE>VCC; power-off/back-drive/overvoltage cases are outside this wrapper scope.",
+    "Two channel power models do not qualify shared package ICC.",
+    "Test pull loads are fixture values, not measured MCU/harness parasitics."
+  ],
+  "cases": [
+    {
+      "case": "tx_low",
+      "checks": [
+        {
+          "node": "dxl_data",
+          "expected": "low",
+          "voltage": 0.00717174,
+          "passed": true
+        },
+        {
+          "node": "dxl_bus",
+          "expected": "low",
+          "voltage": 0.00717174,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "tx_high",
+      "checks": [
+        {
+          "node": "dxl_data",
+          "expected": "high",
+          "voltage": 3.290721,
+          "passed": true
+        },
+        {
+          "node": "dxl_bus",
+          "expected": "high",
+          "voltage": 3.290721,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "tx_disabled_pullup",
+      "checks": [
+        {
+          "node": "dxl_data",
+          "expected": "high",
+          "voltage": 3.234833,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "tx_disabled_pulldown",
+      "checks": [
+        {
+          "node": "dxl_data",
+          "expected": "low",
+          "voltage": 0.03266675,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "rx_low",
+      "checks": [
+        {
+          "node": "mcu_rx",
+          "expected": "low",
+          "voltage": 0.007171896,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "rx_high",
+      "checks": [
+        {
+          "node": "mcu_rx",
+          "expected": "high",
+          "voltage": 3.290786,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "rx_disabled_pullup",
+      "checks": [
+        {
+          "node": "mcu_rx",
+          "expected": "high",
+          "voltage": 3.267003,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "rx_disabled_pulldown",
+      "checks": [
+        {
+          "node": "mcu_rx",
+          "expected": "low",
+          "voltage": 0.0,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "both_disabled",
+      "checks": [
+        {
+          "node": "dxl_data",
+          "expected": "low",
+          "voltage": 0.03266675,
+          "passed": true
+        },
+        {
+          "node": "mcu_rx",
+          "expected": "high",
+          "voltage": 3.267003,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "reset_bias_txoff_rxon",
+      "checks": [
+        {
+          "node": "de",
+          "expected": "high",
+          "voltage": 3.3,
+          "passed": true
+        },
+        {
+          "node": "rx_en",
+          "expected": "high",
+          "voltage": 3.294011,
+          "passed": true
+        },
+        {
+          "node": "dxl_data",
+          "expected": "high",
+          "voltage": 3.234833,
+          "passed": true
+        },
+        {
+          "node": "mcu_rx",
+          "expected": "high",
+          "voltage": 3.290786,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "tx_rx_loop_low",
+      "checks": [
+        {
+          "node": "dxl_data",
+          "expected": "low",
+          "voltage": 0.00717174,
+          "passed": true
+        },
+        {
+          "node": "dxl_bus",
+          "expected": "low",
+          "voltage": 0.00717174,
+          "passed": true
+        },
+        {
+          "node": "mcu_rx",
+          "expected": "low",
+          "voltage": 0.007171896,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "tx_rx_loop_high",
+      "checks": [
+        {
+          "node": "dxl_data",
+          "expected": "high",
+          "voltage": 3.299816,
+          "passed": true
+        },
+        {
+          "node": "dxl_bus",
+          "expected": "high",
+          "voltage": 3.299816,
+          "passed": true
+        },
+        {
+          "node": "mcu_rx",
+          "expected": "high",
+          "voltage": 3.290786,
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "checks_passed": 22,
+  "checks_total": 22,
+  "all_passed": true
+}

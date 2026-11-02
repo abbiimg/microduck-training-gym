@@ -1,0 +1,38 @@
+{
+  "task": "IsaacContrib-Velocity-Flat-MicroDuck",
+  "physics": "newton_mjwarp",
+  "preset": "backlash",
+  "num_envs": 128,
+  "requested_iterations": 10,
+  "checkpoint_iteration": 9,
+  "checkpoint_keys": [
+    "actor_state_dict",
+    "critic_state_dict",
+    "optimizer_state_dict",
+    "iter",
+    "infos"
+  ],
+  "seed": 42,
+  "run_directory": "/home/workbench/robotics/IsaacLab/logs/rsl_rl/microduck_velocity_flat_backlash/2026-10-26_14-57-39_pcb_pipeline_baseline",
+  "training_seconds": 102.47,
+  "max_reported_nan_termination": 0.0,
+  "jit_inference_input": [
+    1,
+    61
+  ],
+  "jit_inference_output": [
+    1,
+    14
+  ],
+  "self_contained_onnx_valid": true,
+  "policy_quality": "integration-only; final success_rate 0.0 and fell_over 1.0",
+  "physical_hardware_tested": false,
+  "cad_electronics_variant_equivalence_verified": false,
+  "checkpoint_sha256": "50b6160012c68b3a7b92d6431585b79b16abb434b4963edcd285789ba755144d",
+  "video": {
+    "frames": 150,
+    "width": 1920,
+    "height": 1080,
+    "pixel_std": 47.9352308736493
+  }
+}

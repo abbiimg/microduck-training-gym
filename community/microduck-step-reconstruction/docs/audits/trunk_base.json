@@ -1,0 +1,147 @@
+{
+  "name": "trunk_base",
+  "label_zh": "躯干底板",
+  "quantity": 1,
+  "units": "mm",
+  "stl": "01_STL_original/trunk_base__躯干底板__x1.stl",
+  "step": "02_STEP_final/trunk_base__躯干底板__x1.step",
+  "stl_sha256": "a10038568c25e46b8913b2ab45cdb3b8128214c67553fc01c8aa260bcfdcb8e0",
+  "step_sha256": "4456fba165467b80256702dac030e2f7e8e042d7fe6f178c6ed7bd7f5b72da78",
+  "stl_bytes": 184984,
+  "step_bytes": 103651,
+  "stl_triangles": 3698,
+  "cad_faces": 32,
+  "valid_solid": true,
+  "deviation": {
+    "source_to_rebuild": {
+      "samples": 5535,
+      "max_mm": 0.00802822074409586,
+      "rms_mm": 0.0018616628151435716
+    },
+    "rebuild_to_source": {
+      "samples": 40056,
+      "max_mm": 0.00882035102938309,
+      "rms_mm": 0.0014126677471296496
+    }
+  },
+  "additional_audit": {
+    "random_bidirectional_samples": {
+      "source_to_step": {
+        "samples": 20000,
+        "max_mm": 0.009029974958067564,
+        "rms_mm": 0.0012394932297526465
+      },
+      "step_to_source": {
+        "samples": 20000,
+        "max_mm": 0.009041276302323467,
+        "rms_mm": 0.0012304907210072906
+      }
+    },
+    "bounding_box_max_delta_mm": 0.0,
+    "volume_error_percent": -0.05066539597899933,
+    "edit_test": {
+      "operation": "subtract 0.4 mm box from material",
+      "center_mm": [
+        -0.3333333333333333,
+        -9.333333333333334,
+        16.6
+      ],
+      "valid_after_cut": true,
+      "removed_volume_mm3": 0.04799999999954707
+    },
+    "sha256": "4456fba165467b80256702dac030e2f7e8e042d7fe6f178c6ed7bd7f5b72da78",
+    "volume_integration_relative_tolerance": 1e-09,
+    "bounding_box_basis": "complete CAD surface tessellation, 0.0005 mm mesh deflection",
+    "native_conservative_bbox_mm": [
+      -28.5,
+      -13.0,
+      16.5,
+      28.5,
+      23.0,
+      19.5
+    ],
+    "measured_surface_bbox_mm": [
+      -28.5,
+      -13.0,
+      16.5,
+      28.5,
+      23.0,
+      19.5
+    ]
+  },
+  "improved_in_latest_round": false,
+  "measured_rebuild_parameters": {
+    "units": "mm",
+    "z_bottom": 16.5,
+    "plate_width": 57.0,
+    "plate_depth": 36.0,
+    "plate_center_y": 5.0,
+    "plate_thickness": 1.0,
+    "outer_corner_radius": 2.0,
+    "large_hole_diameter": 19.0,
+    "large_hole_centers": [
+      [
+        -17.5,
+        -2.0
+      ],
+      [
+        17.5,
+        -2.0
+      ]
+    ],
+    "small_hole_diameter": 2.3,
+    "small_hole_centers": [
+      [
+        -25.5,
+        20.5
+      ],
+      [
+        -9.5,
+        20.5
+      ],
+      [
+        9.5,
+        20.5
+      ],
+      [
+        25.5,
+        20.5
+      ]
+    ],
+    "slot_width": 6.0,
+    "slot_depth": 12.0,
+    "slot_center_y": 4.0,
+    "slot_corner_radius": 2.0,
+    "pin_base_diameter": 1.8,
+    "pin_height": 2.0,
+    "pin_draft_deg": 3.0,
+    "pin_centers": [
+      [
+        -25.5,
+        -9.5
+      ],
+      [
+        -9.5,
+        -9.5
+      ],
+      [
+        9.5,
+        -9.5
+      ],
+      [
+        25.5,
+        -9.5
+      ]
+    ]
+  },
+  "max_sampled_deviation_mm": 0.00882035102938309,
+  "max_extra_sampled_deviation_mm": 0.009041276302323467,
+  "measured_bbox_mm": [
+    -28.5,
+    -13.0,
+    16.5,
+    28.5,
+    23.0,
+    19.5
+  ]
+}

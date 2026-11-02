@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender ↔ SolidWorks Transfer"
+  short_description: "Transfer 3D models with scale and geometry checks"
+  default_prompt: "Use $blender-solidworks-transfer to transfer my 3D model between Blender and SolidWorks and verify its dimensions."

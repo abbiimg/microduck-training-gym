@@ -1,0 +1,392 @@
+[
+  {
+    "part": "ankle_left",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\ankle_left__\u5de6\u811a\u8e1d__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 7884.613970714745,
+    "dimensions_mm": [
+      39.48914422635656,
+      36.500000387430134,
+      25.500000163618
+    ]
+  },
+  {
+    "part": "ankle_right",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\ankle_right__\u53f3\u811a\u8e1d__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 7884.613653431624,
+    "dimensions_mm": [
+      39.489144226360814,
+      36.500000387430134,
+      25.500000163618
+    ]
+  },
+  {
+    "part": "banana_pcb_locker",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\banana_pcb_locker__PCB\u9501\u6263__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 459.6697019219429,
+    "dimensions_mm": [
+      54.05236544632,
+      3.8000001999999995,
+      6.652366489067255
+    ]
+  },
+  {
+    "part": "bearing_roll",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\bearing_roll__\u9acb\u90e8\u8f74\u627f\u538b\u76d6__x2.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 624.9390520331874,
+    "dimensions_mm": [
+      23.000000000000163,
+      3.0000000000000355,
+      40.0
+    ]
+  },
+  {
+    "part": "bottom_head_shell",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\bottom_head_shell__\u5934\u90e8\u4e0b\u58f3__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 23803.036278368174,
+    "dimensions_mm": [
+      91.76297599960705,
+      116.7482797715,
+      91.74964924152663
+    ]
+  },
+  {
+    "part": "face_part",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\face_part__\u9762\u90e8\u4ef6__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 5824.437356653535,
+    "dimensions_mm": [
+      87.70233620632993,
+      12.500000200000002,
+      44.62648101779502
+    ]
+  },
+  {
+    "part": "foot_left",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\foot_left__\u5de6\u811a__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 12184.344174455859,
+    "dimensions_mm": [
+      40.085949875531114,
+      54.0000002,
+      19.76323585994993
+    ]
+  },
+  {
+    "part": "foot_right",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\foot_right__\u53f3\u811a__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 12176.537112536105,
+    "dimensions_mm": [
+      40.085949875531114,
+      54.0000002,
+      19.76323585994993
+    ]
+  },
+  {
+    "part": "hip_l",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\hip_l__\u9acb\u90e8\u8fde\u63a5\u4ef6__x2.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4525.624964906118,
+    "dimensions_mm": [
+      32.45004899955146,
+      37.29462550129632,
+      26.0715049232471
+    ]
+  },
+  {
+    "part": "jaw",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\jaw__\u4e0b\u989a\u4ef6__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 9345.316323643448,
+    "dimensions_mm": [
+      91.41996642882941,
+      68.71049519503858,
+      29.518303550738906
+    ]
+  },
+  {
+    "part": "jaw_soft",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\jaw_soft__\u4e0b\u989a\u67d4\u6027\u5019\u9009\u4ef6__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 18611.542728826687,
+    "dimensions_mm": [
+      87.67489129128289,
+      32.23394986125001,
+      8.786622770964666
+    ]
+  },
+  {
+    "part": "left_shell",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\left_shell__\u8eaf\u5e72\u5de6\u58f3__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 11399.226011352239,
+    "dimensions_mm": [
+      35.36287019285718,
+      81.66217785571601,
+      41.69051953291272
+    ]
+  },
+  {
+    "part": "leg",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\leg__\u5c0f\u817f\u8fde\u63a5\u4ef6__x2.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 3412.326457326518,
+    "dimensions_mm": [
+      25.93523926253509,
+      20.005395105541062,
+      57.99999638174364
+    ]
+  },
+  {
+    "part": "m12_lens_holder",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\m12_lens_holder__M12\u955c\u5934\u5ea7__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1098.2508514316553,
+    "dimensions_mm": [
+      24.0000002,
+      14.80000030000018,
+      16.0
+    ]
+  },
+  {
+    "part": "motor_support",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\motor_support__\u5634\u8235\u673a\u652f\u67b6__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 7515.0767577178685,
+    "dimensions_mm": [
+      73.5000001,
+      54.20000101464125,
+      18.800000986781143
+    ]
+  },
+  {
+    "part": "neck",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\neck__\u9888\u90e8\u8fde\u63a5\u4ef6__x2.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 399.893834303626,
+    "dimensions_mm": [
+      2.0,
+      20.000000000008,
+      11.000000000000014
+    ]
+  },
+  {
+    "part": "neck_pitch",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\neck_pitch__\u9888\u90e8\u4fef\u4ef0\u4ef6__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4105.648446786891,
+    "dimensions_mm": [
+      35.0000000000005,
+      18.00591335563147,
+      27.693115439414
+    ]
+  },
+  {
+    "part": "noenoeil",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\noenoeil__\u773c\u90e8\u4ef6__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4255.628639883815,
+    "dimensions_mm": [
+      29.99999968983,
+      9.5,
+      29.999999689830002
+    ]
+  },
+  {
+    "part": "power_support",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\power_support__\u7535\u6c60\u652f\u67b6__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 10491.527734007066,
+    "dimensions_mm": [
+      54.5000002,
+      17.003978970031064,
+      83.49077748382085
+    ]
+  },
+  {
+    "part": "right_shell",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\right_shell__\u8eaf\u5e72\u53f3\u58f3__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 11215.924658407443,
+    "dimensions_mm": [
+      32.180862954878464,
+      80.99109184440711,
+      41.692665301000005
+    ]
+  },
+  {
+    "part": "soft_mouth_top",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\soft_mouth_top__\u67d4\u6027\u4e0a\u5599\u5019\u9009\u4ef6__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 2699.3323231846043,
+    "dimensions_mm": [
+      87.819580278122,
+      32.56754478196552,
+      3.276202163424
+    ]
+  },
+  {
+    "part": "sole_left",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\sole_left__\u5de6\u811a\u5e95\u63a5\u89e6\u4ef6__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 6248.674428787277,
+    "dimensions_mm": [
+      41.09788550487829,
+      54.45523435322379,
+      12.920980300149168
+    ]
+  },
+  {
+    "part": "sole_right",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\sole_right__\u53f3\u811a\u5e95\u63a5\u89e6\u4ef6__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 6251.628622835542,
+    "dimensions_mm": [
+      41.09788550487891,
+      54.45523435322337,
+      12.920980300149328
+    ]
+  },
+  {
+    "part": "top_head_shell",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\top_head_shell__\u5934\u90e8\u4e0a\u58f3__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 29578.586707715374,
+    "dimensions_mm": [
+      92.80667904755555,
+      122.69161911754685,
+      46.344834122162894
+    ]
+  },
+  {
+    "part": "trunk_base",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\trunk_base__\u8eaf\u5e72\u5e95\u677f__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1414.402187828323,
+    "dimensions_mm": [
+      57.0,
+      36.0,
+      3.0
+    ]
+  },
+  {
+    "part": "upper_leg_left",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\upper_leg_left__\u5de6\u4e0a\u817f__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4167.162002901801,
+    "dimensions_mm": [
+      28.00008623133253,
+      47.659423916766954,
+      60.99667461810048
+    ]
+  },
+  {
+    "part": "upper_leg_right",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\upper_leg_right__\u53f3\u4e0a\u817f__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4161.249978852562,
+    "dimensions_mm": [
+      28.000086231341527,
+      47.659423916767054,
+      60.99667461810034
+    ]
+  },
+  {
+    "part": "upper_leg_rigidity_plate",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\upper_leg_rigidity_plate__\u4e0a\u817f\u52a0\u56fa\u677f__x2.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 747.806045597519,
+    "dimensions_mm": [
+      1.0,
+      45.0000001903258,
+      58.05866224489978
+    ]
+  },
+  {
+    "part": "yaw2roll",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\yaw2roll__\u9acb\u504f\u822a\u8f6c\u6a2a\u6eda\u4ef6__x2.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 2816.6831485733946,
+    "dimensions_mm": [
+      23.00000020000001,
+      25.800000100000002,
+      20.500000100000012
+    ]
+  },
+  {
+    "part": "yaw_roll_motion",
+    "file": "community\\microduck-step-reconstruction\\02_STEP_final\\yaw_roll_motion__\u5934\u90e8\u504f\u822a\u6a2a\u6eda\u4ef6__x1.step",
+    "sha256_matches_author": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4556.9297334493085,
+    "dimensions_mm": [
+      34.00000000485497,
+      35.89999961853,
+      22.499999942576
+    ]
+  }
+]

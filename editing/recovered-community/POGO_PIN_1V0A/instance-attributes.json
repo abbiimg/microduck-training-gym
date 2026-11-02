@@ -1,0 +1,20 @@
+{
+  "U1": {
+    "Symbol": "c4848b2abf394d6f",
+    "Device": "d95747ee7facf28d",
+    "Designator": "U1",
+    "Unique ID": "gge21"
+  },
+  "U2": {
+    "Symbol": "c4848b2abf394d6f",
+    "Device": "d95747ee7facf28d",
+    "Designator": "U2",
+    "Unique ID": "gge22"
+  },
+  "CN2": {
+    "Symbol": "8817c69edd3f666d",
+    "Device": "a4f40197beb4a32c",
+    "Unique ID": "gge23",
+    "Designator": "CN2"
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "reference": "CN1",
+    "value": null,
+    "manufacturer_part": "DB125-2.54-2P-GN-S",
+    "supplier_part": "C918120",
+    "device_library_part": "DB125-2.54-2P-GN-S",
+    "device_library_description": "结构:1x2P;间距:2.54mm;颜色:绿色;安装类型:直插;排数:1;每排PIN数:2;额定电流:7A;额定电压:150V;线规 - AWG:18~26;线规 - 平方毫米:1;工作温度:-40℃~+105℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "J1",
+    "value": null,
+    "manufacturer_part": "HC-1.2-3PWT",
+    "supplier_part": "C2997426",
+    "device_library_part": "HC-1.2-3PWT",
+    "device_library_description": "插针结构:1x3P;间距:1.2mm;安装方式:卧贴;参考系列:Pico-EZmate(MX 1.2);总PIN数:3P;排数:1;每排PIN数:3;行距:-;额定电流:1.5A;触头材质:铜合金;触头镀层:金;工作温度:-25℃~+85℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "J2",
+    "value": null,
+    "manufacturer_part": "BM03B-ACHSS-GAN-ETF(LF)(SN)",
+    "supplier_part": "C5118705",
+    "device_library_part": "BM03B-ACHSS-GAN-ETF(LF)(SN)",
+    "device_library_description": "插针结构:1x3P;间距:1.2mm;安装方式:卧贴;参考系列:ACH;总PIN数:3P;排数:1;每排PIN数:3;行距:-;额定电流:2A;触头材质:铜合金;触头镀层:金;工作温度:-25℃~+85℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "J3",
+    "value": null,
+    "manufacturer_part": "A2007WR-3P",
+    "supplier_part": "C225350",
+    "device_library_part": "A2007WR-3P",
+    "device_library_description": "插针结构:1x3P;间距:2mm;安装方式:弯插;参考系列:-;总PIN数:3P;排数:1;每排PIN数:3;行距:-;额定电流:4A;触头材质:黄铜;触头镀层:锡;工作温度:-40℃~+105℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "J4",
+    "value": null,
+    "manufacturer_part": "A2007WR-3P",
+    "supplier_part": "C225350",
+    "device_library_part": "A2007WR-3P",
+    "device_library_description": "插针结构:1x3P;间距:2mm;安装方式:弯插;参考系列:-;总PIN数:3P;排数:1;每排PIN数:3;行距:-;额定电流:4A;触头材质:黄铜;触头镀层:锡;工作温度:-40℃~+105℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "J5",
+    "value": null,
+    "manufacturer_part": "A2007WV-3P",
+    "supplier_part": "C225336",
+    "device_library_part": "A2007WV-3P",
+    "device_library_description": "插针结构:1x3P;间距:2mm;安装方式:直插;参考系列:-;总PIN数:3P;排数:1;每排PIN数:3;行距:-;额定电流:4A;触头材质:黄铜;触头镀层:锡;工作温度:-40℃~+105℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  },
+  {
+    "reference": "J6",
+    "value": null,
+    "manufacturer_part": "A2007WV-3P",
+    "supplier_part": "C225336",
+    "device_library_part": "A2007WV-3P",
+    "device_library_description": "插针结构:1x3P;间距:2mm;安装方式:直插;参考系列:-;总PIN数:3P;排数:1;每排PIN数:3;行距:-;额定电流:4A;触头材质:黄铜;触头镀层:锡;工作温度:-40℃~+105℃;",
+    "instance_override": false,
+    "source": "recovered placed-component attributes with device defaults fallback"
+  }
+]

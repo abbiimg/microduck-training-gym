@@ -1,0 +1,24 @@
+{
+  "candidate": "POGO_PIN_1V0A",
+  "parent_board": "editing/kicad-paired/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_pcb",
+  "parent_sha256": "ffe69cc5eb0270b1a8386b12955db0ea714be2ae846a9384e50c1bade7c54dfe",
+  "source_zones": 0,
+  "result_zones": 0,
+  "pads_checked": 6,
+  "routing_items_checked": 9,
+  "pad_and_routing_geometry_preserved": true,
+  "copper_symmetric_differences": [],
+  "source_groups": [],
+  "excluded_source_geometry": [],
+  "transition_hypothesis": false,
+  "physical_equivalence_scope": "all literal saved copper",
+  "schematic_parity": [],
+  "drc_counts": {
+    "track_width": 4,
+    "track_dangling": 4
+  },
+  "unconnected": 0,
+  "source_rules_changed": false,
+  "copper_refilled": false,
+  "manufacturing_ready": false
+}

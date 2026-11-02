@@ -1,0 +1,3410 @@
+{
+  "date": "2026-10-26",
+  "read_only_review": true,
+  "native_rules_changed": false,
+  "client_bundle": "C:\\Users\\abbii\\Documents\\Codex\\tools\\lceda-pro-4.1.78\\resources\\app\\assets\\pro-pcb\\4.1.67.65530fb3\\js",
+  "bundle_sha256": {
+    "decodeWorker.js": "112e589a741bbb2b3250a70442a8eb3dd59f2bfe8160d71ddc4eb9e0a36be1a4",
+    "drcWorker.js": "62b95d6376867063910ca02ca254635fbb37fd9c1addcc33f549ecb9c7466f9f"
+  },
+  "format_documentation_repository": "https://github.com/easyeda/easyeda-format-skill",
+  "format_documentation_commit": "4fcab1747d47b2ae01d7f93a485859970c5cf933",
+  "units_evidence": "Installed client divides RULE length numbers by 10 into internal 0.01-inch coordinates; source numbers therefore project as mil. Latest GitHub schema disagrees; version-specific evidence preserved.",
+  "safe_index_mapping": {
+    "0": "track",
+    "1": "surface pad",
+    "2": "multilayer pad",
+    "3": "surface test pad",
+    "4": "multilayer test pad",
+    "5": "via",
+    "6": "fill or teardrop",
+    "7": "copper/inner-plane after normalization of shape types 13/14",
+    "8": "slot/cutout",
+    "9": "polyline/graphic (non-outline)",
+    "10": "fallback item class; precise membership not fully qualified",
+    "11": "board outline",
+    "12": "drill override"
+  },
+  "candidates": [
+    {
+      "candidate": "imu_to_dxl",
+      "defaults": {
+        "SAFE": "copperThickness1oz",
+        "OTHER": "otherClearance",
+        "CREEPAGE": "creepage",
+        "TRACK": "copperThickness1oz",
+        "NET_LENGTH": "netLength",
+        "NET_LENGTH_TOLERANCE": "netLengthTolerance",
+        "DIFFER_ENTAIL": "differentialPair",
+        "BLIND": "blindVia",
+        "RADIUS": "viaSize",
+        "PLANE": "innerPlane",
+        "COPPER": "copperRegion",
+        "PASTE": "pasteMaskExpansion",
+        "SOLDER": "solderMaskExpansion",
+        "AUTO_ROUTER": "Common"
+      },
+      "rules": [
+        {
+          "type": "SAFE",
+          "name": "copperThickness1oz",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "isForAll": "ALL",
+            "safeSpacing": [
+              {
+                "layerId": 1,
+                "isOpen": true,
+                "content": [
+                  [
+                    4.0157
+                  ],
+                  [
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                  ],
+                  [
+                    11.811,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    6
+                  ],
+                  [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    11.811,
+                    6
+                  ],
+                  [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    6,
+                    6,
+                    6
+                  ],
+                  [
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    10,
+                    11.8,
+                    11.8,
+                    11.8
+                  ],
+                  [
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    10,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929
+                  ]
+                ],
+                "columnNames": []
+              }
+            ]
+          }
+        },
+        {
+          "type": "SAFE",
+          "name": "copperThickness2oz",
+          "ruleState": "NORMAL",
+          "ruleContext": {
+            "unit": "mm",
+            "isForAll": "ALL",
+            "safeSpacing": [
+              {
+                "layerId": 1,
+                "isOpen": true,
+                "content": [
+                  [
+                    7.9921
+                  ],
+                  [
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                  ],
+                  [
+                    11.811,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    10,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    10,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    10,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    11.811,
+                    11.811,
+                    11.811,
+                    11.811,
+                    11.811,
+                    11.811,
+                    11.811,
+                    10,
+                    11.811,
+                    11.811,
+                    11.811
+                  ],
+                  [
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    10,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929
+                  ]
+                ],
+                "columnNames": []
+              }
+            ]
+          }
+        },
+        {
+          "type": "OTHER",
+          "name": "otherClearance",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "deviceClearance": 0,
+            "thru2SmdClearance": 0,
+            "holeClearance": 11.811
+          }
+        },
+        {
+          "type": "CREEPAGE",
+          "name": "creepage",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "creepageDistance": 0,
+            "ignoreLayer": true
+          }
+        },
+        {
+          "type": "TRACK",
+          "name": "copperThickness1oz",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "track": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "stroMin": 5,
+                  "stroDef": 10,
+                  "stroMax": 100
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "TRACK",
+          "name": "copperThickness2oz",
+          "ruleState": "NORMAL",
+          "ruleContext": {
+            "unit": "mm",
+            "track": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "stroMin": 7.9921,
+                  "stroDef": 10,
+                  "stroMax": 100
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "NET_LENGTH",
+          "name": "netLength",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "netLenMin": 0,
+            "netLenMax": 0
+          }
+        },
+        {
+          "type": "NET_LENGTH_TOLERANCE",
+          "name": "netLengthTolerance",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "netLengthTolerance": 1000
+          }
+        },
+        {
+          "type": "DIFFER_ENTAIL",
+          "name": "differentialPair",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "stroWidth": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "stroMin": 5,
+                  "stroMax": 100,
+                  "stroDef": 10
+                }
+              ]
+            },
+            "spacing": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "spacMin": 6,
+                  "spacDef": 6
+                }
+              ]
+            },
+            "differPairLenTolerMax": 10
+          }
+        },
+        {
+          "type": "BLIND",
+          "name": "blindVia",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "blinds": {
+              "content": []
+            }
+          }
+        },
+        {
+          "type": "RADIUS",
+          "name": "viaSize",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "minRadius": 9.8425,
+            "defRadius": 12.0079,
+            "maxRadius": 196.8504,
+            "minInner": 5.9055,
+            "defInner": 6.0039,
+            "maxInner": 124.0157
+          }
+        },
+        {
+          "type": "PLANE",
+          "name": "innerPlane",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "mulPad": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "connType": "DIVERGENCE",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "COPPER",
+          "name": "copperRegion",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "sglPad": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "connType": "DIVERGENCE",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                }
+              ]
+            },
+            "mulPad": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "connType": "DIVERGENCE",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                }
+              ]
+            },
+            "track": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "connType": "DIRECT"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "PASTE",
+          "name": "pasteMaskExpansion",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "padTopExpan": 0,
+            "padBotExpan": 0,
+            "testPointTopExpan": -1000,
+            "testPointBotExpan": -1000
+          }
+        },
+        {
+          "type": "SOLDER",
+          "name": "solderMaskExpansion",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "padTopExpan": 2,
+            "padBotExpan": 2,
+            "viaTopExpan": -1000,
+            "viaBotExpan": -1000,
+            "testPointTopExpan": 2,
+            "testPointBotExpan": 2
+          }
+        },
+        {
+          "type": "AUTO_ROUTER",
+          "name": "Common",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "routingCorner": "L45",
+            "isKeep": 1,
+            "viaQuantity": "LESS",
+            "routingEffectPriority": "COMPLETION_FIRST",
+            "layers": [
+              1,
+              2,
+              12
+            ],
+            "ignoreNets": []
+          }
+        }
+      ],
+      "selectors": [],
+      "numeric_projection_based_on_installed_client": {
+        "safe_matrix_mm": [
+          {
+            "layerId": 1,
+            "matrix": [
+              [
+                0.10199878
+              ],
+              [
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254
+              ],
+              [
+                0.29999939999999997,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.15239999999999998
+              ],
+              [
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.29999939999999997,
+                0.15239999999999998
+              ],
+              [
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998
+              ],
+              [
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.254,
+                0.29972,
+                0.29972,
+                0.29972
+              ],
+              [
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.254,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966
+              ]
+            ],
+            "source_columnNames": []
+          }
+        ],
+        "other_clearance_mm": {
+          "deviceClearance": 0.0,
+          "thru2SmdClearance": 0.0,
+          "holeClearance": 0.29999939999999997
+        },
+        "track_width_mm": [
+          {
+            "layerId": 1,
+            "stroMin": 0.127,
+            "stroDef": 0.254,
+            "stroMax": 2.54
+          }
+        ],
+        "via_diameters_mm": {
+          "minRadius": 0.49999899999999997,
+          "defRadius": 0.61000132,
+          "maxRadius": 10.00000032,
+          "minInner": 0.29999939999999997,
+          "defInner": 0.30499812,
+          "maxInner": 6.2999975599999996
+        },
+        "solder_expansion_mm": {
+          "padTopExpan": 0.0508,
+          "padBotExpan": 0.0508,
+          "viaTopExpan": -25.4,
+          "viaBotExpan": -25.4,
+          "testPointTopExpan": 0.0508,
+          "testPointBotExpan": 0.0508
+        }
+      }
+    },
+    {
+      "candidate": "imu_to_dxl_1V0A",
+      "defaults": {
+        "CREEPAGE": "creepage",
+        "AUTO_ROUTER": "Common",
+        "SAFE": "copperThickness1oz",
+        "OTHER": "otherClearance",
+        "TRACK": "copperThickness1oz",
+        "NET_LENGTH": "netLength",
+        "NET_LENGTH_TOLERANCE": "netLengthTolerance",
+        "DIFFER_ENTAIL": "differentialPair",
+        "BLIND": "blindVia",
+        "RADIUS": "viaSize",
+        "PLANE": "innerPlane",
+        "COPPER": "copperRegion",
+        "SOLDER": "solderMaskExpansion",
+        "PASTE": "pasteMaskExpansion"
+      },
+      "rules": [
+        {
+          "type": "CREEPAGE",
+          "name": "creepage",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "creepageDistance": 0,
+            "ignoreLayer": true
+          }
+        },
+        {
+          "type": "AUTO_ROUTER",
+          "name": "Common",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "routingCorner": "L45",
+            "isKeep": 1,
+            "viaQuantity": "LESS",
+            "routingEffectPriority": "COMPLETION_FIRST",
+            "layers": [
+              1,
+              2,
+              12
+            ],
+            "ignoreNets": []
+          }
+        },
+        {
+          "type": "SAFE",
+          "name": "copperThickness1oz",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "isForAll": "LAYERED",
+            "safeSpacing": [
+              {
+                "layerId": 1,
+                "isOpen": true,
+                "content": [
+                  [
+                    4.0157
+                  ],
+                  [
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                  ],
+                  [
+                    11.811,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    6
+                  ],
+                  [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    11.811,
+                    6
+                  ],
+                  [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    6,
+                    6,
+                    6
+                  ],
+                  [
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    10,
+                    11.8,
+                    11.8,
+                    11.8
+                  ],
+                  [
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    10,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929
+                  ]
+                ],
+                "columnNames": []
+              },
+              {
+                "layerId": 2,
+                "isOpen": true,
+                "content": [
+                  [
+                    4.0157
+                  ],
+                  [
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                  ],
+                  [
+                    11.811,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    6
+                  ],
+                  [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    11.811,
+                    6
+                  ],
+                  [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    6,
+                    6,
+                    6
+                  ],
+                  [
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    10,
+                    11.8,
+                    11.8,
+                    11.8
+                  ],
+                  [
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    10,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929
+                  ]
+                ],
+                "columnNames": []
+              }
+            ]
+          }
+        },
+        {
+          "type": "OTHER",
+          "name": "otherClearance",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "deviceClearance": 0,
+            "thru2SmdClearance": 0,
+            "holeClearance": 11.811
+          }
+        },
+        {
+          "type": "TRACK",
+          "name": "copperThickness1oz",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "track": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "stroMin": 5,
+                  "stroDef": 10,
+                  "stroMax": 100
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "TRACK",
+          "name": "copperThickness2oz",
+          "ruleState": "NORMAL",
+          "ruleContext": {
+            "unit": "mm",
+            "track": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "stroMin": 7.9921,
+                  "stroDef": 10,
+                  "stroMax": 100
+                },
+                {
+                  "layerId": 2,
+                  "stroMin": 7.9921,
+                  "stroDef": 10,
+                  "stroMax": 100
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "NET_LENGTH",
+          "name": "netLength",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "netLenMin": 0,
+            "netLenMax": 0
+          }
+        },
+        {
+          "type": "NET_LENGTH_TOLERANCE",
+          "name": "netLengthTolerance",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "netLengthTolerance": 1000
+          }
+        },
+        {
+          "type": "DIFFER_ENTAIL",
+          "name": "differentialPair",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "stroWidth": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "stroMin": 5,
+                  "stroMax": 100,
+                  "stroDef": 10
+                }
+              ]
+            },
+            "spacing": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "spacMin": 6,
+                  "spacDef": 6
+                }
+              ]
+            },
+            "differPairLenTolerMax": 10
+          }
+        },
+        {
+          "type": "BLIND",
+          "name": "blindVia",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "blinds": {
+              "content": []
+            }
+          }
+        },
+        {
+          "type": "RADIUS",
+          "name": "viaSize",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "minRadius": 9.8425,
+            "defRadius": 12.0079,
+            "maxRadius": 196.8504,
+            "minInner": 5.9055,
+            "defInner": 6.0039,
+            "maxInner": 124.0157
+          }
+        },
+        {
+          "type": "PLANE",
+          "name": "innerPlane",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "mulPad": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "connType": "DIVERGENCE",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                },
+                {
+                  "layerId": 2,
+                  "connType": "DIVERGENCE",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "COPPER",
+          "name": "copperRegion",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "sglPad": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "connType": "DIRECT",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                },
+                {
+                  "layerId": 2,
+                  "connType": "DIRECT",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                }
+              ]
+            },
+            "mulPad": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "connType": "DIRECT",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                },
+                {
+                  "layerId": 2,
+                  "connType": "DIRECT",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                }
+              ]
+            },
+            "track": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "connType": "DIRECT"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "SOLDER",
+          "name": "solderMaskExpansion",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "padTopExpan": 2,
+            "padBotExpan": 2,
+            "viaTopExpan": -1000,
+            "viaBotExpan": -1000,
+            "testPointTopExpan": 2,
+            "testPointBotExpan": 2
+          }
+        },
+        {
+          "type": "PASTE",
+          "name": "pasteMaskExpansion",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "padTopExpan": 0,
+            "padBotExpan": 0,
+            "testPointTopExpan": -1000,
+            "testPointBotExpan": -1000
+          }
+        }
+      ],
+      "selectors": [
+        {
+          "selector": [
+            "NET",
+            "3.3V"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "VDD_F"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "DXL_BUS"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "VDD_BUS"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "SWDCLK"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "SWDIO"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "UART_TX"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "UART_RX"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "SPI_CS"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "NRST"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "OSC_IN"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "DE"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "DXL_DATA"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "IMU_INT1"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "MCU_TX"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "MCU_RX"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "IMU_INT2"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "SPI_MOSI"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "SPI_MISO"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "SPI_SCK"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "RX_EN"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "GND"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {
+            "COPPER": "copperRegion"
+          },
+          "copperValue": {},
+          "innerPlaneValue": {}
+        }
+      ],
+      "numeric_projection_based_on_installed_client": {
+        "safe_matrix_mm": [
+          {
+            "layerId": 1,
+            "matrix": [
+              [
+                0.10199878
+              ],
+              [
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254
+              ],
+              [
+                0.29999939999999997,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.15239999999999998
+              ],
+              [
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.29999939999999997,
+                0.15239999999999998
+              ],
+              [
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998
+              ],
+              [
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.254,
+                0.29972,
+                0.29972,
+                0.29972
+              ],
+              [
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.254,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966
+              ]
+            ],
+            "source_columnNames": []
+          },
+          {
+            "layerId": 2,
+            "matrix": [
+              [
+                0.10199878
+              ],
+              [
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254
+              ],
+              [
+                0.29999939999999997,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.15239999999999998
+              ],
+              [
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.29999939999999997,
+                0.15239999999999998
+              ],
+              [
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998
+              ],
+              [
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.254,
+                0.29972,
+                0.29972,
+                0.29972
+              ],
+              [
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.254,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966
+              ]
+            ],
+            "source_columnNames": []
+          }
+        ],
+        "other_clearance_mm": {
+          "deviceClearance": 0.0,
+          "thru2SmdClearance": 0.0,
+          "holeClearance": 0.29999939999999997
+        },
+        "track_width_mm": [
+          {
+            "layerId": 1,
+            "stroMin": 0.127,
+            "stroDef": 0.254,
+            "stroMax": 2.54
+          }
+        ],
+        "via_diameters_mm": {
+          "minRadius": 0.49999899999999997,
+          "defRadius": 0.61000132,
+          "maxRadius": 10.00000032,
+          "minInner": 0.29999939999999997,
+          "defInner": 0.30499812,
+          "maxInner": 6.2999975599999996
+        },
+        "solder_expansion_mm": {
+          "padTopExpan": 0.0508,
+          "padBotExpan": 0.0508,
+          "viaTopExpan": -25.4,
+          "viaBotExpan": -25.4,
+          "testPointTopExpan": 0.0508,
+          "testPointBotExpan": 0.0508
+        }
+      }
+    },
+    {
+      "candidate": "POGO_PIN_1V0A",
+      "defaults": {
+        "CREEPAGE": "creepage",
+        "AUTO_ROUTER": "Common",
+        "SAFE": "copperThickness1oz",
+        "OTHER": "otherClearance",
+        "TRACK": "copperThickness1oz",
+        "NET_LENGTH": "netLength",
+        "NET_LENGTH_TOLERANCE": "netLengthTolerance",
+        "DIFFER_ENTAIL": "differentialPair",
+        "BLIND": "blindVia",
+        "RADIUS": "viaSize",
+        "PLANE": "innerPlane",
+        "COPPER": "copperRegion",
+        "SOLDER": "solderMaskExpansion",
+        "PASTE": "pasteMaskExpansion"
+      },
+      "rules": [
+        {
+          "type": "CREEPAGE",
+          "name": "creepage",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "creepageDistance": 0,
+            "ignoreLayer": true
+          }
+        },
+        {
+          "type": "AUTO_ROUTER",
+          "name": "Common",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "routingCorner": "L45",
+            "isKeep": 1,
+            "viaQuantity": "LESS",
+            "routingEffectPriority": "COMPLETION_FIRST",
+            "layers": [
+              1,
+              2,
+              12
+            ],
+            "ignoreNets": []
+          }
+        },
+        {
+          "type": "SAFE",
+          "name": "copperThickness1oz",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "isForAll": "LAYERED",
+            "safeSpacing": [
+              {
+                "layerId": 1,
+                "isOpen": true,
+                "content": [
+                  [
+                    4.0157
+                  ],
+                  [
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                  ],
+                  [
+                    11.811,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    6
+                  ],
+                  [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    11.811,
+                    6
+                  ],
+                  [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    6,
+                    6,
+                    6
+                  ],
+                  [
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    10,
+                    11.8,
+                    11.8,
+                    11.8
+                  ],
+                  [
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    10,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929
+                  ]
+                ],
+                "columnNames": []
+              },
+              {
+                "layerId": 2,
+                "isOpen": true,
+                "content": [
+                  [
+                    4.0157
+                  ],
+                  [
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                  ],
+                  [
+                    11.811,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    6
+                  ],
+                  [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    11.811,
+                    6
+                  ],
+                  [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    6,
+                    6,
+                    6
+                  ],
+                  [
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    10,
+                    11.8,
+                    11.8,
+                    11.8
+                  ],
+                  [
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    10,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929
+                  ]
+                ],
+                "columnNames": []
+              }
+            ]
+          }
+        },
+        {
+          "type": "OTHER",
+          "name": "otherClearance",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "deviceClearance": 0,
+            "thru2SmdClearance": 0,
+            "holeClearance": 11.811
+          }
+        },
+        {
+          "type": "TRACK",
+          "name": "copperThickness1oz",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "track": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "stroMin": 5,
+                  "stroDef": 10,
+                  "stroMax": 100
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "TRACK",
+          "name": "copperThickness2oz",
+          "ruleState": "NORMAL",
+          "ruleContext": {
+            "unit": "mm",
+            "track": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "stroMin": 7.9921,
+                  "stroDef": 10,
+                  "stroMax": 100
+                },
+                {
+                  "layerId": 2,
+                  "stroMin": 7.9921,
+                  "stroDef": 10,
+                  "stroMax": 100
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "NET_LENGTH",
+          "name": "netLength",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "netLenMin": 0,
+            "netLenMax": 0
+          }
+        },
+        {
+          "type": "NET_LENGTH_TOLERANCE",
+          "name": "netLengthTolerance",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "netLengthTolerance": 1000
+          }
+        },
+        {
+          "type": "DIFFER_ENTAIL",
+          "name": "differentialPair",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "stroWidth": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "stroMin": 5,
+                  "stroMax": 100,
+                  "stroDef": 10
+                }
+              ]
+            },
+            "spacing": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "spacMin": 6,
+                  "spacDef": 6
+                }
+              ]
+            },
+            "differPairLenTolerMax": 10
+          }
+        },
+        {
+          "type": "BLIND",
+          "name": "blindVia",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "blinds": {
+              "content": []
+            }
+          }
+        },
+        {
+          "type": "RADIUS",
+          "name": "viaSize",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "minRadius": 9.8425,
+            "defRadius": 12.0079,
+            "maxRadius": 196.8504,
+            "minInner": 5.9055,
+            "defInner": 6.0039,
+            "maxInner": 124.0157
+          }
+        },
+        {
+          "type": "PLANE",
+          "name": "innerPlane",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "mulPad": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "connType": "DIVERGENCE",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                },
+                {
+                  "layerId": 2,
+                  "connType": "DIVERGENCE",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "COPPER",
+          "name": "copperRegion",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "sglPad": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "connType": "DIRECT",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                },
+                {
+                  "layerId": 2,
+                  "connType": "DIRECT",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                }
+              ]
+            },
+            "mulPad": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "connType": "DIRECT",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                },
+                {
+                  "layerId": 2,
+                  "connType": "DIRECT",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                }
+              ]
+            },
+            "track": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "connType": "DIRECT"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "SOLDER",
+          "name": "solderMaskExpansion",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "padTopExpan": 2,
+            "padBotExpan": 2,
+            "viaTopExpan": -1000,
+            "viaBotExpan": -1000,
+            "testPointTopExpan": 2,
+            "testPointBotExpan": 2
+          }
+        },
+        {
+          "type": "PASTE",
+          "name": "pasteMaskExpansion",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "padTopExpan": 0,
+            "padBotExpan": 0,
+            "testPointTopExpan": -1000,
+            "testPointBotExpan": -1000
+          }
+        }
+      ],
+      "selectors": [
+        {
+          "selector": [
+            "NET",
+            "GND"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        }
+      ],
+      "numeric_projection_based_on_installed_client": {
+        "safe_matrix_mm": [
+          {
+            "layerId": 1,
+            "matrix": [
+              [
+                0.10199878
+              ],
+              [
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254
+              ],
+              [
+                0.29999939999999997,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.15239999999999998
+              ],
+              [
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.29999939999999997,
+                0.15239999999999998
+              ],
+              [
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998
+              ],
+              [
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.254,
+                0.29972,
+                0.29972,
+                0.29972
+              ],
+              [
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.254,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966
+              ]
+            ],
+            "source_columnNames": []
+          },
+          {
+            "layerId": 2,
+            "matrix": [
+              [
+                0.10199878
+              ],
+              [
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254
+              ],
+              [
+                0.29999939999999997,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.15239999999999998
+              ],
+              [
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.29999939999999997,
+                0.15239999999999998
+              ],
+              [
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998
+              ],
+              [
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.254,
+                0.29972,
+                0.29972,
+                0.29972
+              ],
+              [
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.254,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966
+              ]
+            ],
+            "source_columnNames": []
+          }
+        ],
+        "other_clearance_mm": {
+          "deviceClearance": 0.0,
+          "thru2SmdClearance": 0.0,
+          "holeClearance": 0.29999939999999997
+        },
+        "track_width_mm": [
+          {
+            "layerId": 1,
+            "stroMin": 0.127,
+            "stroDef": 0.254,
+            "stroMax": 2.54
+          }
+        ],
+        "via_diameters_mm": {
+          "minRadius": 0.49999899999999997,
+          "defRadius": 0.61000132,
+          "maxRadius": 10.00000032,
+          "minInner": 0.29999939999999997,
+          "defInner": 0.30499812,
+          "maxInner": 6.2999975599999996
+        },
+        "solder_expansion_mm": {
+          "padTopExpan": 0.0508,
+          "padBotExpan": 0.0508,
+          "viaTopExpan": -25.4,
+          "viaBotExpan": -25.4,
+          "testPointTopExpan": 0.0508,
+          "testPointBotExpan": 0.0508
+        }
+      }
+    },
+    {
+      "candidate": "wire_hub_1V0A",
+      "defaults": {
+        "CREEPAGE": "creepage",
+        "AUTO_ROUTER": "Common",
+        "SAFE": "copperThickness1oz",
+        "OTHER": "otherClearance",
+        "TRACK": "copperThickness1oz",
+        "NET_LENGTH": "netLength",
+        "NET_LENGTH_TOLERANCE": "netLengthTolerance",
+        "DIFFER_ENTAIL": "differentialPair",
+        "BLIND": "blindVia",
+        "RADIUS": "viaSize",
+        "PLANE": "innerPlane",
+        "COPPER": "copperRegion",
+        "SOLDER": "solderMaskExpansion",
+        "PASTE": "pasteMaskExpansion"
+      },
+      "rules": [
+        {
+          "type": "CREEPAGE",
+          "name": "creepage",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "creepageDistance": 0,
+            "ignoreLayer": true
+          }
+        },
+        {
+          "type": "AUTO_ROUTER",
+          "name": "Common",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "routingCorner": "L45",
+            "isKeep": 1,
+            "viaQuantity": "LESS",
+            "routingEffectPriority": "COMPLETION_FIRST",
+            "layers": [
+              1,
+              2,
+              12
+            ],
+            "ignoreNets": []
+          }
+        },
+        {
+          "type": "SAFE",
+          "name": "copperThickness1oz",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "isForAll": "LAYERED",
+            "safeSpacing": [
+              {
+                "layerId": 1,
+                "isOpen": true,
+                "content": [
+                  [
+                    4.0157
+                  ],
+                  [
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                  ],
+                  [
+                    11.811,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    6
+                  ],
+                  [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    11.811,
+                    6
+                  ],
+                  [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    6,
+                    6,
+                    6
+                  ],
+                  [
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    10,
+                    11.8,
+                    11.8,
+                    11.8
+                  ],
+                  [
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    10,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929
+                  ]
+                ],
+                "columnNames": []
+              },
+              {
+                "layerId": 2,
+                "isOpen": true,
+                "content": [
+                  [
+                    4.0157
+                  ],
+                  [
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843,
+                    5.9843
+                  ],
+                  [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                  ],
+                  [
+                    11.811,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    6
+                  ],
+                  [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    11.811,
+                    6
+                  ],
+                  [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    10,
+                    6,
+                    6,
+                    6
+                  ],
+                  [
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    11.8,
+                    10,
+                    11.8,
+                    11.8,
+                    11.8
+                  ],
+                  [
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929,
+                    10,
+                    6.929,
+                    6.929,
+                    6.929,
+                    6.929
+                  ]
+                ],
+                "columnNames": []
+              }
+            ]
+          }
+        },
+        {
+          "type": "OTHER",
+          "name": "otherClearance",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "deviceClearance": 0,
+            "thru2SmdClearance": 0,
+            "holeClearance": 11.811
+          }
+        },
+        {
+          "type": "TRACK",
+          "name": "copperThickness1oz",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "track": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "stroMin": 5,
+                  "stroDef": 10,
+                  "stroMax": 100
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "TRACK",
+          "name": "copperThickness2oz",
+          "ruleState": "NORMAL",
+          "ruleContext": {
+            "unit": "mm",
+            "track": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "stroMin": 7.9921,
+                  "stroDef": 10,
+                  "stroMax": 100
+                },
+                {
+                  "layerId": 2,
+                  "stroMin": 7.9921,
+                  "stroDef": 10,
+                  "stroMax": 100
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "NET_LENGTH",
+          "name": "netLength",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "netLenMin": 0,
+            "netLenMax": 0
+          }
+        },
+        {
+          "type": "NET_LENGTH_TOLERANCE",
+          "name": "netLengthTolerance",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "netLengthTolerance": 1000
+          }
+        },
+        {
+          "type": "DIFFER_ENTAIL",
+          "name": "differentialPair",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "stroWidth": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "stroMin": 5,
+                  "stroMax": 100,
+                  "stroDef": 10
+                }
+              ]
+            },
+            "spacing": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "spacMin": 6,
+                  "spacDef": 6
+                }
+              ]
+            },
+            "differPairLenTolerMax": 10
+          }
+        },
+        {
+          "type": "BLIND",
+          "name": "blindVia",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "blinds": {
+              "content": []
+            }
+          }
+        },
+        {
+          "type": "RADIUS",
+          "name": "viaSize",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "minRadius": 9.8425,
+            "defRadius": 12.0079,
+            "maxRadius": 196.8504,
+            "minInner": 5.9055,
+            "defInner": 6.0039,
+            "maxInner": 124.0157
+          }
+        },
+        {
+          "type": "PLANE",
+          "name": "innerPlane",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "mulPad": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "connType": "DIVERGENCE",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                },
+                {
+                  "layerId": 2,
+                  "connType": "DIVERGENCE",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "COPPER",
+          "name": "copperRegion",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "sglPad": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "connType": "DIRECT",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                },
+                {
+                  "layerId": 2,
+                  "connType": "DIRECT",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                }
+              ]
+            },
+            "mulPad": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "connType": "DIRECT",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                },
+                {
+                  "layerId": 2,
+                  "connType": "DIRECT",
+                  "spoSpac": 10,
+                  "spoWidth": 10,
+                  "spoAng": 90
+                }
+              ]
+            },
+            "track": {
+              "isOpen": true,
+              "content": [
+                {
+                  "layerId": 1,
+                  "connType": "DIRECT"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "SOLDER",
+          "name": "solderMaskExpansion",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "padTopExpan": 2,
+            "padBotExpan": 2,
+            "viaTopExpan": -1000,
+            "viaBotExpan": -1000,
+            "testPointTopExpan": 2,
+            "testPointBotExpan": 2
+          }
+        },
+        {
+          "type": "PASTE",
+          "name": "pasteMaskExpansion",
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "padTopExpan": 0,
+            "padBotExpan": 0,
+            "testPointTopExpan": -1000,
+            "testPointBotExpan": -1000
+          }
+        }
+      ],
+      "selectors": [
+        {
+          "selector": [
+            "NET",
+            "DXL_BUS"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {},
+          "copperValue": {},
+          "innerPlaneValue": {}
+        },
+        {
+          "selector": [
+            "NET",
+            "GND"
+          ],
+          "ruleOrder": 4,
+          "ruleKeyValue": {
+            "COPPER": "copperRegion"
+          },
+          "copperValue": {},
+          "innerPlaneValue": {}
+        }
+      ],
+      "numeric_projection_based_on_installed_client": {
+        "safe_matrix_mm": [
+          {
+            "layerId": 1,
+            "matrix": [
+              [
+                0.10199878
+              ],
+              [
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254
+              ],
+              [
+                0.29999939999999997,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.15239999999999998
+              ],
+              [
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.29999939999999997,
+                0.15239999999999998
+              ],
+              [
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998
+              ],
+              [
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.254,
+                0.29972,
+                0.29972,
+                0.29972
+              ],
+              [
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.254,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966
+              ]
+            ],
+            "source_columnNames": []
+          },
+          {
+            "layerId": 2,
+            "matrix": [
+              [
+                0.10199878
+              ],
+              [
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122,
+                0.15200122
+              ],
+              [
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254,
+                0.254
+              ],
+              [
+                0.29999939999999997,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.15239999999999998
+              ],
+              [
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.29999939999999997,
+                0.15239999999999998
+              ],
+              [
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.254,
+                0.15239999999999998,
+                0.15239999999999998,
+                0.15239999999999998
+              ],
+              [
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.29972,
+                0.254,
+                0.29972,
+                0.29972,
+                0.29972
+              ],
+              [
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.254,
+                0.1759966,
+                0.1759966,
+                0.1759966,
+                0.1759966
+              ]
+            ],
+            "source_columnNames": []
+          }
+        ],
+        "other_clearance_mm": {
+          "deviceClearance": 0.0,
+          "thru2SmdClearance": 0.0,
+          "holeClearance": 0.29999939999999997
+        },
+        "track_width_mm": [
+          {
+            "layerId": 1,
+            "stroMin": 0.127,
+            "stroDef": 0.254,
+            "stroMax": 2.54
+          }
+        ],
+        "via_diameters_mm": {
+          "minRadius": 0.49999899999999997,
+          "defRadius": 0.61000132,
+          "maxRadius": 10.00000032,
+          "minInner": 0.29999939999999997,
+          "defInner": 0.30499812,
+          "maxInner": 6.2999975599999996
+        },
+        "solder_expansion_mm": {
+          "padTopExpan": 0.0508,
+          "padBotExpan": 0.0508,
+          "viaTopExpan": -25.4,
+          "viaBotExpan": -25.4,
+          "testPointTopExpan": 0.0508,
+          "testPointBotExpan": 0.0508
+        }
+      }
+    }
+  ]
+}

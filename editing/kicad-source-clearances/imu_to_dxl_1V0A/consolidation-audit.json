@@ -1,0 +1,637 @@
+{
+  "candidate": "imu_to_dxl_1V0A",
+  "parent_board": "editing/kicad-paired/imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_pcb",
+  "parent_sha256": "2ea632ead0430effc6123cdc17dfaa3149666e0d0ec014491d058bda7b48390e",
+  "source_zones": 131,
+  "result_zones": 81,
+  "pads_checked": 93,
+  "routing_items_checked": 289,
+  "pad_and_routing_geometry_preserved": true,
+  "copper_symmetric_differences": [
+    {
+      "layer": 0,
+      "net": "/SPI_SCK",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/GND",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/DXL_DATA",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/3.3V",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/DE",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/IMU_INT2",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/DXL_BUS",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/RX_EN",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/UART_TX",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/MCU_TX",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/SWDCLK",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/SPI_MISO",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/NRST",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/VDD_BUS",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/UART_RX",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/SPI_CS",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/IMU_INT1",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/SPI_MOSI",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 0,
+      "net": "/SWDIO",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 2,
+      "net": "/3.3V",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 2,
+      "net": "/SPI_MISO",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 2,
+      "net": "/RX_EN",
+      "symmetric_difference_mm2": 0.0
+    },
+    {
+      "layer": 2,
+      "net": "/GND",
+      "symmetric_difference_mm2": 0.0
+    }
+  ],
+  "source_groups": [
+    {
+      "layer": 0,
+      "net": "/SPI_SCK",
+      "source_zone_count": 2,
+      "source_zone_names": [
+        "Recovered 6ca00c6b3cf39211",
+        "Recovered bc3267d02c0f987f"
+      ],
+      "source_zone_uuids": [
+        "010c8004-bc7a-44e6-ae3f-ebe84fb54f48",
+        "e9c4c5c4-f38c-4c43-96c5-dce58f42eca2"
+      ],
+      "union_area_mm2": 0.214800945839
+    },
+    {
+      "layer": 0,
+      "net": "/GND",
+      "source_zone_count": 43,
+      "source_zone_names": [
+        "Recovered f8665bfbd9d0f6f0",
+        "Recovered acbd68bc789f3324",
+        "Recovered 9e6ef9e9729c8ee7",
+        "Recovered 9e6ef9e9729c8ee7",
+        "Recovered a8e86dc6a530abc9",
+        "Recovered 9e6ef9e9729c8ee7",
+        "Recovered c38aba8838282a26",
+        "Recovered f693a2a342b07c17",
+        "Recovered d7a4d49ab4597aa2",
+        "Recovered 2c53b68d79930354",
+        "Recovered 35892a42ec87e36c",
+        "Recovered bd6779a9c26b52f4",
+        "Recovered 9faf70d88af5baa2",
+        "Recovered 7b68ac88c9f6397e",
+        "Recovered b9667c897f488963",
+        "Recovered ffddb1f93d28660f",
+        "Recovered 8a2bfb0d42c24841",
+        "Recovered d0586fb60e7fb6b7",
+        "Recovered 89c5a8c3306e26a7",
+        "Recovered bb89f83d3021b6f8",
+        "Recovered 3f4c274659eab892",
+        "Recovered 84a63625734e769f",
+        "Recovered 43e4f079cf689ec8",
+        "Recovered 12706661c84c798e",
+        "Recovered 84a63625734e769f",
+        "Recovered 12c102a31a9a8ea0",
+        "Recovered 9e6ef9e9729c8ee7",
+        "Recovered 13fc66dcf638c6cf",
+        "Recovered 88489c7ee9e959aa",
+        "Recovered f89ca9fc97dd4c4d",
+        "Recovered 84a63625734e769f",
+        "Recovered 7c741037ec45bc51",
+        "Recovered dca4e8522837e94e",
+        "Recovered 84a63625734e769f",
+        "Recovered cfa0bacb1248d4b0",
+        "Recovered 7910f8c42746b519",
+        "Recovered d2e80a024d69225e",
+        "Recovered 552d312dece731aa",
+        "Recovered cc1892c94b3be99b",
+        "Recovered 7be69d2bf5487e7d",
+        "Recovered b9223ed2cf0d21f1",
+        "Recovered 84a63625734e769f",
+        "Recovered a3bc5a25a3a9be11"
+      ],
+      "source_zone_uuids": [
+        "0c143d4b-2018-4499-947e-60be24fbb8b3",
+        "10eb23ae-431b-4a1f-b6d2-910eda643918",
+        "1b73a88e-8ff7-402f-9789-ee1e526adaae",
+        "2a402b60-348d-4ce8-9aad-91d545bc3e99",
+        "2addefc9-c8c5-4eeb-a496-93b5a3b08f33",
+        "2c41f86c-4a1a-44fb-946c-772e0b7093d7",
+        "2d41b003-29cd-4591-ab17-e8d3a99363f1",
+        "34ed39fe-c96a-43cd-89eb-6360b02e9fff",
+        "38b15aa2-5049-4a2f-98aa-b9003c00a983",
+        "418ac379-de12-480f-a533-13f00ebbaad3",
+        "45e22973-cecc-449e-953e-6588bf0d69d3",
+        "52c6f48d-8b34-4f55-9b39-a72f9a0ebd8e",
+        "5c6c0cee-4b6a-4909-947c-e88c4f54bdc7",
+        "6320d9ba-cb4c-4f21-b7dc-294a01de4e87",
+        "67cf6996-e1f5-4227-bc8d-2e42a489c82c",
+        "6cf0e7b5-553a-40bf-b92c-11d5fe59b127",
+        "71005852-82cd-4122-9a86-59f2b1a99791",
+        "7310e7b7-1b7a-43b8-9c35-59d28dfd9757",
+        "7a631636-2529-4629-8e5d-b91c28d2fc5e",
+        "87e416f9-4a04-4ce8-9bcf-2de309cab5b7",
+        "88ced6a0-a5c4-4930-b6eb-fb7f85c9000f",
+        "8d4ac09c-3e5f-4a84-afb2-c435067bde91",
+        "8f2410d5-f683-4aea-a9ce-70e3facb6828",
+        "9196df54-c000-45cd-b8c1-3299cecfab71",
+        "923ddfaf-78e9-4a08-8944-0152f5204f66",
+        "9382f929-65fc-4e45-9c86-86cbdb2b5f69",
+        "9a0adad9-be39-4534-bca1-a12c5813daf3",
+        "9b7e7c75-ea38-49b7-9444-5b474857facf",
+        "a4e576ce-b9d3-4f00-83d0-f36bfc3ac365",
+        "a505528c-ece0-41f5-9931-7522a39694d8",
+        "ae58c787-1f3d-4090-8c3c-c2266a249bc2",
+        "c0219f3f-d3b8-4f0e-94a1-fcf6af4d9e5e",
+        "c1611b43-08ef-4810-9f24-5f20df8c3247",
+        "c209d7da-c13b-48d6-be2f-998388103403",
+        "c4d0916f-dd8f-4b6c-bddb-a1814d188fdb",
+        "c9ec91b2-81d2-41ef-825d-cbd4e702a401",
+        "cc2c5340-ffd2-4182-840f-836c84bd894a",
+        "ce9ea150-e9e2-4ef9-9f64-9b5c61d487a4",
+        "cf7bf571-2149-4c2c-ac1e-235461d6e620",
+        "d5fe3e42-d7b7-46ae-b8d5-e4f2858500ac",
+        "d659e049-579e-4b63-b4b0-312b6dedc2d9",
+        "f4f07878-7671-4f77-ac07-2e6296a06ef2",
+        "fb22d7c1-c232-4d16-8226-cc9434f8e999"
+      ],
+      "union_area_mm2": 816.127694041357
+    },
+    {
+      "layer": 0,
+      "net": "/DXL_DATA",
+      "source_zone_count": 6,
+      "source_zone_names": [
+        "Recovered 2e68036238f309c1",
+        "Recovered 907f1a44c191ad98",
+        "Recovered 5430dd5b106d9250",
+        "Recovered c968390b9d16214d",
+        "Recovered 22f470df6077cd5c",
+        "Recovered f54694e14ac4a703"
+      ],
+      "source_zone_uuids": [
+        "0faa750a-3d0d-4e0d-aab2-33d841e43f1d",
+        "9987a7c9-da74-4fd7-91b5-4fba52e5f11d",
+        "b7549064-ee41-45ae-9cc5-9418314f62db",
+        "d13de1af-cf53-4830-b1f7-b46ff2a978cd",
+        "edc27e3c-d0ae-4777-9275-93f8874ef5d6",
+        "f55ddaa0-a1f4-4ed7-a629-f1655576cdef"
+      ],
+      "union_area_mm2": 0.751839251832
+    },
+    {
+      "layer": 0,
+      "net": "/3.3V",
+      "source_zone_count": 28,
+      "source_zone_names": [
+        "Recovered dd78800fd435fc20",
+        "Recovered 87510668665102f7",
+        "Recovered eb272798206d6702",
+        "Recovered c7e8ec855914d4e6",
+        "Recovered 93d8b95603db23e4",
+        "Recovered 5b196237bccbefae",
+        "Recovered e327e104a78ca96d",
+        "Recovered cbcffc091a24b907",
+        "Recovered 09f2bd9caf94dd76",
+        "Recovered d9c34904d9489c1e",
+        "Recovered acda64617c1b8ce5",
+        "Recovered f84a4fef3b3ddd93",
+        "Recovered a8c5099ca8f42348",
+        "Recovered 10a7365f3f244bfc",
+        "Recovered 468826da96447b3a",
+        "Recovered 0c4ec2ab920869d8",
+        "Recovered 1ab2552ea13780c2",
+        "Recovered eb11201f5a77c295",
+        "Recovered ef71b4e819b16487",
+        "Recovered 8805cd4932a11e1c",
+        "Recovered 09315175cafdc25c",
+        "Recovered 0aee2c55322fcd34",
+        "Recovered 4b19b7c0ed49d439",
+        "Recovered 503607db8aaa6aef",
+        "Recovered 3ecb01a0e3d5d3e1",
+        "Recovered 62407beb74dfc131",
+        "Recovered 7e73d0594e9da6bd",
+        "Recovered f5e8df0cfa96e8b3"
+      ],
+      "source_zone_uuids": [
+        "13b5b15b-ce9e-48a9-b742-12a710874923",
+        "1b5d6d84-9508-4e89-a00a-9bf8694f57b2",
+        "234100cd-5e49-49ed-ba28-f32607b5e7b6",
+        "2e9d4249-c499-4d81-9a24-0a0eac1e968c",
+        "3376e8a8-f111-449e-92d3-911f0d7ceaac",
+        "381a67b5-9590-4fbc-9916-bd4f8656d068",
+        "46cb97c6-1a15-45d1-8ff0-fa2cff15c9f5",
+        "4edf48c2-53b8-42d5-9a1b-98906f423722",
+        "586e16b3-b497-4e73-8cfa-1020f38823c0",
+        "5c48dcf6-fffd-491a-a109-bac09cbee3e8",
+        "5facd311-9f99-4978-8f4b-c3463f5b4ff6",
+        "61259f08-73f9-4442-bf6f-80fa0125a822",
+        "7050b9a1-1590-4d22-a5bc-b9a7c4257a84",
+        "771ce99c-9461-4b12-8734-8713c136df9a",
+        "78da0bd6-14a1-4bcb-9c85-6a2c3986a08e",
+        "80496df8-4bca-4c03-984d-f6c8d4528335",
+        "90a7f2a0-7b74-463b-a244-d76377210ba0",
+        "918d6448-4d08-401b-af11-2ef1d2ab1e06",
+        "974565f1-9715-4995-a455-983b03439963",
+        "a879448e-db85-408d-8045-9602cd33e9fa",
+        "aa9408e2-ee66-4fb2-9250-4e5845974081",
+        "ae482f62-9a1b-444d-8820-efc4b85feca8",
+        "b0768ec6-3b33-42d0-b055-71c4aabe88d7",
+        "b0be7d30-ab89-4b62-b043-524f226cda1b",
+        "d3d790f3-4ae1-4d4b-ba27-5774ac2936f2",
+        "d8e7e084-1178-4171-94b1-9174b17aa7c5",
+        "e8823871-5fdc-430e-ae2d-ed9f9f98975b",
+        "ed09a873-6a77-4881-8276-2abfd1a8ace8"
+      ],
+      "union_area_mm2": 4.824174008249
+    },
+    {
+      "layer": 0,
+      "net": "/DE",
+      "source_zone_count": 3,
+      "source_zone_names": [
+        "Recovered 0cf5ac9e6d9cb32c",
+        "Recovered f77132067c9ee16d",
+        "Recovered b379a4d8252ebe0d"
+      ],
+      "source_zone_uuids": [
+        "151b2aca-a095-4066-b73a-14193df28a94",
+        "8043cf71-2ad5-472c-9845-f56520d2e8e3",
+        "f6023247-a01a-4800-84f2-e0bc3becd56a"
+      ],
+      "union_area_mm2": 0.3802027989515
+    },
+    {
+      "layer": 0,
+      "net": "/IMU_INT2",
+      "source_zone_count": 2,
+      "source_zone_names": [
+        "Recovered 2d0983db3e3c207a",
+        "Recovered d05f8e982a8620b5"
+      ],
+      "source_zone_uuids": [
+        "169dc485-f3ab-422f-9551-41d7214e5401",
+        "f3463647-467c-429d-b533-900afa09cf6d"
+      ],
+      "union_area_mm2": 0.2141410829205
+    },
+    {
+      "layer": 0,
+      "net": "/DXL_BUS",
+      "source_zone_count": 6,
+      "source_zone_names": [
+        "Recovered 30ee6f8b4cab6a62",
+        "Recovered 9e1c5d1df37f7a89",
+        "Recovered 5d251e61eb13022c",
+        "Recovered 961aa2f60d098ba2",
+        "Recovered a83ea99991aca5f4",
+        "Recovered 3ace2bc86c37d456"
+      ],
+      "source_zone_uuids": [
+        "18307f48-97f3-4446-8e19-1b5481a58900",
+        "1907b8d9-11f5-4b59-857f-8ad0d24795a3",
+        "32538ddc-0945-4ce5-bca3-57b9f58242ea",
+        "418fb0d9-5f5f-4898-8252-1f3bc54ccda8",
+        "bf9ccae8-d55a-458c-9d71-f894bb914305",
+        "e733b84e-bc05-417e-a9c8-04b842d8291c"
+      ],
+      "union_area_mm2": 1.665610388038
+    },
+    {
+      "layer": 0,
+      "net": "/RX_EN",
+      "source_zone_count": 4,
+      "source_zone_names": [
+        "Recovered 7074e47242e50c17",
+        "Recovered 9d61f730b9b96b1f",
+        "Recovered a8d5e69180838827",
+        "Recovered 017dbfdb499fb7ac"
+      ],
+      "source_zone_uuids": [
+        "1bffe068-e726-4afb-a34f-789d97ae36e8",
+        "771c5ed4-6378-4927-92b6-b117de30bacf",
+        "a947a236-5cd8-4f6a-b239-b99293c8e848",
+        "e1b2f416-6519-4c1e-8603-86f101e42a6b"
+      ],
+      "union_area_mm2": 0.340362477039
+    },
+    {
+      "layer": 0,
+      "net": "/UART_TX",
+      "source_zone_count": 2,
+      "source_zone_names": [
+        "Recovered 9b7cc3bf44983c46",
+        "Recovered 56143646867277b2"
+      ],
+      "source_zone_uuids": [
+        "1cf7957a-4777-4b59-94f5-b943d497e98d",
+        "8fc309da-5d7c-48ec-9a5f-bda3a6b570d4"
+      ],
+      "union_area_mm2": 0.5665956582745
+    },
+    {
+      "layer": 0,
+      "net": "/MCU_TX",
+      "source_zone_count": 1,
+      "source_zone_names": [
+        "Recovered 48340ee0d446821a"
+      ],
+      "source_zone_uuids": [
+        "26748228-1f7b-4319-999a-0c472cba4d89"
+      ],
+      "union_area_mm2": 0.115271643994
+    },
+    {
+      "layer": 0,
+      "net": "/SWDCLK",
+      "source_zone_count": 2,
+      "source_zone_names": [
+        "Recovered ca71d8335253ed65",
+        "Recovered 4a690dab098edac7"
+      ],
+      "source_zone_uuids": [
+        "2b140284-1638-408b-b6af-ecf29da73671",
+        "416584a5-6e39-4126-a4b6-b10830dedcde"
+      ],
+      "union_area_mm2": 0.5797384541415
+    },
+    {
+      "layer": 0,
+      "net": "/SPI_MISO",
+      "source_zone_count": 4,
+      "source_zone_names": [
+        "Recovered fb0d38282a62cacc",
+        "Recovered 3e8d0dca0c285d91",
+        "Recovered 6593c477190cb69a",
+        "Recovered 42931f999437120d"
+      ],
+      "source_zone_uuids": [
+        "3089876d-e1af-41af-8b08-bdc460922715",
+        "42487145-4937-4674-9804-d9074d8143d6",
+        "72418b85-09f5-40f6-b1ff-031fde87a789",
+        "a26eb13b-bb34-4e94-8221-64c6d8d6ae67"
+      ],
+      "union_area_mm2": 0.387061547305
+    },
+    {
+      "layer": 0,
+      "net": "/NRST",
+      "source_zone_count": 2,
+      "source_zone_names": [
+        "Recovered 20a6ccaeae6f7aa2",
+        "Recovered 34dfc889b023bb5a"
+      ],
+      "source_zone_uuids": [
+        "382caae5-3c91-4f81-baa4-fe2bf55db80b",
+        "6840bb8d-1745-4ee8-9674-00cdfceace7f"
+      ],
+      "union_area_mm2": 0.264996322267
+    },
+    {
+      "layer": 0,
+      "net": "/VDD_BUS",
+      "source_zone_count": 4,
+      "source_zone_names": [
+        "Recovered 9e612d8edf537785",
+        "Recovered 59d004edb43043b9",
+        "Recovered 1120b51f5a765329",
+        "Recovered 746a86ec39ac9e6d"
+      ],
+      "source_zone_uuids": [
+        "3af01abf-b004-41b2-8a21-bf26480a37f5",
+        "818bd033-4322-44a4-9c46-3e68d0d669fa",
+        "9675dffb-9d91-4765-8036-455db919d2fc",
+        "b9b22827-73f2-4fb9-9f30-4c5429be5bc9"
+      ],
+      "union_area_mm2": 20.3306007409655
+    },
+    {
+      "layer": 0,
+      "net": "/UART_RX",
+      "source_zone_count": 2,
+      "source_zone_names": [
+        "Recovered a00c66573b70512a",
+        "Recovered e9c8c18b511c8809"
+      ],
+      "source_zone_uuids": [
+        "4f98882b-7e8e-4682-8de7-a31532435f55",
+        "b39f1530-6019-46ee-b53c-ca3455714c3e"
+      ],
+      "union_area_mm2": 0.529816987761
+    },
+    {
+      "layer": 0,
+      "net": "/SPI_CS",
+      "source_zone_count": 4,
+      "source_zone_names": [
+        "Recovered 9b5b486052332ce1",
+        "Recovered 97829672a0dec298",
+        "Recovered 71257038277f7d19",
+        "Recovered 52a587bfd59e855d"
+      ],
+      "source_zone_uuids": [
+        "58a2ad86-ad8a-4654-b4f1-c3721e8cf43c",
+        "870e7d17-c568-4edf-aeb5-56379621ab4d",
+        "9c19a41e-4c38-4a44-b81d-a312e31076e5",
+        "e9ba73eb-13f0-499e-9509-8feb65a504a8"
+      ],
+      "union_area_mm2": 0.4798266758095
+    },
+    {
+      "layer": 0,
+      "net": "/IMU_INT1",
+      "source_zone_count": 2,
+      "source_zone_names": [
+        "Recovered 385dce25ad1a68bd",
+        "Recovered d19215dc8f169c4c"
+      ],
+      "source_zone_uuids": [
+        "65be3bea-4fb0-4022-a4e6-3a5a1efbfb44",
+        "d2b01b31-53b2-4125-a7ed-1b7041cd2c6a"
+      ],
+      "union_area_mm2": 0.214141286342
+    },
+    {
+      "layer": 0,
+      "net": "/SPI_MOSI",
+      "source_zone_count": 2,
+      "source_zone_names": [
+        "Recovered 9306991e5de2e7a4",
+        "Recovered ec344cf177157dba"
+      ],
+      "source_zone_uuids": [
+        "bb4bb1dd-d843-442b-a28c-9124b9b3208e",
+        "d4c6c308-3322-4355-9c8e-8de75a92e1d1"
+      ],
+      "union_area_mm2": 0.214141278383
+    },
+    {
+      "layer": 0,
+      "net": "/SWDIO",
+      "source_zone_count": 2,
+      "source_zone_names": [
+        "Recovered 2e4c5c561aec448a",
+        "Recovered 602384f161c73cbe"
+      ],
+      "source_zone_uuids": [
+        "efa65779-f253-45ad-8df8-9f36e886111e",
+        "fe62fc23-0d65-449d-ac6b-6c210c2e40f0"
+      ],
+      "union_area_mm2": 0.563376248339
+    },
+    {
+      "layer": 2,
+      "net": "/3.3V",
+      "source_zone_count": 5,
+      "source_zone_names": [
+        "Recovered 6bcdf9aa9bdd2758",
+        "Recovered 21c65756e661268d",
+        "Recovered 72fcb2f69ca91748",
+        "Recovered 8a133448173b9009",
+        "Recovered ef335800c4b1a60a"
+      ],
+      "source_zone_uuids": [
+        "0192791c-f82b-48cd-8578-330eec8b7523",
+        "63caaed8-39ba-4afa-a53d-2a2586b5c153",
+        "7b36633a-e294-4b46-89df-90fa8ecf5ea3",
+        "a5f661d0-64bc-4718-8733-15554f457f77",
+        "dda727d5-d227-4378-b330-98f177b1f937"
+      ],
+      "union_area_mm2": 1.046329397497
+    },
+    {
+      "layer": 2,
+      "net": "/SPI_MISO",
+      "source_zone_count": 2,
+      "source_zone_names": [
+        "Recovered 854a79f1b73ebd36",
+        "Recovered 5412e5555e099114"
+      ],
+      "source_zone_uuids": [
+        "69a5bedd-39a4-4bb8-b291-b039cec45f0b",
+        "dcce1333-05d4-4fab-a441-aadc7338512d"
+      ],
+      "union_area_mm2": 0.143172446264
+    },
+    {
+      "layer": 2,
+      "net": "/RX_EN",
+      "source_zone_count": 2,
+      "source_zone_names": [
+        "Recovered 5de64a8a83787662",
+        "Recovered dc1e77d9ed42fefd"
+      ],
+      "source_zone_uuids": [
+        "7bf63243-dcec-4135-8c7d-0597267dfca1",
+        "e8161490-2a21-4345-bef3-9f254bf27e3d"
+      ],
+      "union_area_mm2": 0.142195079633
+    },
+    {
+      "layer": 2,
+      "net": "/GND",
+      "source_zone_count": 1,
+      "source_zone_names": [
+        "Recovered f830ae10cd851bfd"
+      ],
+      "source_zone_uuids": [
+        "923babfc-dacf-4e45-8a71-121213014ff3"
+      ],
+      "union_area_mm2": 716.142971438922
+    }
+  ],
+  "excluded_source_geometry": [],
+  "transition_hypothesis": false,
+  "physical_equivalence_scope": "all literal saved copper",
+  "schematic_parity": [],
+  "drc_counts": {
+    "solder_mask_bridge": 64,
+    "drill_out_of_range": 3,
+    "copper_edge_clearance": 2,
+    "clearance": 277,
+    "hole_clearance": 15,
+    "zones_intersect": 5
+  },
+  "unconnected": 0,
+  "source_rules_changed": false,
+  "copper_refilled": false,
+  "manufacturing_ready": false
+}

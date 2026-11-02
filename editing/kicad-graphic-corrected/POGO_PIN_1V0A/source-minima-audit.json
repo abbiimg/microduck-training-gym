@@ -1,0 +1,82 @@
+{
+  "candidate": "POGO_PIN_1V0A",
+  "source_board": "editing/kicad-copper-consolidated/POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_pcb",
+  "board_sha256": "ffe69cc5eb0270b1a8386b12955db0ea714be2ae846a9384e50c1bade7c54dfe",
+  "board_bytes_unchanged": true,
+  "evidence_sha256": "7e536f29217b98d79d7a7d080bdc3eef9fc034ec7e6ba71c84662a5d6c9eeed7",
+  "translated_rules_mm": {
+    "min_track_width": 0.127,
+    "min_via_diameter": 0.499999,
+    "min_through_hole_diameter": 0.299999
+  },
+  "quantization": "nearest native integer nanometre, matching the geometry conversion",
+  "source_minima": {
+    "candidate": "POGO_PIN_1V0A",
+    "raw_length_unit": "mil per installed decoder evidence",
+    "mm_per_raw_length_unit": 0.0254,
+    "track_rule": "copperThickness1oz",
+    "track_layers": [
+      {
+        "layerId": 1,
+        "stroMin": 5,
+        "stroDef": 10,
+        "stroMax": 100
+      }
+    ],
+    "layer_fallback": "missing layer uses reference layer 1, established by vS.getTable -> bl.getValue",
+    "track_min_mm": 0.127,
+    "radius_rule": "viaSize",
+    "via_outer_radius_min_raw": 9.8425,
+    "via_drill_radius_min_raw": 5.9055,
+    "via_diameter_min_mm": 0.49999899999999997,
+    "via_drill_min_mm": 0.29999939999999997,
+    "track_radius_selector_overrides": [],
+    "named_via_rule_overrides": [],
+    "all_selectors": [
+      {
+        "selector": [
+          "NET",
+          "GND"
+        ],
+        "ruleOrder": 4,
+        "ruleKeyValue": {},
+        "copperValue": {},
+        "innerPlaneValue": {}
+      }
+    ],
+    "source_net_records": [
+      {
+        "netType": null,
+        "specialColor": null,
+        "retLine": true,
+        "differentialName": null,
+        "isPositiveNet": false,
+        "equalLengthGroupName": null
+      },
+      {
+        "netType": null,
+        "specialColor": null,
+        "retLine": true,
+        "differentialName": null,
+        "isPositiveNet": false,
+        "equalLengthGroupName": null
+      }
+    ],
+    "full_design_rules_translated": false
+  },
+  "scope": "global track and via diameter minima; KiCad through-hole minimum uses the evidenced source via-drill minimum, also affecting PTH pads; no existing PTH violation is hidden by that 1 nm quantization correction",
+  "untranslated": [
+    "SAFE pair-class matrix",
+    "netclass/custom rule selection outside TRACK/RADIUS",
+    "mask and paste",
+    "other hole/edge/clearance rules",
+    "maximum/default routing dimensions"
+  ],
+  "schematic_parity": [],
+  "drc_counts": {
+    "track_width": 4,
+    "track_dangling": 4
+  },
+  "unconnected": 0,
+  "manufacturing_ready": false
+}

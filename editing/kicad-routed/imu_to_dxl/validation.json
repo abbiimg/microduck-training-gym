@@ -1,0 +1,9 @@
+{
+  "candidate": "imu_to_dxl",
+  "pads_checked": 107,
+  "pad_geometry_or_net_errors": [],
+  "schematic_to_pcb_named_pin_mismatches": [],
+  "filled_copper_area_errors": [],
+  "zone_fill_count": 173,
+  "manufacturing_ready": false
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "source": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl.eprj2",
+    "kicad_version": "10.0.7",
+    "source_format": "EasyEDA Pro V3 SQLite eprj2",
+    "imported": false,
+    "footprints": 0,
+    "tracks": 0,
+    "error": "No imported footprints; not a valid conversion"
+  },
+  {
+    "source": "community\\microduck-replica\\hardware\\\u65b0\u7248\\imu_to_dxl_1V0A\\imu_to_dxl_1V0A.eprj2",
+    "kicad_version": "10.0.7",
+    "source_format": "EasyEDA Pro V3 SQLite eprj2",
+    "imported": false,
+    "footprints": 0,
+    "tracks": 0,
+    "error": "No imported footprints; not a valid conversion"
+  }
+]

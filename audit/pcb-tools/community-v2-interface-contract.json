@@ -1,0 +1,40 @@
+{
+  "candidate": "community-Feetech-2026-10-v2",
+  "source": "community/microduck-replica/hardware/新版/README.md",
+  "source_revision": "055ac7d17167db0670f42fdeaabfc21fc3022e4f",
+  "evidence_type": "author documentation; not independently exported netlist",
+  "imu_board": {
+    "source_project": "imu_to_dxl_1V0A.eprj2",
+    "documented_component_count": 24,
+    "J1": {"part": "A2007WR-3P", "pins": {"1": "DXL_BUS", "2": "VDD_BUS", "3": "GND"}},
+    "J2": {"part": "BM03B-ACHSS-GAN-ETF", "pins": {"1": "GND", "2": "VDD_BUS", "3": "DXL_BUS"}},
+    "J3": {"part": "PZ254V-11-06P", "pins": {"1": "GND", "2": "SWDCLK", "3": "SWDIO", "4": "UART_RX", "5": "UART_TX", "6": "3.3V"}},
+    "R6_ohms": 0,
+    "old_R6_ohms": 150,
+    "external_oscillator": "removed",
+    "imu_mount_rotation_change_degrees": 180,
+    "mount_axis_mapping_verified": false,
+    "debug_header_3d_model": "missing per author"
+  },
+  "hub_board": {
+    "source_project": "wire_hub_1V0A.eprj2",
+    "documented_nets": ["Battery", "DXL_BUS", "GND"],
+    "J1_J2_pin_order": ["GND", "Battery", "DXL_BUS"],
+    "J3_J4_J5_J6_pin_order": ["DXL_BUS", "Battery", "GND"],
+    "CN1": {"part": "DB125-2.54-2P-GN-S", "documented_height_mm": 8.4, "author_available_height_approximately_mm": 5, "fit_status": "documented interference; unresolved"},
+    "connector_current_limits_A_as_documented": {"J1": 1.5, "J2": 2, "J3_J4_J5_J6": 4, "CN1": 7},
+    "complete_power_path_current_budget_verified": false
+  },
+  "battery_board": {
+    "source_project": "POGO_PIN_1V0A.eprj2",
+    "documented_size_mm": [39.19, 6.79],
+    "banana_hole_center_spacing_mm": 33.8,
+    "U2_left_net": "GND",
+    "U1_right_net": "Battery",
+    "spring_pins_present": false
+  },
+  "net_name_aliases_requiring_verification": [["Battery", "VDD_BUS"]],
+  "physical_cable_pin_mapping_verified": false,
+  "native_kicad_conversion_verified": false,
+  "physical_electrical_acceptance": false
+}

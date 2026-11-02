@@ -1,0 +1,192 @@
+{
+  "model_id": "ae22b8d143894765bc8100c37cb6356f|0819f05c4eef4c71ace90d822a990e87",
+  "model_title": "OSC-SMD_4P-L3.2-W2.5-H1.0",
+  "variants": [
+    {
+      "variant_number": 1,
+      "metrics": {
+        "valid": true,
+        "solids": 1,
+        "bounds_mm": [
+          [
+            -1.6000001000000001,
+            -1.250000099999,
+            -0.010000000000000009
+          ],
+          [
+            1.6000001000000001,
+            1.2500001,
+            0.8010001
+          ]
+        ],
+        "volume_mm3": 6.007129110182673
+      },
+      "representative": {
+        "candidate": "imu_to_dxl",
+        "reference": "X1",
+        "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+        "source_step_sha256": "752a67bd59c543903ffcac74d44470b473f4c99899cd5449d0392a443cd8c9ff",
+        "source_instance_label": "X1",
+        "source_definition_label": "X1~OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI~OSC-SMD_4P-L3.2-W2.5-H1.0~gTE2",
+        "source_instance_location_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            6.223012446025
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            11.557023114046
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.610050799729
+          ]
+        ],
+        "source_definition_location_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "definition_metrics": {
+          "valid": true,
+          "solids": 1,
+          "bounds_mm": [
+            [
+              -1.6000001000000001,
+              -1.250000099999,
+              -0.010000000000000009
+            ],
+            [
+              1.6000001000000001,
+              1.2500001,
+              0.8010001
+            ]
+          ],
+          "volume_mm3": 6.007129110182673
+        },
+        "comparison_to_variant_representative": {
+          "max_bbox_difference_mm": 0.0,
+          "volume_difference_mm3": 0.0,
+          "solid_counts_equal": true,
+          "metrics_agree": true
+        }
+      },
+      "instances": [
+        {
+          "candidate": "imu_to_dxl",
+          "reference": "X1",
+          "source_step": "community\\microduck-replica\\hardware\\imu_to_dxl\\imu_to_dxl-PCB.step",
+          "source_step_sha256": "752a67bd59c543903ffcac74d44470b473f4c99899cd5449d0392a443cd8c9ff",
+          "source_instance_label": "X1",
+          "source_definition_label": "X1~OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI~OSC-SMD_4P-L3.2-W2.5-H1.0~gTE2",
+          "source_instance_location_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              6.223012446025
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              11.557023114046
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.610050799729
+            ]
+          ],
+          "source_definition_location_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "definition_metrics": {
+            "valid": true,
+            "solids": 1,
+            "bounds_mm": [
+              [
+                -1.6000001000000001,
+                -1.250000099999,
+                -0.010000000000000009
+              ],
+              [
+                1.6000001000000001,
+                1.2500001,
+                0.8010001
+              ]
+            ],
+            "volume_mm3": 6.007129110182673
+          },
+          "comparison_to_variant_representative": {
+            "max_bbox_difference_mm": 0.0,
+            "volume_difference_mm3": 0.0,
+            "solid_counts_equal": true,
+            "metrics_agree": true
+          }
+        }
+      ],
+      "step_file": "recovered\\author-step-model-definitions\\ae22b8d143894765bc8100c37cb6356f_0819f05c4eef4c71ace90d822a990e87\\model.step",
+      "step_sha256": "0d708fb08fa44f52bf5af40fd392b8964fc99aa7c2063cc63472aaf3b0c2fbb4",
+      "step_roundtrip": {
+        "max_bbox_difference_mm": 0.0,
+        "volume_difference_mm3": 5.1514348342607263e-14,
+        "solid_counts_equal": true,
+        "metrics_agree": true
+      },
+      "stl_file": "recovered\\author-step-model-definitions\\ae22b8d143894765bc8100c37cb6356f_0819f05c4eef4c71ace90d822a990e87\\model.stl",
+      "stl_sha256": "50b83381044e8940407688ff59c6aa4cb6bc5e68114a77e0c7801442f8c8dd0b",
+      "stl_triangles": 21358,
+      "stl_linear_deflection_mm": 0.02,
+      "stl_angular_deflection_rad": 0.1,
+      "stl_units": "unitless STL; numeric coordinates are millimetres"
+    }
+  ],
+  "variant_count": 1,
+  "definition_metric_consistency": "all checked definition-local bounds, volumes and solid counts agree within stated tolerances",
+  "full_brep_equivalence_proven": false,
+  "coordinate_frame": "exact XCAF referred PRODUCT-DEFINITION local frame in millimetres; not original vendor/native KiCad model-local",
+  "metadata_uuid_embedded_in_step": false,
+  "identity_basis": "metadata model ID grouped only after exact reference and matching title identity was established",
+  "canonical_equivalence": "metric-only; unqualified for asymmetric geometry or baked orientation equivalence",
+  "representative_selection": "first exact source definition in deterministic board/ref order within each model-ID metric group; all exact source definitions remain retrievable through per-instance source hash/ref/definition-label provenance"
+}

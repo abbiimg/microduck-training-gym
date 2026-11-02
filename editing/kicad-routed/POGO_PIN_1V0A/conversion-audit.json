@@ -1,0 +1,204 @@
+{
+  "candidate": "POGO_PIN_1V0A",
+  "source_records": {
+    "LAYER": 60,
+    "LAYER_PHYS": 9,
+    "RULE": 15,
+    "PRIMITIVE": 38,
+    "SILK_OPTS": 2,
+    "PANELIZE": 1,
+    "POURED": 9,
+    "POLY": 12,
+    "POUR": 1,
+    "FILL": 1,
+    "RULE_SELECTOR": 1,
+    "NET": 2,
+    "RULE_TEMPLATE": 1,
+    "META": 1,
+    "BOARD": 1,
+    "CANVAS": 1,
+    "COMPONENT": 2,
+    "PAD_NET": 4,
+    "ATTR": 8,
+    "LINE": 5,
+    "PAD": 2,
+    "ACTIVE_LAYER": 1,
+    "PREFERENCE": 1
+  },
+  "converted": {
+    "pads": 6,
+    "components": 2,
+    "tracks": 5,
+    "copper_poly_strokes": 4,
+    "FILL": 1
+  },
+  "excluded_outside_active_board": [
+    "84a63625734e769f"
+  ],
+  "warnings": [
+    {
+      "source": "32aafba35a775d77",
+      "issue": "POUR has no active cached copper; not regenerated"
+    }
+  ],
+  "source_copper_cache": "retained as static KiCad filled zones; not regenerated",
+  "native_rules_translated": false,
+  "manufacturing_ready": false,
+  "shape_transition_hypotheses": [],
+  "expected_static_copper_area_mm2": {},
+  "omitted_nonpad_footprint_records": {
+    "META": 2,
+    "CANVAS": 2,
+    "LAYER": 180,
+    "ACTIVE_LAYER": 2,
+    "PREFERENCE": 2,
+    "LAYER_PHYS": 16,
+    "ELE_PLACEHOLDER": 12,
+    "ATTR": 4,
+    "FILL": 8,
+    "POLY": 2
+  },
+  "active_board_bounds_mm": [
+    73.63570236,
+    5.76170044,
+    112.80030018,
+    12.52629956
+  ],
+  "declared_thickness_mm": 1.6000476,
+  "reopened": {
+    "footprints": 3,
+    "pads": 6,
+    "tracks_and_vias": 9,
+    "zones": 0
+  },
+  "expected_pads": [
+    {
+      "reference": "U1",
+      "number": "1",
+      "source_number": "1",
+      "net": "Battery",
+      "x_mm": 110.18393508,
+      "y_mm": -9.79112342,
+      "source_id": "e6",
+      "drill_mm": null,
+      "copper_area_mm2": 8.551599579254777,
+      "copper_bounds_mm": [
+        108.53393838,
+        -11.44112012,
+        111.83393178,
+        -8.141126719999999
+      ],
+      "copper_layers": [
+        2
+      ],
+      "native_uuid": "da2f13cd-71a1-449a-bd83-870257722a7c"
+    },
+    {
+      "reference": "U1",
+      "number": "1",
+      "source_number": "1",
+      "net": "Battery",
+      "x_mm": 110.18393507999988,
+      "y_mm": -9.791123419999998,
+      "source_id": "e9",
+      "drill_mm": 1.3000228,
+      "copper_area_mm2": 1.5387930025493521,
+      "copper_bounds_mm": [
+        109.48393648,
+        -10.49112202,
+        110.88393368000001,
+        -9.09112482
+      ],
+      "copper_layers": [
+        0,
+        2
+      ],
+      "native_uuid": "3c7da548-aad2-4363-86e5-c379016c7b62"
+    },
+    {
+      "reference": "U2",
+      "number": "1",
+      "source_number": "1",
+      "net": "GND",
+      "x_mm": 76.38415508,
+      "y_mm": -9.78937082,
+      "source_id": "e6",
+      "drill_mm": null,
+      "copper_area_mm2": 8.551599579254786,
+      "copper_bounds_mm": [
+        74.73415838,
+        -11.43936752,
+        78.03415178,
+        -8.139374120000001
+      ],
+      "copper_layers": [
+        2
+      ],
+      "native_uuid": "6569fd57-5912-4422-b311-f5bf4a7bfb3d"
+    },
+    {
+      "reference": "U2",
+      "number": "1",
+      "source_number": "1",
+      "net": "GND",
+      "x_mm": 76.38415508,
+      "y_mm": -9.789370819999998,
+      "source_id": "e9",
+      "drill_mm": 1.3000228,
+      "copper_area_mm2": 1.5387930025493517,
+      "copper_bounds_mm": [
+        75.68415647999998,
+        -10.489369420000001,
+        77.08415368,
+        -9.08937222
+      ],
+      "copper_layers": [
+        0,
+        2
+      ],
+      "native_uuid": "e38955f3-f016-4a54-81e6-9d6fd448a95f"
+    },
+    {
+      "reference": "SOURCE_BOARD_PADS",
+      "number": "1",
+      "source_number": "1",
+      "net": "GND",
+      "x_mm": 87.36583999999999,
+      "y_mm": -9.199879999999999,
+      "source_id": "9ca75b4d2bf9b5f2",
+      "drill_mm": null,
+      "copper_area_mm2": 10.542228511817276,
+      "copper_bounds_mm": [
+        86.16569,
+        -11.399519999999999,
+        88.56599,
+        -7.000240000000001
+      ],
+      "copper_layers": [
+        0
+      ],
+      "native_uuid": "80d70905-cbfa-4640-b4e1-f4c97a052475"
+    },
+    {
+      "reference": "SOURCE_BOARD_PADS",
+      "number": "2",
+      "source_number": "2",
+      "net": "Battery",
+      "x_mm": 91.36634,
+      "y_mm": -9.199879999999999,
+      "source_id": "b29f933e71d09fc8",
+      "drill_mm": null,
+      "copper_area_mm2": 10.542228511817218,
+      "copper_bounds_mm": [
+        90.16619,
+        -11.399519999999999,
+        92.56648999999999,
+        -7.000240000000001
+      ],
+      "copper_layers": [
+        0
+      ],
+      "native_uuid": "6963c206-9c11-4e65-8303-9cfd00d46af4"
+    }
+  ]
+}

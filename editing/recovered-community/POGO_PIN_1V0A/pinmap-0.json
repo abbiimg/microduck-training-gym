@@ -1,0 +1,156 @@
+[
+  {
+    "designator": "U1",
+    "symbol": "YZ39730097P-01.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "CN2.1",
+          "PORT021382aa79591a6f.Pin1"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "U2",
+    "symbol": "YZ39730097P-01.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "CN2.2",
+          "PORT28792db0e2e9811a.Pin1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT021382aa79591a6f",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "CN2.1",
+          "U1.1"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "PORT28792db0e2e9811a",
+    "symbol": "pid8a0e77bacb214e",
+    "symbol_type": 18,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "Pin1",
+        "number": "1",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "IN",
+        "peers": [],
+        "wire_peers": [
+          "CN2.2",
+          "U2.1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  },
+  {
+    "designator": "CN2",
+    "symbol": "XY340V-3.81-2P.1",
+    "symbol_type": null,
+    "dnp": false,
+    "pins": [
+      {
+        "pin": "1",
+        "number": "1",
+        "net": "Battery",
+        "nets": [
+          "Battery"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORT021382aa79591a6f.Pin1",
+          "U1.1"
+        ],
+        "resolved_nets": [
+          "Battery"
+        ],
+        "net_inferred": true
+      },
+      {
+        "pin": "2",
+        "number": "2",
+        "net": "GND",
+        "nets": [
+          "GND"
+        ],
+        "not_connected": false,
+        "pin_type": "Undefined",
+        "peers": [],
+        "wire_peers": [
+          "PORT28792db0e2e9811a.Pin1",
+          "U2.1"
+        ],
+        "resolved_nets": [
+          "GND"
+        ],
+        "net_inferred": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+[INFO] Created Kicad symbol for ID : C14289
+       Symbol name : HT7533-1_C14289
+       Library path : /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.kicad_sym
+[INFO] Created Kicad footprint for ID: C14289
+       Footprint name: SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR
+       Footprint path: /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.pretty/SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR.kicad_mod
+[INFO] Created 3D model for ID: C14289
+       3D model name: SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50
+       3D model path (wrl): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl
+       3D model path (step): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.step
+[INFO] Created Kicad symbol for ID : C151588
+       Symbol name : BZT52C5V1-7-F
+       Library path : /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.kicad_sym
+[INFO] Created Kicad footprint for ID: C151588
+       Footprint name: SOD-123_L2.7-W1.6-LS3.7-RD
+       Footprint path: /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.pretty/SOD-123_L2.7-W1.6-LS3.7-RD.kicad_mod
+[INFO] Created 3D model for ID: C151588
+       3D model name: SOD-123_L2.7-W1.6-H1.4-LS3.7
+       3D model path (wrl): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/SOD-123_L2.7-W1.6-H1.4-LS3.7.wrl
+       3D model path (step): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/SOD-123_L2.7-W1.6-H1.4-LS3.7.step
+[INFO] Created Kicad symbol for ID : C1525
+       Symbol name : CL05B104KO5NNNC
+       Library path : /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.kicad_sym
+[INFO] Created Kicad footprint for ID: C1525
+       Footprint name: C0402
+       Footprint path: /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.pretty/C0402.kicad_mod
+[INFO] Created 3D model for ID: C1525
+       3D model name: C0402_L1.0-W0.5-H0.5
+       3D model path (wrl): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/C0402_L1.0-W0.5-H0.5.wrl
+       3D model path (step): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/C0402_L1.0-W0.5-H0.5.step
+[INFO] Created Kicad symbol for ID : C15850
+       Symbol name : CL21A106KAYNNNE
+       Library path : /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.kicad_sym
+[INFO] Created Kicad footprint for ID: C15850
+       Footprint name: C0805
+       Footprint path: /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.pretty/C0805.kicad_mod
+[INFO] Created 3D model for ID: C15850
+       3D model name: C0805_L2.0-W1.3-H1.3
+       3D model path (wrl): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/C0805_L2.0-W1.3-H1.3.wrl
+       3D model path (step): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/C0805_L2.0-W1.3-H1.3.step
+[INFO] Created Kicad symbol for ID : C19666
+       Symbol name : CL10A475KO8NNNC
+       Library path : /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.kicad_sym
+[INFO] Created Kicad footprint for ID: C19666
+       Footprint name: C0603
+       Footprint path: /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.pretty/C0603.kicad_mod
+[INFO] Created 3D model for ID: C19666
+       3D model name: C0603_L1.6-W0.8-H0.8
+       3D model path (wrl): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/C0603_L1.6-W0.8-H0.8.wrl
+       3D model path (step): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/C0603_L1.6-W0.8-H0.8.step
+[INFO] Created Kicad symbol for ID : C19702
+       Symbol name : CL10A106KP8NNNC
+       Library path : /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.kicad_sym
+[ERROR] Footprint for C19702 already exists. Use --overwrite to replace
+[INFO] Created Kicad symbol for ID : C210358
+       Symbol name : MF-NSMF020X-2
+       Library path : /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.kicad_sym
+[INFO] Created Kicad footprint for ID: C210358
+       Footprint name: F1206
+       Footprint path: /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.pretty/F1206.kicad_mod
+[INFO] Created 3D model for ID: C210358
+       3D model name: F1206_L3.2-W1.7-H0.6
+       3D model path (wrl): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/F1206_L3.2-W1.7-H0.6.wrl
+       3D model path (step): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/F1206_L3.2-W1.7-H0.6.step
+[INFO] Created Kicad symbol for ID : C21189
+       Symbol name : 0603WAF0000T5E
+       Library path : /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.kicad_sym
+[INFO] Created Kicad footprint for ID: C21189
+       Footprint name: R0603
+       Footprint path: /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.pretty/R0603.kicad_mod
+[INFO] Created 3D model for ID: C21189
+       3D model name: R0603
+       3D model path (wrl): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/R0603.wrl
+       3D model path (step): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/R0603.step
+[INFO] Created Kicad symbol for ID : C225350
+       Symbol name : A2007WR-3P
+       Library path : /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.kicad_sym
+[INFO] Created Kicad footprint for ID: C225350
+       Footprint name: CONN-TH_A2007WR-3P
+       Footprint path: /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.pretty/CONN-TH_A2007WR-3P.kicad_mod
+[INFO] Created 3D model for ID: C225350
+       3D model name: CONN-TH_A2007WR-3P
+       3D model path (wrl): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/CONN-TH_A2007WR-3P.wrl
+       3D model path (step): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/CONN-TH_A2007WR-3P.step
+[INFO] Created Kicad symbol for ID : C2943870
+       Symbol name : SMF12A_C2943870
+       Library path : /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.kicad_sym
+[INFO] Created Kicad footprint for ID: C2943870
+       Footprint name: SOD-123FL_L2.7-W1.8-LS3.7-RD
+       Footprint path: /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.pretty/SOD-123FL_L2.7-W1.8-LS3.7-RD.kicad_mod
+[INFO] Created 3D model for ID: C2943870
+       3D model name: SOD-123FL_L2.8-W1.8-H1.1-LS3.6
+       3D model path (wrl): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/SOD-123FL_L2.8-W1.8-H1.1-LS3.6.wrl
+       3D model path (step): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/SOD-123FL_L2.8-W1.8-H1.1-LS3.6.step
+[INFO] Created Kicad symbol for ID : C492405
+       Symbol name : PZ254V-11-06P
+       Library path : /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.kicad_sym
+[INFO] Created Kicad footprint for ID: C492405
+       Footprint name: HDR-TH_6P-P2.54-V-M
+       Footprint path: /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.pretty/HDR-TH_6P-P2.54-V-M.kicad_mod
+[INFO] Created 3D model for ID: C492405
+       3D model name: HDR-TH_6P-P2.54-M-LI-1X6P
+       3D model path (wrl): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/HDR-TH_6P-P2.54-M-LI-1X6P.wrl
+       3D model path (step): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/HDR-TH_6P-P2.54-M-LI-1X6P.step
+[INFO] Created Kicad symbol for ID : C5118705
+       Symbol name : BM03B-ACHSS-GAN-ETF
+       Library path : /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.kicad_sym
+[INFO] Created Kicad footprint for ID: C5118705
+       Footprint name: CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF
+       Footprint path: /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.pretty/CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF.kicad_mod
+[INFO] Created 3D model for ID: C5118705
+       3D model name: CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF
+       3D model path (wrl): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF.wrl
+       3D model path (step): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF.step
+[INFO] Created Kicad symbol for ID : C60490
+       Symbol name : RC0402FR-0710KL
+       Library path : /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.kicad_sym
+[INFO] Created Kicad footprint for ID: C60490
+       Footprint name: R0402
+       Footprint path: /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.pretty/R0402.kicad_mod
+[INFO] Created 3D model for ID: C60490
+       3D model name: R0402_L1.0-W0.5-H0.4
+       3D model path (wrl): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/R0402_L1.0-W0.5-H0.4.wrl
+       3D model path (step): /mnt/c/Users/abbii/Documents/Codex/2026-10-26/files-pasted-by-the-user-setup/outputs/microduck-assets/editing/kicad-recovered/imu_to_dxl_1V0A/libs/lcsc.3dshapes/R0402_L1.0-W0.5-H0.4.step
+-- easyeda2kicad.py v1.0.1 --

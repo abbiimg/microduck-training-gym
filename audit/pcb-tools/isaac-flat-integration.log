@@ -1,0 +1,679 @@
+[INFO]: Parsing configuration from: isaaclab_tasks.contrib.microduck.flat_env_cfg:MicroDuckVelocityFlatEnvCfg
+[INFO]: Parsing configuration from: isaaclab_tasks.contrib.microduck.agents.rsl_rl_ppo_cfg:MicroDuckPPORunnerCfg
+[1/3] Launching simulation
+
+╭─ Isaac Lab · train ────────────────────────────╮      [0m         [0m[38;2;118;185;0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
+│ Task          IsaacContrib-Velocity-Flat-Micro │      [0m      [0m[38;2;118;185;0m▄▄▄▛▀[0m[38;2;118;185;0m[48;2;118;185;0m             [0m
+│               Duck                             │      [0m  [0m[38;2;118;185;0m▗▄[0m[38;2;118;185;0m[48;2;118;185;0m  [0m[38;2;118;185;0m▀▀▜[0m[38;2;118;185;0m[48;2;118;185;0m   [0m[38;2;118;185;0m▄▄▀▜[0m[38;2;118;185;0m[48;2;118;185;0m        [0m
+│ Workflow      manager-based                    │      [0m[38;2;118;185;0m▄[0m[38;2;118;185;0m[48;2;118;185;0m  [0m[38;2;118;185;0m▀▚▄[0m[38;2;118;185;0m[48;2;118;185;0m  [0m[38;2;118;185;0m▀▙▖[0m [0m[38;2;118;185;0m▀[0m[38;2;118;185;0m[48;2;118;185;0m  [0m[38;2;118;185;0m▄[0m [0m[38;2;118;185;0m▀[0m[38;2;118;185;0m[48;2;118;185;0m      [0m
+│ RL library    rsl_rl                           │      [0m[38;2;118;185;0m▝[0m[38;2;118;185;0m[48;2;118;185;0m  [0m[38;2;118;185;0m▖▝[0m[38;2;118;185;0m[48;2;118;185;0m [0m[38;2;118;185;0m▙[0m  [0m[38;2;118;185;0m[48;2;118;185;0m  [0m[38;2;118;185;0m▙▟[0m[38;2;118;185;0m[48;2;118;185;0m [0m[38;2;118;185;0m▛▘▄[0m[38;2;118;185;0m[48;2;118;185;0m       [0m
+│ Physics       newton_mjwarp                    │      [0m [0m[38;2;118;185;0m▝[0m[38;2;118;185;0m[48;2;118;185;0m  [0m[38;2;118;185;0m▄▝▜[0m[38;2;118;185;0m[48;2;118;185;0m [0m[38;2;118;185;0m▄[0m[38;2;118;185;0m[48;2;118;185;0m  [0m[38;2;118;185;0m▛▀▚▄[0m[38;2;118;185;0m[48;2;118;185;0m  [0m[38;2;118;185;0m▛▘[0m [0m[38;2;118;185;0m▝▜[0m[38;2;118;185;0m[48;2;118;185;0m  [0m
+│ Renderer      n/a (no camera sensors)          │      [0m   [0m[38;2;118;185;0m▀[0m[38;2;118;185;0m[48;2;118;185;0m  [0m[38;2;118;185;0m▄▄[0m[38;2;118;185;0m[48;2;118;185;0m     [0m[38;2;118;185;0m▛▀▀▗▄▄▟[0m[38;2;118;185;0m[48;2;118;185;0m    [0m
+│ Visualizer    headless                         │      [0m      [0m[38;2;118;185;0m▀▀▀▙▄▄▄▟[0m[38;2;118;185;0m[48;2;118;185;0m          [0m
+│ Device        cuda:0                           │      [0m         [0m[38;2;118;185;0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
+│ Environments  128                              │
+╰────────────────────────────────────────────────╯
+
+[INFO]: Logging experiment in directory: /home/workbench/robotics/IsaacLab/logs/rsl_rl/microduck_velocity_flat_backlash
+[INFO]: Exact experiment name requested from command line: 2026-10-26_14-57-39
+[2/3] Creating environment
+[INFO]: Base environment:
+	Environment device    : cuda:0
+	Environment seed      : 42
+	Physics step-size     : 0.005
+	Rendering step-size   : 0.02
+	Environment step-size : 0.02
+I: Initializing Version 2.74.0-release.7316+gl.ec99a64b
+I: Client ID: WLCUK0AN
+I: ThreadId(02) hub_client::client::Client::new Launching client mode=Shared with_cleaner=false cache_path=None cache_size=None
+I: ThreadId(03) launch self=Launcher { discovery_lock: RwLock { lock: RwLock { inner: File { fd: 29, path: "/tmp/hub-workbench.lock", read: false, write: true } } }, mode: Shared, with_cleaner: false, config_file: "/tmp/hub-workbench-F931D150.config.json" } cmd="hub" "--mode=shared" "--write-config" "/tmp/hub-workbench-F931D150.config.json" "--"
+I: Not using Hub: Hub not found
+I: Successfully created S3 provider for https://omniverse-content-production.s3-us-west-2.amazonaws.com
+I: Using CloudFront http://dcb18d6mfegct.cloudfront.net/, List = No
+[WARNING]: Serving remote assets from the local cache under '/tmp'. Each copy is checked against the server before use; delete the directory to force a full re-download.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Environments/Grid/default_ground_plane_checker_v1/default_ground_plane.usda' from '/tmp/https/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Environments/Grid/default_ground_plane_checker_v1/default_ground_plane.usda'.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Environments/Grid/default_ground_plane_checker_v1/Materials/Textures/default_ground_plane_albedo.png' from '/tmp/https/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Environments/Grid/default_ground_plane_checker_v1/Materials/Textures/default_ground_plane_albedo.png'.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Environments/Grid/default_ground_plane_checker_v1/Materials/Textures/default_ground_plane_roughness.png' from '/tmp/https/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Environments/Grid/default_ground_plane_checker_v1/Materials/Textures/default_ground_plane_roughness.png'.
+[INFO]: Registered backend 'newton' for factory Articulation.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Robots/PollenRobotics/MicroDuck/microduck_walk_backlash.usd' from '/tmp/https/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Robots/PollenRobotics/MicroDuck/microduck_walk_backlash.usd'.
+[INFO]: Registered backend 'newton' for factory ContactSensor.
+/home/workbench/robotics/IsaacLab/source/isaaclab_newton/isaaclab_newton/cloner/newton_clone_utils.py:138: FutureWarning: Newton shape color replacement is enabled; this workaround will be deprecated in a future release.
+  replace_newton_builder_shape_colors(builder, stage)
+[INFO]: Time taken for scene creation Last: 17.487622 s, Mean: 17.487622 s, Std: 0.000000 s, N: 1
+[INFO]: Scene manager: <class InteractiveScene>
+	Number of environments: 128
+	Environment spacing   : 2.0
+	Source prim name      : /World/envs/env_0
+	Global prim paths     : ['/World/ground']
+[INFO]: Dispatching MODEL_INIT callbacks
+[INFO]: Finalizing model on device: cuda:0
+Finalize builder took: Last: 4.949591 s, Mean: 4.949591 s, Std: 0.000000 s, N: 1
+[INFO]: Dispatching PHYSICS_READY callbacks
+[WARNING]: Actuator groups cover 14 joints; expected 28 after accounting for fixed tendons.
+[INFO]: Simulation parameters for joints in /World/envs/env_[^/]+/Robot:
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                      Simulation Joint Information (Prim path: /World/envs/env_[^/]+/Robot)                                      |
++-------+----------------------------------+-----------+---------+----------+-----------------+-----------------+-----------------+---------------+
+| Index | Name                             | Stiffness | Damping | Armature | Static Friction | Position Limits | Velocity Limits | Effort Limits |
++-------+----------------------------------+-----------+---------+----------+-----------------+-----------------+-----------------+---------------+
+|   0   | right_hip_yaw                    |   0.000   |  0.000  |  0.002   |      1.000      | [-0.524, 0.436] |     1.0e+06     |     0.960     |
+|   1   | passive_right_hip_yaw_backlash   |   0.000   |  0.000  |  0.001   |      0.000      | [-0.017, 0.017] |     1.0e+06     |      inf      |
+|   2   | right_hip_roll                   |   0.000   |  0.000  |  0.002   |      1.000      | [-0.384, 0.384] |     1.0e+06     |     0.960     |
+|   3   | passive_right_hip_roll_backlash  |   0.000   |  0.000  |  0.001   |      0.000      | [-0.017, 0.017] |     1.0e+06     |      inf      |
+|   4   | right_hip_pitch                  |   0.000   |  0.000  |  0.002   |      1.000      | [-1.571, 1.571] |     1.0e+06     |     0.960     |
+|   5   | passive_right_hip_pitch_backlash |   0.000   |  0.000  |  0.001   |      0.000      | [-0.017, 0.017] |     1.0e+06     |      inf      |
+|   6   | right_knee                       |   0.000   |  0.000  |  0.002   |      1.000      | [-1.571, 1.571] |     1.0e+06     |     0.960     |
+|   7   | passive_right_knee_backlash      |   0.000   |  0.000  |  0.001   |      0.000      | [-0.017, 0.017] |     1.0e+06     |      inf      |
+|   8   | right_ankle                      |   0.000   |  0.000  |  0.002   |      1.000      | [-1.571, 1.571] |     1.0e+06     |     0.960     |
+|   9   | passive_right_ankle_backlash     |   0.000   |  0.000  |  0.001   |      0.000      | [-0.017, 0.017] |     1.0e+06     |      inf      |
+|   10  | neck_pitch                       |   0.000   |  0.000  |  0.002   |      1.000      | [-1.571, 1.047] |     1.0e+06     |     0.960     |
+|   11  | passive_neck_pitch_backlash      |   0.000   |  0.000  |  0.001   |      0.000      | [-0.017, 0.017] |     1.0e+06     |      inf      |
+|   12  | head_pitch                       |   0.000   |  0.000  |  0.002   |      1.000      | [-1.571, 1.571] |     1.0e+06     |     0.960     |
+|   13  | passive_head_pitch_backlash      |   0.000   |  0.000  |  0.001   |      0.000      | [-0.017, 0.017] |     1.0e+06     |      inf      |
+|   14  | head_yaw                         |   0.000   |  0.000  |  0.002   |      1.000      | [-2.967, 2.967] |     1.0e+06     |     0.960     |
+|   15  | passive_head_yaw_backlash        |   0.000   |  0.000  |  0.001   |      0.000      | [-0.017, 0.017] |     1.0e+06     |      inf      |
+|   16  | head_roll                        |   0.000   |  0.000  |  0.002   |      1.000      | [-0.436, 0.436] |     1.0e+06     |     0.960     |
+|   17  | passive_head_roll_backlash       |   0.000   |  0.000  |  0.001   |      0.000      | [-0.017, 0.017] |     1.0e+06     |      inf      |
+|   18  | left_hip_yaw                     |   0.000   |  0.000  |  0.002   |      1.000      | [-0.436, 0.524] |     1.0e+06     |     0.960     |
+|   19  | passive_left_hip_yaw_backlash    |   0.000   |  0.000  |  0.001   |      0.000      | [-0.017, 0.017] |     1.0e+06     |      inf      |
+|   20  | left_hip_roll                    |   0.000   |  0.000  |  0.002   |      1.000      | [-0.384, 0.384] |     1.0e+06     |     0.960     |
+|   21  | passive_left_hip_roll_backlash   |   0.000   |  0.000  |  0.001   |      0.000      | [-0.017, 0.017] |     1.0e+06     |      inf      |
+|   22  | left_hip_pitch                   |   0.000   |  0.000  |  0.002   |      1.000      | [-1.571, 1.571] |     1.0e+06     |     0.960     |
+|   23  | passive_left_hip_pitch_backlash  |   0.000   |  0.000  |  0.001   |      0.000      | [-0.017, 0.017] |     1.0e+06     |      inf      |
+|   24  | left_knee                        |   0.000   |  0.000  |  0.002   |      1.000      | [-1.571, 1.571] |     1.0e+06     |     0.960     |
+|   25  | passive_left_knee_backlash       |   0.000   |  0.000  |  0.001   |      0.000      | [-0.017, 0.017] |     1.0e+06     |      inf      |
+|   26  | left_ankle                       |   0.000   |  0.000  |  0.002   |      1.000      | [-1.571, 1.571] |     1.0e+06     |     0.960     |
+|   27  | passive_left_ankle_backlash      |   0.000   |  0.000  |  0.001   |      0.000      | [-0.017, 0.017] |     1.0e+06     |      inf      |
++-------+----------------------------------+-----------+---------+----------+-----------------+-----------------+-----------------+---------------+
+[INFO]: Adding contact sensor for /World/envs/env_[^/]+/Robot/Geometry/trunk_base(/.*/(ankle_left|ankle_right))? with filter all bodies/shapes
+Contact sensor construction took: Last: 0.238054 s, Mean: 0.238054 s, Std: 0.000000 s, N: 1
+[INFO]: Contact sensor initialized with 3 sensors.
+[INFO]: Creating buffers for contact sensor data with num_envs: 128, num_sensors: 3, num_filter_objects: 0, history_length: 3, generate_force_matrix: False, track_contact_points: False, track_air_time: True, track_pose: False, device: cuda:0
+[INFO]: Creating buffers for contact sensor data with num_envs: 128, num_sensors: 3, num_filter_objects: 0, history_length: 3, generate_force_matrix: False, track_contact_points: False, track_air_time: True, track_pose: False, device: cuda:0
+[INFO]: Adding contact sensor for /World/envs/env_[^/]+/Robot/Geometry/trunk_base/.*/ankle_left with filter ['/World/envs/env_[^/]+/Robot/Geometry/trunk_base/.*/ankle_right']
+Contact sensor construction took: Last: 0.018881 s, Mean: 0.128468 s, Std: 0.154979 s, N: 2
+[INFO]: Contact sensor initialized with 1 sensors.
+[INFO]: Creating buffers for contact sensor data with num_envs: 128, num_sensors: 1, num_filter_objects: 1, history_length: 0, generate_force_matrix: True, track_contact_points: False, track_air_time: False, track_pose: False, device: cuda:0
+[INFO]: Creating buffers for contact sensor data with num_envs: 128, num_sensors: 1, num_filter_objects: 1, history_length: 0, generate_force_matrix: True, track_contact_points: False, track_air_time: False, track_pose: False, device: cuda:0
+Initialize solver took: Last: 15.078340 s, Mean: 15.078340 s, Std: 0.000000 s, N: 1
+[INFO]: Time taken for simulation start Last: 36.791336 s, Mean: 36.791336 s, Std: 0.000000 s, N: 1
+[INFO]: Command Manager: <CommandManager> contains 3 active terms.
++--------------------------------------------------+
+|               Active Command Terms               |
++-------+---------------+--------------------------+
+| Index | Name          |           Type           |
++-------+---------------+--------------------------+
+|   0   | base_velocity | MicroDuckVelocityCommand |
+|   1   | head_pose     | UniformPoseDeltaCommand  |
+|   2   | body_pose     | UniformPoseDeltaCommand  |
++-------+---------------+--------------------------+
+
+[INFO]: Event Manager: <EventManager> contains 3 active terms.
++---------------------------------------+
+| Active Event Terms in Mode: 'startup' |
++-----------+---------------------------+
+|   Index   | Name                      |
++-----------+---------------------------+
+|     0     | foot_friction             |
+|     1     | encoder_bias              |
+|     2     | mass_inertia              |
++-----------+---------------------------+
++-------------------------------------+
+| Active Event Terms in Mode: 'reset' |
++-------+-----------------------------+
+| Index | Name                        |
++-------+-----------------------------+
+|   0   | reset_base                  |
+|   1   | reset_robot_joints          |
+|   2   | randomize_com               |
+|   3   | randomize_head_com          |
+|   4   | randomize_joint_friction    |
+|   5   | randomize_armature          |
++-------+-----------------------------+
++----------------------------------------------+
+|    Active Event Terms in Mode: 'interval'    |
++-------+------------+-------------------------+
+| Index | Name       | Interval time range (s) |
++-------+------------+-------------------------+
+|   0   | push_robot |        (3.0, 6.0)       |
++-------+------------+-------------------------+
+
+[INFO]: Recorder Manager: <RecorderManager> contains 0 active terms.
++-----------------------+
+| Active Recorder Terms |
++------------+----------+
+|   Index    | Name     |
++------------+----------+
++------------+----------+
+
+[INFO]: Resolved joint names for the action term BiasedJointPositionAction: ['left_hip_yaw', 'left_hip_roll', 'left_hip_pitch', 'left_knee', 'left_ankle', 'neck_pitch', 'head_pitch', 'head_yaw', 'head_roll', 'right_hip_yaw', 'right_hip_roll', 'right_hip_pitch', 'right_knee', 'right_ankle'] [tensor([18, 20, 22, 24, 26, 10, 12, 14, 16,  0,  2,  4,  6,  8],
+       device='cuda:0', dtype=torch.int32)]
+[INFO]: Action Manager: <ActionManager> contains 1 active terms.
++---------------------------------+
+| Active Action Terms (shape: 14) |
++-------+-----------+-------------+
+| Index | Name      |   Dimension |
++-------+-----------+-------------+
+|   0   | joint_pos |          14 |
++-------+-----------+-------------+
+
+[INFO]: Observation Manager: <ObservationManager> contains 2 groups.
++------------------------------------------------------------+
+| Active Observation Terms in Group: 'policy' (shape: (61,)) |
++-----------+-----------------------------------+------------+
+|   Index   | Name                              |   Shape    |
++-----------+-----------------------------------+------------+
+|     0     | imu                               |    (6,)    |
+|     1     | joint_pos                         |   (14,)    |
+|     2     | joint_vel                         |   (14,)    |
+|     3     | actions                           |   (14,)    |
+|     4     | velocity_commands                 |    (3,)    |
+|     5     | head_pose_commands                |    (4,)    |
+|     6     | body_pose_commands                |    (6,)    |
++-----------+-----------------------------------+------------+
++------------------------------------------------------------+
+| Active Observation Terms in Group: 'critic' (shape: (76,)) |
++----------+------------------------------------+------------+
+|  Index   | Name                               |   Shape    |
++----------+------------------------------------+------------+
+|    0     | base_lin_vel                       |    (3,)    |
+|    1     | base_ang_vel                       |    (3,)    |
+|    2     | projected_gravity                  |    (3,)    |
+|    3     | joint_pos                          |   (14,)    |
+|    4     | joint_vel                          |   (14,)    |
+|    5     | actions                            |   (14,)    |
+|    6     | velocity_commands                  |    (3,)    |
+|    7     | foot_height                        |    (2,)    |
+|    8     | foot_air_time                      |    (2,)    |
+|    9     | foot_contact                       |    (2,)    |
+|    10    | foot_contact_forces                |    (6,)    |
+|    11    | head_pose_commands                 |    (4,)    |
+|    12    | body_pose_commands                 |    (6,)    |
++----------+------------------------------------+------------+
+
+[INFO]: Termination Manager: <TerminationManager> contains 3 active terms.
++------------------------------+
+|   Active Termination Terms   |
++-------+-----------+----------+
+| Index | Name      | Time Out |
++-------+-----------+----------+
+|   0   | time_out  |   True   |
+|   1   | fell_over |  False   |
+|   2   | nan_state |  False   |
++-------+-----------+----------+
+
+[INFO]: Reward Manager: <RewardManager> contains 15 active terms.
++--------------------------------------------------+
+|               Active Reward Terms                |
++-------+--------------------+---------------------+
+| Index | Name               |              Weight |
++-------+--------------------+---------------------+
+|   0   | track_lin_vel      |                 2.0 |
+|   1   | track_ang_vel      |                 2.0 |
+|   2   | upright            |                 2.0 |
+|   3   | pose               |                 1.0 |
+|   4   | body_ang_vel       |               -0.05 |
+|   5   | angular_momentum   |               -0.02 |
+|   6   | dof_pos_limits     |                -1.0 |
+|   7   | action_rate_l2     |                -0.1 |
+|   8   | air_time           |                 3.0 |
+|   9   | foot_clearance     |                -2.0 |
+|   10  | foot_swing_height  | -1.1289062499999996 |
+|   11  | foot_slip          |                -0.1 |
+|   12  | self_collisions    |                -1.0 |
+|   13  | head_pose_tracking |                 2.0 |
+|   14  | head_pose_bias     |                 0.0 |
++-------+--------------------+---------------------+
+
+[INFO]: Curriculum Manager: <CurriculumManager> contains 6 active terms.
++-------------------------------+
+|    Active Curriculum Terms    |
++-------+-----------------------+
+| Index | Name                  |
++-------+-----------------------+
+|   0   | action_rate_weight    |
+|   1   | head_pose_bias_weight |
+|   2   | standing_envs         |
+|   3   | head_pose_range       |
+|   4   | com_range             |
+|   5   | head_com_range        |
++-------+-----------------------+
+
+[INFO]: Completed setting up the environment...
+[3/3] Preparing agent
+/home/workbench/robotics/IsaacLab/source/isaaclab/isaaclab/envs/mdp/events.py:503: UserWarning: In Newton, body com pose always has unit quaternion. Consider using body_com_pos_b instead.Querying this property requires appending a unit quaternion to the position which is expensive.
+  self.default_com = self.asset.data.body_com_pose_b.torch.clone()
+--------------------------------------------------------------------------------
+Resolved observation sets: 
+	 actor :  ['policy']
+	 critic :  ['critic']
+--------------------------------------------------------------------------------
+Actor Model: MLPModel(
+  (obs_normalizer): EmpiricalNormalization()
+  (distribution): GaussianDistribution()
+  (mlp): MLP(
+    (0): Linear(in_features=61, out_features=512, bias=True)
+    (1): ELU(alpha=1.0)
+    (2): Linear(in_features=512, out_features=256, bias=True)
+    (3): ELU(alpha=1.0)
+    (4): Linear(in_features=256, out_features=128, bias=True)
+    (5): ELU(alpha=1.0)
+    (6): Linear(in_features=128, out_features=14, bias=True)
+  )
+)
+Critic Model: MLPModel(
+  (obs_normalizer): EmpiricalNormalization()
+  (mlp): MLP(
+    (0): Linear(in_features=76, out_features=512, bias=True)
+    (1): ELU(alpha=1.0)
+    (2): Linear(in_features=512, out_features=256, bias=True)
+    (3): ELU(alpha=1.0)
+    (4): Linear(in_features=256, out_features=128, bias=True)
+    (5): ELU(alpha=1.0)
+    (6): Linear(in_features=128, out_features=1, bias=True)
+  )
+)
+Storing git diff for 'IsaacLab' in: /home/workbench/robotics/IsaacLab/logs/rsl_rl/microduck_velocity_flat_backlash/2026-10-26_14-57-39_pcb_pipeline_baseline/git/IsaacLab.diff
+CUDA graph took: Last: 0.871205 s, Mean: 0.871205 s, Std: 0.000000 s, N: 1
+################################################################################
+[1m                            Learning iteration 0/10                             [0m 
+
+                               Run name: pcb_pipeline_baseline
+                            Total steps: 3072 
+                       Steps per second: 162 
+                        Collection time: 16.969s 
+                          Learning time: 1.961s 
+                        Mean value loss: 0.0459
+                    Mean surrogate loss: 0.0087
+                      Mean entropy loss: 19.8565
+                            Mean reward: -0.21
+                    Mean episode length: 20.67
+                        Mean action std: 1.00
+           Episode_Reward/track_lin_vel: 0.0066
+           Episode_Reward/track_ang_vel: 0.0004
+                 Episode_Reward/upright: 0.0109
+                    Episode_Reward/pose: 0.0018
+            Episode_Reward/body_ang_vel: -0.0078
+        Episode_Reward/angular_momentum: -0.0000
+          Episode_Reward/dof_pos_limits: -0.0002
+          Episode_Reward/action_rate_l2: -0.0274
+                Episode_Reward/air_time: 0.0018
+          Episode_Reward/foot_clearance: -0.0001
+       Episode_Reward/foot_swing_height: -0.0004
+               Episode_Reward/foot_slip: -0.0000
+         Episode_Reward/self_collisions: -0.0000
+      Episode_Reward/head_pose_tracking: 0.0167
+          Episode_Reward/head_pose_bias: 0.0000
+                   Metrics/success_rate: 0.1667
+     Metrics/base_velocity/error_vel_xy: 0.2472
+    Metrics/base_velocity/error_vel_yaw: 1.5946
+           Episode_Termination/time_out: 0.0137
+          Episode_Termination/fell_over: 0.0117
+          Episode_Termination/nan_state: 0.0000
+--------------------------------------------------------------------------------
+                         Iteration time: 18.93s
+                           Time elapsed: 0:00:18
+                                    ETA: 0:02:50
+
+################################################################################
+[1m                            Learning iteration 1/10                             [0m 
+
+                               Run name: pcb_pipeline_baseline
+                            Total steps: 6144 
+                       Steps per second: 420 
+                        Collection time: 6.735s 
+                          Learning time: 0.574s 
+                        Mean value loss: 0.0545
+                    Mean surrogate loss: -0.0238
+                      Mean entropy loss: 19.8451
+                            Mean reward: -0.08
+                    Mean episode length: 33.08
+                        Mean action std: 1.00
+           Episode_Reward/track_lin_vel: 0.0206
+           Episode_Reward/track_ang_vel: 0.0008
+                 Episode_Reward/upright: 0.0229
+                    Episode_Reward/pose: 0.0052
+            Episode_Reward/body_ang_vel: -0.0259
+        Episode_Reward/angular_momentum: -0.0000
+          Episode_Reward/dof_pos_limits: -0.0008
+          Episode_Reward/action_rate_l2: -0.0913
+                Episode_Reward/air_time: 0.0125
+          Episode_Reward/foot_clearance: -0.0004
+       Episode_Reward/foot_swing_height: -0.0010
+               Episode_Reward/foot_slip: -0.0001
+         Episode_Reward/self_collisions: -0.0001
+      Episode_Reward/head_pose_tracking: 0.0514
+          Episode_Reward/head_pose_bias: 0.0000
+                   Metrics/success_rate: 0.0000
+     Metrics/base_velocity/error_vel_xy: 0.3915
+    Metrics/base_velocity/error_vel_yaw: 2.2647
+           Episode_Termination/time_out: 0.0335
+          Episode_Termination/fell_over: 0.6751
+          Episode_Termination/nan_state: 0.0000
+--------------------------------------------------------------------------------
+                         Iteration time: 7.31s
+                           Time elapsed: 0:00:26
+                                    ETA: 0:01:44
+
+################################################################################
+[1m                            Learning iteration 2/10                             [0m 
+
+                               Run name: pcb_pipeline_baseline
+                            Total steps: 9216 
+                       Steps per second: 421 
+                        Collection time: 6.537s 
+                          Learning time: 0.743s 
+                        Mean value loss: 0.0495
+                    Mean surrogate loss: -0.0315
+                      Mean entropy loss: 19.8180
+                            Mean reward: -0.17
+                    Mean episode length: 30.87
+                        Mean action std: 1.00
+           Episode_Reward/track_lin_vel: 0.0199
+           Episode_Reward/track_ang_vel: 0.0008
+                 Episode_Reward/upright: 0.0213
+                    Episode_Reward/pose: 0.0045
+            Episode_Reward/body_ang_vel: -0.0247
+        Episode_Reward/angular_momentum: -0.0000
+          Episode_Reward/dof_pos_limits: -0.0007
+          Episode_Reward/action_rate_l2: -0.0838
+                Episode_Reward/air_time: 0.0086
+          Episode_Reward/foot_clearance: -0.0003
+       Episode_Reward/foot_swing_height: -0.0009
+               Episode_Reward/foot_slip: -0.0001
+         Episode_Reward/self_collisions: -0.0001
+      Episode_Reward/head_pose_tracking: 0.0486
+          Episode_Reward/head_pose_bias: 0.0000
+                   Metrics/success_rate: 0.0000
+     Metrics/base_velocity/error_vel_xy: 0.3752
+    Metrics/base_velocity/error_vel_yaw: 2.2143
+           Episode_Termination/time_out: 0.0101
+          Episode_Termination/fell_over: 0.9854
+          Episode_Termination/nan_state: 0.0000
+--------------------------------------------------------------------------------
+                         Iteration time: 7.28s
+                           Time elapsed: 0:00:33
+                                    ETA: 0:01:18
+
+################################################################################
+[1m                            Learning iteration 3/10                             [0m 
+
+                               Run name: pcb_pipeline_baseline
+                            Total steps: 12288 
+                       Steps per second: 408 
+                        Collection time: 6.678s 
+                          Learning time: 0.848s 
+                        Mean value loss: 0.0388
+                    Mean surrogate loss: -0.0276
+                      Mean entropy loss: 19.7949
+                            Mean reward: -0.10
+                    Mean episode length: 31.42
+                        Mean action std: 0.99
+           Episode_Reward/track_lin_vel: 0.0214
+           Episode_Reward/track_ang_vel: 0.0007
+                 Episode_Reward/upright: 0.0215
+                    Episode_Reward/pose: 0.0047
+            Episode_Reward/body_ang_vel: -0.0245
+        Episode_Reward/angular_momentum: -0.0000
+          Episode_Reward/dof_pos_limits: -0.0008
+          Episode_Reward/action_rate_l2: -0.0864
+                Episode_Reward/air_time: 0.0107
+          Episode_Reward/foot_clearance: -0.0003
+       Episode_Reward/foot_swing_height: -0.0009
+               Episode_Reward/foot_slip: -0.0001
+         Episode_Reward/self_collisions: -0.0001
+      Episode_Reward/head_pose_tracking: 0.0495
+          Episode_Reward/head_pose_bias: 0.0000
+                   Metrics/success_rate: 0.0000
+     Metrics/base_velocity/error_vel_xy: 0.3789
+    Metrics/base_velocity/error_vel_yaw: 2.1461
+           Episode_Termination/time_out: 0.0007
+          Episode_Termination/fell_over: 0.9993
+          Episode_Termination/nan_state: 0.0000
+--------------------------------------------------------------------------------
+                         Iteration time: 7.53s
+                           Time elapsed: 0:00:41
+                                    ETA: 0:01:01
+
+################################################################################
+[1m                            Learning iteration 4/10                             [0m 
+
+                               Run name: pcb_pipeline_baseline
+                            Total steps: 15360 
+                       Steps per second: 227 
+                        Collection time: 11.478s 
+                          Learning time: 1.996s 
+                        Mean value loss: 0.0347
+                    Mean surrogate loss: -0.0308
+                      Mean entropy loss: 19.7745
+                            Mean reward: -0.12
+                    Mean episode length: 33.64
+                        Mean action std: 0.99
+           Episode_Reward/track_lin_vel: 0.0204
+           Episode_Reward/track_ang_vel: 0.0009
+                 Episode_Reward/upright: 0.0242
+                    Episode_Reward/pose: 0.0051
+            Episode_Reward/body_ang_vel: -0.0263
+        Episode_Reward/angular_momentum: -0.0000
+          Episode_Reward/dof_pos_limits: -0.0008
+          Episode_Reward/action_rate_l2: -0.0950
+                Episode_Reward/air_time: 0.0114
+          Episode_Reward/foot_clearance: -0.0004
+       Episode_Reward/foot_swing_height: -0.0010
+               Episode_Reward/foot_slip: -0.0001
+         Episode_Reward/self_collisions: -0.0002
+      Episode_Reward/head_pose_tracking: 0.0540
+          Episode_Reward/head_pose_bias: 0.0000
+                   Metrics/success_rate: 0.0000
+     Metrics/base_velocity/error_vel_xy: 0.4011
+    Metrics/base_velocity/error_vel_yaw: 2.0984
+           Episode_Termination/time_out: 0.0000
+          Episode_Termination/fell_over: 1.0000
+          Episode_Termination/nan_state: 0.0000
+--------------------------------------------------------------------------------
+                         Iteration time: 13.47s
+                           Time elapsed: 0:00:54
+                                    ETA: 0:00:54
+
+################################################################################
+[1m                            Learning iteration 5/10                             [0m 
+
+                               Run name: pcb_pipeline_baseline
+                            Total steps: 18432 
+                       Steps per second: 388 
+                        Collection time: 7.459s 
+                          Learning time: 0.459s 
+                        Mean value loss: 0.0376
+                    Mean surrogate loss: -0.0318
+                      Mean entropy loss: 19.7530
+                            Mean reward: -0.10
+                    Mean episode length: 32.73
+                        Mean action std: 0.99
+           Episode_Reward/track_lin_vel: 0.0206
+           Episode_Reward/track_ang_vel: 0.0007
+                 Episode_Reward/upright: 0.0210
+                    Episode_Reward/pose: 0.0052
+            Episode_Reward/body_ang_vel: -0.0252
+        Episode_Reward/angular_momentum: -0.0000
+          Episode_Reward/dof_pos_limits: -0.0007
+          Episode_Reward/action_rate_l2: -0.0870
+                Episode_Reward/air_time: 0.0105
+          Episode_Reward/foot_clearance: -0.0003
+       Episode_Reward/foot_swing_height: -0.0009
+               Episode_Reward/foot_slip: -0.0001
+         Episode_Reward/self_collisions: -0.0002
+      Episode_Reward/head_pose_tracking: 0.0507
+          Episode_Reward/head_pose_bias: 0.0000
+                   Metrics/success_rate: 0.0000
+     Metrics/base_velocity/error_vel_xy: 0.3898
+    Metrics/base_velocity/error_vel_yaw: 2.1834
+           Episode_Termination/time_out: 0.0000
+          Episode_Termination/fell_over: 1.0000
+          Episode_Termination/nan_state: 0.0000
+--------------------------------------------------------------------------------
+                         Iteration time: 7.92s
+                           Time elapsed: 0:01:02
+                                    ETA: 0:00:41
+
+################################################################################
+[1m                            Learning iteration 6/10                             [0m 
+
+                               Run name: pcb_pipeline_baseline
+                            Total steps: 21504 
+                       Steps per second: 308 
+                        Collection time: 7.523s 
+                          Learning time: 2.426s 
+                        Mean value loss: 0.0364
+                    Mean surrogate loss: -0.0270
+                      Mean entropy loss: 19.7300
+                            Mean reward: 0.04
+                    Mean episode length: 34.40
+                        Mean action std: 0.99
+           Episode_Reward/track_lin_vel: 0.0224
+           Episode_Reward/track_ang_vel: 0.0009
+                 Episode_Reward/upright: 0.0231
+                    Episode_Reward/pose: 0.0048
+            Episode_Reward/body_ang_vel: -0.0244
+        Episode_Reward/angular_momentum: -0.0000
+          Episode_Reward/dof_pos_limits: -0.0007
+          Episode_Reward/action_rate_l2: -0.0902
+                Episode_Reward/air_time: 0.0130
+          Episode_Reward/foot_clearance: -0.0004
+       Episode_Reward/foot_swing_height: -0.0010
+               Episode_Reward/foot_slip: -0.0001
+         Episode_Reward/self_collisions: -0.0003
+      Episode_Reward/head_pose_tracking: 0.0545
+          Episode_Reward/head_pose_bias: 0.0000
+                   Metrics/success_rate: 0.0000
+     Metrics/base_velocity/error_vel_xy: 0.3613
+    Metrics/base_velocity/error_vel_yaw: 2.0795
+           Episode_Termination/time_out: 0.0000
+          Episode_Termination/fell_over: 1.0000
+          Episode_Termination/nan_state: 0.0000
+--------------------------------------------------------------------------------
+                         Iteration time: 9.95s
+                           Time elapsed: 0:01:12
+                                    ETA: 0:00:31
+
+################################################################################
+[1m                            Learning iteration 7/10                             [0m 
+
+                               Run name: pcb_pipeline_baseline
+                            Total steps: 24576 
+                       Steps per second: 508 
+                        Collection time: 5.467s 
+                          Learning time: 0.579s 
+                        Mean value loss: 0.0380
+                    Mean surrogate loss: -0.0297
+                      Mean entropy loss: 19.7053
+                            Mean reward: 0.08
+                    Mean episode length: 33.22
+                        Mean action std: 0.99
+           Episode_Reward/track_lin_vel: 0.0227
+           Episode_Reward/track_ang_vel: 0.0008
+                 Episode_Reward/upright: 0.0234
+                    Episode_Reward/pose: 0.0050
+            Episode_Reward/body_ang_vel: -0.0244
+        Episode_Reward/angular_momentum: -0.0000
+          Episode_Reward/dof_pos_limits: -0.0008
+          Episode_Reward/action_rate_l2: -0.0890
+                Episode_Reward/air_time: 0.0145
+          Episode_Reward/foot_clearance: -0.0004
+       Episode_Reward/foot_swing_height: -0.0009
+               Episode_Reward/foot_slip: -0.0001
+         Episode_Reward/self_collisions: -0.0004
+      Episode_Reward/head_pose_tracking: 0.0529
+          Episode_Reward/head_pose_bias: 0.0000
+                   Metrics/success_rate: 0.0000
+     Metrics/base_velocity/error_vel_xy: 0.3712
+    Metrics/base_velocity/error_vel_yaw: 2.2368
+           Episode_Termination/time_out: 0.0000
+          Episode_Termination/fell_over: 1.0000
+          Episode_Termination/nan_state: 0.0000
+--------------------------------------------------------------------------------
+                         Iteration time: 6.05s
+                           Time elapsed: 0:01:18
+                                    ETA: 0:00:19
+
+################################################################################
+[1m                            Learning iteration 8/10                             [0m 
+
+                               Run name: pcb_pipeline_baseline
+                            Total steps: 27648 
+                       Steps per second: 314 
+                        Collection time: 8.914s 
+                          Learning time: 0.842s 
+                        Mean value loss: 0.0467
+                    Mean surrogate loss: -0.0300
+                      Mean entropy loss: 19.6813
+                            Mean reward: 0.02
+                    Mean episode length: 33.35
+                        Mean action std: 0.99
+           Episode_Reward/track_lin_vel: 0.0227
+           Episode_Reward/track_ang_vel: 0.0006
+                 Episode_Reward/upright: 0.0240
+                    Episode_Reward/pose: 0.0057
+            Episode_Reward/body_ang_vel: -0.0251
+        Episode_Reward/angular_momentum: -0.0000
+          Episode_Reward/dof_pos_limits: -0.0007
+          Episode_Reward/action_rate_l2: -0.0895
+                Episode_Reward/air_time: 0.0112
+          Episode_Reward/foot_clearance: -0.0004
+       Episode_Reward/foot_swing_height: -0.0010
+               Episode_Reward/foot_slip: -0.0001
+         Episode_Reward/self_collisions: -0.0001
+      Episode_Reward/head_pose_tracking: 0.0529
+          Episode_Reward/head_pose_bias: 0.0000
+                   Metrics/success_rate: 0.0000
+     Metrics/base_velocity/error_vel_xy: 0.3806
+    Metrics/base_velocity/error_vel_yaw: 2.3044
+           Episode_Termination/time_out: 0.0000
+          Episode_Termination/fell_over: 1.0000
+          Episode_Termination/nan_state: 0.0000
+--------------------------------------------------------------------------------
+                         Iteration time: 9.76s
+                           Time elapsed: 0:01:28
+                                    ETA: 0:00:09
+
+################################################################################
+[1m                            Learning iteration 9/10                             [0m 
+
+                               Run name: pcb_pipeline_baseline
+                            Total steps: 30720 
+                       Steps per second: 328 
+                        Collection time: 8.839s 
+                          Learning time: 0.523s 
+                        Mean value loss: 0.0408
+                    Mean surrogate loss: -0.0309
+                      Mean entropy loss: 19.6623
+                            Mean reward: 0.13
+                    Mean episode length: 34.25
+                        Mean action std: 0.98
+           Episode_Reward/track_lin_vel: 0.0234
+           Episode_Reward/track_ang_vel: 0.0008
+                 Episode_Reward/upright: 0.0234
+                    Episode_Reward/pose: 0.0051
+            Episode_Reward/body_ang_vel: -0.0240
+        Episode_Reward/angular_momentum: -0.0000
+          Episode_Reward/dof_pos_limits: -0.0009
+          Episode_Reward/action_rate_l2: -0.0909
+                Episode_Reward/air_time: 0.0152
+          Episode_Reward/foot_clearance: -0.0004
+       Episode_Reward/foot_swing_height: -0.0010
+               Episode_Reward/foot_slip: -0.0001
+         Episode_Reward/self_collisions: -0.0004
+      Episode_Reward/head_pose_tracking: 0.0544
+          Episode_Reward/head_pose_bias: 0.0000
+                   Metrics/success_rate: 0.0000
+     Metrics/base_velocity/error_vel_xy: 0.3677
+    Metrics/base_velocity/error_vel_yaw: 2.2058
+           Episode_Termination/time_out: 0.0000
+          Episode_Termination/fell_over: 1.0000
+          Episode_Termination/nan_state: 0.0000
+--------------------------------------------------------------------------------
+                         Iteration time: 9.36s
+                           Time elapsed: 0:01:37
+                                    ETA: 0:00:00
+
+Training time: 102.47 seconds
+[INFO]: SimulationContext cleared

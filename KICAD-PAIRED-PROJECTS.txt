@@ -1,0 +1,83 @@
+MicroDuck KiCad editing projects — 2026-10-26
+
+Four separate paired editing projects are now available under editing/kicad-paired/:
+  imu_to_dxl/imu_to_dxl.kicad_pro
+  imu_to_dxl_1V0A/imu_to_dxl_1V0A.kicad_pro
+  wire_hub_1V0A/wire_hub_1V0A.kicad_pro
+  POGO_PIN_1V0A/POGO_PIN_1V0A.kicad_pro
+
+Open the .kicad_pro in KiCad. Each folder contains its paired schematic and PCB,
+Recovered.kicad_sym, RecoveredLayout.pretty, project-local library tables,
+pairing-audit.json, paired-validation.json and library-validation.json.
+These are separate copies: earlier source recovery and engineering boards remain
+unchanged. No EasyEDA activation, account or online library is needed to edit them.
+
+What is now linked
+62 placed schematic components have explicit footprint-library assignments and
+hierarchical UUID paths to their PCB footprints. The local footprint library
+preserves the recovered per-instance pad geometry rather than substituting a
+similarly named supplier package. 62 library entries reload with matching pad
+geometry, including KiCad's standard board-side flip for the two battery parts.
+Generic review symbols are also saved in an editable local symbol library.
+Placed values and supplier/manufacturer fields match the schematic.
+
+Native KiCad 10.0.7 --schematic-parity passes for ALL FOUR projects: zero parity
+findings. Independent parent comparisons pass for 230 pads, track/via endpoints
+and widths, and all cached filled copper polygons. Physical connectivity is
+unchanged apart from the previously documented hub BATTERY/Battery repair.
+The repaired hub is the parent of the paired hub and has zero missing connections.
+
+Explicit pairing decisions
+- The older IMU's $1N175 PCB net is renamed to /RECOVERED_UNNAMED_1 across all
+  existing items to match the recovered oscillator/R3 wire. No new wire is added.
+- Local schematic nets receive their actual hierarchical /name spelling in the
+  PCB. KiCad XML unescapes slashes within pin names; internal auto-generated
+  singleton names retain KiCad's {slash} escape. These are naming changes.
+- Eight electrically unconnected IMU pins receive KiCad singleton net names.
+  This DOES NOT declare that the author intended no-connects. No no-connect
+  markers are added, and electrical qualification remains open.
+- Battery CN2 remains visible in the schematic but is explicitly excluded from
+  the board, matching its off-outline source placement. Two board-only pad/hole
+  groups are marked board-only and excluded from BOM/position exports.
+
+How to regenerate and verify
+Use WSL NVIDIA-Workbench and /home/workbench/robotics/pcb-tools/venv/bin/python:
+  tools/pair_kicad_projects.py
+  tools/verify_paired_projects.py
+  tools/verify_recovered_libraries.py
+Run generators only before making user edits: they overwrite generated projects.
+Pairing assumes the saved recovered schematics and routed/engineering parents.
+tools/run_software_checks.py is the Windows entry point for the combined suite.
+Its paired-project step checks geometry and schematic parity; it deliberately
+does NOT treat unresolved physical DRC violations as a software-release pass.
+
+Boundaries
+Native parity and library reload have been tested. An actual interactive
+Update PCB from Schematic operation has not been tested; first perform it on
+another copy and review its proposed changes. Do not refill static copper zones.
+Recover regenerative pours/net classes and verify mask/paste settings before
+using the layouts as production design templates.
+
+The paired revised IMU deliberately retains literal typed source replay, including
+the unresolved large copper-fill history ambiguity. It is NOT the alternate
+transition-hypothesis board. Its parity pass does not imply that copper is safe.
+DRC cleanup, source graphics/courtyards/3D placement, qualified symbol pin types,
+source-rule translation and manufacturing checks remain open. Read
+ROUTED-PCB-RECOVERY.txt for the literal/alternate distinction and DRC evidence.
+
+Additional electrical-model evidence
+tools/test_ti_buffer_transient.py adds five passing samples over two transient
+cases: data pulses and output-enable/release. TI's unchanged active-high channel
+model runs at 3.3 V with 30 pF and 10 kohm loading. This extends the earlier four
+DC cases; it is not a dual-channel package mapping, measured propagation-delay
+qualification, whole-board simulation, or hardware acceptance.
+Results: audit/pcb-tools/ti-buffer-transient/results.json.
+
+Native-format references
+https://dev-docs.kicad.org/en/file-formats/sexpr-intro/
+https://docs.kicad.org/10.0/en/pcbnew/pcbnew.html
+
+Full robot reproduction remains unverified. CAD/electronics/actuator variants,
+physical power/timing/thermal tests, exact MCU emulation and walking-policy
+quality remain separate release gates. Existing Isaac training evidence is not
+rerun for these schematic/library-only and isolated model-test changes.

@@ -1,0 +1,35 @@
+{
+  "source": "https://abracon.com/Oscillators/ASDMB.pdf",
+  "revision": "I, initial release 2025-01-08",
+  "source_page": 7,
+  "type": "Datasheet-derived mechanical package/envelope; not original manufacturer detail CAD",
+  "construction": "Boxes centered at footprint XY, seating plane Z=0. No undocumented pad thickness, chamfer, or internal structure invented.",
+  "dimensions": [
+    {
+      "name": "ASDMB_nominal_package",
+      "dimensions_mm": [
+        2.5,
+        2.0,
+        0.85
+      ],
+      "valid_solid": true,
+      "sha256": "1a63aa4a10e1d0688c0e579e041b9068e74e482af9b6ac8a0418a50727a6c897"
+    },
+    {
+      "name": "ASDMB_datasheet_max_envelope",
+      "dimensions_mm": [
+        2.55,
+        2.05,
+        0.9
+      ],
+      "valid_solid": true,
+      "sha256": "45b1ad9eb8c22bd59cf5172ff0bf999692408b7516082f71b7191fe0a208064c"
+    }
+  ],
+  "pcb_change": "Only the one missing 3D-model path was replaced. Copper, pads, nets, outline and footprints unchanged.",
+  "limitations": [
+    "No solder standoff or assembly tolerance included",
+    "Actual selected component and hardware revision still require confirmation",
+    "Envelope does not establish electrical compatibility"
+  ]
+}
